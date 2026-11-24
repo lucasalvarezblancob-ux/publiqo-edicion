@@ -1,0 +1,411 @@
+{
+  "video": {
+    "archivo": "refs/dinamicos/ruben-holgado/2026-05-10_fui-al-hotel-mas-aislado-del-mundo.mp4",
+    "creador": "Rubén Holgado",
+    "canal": "ruben holgado",
+    "url": "https://www.youtube.com/watch?v=K50kF-qmtIQ",
+    "titulo": "Fui al Hotel Más Aislado del Mundo",
+    "duracion": "31:00 (1860,4 s; 55.758 fotogramas)",
+    "publicado": "2026-05-10",
+    "fps": 29.97,
+    "resolucion": "1920×1080",
+    "idioma": "español (transcripción large-v3-turbo, idioma detectado «es»); el cajero de la tienda habla en español con acento, subtitulado",
+    "tramo_analizado": "entero: intro fotograma a fotograma hasta f1335 (15 hojas intro_fot + 10 hojas propias en detalle/fot_*), 8 hojas intro_*, 31 hojas min_*, 2 final_*, 2 tramos a 0,1 s de 30 s y 15 s (22:00–22:30, 13:40–13:55), 4 hojas de pares fotograma a fotograma para verificar 44 candidatos a corte, 2 hojas a 1 fotograma de gráficos (logro, pergamino, mapa), 4 hojas de candidatos de sonido (00, 01, 05, 07, 08) y 22 mediciones de zoom",
+    "estilo": "vlog",
+    "tipo": "viaje",
+    "estilo_por_que": "ESTILO = «vlog» (el archivo que se usa; Lucas, 2026-11-24: un viaje es estilo vlog, solo existen «vlog» y «reto»). TIPO = «viaje» (el contenido). Por qué vlog y no reto: aunque hay una lista de misiones del Capitán Chris (pergamino con 4 tareas, 5 apariciones), no hay riesgo de fallar ni desenlace en juego: las misiones son excusa de estructura, no regla (ningún contador de tiempo, ninguna penalización; «Investigar naufragio» se da por hecha viéndolo desde la tabla, 20:32–20:59). El hilo es llegar a un sitio y vivir en él 2 días. Por qué tipo viaje: 1) 3:40 de TRAYECTO contado con su propio montaje (0:44.4–4:24: coche, 3 paradas, lancha), 2) 5 MAPAS (1 globo 3D con avión de 1,63 s en la intro, 3 apariciones de un mapa dibujado de Florida con la cabeza de Rubén que avanza por la ruta —5,5 s, 4,1 s y 6,2 s— y 1 mapa de los Cayos con flecha roja de 1,9 s), ninguno de satélite, 3) LLEGADA a cada sitio con plano del cartel real (Bass Pro Shops 0:53.3, Key West Bait and Tackle 4:05.8, puerto 4:19.7) y llegada al hotel en lancha con música (4:33–5:17), 4) PRESENTACIÓN DE LA ESTANCIA: room tour de 2:44 (5:12–7:56) objeto a objeto + vista exterior desde la tabla de paddle (8:14–8:50), 5) DATOS DEL LUGAR dichos y rotulados: 10 h de avión, 5 h de coche, 1 h de barco (3 rótulos en la intro), 150 km de carretera sobre el mar (3:09), «más cerca de Cuba que de Miami» (2:45), viento de 30 km/h (17:33), 20 minutos remando (20:12), 6) PRECIOS: caña de 20 $ (1:27.6) y etiqueta de 229,95 $ en inserto con «ding» (1:24.9). Frente a un vlog de día a día, lo que lo hace viaje es el trayecto como sección propia y la prueba de aislamiento (distancias, horas, «nos abandona»).",
+    "modelo": "opus"
+  },
+  "resumen": [
+    "Rubén Holgado viaja solo a una cabaña flotante amarrada a una boya frente a Key West (Florida) y pasa allí dos días con lo que pesca, siguiendo una lista de misiones que le deja el «Capitán Chris», el dueño.",
+    "Intro explicativa de 44,4 s (f0–f1335): cold open de 4,4 s en el agua («ay, me ha tocado algo» + 💀), la premisa del aislamiento contada con un globo 3D y tres cifras gigantes («10 horas», «5 horas», «1 hora»), una pieza a cámara grabada aparte en Miami Beach con iconos y la tarjeta del anfitrión, y cabecera dibujada de 7,3 s con segunda pantalla «EDICIÓN HOTELES».",
+    "El trayecto (0:44–4:24) es la parte más rápida del cuerpo: 20–21 cortes/min según el detector, mapa dibujado con la cabeza de Rubén que avanza 3 veces, voz en off en pasado y gags (cajero con subtítulos amarillos, la iguana que mea, «*rip audio*»).",
+    "En la cabaña el ritmo cae a 5–13 cortes/min del detector, pero hay jump cuts al mismo encuadre de trípode cada ~5 s que el detector no ve: contados a 1 fotograma salen 12 por minuto donde el detector da 2–7 (min 12, 15 y 22). Total estimado: 490 ± 40 planos (15,9 cortes/min) frente a 321 del detector.",
+    "El marcador de progreso es un pergamino manuscrito con 4 misiones (Pescar, Investigar naufragio, Alimentarse, Bucear de noche) que se abre en 9:53.8 y vuelve 4 veces para tacharlas; se suma un «Logro conseguido! Primera pesca» estilo Minecraft con «ding» (14:03.7) y un contador de gambas 🦐 abajo a la izquierda.",
+    "Punch-in por corte ×3,0 en el remate de los chistes (5 veces: 3:27.3, 13:22.0, 25:40.1, 26:08.6, 27:53.0), ×2,0 una vez (0:59.5) y ×1,4 dos veces; sin zoom animado sobre quien habla salvo 1 en la intro (+20 % en 0,9 s).",
+    "Música solo en el 52 % del vídeo (frente al 67–80 % de sus 5 fichas anteriores), 17,1 dB bajo la voz de mediana; sube por encima de la voz en el clímax (buceo nocturno 28:46–29:57, −11 dB voz−música) y en el remo contra el viento (19:56–20:30, 0–3 dB).",
+    "El clímax (buceo de noche, 28:20–30:42) se cuenta con GoPro casi a oscuras, voz en off reflexiva de 74 s («las preocupaciones, igual que los miedos, muchas veces solo viven en tu cabeza») y la última misión tachada; cierra con la pantalla final de la gallina «mira este video» (10 s).",
+    "Efectos de sonido muy escasos: 5 confirmados en 31 min (rasgado y ola en la cabecera, ding del precio, ding del logro, pitido de batería), todos pegados a un gráfico."
+  ],
+  "contexto": {
+    "quien": "Rubén Holgado, solo durante todo el viaje (se graba él: selfie de móvil, GoPro y trípode). Secundarios de paso: el cajero de Bass Pro Shops (1:36–2:06, subtitulado en amarillo), Dustin, el capitán de la lancha (4:24–5:06) y un pelícano al que llama «Pelipper» que reaparece 4 veces (3:34, 4:34, 12:42, 24:54) como mascota y amuleto. El «Capitán Chris» nunca sale: es una foto de perfil de un loro con gorro de pirata (tarjeta 0:31.9) y una carta.",
+    "donde": "Miami → Bass Pro Shops (Florida City) → Overseas Highway por los Cayos (langosta gigante, Seven Mile Bridge) → Key West → 30 min de lancha → cabaña de paja y madera flotante atada a una boya, con generador, microondas y una cama. Situado con globo 3D (0:05.7), mapa dibujado de Florida con ruta (0:47.8, 2:25.9, 3:53.3) y mapa de los Cayos con flecha roja (2:43.8).",
+    "objetivo": "Llegar al «hotel más aislado del mundo» y sobrevivir 2 días comiendo solo lo que pesque con una caña de juguete de 20 $, cumpliendo la lista del Capitán Chris: pescar, investigar un naufragio, alimentarse y bucear de noche. Lo que está en juego es pequeño y personal: comer (lleva «más de un día sin comer», 21:32) y vencer el miedo al mar de noche.",
+    "tono": "Humor de autoparodia (caña de Buzz Lightyear, «¿a qué niño le robaste la caña?» 1:52, nudo «cañalista» 11:16, caída en el plano del atardecer 15:33, cortaúñas como navaja 26:01) que gira a íntimo y reflexivo en los últimos 2 min (voz en off sobre el buceo nocturno). Rubén cuenta en directo y el editor remata con texto, punch-in ×3 y gráficos de videojuego.",
+    "gancho_5s": "f0–f130 (0:00.00–0:04.34): Rubén nadando con chaleco rojo señala la cabaña («Este es el hotel más aislado del mundo», foco azul sobre la cabaña desde f9), plano de dron de la cabaña sola en el mar, y susto en el agua: «Ahí me ha tocado algo» escrito palabra a palabra y un 💀 de golpe. Promete sitio único + peligro (tiburones) en 4,3 s.",
+    "gancho_30s": "0:04.4–0:20.9 la PRUEBA DEL AISLAMIENTO: globo 3D con avión hasta Miami, «10 horas» de avión, «5 horas» de coche sobre el mar, «1 hora» de barco «para que nos abandone en la casita», «fácil, ¿no? bueno…» escrito en su cara, y «aún hay más». 0:20.9–0:36.8 la COMPLICACIÓN: el dueño le ha mandado una lista de la compra (iconos caña-gamba-cebo) y solo da órdenes; es «un loro con gorro de pirata» (tarjeta de perfil). Remate «supongo que empieza la aventurilla» → cabecera.",
+    "preguntas_abiertas": [
+      "0:02.3 «Ahí me ha tocado algo» → ¿qué hay en el agua? Nunca se responde de forma literal: se transforma en el miedo del buceo nocturno y se cierra en 30:25–30:42 («temiendo algo que no podía ver y que posiblemente ni siquiera estuviera ahí»).",
+      "0:20.9 «El capitán Chris… me ha mandado una lista de cosas» → ¿quién es y qué pide? Se cierra a trozos: compras 0:52–4:19, lancha «no se llamaba Chris» 4:29.9, la carta y el pergamino 9:38–10:05.",
+      "0:58.3 «tendremos que comer solo lo que pesquemos» → ¿pescará con una caña de juguete? Se cierra en 13:43–14:10 (primer pez, se suelta) y en 24:58 (el pez que se come).",
+      "2:21.5 «había un pequeño riesgo de no poder acceder al hotel» por el temporal → se cierra a los 2 min con la llegada (4:50).",
+      "9:51 la lista de 4 misiones (pergamino) → hilo hasta el final: tachadas en 13:50.5, ~20:35, ~27:28 y 30:44–30:46.",
+      "15:10 «hemos comprado una linterna para ver debajo del agua por la noche… lo haremos mañana» → plantea el clímax 13 min antes; se cumple en 28:20."
+    ],
+    "giros": [
+      "4:24.1 el «loro con gorro de pirata» resulta ser un señor normal que «no se llamaba Chris» (remate de la promesa de la intro).",
+      "5:05.8 «Y me abandonó» → se queda oficialmente solo.",
+      "8:47–9:17 el paseo en paddle para enseñar la casa se tuerce: viento, móvil mojado («la peor decisión»), miedo a no volver.",
+      "12:06 pica a los 5 s de lanzar y se le suelta: de «no sé pescar» a «hay esperanza».",
+      "14:13 «la ilusión no me iba a durar mucho»: el primer pez es pequeño y lo suelta (14:28 «Adiós Pepe»).",
+      "17:30 día 2: 30 km/h de viento y agua turbia hacen fallar el plan de ir nadando a los barcos hundidos (y luego en tabla, 18:38).",
+      "20:45 la GoPro se queda sin batería en el barco hundido (pantalla negra con icono de batería y glitch).",
+      "24:32 se le escapa el pinfish, «nuestro mejor manjar»; con la última gamba pesca el roncador francés (24:58).",
+      "25:33 «He traído comida»: un limón y un tupper (cocina en microondas con cortaúñas)."
+    ],
+    "recompensas": [
+      "13:43–14:10 primer pez propio: celebración en plano fijo largo + logro de Minecraft con ding (14:03.7) + pergamino con «Pescar» tachado (13:50.5).",
+      "16:07–16:46 el tejido de la cama sirve de pantalla: proyecta Titanic (chiste «Django… es broma, vamos a ver Titanic»).",
+      "20:32–20:59 el barco hundido con pájaros, por fin.",
+      "24:58–25:24 el pez que sí se come, con su descripción («bonitas líneas amarillas y verdes»).",
+      "27:21–27:45 comerlo: «sabe como a lenguado»; frase «un hombre en la vida solo necesita dos cosas, sol y un buen pescado».",
+      "28:56–30:42 el buceo nocturno y la reflexión final: recompensa emocional, no espectacular («esperando algo que nunca llegó»)."
+    ]
+  },
+  "curva_energia": [
+    {"minuto": 0, "nivel": 5, "motivo": "intro: 22 planos en 44 s (detector 26 cortes/min), 9 rótulos hablados, globo 3D, iconos, tarjeta, cabecera de 7,3 s con 2 transiciones construidas; música −33 dB desde f0 que se quita en 0:22 para la pieza a cámara"},
+    {"minuto": 1, "nivel": 4, "motivo": "Bass Pro Shops: montaje de la tienda en selfie (planos de 1–2 s), «esta fila, esta fila» con 4 jump cuts señalando en 1:18–1:21, punch-in ×2,0 en 0:59.5 y el cajero subtitulado en amarillo (1:44–2:06)"},
+    {"minuto": 2, "nivel": 3, "motivo": "lluvia en coche, GPS, mapa dibujado con la cabeza (2:25.9, 4,1 s), langosta gigante e iguana; 19 cortes/min, música muy baja (−47 dB)"},
+    {"minuto": 3, "nivel": 3, "motivo": "gag de la iguana que mea (3:03.8) y «*rip audio*» (3:19–3:21), explicación de la Overseas Highway, punch-in ×3,1 en el chiste de «la naturaleza nunca miente» (3:27.3), mapa (3:53.3)"},
+    {"minuto": 4, "nivel": 4, "motivo": "Key West: cebo, hielo, puerto, lancha con Dustin; música sube a −34 dB sin voz en la llegada (4:33–5:17), «¡Ya estamos llegando!» 4:50.6"},
+    {"minuto": 5, "nivel": 3, "motivo": "abandono («Y me abandonó» 5:05.8) y arranque del room tour; planos largos (mediana 4,6 s, máx. 19,1 s), sin música"},
+    {"minuto": 6, "nivel": 2, "motivo": "room tour en plano medio fijo objeto a objeto (gambas en cubo, caña rota, cocina); sin música salvo 4 s"},
+    {"minuto": 7, "nivel": 3, "motivo": "váter («los peces»), generador, puerta al dormitorio con chiste «Es agua»; entra música nueva en 7:16 (cambio de pista) bajo la voz −37 dB"},
+    {"minuto": 8, "nivel": 3, "motivo": "paddle para enseñar la casa por fuera: plano de 37,8 s desde la terraza, viento, móvil mojado; música −39 dB"},
+    {"minuto": 9, "nivel": 3, "motivo": "carta de Pokémon mojada y lectura de la carta del Capitán Chris → pergamino con las 4 misiones (9:53.8)"},
+    {"minuto": 10, "nivel": 2, "motivo": "montar la caña con cortaúñas; capturas de otro vídeo del canal (10:33) en «he pescado un bicho más grande que yo»; 7 cortes/min detector"},
+    {"minuto": 11, "nivel": 2, "motivo": "nudo marinero, chum; planos de trípode de 10–15 s con jump cuts"},
+    {"minuto": 12, "nivel": 4, "motivo": "pica a los 5 s y se suelta (12:06–12:19), pelícanos «Pelipper» (12:42), contador de gambas 🦐11; 12 cortes contados"},
+    {"minuto": 13, "nivel": 5, "motivo": "chiste de pescadores con punch-in ×3,0 (13:22.0), promesa de suscripción (13:29), primera captura en plano fijo 13:39–13:55 con pergamino «Pescar» tachado (13:50.5)"},
+    {"minuto": 14, "nivel": 3, "motivo": "logro «Primera pesca» con ding (14:03.7), lo suelta («Adiós Pepe» 14:30), vuelve a lanzar con confianza"},
+    {"minuto": 15, "nivel": 3, "motivo": "no pesca nada, atardecer, gag de la caída en el plano «chulo» (15:33–15:54); el detector ve 2 cortes y hay 12"},
+    {"minuto": 16, "nivel": 2, "motivo": "DVDs, Titanic proyectado en la tela de la cama (16:16–16:46), plano fijo de la habitación 16:52–16:59 como paso de día (sin rótulo «DÍA 2»)"},
+    {"minuto": 17, "nivel": 3, "motivo": "buenos días con salto a la cama, misión del día; explicación del viento (30 km/h) y de los tiburones; música nueva desde 17:16"},
+    {"minuto": 18, "nivel": 3, "motivo": "intento de nadar a los barcos (GoPro en el agua) y de ir en tabla: fracaso; voz en off puente 18:07–18:31"},
+    {"minuto": 19, "nivel": 4, "motivo": "remo contra el viento en GoPro con subtítulos blancos («ya queda poco»), «más rápido que Fernando Alonso»; música −30 dB, cambio de pista 19:36"},
+    {"minuto": 20, "nivel": 4, "motivo": "música casi a nivel de voz (0–3 dB) en el remo; barco hundido (20:32), la GoPro se apaga: glitch + icono de batería (20:45.1) y pergamino «Investigar naufragio» tachado"},
+    {"minuto": 21, "nivel": 3, "motivo": "vuelta y segundo día de pesca: «llevo más de un día sin comer», anzuelo más grande; captura de otro vídeo (Mark Villarreal)"},
+    {"minuto": 22, "nivel": 3, "motivo": "picadas y se suelta, truco del japonés; plano de trípode con 9 cortes reales (detector 2)"},
+    {"minuto": 23, "nivel": 4, "motivo": "pez grande (23:13) que resulta pequeño; se engancha y tiene que bajar al agua (23:46)"},
+    {"minuto": 24, "nivel": 4, "motivo": "pinfish con punch-in ×1,4 (24:22.4) que se escapa entre gritos (24:32), última gamba"},
+    {"minuto": 25, "nivel": 4, "motivo": "roncador francés (24:58–25:24) y arranque de la cocina con punch-in ×3,0 en «Un limón» (25:40.1)"},
+    {"minuto": 26, "nivel": 2, "motivo": "descamar con cortaúñas (punch ×3,0 26:08.6), microondas, hamaca escondida; música −29 dB sin voz en los tramos de manos"},
+    {"minuto": 27, "nivel": 3, "motivo": "comer en la hamaca (27:21), pergamino con «Alimentarse» (27:28), beber hasta llenarse con punch ×3,0 (27:53.0)"},
+    {"minuto": 28, "nivel": 4, "motivo": "«estamos muy mal para YouTube… pero estamos bien. O eso pensaba yo» (28:04–28:10) → noche: miedo, camiseta de la suerte con captura de otro vídeo (28:40), salto al agua; música sube a −16,5 dB"},
+    {"minuto": 29, "nivel": 5, "motivo": "buceo nocturno con linterna en GoPro, voz en off reflexiva sobre la música por encima de la voz (−11 dB voz−música), planos de 8–20 s"},
+    {"minuto": 30, "nivel": 4, "motivo": "pierde el miedo (subtítulos blancos «creo que hemos pillado» 30:08), reflexión («viven ahí, en tu cabeza» 30:40), última misión tachada (30:44–30:47) y pantalla final de 10 s"}
+  ],
+  "picos_y_preparacion": [
+    "13:39–13:55 primera captura: preparada por 2 fallos (12:06, 13:04) y por la promesa de suscripción (13:29); se sostiene en plano fijo de trípode sin cortes 13:43.5–13:50.5; el pergamino entra tachando «Pescar» 2 s después de «hemos pescado» (13:48.7).",
+    "19:56–20:59 remo hasta el barco hundido: la música sube a nivel de la voz (−24 dB, 0–3 dB voz−música) y se corta con el glitch de batería en 20:45.1.",
+    "28:46–30:42 clímax: preparado 13 min antes con la linterna (15:10) y con «estamos bien. O eso pensaba yo» (28:08–28:11); la música sube +17 dB respecto a la cama habitual y la voz en off pasa por debajo; se resuelve sin susto (nada sale) y con moraleja."
+  ],
+  "ritmo_informacion": "Intro: una idea nueva cada 1,5–2 s (22 planos y 9 rótulos en 44 s). Trayecto (0:44–4:24): algo nuevo cada 10–15 s (parada, cartel, mapa, dato, gag), 20–21 cortes/min del detector; la espera se resume con voz en off en pasado sobre planos de coche («después de unas cuantas horitas más… llegamos» 3:51.2) y con el mapa de la cabeza que avanza (3 veces). En la cabaña: un acontecimiento cada 30–60 s (objeto del room tour, picada, pez, chiste), sostenido en planos de trípode de 10–30 s cortados por jump cuts al mismo encuadre cada ~5 s (elipsis de esperas de pesca). No hay cámara rápida ni rótulos de tiempo («3 HORAS DESPUÉS»): el tiempo se salta con jump cut, con el plano fijo de la habitación (16:52–16:59) y con frases en off («Está tarde siguiendo… no hemos pescado nada» 15:00).",
+  "estructura": [
+    {"desde": "0:00.00", "hasta": "0:44.40", "parte": "intro explicativa", "que_pasa": "cold open en el agua (4,4 s) → aislamiento en cifras con globo 3D (16,5 s) → pieza a cámara en Miami con la lista y el Capitán Chris (15,9 s) → papel roto → cabecera «las aventurillas de ruben / EDICIÓN HOTELES» (7,3 s) → papel arrugado"},
+    {"desde": "0:44.40", "hasta": "2:15.50", "parte": "trayecto 1: Bass Pro Shops", "que_pasa": "voz en off + mapa (0:47.8, 5,5 s); la tienda «Toys R Us para pescadores», la caña de 20 $ de Buzz Lightyear, el cajero que se ríe (subtítulos amarillos), truco del chum"},
+    {"desde": "2:15.50", "hasta": "3:58.70", "parte": "trayecto 2: Overseas Highway", "que_pasa": "temporal, mapa (2:25.9), langosta gigante con iguana que mea, explicación de la carretera sobre el mar con mapa de los Cayos (2:43.8), cáscaras de gamba, carretera vieja, Pelipper, mapa (3:53.3)"},
+    {"desde": "3:58.70", "hasta": "5:12.20", "parte": "llegada: Key West → lancha → cabaña", "que_pasa": "cebo y hielo, puerto, Dustin «no se llamaba Chris», 30 min de lancha con música sin voz, «¡Ya estamos llegando!», instrucciones y abandono"},
+    {"desde": "5:12.20", "hasta": "9:27.90", "parte": "presentación de la estancia", "que_pasa": "room tour (5:12–7:56) objeto a objeto + exterior desde la tabla de paddle (8:14–8:50) que acaba en miedo y móvil mojado"},
+    {"desde": "9:27.90", "hasta": "10:08.20", "parte": "misiones", "que_pasa": "carta del Capitán Chris leída en voz alta con el pergamino de 4 misiones (9:53.8)"},
+    {"desde": "10:08.20", "hasta": "15:10.00", "parte": "día 1: pesca", "que_pasa": "agua escasa, montar la caña, chum, fallos, pelícanos, chiste, promesa de suscripción, primer pez + logro, lo suelta, nada más"},
+    {"desde": "15:10.00", "hasta": "16:59.60", "parte": "noche 1", "que_pasa": "linterna para mañana, atardecer con caída, Titanic proyectado en la cama, dormir"},
+    {"desde": "16:59.60", "hasta": "21:15.70", "parte": "día 2: naufragio", "que_pasa": "viento y agua turbia, intento a nado y en tabla fallidos, remo de 20 min en GoPro con música alta, barco hundido, GoPro sin batería"},
+    {"desde": "21:15.70", "hasta": "25:24.10", "parte": "día 2: pesca", "que_pasa": "hambre, anzuelo grande, roncador más grande que se suelta, enganche, pinfish que se escapa, última gamba → roncador francés"},
+    {"desde": "25:24.10", "hasta": "28:10.00", "parte": "cocina y comida", "que_pasa": "limón y tupper secretos, cortaúñas, microondas, hamaca, comer, beber; pergamino «Alimentarse»"},
+    {"desde": "28:10.00", "hasta": "30:49.00", "parte": "clímax: buceo nocturno", "que_pasa": "miedo, camiseta de la suerte (captura de otro vídeo), 2 inmersiones con linterna, voz en off reflexiva, última misión tachada"},
+    {"desde": "30:49.00", "hasta": "31:00.40", "parte": "cierre", "que_pasa": "«Si te ha gustado este vídeo mírate este otro… la casa más aislada del mundo» + pantalla final dibujada de 10 s"}
+  ],
+  "intro": {
+    "tipo": "explicativa",
+    "por_que_ese_tipo": "La premisa («el hotel más aislado del mundo») solo funciona si se PRUEBA el aislamiento, y eso es un dato, no un momento: hacen falta las cifras de viaje (10 h + 5 h + 1 h) y la regla del juego (un dueño que solo da órdenes y una lista de la compra). Por eso la intro explica con 7 animaciones en 32 s (globo 3D, 3 cifras gigantes, 4 textos sobre la cara, 3 iconos, tarjeta de perfil) en vez de un tráiler de reacciones. Es una explicativa con cold open: los primeros 4,4 s son un tráiler mínimo (cabaña + susto) y a partir de f131 todo es explicación ilustrada. Respecto a la intro corta: no hay ráfaga ni estrobo (cortes_rafagas.json: 0 cortes en ráfaga hasta 0:45) y la cabecera llega a los 37 s, no a los 5–10.",
+    "duracion_s": 44.4,
+    "duracion_f": 1332,
+    "duracion_hablada_s": 36.84,
+    "primer_plano_hablando_s": 0.0,
+    "primer_plano_a_camara_presentando_s": 20.92,
+    "orden": "0) cold open: selfie en el agua señalando la cabaña con foco (f0–f26) → 1) dron de la cabaña sola (f27–f69) → 2) susto «ay me ha tocado algo» palabra a palabra + 💀 (f70–f130) → 3) premisa: cabaña + «incomunicado en mitad del océano» (f131–f170) → 4) globo 3D con avión (f171–f219) → 5) avión + «10 horas» (f220–f302) → 6) GPS + coche en el puente + «5 horas» (f303–f419) → 7) lancha + «1 hora» (f420–f519) → 8) «fácil ¿no? bueno…» en su cara (f520–f557) → 9) «aún hay más» sobre él pescando (f558–f626) → 10) pieza a cámara en Miami: lista con iconos, cañas, hielo, Capitán Chris con tarjeta (f627–f1102) → 11) papel roto (f1103–f1110) → 12) cabecera «las aventurillas de ruben» (f1111–f1210) → 13) ola → «EDICIÓN HOTELES» con tiburón (f1211–f1327) → 14) papel arrugado → carretera con voz en off (f1328–f1335).",
+    "sin": "sin saludo, sin ráfaga ni estrobo (0 cortes en ráfaga), sin título grande del vídeo (el nombre es la cabecera de la serie), sin subtítulos, sin efectos de sonido en los rótulos hablados, sin música durante la pieza de Miami (0:22.0–0:39.0)",
+    "medidas": {
+      "planos": "22 planos de vídeo hasta f1102 contados fotograma a fotograma (19 cortes del detector + jump cuts en f110 y f545) + 2 pantallas de cabecera + 3 transiciones construidas",
+      "cortes_por_minuto": "26 (detector, min 0) · ≈ 31 contando jump cuts y transiciones",
+      "plano_mediana_s": 1.27,
+      "menos_de_1s_pct": 32,
+      "ilustraciones": "7 animaciones explicativas en f171–f1045 (32 s), una cada 4,6 s, y 12 rótulos o emojis",
+      "tiempo_a_camara_sin_nada": "≈ 7,9 s: f787–f876 (3,0 s) + f877–f952 (2,5 s) + f1046–f1102 (1,9 s) + f627–f674 (0,5 s)",
+      "sincronia": "texto en el mismo fotograma de su palabra o 1–5 f antes: «ay» f70 / palabra f70; «algo» f82 / f85; «10 horas» f248 / «10» f249; «5 horas» f325 / «5» f320 (5 f DESPUÉS, entra con el corte); «1 hora» f458 / «una» f459; «fácil» f525 / f523; «¿no?» f535 / f535; «bueno…» f545 / f545; «aún hay más» f599 / f599; iconos caña f675, gamba f685, cebo f691 / «lista» f682, «cosas» f692; tarjeta f953 / «según» f954"
+    },
+    "animaciones_explicativas": [
+      {"n": 1, "t": "0:00.30–0:00.87", "frase": "«Este es el HOTEL (f16) más aislado del mundo»", "que_es": "FOCO: círculo de luz azul claro con borde blando alrededor de la cabaña (al fondo, a la derecha de Rubén)", "f0": 9, "f1": 26, "duracion_f": 18, "entrada": "de golpe en f9", "movimiento": "sigue a la cabaña, que se mueve con la cámara en mano", "salida": "por corte f27", "posicion": "centro en x≈77 %, y≈29 % del cuadro", "tamano": "≈ 25 % del alto de diámetro", "color": "#A8DCF5 aprox. (halo cian claro sobre el cielo)", "como_esta_hecha": "máscara circular con seguimiento + aclarado del interior (resalte de lo importante, mismo recurso que el foco de Mejor trabajo)", "sfx": "ninguno confirmado"},
+      {"n": 2, "t": "0:02.34–0:04.34", "frase": "«AHÍ (f70) ME (f74) HA tocado (f79) ALGO (f85)»", "que_es": "texto cinético palabra a palabra en 4 líneas de tamaño creciente + emoji 💀 que lo sustituye", "f0": 70, "f1": 130, "duracion_f": 61, "entrada": "cada palabra aparece de golpe: «ay» f70, «me ha» f74, «tocado» f77, «algo» f82; 💀 de golpe en f110 con jump cut", "movimiento": "fijo a pantalla", "salida": "texto por jump cut f110; 💀 por corte f131", "posicion": "bloque de texto a la derecha, x 59–87 %, y 19–87 %; 💀 en x≈62 %, y≈46 %", "tamano": "«ay» y «algo» ≈ 19 % del alto (con ascendentes), «me ha» ≈ 7 %, «tocado» ≈ 11 %; 💀 ≈ 9 %", "color": "#FFFFFF con sombra suave", "fuente": "grotesca negrita tipo Helvetica Bold (ver textos)", "como_esta_hecha": "texto plano sin animación de entrada; emoji de Apple", "sfx": "ninguno confirmado (candidato #1 «error» en 0:04.46, ver dudas)"},
+      {"n": 3, "t": "0:05.71–0:07.31", "frase": "«y LLEGAR (f174) no es NADA FÁCIL (f204)»", "que_es": "GLOBO TERRÁQUEO 3D estilizado (mar #5BB4E8 aprox., tierra verde claro) sobre negro; un avión blanco arrastra una línea azul desde Europa y el globo gira hasta América; aterriza en un punto con anillo blanco en Florida", "f0": 171, "f1": 219, "duracion_f": 49, "entrada": "por corte, el globo ya girando (f171 se ve Europa y el avión saliendo)", "movimiento": "rotación continua ~90° en 1,1 s con frenada al final (f171–f205) + leve zoom-in del globo (de ≈90 % a ≈120 % del alto); el punto de destino aparece hacia f207", "salida": "por corte f220 al ala del avión", "curva": "ease-out", "posicion": "centrado, el globo se sale por abajo", "tamano": "diámetro ≈ 90–120 % del alto", "color": "fondo #000000, mar #5BB4E8, tierra #A8DCA0 aprox., línea #2E8FE0", "como_esta_hecha": "plantilla de globo 3D con ruta de avión (tipo Mult.dev / plantilla de After Effects)", "sfx": "ninguno confirmado"},
+      {"n": 4, "t": "0:08.27–0:10.08 · 0:10.84–0:12.35 · 0:15.28–0:17.32", "frase": "«volar 10 HORAS (f249) en avión» · «conducir 5 HORAS (f320) más» · «un barco de UNA HORA (f459)»", "que_es": "CIFRA GIGANTE de tiempo de viaje, una por medio de transporte, sobre el plano de ese transporte", "f0": 248, "f1": 519, "duracion_f": "55 + 46 + 62", "entrada": "de golpe, en el mismo fotograma del corte (f248, f325, f458)", "movimiento": "fija", "salida": "por corte (f303, f371, f520)", "posicion": "centrada en horizontal; «10 horas» a y≈24 % del alto (sobre la cara), «5 horas» y≈52 %, «1 hora» y≈42 %", "tamano": "≈ 13–14 % del alto (altura de la cifra)", "color": "#FFFFFF con sombra", "como_esta_hecha": "texto plano", "sfx": "ninguno confirmado"},
+      {"n": 5, "t": "0:17.51–0:18.58", "frase": "«FÁCIL (f523), ¿NO? (f535) BUENO (f545)»", "que_es": "TEXTO SOBRE LA CARA: una palabra cada vez, en la frente/nariz de Rubén", "f0": 525, "f1": 557, "duracion_f": "10 + 10 + 13", "entrada": "de golpe; «fácil» 2 f después de la palabra, «¿no?» y «bueno…» en su fotograma exacto", "movimiento": "fijo; «fácil» y «¿no?» inclinados ≈ −10°", "salida": "cada uno lo cambia el siguiente; «bueno…» sale por corte f558", "posicion": "centro de la cara (x≈50–58 %, y≈38–44 %)", "tamano": "≈ 10 % del alto", "color": "#FFFFFF con sombra", "como_esta_hecha": "texto plano encima del primer plano", "sfx": "ninguno confirmado"},
+      {"n": 6, "t": "0:22.50–0:24.02", "frase": "«me ha mandado una LISTA (f682) de COSAS (f692) a comprar»", "que_es": "3 ICONOS en círculo blanco (caña de pescar, gamba, cebo morado) que salen en fila", "f0": 675, "f1": 720, "duracion_f": 46, "entrada": "pop de escala 0→100 % en 3–4 f cada uno: caña f675, gamba f685, cebo f691 (cada ~8 f)", "movimiento": "fijos", "salida": "por corte f721", "posicion": "fila abajo a la izquierda del cuerpo de Rubén, y≈80 %, x 33–46 %", "tamano": "círculos ≈ 9 % del alto", "color": "círculos #FFFFFF, iconos a color (pixel art / emoji)", "como_esta_hecha": "emojis/iconos sobre disco blanco con pop", "sfx": "ninguno confirmado"},
+      {"n": 7, "t": "0:31.80–0:34.80", "frase": "«un loro con gorro de pirata, SEGÚN (f954) pone en su FOTO (f975) de PERFIL (f983)»", "que_es": "TARJETA DE PERFIL tipo app de alquiler: tarjeta blanca redondeada con avatar de loro con gorro pirata, insignia rosa, «Captain Chris» y «Anfitrión»", "f0": 953, "f1": 1045, "duracion_f": 93, "entrada": "crece desde un punto pequeño a la izquierda: f953 ≈ 5 % → f959 tamaño final (6 f, ease-out)", "movimiento": "fija", "salida": "fundido a transparente f1040–f1045", "posicion": "izquierda, x 4–38 %, y 22–60 %", "tamano": "≈ 38 % del alto", "color": "#FFFFFF, texto #222222", "fuente": "Figtree 600 (+0,668) · Plus Jakarta Sans 600 (+0,580) · Outfit 700 (+0,421)", "como_esta_hecha": "recreación de la tarjeta del anfitrión (captura o maqueta) con escala de entrada", "sfx": "ninguno confirmado (candidato #3 «pop» en 0:33.44 sin evento visual)"}
+    ],
+    "clips_rafaga_trailer": [
+      {"t": "0:00.00–0:00.87 (f0–f26)", "sale_de": "día 2, intento de ir nadando a los barcos (17:20–18:28)", "funcion": "promesa (el sitio + Rubén en el agua frente a él)", "que_se_ve": "selfie con chaleco rojo en el agua señalando la cabaña, con foco"},
+      {"t": "0:00.90–0:02.30 (f27–f69)", "sale_de": "plano de dron del sitio; no localizado en el cuerpo (ver dudas)", "funcion": "bonito", "que_se_ve": "la cabaña sola en mitad del mar desde arriba, zoom-out del dron"},
+      {"t": "0:02.34–0:04.34 (f70–f130)", "sale_de": "mismo intento a nado (17–18 min)", "funcion": "llamativo + promesa (algo le toca en el agua; no se resuelve así)", "que_se_ve": "susto en el agua con «ay me ha tocado algo» y 💀"},
+      {"t": "0:04.37–0:05.67 (f131–f170)", "sale_de": "paseo en paddle para enseñar la casa (8:14–8:50)", "funcion": "bonito", "que_se_ve": "la cabaña a ras de agua con cielo de nubes"},
+      {"t": "0:07.34–0:10.08 (f220–f302)", "sale_de": "vuelo a Miami, no está en el cuerpo (exclusivo de la intro)", "funcion": "anticipa (trayecto, como prueba del aislamiento)", "que_se_ve": "ala del avión al atardecer y Rubén dormido en el avión"},
+      {"t": "0:10.11–0:13.98 (f303–f419)", "sale_de": "trayecto en coche (GPS ≈ 2:22; puente ≈ 2:34)", "funcion": "anticipa (trayecto)", "que_se_ve": "GPS sobre los cayos, coche en el puente sobre el mar, carretera"},
+      {"t": "0:14.01–0:17.32 (f420–f519)", "sale_de": "lancha con Dustin (4:31–4:50)", "funcion": "anticipa", "que_se_ve": "Rubén en la lancha y proa sobre el mar"},
+      {"t": "0:17.35–0:18.58 (f520–f557)", "sale_de": "grabado para la intro bajo el tejado de la cabaña", "funcion": "llamativo (gesto cómico)", "que_se_ve": "primer plano con pulgar arriba: «fácil ¿no? bueno…»"},
+      {"t": "0:18.61–0:20.88 (f558–f626)", "sale_de": "día 2, pesca en la terraza (mismo encuadre de trípode que 22:00–22:30)", "funcion": "anticipa", "que_se_ve": "Rubén pescando en la terraza"},
+      {"t": "0:20.92–0:36.77 (f627–f1102, 3 tomas)", "sale_de": "grabado aparte en Miami Beach (Ocean Drive) para la intro", "funcion": "explicación (no es clip de tráiler)", "que_se_ve": "Rubén a cámara con camiseta blanca, edificios art déco y un deportivo verde detrás"},
+      {"t": "0:24.06–0:25.06 (f721–f751)", "sale_de": "Bass Pro Shops (1:26)", "funcion": "anticipa + humor", "que_se_ve": "cañas infantiles de colores (las de Buzz Lightyear) con marcas pixeladas"},
+      {"t": "0:25.09–0:26.23 (f752–f786)", "sale_de": "Key West, máquina de hielo (4:10–4:19)", "funcion": "anticipa", "que_se_ve": "Rubén sacando hielo de la máquina ICE"}
+    ],
+    "clips_rafaga_trailer_resumen": {
+      "total": "11 clips de imagen además de la pieza de Miami",
+      "de_donde": "8 del propio rodaje (73 %), 2 del vuelo que no salen en el cuerpo (18 %), 1 de dron sin localizar; 0 de archivo",
+      "funcion": "anticipa 6 (55 %) · bonito 2 (18 %) · llamativo/promesa 3 (27 %)",
+      "duraciones_f": "26–69 f (mediana 39 f = 1,3 s)",
+      "que_nunca_entra": "ningún pez, ninguna captura, nada del buceo nocturno, nada del room tour por dentro, ni el cajero ni los chistes del cuerpo: se guarda todas las recompensas. A diferencia de sus otras intros, AQUÍ SÍ entran trayectos (avión, coche, lancha), porque el trayecto es la prueba de la premisa.",
+      "orden": "cronológico del viaje (avión → coche → barco → cabaña) dentro de la explicación"
+    },
+    "linea_de_tiempo": [
+      {"f0": 0, "f1": 26, "t": "0:00.00–0:00.87", "que_se_ve": "selfie GoPro en el agua, chaleco rojo, señala la cabaña al fondo", "origen": "día 2 (17–18 min)", "camara": "en mano, selfie", "zoom_velocidad": "—", "texto": "—", "motion_graphic": "foco circular sobre la cabaña desde f9", "sfx": "ninguno confirmado", "musica": "entra en f0, −33 dB (13 dB bajo la voz)", "voz": "«Este es el hotel (f16) más aislado (f40) del mundo»"},
+      {"f0": 27, "f1": 69, "t": "0:00.90–0:02.30", "que_se_ve": "dron: cabaña sola en el mar", "origen": "dron del sitio", "camara": "dron alejándose", "zoom_velocidad": "−13 % en 1,3 s (−10 %/s, del dron)", "texto": "—", "motion_graphic": "—", "sfx": "—", "musica": "sigue", "voz": "«…del mundo (f56).»"},
+      {"f0": 70, "f1": 109, "t": "0:02.34–0:03.63", "que_se_ve": "selfie en el agua, gira la cabeza asustado", "origen": "día 2", "camara": "en mano", "zoom_velocidad": "—", "texto": "«ay» f70 · «me ha» f74 · «tocado» f77 · «algo» f82, a la derecha", "motion_graphic": "texto cinético (animación 2)", "sfx": "ninguno confirmado", "musica": "sigue", "voz": "«Ahí (f70) me ha tocado (f79) algo (f85).»"},
+      {"f0": 110, "f1": 130, "t": "0:03.66–0:04.34", "que_se_ve": "JUMP CUT de la misma toma", "origen": "día 2", "camara": "en mano", "zoom_velocidad": "—", "texto": "💀 de golpe", "motion_graphic": "emoji", "sfx": "candidato #1 sin confirmar (dudas)", "musica": "sigue", "voz": "— (jadeo)"},
+      {"f0": 131, "f1": 170, "t": "0:04.37–0:05.67", "que_se_ve": "la cabaña a ras de agua", "origen": "8:14–8:50", "camara": "en mano desde la tabla", "zoom_velocidad": "+8 % en 1,2 s (6,6 %/s)", "texto": "—", "motion_graphic": "—", "sfx": "—", "musica": "sigue", "voz": "«Está incomunicado (f134) en mitad del océano (f156)»"},
+      {"f0": 171, "f1": 219, "t": "0:05.71–0:07.31", "que_se_ve": "globo 3D con avión de Europa a Florida", "origen": "gráfico", "camara": "—", "zoom_velocidad": "giro + acercamiento del globo", "texto": "—", "motion_graphic": "animación 3", "sfx": "ninguno confirmado", "musica": "sigue", "voz": "«y llegar (f174) no es nada fácil (f204).»"},
+      {"f0": 220, "f1": 247, "t": "0:07.34–0:08.24", "que_se_ve": "ala del avión al atardecer", "origen": "vuelo (solo en la intro)", "camara": "fija en ventanilla", "zoom_velocidad": "—", "texto": "—", "motion_graphic": "—", "sfx": "—", "musica": "sigue", "voz": "«Únicamente (f227) hay que volar (f242)»"},
+      {"f0": 248, "f1": 302, "t": "0:08.27–0:10.08", "que_se_ve": "Rubén dormido junto a la ventanilla", "origen": "vuelo", "camara": "en mano", "zoom_velocidad": "—", "texto": "«10 horas» centrado, de golpe en f248", "motion_graphic": "cifra (animación 4)", "sfx": "—", "musica": "sigue", "voz": "«10 (f249) horas en avión para llegar a Miami (f290),»"},
+      {"f0": 303, "f1": 324, "t": "0:10.11–0:10.81", "que_se_ve": "pantalla del GPS del coche con la carretera sobre los cayos", "origen": "coche", "camara": "en mano", "zoom_velocidad": "—", "texto": "—", "motion_graphic": "—", "sfx": "—", "musica": "sigue", "voz": "«conducir (f309)»"},
+      {"f0": 325, "f1": 370, "t": "0:10.84–0:12.35", "que_se_ve": "coche rojo en el puente sobre el mar", "origen": "coche", "camara": "en mano", "zoom_velocidad": "—", "texto": "«5 horas», de golpe en f325", "motion_graphic": "cifra", "sfx": "—", "musica": "sigue", "voz": "«5 (f320) horas más por encima del mar (f356)»"},
+      {"f0": 371, "f1": 419, "t": "0:12.38–0:13.98", "que_se_ve": "carretera con casas y palmeras desde el coche", "origen": "coche", "camara": "en mano", "zoom_velocidad": "—", "texto": "—", "motion_graphic": "—", "sfx": "—", "musica": "sigue", "voz": "«para llegar al punto más al sur de Estados Unidos (f409)»"},
+      {"f0": 420, "f1": 457, "t": "0:14.01–0:15.25", "que_se_ve": "selfie en la lancha bajo un puente, gira la cabeza", "origen": "lancha (4:31–4:50)", "camara": "selfie", "zoom_velocidad": "—", "texto": "—", "motion_graphic": "—", "sfx": "—", "musica": "sigue", "voz": "«y contratar (f433) un barco (f448)»"},
+      {"f0": 458, "f1": 519, "t": "0:15.28–0:17.32", "que_se_ve": "proa de la lancha y mar abierto", "origen": "lancha", "camara": "en mano", "zoom_velocidad": "—", "texto": "«1 hora», de golpe en f458", "motion_graphic": "cifra", "sfx": "—", "musica": "sigue", "voz": "«de una (f459) hora para que nos abandone (f486) la casita (f503).»"},
+      {"f0": 520, "f1": 544, "t": "0:17.35–0:18.15", "que_se_ve": "primer plano bajo el tejado, cielo; pulgar arriba", "origen": "grabado para la intro en la cabaña", "camara": "selfie", "zoom_velocidad": "—", "texto": "«fácil» f525, «¿no?» f535 sobre la cara", "motion_graphic": "texto en la cara (animación 5)", "sfx": "—", "musica": "sigue", "voz": "«Fácil (f523), ¿no? (f535)»"},
+      {"f0": 545, "f1": 557, "t": "0:18.18–0:18.58", "que_se_ve": "jump cut, cara seria", "origen": "ídem", "camara": "selfie", "zoom_velocidad": "—", "texto": "«bueno…» f545", "motion_graphic": "texto en la cara", "sfx": "—", "musica": "sigue", "voz": "«Bueno (f545).»"},
+      {"f0": 558, "f1": 626, "t": "0:18.61–0:20.88", "que_se_ve": "Rubén pescando en la terraza, plano general de trípode", "origen": "día 2 (22:00)", "camara": "trípode", "zoom_velocidad": "—", "texto": "«aún hay más» f599, abajo al centro-derecha", "motion_graphic": "—", "sfx": "—", "musica": "sigue", "voz": "«Por si no fuera suficiente, aún (f599) hay más (f614).»"},
+      {"f0": 627, "f1": 720, "t": "0:20.92–0:24.02", "que_se_ve": "Rubén a cámara en Miami Beach (plano medio, camiseta blanca)", "origen": "grabado aparte para la intro", "camara": "trípode/operador fijo (escala 1,00 medida)", "zoom_velocidad": "fijo", "texto": "—", "motion_graphic": "iconos caña f675, gamba f685, cebo f691 (animación 6)", "sfx": "—", "musica": "SE QUITA en 0:22 (deja la pieza a cámara en seco hasta 0:39)", "voz": "«El capitán Chris (f641), que es el dueño del hotel (f663), me ha mandado una lista (f682) de cosas a comprar, así que por el camino tendremos que…»"},
+      {"f0": 721, "f1": 751, "t": "0:24.06–0:25.06", "que_se_ve": "cañas infantiles con marcas pixeladas", "origen": "Bass Pro (1:26)", "camara": "en mano", "zoom_velocidad": "—", "texto": "—", "motion_graphic": "pixelado de marcas", "sfx": "—", "musica": "—", "voz": "«…parar (f746)»"},
+      {"f0": 752, "f1": 786, "t": "0:25.09–0:26.23", "que_se_ve": "saca hielo de la máquina ICE", "origen": "Key West (4:10–4:19)", "camara": "fija", "zoom_velocidad": "—", "texto": "—", "motion_graphic": "—", "sfx": "—", "musica": "—", "voz": "«a comprarlas (f755).»"},
+      {"f0": 787, "f1": 876, "t": "0:26.26–0:29.23", "que_se_ve": "Miami, plano más abierto, brazos cruzados", "origen": "Miami (toma 2)", "camara": "fija (escala 1,00–1,007 medida)", "zoom_velocidad": "fijo", "texto": "—", "motion_graphic": "—", "sfx": "—", "musica": "—", "voz": "«De momento lo único que ha hecho ha sido darme órdenes (f816) y muy pocas indicaciones (f855),»"},
+      {"f0": 877, "f1": 1102, "t": "0:29.26–0:36.77", "que_se_ve": "Miami, punch-in ×1,42 por corte; luego zoom animado +20 %", "origen": "Miami (toma 3)", "camara": "fija", "zoom_velocidad": "×1,42 de golpe en f877 + zoom animado ×1,0→×1,20 en ≈ 0,9 s (0:30.3–0:31.2, con frenada) sobre «loro (f919) con gorro de pirata (f940)»", "texto": "—", "motion_graphic": "tarjeta «Captain Chris» f953–f1045 (animación 7)", "sfx": "ninguno confirmado", "musica": "—", "voz": "«Aunque (f873) más que un hombre, creo que es un loro con gorro de pirata, según pone en su foto de perfil (f983). Así que nada, supongo que empieza la aventurilla (f1104).»"},
+      {"f0": 1103, "f1": 1110, "t": "0:36.80–0:37.03", "que_se_ve": "trozos de papel blanco cubren la cara y se abren revelando el dibujo", "origen": "transición construida", "camara": "—", "zoom_velocidad": "—", "texto": "—", "motion_graphic": "transición de papel roto (8 f)", "sfx": "RASGADO/whoosh ancho confirmado en 0:37.20 (−8,3 dB respecto a la voz)", "musica": "entra el jingle de la cabecera", "voz": "—"},
+      {"f0": 1111, "f1": 1210, "t": "0:37.06–0:40.38", "que_se_ve": "cabecera dibujada: Rubén en flotador con cóctel y gafas de sol, cabaña al fondo, mar azul, marco de papel crema", "origen": "animación 2D a mano (sello del canal)", "camara": "—", "zoom_velocidad": "≈ +1 % en 2,8 s (fijo)", "texto": "«las aventurillas de ruben» se escribe a trazos f1111–f1131", "motion_graphic": "cabecera", "sfx": "—", "musica": "jingle −35 dB", "voz": "«Las aventurillas (f1185) de Rubén (f1201).»"},
+      {"f0": 1211, "f1": 1241, "t": "0:40.40–0:41.41", "que_se_ve": "una ola azul barre de izquierda a derecha y se lleva al personaje", "origen": "animación", "camara": "—", "zoom_velocidad": "—", "texto": "aparece «EDICIÓN HOTELES» bajo la ola", "motion_graphic": "transición de ola (31 f)", "sfx": "WHOOSH de agua confirmado en 0:40.37 (−14,1 dB)", "musica": "jingle", "voz": "—"},
+      {"f0": 1242, "f1": 1327, "t": "0:41.44–0:44.28", "que_se_ve": "«EDICIÓN HOTELES» y un tiburón dibujado que cruza; le caen unas gafas de sol (f1267–f1281) y sale por la derecha (f1306–f1316)", "origen": "animación", "camara": "—", "zoom_velocidad": "—", "texto": "«EDICIÓN / HOTELES» en 2 líneas", "motion_graphic": "cabecera, pantalla 2", "sfx": "—", "musica": "jingle", "voz": "«Edición (f1245). Hoteles (f1309).»"},
+      {"f0": 1328, "f1": 1335, "t": "0:44.30–0:44.56", "que_se_ve": "el papel se rasga y se arruga en una bola que se va volando sobre la carretera", "origen": "transición construida", "camara": "—", "zoom_velocidad": "—", "texto": "—", "motion_graphic": "papel arrugado (8 f)", "sfx": "ninguno confirmado", "musica": "—", "voz": "J-cut: la voz en off «El camino (f1335) hasta el hotel…» arranca en f1329, sobre la transición"}
+    ],
+    "titulo_cabecera": {
+      "como_se_construye": "Cabecera de serie dibujada a mano en 2 pantallas (7,3 s en total, f1111–f1327). Pantalla 1 (f1111–f1210): dibujo a línea negra sobre azul con textura de papel y marco crema; el personaje (Rubén en flotador con cóctel) tiene animación de línea temblorosa; el logotipo «las aventurillas de ruben» se ESCRIBE a trazos de izquierda a derecha en 21 f (f1111 «a», f1117 «avent», f1123 «aventuri», f1131 completo con «de ruben» debajo). Transición: una ola azul barre la pantalla en 31 f y arrastra al personaje. Pantalla 2 (f1242–f1327): «EDICIÓN / HOTELES» en mayúsculas finas y condensadas dibujadas a mano; un tiburón cruza de izquierda a derecha y le caen unas gafas de sol (gag). Entrada con papel roto (8 f) y salida con papel arrugado en bola (8 f). Es la «cabecera dibujada» de sus otros vídeos pero ampliada: la pantalla 2 la convierte en la edición de una serie («Hoteles»).",
+      "fuente": "logotipo «aventurillas»: rotulación a mano, no fiable con la herramienta — Oswald 500 (−0,039) · League Gothic (−0,075) · Figtree 600 (−0,081); «EDICIÓN HOTELES»: mayúsculas lineales a mano — Cinzel 500 (−1,794) · Bodoni Moda 500 (−1,797) · Cormorant Garamond 500 (−1,800), sin parecido real (todas < 0,5): es letra dibujada",
+      "color": "logotipo #000000 sobre azul #74B8E3 / #ADDAE4 aprox.; marco crema #F2EBD9",
+      "duracion_f": 217,
+      "sonido": "rasgado en 0:37.20 y whoosh de ola en 0:40.37 (confirmados); jingle propio a −35 dB; Rubén dice el nombre de la serie y de la edición en voz"
+    },
+    "otros_textos_de_la_intro": "9 rótulos hablados (4 palabras de «ay me ha tocado algo», 3 cifras, «fácil», «¿no?», «bueno…», «aún hay más»), 1 emoji, 3 iconos y la tarjeta: 15 elementos en 37 s",
+    "comparacion_con_otras_intros_de_ruben": "Titanic: tráiler de 25,4 s con busto grabado en casa + título gigante «TITANIC» + cabecera 5,5 s. Yakutia: tráiler 27 s con voz en off + cabecera 3 s. Aquí: 36,8 s antes de la cabecera (+10–12 s), el busto grabado aparte está EN EL SITIO (Miami Beach, no en casa), y la explicación pesa más que el tráiler (4,4 s de cold open frente a 25 s)."
+  },
+  "motion_graphics": [
+    {"tipo": "mapa dibujado con ruta y cabeza que avanza", "que_es": "mapa plano estilo dibujo (mar #5BB4E8, tierra crema #F7F0D6, borde redondeado sobre fondo blanco) del sur de Florida con «UNITED STATES OF AMERICA», una ruta de línea fina con puntos/iconos de parada (círculo con pez = Bass Pro, cangrejo/langosta = la langosta gigante, círculo final = Key West, rótulo «key west») y la CABEZA RECORTADA de Rubén que avanza por la ruta", "apariciones": [{"t": "0:47.81–0:53.29", "dur_s": 5.5, "frase": "«el capitán nos había mandado unos recados por el camino. Primera parada del viaje»", "cabeza": "en Miami → primera parada"}, {"t": "2:25.89–2:29.98", "dur_s": 4.1, "frase": "«Nos estamos acercando a nuestro destino. Nos quedan solo 3 horas»", "cabeza": "avanza de la parada del pez a la del cangrejo en 3,5 s (2:26.0–2:29.5), lineal"}, {"t": "3:53.27–3:59.54", "dur_s": 6.3, "frase": "«dejamos al Pelipper atrás y llegamos a la punta más al sur de todo Estados Unidos»", "cabeza": "del cangrejo a Key West"}], "entrada": "por corte (sin animación de entrada)", "salida": "por corte", "curva": "avance lineal lento (≈ 4 % del ancho del mapa por segundo)", "posicion": "tarjeta del mapa a pantalla casi completa (margen blanco ≈ 6 %)", "tamano": "≈ 80 % del alto", "fuente": "«key west»: Work Sans 600 (+0,587) · Inter 600 (+0,576) · Montserrat 600 (+0,567), blanca con sombra", "sonido": "ninguno confirmado (candidatos #21 y #22 en 2:27.6/2:28.1 son golpes de música a compás)", "por_minuto": "3 en 31 min, todas en el trayecto", "cuando_si": "cada vez que se retoma la carretera tras una parada; sin voz de lugar, con la voz en off que resume el tramo", "cuando_no": "nunca en la cabaña (ya no hay desplazamiento)"},
+    {"tipo": "mapa explicativo con flecha", "que_es": "mapa de los Cayos de Florida con nombres (Miami, Homestead, Key Largo, Islamorada, Marathon, Big Pine Key, Key West), título «Florida Keys» arriba a la izquierda, ruta roja y FLECHA ROJA dibujada apuntando a Key West", "apariciones": [{"t": "2:43.83–2:45.70", "dur_s": 1.9, "frase": "«Key West… la isla más al sur de todo Estados Unidos. Está más cerca de Cuba que de Miami»"}], "entrada": "por corte", "salida": "por corte", "posicion": "tarjeta centrada, x 22–94 %, y 11–89 %", "color": "mar #5BB4E8, flecha #E02020", "fuente": "«Florida Keys»: no fiable — Lexend 600 (+0,073) · Oswald 500 (+0,003) · Caveat 600 (0,000)", "sonido": "ninguno confirmado", "cuando_si": "cuando se da un dato geográfico de récord"},
+    {"tipo": "globo 3D con ruta de avión", "que_es": "ver intro.animaciones_explicativas #3", "apariciones": [{"t": "0:05.71–0:07.31", "dur_s": 1.63}], "sonido": "ninguno confirmado"},
+    {"tipo": "pergamino de misiones (lista que se tacha)", "que_es": "pergamino de papel envejecido con rodillos de madera, a la izquierda, con «actividades» subrayado y 4 líneas manuscritas: Pescar / Investigar naufragio / Alimentarse / Bucear de noche, con un sello de lacre marrón abajo a la derecha; cada misión cumplida aparece tachada con una raya verde", "apariciones": [{"t": "9:53.75–≈10:05", "estado": "se desenrolla (rodillo enrollado en 9:53.75, abierto con las 4 líneas en 9:57.5) mientras lee la carta; candidato de sonido en 9:53.84 sin confirmar"}, {"t": "13:50.50–13:53.50", "estado": "«Pescar» tachado, 1,8 s después de «hemos pescado» (13:48.7); sale con fundido 13:53.0–13:53.5"}, {"t": "≈20:35.0", "estado": "«Pescar» e «Investigar naufragio» tachados, semitransparente sobre la GoPro"}, {"t": "27:28.0–≈27:31", "estado": "Pescar e Investigar tachados; «Alimentarse» aún sin tachar al entrar"}, {"t": "30:42.50–30:47.00", "estado": "entra con las 3 tachadas (30:44.0) y tacha «Bucear de noche» hacia 30:46.4; sale enrollándose hacia la izquierda (30:46.5–30:47.0)"}], "entrada": "se desenrolla de izquierda a derecha (rodillo) en ≈ 0,5 s", "salida": "fundido (13:53) o se enrolla (30:46.5)", "posicion": "izquierda, x 0–34 %, y 14–68 %", "tamano": "≈ 54 % del alto", "color": "papel #FDFCEC, tinta #2A1E14, tachado verde #3A8A3A aprox.", "fuente": "manuscrita fina; no fiable — Cormorant Garamond 500 (−0,697) · Bodoni Moda 500 (−0,839) · Libre Baskerville 400 (−0,878)", "sonido": "ninguno confirmado", "por_minuto": "5 apariciones en 21 min (una cada ~4 min de 9:53 a 30:47)", "cuando_si": "al presentar las reglas y justo después de cumplir cada misión", "cuando_no": "no hay barra ni contador numérico «x/4»"},
+    {"tipo": "logro de videojuego (toast)", "que_es": "notificación de «Logro conseguido!» estilo Minecraft: caja gris oscura con borde, icono pixelado de caña, «Logro conseguido!» en amarillo y «Primera pesca» en blanco, letra pixel", "apariciones": [{"t": "14:03.70–≈14:09", "frase": "tras «Acabamos de pescar un pez» (14:06.2 en voz; el toast entra antes, sobre la celebración)"}], "entrada": "entra deslizando desde la izquierda en 5 f (14:03.70–14:03.86)", "salida": "no medida (sigue en 14:08.0)", "posicion": "abajo a la izquierda, x 5–45 %, y 78–92 %", "tamano": "≈ 13 % del alto", "color": "caja #1E1E1E, texto #F5F56A y #FFFFFF", "fuente": "pixel tipo Minecraft (fuente_rotulo no la tiene: Cormorant Garamond 500 −1,071, no fiable)", "sonido": "DING confirmado 14:04.12 al nivel de la voz (+0,2 dB)", "por_minuto": "1 en el vídeo", "cuando_si": "la primera vez que se logra algo pequeño pero esperado"},
+    {"tipo": "contador de cebo", "que_es": "icono pixel de gamba 🦐 con un número blanco debajo (11, 10, 5), abajo a la izquierda", "apariciones": [{"t": "12:30.5", "valor": 11}, {"t": "14:51.3", "valor": 10}, {"t": "15:00.5", "valor": 5}], "entrada": "de golpe", "posicion": "x 1–5 %, y 88–98 %", "tamano": "≈ 7 % del alto", "sonido": "ninguno confirmado", "cuando_si": "cuando gasta una gamba: marcador de recurso de supervivencia (como en un juego)"},
+    {"tipo": "tarjeta de perfil del anfitrión", "que_es": "ver intro.animaciones_explicativas #7", "apariciones": [{"t": "0:31.80–0:34.80"}]},
+    {"tipo": "iconos de lista en círculo", "que_es": "ver intro.animaciones_explicativas #6", "apariciones": [{"t": "0:22.50–0:24.02"}]},
+    {"tipo": "foco/resalte", "que_es": "ver intro.animaciones_explicativas #1", "apariciones": [{"t": "0:00.30–0:00.87"}]},
+    {"tipo": "batería agotada + glitch", "que_es": "pantalla negra con icono de batería vacía (contorno blanco, ≈ 15 % del ancho) y ruido digital de colores (datamosh rosa/cian) alrededor", "apariciones": [{"t": "20:45.14–20:45.87", "dur_s": 0.73, "frase": "«la GoPro empezó a fallar y me cortaba las tomas cada dos por tres» (20:45.4)"}], "entrada": "corte a glitch", "posicion": "icono centrado", "sonido": "PITIDO corto confirmado 20:45.89 (−15,2 dB)", "cuando_si": "para justificar un fallo técnico real del rodaje y convertirlo en momento"},
+    {"tipo": "captura de YouTube de otro vídeo del canal", "que_es": "reproductor de YouTube recortado («Fui a Pescar Monstruos de Río», ruben holgado, botón de suscripción) con el clip dentro, sobre negro", "apariciones": [{"t": "10:33.3", "frase": "«he pescado realmente un bicho más grande que yo»"}, {"t": "28:40.0–28:43.5", "frase": "«la camiseta con la que me tiré al sitio que más miedo me ha dado nunca»"}], "entrada": "por corte", "sonido": "sonido del clip", "cuando_si": "cuando se nombra un vídeo pasado del canal (archivo propio sobre la mención)"},
+    {"tipo": "pixelado de marcas", "que_es": "mosaico sobre logotipos de las cañas infantiles", "apariciones": [{"t": "0:24.06–0:25.06"}, {"t": "1:26.0"}]},
+    {"tipo": "pantalla final dibujada", "que_es": "ver cierre", "apariciones": [{"t": "30:50.40–31:00.40"}]}
+  ],
+  "cortes": {
+    "detector": {"n_cortes": 320, "cortes_por_minuto": 10.3, "planos": 321, "media_s": 5.8, "mediana_s": 3.84, "p10_p90_s": "1,17–13,25", "menos_de_1s": "7 %", "mas_de_5s": "40 %", "max_s": 37.84, "transiciones_con_duracion": 4},
+    "conteo_a_ojo": {
+      "metodo": "candidatos del scd con umbral bajo (pico ≥ 2 y ≥ 6× la mediana de ±12 f) verificados con pares de fotogramas f−2…f+1 (detalle/pares_*.jpg) y la hoja de 22:00–22:30 a 0,1 s",
+      "tramos": [
+        {"minuto": "1:00–2:00", "detector": 20, "real": "24–25", "nota": "4 jump cuts señalando cañas (1:18.0, 1:19.1, 1:20.4, 1:29.9); 1:44.0 y 1:21.3 no son corte"},
+        {"minuto": "12:00–13:00", "detector": 7, "real": 12, "nota": "jump cuts al mismo encuadre de trípode en 12:06.4, 12:30.6, 12:41.0, 12:49.5 y 12:59.4"},
+        {"minuto": "15:00–16:00", "detector": 2, "real": 12, "nota": "10 jump cuts en el atardecer y la caída (15:00.5, 15:04.7, 15:06.5, 15:08.2, 15:15.1, 15:16.0, 15:17.0, 15:20.1, 15:55.9, 15:57.9)"},
+        {"minuto": "19:00–20:00", "detector": 9, "real": "10–11", "nota": "GoPro en el remo: 13 de 15 candidatos son sacudidas y salpicaduras, no cortes"},
+        {"minuto": "22:00–23:00", "detector": 2, "real": 9, "nota": "jump cuts en 22:05.0, 22:13.3, 22:23.0, 22:28.6, 22:42.8, 22:46.4, 22:55.3"}
+      ],
+      "extrapolacion": "planos de trípode (min 9–15 y 21–27): los candidatos ≈ cortes reales (×1,0); trayecto en selfie (min 1–8): ×0,75 de los candidatos extra; GoPro y noche (min 16–20 y 28–30): ×0,2–0,3",
+      "total_estimado": "≈ 490 planos (margen 450–530) → 15,9 cortes/min (14,5–17,1), plano medio ≈ 3,8 s",
+      "jump_cuts_ocultos": "≈ 170 (35 % de todos los cortes), casi todos al mismo encuadre de trípode en la cabaña: uno cada ~5 s mientras habla o espera"
+    },
+    "por_parte_detector": [
+      {"parte": "intro 0:00–0:44", "s_plano_mediana": 1.27, "menos_1s": "32 %"},
+      {"parte": "trayecto 0:44–4:24", "cortes_min": "19–21", "s_plano_mediana": "2,2–3,2"},
+      {"parte": "room tour 5:12–7:56", "cortes_min": "12–17", "s_plano_mediana": "2,5–4,6", "nota": "plano más largo 19,1 s"},
+      {"parte": "cabaña y pesca 9:00–16:00", "cortes_min": "2–7 (detector) · ≈ 12 reales", "s_plano_mediana": "5–34 (detector)"},
+      {"parte": "naufragio 17:00–21:00", "cortes_min": "9–12", "s_plano_mediana": "3,3–6,3"},
+      {"parte": "pesca día 2 y cocina 21:00–28:00", "cortes_min": "2–12 (detector)", "s_plano_mediana": "4,9–33"},
+      {"parte": "buceo nocturno 28:00–30:50", "cortes_min": "5–9", "s_plano_mediana": "7,7–8,6"}
+    ],
+    "rafagas": "0 (cortes_rafagas.json con --rafagas --hasta 45: 0 cortes en ráfaga; verificado en las hojas fotograma a fotograma: el plano más corto de la intro dura 13 f)",
+    "jump_cuts_al_hablar": "en trípode, cada 10–15 palabras (≈ 5 s); en selfie de móvil casi no hay (la toma va seguida)",
+    "j_l_cuts": "J-cut de voz en off en la salida de la cabecera (f1329, la voz entra 3 f antes del corte de imagen) y en los puentes de voz en off del trayecto",
+    "match_cuts": "ninguno claro",
+    "insertos_cortos": "inserto de precio 229,95 $ (1:24.3–1:25.0, 0,7 s) con ding; cañas Buzz Lightyear 1:26; capturas de otro vídeo (10:33, 28:40)",
+    "velocidad": "sin cámara rápida ni lenta visibles; el plano fijo de la habitación (16:52–16:59, 7,6 s) hace de paso de noche",
+    "transiciones_detectadas": "17:42.76 (0,1 s), 20:45.14 (glitch de batería, 0,73 s), 28:31.38 (0,2 s, oscuro a oscuro), 30:29.39 (0,1 s)",
+    "cortes_en_beat": "39 % de los cortes con música caen en pulso (no se monta a ritmo); 17 % de los cortes con acento de sonido"
+  },
+  "zooms": [
+    {"tipo": "punch-in por corte de remate (×3)", "escala": "×3,0–3,13 de golpe, vuelve por corte a ×1 (medido ×0,31–0,33)", "duracion": "1,1–4,4 s", "disparador": "el remate del chiste o la palabra cómica", "centro": "la cara (primer plano desde el plano medio de trípode)", "extras": "sin sonido confirmado, sin temblor", "por_minuto": "5 en 31 min (0,16/min)", "ejemplos": ["3:27.25→3:30.31 ×3,13 tras «la naturaleza nunca miente»", "13:22.03 ×3,0 en «porque no tienen pelo, tienen escamas» (chiste de pescadores)", "25:40.07→25:41.21 ×3,0 en «Un limón»", "26:08.60→26:09.93 ×3,0 (cortaúñas como navaja)", "27:53.01→27:55.07 ×2,98 bebiendo con los carrillos llenos"]},
+    {"tipo": "punch-in por corte de énfasis", "escala": "×1,4–2,0", "duracion": "1,0–7,5 s", "disparador": "frase clave", "por_minuto": "3 en 31 min", "ejemplos": ["0:59.46→1:00.46 ×2,00 en «solo lo que pesquemos» (Bass Pro)", "0:29.26 ×1,42 en «Aunque más que un hombre…» (Miami)", "24:22.43 ×1,40 en «este es un pinfish»"]},
+    {"tipo": "zoom animado de entrada", "escala": "×1,0→×1,20", "duracion": "≈ 27 f (0:30.3–0:31.2)", "curva": "ease-out (1,012 · 1,037 · 1,058 · 1,091 · 1,12 · 1,135 · 1,147 · 1,182 · 1,201 cada 0,3 s)", "disparador": "«loro con gorro de pirata»", "por_minuto": "1 en el vídeo (solo intro)"},
+    {"tipo": "micro reencuadre por corte", "escala": "×1,05–1,06", "ejemplos": ["11:03.06 ×1,053", "24:20.86 ×1,058"], "nota": "separa dos tomas casi iguales"},
+    {"tipo": "zoom lento", "escala": "≈ +1 % en la cabecera (fijo a efectos prácticos); +8 % en 1,2 s en el plano de la cabaña de la intro (puede ser de la cámara)", "nota": "trípode = escala 1,000 ± 0,01 en los 4 planos largos medidos (5:14.4–5:21.3, 22:05.1–22:13.2, 26:30–26:40, 0:55.6–0:59.4)"},
+    {"tipo": "zoom-out del dron", "escala": "×0,867 en 1,3 s (−10 %/s)", "ejemplos": ["0:00.92–0:02.30"], "nota": "movimiento de cámara, no de edición"}
+  ],
+  "textos": [
+    {"tipo": "palabra/cifra hablada grande (solo intro)", "fuente": "grotesca negrita tipo Helvetica/Arial Bold. Top-3: «algo» Inter 800 (+0,393) · Manrope 800 (+0,390) · Montserrat 800 (+0,385); «10 horas» Work Sans 600 (+0,631) · Space Grotesk 700 (+0,596) · Archivo 600 (+0,584). Juicio: Helvetica Neue Bold / Arimo Bold (la de sus otros vídeos)", "peso": "bold", "mayusculas": "minúsculas", "color": "#FFFFFF", "borde_sombra": "sombra suave negra, sin borde ni caja", "tamano": "cifras 13–14 % del alto; «algo» 19 %; textos en la cara ≈ 10 %", "posicion": "centrado o en el hueco libre del plano; sobre la cara en «fácil/¿no?/bueno…»", "entrada": "de golpe, 0–3 f antes de la palabra (o con el corte)", "salida": "por corte o cambiado por el siguiente", "duracion": "0,3–2,1 s", "por_minuto": "9 en los primeros 21 s; 0 en el resto del vídeo", "ejemplos": ["0:02.34 «ay / me ha / tocado / algo»", "0:08.27 «10 horas»", "0:20.00 «aún hay más»"], "recortes": ["rotulos/recorte_hablado_ay_algo.png", "rotulos/recorte_hablado_algo.png", "rotulos/recorte_hablado_10horas.png"]},
+    {"tipo": "subtítulo de otro (amarillo)", "fuente": "Inter 600 (+0,735) · Lexend 600 (+0,477) · DM Sans 700 (+0,470)", "peso": "semibold/bold", "mayusculas": "minúsculas", "color": "#F9F338", "borde_sombra": "sombra suave", "tamano": "≈ 4,5 % del alto", "posicion": "abajo, centrado en el hueco (y≈90 %)", "entrada": "de golpe por frase", "duracion": "1–3 s por frase", "por_minuto": "≈ 8 frases en 1:44–2:06 (cajero); 0 en el resto", "ejemplos": ["1:44.0 «…muy sensible?»", "1:46.0 «porque se van a reír de tí»", "1:52.0 «a qué niño le robaste la caña?»"], "recortes": ["rotulos/recorte_sub_amarillo_cajero.png"]},
+    {"tipo": "subtítulo propio (blanco) cuando no se oye", "fuente": "«creo que hemos pillado» Work Sans 600 (+0,670) · Roboto 500 (+0,617) · Inter 600 (+0,583); «ya queda poco» Roboto Condensed 900 (+0,298, no fiable)", "color": "#FFFFFF", "borde_sombra": "sombra", "tamano": "≈ 4,5 % del alto", "posicion": "abajo al centro (y≈90 %)", "por_minuto": "solo en GoPro con viento o bajo el agua: 19:30–19:32 «ya queda poco» (×2), 30:08–30:15 «creo que hemos pillado», «voy a dar una vuelta», «enterita»", "recortes": ["rotulos/recorte_sub_blanco_ya_queda_poco.png", "rotulos/recorte_sub_blanco_hemos_pillado.png"]},
+    {"tipo": "comentario del editor entre asteriscos", "fuente": "Plus Jakarta Sans 600 (+0,347) · Archivo 600 (+0,181) · Figtree 600 (+0,170) — no fiable; a ojo la misma grotesca negrita", "color": "#FFFFFF con sombra", "tamano": "≈ 5 % del alto", "posicion": "centro", "ejemplos": ["3:19.2–3:21.7 «*rip audio*» sobre un plano del suelo (el audio de la toma se ha perdido)"], "por_minuto": "1 en el vídeo", "recortes": ["rotulos/recorte_editor_rip_audio.png"]},
+    {"tipo": "rótulos de mapa", "fuente": "«key west» Work Sans 600 (+0,587) · Inter 600 (+0,576) · Montserrat 600 (+0,567)", "color": "#FFFFFF con sombra sobre mar azul", "tamano": "≈ 3,5 % del alto", "recortes": ["rotulos/recorte_mapa_key_west.png", "rotulos/recorte_mapa_florida_keys.png"]},
+    {"tipo": "lista manuscrita (pergamino)", "fuente": "manuscrita fina no reconocible (Cormorant Garamond 500 −0,697)", "color": "#2A1E14 sobre #FDFCEC", "tamano": "líneas ≈ 3,5 % del alto", "recortes": ["rotulos/recorte_pergamino_lista.png", "rotulos/recorte_pergamino_investigar.png"]},
+    {"tipo": "logro pixel", "fuente": "pixel tipo Minecraft (no está en la herramienta; top-3 sin parecido: Cormorant Garamond 500 −1,071 · Caveat 600 −1,174 · Bodoni Moda 500 −1,343)", "color": "#F5F56A + #FFFFFF", "recortes": ["rotulos/recorte_logro_conseguido.png"]},
+    {"tipo": "cabecera y pantalla final", "fuente": "rotulación a mano (ver intro.titulo_cabecera y cierre)", "recortes": ["rotulos/recorte_cabecera_aventurillas.png", "rotulos/recorte_cabecera_aventurillas_linea.png", "rotulos/recorte_cabecera_edicion_hoteles.png", "rotulos/recorte_final_mira_este_video.png", "rotulos/recorte_tarjeta_captain_chris.png"]},
+    {"tipo": "lo que NO hay", "detalle": "ni rótulo de lugar (los lugares se dicen o se ven en carteles reales grabados y en el mapa), ni «DÍA N» (paso al día 2 sin rótulo, 16:52–17:00), ni etiqueta de nombre a personas, ni capítulos, ni palabra-golpe fuera de la intro. Énfasis por punch-in, no por color"}
+  ],
+  "subtitulos": {
+    "subtitulan_todo": false,
+    "a_quien": "a otros que hablan con acento o lejos (el cajero, amarillo) y a Rubén solo cuando el viento o el agua tapan su voz (blanco)",
+    "cuanto": "≈ 30 s subtitulados en 31 min (1,6 %): 1:44–2:06, 19:30–19:32, 30:08–30:15",
+    "estilo": "abajo, una línea, sans semibold ≈ 4,5 % del alto, sombra, sin caja; color por hablante (amarillo = el otro, blanco = él)"
+  },
+  "sfx": {
+    "confirmados": [
+      {"t": "0:37.20", "tipo": "rasgado de papel / whoosh ancho (mancha de ruido ancha justo tras la línea)", "acompaña_a": "transición de papel roto a la cabecera (f1103–f1110)", "respecto_voz_db": -8.3},
+      {"t": "0:40.37", "tipo": "whoosh de agua (mancha de ruido que sube)", "acompaña_a": "ola que barre de «las aventurillas» a «EDICIÓN HOTELES» (f1211)", "respecto_voz_db": -14.1},
+      {"t": "1:24.95", "tipo": "ding (rayas horizontales que se apagan)", "acompaña_a": "inserto de la etiqueta de precio «229,95» de una caña", "respecto_voz_db": -6.6},
+      {"t": "14:04.12", "tipo": "ding de logro (rayas horizontales largas que se apagan)", "acompaña_a": "toast «Logro conseguido! Primera pesca» (entra 14:03.70)", "respecto_voz_db": 0.2},
+      {"t": "20:45.89", "tipo": "pitido corto (raya horizontal)", "acompaña_a": "pantalla negra con icono de batería y glitch (GoPro agotada)", "respecto_voz_db": -15.2}
+    ],
+    "por_minuto": "0,16/min confirmados (5 en 31 min); 2 en la intro, 3 en el cuerpo",
+    "reglas": [
+      "Solo llevan efecto los gráficos que imitan algo con sonido propio (papel, ola, caja registradora/precio, logro de videojuego, batería).",
+      "Los rótulos hablados de la intro, los mapas, el pergamino y los punch-in ×3 van SIN efecto confirmado: el remate lo da la voz.",
+      "Efecto al nivel de la voz solo para la recompensa (ding del logro +0,2 dB); el resto 6–15 dB por debajo."
+    ],
+    "candidatos_descartados": [
+      "3:11.48, 3:14.01, 3:18.60, 3:18.89, 3:21.60, 3:28.22, 3:28.63, 3:31.21: golpes de la música a compás (bandas verticales repetidas en celdas vecinas)",
+      "4:06.47 «redoble»: entrada de la pista de música en el corte de 4:06.45",
+      "4:14.61–4:18.23 (4 candidatos): golpes de música bajo el plano del hielo",
+      "19:47–20:15 (17 candidatos «whoosh/error/silbido»): viento y agua en el micro de la GoPro",
+      "20:50–20:56 (5 candidatos): música a compás bajo el barco hundido",
+      "13:33–13:42 (6 candidatos): oleaje y música bajo la pesca",
+      "1:10.94, 1:15.59, 1:17.90, 1:23.31: ruido de la tienda y golpes de música",
+      "1:50.26, 1:50.52, 2:02.61, 2:03.11: voz del cajero",
+      "2:27.60, 2:28.09 (mapa): golpes de música a compás",
+      "0:58.92, 0:59.61: sonido directo en Bass Pro"
+    ]
+  },
+  "musica": {
+    "proporcion": "52 % del vídeo con música (frente a 67–80 % en sus 5 fichas anteriores); habla el 80 %",
+    "primera_musica_s": 0,
+    "voz_menos_musica_db": "mediana 17,1 dB; intro 13,2 dB (0:00–0:22); trayecto 14–30 dB (música muy baja, −42 a −50 dB en 2:08–3:18); cabaña 15–22 dB; remo contra el viento 0–3,3 dB (19:56–20:30); clímax −11 y −3,9 dB (la música por ENCIMA de la voz, 28:46–29:57)",
+    "tramos": "0:00–0:22 (intro), 0:39–0:45 (jingle de cabecera), trayecto en trocitos de 4–20 s, 4:06–5:17 (llegada, sube a −34 dB sin voz), 7:02–9:27 (dormitorio y paddle), pesca en ventanas de 15–25 s, 16:05–18:43 (Titanic, noche, día 2; −31 dB), 19:02–20:50 (remo, el más alto antes del clímax), 21:32–24:29 (pesca 2), 26:12–27:15 (cocina, −29 dB), 28:46–29:57 (buceo, −16,5 dB), 30:53–30:58 (pantalla final)",
+    "cambios_de_pista": "7:16 (dormitorio), 17:16 (día 2), 19:36 (remo); además pistas distintas en intro, cabecera y trayecto",
+    "silencios_intencionados": [
+      "0:22.0–0:39.0: la pieza a cámara de Miami va sin música (17 s), entre la intro musical y el jingle",
+      "5:17–7:02: el room tour casi sin música (solo 6:02–6:06)",
+      "9:27–10:28: lectura de la carta sin música",
+      "27:54–28:46: comida, «estamos muy mal para YouTube» y preparación del buceo sin música (52 s) antes de que la música entre fuerte en el clímax"
+    ],
+    "a_ritmo_de_cortes": "no (39 % de cortes en pulso, 17 % con acento)",
+    "lufs": "−15,7 LUFS integrado, LRA 9,1, pico +0,4 dBTP",
+    "directo_vs_musica": "en la acción (picadas, capturas, gritos) manda el sonido directo y la música baja a 20–30 dB bajo la voz o desaparece; la música sube solo en tramos sin habla relevante (llegada, remo, buceo)"
+  },
+  "broll": {
+    "proporcion_sobre_voz": "≈ 25 % del vídeo: alto en el trayecto (≈ 60 % de 0:44–4:24, voz en off sobre coche, carteles y paisaje) y en el clímax (GoPro bajo el agua); casi 0 en la cabaña, donde se habla a cámara en trípode",
+    "de_donde": "95 % del propio rodaje; archivo propio: 2 capturas de YouTube de otro vídeo del canal (10:33, 28:40); 1 pieza grabada aparte para la intro (Miami Beach); 0 stock",
+    "duracion_tipica": "1–3 s en el trayecto; 8–20 s en el buceo",
+    "vuelta_a_camara": "por corte seco, con frase en directo que retoma la voz en off («Primera parada del viaje, Bass Pro Shops» 0:52.5 → él a cámara delante del cartel 0:55.6)"
+  },
+  "voz_en_off": {
+    "uso": "≈ 28 bloques, ≈ 4,9 min (≈ 16 % del vídeo). Bloques largos: 0:44.3–0:52.5 (8 s), 3:34–3:58 (24 s), 4:19–4:50 (31 s), 18:07–18:31 (24 s), 29:28–29:58 (30 s) y 30:25–30:42 (17 s). Funciones: puente del trayecto, elipsis de la espera de pesca («Está tarde siguiendo… no hemos pescado nada» 15:00), giro («Lo que la ilusión no me iba a durar mucho» 14:13; «O eso pensaba yo» 28:10), explicación de lo que no se pudo grabar («la GoPro empezó a fallar» 20:45) y reflexión final.",
+    "guion": "pasado y primera persona, coloquial, fórmulas fijas «Así que nada…», «Y nada…», «Pero por si no fuera suficiente…»; remates de una línea («Y no se llamaba Chris» 4:29.9; «Y me abandonó» 5:05.8). El cierre usa frases cortas en cadena con pausas («Me daba miedo encontrarme un tiburón / Me daba miedo el mar de noche / Y sobre todo / Me daba miedo no saber qué tenía debajo», 29:33–29:43).",
+    "mezcla": "mismo nivel que el directo (voz −20,7 dB de media); en el clímax la música queda 4–11 dB POR ENCIMA de la voz en off"
+  },
+  "transiciones": [
+    {"tipo": "papel roto", "t": "0:36.80–0:37.03", "duracion_f": 8, "donde": "entrada a la cabecera", "sfx": "rasgado confirmado"},
+    {"tipo": "ola dibujada", "t": "0:40.40–0:41.41", "duracion_f": 31, "donde": "dentro de la cabecera", "sfx": "whoosh confirmado"},
+    {"tipo": "papel arrugado en bola", "t": "0:44.30–0:44.56", "duracion_f": 8, "donde": "salida de la cabecera al cuerpo", "sfx": "ninguno confirmado"},
+    {"tipo": "glitch de batería", "t": "20:45.14–20:45.87", "duracion_f": 22, "donde": "GoPro agotada", "sfx": "pitido confirmado"},
+    {"tipo": "fundidos cortos", "t": "17:42.76 (3 f), 28:31.38 (6 f), 30:29.39 (3 f)", "donde": "dentro de secuencias de agua y noche"},
+    {"resumen": "6–7 transiciones construidas en 31 min; el resto, corte seco (≈ 98,6 %)"}
+  ],
+  "cierre": {
+    "como_acaba": "Tras la reflexión en off (30:25–30:42) entra el pergamino con la última misión tachada (30:42.5–30:47.0) y Rubén dice «Misión completada. Capitán Chris, esta pensaba que no la iba a completar» (30:42–30:48). Sin despedida larga.",
+    "cta": "Suscripción a mitad, dentro de un gag de apuesta («si pescamos… os suscribís todos al canal» 13:29; lo recuerda en 14:48). Al final, CTA único a otro vídeo dicho en voz sobre la pantalla final: «Mírate este otro en el que me voy a vivir a la casa más aislada del mundo» (30:49–30:55) + «Nos vemos en la próxima aventurilla».",
+    "pantalla_final": "30:50.40–31:00.40 (10,0 s): fondo crema #FBF7EE, dibujo a línea del personaje disfrazado de gallina con los brazos en alto sosteniendo una flecha verde con «mira este video» que apunta a la izquierda (hueco de la tarjeta); la flecha se mueve/rebota (30:51.5–30:57.5) y la línea tiembla. Mismo cartón que Titanic. Música 22 dB bajo la voz."
+  },
+  "para_el_estilo": [
+    "VIAJE (dentro de vlog) — trayecto como sección propia de 3–4 min antes de llegar: voz en off en pasado + mapa de ruta dibujado que se repite en cada tramo (3 apariciones de 4–6 s con la cara del creador avanzando por la ruta) + plano del cartel real de cada parada (3 paradas). Esto CONTRADICE la regla de CONTEXTO.md «Ningún mapa con recorrido largo dibujado» en Rubén: aquí sí lo hay.",
+    "VIAJE — la premisa de distancia se rotula con UNA CIFRA DE TIEMPO POR TRANSPORTE («10 horas» avión, «5 horas» coche, «1 hora» barco), blanca, 13–14 % del alto, de golpe con el corte al plano de ese transporte, 1,5–2 s cada una, 3 en 8 s.",
+    "VIAJE — llegada al alojamiento con música sin voz que sube a −34 dB (4:33–5:17) y presentación de la estancia en 2 tiempos: room tour objeto a objeto (2:44, planos de 3–19 s) + vista exterior desde fuera (paddle 36 s).",
+    "Intro explicativa de ~44 s: cold open de 4–5 s con el sitio + un susto → explicación ilustrada (una animación cada 4,6 s) → busto grabado EN el destino (no en casa) → cabecera de serie con 2.ª pantalla «EDICIÓN <TEMA>» (7,3 s).",
+    "Marcador de progreso de juego: lista manuscrita de 4 misiones que vuelve al cumplir cada una (5 apariciones, 3 s, tachado en verde) + toast de logro estilo Minecraft con ding para la primera recompensa + contador de recurso (🦐 N).",
+    "Jump cut al mismo encuadre de trípode cada ~5 s en las esperas (12 cortes/min reales donde el detector ve 2–7): el ritmo de la cabaña sale de quitar tiempo, no de cambiar de plano.",
+    "Punch-in ×3,0 de golpe en el remate del chiste (1,1–4,4 s, vuelve por corte), ≈ 1 cada 5–6 min; ×1,4–2,0 para la frase clave (3 en el vídeo).",
+    "Música a ratos (52 %) y que se quita en las piezas a cámara de la intro y en el room tour; en el clímax sube por ENCIMA de la voz en off (−4 a −11 dB voz−música).",
+    "Subtítulos solo a otro (amarillo #F9F338) o a uno mismo cuando el viento/agua tapa la voz (blanco).",
+    "Qué NO se hereda de CONTEXTO.md en un viaje así: «Ningún mapa con recorrido largo dibujado» (aquí 3 + globo 3D), «6–12 gráficos en el primer minuto» (aquí 15 elementos, pero concentrados en 37 s), «recap/tráiler de 17–27 s con un plano por verbo» (aquí 4,4 s de cold open y explicación), «música 67–80 %» (aquí 52 %), «rótulo DÍA N» (aquí el cambio de día va sin rótulo, con plano fijo de la habitación)."
+  ],
+  "para_la_base": [
+    "Si el vídeo se hace en un plano fijo largo (trípode), cortar cada ~5 s al mismo encuadre quitando la espera: el detector no lo cuenta, pero sube el ritmo real de 2–7 a 12 cortes/min sin cambiar de plano.",
+    "Texto hablado palabra a palabra 0–3 f antes de cada palabra, en el hueco libre; terminar el susto con un emoji de golpe (💀) en jump cut en vez de un efecto de sonido.",
+    "Cuando el creador nombra un vídeo pasado del canal, insertar la captura del reproductor de YouTube con el clip (2–3 s).",
+    "Convertir un fallo técnico real (batería agotada) en gráfico de 0,7 s con glitch + icono + pitido, en el momento en que se cuenta.",
+    "Un efecto de sonido solo para gráficos que imitan algo que suena (papel, ola, precio, logro); ninguno sobre rótulos de texto ni sobre punch-in.",
+    "Frase de giro antes del clímax en dos tiempos: «estamos bien» + «o eso pensaba yo», y silencio musical de ~50 s antes de que entre la música fuerte."
+  ],
+  "para_el_motor": {
+    "ESCALAS": "[1.0, 1.0, 1.0, 1.42, 1.0, 1.0, 3.0] — casi todo a ×1,0 (trípode) con saltos raros y grandes; ESCALAS alternas al hablar NO se usan aquí",
+    "CAMBIO_CADA": "(4.5, 6.0) — jump cut al mismo encuadre cada ~5 s en tomas largas de trípode (medido: 12 por minuto en min 12, 15 y 22)",
+    "Z_FUERTE": 3.0,
+    "Z_FUERTE_nota": "solo en el remate del chiste, 5 veces en 31 min; para frase clave ×1,4–2,0",
+    "CARA_Y": "≈ 0,40 en los punch-in ×3 (cara centrada en el tercio superior)",
+    "SFX": {"titulo": "(\"rasgado-papel\", -8)", "seccion": "None", "trk": "None", "mapa": "None", "suscribe": "None", "dato": "(\"ding\", -7) — solo precio o logro", "golpe": "None"},
+    "MUSICA_NIVELES": {"BASE": "≈ 17 dB bajo la voz (mediana medida 17,1)", "TRAILER": "≈ 13 dB bajo la voz (intro 0:00–0:22)", "TITULO": "jingle de cabecera ≈ 14 dB bajo la voz (se habla encima)", "SINVOZ": "llegada −34 dB absoluto (≈ 13 dB por debajo de la voz media); remo 0–3 dB; clímax 4–11 dB POR ENCIMA de la voz en off", "CIERRE": "≈ 22 dB bajo la voz", "notas": "música solo en el 52 % del tiempo; quitarla en las piezas a cámara de la intro y en el room tour"},
+    "LUFS": "medido −15,7 (dejar −14 de la base)"
+  },
+  "dudas": [
+    "Total de cortes estimado (490 ± 40) por extrapolación de 5 minutos verificados; en GoPro y de noche los candidatos del scd están muy inflados por sacudidas, y el factor ×0,2–0,3 es aproximado.",
+    "Candidato #1 (0:04.46, «error», −3,9 dB) junto al 💀: posible golpe, pero el espectrograma no es concluyente.",
+    "Candidato #3 (0:33.44, raya vertical fina tipo pop) con la tarjeta del Capitán Chris ya en pantalla (entró en 0:31.80): ¿un graznido de loro o un pop de algo que no veo?",
+    "Candidato #8 (0:59.34, +3,4 dB sobre la voz) a 0,12 s del punch-in ×2,0 en «pesquemos»: probable golpe del punch, sin firma clara.",
+    "Candidato #130 (9:53.84, +11 dB) con el pergamino que se desenrolla: probable sonido de papel, pero el espectrograma de la hoja sale oscuro.",
+    "No revisé una a una las hojas sfx 02, 03, 04, 06 y 09–12; puede haber más efectos confirmables (por ejemplo, en el contador de gambas o en los mapas).",
+    "El plano de dron de 0:00.90 no lo localicé en el cuerpo (¿llegada 4:39–5:01?).",
+    "Duración exacta del toast de logro (sigue en 14:08.0) y de la primera aparición del pergamino (≈ 9:53.8–10:05).",
+    "El zoom de +8 % en 0:04.37–0:05.67 puede ser deriva de la cámara (tabla en el agua) y no de edición.",
+    "Las fuentes manuscritas y pixel (pergamino, logro, cabecera, pantalla final) no están en la base de fuente_rotulo.py: puntuaciones negativas, sin valor.",
+    "Las mediciones de escala de los punch-in ×3 (y su vuelta ×0,33) son por corte con puntos ORB sobre el mismo fondo; fiables a ±5 %."
+  ],
+  "comparacion_con_otras_fichas_de_ruben": {
+    "fichas": "2026-09-13_titanic-del-amazonas.json (viaje por días) y 2025-12-16_ciudad-mas-fria-yakutia.json (pruebas)",
+    "sello_fijo": [
+      "Habla desde el fotograma 0, sin saludo; la cabecera dibujada «las aventurillas de ruben» con transición de papel roto llega DESPUÉS del gancho (aquí 0:37; Titanic ~0:20; Yakutia ~0:27).",
+      "Voz en off en pasado y primera persona como puente (13–16 % del vídeo en las tres), con remates de una línea.",
+      "Marcador de progreso de juego: mapa de niveles (Yakutia), lista de misiones con iconos que se tacha (Titanic), pergamino de misiones + logro Minecraft (aquí).",
+      "Punch-in por corte ×2–3 para el remate del chiste; sin zoom animado sobre quien habla.",
+      "Subtítulos de color por hablante, amarillo para el otro.",
+      "Pantalla final de la gallina con flecha verde «mira este video» (idéntica a Titanic) y un CTA de suscripción metido en un gag a mitad de vídeo.",
+      "Archivo propio de vídeos anteriores del canal sobre la mención."
+    ],
+    "cambia_aqui": [
+      "Intro más larga y EXPLICATIVA (44,4 s, 7 animaciones) frente a tráiler de 25–27 s; el busto se graba en el destino (Miami Beach), no en casa.",
+      "Cabecera ampliada a 7,3 s con 2.ª pantalla «EDICIÓN HOTELES»: el vídeo se presenta como capítulo de una serie.",
+      "Primer MAPA CON RUTA DIBUJADA de las fichas de Rubén (3 apariciones con su cabeza avanzando) + globo 3D con avión; antes el viaje se contaba con barra de progreso y Google Maps.",
+      "Va solo: casi sin secundarios (el «personaje» es un pelícano y un anfitrión ausente), así que la cabaña se sostiene con jump cuts de trípode cada ~5 s y planos largos (detector: 10,3 cortes/min y mediana 3,84 s, frente a 14,2–16,9 y 2,3–3,1).",
+      "Música en el 52 % (frente a 67–80 %) y más baja (17,1 dB bajo la voz), pero por ENCIMA de la voz en el clímax.",
+      "Sin rótulo «DÍA N» (Titanic los usaba en cada día).",
+      "Cierre reflexivo con moraleja en off sobre el clímax (como Titanic), pero sin montaje recapitulativo de todo el viaje."
+    ]
+  }
+}
