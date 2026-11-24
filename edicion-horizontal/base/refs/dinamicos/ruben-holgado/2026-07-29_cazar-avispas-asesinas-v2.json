@@ -1,0 +1,455 @@
+{
+ "video": {
+  "archivo": "refs/dinamicos/ruben-holgado/2026-07-29_fui-a-cazar-avispas-asesinas.mp4",
+  "creador": "Rubén Holgado",
+  "canal": "ruben holgado",
+  "url": "https://www.youtube.com/watch?v=D_qSXDLKocE",
+  "titulo": "Fui a Cazar Avispas Asesinas",
+  "duracion": "23:13 (1393,1 s; 41.753 fotogramas)",
+  "publicado": "2026-07-29",
+  "fps": 29.97,
+  "resolucion": "1920×1080",
+  "idioma": "español (transcripción large-v3-turbo, idioma detectado «es»); los locales hablan vietnamita y no se subtitula: Rubén cuenta lo que le traducen con el móvil",
+  "tramo_analizado": "entero. Intro fotograma a fotograma hasta f1121 (15 hojas intro_fot + 4 propias detalle/intro_fot_30–36 + detalle/pares_cabecera.jpg con 36 fotogramas de la cabecera), 8 hojas intro_*, 24 hojas min_*, 2 final_*; 8 tramos de 30 s a 0,1 s (detalle/d01_120, _150, _540, _570, _720, _750, _1140, _1170) para contar cortes a ojo; 3 hojas de pares f−2…f+1 (detalle/pares_a/b/c) para verificar 31 candidatos a corte del scd; 10 sfx_hoja_* + 3 hojas propias de espectrograma+fotograma (detalle/sfx_rev_1–3, 48 instantes); 16 mediciones de zoom; 12 rótulos con fuente_rotulo.py",
+  "carpeta_analisis": "refs/dinamicos/_analisis/2026-07-29_fui-a-cazar-avispas-asesinas/",
+  "estilo": "vlog",
+  "tipo": "aventura",
+  "frontera_con_reto": {
+    "decision": "Premisa de reto sin marcador → se edita como vlog. Si el creador quiere el estilo reto, hay que dibujar el marcador (lista, contador o barra).",
+    "rasgos_de_reto_que_tiene": [
+      "Objetivo con desenlace y cifra: «cuánto dinero podemos ganar» (0:20.2) → «total: 2.750€» en pantalla (22:51.0–23:04.0).",
+      "Misiones: seguir a una avispa con una pluma (5:11) que fracasa (8:14–8:37) y la prueba de la granja de saltamontes (8:57–11:19).",
+      "Riesgo real repetido 9 veces (0:00, 0:16.7, 1:00–1:07, 2:13, 11:27–11:59, 17:14…), con la picadura como amenaza que nunca se cumple (18:18)."
+    ],
+    "rasgo_de_reto_que_falta": "Marcador dibujado: 0 listas, 0 contadores, 0 barras.",
+    "por_que_se_edita_como_vlog": "El estilo se decide por cómo se edita, no por la premisa: sin marcador, y el clímax va más lento y en planos largos (11,5 cortes/min, planos de 20–57 s), lo contrario de reto.md (golpe < 1 s o repetido en 4–5 ángulos, 27 cortes/min)."
+  },
+  "estilo_por_que": "DECISIÓN (Mac/Lucas, 2026-11-24): estilo «vlog», tipo «aventura»; ver frontera_con_reto. Razonamiento original del agente, que proponía reto: ESTILO = «reto» (Lucas, 2026-11-24: solo existen «vlog» y «reto»; viaje es una sección de vlog). TIPO = «oficio» (probar un trabajo peligroso en otro país: «mi próximo oficio», 0:18.8). Por qué RETO y no vlog: 1) OBJETIVO CON DESENLACE medible dicho en el gancho — «quiero descubrir cuánto dinero podemos ganar» (0:20.2) y «recolectar el nido más grande que encontremos» (0:24.1) — y resuelto con cifra en pantalla en el último minuto: 950 € + 650 € + 400 € + 500 € → «total: 2.750€» (22:51.0–23:04.0); 2) MISIONES: «otra pequeña misión por completar» (5:11, seguir a una avispa con una pluma) que FRACASA (8:14–8:37, «creo que nuestra prueba va a ser directamente con el nido grande») y una «prueba» previa para perder el miedo (granja de saltamontes 8:57–11:19); 3) RIESGO REAL repetido 9 veces (mata a decenas de personas 0:00, uno de los trabajos más peligrosos 0:16.7, 3 hospitales y farmacias 1:00–1:07, «si te pica esto te puede matar» 2:13, cicatrices + Google + 2 fotos de hinchazón 11:27–11:59, «los mata a los niños» 17:14…), con la picadura como amenaza que nunca se cumple («por suerte no me picó ninguna», 18:18); 4) le falta el MARCADOR: no hay lista, contador ni barra (en Yakutia/Titanic sí). Lo que tiene de viaje es poco y comprimido: 1 mapa 3D tipo satélite (globo con relieve, 0,8 s, f399–f425, dentro del gancho), 0 rótulos de lugar (solo «Vietnam» en el mapa), trayecto resumido en 12 s con 3 cifras gigantes (20 horas / 5 horas / 3 horas, 0:45.4–0:57.3), 2 datos del pueblo (menos de 100 habitantes, 3 hospitales), 1 rótulo «DÍA 2» (11:20.6) y 3 precios locales (traje 30 €, 17 €/kg, caja de 20 kg = 340 €). El 90 % del metraje (2:00–22:50) es hacer el trabajo, no estar en un sitio. Si el editor lo quiere tratar como vlog, la parte de viaje cabe en la sección «En viajes» del estilo vlog, pero la columna vertebral (promesa de dinero → riesgo → resultado con cifra) es de reto.",
+  "modelo": "opus"
+ },
+ "resumen": [
+  "Rubén va a una aldea de la jungla de Vietnam a trabajar un día y medio de «granjero de avispas asesinas»: el objetivo es saber cuánto dinero se gana y sacar el nido más grande; 23:13, 333 planos según el detector (≈ 430 contando los jump cuts a ojo), 14,3 cortes/min detectados (≈ 18,5 reales), mediana 3,10 s, voz el 85 % y música el 76 % del metraje.",
+  "Intro EXPLICATIVA de 37,4 s (f0–f1121): 30,7 s de gancho grabado a cámara en casa (sudadera verde) que explica la premisa con 9 animaciones (emoji 💀, titular de prensa subrayado, flecha + foco con «mira qué mono», 5 precios verdes que saltan cada 7 f, nubes → mapa 3D «Vietnam», texto a máquina «granjero / de avispas asesinas») y 12 planos del propio vídeo intercalados (59 % del gancho), a 1,71 s/plano; luego la cabecera dibujada «las aventurillas de rubén · edición peligro» de 6,77 s con papel arrugado de 8 f de entrada y 6 de salida.",
+  "El cuerpo es una escalera de tensión: aviso (pueblo con 3 hospitales) → primer contacto (avispa en el brazo, plano de 57,5 s sin música) → compra del traje → patrocinio de 92 s → misión fallida de la pluma → prueba de los saltamontes (humor) → DÍA 2 con cicatrices, Google y fotos de picaduras → ponerse el traje en montaje de jump cuts (≈ 17 cortes en 34 s) → 44 s SIN música acercándose al nido → ataque con la música 2,3 dB POR ENCIMA de la voz (13:23–13:45) → extracción.",
+  "Tras el clímax el vídeo no baja: procesar el panal (nacimiento de una avispa en macro 15:51–16:10), separar pupas (Kakuna), freír, probar en plano largo de 27,6 s con «pollo!» subtitulado, comida con la familia, venta pesada en báscula y reflexión en off de 65 s sobre un recap del vídeo, rematada con los precios verdes sobre las cajas y «total: 2.750€».",
+  "Casi todo corte seco: 5 transiciones construidas en 23 min (papel de entrada y salida de la cabecera, nubes → mapa, y 2 empujones de zoom acelerados ×1,75 en 12 f y ×1,89 que acaban en corte). Sin zoom animado sobre quien habla: 7 planos a cámara medidos en 0,993–1,011.",
+  "Rótulos de una sola familia grotesca negrita blanca, minúsculas, sombra suave, sin caja, que aparecen de golpe y salen por corte; top-3 de fuente_rotulo.py: Inter 600 / Manrope 800 / Archivo 600 (+0,70–0,82). El verde lima #33FD09 queda para el dinero y el amarillo para lo que dice otro.",
+  "Los rótulos caen en el fotograma de su palabra («20» f1396 / rótulo f1396; «5» f1457 / f1455; 💀 f41 / «asesina» f41) y a veces dan un dato que la voz no dice («3 horas», «total: 2.750€»).",
+  "Efectos de sonido escasísimos: solo 8 eventos confirmados en el espectrograma (≈ 0,5/min): 5 pops en serie con los precios del gancho, pop con la tarjeta del canal, golpe con «DÍA 2», 2 clics con las fotos de picaduras, ding con el premio del patrocinio, con «500€» y con «total: 2.750€». El resto del énfasis lo hacen la voz, la música que se quita y se pone, y el corte.",
+  "La voz en off en pasado (≈ 18 bloques, ≈ 3:20, 14 %) hace de puente entre escenas y de explicación encima del clímax, y siempre acaba en gancho hacia lo siguiente; cierre con moraleja en off («a veces tienen forma de problema y otras veces tienen alas y aguijón») y pantalla final dibujada de 9,1 s con CTA a otro vídeo del canal."
+ ],
+ "contexto": {
+  "quien": "Rubén Holgado (YouTuber español de documental de aventura, ~923 K suscriptores según su tarjeta de canal en 8:40), solo ante cámara; Lein/Lee (granjero de avispas, presentado con etiqueta en 1:15.75), los vecinos que «avispan», la familia de Lein (mujeres y niños separando pupas) y el comprador intermediario. Nadie del equipo habla en cámara.",
+  "donde": "Una aldea de menos de 100 habitantes en la jungla del norte de Vietnam (arrozales en terraza, niebla), a la que llega tras 20 h de avión, autobús-cama atascado en el barro y furgoneta (0:45–0:57). El gancho se graba aparte, en casa, con otra ropa.",
+  "objetivo": "Trabajar como granjero de avispas asesinas: aprender a localizar nidos, sacar «el nido más grande de la temporada» (80 kg, 15:15) con traje de 30 €, procesarlo, probarlo y venderlo para saber cuánto dinero se gana. En juego: picaduras que «pueden matar» y el resultado económico.",
+  "tono": "Aventura con humor y miedo real: Rubén hace de novato asustado («me está dando mucha cosa» ×3, 2:28–2:32), con chistes de reacción (la avispa se le caga en la mano 2:49–3:14, saltamontes en la mano sin darse cuenta 9:49, «sabe a pollo» 19:25), pocos momentos didácticos (nido, sexos de avispa, especie invasora en España con 3 titulares 6:34–6:53) y un cierre reflexivo.",
+  "gancho_5s": "f0: macro de una avispa enorme sobre un guante con la cara de Rubén detrás + «Esto es una avispa asesina» y, en f41, 💀 sobre otra avispa devorando una cigarra con «y mata a decenas de personas cada año»; en 0:03.8 ya se pasa al giro: «Y esto es un bebé» con flecha roja y empujón de zoom ×1,75. Peligro + giro en 5 s.",
+  "gancho_30s": "Promete tres cosas: que la larva es una delicia que vale «miles de euros» (precios verdes saltando sobre el panal, 0:09.4–0:10.8), que hay un oficio nuevo y peligroso en una aldea de Vietnam (mapa, texto a máquina) que será «mi próximo oficio», y dos desenlaces: cuánto dinero ganará y el nido más grande. Remata con humor sin música («a ver si con un poquito de suerte no nos pica ninguna», 0:27.2) y «Empieza la aventurilla» (J-cut de 19 f sobre la cabecera).",
+  "preguntas_abiertas": [
+   "¿Cuánto dinero se gana? — abierta en 0:20.2, recordada en 15:03 («venderlo»), 20:02 («tendríamos que esperar… para descubrir cuánto dinero habíamos ganado») y 21:25 («llegó el momento de ver cuánto dinero»); cerrada en 23:01.75 con «total: 2.750€» (22 min 41 s después).",
+   "¿Encontrará el nido más grande? — abierta en 0:24.1, reabierta en 11:19 («el nido más importante de toda la temporada»); cerrada en 14:18–14:30 al destapar el panal de 4 anillos (y «quizás pesaba 80 kilos», 15:15).",
+   "¿Le picará una avispa? — abierta en 0:27.2, mantenida con avisos durante todo el vídeo; cerrada en off en 18:18 («Al final, por suerte, no me picó ninguna avispa»).",
+   "¿Funcionará lo de la pluma? — abierta en 6:06, cerrada en 8:29 (fracasa: las avispas vuelven a casa de Lein).",
+   "¿A qué sabe? — abierta en 0:07.5 («es una delicia») y 15:11 («también probarlo»), cerrada en 19:25 («sabe a pollo»)."
+  ],
+  "giros": [
+   "0:03.8: «y esto es un bebé… es una delicia» — del miedo al valor.",
+   "1:43: Lein coge una avispa con la mano sin protección.",
+   "2:49: la avispa se le caga en la mano (giro cómico en mitad de la tensión).",
+   "5:16: «me ha dicho Lynn que no hacía falta traje».",
+   "8:23: dos grupos de avispas se pelean y la misión de la pluma fracasa: «nuestra prueba va a ser directamente con el nido grande».",
+   "13:35: una avispa clava el aguijón en la cámara.",
+   "15:51–16:10: nace una avispa en directo.",
+   "17:04: hay niños junto a los panales («a los niños directamente los mata»).",
+   "21:41: la reflexión cambia el foco del dinero a Lein («lo espabilado que había sido»)."
+  ],
+  "recompensas": [
+   "Imagen del panal gigante de 4 anillos concéntricos (14:18–14:34).",
+   "Macro del nacimiento de una avispa (15:51–16:10).",
+   "Comparación pupa ↔ Kakuna (17:38, chiste visual).",
+   "La degustación con «pollo!» y «sabe a pollo» (19:25–19:36).",
+   "Las cifras finales: 4 precios verdes y «total: 2.750€» (22:51–23:04).",
+   "Moraleja de una línea (22:38–22:44)."
+  ]
+ },
+ "curva_energia": [
+  {"minuto": 0, "nivel": 5, "motivo": "gancho de 30,7 s a 35 cortes/min, 12 planos-tráiler, 9 animaciones, música alta (11 dB bajo la voz) + cabecera dibujada con jingle; luego 20 h / 5 h / 3 h en cifras gigantes"},
+  {"minuto": 1, "nivel": 4, "motivo": "pueblo con 3 hospitales (aviso), aparece Lein con etiqueta, furgoneta en off; 19 planos (mediana 2,23 s); música quitada 1:13–1:25 para presentar a Lein; Lein coge una avispa con la mano (1:43)"},
+  {"minuto": 2, "nivel": 4, "motivo": "panales y pupas; plano de 57,5 s (2:16.1–3:13.7) con la avispa andándole por el brazo, sin batería 2:17–2:36; solo 6 planos en el minuto: la tensión la sostiene el plano largo"},
+  {"minuto": 3, "nivel": 3, "motivo": "remate cómico (se le caga en la mano), «Necesito un traje ya» → montaje POV de 17 s a 24,7 cortes/min con rótulo «pov:» y música; entra el patrocinio (3:36)"},
+  {"minuto": 4, "nivel": 2, "motivo": "patrocinio Revolut: el minuto con más gráficos (mockup, flujo, nuggets −30 €, TAE, QR, 20 €→10.000 €, premio con ding) pero sin acción; 15 planos"},
+  {"minuto": 5, "nivel": 3, "motivo": "fin del patrocinio (plano fijo de 15,3 s), voz en off plantea la misión, «*buscando avispas*» con música sin voz (5:40–5:47)"},
+  {"minuto": 6, "nivel": 3, "motivo": "plan de la pluma, inserto de manos atándola (6:08), explicación de especie invasora con 3 titulares en un plano fijo de 21,8 s"},
+  {"minuto": 7, "nivel": 3, "motivo": "escupir agua con azúcar, «sabe a zumo de caña», atrapan una avispa y le pegan la pluma (voz en off 7:42–7:54); 16 planos"},
+  {"minuto": 8, "nivel": 3, "motivo": "foco circular siguiendo a la avispa en el cielo (8:16), la misión fracasa, música quitada 8:05–8:40; CTA de suscripción de 18 s con tarjeta de canal (pop) y de analítica"},
+  {"minuto": 9, "nivel": 2, "motivo": "granja de saltamontes: planos largos de gran angular (mediana 4,97 s), sin música 8:46–9:13, vídeo de móvil en ventana (9:58)"},
+  {"minuto": 10, "nivel": 2, "motivo": "dentro de la granja, 9 planos (mediana 5,24 s); humor del truco del vaso (10:43–10:57)"},
+  {"minuto": 11, "nivel": 4, "motivo": "coge un saltamontes, empujón ×1,89 → «DÍA 2» con golpe, cicatrices en 3 insertos, Google tecleado, 2 fotos de picaduras con clic; 20 planos (mediana 2,27 s)"},
+  {"minuto": 12, "nivel": 4, "motivo": "ponerse el traje en montaje sin voz con ≈ 6 jump cuts ocultos (≈ 20 planos reales), voz en off del miedo, aproximación al nido SIN música desde 12:39; avispas en guantes y visor en macro"},
+  {"minuto": 13, "nivel": 5, "motivo": "destapan el nido, ataque: música por encima de la voz (13:23–13:45, −2,3 dB), avispas contra el visor y la cámara («ha clavado el aguijón» 13:35)"},
+  {"minuto": 14, "nivel": 5, "motivo": "el panal de 4 anillos (14:18), explicación en el traje cubierto de avispas, extracción en montaje sin voz (14:47–15:03) con música 5,7 dB bajo la voz media; 8 planos, máx. 22 s"},
+  {"minuto": 15, "nivel": 4, "motivo": "voz en off «ahora quedaban las partes más importantes» + flash-forward del plato frito; cortar el panal, macros de pupas; 17 planos con 2 de < 1 s"},
+  {"minuto": 16, "nivel": 4, "motivo": "nacimiento de una avispa (15:51–16:10), moto a casa, limpiar el micro (gag 16:39–16:52)"},
+  {"minuto": 17, "nivel": 3, "motivo": "familia separando pupas, niños, Kakuna en tarjeta (17:38), música quitada 17:03–17:22; 18 planos"},
+  {"minuto": 18, "nivel": 3, "motivo": "pupas vivas que pican, voz en off de la fritura, titular blanco «superalimento» (18:37.6), «muchas gracias :(» subtitulado (18:52.0)"},
+  {"minuto": 19, "nivel": 4, "motivo": "la degustación: plano de 20 s en trípode con un jump cut oculto, «pollo!» subtitulado (19:29.3), «La cabeza no la recomiendo»; solo 6 planos detectados: el pico es la reacción, no el ritmo"},
+  {"minuto": 20, "nivel": 2, "motivo": "espera del comprador en off, comida en la mesa con cenitales, sin música 19:56–20:36"},
+  {"minuto": 21, "nivel": 3, "motivo": "chiste de la tortilla de patatas, «de españa» subtitulado, empaquetado, báscula: 17 €/kg, caja de 340 €; arranca la reflexión en off con recap (21:41)"},
+  {"minuto": 22, "nivel": 4, "motivo": "reflexión + recap (arrozales, Lein, nido, visor), música quitada 22:18–22:47 para la moraleja, luego 4 precios verdes sobre las cajas (ding en 500€)"},
+  {"minuto": 23, "nivel": 3, "motivo": "«total: 2.750€» con ding (23:01.75) y pantalla final dibujada de 9,1 s"}
+ ],
+ "picos_y_preparacion": [
+  "Pico 1 (2:16–3:13): se prepara con avisos hablados (1:00 hospitales, 2:13 «te puede matar») y se sostiene con un único plano de cámara en mano de 57,5 s; la batería se retira 2:17–2:36 y el alivio llega con un chiste (2:49).",
+  "Pico 2 (13:23–13:45): 11 s de explicación técnica en directo sin música (12:46–12:56), 44 s sin música de cama (12:39–13:23) mientras se acercan, voz en off que sube la apuesta («el traje lo habíamos comprado por 30 euros», con flashback de la compra 13:20–13:22) y entonces la música entra de golpe por encima de la voz (−2,3 dB).",
+  "Pico 3 (19:00–19:36): «estamos en una situación difícil de escapar… están mirando todos» (18:59–19:04), plano largo en trípode sin cortar mientras mastica, y el pago con subtítulo «pollo!».",
+  "Pico 4 (22:47–23:04): la reflexión baja la música a −38 dB y la quita en 22:18–22:47; la cifra llega sobre silencio con sus dings."
+ ],
+ "ritmo_informacion": "Algo nuevo cada 8–15 s en el cuerpo (lugar, persona, dato, giro o chiste) y cada 1,7 s en el gancho (un plano o un gráfico por frase). Las esperas y trayectos se recortan siempre con voz en off o cifra, nunca con cámara rápida ni rótulo «X horas después»: el viaje de 1,5 días en 12 s y 3 cifras (0:45.4–0:57.3); la ida a casa de Lein en una frase en off sobre la furgoneta (1:21–1:25); la compra del traje en 17 s de POV sin voz (3:20–3:37); el transporte del nido en 7 s de off (16:17–16:24); la espera del comprador en 8 s de off (20:02–20:10). Lo que NO se recorta: los momentos de miedo y de comer (planos de 20–57 s) y las explicaciones de los locales traducidas en directo.",
+ "estructura": [
+  {"desde": "0:00.00", "hasta": "0:30.70", "parte": "Gancho explicativo (cold open en casa + tráiler intercalado)", "que_pasa": "Premisa en 10 frases a cámara con 12 planos del propio vídeo y 9 animaciones; dos promesas (dinero y nido más grande) y remate cómico."},
+  {"desde": "0:30.66", "hasta": "0:37.40", "parte": "Cabecera dibujada (f919–f1121)", "que_pasa": "«las aventurillas de rubén» (toca el nido, le pican) → «edición peligro» (sube hinchado como un globo); papel arrugado de entrada y salida; jingle cantado."},
+  {"desde": "0:37.30", "hasta": "1:37", "parte": "Llegada y contexto", "que_pasa": "«Muy buenos días por la mañana» a las 5:55; viaje en 3 cifras; pueblo con 3 hospitales; aparece Lein; furgoneta a su casa en off."},
+  {"desde": "1:37", "hasta": "3:20", "parte": "Primer contacto", "que_pasa": "Panales y pupas, Lein coge avispas con la mano, avispa en el brazo de Rubén (plano de 57,5 s), se le caga encima. «Necesito un traje ya»."},
+  {"desde": "3:20", "hasta": "3:36", "parte": "Compra del traje", "que_pasa": "«pov: yendo a comprar un traje antiavispas» sobre selfie en moto, mercado, sin voz con música."},
+  {"desde": "3:36", "hasta": "5:09", "parte": "Patrocinio (92 s)", "que_pasa": "Revolut, enlazado desde «llevamos efectivo»; 10 gráficos y aviso legal fijo abajo."},
+  {"desde": "5:09", "hasta": "8:38", "parte": "Misión 1: la pluma", "que_pasa": "Voz en off plantea la misión; «*buscando avispas*»; especie invasora con 3 titulares; agua con azúcar; pluma pegada; foco en el cielo; fracasa."},
+  {"desde": "8:38", "hasta": "8:57", "parte": "CTA de suscripción (19 s)", "que_pasa": "«estamos a punto de llegar al millón», tarjeta de canal con pop, tarjeta de analítica + «más de la mitad de vosotros no estáis suscritos 😈»."},
+  {"desde": "8:57", "hasta": "11:20", "parte": "Prueba: granja de saltamontes", "que_pasa": "Para perder el miedo; planos largos, humor, coge uno «por mi propia voluntad»."},
+  {"desde": "11:20.58", "hasta": "12:42", "parte": "DÍA 2 y preparación", "que_pasa": "Rótulo con golpe tras empujón ×1,89; picaduras (cicatrices, Google, 2 fotos); «Ha llegado el gran día»; ponerse el traje en montaje de jump cuts."},
+  {"desde": "12:42", "hasta": "15:03", "parte": "Clímax: el nido gigante", "que_pasa": "Aproximación sin música, avispas en guantes y visor, destapan, ataque con música por encima, panal de 4 anillos, extracción sin voz."},
+  {"desde": "15:03", "hasta": "18:18", "parte": "Procesar el botín", "que_pasa": "Cortar el panal (80 kg), nacimiento de una avispa, moto, limpiar el micro, separar pupas con la familia (Kakuna)."},
+  {"desde": "18:18", "hasta": "21:19", "parte": "Cocinar y comer", "que_pasa": "Fritura, titular de superalimento, degustación en plano largo («pollo!»), comida familiar, tortilla de patatas."},
+  {"desde": "21:19", "hasta": "22:47", "parte": "Venta + reflexión", "que_pasa": "Comprador, báscula, 17 €/kg; reflexión en off sobre Lein y las oportunidades sobre recap (interrumpida 22:02–22:12 por «¡Son nueve!»)."},
+  {"desde": "22:47", "hasta": "23:04.05", "parte": "Desenlace de la promesa", "que_pasa": "950€, 650€, 400€, 500€ sobre las cajas → «total: 2.750€»; «ya está vendido al intermediario»."},
+  {"desde": "23:04.05", "hasta": "23:13.13", "parte": "Pantalla final (9,08 s)", "que_pasa": "Rubén dibujado disfrazado de pollo con flecha verde «mira este video»; voz en off recomendando el vídeo del pueblo aislado."}
+ ],
+ "intro": {
+  "tipo": "explicativa",
+  "por_que_ese_tipo": "La premisa no se entiende sin explicar: que una avispa que mata sea una delicia que vale miles de euros y que exista un oficio de «granjero de avispas» en una aldea concreta. Por eso los 30,7 s de gancho son Rubén CONTANDO a cámara (10 frases, 0 de sonido directo del viaje) con una animación o gráfico que ilustra cada frase: 9 animaciones en 30,7 s (una cada 3,4 s) y 5 precios. Es explicativa con tráiler intercalado: 12 planos del vídeo ocupan 18,1 s (59 %), pero siempre como ilustración de la frase, nunca con su sonido. No es corta: no hay ráfaga ni estrobo (cortes_rafagas.json: los 3 «cortes en ráfaga» de 0:30.73–0:30.86 son los dibujos del papel arrugado, verificado en f919–f926), no hay tráiler sin voz cortado a la música y la cabecera llega a los 30,7 s, no a los 5–10.",
+  "duracion_s": 37.4,
+  "duracion_f": 1121,
+  "duracion_hablada_s": 30.6,
+  "primer_plano_hablando_s": 0.0,
+  "primer_plano_a_camara_s": 2.27,
+  "orden": "0) cold open de peligro: macro de avispa en guante (f0–f22) → 1) 💀 sobre avispa devorando cigarra (f23–f67) → 2) a cámara con titular subrayado (f68–f110) → 3) giro «esto es un bebé»: panal + flecha + empujón ×1,75 (f111–f133) → 4) macro con foco y «mira qué mono» (f134–f178) → 5) a cámara (f179–f222) → 6) larva frita + cara de asco (f223–f269) → 7) precios verdes sobre el panal (f270–f325) → 8) arrozales → nubes → mapa 3D «Vietnam» (f326–f425) → 9) a cámara con texto a máquina «granjero / de avispas asesinas» (f426–f503) → 10) traje cubierto de avispas + cara en el visor (f504–f563) → 11) a cámara cerrado/abierto «y mi próximo oficio… cuánto dinero» (f564–f663) → 12) panal con traje + destapar el nido (f664–f815) → 13) remate a cámara sin batería + «Empieza la aventurilla» (f816–f918) → 14) papel arrugado (f919–f926) → 15) «las aventurillas de rubén» (f926–f1027) → 16) «edición peligro» (f1028–f1115) → 17) papel arrugado de salida a la calle (f1116–f1121).",
+  "sin": "sin saludo antes de la cabecera, sin ráfaga ni estrobo, sin título grande del vídeo (el nombre es la cabecera de la serie), sin sonido directo del viaje en el gancho, sin subtítulos, sin efectos de sonido en el emoji, el titular, la flecha, el mapa ni el texto a máquina (ninguno confirmado en el espectrograma)",
+  "medidas": {
+   "planos": "18 planos de vídeo en el gancho (17 cortes del detector; el paso nubes → mapa es un encadenado dentro de f326–f425) + 2 pantallas de cabecera + 2 transiciones de papel",
+   "cortes_por_minuto": "35,1 en el gancho (17 cortes en 29,1 s hasta f872)",
+   "plano_media_s": 1.71,
+   "plano_mediana_s": 1.5,
+   "menos_de_1s": "5 de 18 (28 %): f0–f22, f111–f133, f223–f244, f245–f269, f504–f531",
+   "micro_rafagas": "2 grupos de 3 cortes en ≤ 2 s: f223/f245/f270 (0:07.44–0:09.01, planos de 22 y 25 f) y f504/f532/f564 (0:16.82–0:18.82, 28 y 32 f); planos de 0,7–1,1 s, no estrobo",
+   "ilustraciones": "9 animaciones en f41–f503 (una cada 3,4 s) + 5 precios + 1 cabecera",
+   "sincronia": "💀 f41 / «asesina» f41 (0 f); precios f282, f289, f296, f303, f310 / «miles» f287 (el primero 5 f ANTES de la palabra); «Vietnam» dicho en f370 sobre la inclinación al cielo y el mapa llega en f399–f417 (≈ 1 s DESPUÉS); «granjero» se teclea desde f430 / palabra f438 (8 f antes); «de avispas asesinas» desde f459 / «de» f451 (8 f después); «Empieza la aventurilla» f900 / papel f919 (J-cut de 19 f)"
+  },
+  "animaciones_explicativas": [
+   {"n": 1, "t": "0:01.37–0:02.24", "frase": "«Esto es una avispa ASESINA (f41) y mata a decenas…»", "que_es": "emoji 💀 de Apple colocado sobre la cigarra que devora la avispa", "f0": 41, "f1": 67, "duracion_f": 27, "entrada": "de golpe en f41 (de 1,8 % a 17,4 % de píxeles blancos en su zona en 1 f)", "salida": "por corte f68", "posicion": "x 58–75 %, y 30–62 %", "tamano": "≈ 32 % del alto", "como_esta_hecha": "PNG de emoji fijo a pantalla, sin escala ni rebote", "sfx": "ninguno confirmado (sfx_rev_1: sin raya en 0:01.39)"},
+   {"n": 2, "t": "0:02.27–0:03.67", "frase": "«a decenas de personas cada año»", "que_es": "captura de titular de prensa en tarjeta oscura redondeada con miniatura a la derecha («Un pueblo español bajo asedio por avispas asiáticas asesinas que son “cada vez más letales”»), con la frase clave resaltada en amarillo-verde", "f0": 68, "f1": 110, "duracion_f": 43, "entrada": "la tarjeta ya está en el primer fotograma del plano; el resalte barre «cada vez más letales» de izquierda a derecha (a medias en f69, completo hacia f87)", "salida": "por corte f111", "posicion": "sobre el torso, x 17–82 %, y 61–82 % (no tapa la cara)", "tamano": "65 % del ancho × ≈ 20 % del alto", "color": "caja #22252E aprox., texto blanco/lila, resalte #E6E85A aprox.", "como_esta_hecha": "captura real + máscara de resalte animada (barrido lineal)", "sfx": "ninguno confirmado (sfx_rev_3: nada en 0:02.30)"},
+   {"n": 3, "t": "0:03.70–0:04.44", "frase": "«Y esto (f115) ES (f123) un bebé»", "que_es": "flecha roja plana con sombra apuntando a la celda + empujón de zoom digital hacia ella", "f0": 111, "f1": 133, "duracion_f": 23, "entrada": "flecha presente desde f111; el zoom arranca en f121 (justo en «es», f123)", "movimiento": "escala 1,00 hasta f121 → 1,017 (f123) → 1,12 (f126) → 1,36 (f129) → 1,54 (f131) → 1,75 (f133): ×1,75 en 12 f, curva ease-in (acelera hasta el corte)", "salida": "por corte f134 al macro de la misma celda (corte en movimiento)", "posicion": "flecha en x≈27–45 %, y≈40–55 %", "tamano": "flecha ≈ 18 % del ancho", "como_esta_hecha": "zoom digital con curva exponencial sobre plano de móvil + flecha con seguimiento", "sfx": "probable whoosh (mancha de ruido en agudos que crece hacia f121–f133 en sfx_rev_1) pero no limpio → dudas"},
+   {"n": 4, "t": "0:04.47–0:05.94", "frase": "«de avispa asesina»", "que_es": "foco circular (resto oscurecido ≈ 60 %) + flecha roja + comentario girado «mira qué mono»", "f0": 134, "f1": 178, "duracion_f": 45, "entrada": "todo de golpe con el corte", "movimiento": "zoom lento medido ×1,046 en 1,4 s (3,3 %/s), quieto hasta 0:05.3 y luego +4 %", "salida": "por corte f179", "posicion": "texto arriba a la derecha (x 60–70 %, y 5–20 %), girado ≈ 40° siguiendo la flecha", "tamano": "texto ≈ 5 % de alto de x", "como_esta_hecha": "máscara circular de luz + texto rotado + flecha", "sfx": "ninguno confirmado"},
+   {"n": 5, "t": "0:09.41–0:10.85", "frase": "«se llega a vender por MILES (f287) de euros»", "que_es": "5 precios verdes («+8€», «+12€», «+16€», «+10€», «+20€») pegados a las celdas del panal", "f0": 282, "f1": 325, "duracion_f": 44, "entrada": "uno cada 7 f exactos: f282, f289, f296, f303, f310 (medido por píxeles verdes: 132 → 290 → 430 → 545 → 715)", "movimiento": "pegados a la imagen (el plano tiene zoom lento ×1,059 en 1,7 s y deriva vertical)", "salida": "todos a la vez por corte f326", "posicion": "sobre las celdas blancas del panal, x 55–70 %, y 25–65 %", "tamano": "≈ 3,5 % del alto", "color": "#33FD09", "como_esta_hecha": "texto con seguimiento de la imagen, sin animación de entrada", "sfx": "CONFIRMADO: un pop/blip corto por precio (rayas verticales finas a compás de las apariciones; candidatos 0:09.37, 0:09.65, 0:10.12, 0:10.38), 8–10 dB bajo la voz"},
+   {"n": 6, "t": "0:12.4–0:14.18", "frase": "«en una aldea perdida en medio de la jungla en VIETNAM (f370)…»", "que_es": "encadenado inclinación de cámara al cielo nublado → blanco de nube → mapa 3D tipo satélite (globo con relieve) que se aleja hasta Asia; chincheta roja y «Vietnam»", "f0": 372, "f1": 425, "duracion_f": 54, "entrada": "brillo medio de 100 (f372) a 184 (f390): blanco pleno f387–f393; el mapa asoma en f396–f402 y el azul del mar gana desde f411", "movimiento": "zoom-out de cámara virtual ≈ 0,8 s con frenada; chincheta y etiqueta hacia f417", "salida": "por corte f426 a cámara", "posicion": "chincheta en x≈50 %, y≈47 %; «Vietnam» debajo, x 43–59 %, y 49–54 %", "tamano": "«Vietnam» ≈ 3,5 % del alto", "fuente": "fuente_rotulo.py no fiable (−0,09: letra fina sobre relieve); a ojo, la misma grotesca en semi-negrita", "como_esta_hecha": "plantilla de globo 3D tipo Google Earth enlazada por la textura de las nubes", "sfx": "ninguno confirmado (candidatos 0:11.33 y 0:13.20 sin firma)"},
+   {"n": 7, "t": "0:14.35–0:16.78", "frase": "«GRANJERO (f438) de avispas asesinas»", "que_es": "texto a máquina en dos bloques a cada lado de la cara, junto a las manos abiertas", "f0": 430, "f1": 503, "duracion_f": 74, "entrada": "letra a letra: «gr» en f430, «granjero» completo hacia f444 (≈ 17 caracteres/s); «d» en f459, «de avispas ase» en f484, completo hacia f495", "salida": "por corte f504", "posicion": "«granjero» x 15–40 %, y 28–38 % (sobre la mano izquierda); «de avispas asesinas» x 59–92 %, y 33–37 %", "tamano": "≈ 9 % del alto con descendentes (alto de x ≈ 4,5 %)", "fuente": "Inter 600 (+0,823) · Roboto 700 (+0,769) · Chakra Petch (+0,747)", "como_esta_hecha": "animación de escritura (typewriter) sin cursor", "sfx": "posible tecleo (textura de clics desde 0:15.30 en sfx_rev_1) sin confirmar → dudas"},
+   {"n": 8, "t": "0:18.82–0:22.12", "frase": "«Y mi próximo oficio. Quiero descubrir cuánto dinero…»", "que_es": "salto de escala por corte en el mismo tiro (cerrado f564–f608 → abierto f609–f663)", "f0": 564, "f1": 663, "duracion_f": 100, "entrada": "corte seco", "como_esta_hecha": "recorte de un máster más grande (≈ ×1,6 por el tamaño de la cabeza)", "sfx": "ninguno"},
+   {"n": 9, "t": "0:30.66–0:37.40", "frase": "jingle «Las aventurillas de Rubén… edición… peligro»", "que_es": "cabecera dibujada a mano con mini-gag del tema", "f0": 919, "f1": 1121, "duracion_f": 203, "como_esta_hecha": "animación 2D a línea con fondos de acuarela/papel, ≈ 12 dibujos/s (ver titulo_cabecera)", "sfx": "el jingle cantado; el papel no tiene ruido propio distinguible del jingle"}
+  ],
+  "clips_rafaga_trailer": [
+   {"t": "0:00.00–0:00.73 (f0–f22)", "sale_de": "día 2 antes del nido (≈ 12:50–12:58, avispas sobre los guantes y el visor)", "funcion": "llamativo", "que_se_ve": "macro de avispa gigante sobre un guante con la cara desenfocada detrás"},
+   {"t": "0:00.77–0:02.24 (f23–f67)", "sale_de": "no aparece en el cuerpo: recurso macro grabado aparte o archivo", "funcion": "llamativo", "que_se_ve": "avispa devorando una cigarra + 💀"},
+   {"t": "0:03.70–0:04.44 (f111–f133)", "sale_de": "separando pupas (≈ 17:26–17:36)", "funcion": "anticipa", "que_se_ve": "panal en la mano con flecha y empujón de zoom"},
+   {"t": "0:04.47–0:05.94 (f134–f178)", "sale_de": "macros de pupas (≈ 17:36 / 17:44)", "funcion": "anticipa + bonito", "que_se_ve": "macro de las larvas con foco y «mira qué mono»"},
+   {"t": "0:07.44–0:08.14 (f223–f244)", "sale_de": "degustación (19:40, mismo plano)", "funcion": "anticipa", "que_se_ve": "larva frita entre los dedos con su cara detrás"},
+   {"t": "0:08.18–0:08.98 (f245–f269)", "sale_de": "comida con Lein (≈ 15:12 / 20:10–20:30)", "funcion": "llamativo (reacción)", "que_se_ve": "cara de asco en la mesa"},
+   {"t": "0:09.01–0:10.84 (f270–f325)", "sale_de": "separando pupas (≈ 17:26–17:50)", "funcion": "promesa (dinero)", "que_se_ve": "cenital del panal con 5 precios verdes"},
+   {"t": "0:10.88–0:12.4 (f326–f371)", "sale_de": "llegada en vehículo (≈ 1:26; reutilizado en el recap 21:48)", "funcion": "bonito", "que_se_ve": "arrozales en terraza con niebla desde el coche, inclinación al cielo"},
+   {"t": "0:16.82–0:17.72 (f504–f531)", "sale_de": "clímax (≈ 14:08)", "funcion": "llamativo", "que_se_ve": "traje cubierto de avispas"},
+   {"t": "0:17.75–0:18.79 (f532–f563)", "sale_de": "≈ 12:54–12:58 (reutilizado en el recap 22:37)", "funcion": "llamativo", "que_se_ve": "su cara dentro del visor con avispas por fuera"},
+   {"t": "0:22.16–0:24.09 (f664–f722)", "sale_de": "extracción (≈ 14:40–15:00; reaparece en el recap 21:56)", "funcion": "anticipa", "que_se_ve": "con el traje sujetando un panal redondo entre avispas"},
+   {"t": "0:24.12–0:27.19 (f723–f815)", "sale_de": "destapando el nido (≈ 14:18–14:24)", "funcion": "promesa (el nido más grande)", "que_se_ve": "guantes destapando el nido gigante"}
+  ],
+  "clips_rafaga_trailer_resumen": {
+   "total": "12 clips, 18,1 s de 30,7 s (59 %)",
+   "de_donde": "11 del propio rodaje (92 %), 1 macro no localizado (cigarra); el 67 % sale del día 2 (12:50–17:50), ninguno de los minutos 2–11",
+   "funcion": "llamativo 5 (42 %) · anticipa 4 (33 %) · promesa 2 (17 %) · bonito 1 (8 %)",
+   "duraciones_f": "22–93 f (mediana 29 f ≈ 1,0 s)",
+   "que_nunca_entra": "ningún trayecto (avión, autobús, furgoneta), nada del patrocinio, de la misión de la pluma, de los saltamontes ni de la venta: el resultado económico y Lein no se enseñan",
+   "regla": "cada clip ilustra el sustantivo o el verbo de su frase («avispa asesina» → macro; «bebé» → larva; «delicia» → larva frita; «miles de euros» → precios; «aldea perdida» → arrozales; «peligrosos» → traje cubierto)"
+  },
+  "linea_de_tiempo": [
+   {"f0": 0, "f1": 22, "t": "0:00.00", "que_se_ve": "macro de avispa sobre guante, cara detrás", "origen": "propio (día 2)", "camara": "mano, macro", "zoom_velocidad": "—", "texto": "—", "motion_graphic": "—", "sfx": "—", "musica": "pista con pulso desde f0, −28 dB (≈ 11 dB bajo la voz)", "voz": "«Esto es una avispa asesina»"},
+   {"f0": 23, "f1": 67, "t": "0:00.77", "que_se_ve": "avispa devorando una cigarra", "origen": "aparte/archivo", "camara": "macro fijo", "zoom_velocidad": "—", "texto": "—", "motion_graphic": "💀 de golpe f41", "sfx": "—", "musica": "sigue", "voz": "«y mata a decenas de personas»"},
+   {"f0": 68, "f1": 110, "t": "0:02.27", "que_se_ve": "a cámara en casa, sudadera verde, plano medio", "origen": "grabado aparte", "camara": "trípode", "zoom_velocidad": "×1,006 (fijo)", "texto": "—", "motion_graphic": "titular en tarjeta con resalte que barre", "sfx": "—", "musica": "sigue", "voz": "«…cada año»"},
+   {"f0": 111, "f1": 133, "t": "0:03.70", "que_se_ve": "panal en la mano", "origen": "propio (≈ 17:30)", "camara": "mano", "zoom_velocidad": "empujón ×1,75 f121–f133 (ease-in)", "texto": "—", "motion_graphic": "flecha roja", "sfx": "whoosh probable (dudas)", "musica": "sigue", "voz": "«Y esto es un bebé»"},
+   {"f0": 134, "f1": 178, "t": "0:04.47", "que_se_ve": "macro de larvas", "origen": "propio", "camara": "macro", "zoom_velocidad": "×1,046 en 1,4 s", "texto": "«mira qué mono» girado", "motion_graphic": "foco + flecha", "sfx": "—", "musica": "sigue", "voz": "«de avispa asesina»"},
+   {"f0": 179, "f1": 222, "t": "0:05.97", "que_se_ve": "a cámara", "origen": "aparte", "camara": "trípode", "zoom_velocidad": "—", "texto": "—", "motion_graphic": "—", "sfx": "—", "musica": "la pista cae (sin música medida 0:07–0:11)", "voz": "«Todavía no puede matar a nadie»"},
+   {"f0": 223, "f1": 244, "t": "0:07.44", "que_se_ve": "larva frita entre los dedos", "origen": "propio (19:40)", "camara": "mano", "zoom_velocidad": "—", "texto": "—", "motion_graphic": "—", "sfx": "—", "musica": "hueco", "voz": "«pero es una delicia»"},
+   {"f0": 245, "f1": 269, "t": "0:08.18", "que_se_ve": "cara de asco en la mesa", "origen": "propio", "camara": "mano", "zoom_velocidad": "—", "texto": "—", "motion_graphic": "—", "sfx": "—", "musica": "hueco", "voz": "«y se llega a vender»"},
+   {"f0": 270, "f1": 325, "t": "0:09.01", "que_se_ve": "cenital del panal", "origen": "propio", "camara": "mano cenital", "zoom_velocidad": "×1,059 en 1,7 s", "texto": "+8€ … +20€ en f282/289/296/303/310", "motion_graphic": "precios con seguimiento", "sfx": "5 pops (confirmados)", "musica": "hueco", "voz": "«por miles de euros»"},
+   {"f0": 326, "f1": 425, "t": "0:10.88", "que_se_ve": "arrozales desde el coche → cielo → blanco (f387–f393) → mapa 3D", "origen": "propio + plantilla de globo", "camara": "mano → cámara virtual", "zoom_velocidad": "zoom-out del globo ≈ 0,8 s", "texto": "«Vietnam» ≈ f417", "motion_graphic": "encadenado nubes → mapa + chincheta", "sfx": "—", "musica": "vuelve (tramo 0:11–0:27, −28 dB)", "voz": "«Por eso en una aldea perdida… en Vietnam (f370) se ha creado un nuevo trabajo»"},
+   {"f0": 426, "f1": 503, "t": "0:14.21", "que_se_ve": "a cámara con las manos abiertas", "origen": "aparte", "camara": "trípode", "zoom_velocidad": "—", "texto": "«granjero» (f430–f444) / «de avispas asesinas» (f459–f495)", "motion_graphic": "texto a máquina", "sfx": "tecleo probable (dudas)", "musica": "sigue", "voz": "«Granjero de avispas asesinas»"},
+   {"f0": 504, "f1": 531, "t": "0:16.82", "que_se_ve": "traje cubierto de avispas", "origen": "propio (14:08)", "camara": "mano", "zoom_velocidad": "—", "texto": "—", "motion_graphic": "—", "sfx": "—", "musica": "sigue", "voz": "«Uno de los trabajos más peligrosos»"},
+   {"f0": 532, "f1": 563, "t": "0:17.75", "que_se_ve": "cara en el visor con avispas", "origen": "propio (12:54)", "camara": "selfie", "zoom_velocidad": "—", "texto": "—", "motion_graphic": "—", "sfx": "—", "musica": "sigue", "voz": "«del mundo»"},
+   {"f0": 564, "f1": 608, "t": "0:18.82", "que_se_ve": "a cámara CERRADO", "origen": "aparte", "camara": "trípode (recorte)", "zoom_velocidad": "salto ≈ ×1,6 por corte", "texto": "—", "motion_graphic": "—", "sfx": "—", "musica": "sigue", "voz": "«Y mi próximo oficio»"},
+   {"f0": 609, "f1": 663, "t": "0:20.32", "que_se_ve": "a cámara ABIERTO", "origen": "aparte", "camara": "trípode", "zoom_velocidad": "vuelta a ×1", "texto": "—", "motion_graphic": "—", "sfx": "—", "musica": "sigue", "voz": "«Quiero descubrir cuánto dinero podemos ganar»"},
+   {"f0": 664, "f1": 722, "t": "0:22.16", "que_se_ve": "con el traje y un panal redondo", "origen": "propio (≈ 14:50)", "camara": "mano", "zoom_velocidad": "—", "texto": "—", "motion_graphic": "—", "sfx": "—", "musica": "sigue", "voz": "«recolectando estas peligrosas avispas»"},
+   {"f0": 723, "f1": 815, "t": "0:24.12", "que_se_ve": "guantes destapando el nido", "origen": "propio (14:18)", "camara": "mano", "zoom_velocidad": "—", "texto": "—", "motion_graphic": "—", "sfx": "—", "musica": "sigue hasta 0:27", "voz": "«vamos a recolectar el nido más grande que encontremos»"},
+   {"f0": 816, "f1": 918, "t": "0:27.23", "que_se_ve": "a cámara, manos cruzadas", "origen": "aparte", "camara": "trípode", "zoom_velocidad": "×0,996 (fijo)", "texto": "—", "motion_graphic": "—", "sfx": "—", "musica": "fuera 0:27–0:29 (remate en seco)", "voz": "«A ver si con un poquito de suerte no nos pica ninguna» + «Empieza la aventurilla» (f900)"},
+   {"f0": 919, "f1": 926, "t": "0:30.66", "que_se_ve": "bola de papel arrugado sobre su cara (f919, ≈ 15 % del alto) → hoja plana (f920, ≈ 35 %) → hoja con agujero que deja ver la cabecera (f921–f925) → cabecera limpia (f926)", "origen": "gráfico", "camara": "—", "zoom_velocidad": "stop-motion 1 dibujo por fotograma", "texto": "«las aventurillas» asoma desde f922", "motion_graphic": "papel arrugado", "sfx": "—", "musica": "arranca el jingle en el corte", "voz": "—"},
+   {"f0": 926, "f1": 1027, "t": "0:30.90", "que_se_ve": "escena 1: Rubén dibujado junto a un nido colgado; «de rubén» se escribe f927–f930; levanta la mano f940; salen avispas f975–f978; queda cubierto de picaduras f992; el logo se borra de derecha a izquierda f992–f995", "origen": "animación", "camara": "—", "zoom_velocidad": "—", "texto": "«las aventurillas de rubén»", "motion_graphic": "cabecera dibujada", "sfx": "—", "musica": "jingle", "voz": "jingle «Las aventurillas de Rubén»"},
+   {"f0": 1028, "f1": 1115, "t": "0:34.30", "que_se_ve": "escena 2: cielo en acuarela con «edición peligro» ya escrito; el personaje hinchado sube flotando desde abajo", "origen": "animación", "camara": "—", "zoom_velocidad": "—", "texto": "«edición peligro»", "motion_graphic": "cabecera dibujada", "sfx": "—", "musica": "jingle", "voz": "«Edición. Peligro.»"},
+   {"f0": 1116, "f1": 1121, "t": "0:37.24", "que_se_ve": "el agujero de papel se cierra sobre la calle (f1116–f1118), hoja arrugada (f1119), bola sobre su cara (f1120) y desaparece", "origen": "gráfico", "camara": "plano general en la calle andando hacia cámara", "zoom_velocidad": "stop-motion inverso", "texto": "—", "motion_graphic": "papel arrugado de salida", "sfx": "—", "musica": "el jingle se va; vlog a −35 dB", "voz": "«Muy buenos días por la mañana, chicos» (0:37.6)"}
+  ],
+  "titulo_cabecera": {
+   "como_se_construye": "Serie fija del canal («las aventurillas de rubén») con subtítulo temático («edición peligro») y un mini-gag del tema dibujado: el personaje toca el nido, le pican y sale volando hinchado. Entrada: papel arrugado en stop-motion de 8 f (f919–f926) que crece desde una bola sobre la cara hasta la pantalla entera. Escena 1 (f926–f1027, 3,4 s) con logotipo ya puesto salvo «de rubén», que se escribe en 4 f; borrado del logo en 4 f (f992–f995). Corte seco a escena 2 (f1028–f1115, 2,9 s). Salida: papel arrugado inverso de 6 f (f1116–f1121). Animación a saltos (≈ 12 dibujos/s), sin interpolar.",
+   "fuente": "logotipo dibujado a mano (más parecido: Caveat Brush / Gaegu Bold); «edición peligro» manuscrita fina tipo Gaegu / Patrick Hand. No medido con fuente_rotulo.py (es dibujo, no tipografía).",
+   "color": "línea negra sobre verde #2E8B62 aprox. con textura de papel y marco crema #F3EFDF; escena 2 cielo azul en acuarela #8CC8E8 aprox.",
+   "duracion_f": 203,
+   "sonido": "jingle cantado («Las aventurillas de Rubén… Edición… Peligro») que empieza en el corte de f919; los candidatos 0:33.00/0:33.27 «boing» son golpes del propio jingle a compás",
+   "hecha": "a mano por un animador (plantilla propia de la serie: la misma estructura en Titanic y Hotel, con fondo y gag distintos por vídeo)"
+  },
+  "primer_plano_hablando_s": 0.0,
+  "comparacion_con_otras_intros_de_ruben": "Misma fórmula que el Hotel (explicativa con cabecera de la serie después), pero aquí el busto se graba en casa y no en el destino, el gancho es más corto (30,7 s frente a 37) y más denso en planos-tráiler (12 frente a 11, 59 % del tiempo), y las animaciones son gráficos de edición (emoji, titular, precios, mapa) en vez de iconos y tarjetas de personaje."
+ },
+ "motion_graphics": [
+  {"tipo": "emoji sobre la imagen", "que_es": "💀 sobre la presa", "apariciones": ["0:01.37–0:02.24 (f41–f67)"], "entrada": "de golpe en la palabra («asesina» f41)", "salida": "corte", "curva": "golpe (0 f)", "posicion": "sobre el objeto", "tamano": "≈ 32 % del alto", "fuente": "emoji de Apple", "sonido": "ninguno confirmado", "por_minuto": "1 en todo el vídeo (+ 😈 dentro de un subtítulo en 8:48)", "cuando_si": "para decir «mortal» sin texto", "cuando_no": "en el cuerpo del vídeo"},
+  {"tipo": "captura en tarjeta (titular / búsqueda)", "que_es": "titular de prensa o resultado de Google en tarjeta redondeada oscura (o blanca) con la frase clave resaltada", "apariciones": ["0:02.27–0:03.67 con resalte amarillo que barre", "6:38.85, 6:45.5, 6:49.7 (tres seguidas en un plano fijo de 21,8 s; la de 6:46 con frase en azul)", "18:37.6 blanca («El superalimento del futuro rico en proteínas…»)"], "entrada": "de golpe (con el corte o a mitad de plano, en la frase que la cita)", "salida": "de golpe, sustituida por la siguiente o por corte", "curva": "golpe; solo el resalte se anima (barrido lineal ≈ 0,6 s)", "posicion": "sobre el torso o al lado de la cara, sin taparla", "tamano": "65–68 % del ancho × 13–20 % del alto", "fuente": "la de la propia captura (Google Sans/Roboto)", "sonido": "ninguno confirmado (0:02.30 y 6:38.92 sin firma)", "por_minuto": "5 en 23 min", "cuando_si": "cuando afirma un dato «serio» (letalidad, invasión en España, superalimento) para darle autoridad", "cuando_no": "en acción"},
+  {"tipo": "flecha roja + foco circular", "que_es": "flecha plana roja con sombra; foco = todo oscurecido salvo un círculo de borde blando", "apariciones": ["0:03.70–0:05.94 (flecha f111–f178; foco f134–f178)", "8:16.3–8:19.7 foco siguiendo a la avispa de la pluma en el cielo"], "entrada": "de golpe con el corte", "salida": "corte", "curva": "golpe; el foco sigue al sujeto", "posicion": "sobre el sujeto", "tamano": "círculo ≈ 10–25 % del ancho", "fuente": "—", "sonido": "ninguno confirmado", "por_minuto": "2 en 23 min", "cuando_si": "para que el ojo encuentre algo pequeño (una celda, una avispa en el cielo)", "cuando_no": "sobre personas"},
+  {"tipo": "contador de precios pegado al objeto", "que_es": "cifras verdes que saltan una a una sobre cosas que valen dinero", "apariciones": ["0:09.41–0:10.85: 5 precios cada 7 f (f282–f310) sobre las celdas", "22:51.0–22:55.0: 950€ (22:51.0), 650€ (22:51.5), 400€ (≈ 22:52.0) sobre las cajas y 500€ (22:53.5) sobre la caja de la báscula"], "entrada": "de golpe, acumulándose; más pequeños cuanto más lejos está la caja", "salida": "todos a la vez por corte", "curva": "golpe", "posicion": "pegados al objeto con seguimiento", "tamano": "3,5 % del alto en el gancho; 950€ 8,3 % (recorte 265×90 px)", "fuente": "Archivo 600 (+0,755) · Roboto 700 (+0,737) · Inter Tight 600 (+0,693) — en «950€»", "sonido": "pop por precio en el gancho (confirmado); ding en 500€ (22:53.74, confirmado); 950/650/400 sin firma", "por_minuto": "9 cifras en 23 min, en 2 ráfagas", "cuando_si": "promesa de dinero en el gancho y su pago al final (mismo gráfico = cierre del círculo)", "cuando_no": "en el patrocinio (allí las cifras son blancas y grandes)"},
+  {"tipo": "mapa 3D tras nubes", "que_es": "globo con relieve tipo satélite que se aleja hasta Asia, con chincheta roja y «Vietnam»", "apariciones": ["0:12.4–0:14.18 (f372–f425), único mapa del vídeo"], "entrada": "encadenado por el blanco de las nubes (f387–f393)", "salida": "corte", "curva": "zoom-out ≈ 0,8 s con frenada", "posicion": "pantalla completa", "tamano": "—", "fuente": "no fiable (ver dudas)", "sonido": "ninguno confirmado", "por_minuto": "1 en 23 min", "cuando_si": "una vez, en el gancho, al nombrar el país", "cuando_no": "en el cuerpo: los desplazamientos se cuentan con cifras y en off, nunca con mapa"},
+  {"tipo": "texto a máquina pegado a las manos", "que_es": "«granjero» / «de avispas asesinas» escritos letra a letra a cada lado de la cara", "apariciones": ["0:14.35–0:16.78 (f430–f503)"], "entrada": "≈ 17 caracteres/s", "salida": "corte", "curva": "lineal", "posicion": "junto a cada mano", "tamano": "alto de x ≈ 4,5 %", "fuente": "Inter 600 (+0,823) · Roboto 700 (+0,769) · Chakra Petch (+0,747)", "sonido": "tecleo probable sin confirmar", "por_minuto": "1 en 23 min", "cuando_si": "para el nombre del oficio, la palabra-concepto del vídeo", "cuando_no": "—"},
+  {"tipo": "cabecera dibujada", "que_es": "ver intro.titulo_cabecera", "apariciones": ["0:30.66–0:37.40 (f919–f1121)"], "entrada": "papel arrugado 8 f", "salida": "papel arrugado 6 f", "curva": "stop-motion", "posicion": "pantalla completa", "tamano": "—", "fuente": "manuscrita dibujada", "sonido": "jingle", "por_minuto": "1", "cuando_si": "siempre tras el gancho", "cuando_no": "—"},
+  {"tipo": "dato grande sobre b-roll", "que_es": "cifra + unidad en blanco gigante centrado", "apariciones": ["0:46.58–0:47.81 «20 horas» (f1396–f1433)", "0:48.55–0:49.92 «5 horas» (f1455–f1496)", "0:54.02–0:56.26 «3 horas» (f1619–f1686, aguanta un cambio de plano interno; la voz NO dice «3 horas»)", "23:01.75–23:04.02 «total: 2.750€» (f41411–f41479, con el corte; la voz dice «unos 2.000 o 3.000 euros» en 22:51.9)"], "entrada": "de golpe en el fotograma de la palabra (f1396 = «20»; f1455 = 2 f antes de «5») o con el corte", "salida": "por corte", "curva": "golpe", "posicion": "centrado, y 38–62 %", "tamano": "«20 horas» 22 % del alto y 68 % del ancho; «total: 2.750€» 14 % × 63 %", "fuente": "ver textos", "sonido": "ding en «total» (confirmado); «20 horas», «5 horas», «3 horas» sin firma", "por_minuto": "4 en 23 min", "cuando_si": "cifras que resumen un trayecto o el resultado", "cuando_no": "datos menores (17 €/kg, 340 € solo se dicen)"},
+  {"tipo": "etiqueta con nombre que sigue a la persona", "que_es": "cajita negra semitransparente con borde blanco fino y «Lein» sobre la cabeza", "apariciones": ["1:15.75–1:17.9 (≈ f2271–f2335)"], "entrada": "de golpe 13 f después de que diga el nombre («Lee» f2258)", "salida": "corte", "curva": "golpe; seguimiento", "posicion": "sobre la cabeza, x 37–42 %, y 13–17 %", "tamano": "≈ 2–2,5 % del alto", "fuente": "fina técnica (tipo Jura/Quicksand, no medida: demasiado pequeña)", "sonido": "ninguno confirmado (1:17.69 sin firma)", "por_minuto": "1 en 23 min", "cuando_si": "al presentar al personaje secundario principal", "cuando_no": "al resto de locales"},
+  {"tipo": "paquete del patrocinio", "que_es": "mockup de app lila junto a la cara, «5€ = ⬡5», pantalla blanca de flujo con iconos, PNG de nuggets «−30€», tarjeta TAE, QR + «regístrate aquí», «20€»→«10.000€», tarjeta del premio Euromoney, aviso legal fijo", "apariciones": ["3:36–5:09 (92 s): ≈ 10 gráficos (6,5/min)"], "entrada": "de golpe o por corte", "salida": "de golpe", "curva": "golpe; el flujo de la pantalla blanca es la única animación con trayectoria (arco de ficha lila, ≈ 4 s)", "posicion": "al lado de la cara (mockup), arriba a la derecha (QR), abajo (aviso legal, y 95–100 %)", "tamano": "aviso legal ≈ 2,2 % del alto", "fuente": "la misma grotesca; aviso legal en blanco con sombra", "sonido": "ding con el premio (4:51.93, confirmado); los demás sin firma", "por_minuto": "6,5 dentro del patrocinio", "cuando_si": "solo en el patrocinio", "cuando_no": "—"},
+  {"tipo": "tarjetas de YouTube (canal y analítica)", "que_es": "capturas de su cabecera de canal (923 K) y del panel de analítica (66,5 % no suscritos) en tarjetas redondeadas", "apariciones": ["8:39.95–8:44 canal", "8:48.35–8:51 analítica + subtítulo «más de la mitad de vosotros no estáis suscritos 😈»"], "entrada": "la del canal de golpe 0,5 s tras el corte, flotando con el plano; la de analítica con el fondo oscurecido ≈ 30 %", "salida": "de golpe", "curva": "golpe", "posicion": "arriba-izquierda (canal, 54 % del ancho) / abajo-centro (analítica, 40 %)", "tamano": "—", "fuente": "captura", "sonido": "pop con la tarjeta del canal (8:40.01, confirmado: raya vertical fina); la de analítica sin firma", "por_minuto": "2 en el CTA", "cuando_si": "en el CTA de suscripción, con dato real", "cuando_no": "—"},
+  {"tipo": "vídeo o foto en ventana / tarjeta", "que_es": "ventana 4:3 sobre el plano desenfocado (9:58, avispa comiendo saltamontes) y fotos en tarjeta redondeada sobre gris oscuro (picaduras)", "apariciones": ["9:57.8–10:00 vídeo de móvil", "11:54.32 foto de mano hinchada", "11:55.69 foto de espalda con picadura"], "entrada": "corte", "salida": "corte", "curva": "golpe", "posicion": "centrada, ≈ 55–62 % del ancho", "tamano": "—", "fuente": "—", "sonido": "clic/pop con cada foto de picadura (11:54.32 y 11:55.69, confirmados; el segundo más flojo); 9:58.10 dudoso", "por_minuto": "3 en 23 min", "cuando_si": "pruebas de algo que no se grabó (vídeos que le enseñan, fotos de picaduras: «para que veáis que no es ningún juego»)", "cuando_no": "—"},
+  {"tipo": "búsqueda de Google tecleada", "que_es": "Google en modo oscuro a pantalla completa; «Picadura avispa asiatic…» se teclea y se despliegan sugerencias", "apariciones": ["11:51.0–11:54.3"], "entrada": "corte", "salida": "corte a las fotos", "curva": "escritura letra a letra", "posicion": "pantalla completa", "tamano": "—", "fuente": "interfaz de Google", "sonido": "tecleo probable (textura de clics desde 11:51.0) sin confirmar", "por_minuto": "1", "cuando_si": "antes de enseñar imágenes que no son suyas", "cuando_no": "—"},
+  {"tipo": "comparación con PNG", "que_es": "Kakuna (Pokémon) en tarjeta blanca junto a las pupas reales", "apariciones": ["17:38 (≈ 2 s)"], "entrada": "de golpe", "salida": "corte", "curva": "golpe", "posicion": "a la izquierda de la macro", "tamano": "≈ 37 % del alto", "fuente": "—", "sonido": "ninguno confirmado (17:38.00 sin firma)", "por_minuto": "1", "cuando_si": "cuando él mismo hace la comparación en voz («son el Kakuna, son pokémons»)", "cuando_no": "—"},
+  {"tipo": "pantalla final dibujada", "que_es": "fondo crema; Rubén dibujado disfrazado de pollo sujeta una flecha verde «mira este video» que apunta al hueco izquierdo", "apariciones": ["23:04.05–23:13.13 (9,08 s)"], "entrada": "corte seco", "salida": "fin", "curva": "bucle: la flecha gira sobre sí misma 23:05.5–23:06.3 y 23:10.6–23:11.3", "posicion": "personaje en x≈70–90 %", "tamano": "personaje ≈ 80 % del alto", "fuente": "manuscrita", "sonido": "posible swish con el giro de la flecha (23:05.89) sin confirmar", "por_minuto": "1", "cuando_si": "siempre (es la del Titanic y el Hotel con disfraz distinto)", "cuando_no": "—"}
+ ],
+ "cortes": {
+  "detector": {"n_cortes": 332, "planos": 333, "cortes_por_minuto": 14.3, "media_s": 4.18, "mediana_s": 3.1, "p10_p90_s": "1,37–7,64", "menos_de_1s": "5 %", "mas_de_5s": "26 %", "max_s": "57,52 (2:16.14–3:13.66)", "transiciones_con_duracion": "1 (0:30.73, el papel)", "cortes_con_acento_de_sonido": "51 (15 %)", "cortes_en_pulso_de_musica": "31 %"},
+  "conteo_a_ojo": {
+   "metodo": "4 tramos de 1 min: hojas a 0,1 s de 30 s (detalle/d01_*) + candidatos del scd (pico ≥ 2 y ≥ 6× la mediana de ±12 f, a > 3 f de un corte detectado) verificados con pares f−2…f+1 (detalle/pares_a/b/c)",
+   "tramos": [
+    {"minuto": "2:00–3:00", "detector": 6, "real": "7–9", "nota": "jump cut al mismo encuadre en 2:07.19 (cambia la postura); probables en 2:52.84 y 2:56.94; 2:44.53 y 2:51.97 no son corte; el plano de 57,5 s es una toma de mano con dos giros bruscos de cámara (2:36.7 y 2:56.5) que no son cortes"},
+    {"minuto": "9:00–10:00", "detector": 12, "real": 13, "nota": "jump cut con salto de encuadre en 9:06.78; 9:06.15, 9:11.45, 9:21.16, 9:21.69 y 9:58.03 no son corte"},
+    {"minuto": "12:00–13:00", "detector": 14, "real": "20–21", "nota": "montaje de ponerse el traje: jump cuts en 12:01.75, 12:04.2, 12:07.69, 12:08.56, 12:15.40 (+ dudoso 12:26.48) y un corte real no detectado en 12:40.46 (traje → logo); 12:24.48, 12:28.08, 12:48.90, 12:49.70, 12:51.94, 12:59.28/.68 no son corte"},
+    {"minuto": "19:00–20:00", "detector": 6, "real": "7–8", "nota": "jump cut en trípode en 19:19.69; dudoso 19:41.25; 19:03.5–19:05.6 es un barrido de cámara de ida y vuelta, no corte"}
+   ],
+   "total_tramos": "38 del detector → 47–51 reales (×1,24–1,34)",
+   "total_estimado": "≈ 430 planos (margen 400–460) → ≈ 18,5 cortes/min (17,2–19,8), plano medio ≈ 3,2 s",
+   "jump_cuts_ocultos": "≈ 100 (≈ 23 % de los cortes), concentrados en los montajes sin voz (traje 12:00–12:34) y en trípode al comer o explicar; en cámara en mano casi no hay"
+  },
+  "por_parte_detector": [
+   {"parte": "gancho 0:00–0:30.7", "planos": 18, "cortes_min": 35.1, "s_plano_media": 1.71, "s_plano_mediana": 1.5, "menos_1s": 5},
+   {"parte": "cabecera", "planos": 2, "s_plano_media": 3.29},
+   {"parte": "llegada 0:37–1:38", "planos": 21, "cortes_min": 20.8, "s_plano_mediana": 2.23},
+   {"parte": "primer contacto 1:38–3:20", "planos": 13, "cortes_min": 7.6, "s_plano_mediana": 2.17, "max": 57.5},
+   {"parte": "compra del traje 3:20–3:37", "planos": 7, "cortes_min": 24.7, "s_plano_mediana": 2.24},
+   {"parte": "patrocinio 3:37–5:10", "planos": 23, "cortes_min": 14.9, "s_plano_mediana": 3.0, "max": 15.3},
+   {"parte": "misión pluma 5:10–8:39", "planos": 51, "cortes_min": 14.6, "s_plano_mediana": 3.64, "max": 21.8},
+   {"parte": "CTA 8:39–8:57", "planos": 5, "cortes_min": 16.7},
+   {"parte": "saltamontes 8:57–11:19", "planos": 23, "cortes_min": 9.7, "s_plano_mediana": 5.14, "max": 18.4},
+   {"parte": "DÍA 2 y preparación 11:20–12:42", "planos": 26, "cortes_min": 19.2, "s_plano_mediana": 2.17},
+   {"parte": "clímax 12:42–15:03", "planos": 27, "cortes_min": 11.5, "s_plano_mediana": 4.0, "max": 22.0},
+   {"parte": "procesar 15:03–18:18", "planos": 47, "cortes_min": 14.5, "s_plano_mediana": 3.14, "max": 19.8},
+   {"parte": "cocinar y comer 18:18–21:19", "planos": 30, "cortes_min": 9.9, "s_plano_mediana": 3.94, "max": 27.6},
+   {"parte": "venta y reflexión 21:19–23:04", "planos": 28, "cortes_min": 16.0, "s_plano_mediana": 3.24},
+   {"parte": "pantalla final", "planos": 1, "s": 9.08}
+  ],
+  "lectura": "El ritmo NO sube en el clímax (11,5 cortes/min frente a 35 del gancho y 19–25 de los montajes): los momentos de miedo y de comer se sostienen en planos de 20–57 s y lo rápido son el gancho, el POV de la compra, el montaje del traje y el DÍA 2.",
+  "rafagas": "0 de estrobo. cortes_rafagas.json (--rafagas --hasta 37.4) marca 3 cortes en 0:30.731/0:30.797/0:30.864: son los dibujos del papel arrugado (f919–f926), no planos. Hay 2 micro-ráfagas de 3 cortes en ≤ 2 s en el gancho (f223–f270 y f504–f564, planos de 0,7–1,1 s del propio vídeo). En el cuerpo, ninguna.",
+  "jump_cuts_al_hablar": "a cámara en trípode, cada 3–6 s o en cada cambio de idea, casi siempre con salto de escala (abierto↔cerrado ≈ ×1,5–1,8 por el tamaño de la cabeza): 0:18.82→0:20.32, 0:40.71, 0:56.29→0:57.26, 8:48.4; en el montaje del traje, uno cada ≈ 2 s sin voz",
+  "j_l_cuts": "J-cuts medidos (palabra → corte de imagen): «Empieza la aventurilla» f900 → papel f919 (19 f); «Justo de la nada apareció» 1:14.09 → 1:14.74 (0,65 s); «Y sin más dilación» 11:19.44 → «DÍA 2» 11:20.58 (1,14 s, la voz en off empieza sobre el empujón de zoom); «Si te ha gustado» 23:03.82 → pantalla final 23:04.05 (0,23 s). L-cuts: el sonido directo sigue bajo la voz en off en los puentes (curva de voz, no escuchado)",
+  "match_cuts": "0:04.44→0:04.47 empujón ×1,75 hacia la celda y corte a la macro de la misma celda; 0:12.9–0:13.1 nubes → mapa por textura; 11:20.55→11:20.58 empujón ×1,89 → rótulo DÍA 2",
+  "insertos_cortos": "manos atando la pluma (6:08, adelanto), 3 insertos de cicatrices de 1,0–1,7 s (11:31.3–11:36.8), flashback de la compra del traje (13:20–13:22) sobre «por 30 euros», flash-forward del plato frito (15:10–15:12) sobre «y también probarlo»",
+  "velocidad": "sin cámara rápida, lenta ni congelados en las hojas; el barrido de cámara de 19:03.5–19:05.6 es real",
+  "transiciones_detectadas": "1 con duración (0:30.73, 0,13 s, el papel); el resto, secos"
+ },
+ "zooms": [
+  {"tipo": "empujón acelerado como transición (antes de corte)", "escala": "×1,75 en 12 f (0,40 s) y ×1,89 en ≈ 1,6 s (de ×1,09 a ×1,89 en los últimos 0,8 s)", "duracion": "12 f / ≈ 48 f", "curva": "ease-in (acelera hasta el corte): 1,00 → 1,017 → 1,12 → 1,36 → 1,54 → 1,75", "centro": "el objeto (la celda) / desplazamiento hacia arriba-izquierda en el segundo", "disparador": "la palabra del giro («es [un bebé]» f123) / la frase que abre capítulo («Y sin más dilación» f20363)", "extras": "whoosh probable en el primero (no confirmado); el segundo acaba en «DÍA 2» con golpe confirmado", "por_minuto": "2 en 23 min", "ejemplos": ["0:04.04–0:04.44 (f121–f133) ×1,75 → macro", "11:19.0–11:20.55 ×1,89 → «DÍA 2»"]},
+  {"tipo": "zoom lento bajo un gráfico", "escala": "×1,046 en 1,4 s (3,3 %/s); ×1,059 en 1,7 s (3,5 %/s); «DÍA 2» +10 % en 0,7 s y deriva (cámara en mano, dudoso)", "duracion": "1,4–2,2 s", "curva": "lineal", "centro": "el objeto", "disparador": "plano con gráfico encima", "extras": "—", "por_minuto": "3 en el gancho/capítulo", "ejemplos": ["0:04.52–0:05.94 macro con foco", "0:09.05–0:10.85 precios verdes", "11:20.62–11:22.80 DÍA 2"]},
+  {"tipo": "fijo a cámara (sin zoom animado)", "escala": "0,993–1,011 en 7 planos medidos", "duracion": "1,1–15,2 s", "curva": "—", "centro": "—", "disparador": "—", "extras": "—", "por_minuto": "—", "ejemplos": ["0:40.75–0:45.30 ×0,997", "0:57.30–1:00.80 ×1,011", "4:54.40–5:09.60 ×0,995 (15 s del patrocinio)", "18:38.85–18:41.20 ×0,993", "23:01.80–23:04.00 ×0,995"]},
+  {"tipo": "salto de escala por corte (punch-in por corte)", "escala": "≈ ×1,5–1,8 estimado por el tamaño de la cabeza (abierto ↔ cerrado del mismo tiro)", "duracion": "1–5 s y vuelve por corte", "curva": "golpe", "centro": "la cara", "disparador": "frase-remate o cambio de idea", "extras": "sin sonido", "por_minuto": "≈ 0,5–1/min en las partes a cámara", "ejemplos": ["0:18.82 cerrado «Y mi próximo oficio» → 0:20.32 abierto", "0:56.29 muy cerrado 1,0 s → 0:57.26 abierto", "18:37.58–18:38.82 primer plano muy cerrado con el titular → 18:38.82 más abierto"]},
+  {"tipo": "cámara virtual de mapa", "escala": "zoom-out de globo ≈ 0,8 s", "duracion": "f399–f425", "curva": "ease-out", "centro": "Vietnam", "disparador": "«Vietnam» (f370, 1 s antes)", "extras": "encadenado por nubes", "por_minuto": "1", "ejemplos": ["0:13.3–0:14.18"]},
+  {"tipo": "movimiento de cámara en mano (no es zoom de edición)", "escala": "0,86–1,35 variable", "duracion": "planos largos de acción", "curva": "—", "centro": "—", "disparador": "—", "extras": "—", "por_minuto": "—", "ejemplos": ["11:04.7–11:18 (0,86–1,36)", "18:41.25–18:47.2 (0,94–1,35)", "8:40.0–8:44.7 deriva −0,7 %/s con la tarjeta del canal"]}
+ ],
+ "textos": [
+  {"tipo": "dato grande (trayecto / resultado)", "fuente": "grotesca negrita. «20 horas»: Manrope 800 (+0,699) · DM Sans 900 (+0,622) · Exo 2 700 (+0,607); «total: 2.750€»: Roboto 700 (+0,500) · Roboto Condensed 700 (+0,486) · Archivo 800 (+0,459). Juicio: Helvetica/Arial Bold (Arimo Bold o Inter 700 como sustituto)", "peso": "bold", "mayusculas": "minúsculas", "color": "#FDFDFD", "borde_sombra": "sin borde ni caja; sombra negra suave difusa", "tamano": "«20 horas» 22 % del alto (recorte de letras 1312×237 px) y 68 % del ancho; «total: 2.750€» 14 % (1209×155 px) y 63 %", "posicion": "centrado, y 38–62 %", "entrada": "de golpe en el fotograma de la palabra (f1396 «20» = f1396; f1455 = 2 f antes de «5»), o con el corte («3 horas» f1619 sin palabra; «total» f41411)", "salida": "por corte", "duracion": "1,2–2,3 s", "por_minuto": "4 en 23 min", "ejemplos": ["0:46.58 «20 horas»", "0:54.02 «3 horas»", "23:01.75 «total: 2.750€»"], "recortes": ["rotulos/dato_20horas_recorte.png", "rotulos/dato_3horas_recorte.png", "rotulos/total_2750_recorte.png"]},
+  {"tipo": "capítulo («DÍA 2»)", "fuente": "Archivo 600 (+0,718) · Inter Tight 700 (+0,617) · Figtree 800 (+0,598). Juicio: la misma grotesca en mayúsculas", "peso": "bold", "mayusculas": "MAYÚSCULAS (único texto en mayúsculas del vídeo)", "color": "#FDFDFD", "borde_sombra": "sombra suave", "tamano": "≈ 26 % del alto de mayúscula (recorte con tilde 934×352 px) y 49 % del ancho", "posicion": "centro, y 33–66 %", "entrada": "ya está en el primer fotograma tras el corte (f20397), que llega tras el empujón ×1,89; la voz dice «día» en f20411", "salida": "por corte f20464 (2,24 s)", "duracion": "2,24 s", "por_minuto": "1 en 23 min (no hay «DÍA 1»)", "ejemplos": ["11:20.58–11:22.82"], "recortes": ["rotulos/capitulo_dia2_recorte.png"]},
+  {"tipo": "rótulo de situación en tramo sin voz", "fuente": "«pov: yendo a comprar»: Inter 600 (+0,759) · Figtree 600 (+0,663) · Space Grotesk 700 (+0,638); «*buscando avispas*»: Chakra Petch (+0,560) · DM Sans 700 (+0,506) · Manrope 800 (+0,504)", "peso": "semi-negrita", "mayusculas": "minúsculas; acción entre *asteriscos*", "color": "#FEFDFB", "borde_sombra": "sombra suave", "tamano": "pov: 2 líneas, alto de línea 11 % (alto de x ≈ 5 %), 71 % del ancho; buscando: 9,7 % con asteriscos, 53 % del ancho", "posicion": "centrado, y 35–66 % (pov) / y 45–55 % (buscando)", "entrada": "de golpe en un corte (pov f6030, 3:21.20; buscando 5:40.24) con la música que entra sin voz", "salida": "de golpe, aguanta 2–3 cortes", "duracion": "3,9 s (pov) / ≈ 6–7 s (buscando)", "por_minuto": "2 en 23 min", "ejemplos": ["3:21.20–3:25.10 «pov: yendo a comprar un traje antiavispas»", "5:40.24 «*buscando avispas*»"], "recortes": ["rotulos/pov_traje_linea1_recorte.png", "rotulos/accion_buscando_recorte.png"]},
+  {"tipo": "texto a máquina / comentario girado (solo gancho)", "fuente": "«granjero»: Inter 600 (+0,823) · Roboto 700 (+0,769) · Chakra Petch (+0,747); «mira qué mono» girado 40° no medido", "peso": "semi-negrita", "mayusculas": "minúsculas", "color": "#FFFDFD", "borde_sombra": "sombra suave", "tamano": "alto de x ≈ 4,5–5 %", "posicion": "junto a las manos / en diagonal con la flecha", "entrada": "letra a letra (≈ 17 car/s) / de golpe", "salida": "corte", "duracion": "1,5–2,5 s", "por_minuto": "2 en el gancho", "ejemplos": ["0:14.35 «granjero»", "0:15.30 «de avispas asesinas»", "0:04.47 «mira qué mono»"], "recortes": ["rotulos/maquina_granjero_recorte.png"]},
+  {"tipo": "precio verde pegado al objeto", "fuente": "Archivo 600 (+0,755) · Roboto 700 (+0,737) · Inter Tight 600 (+0,693)", "peso": "bold", "mayusculas": "—", "color": "#33FD09", "borde_sombra": "sombra negra fina", "tamano": "3,5 % del alto (gancho) / 8,3 % («950€»)", "posicion": "sobre el objeto, con seguimiento", "entrada": "de golpe, uno cada 7 f (gancho) o cada ≈ 0,5 s (final)", "salida": "todos a la vez con el corte", "duracion": "0,5–4 s", "por_minuto": "9 cifras en 23 min", "ejemplos": ["0:09.41 «+8€»", "22:51.0 «950€»", "22:53.5 «500€»"], "recortes": ["rotulos/precio_950_recorte.png"]},
+  {"tipo": "subtítulo puntual", "fuente": "«muchas gracias :(»: Inter 600 (+0,774) · Archivo 600 (+0,631) · Work Sans 600 (+0,609); «pollo!»: Inter 600 (+0,781) · Space Grotesk 700 (+0,778) · Roboto 700 (+0,774)", "peso": "semi-negrita", "mayusculas": "minúsculas incluso en nombres («de españa»)", "color": "#FFFCFA para Rubén; amarillo (#FFE600 aprox.) para el local («dos» 2:40.7)", "borde_sombra": "sombra negra suave, sin caja", "tamano": "≈ 9 % con descendentes (alto de x ≈ 4,5 %), 45 % del ancho en «muchas gracias :(»", "posicion": "abajo centrado, y 84–97 % (línea base ≈ 93 %)", "entrada": "de golpe, frase entera", "salida": "de golpe", "duracion": "1,0–2,5 s («muchas gracias :(» 18:52.03–18:53.07, 31 f)", "por_minuto": "≈ 0,5/min (≈ 12 en el vídeo)", "ejemplos": ["2:40.7 «dos» (amarillo)", "18:52.03 «muchas gracias :(»", "19:29.3 «pollo!»", "21:10 «de españa»", "8:48.4 «más de la mitad de vosotros no estáis suscritos 😈»"], "recortes": ["rotulos/subtitulo_muchas_gracias_recorte.png", "rotulos/subtitulo_pollo_recorte.png"]},
+  {"tipo": "etiqueta de nombre", "fuente": "fina técnica tipo Jura/Quicksand (no medida, 2 % del alto)", "peso": "regular", "mayusculas": "Capitalizada («Lein»)", "color": "texto blanco en caja negra semitransparente con borde blanco 1–2 px", "borde_sombra": "borde fino", "tamano": "≈ 2–2,5 %", "posicion": "sobre la cabeza con seguimiento", "entrada": "de golpe 13 f después del nombre", "salida": "corte", "duracion": "≈ 2,1 s", "por_minuto": "1", "ejemplos": ["1:15.75 «Lein»"], "recortes": []},
+  {"tipo": "aviso legal del patrocinio", "fuente": "la misma grotesca (no medida)", "peso": "bold", "mayusculas": "frase normal", "color": "#ECEAEC", "borde_sombra": "sombra suave", "tamano": "≈ 2,2 % del alto, 1–2 líneas", "posicion": "abajo centrado, y 95–100 %", "entrada": "de golpe, cambia con cada afirmación", "salida": "fin del patrocinio", "duracion": "todo el patrocinio (3:38–5:08)", "por_minuto": "—", "ejemplos": ["4:07 «Aviso legal: +18. Se aplican los T&C de RevPoints…»", "4:39 «+18. Promoción válida hasta el 31/12/2026…»", "4:51.9 «Aviso legal: Fuente: Premios Euromoney 2025.»"], "recortes": ["rotulos/aviso_legal_recorte.png"]},
+  {"tipo": "manuscrita dibujada (cabecera y pantalla final)", "fuente": "dibujada a mano (≈ Caveat Brush / Gaegu / Patrick Hand)", "peso": "400–700", "mayusculas": "minúsculas", "color": "negro sobre verde/azul; verde en la flecha final", "borde_sombra": "ninguno", "tamano": "«aventurillas» ≈ 10 % de alto de x; «edición peligro» 2 líneas ≈ 20 %", "posicion": "izquierda-centro", "entrada": "se escribe en 4 f / ya puesta", "salida": "se borra en 4 f / corte / papel", "duracion": "3,4 s y 2,9 s", "por_minuto": "—", "ejemplos": ["0:30.9", "0:34.3", "23:04.05"], "recortes": []}
+ ],
+ "subtitulos": {
+  "subtitulan_todo": false,
+  "a_quien": "a Rubén en frases cortas con locales y en remates de chiste (blanco); a los locales solo cuando dicen algo inteligible en español o inglés (amarillo). El vietnamita no se subtitula.",
+  "cuanto": "≈ 12 en 23 min (≈ 0,5/min), 1–2,5 s cada uno",
+  "estilo": "misma grotesca semi-negrita, minúsculas, sombra suave sin caja, abajo centrado (línea base ≈ 93 %), alto de x ≈ 4,5 %, frase entera de golpe; admite emoticonos («:(», «😈»)"
+ },
+ "sfx": {
+  "confirmados": [
+   {"t": "0:09.37 · 0:09.65 · 0:10.12 · 0:10.38 (+ 1 más en la serie)", "tipo": "pop/blip corto (rayas verticales finas a compás, sfx_rev_1)", "acompaña_a": "cada precio verde que salta sobre el panal (f282–f310)", "respecto_voz_db": "−8 a −10"},
+   {"t": "4:51.93", "tipo": "ding (raya horizontal que se apaga hacia la derecha)", "acompaña_a": "tarjeta del premio Euromoney del patrocinio", "respecto_voz_db": -5},
+   {"t": "8:40.01", "tipo": "pop/click (raya vertical finísima de arriba abajo)", "acompaña_a": "tarjeta de cabecera del canal en el CTA", "respecto_voz_db": -8},
+   {"t": "11:20.63", "tipo": "golpe/impacto (raya vertical + grave sostenido tras silencio)", "acompaña_a": "rótulo «DÍA 2» tras el empujón de zoom", "respecto_voz_db": "+8 (sin voz encima; respecto a la voz media)"},
+   {"t": "11:54.32", "tipo": "clic/pop (raya vertical fina)", "acompaña_a": "foto de mano hinchada en tarjeta", "respecto_voz_db": "no medido (acento de audio.json, fuera del cupo de sfx.json)"},
+   {"t": "11:55.69", "tipo": "clic/pop más flojo", "acompaña_a": "segunda foto de picadura", "respecto_voz_db": "no medido"},
+   {"t": "22:53.74", "tipo": "ding/caja registradora (rayas horizontales que se apagan)", "acompaña_a": "«500€» sobre la caja de la báscula", "respecto_voz_db": -7},
+   {"t": "23:01.84", "tipo": "ding (raya horizontal media)", "acompaña_a": "«total: 2.750€» (entra con el corte 23:01.75)", "respecto_voz_db": "no medido (acento de audio.json)"}
+  ],
+  "por_minuto": "≈ 0,5/min confirmados (12 sonidos en 8 eventos en 23,2 min): 5 en el gancho, 1 en el patrocinio, 1 en el CTA, 3 en DÍA 2/picaduras, 2 en el desenlace",
+  "reglas": [
+   "Llevan efecto los gráficos que SUMAN o CUENTAN algo: precios (pop por cifra), premio y total (ding), tarjeta de canal y fotos (clic), capítulo (golpe).",
+   "No llevan efecto confirmado: el emoji, el titular, la flecha, el mapa, el texto a máquina, la etiqueta de Lein, los datos «20/5/3 horas», los subtítulos, el «pov» ni los zooms: el énfasis lo da la voz.",
+   "Nivel: 5–10 dB bajo la voz; solo el golpe del capítulo suena fuerte, y va sobre silencio."
+  ],
+  "candidatos_descartados": [
+   "0:16.15, 0:19.21, 0:23.97, 0:24.86, 0:25.11, 0:27.86 «redoble/error»: pulso de la música del gancho y consonantes de la voz",
+   "0:30.71, 0:31.37, 0:32.68, 0:33.00, 0:33.27, 0:34.91, 0:35.17: golpes del jingle de la cabecera a compás",
+   "0:01.39 (💀), 0:02.30 (titular), 0:11.33, 0:13.20 (mapa), 0:46.63 «20 horas», 0:48.83 «5 horas», 0:54.30 «3 horas»: sin firma en el espectrograma",
+   "2:34.76–2:56.44 (8 candidatos, +6 a +22 dB): sonido directo de Rubén y Lein con la avispa",
+   "3:15–3:30 (7): música del montaje POV a compás (cada 0,25 s)",
+   "3:53.53, 3:54.42, 4:39.19, 4:41.26: sin firma bajo el pulso del patrocinio (acento cada 0,97 s)",
+   "5:17–7:53 (31): música y ambiente de la jungla; 5:40.17 y 3:21.17 son la ENTRADA de la música sin voz, no efectos",
+   "8:58–9:13 y 9:28–9:50 (10): ambiente de la granja y saltamontes",
+   "11:31.27–11:36.76 (5): voz y risas de los locales con las cicatrices",
+   "12:41–13:40 (35): zumbido de avispas contra el micro y la música del ataque",
+   "15:16–16:03 (22, muchos sin voz y +60 dB sobre música): música alta del montaje de extracción",
+   "16:32–16:47 (10): cambio de pista (16:32) y golpes de la nueva música",
+   "17:04–17:25 (12): voces de la familia y ambiente",
+   "19:11–20:31 (20): masticar, risas y ambiente de la comida",
+   "21:06–21:37, 22:13, 22:43, 22:50.76: música de la reflexión y ambiente",
+   "22:51.0 (950€), 22:51.6 (650€), 22:52.3 (400€): sin firma",
+   "23:04.33: entrada de la pantalla final sin firma"
+  ]
+ },
+ "musica": {
+  "proporcion": "76 % del vídeo con música detectada (por batería/bajo: los colchones sin percusión no cuentan)",
+  "primera_musica_s": 0,
+  "voz_menos_musica_db": "mediana 13,6 dB. Gancho 10,8–11,7 (música a −28 dB); vlog 16–21 (−35 a −42 dB); patrocinio 18,6; saltamontes 11,5; preparación 9,7; ATAQUE 13:23–13:45 −2,3 (música −20 dB, POR ENCIMA de la voz); extracción 13:48–15:18 5,7; procesar 9,7–11,5; comer 13–16; reflexión 17,5 (−38 dB)",
+  "tramos": "0:00–0:07 y 0:11–0:27 gancho; 0:29–1:13 cabecera y llegada; 1:25–1:38; 1:43–2:17; 2:36–5:10 (cambio de pista 3:14); 5:15–6:41; 6:48–7:19; 7:29–8:05 (cambio 7:36); 8:40–8:46; 9:13–11:43; 11:50–12:39; 13:23–15:18; 15:19–16:16; 16:21–17:03 (cambio 16:32); 17:22–18:05; 18:11–18:58; 19:04–19:40; 19:49–19:56; 20:36–20:49; 21:09–21:16; 21:22–22:18; 22:47–23:12",
+  "cambios_de_pista": "4 detectados: 2:06, 3:14 (compra del traje/patrocinio), 7:36, 16:32 (procesar); más el jingle de la cabecera",
+  "silencios_intencionados": [
+   "0:07–0:11 y 0:27–0:29: la música cae para la frase del giro («todavía no puede matar a nadie») y para el remate cómico antes de la cabecera",
+   "1:13–1:25: aparece Lein (presentación limpia) y 2:17–2:36: la avispa en el brazo",
+   "8:05–8:40 y 8:46–9:13: fracaso de la misión, mitad del CTA y llegada a la granja",
+   "12:39–13:23 (44 s): aproximación al nido y explicación técnica — el silencio prepara la entrada de la música por encima de la voz",
+   "17:03–17:22 (niños y peligro), 19:56–20:36 y 20:49–21:09 (comer, charla con la familia), 22:18–22:47 (moraleja)"
+  ],
+  "a_ritmo_de_cortes": "no: 31 % de los cortes con música caen en pulso; sí en el POV de la compra (pulso cada 0,25 s) y en los saltos de los precios",
+  "lufs": "−15,6 LUFS integrados, LRA 9,7, pico +0,6 dBTP",
+  "directo_vs_musica": "En la acción con habla manda el directo (avispa en el brazo, comer) y la música se quita; en la acción sin habla (traje, ataque, extracción) la música sube al nivel de la voz o por encima."
+ },
+ "broll": {
+  "proporcion_sobre_voz": "59 % en el gancho (18,1 de 30,7 s, medido por cortes); 100 % en los bloques de voz en off (≈ 3:20); ≈ 15–20 % cuando habla a cámara sobre el terreno (estimación en las hojas); global ≈ 30–35 % del tiempo con voz (estimación)",
+  "de_donde": "≈ 90 % del mismo rodaje (flash-forwards en el gancho, insertos del momento, flashbacks como la compra del traje en 13:20 y el recap final 21:48–22:46); ≈ 5 % grabado aparte (avión, autobús-cama, autobús en el barro, furgoneta, cajero del patrocinio); ≈ 5 % archivo/capturas (titulares, Google, fotos de picaduras, Kakuna, globo 3D, macro de la cigarra)",
+  "duracion_tipica": "0,7–2 s en el gancho; 1–3 s en el cuerpo (insertos en parejas); 3–6 s en los bloques de voz en off",
+  "vuelta_a_camara": "siempre por corte seco, casi siempre con cambio de escala respecto al último plano a cámara; en el gancho cada 1,5–3,5 s, en el cuerpo tras 1–3 insertos"
+ },
+ "voz_en_off": {
+  "uso": "≈ 18 bloques, ≈ 3:20 (≈ 14 % del vídeo), 4–21 s (mediana ≈ 9 s), todos sobre b-roll: 1:14–1:25, 1:37–1:43, 5:09–5:15, 5:24–5:41, 6:53–6:58, 7:42–7:54, 11:19–11:26, 12:34–12:43, 13:11–13:24, 13:31–13:35, 15:03–15:15, 16:10–16:24, 18:18–18:25, 20:02–20:10, 21:15–21:28, 21:41–22:02 y 22:13–22:46 (reflexión, 54 s en dos partes), 23:03.8–23:12.5 (pantalla final). Tres usos: saltar de escena, explicar encima del clímax y sostener la promesa.",
+  "guion": "en pasado y primera persona del plural frente al presente del directo («Lynn nos metió en una moto…», «Cada vez salían más avispas del nido y se iban poniendo más y más agresivas»); frases cortas con «Y / Pero / Aún así» y cierre en gancho («teníamos otra pequeña misión por completar», «ahora quedaban las partes más importantes: transportarlo, procesarlo y venderlo», «tendríamos que esperar sufriendo un poquito más para descubrir cuánto dinero habíamos ganado»); la reflexión final cambia a moraleja con juego de palabras («a veces tienen forma de problema y otras veces tienen alas y aguijón»).",
+  "mezcla": "mismo nivel que el directo; la música debajo a 10–17 dB en los puentes y a −38 dB (17,5 dB bajo la voz) en la reflexión; en el ataque (13:23–13:35) la voz en off va con la música por encima; entra 0,2–1,1 s antes del corte de imagen"
+ },
+ "transiciones": [
+  {"tipo": "corte seco", "t": "≈ 327 de 332 cortes del detector (≈ 425 de ≈ 430 reales)", "duracion_f": 0, "donde": "todo, incluidos cambios de escena y de día", "sfx": "—"},
+  {"tipo": "papel arrugado en stop-motion (entrada)", "t": "0:30.66–0:30.90 (f919–f926)", "duracion_f": 8, "donde": "gancho → cabecera", "sfx": "jingle (sin ruido de papel distinguible)"},
+  {"tipo": "papel arrugado inverso (salida)", "t": "0:37.24–0:37.40 (f1116–f1121)", "duracion_f": 6, "donde": "cabecera → vlog", "sfx": "—"},
+  {"tipo": "inclinación al cielo → blanco de nubes → mapa", "t": "0:12.4–0:13.4 (f372–f402)", "duracion_f": 30, "donde": "gancho, al nombrar Vietnam", "sfx": "—"},
+  {"tipo": "empujón de zoom acelerado y corte", "t": "0:04.04–0:04.44 (f121–f133) · 11:19.0–11:20.55", "duracion_f": "12 / ≈ 48", "donde": "giro del gancho y apertura del DÍA 2", "sfx": "whoosh probable (1.º) · golpe confirmado en el rótulo (2.º)"},
+  {"tipo": "corte a pantalla gráfica completa", "t": "3:58.7 (flujo patrocinio), 11:51.0 (Google), 11:54.3 y 11:55.7 (fotos), 23:04.05 (pantalla final)", "duracion_f": 0, "donde": "patrocinio, picaduras, cierre", "sfx": "clic en las fotos"}
+ ],
+ "cierre": {
+  "como_acaba": "(1) 21:41–22:46 reflexión en off sobre Lein y las oportunidades con recap del propio vídeo (arrozales, Lein en el campo, nido, visor, macro de la avispa) interrumpida por 10 s de directo («¡Son nueve! ¡Nine!», 22:02–22:12); (2) 22:47–23:04 cumplimiento de la promesa con 4 precios verdes y «total: 2.750€» (ding), «ya está vendido al intermediario»; (3) pantalla final. Sin despedida a cámara: «Adiós» en off en 23:12.5.",
+  "cta": "Suscripción a mitad de vídeo (8:38–8:57, 19 s) con dato real («a punto de llegar al millón») y tarjeta de analítica; patrocinio con su QR (4:39–5:01); al final, otro vídeo del canal en off enlazado por tema («el pueblo más aislado del mundo… en el que casualmente también vemos alguna avispa asiática»).",
+  "pantalla_final": "23:04.05–23:13.13 (9,08 s): ilustración en fondo crema, Rubén disfrazado de pollo (guiño a «sabe a pollo») con flecha verde «mira este video» hacia el hueco izquierdo; bucle en el que la flecha gira 2 veces; música hasta el final (−34 dB)"
+ },
+ "para_el_estilo": [
+  "Estructura de reto en 4 golpes: promesa con cifra en el gancho («cuánto dinero») → misión pequeña que falla a 1/3 (5:11–8:37) → prueba para perder el miedo → clímax a 2/3 (12:42–15:03) → resultado con el MISMO gráfico que la promesa en el último minuto (precios verdes 0:09 → 22:51).",
+  "Intro explicativa de 30 ± 5 s grabada aparte a cámara: 10 frases, un plano del propio vídeo por sustantivo (59 % del tiempo, 12 clips de 22–93 f) y un gráfico distinto cada ≈ 3,4 s; luego la cabecera de la serie (6,5–7 s).",
+  "Escalera de avisos: dejar caer el peligro con datos cada 1–3 min (hospitales, «te puede matar», cicatrices, fotos) y que la amenaza NO se cumpla; cerrarla en off con una frase («por suerte no me picó ninguna»).",
+  "Antes del clímax, 30–45 s sin música de cama (aproximación + explicación en directo) y la música entra de golpe POR ENCIMA de la voz (+2 dB) en el ataque; después, montaje sin voz con la música 5–6 dB bajo la voz media.",
+  "Clímax y reacciones en planos largos (20–57 s) sin cortar: 11,5 cortes/min en el clímax frente a 35 en el gancho y 19–25 en los montajes de preparación.",
+  "Montaje de preparación (ponerse el traje) en jump cuts al mismo encuadre cada ≈ 2 s, sin voz, con música (≈ 17 cortes en 34 s).",
+  "Capítulo «DÍA N» con empujón de zoom acelerado ×1,9 que acaba en el rótulo, golpe de sonido sobre silencio y J-cut de la voz en off 1,1 s antes.",
+  "Precios verdes #33FD09 pegados al objeto, uno cada 7 f con un pop cada uno, para todo lo que vale dinero; el total final en blanco gigante con ding.",
+  "Rótulos que dan un dato que la voz NO dice («3 horas», «total: 2.750€») para no alargar la frase.",
+  "Qué NO se hereda del CONTEXTO: aquí no hay marcador de progreso (ni lista, ni barra, ni contador), ni mapa de ruta en el cuerpo, ni punch-in ×2–3 para el chiste (el humor va en subtítulo o en la reacción en plano largo), y los efectos de sonido son ≈ 0,5/min, no 3–5/min."
+ ],
+ "para_la_base": [
+  "Cada texto entra en el fotograma de su palabra (0–2 f antes) y sale por corte: medido en 💀 (f41/f41), «20 horas» (f1396/f1396), «5 horas» (f1455/f1457).",
+  "Una sola familia grotesca negrita para todo (Inter 600–700 / Arimo Bold), minúsculas, sombra suave, sin caja; solo cambia el tamaño: 22 % datos, 26 % capítulo, 9–11 % rótulos de situación, 4,5 % subtítulos y comentarios.",
+  "Efecto de sonido solo cuando el gráfico suma o cuenta algo (precio, total, premio, tarjeta, capítulo), a 5–10 dB bajo la voz; ninguno en emojis, mapas, titulares ni zooms.",
+  "Voz en off en pasado de 4–21 s como puente, 100 % sobre b-roll, que entra 0,2–1,1 s antes del corte y acaba en gancho hacia la escena siguiente.",
+  "Trayectos y esperas resumidos con cifra gigante o una frase en off (12 s para 1,5 días de viaje), nunca con cámara rápida.",
+  "Música que se QUITA para presentar a un personaje, para el remate cómico y antes del clímax; que se PONE en montajes sin voz y en la reflexión final (a 17 dB bajo la voz)."
+ ],
+ "para_el_motor": {
+  "ESCALAS": "[1.0, 1.0, 1.6, 1.0, 1.0, 1.0, 1.5] — a cámara casi todo a ×1,0 con un salto de escala por corte (≈ ×1,5–1,8, estimado) cada 3–4 cortes; nunca zoom animado sobre quien habla",
+  "CAMBIO_CADA": "(3.0, 6.0) — jump cut a cámara cada 3–6 s; en montajes sin voz (traje) (1.5, 2.5)",
+  "Z_FUERTE": 1.75,
+  "Z_FUERTE_nota": "como EMPUJÓN ANIMADO ease-in de 12 f antes de un corte (no como punch-in estático); 2 en 23 min; el de capítulo ×1,9 en ≈ 1,6 s",
+  "CARA_Y": "≈ 0,38–0,42 en los planos a cámara cerrados del gancho (cabeza en el tercio superior)",
+  "SFX": {"titulo": "None (la cabecera lleva su jingle)", "seccion": "(\"impacto\", -6) — solo en «DÍA N», sobre silencio", "trk": "None", "mapa": "None", "suscribe": "(\"pop\", -8) — con la tarjeta del canal", "dato": "(\"pop\", -9) por cada precio; (\"ding\", -6) para el total y premios", "golpe": "None"},
+  "MUSICA_NIVELES": {"BASE": "≈ 17 dB bajo la voz (vlog 16–21 medido)", "TRAILER": "≈ 11 dB bajo la voz (gancho, −28 dB)", "TITULO": "jingle de la cabecera a nivel de música de gancho", "SINVOZ": "montajes a nivel de la voz (−17 a −25 dB); clímax +2 dB POR ENCIMA de la voz", "CIERRE": "≈ 17,5 dB bajo la voz (−38 dB)", "notas": "música en el 76 % del tiempo, con ventanas de silencio de 8–44 s en los momentos de tensión, presentación y chiste"},
+  "LUFS": "medido −15,6 (dejar −14 de la base)"
+ },
+ "dudas": [
+  "Efectos de sonido sin confirmar (firma ambigua en el espectrograma): whoosh del empujón de 0:04.04–0:04.44; tecleo en el texto a máquina (0:14.35/0:15.30) y en Google (11:51.0–11:53.5); 9:58.10 con el vídeo en ventana; 11:35.09 (raya horizontal con un inserto de cicatriz: puede ser tono del ambiente); swish del giro de la flecha en la pantalla final (23:05.89). No se ha escuchado nada: los confirmados lo son por forma de espectrograma + coincidencia con el gráfico.",
+  "Conteo a ojo de cortes: 4 tramos de 1 min (2, 9, 12 y 19); el minuto 12 es un montaje de jump cuts y puede sobreestimar el factor; margen dado 400–460 planos. Quedan dudosos 2:52.84, 2:56.94, 12:26.48 y 19:41.25.",
+  "El macro de la avispa devorando una cigarra (0:00.77–0:02.24) no aparece en el cuerpo: recurso propio grabado aparte o archivo.",
+  "Orígenes de los clips del tráiler localizados en hojas de 2 s (±5–10 s).",
+  "Salto de escala por corte (≈ ×1,5–1,8) estimado por el tamaño de la cabeza; no se sabe si es segunda cámara o recorte de un máster 4K.",
+  "La fuente de «Vietnam» en el mapa no es medible (fuente_rotulo.py −0,09, texto fino sobre relieve); la de «total: 2.750€» queda justo en el umbral (+0,500).",
+  "Tramos de música detectados por batería/bajo: los silencios listados pueden tener un colchón sin percusión.",
+  "Proporción de b-roll fuera del gancho y reparto de orígenes (90/5/5) son estimaciones visuales.",
+  "Tiempos de algunos subtítulos («de españa» 21:10, «sabe a pollo» 19:36) vistos solo en hojas de 2 s (±1 s)."
+ ],
+ "cambios_frente_a_v1": [
+  "Estilo: la v1 lo llamaba «vlog de reto»; la v2 lo fija como estilo «reto», tipo «oficio», con el porqué (objetivo con desenlace + misión + riesgo; sin marcador).",
+  "Tipo de intro: nuevo en la v2 → «explicativa» (9 animaciones en 30,7 s), con cada animación en fotogramas.",
+  "Cortes reales: la v1 solo daba el detector (331 cortes); la v2 cuenta a ojo 4 tramos → ≈ 430 planos (400–460), ≈ 18,5 cortes/min, ≈ 100 jump cuts ocultos (23 %). El detector nuevo da 332 cortes / 333 planos (p90 7,64 s frente a 7,78).",
+  "Ráfagas: la v2 comprueba que los 3 «cortes en ráfaga» de 0:30.73–0:30.86 son el papel arrugado (0 estrobo) y encuentra 2 micro-ráfagas de 3 cortes en ≤ 2 s en el gancho.",
+  "Primer empujón de zoom: v1 ×1,605 en 0,6 s → v2 ×1,75 en 12 f (f121–f133), medido fotograma a fotograma hasta el corte, ease-in.",
+  "Empujón antes de «DÍA 2»: v1 ×2,075 en 2,2 s → v2 ×1,89 (de ×1,09 a ×1,89 en los últimos 0,8 s).",
+  "Cabecera: v1 6,6 s (0:30.76–0:37.34) con papel de ~6 f de entrada y ~4 de salida → v2 203 f (f919–f1121, 6,77 s), entrada 8 f (bola → hoja → agujero), salida 6 f, «de rubén» escrito en 4 f, avispas f975, logo borrado f992–f995.",
+  "Calavera: v1 «en 'mata' 0:01.4» → v2 entra en f41 con «asesina» (f41); «mata» llega en f63.",
+  "Precios del gancho: v1 0:09.4/9.7/9.9/10.1/10.4 → v2 f282/289/296/303/310, cada 7 f exactos, el primero 5 f antes de «miles».",
+  "Mapa: la v2 mide que «Vietnam» se dice en f370 sobre el cielo y el mapa llega ≈ 1 s después (blanco f387–f393, chincheta ≈ f417).",
+  "Efectos de sonido: la v1 daba ≈ 3–5/min con 18 ejemplos sacados de acentos de audio (💀, «20 horas», «5 horas», «5€=5», «−30€», TAE, tecleo…); la v2 solo confirma 8 eventos (≈ 0,5/min) mirando el espectrograma; los demás pasan a descartados o dudas.",
+  "Fuentes: la v1 ponía «Arimo/Inter Bold» a juicio; la v2 da el top-3 medido con --color (Inter 600 +0,76–0,82 en subtítulos, pov y máquina; Manrope 800 +0,699 en «20 horas»; Archivo 600 +0,718 en «DÍA 2»; Archivo 600 +0,755 en «950€»).",
+  "Tamaños: «20 horas» 22 % del alto (v1 20–21 %); «DÍA 2» ≈ 26 % (v1 24 %).",
+  "Rótulos sin palabra: la v2 detecta que «3 horas» y «total: 2.750€» no se dicen (dato solo en pantalla).",
+  "Plano de 57,5 s: la v2 lo revisa a 0,1 s (2:30–3:00) y es una toma de mano con dos giros bruscos; el jump cut oculto del minuto 2 está en 2:07.19.",
+  "Clímax: la v2 mide 44 s sin música de cama (12:39–13:23) antes de que la música entre por encima de la voz (−2,3 dB, 13:23–13:45); la v1 daba silencios sueltos de 12:46–13:00 y 13:05–13:14."
+ ],
+ "comparacion_con_otras_fichas_de_ruben": {
+  "fichas": "2026-05-10_fui-al-hotel-mas-aislado-del-mundo.json (la más detallada, estilo vlog/viaje) y la v1 de este vídeo",
+  "sello_fijo": [
+   "Habla desde el fotograma 0, sin saludo; cabecera dibujada «las aventurillas de rubén» + subtítulo temático («edición peligro» / «EDICIÓN HOTELES») DESPUÉS del gancho, con transición de papel (aquí arrugado 8 f / 6 f; en el Hotel, roto).",
+   "Intro explicativa de 30–45 s con gráficos que ilustran cada frase y cifras de viaje gigantes en blanco (20 h / 5 h / 3 h aquí; 10 h / 5 h / 1 h allí).",
+   "Una sola grotesca negrita blanca en minúsculas para todo, de golpe, sin caja; subtítulos puntuales con amarillo para el otro.",
+   "Sin zoom animado sobre quien habla (planos a cámara 0,99–1,01 en las dos fichas).",
+   "Voz en off en pasado como puente (13–16 %) y cierre reflexivo con moraleja en off.",
+   "Efectos de sonido escasísimos y solo en gráficos que imitan algo con sonido o cuentan dinero (0,16/min allí, ≈ 0,5/min aquí).",
+   "Pantalla final dibujada con flecha verde «mira este video» de ≈ 9 s y CTA de suscripción a mitad metido en un gag con dato real."
+  ],
+  "cambia_aqui": [
+   "Es RETO, no vlog: promesa de dinero con resultado en cifra al final; el Hotel tenía misiones sin riesgo ni desenlace.",
+   "El busto del gancho se graba en casa, no en el destino, y lleva 12 planos-tráiler (59 % del gancho) frente a una pieza larga a cámara en Miami.",
+   "Más ritmo: 14,3 cortes/min detectados (≈ 18,5 reales) y mediana 3,10 s, frente a 10,3 (≈ 15,9) y 3,84 s del Hotel: hay secundarios (Lein, vecinos, familia) y acción, no un hombre solo en una cabaña.",
+   "Música en el 76 % del tiempo (52 % en el Hotel) y más alta (13,6 dB bajo la voz frente a 17,1), con silencios de tensión de hasta 44 s y el ataque por encima de la voz.",
+   "Sin punch-in ×3 de remate (el Hotel tenía 5): el humor va en subtítulo («pollo!», «muchas gracias :(») o en la reacción en plano largo.",
+   "Un solo mapa (globo 3D de 0,8 s en el gancho) frente a 5 mapas con ruta dibujada; aquí el desplazamiento no importa.",
+   "Precios verdes con seguimiento como hilo de la promesa (gancho y desenlace) y rótulo «DÍA 2» con empujón de zoom (el Hotel no tenía rótulo de día).",
+   "Patrocinio de 92 s con 10 gráficos (el Hotel no tenía patrocinio integrado comparable)."
+  ]
+ }
+}

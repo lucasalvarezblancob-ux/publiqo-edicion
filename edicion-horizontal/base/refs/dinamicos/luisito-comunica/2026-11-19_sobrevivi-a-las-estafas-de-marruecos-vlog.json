@@ -1,0 +1,2085 @@
+{
+  "video": {
+    "archivo": "refs/dinamicos/luisito-comunica/2026-11-19_sobrevivi-a-las-estafas-de-marruecos-vlog.mp4",
+    "creador": "Luisito Comunica (Luis Arturo Villar)",
+    "canal": "Luisito Comunica",
+    "url": "https://www.youtube.com/watch?v=7qGh-XHnuwI",
+    "titulo": "Sobreviví a las estafas de MARRUECOS | Vlog 🇲🇦",
+    "duracion": "36:44.87 (2204,87 s; 132.289 fotogramas)",
+    "publicado": "2026-11-19",
+    "fps": 60,
+    "resolucion": "1920×1080",
+    "idioma": "español de México (whisper: es), con frases en inglés, francés y árabe con vendedores",
+    "tramo_analizado": "entero: intro fotograma a fotograma hasta 1:10 (hojas/intro_fot_00–14 + detalle/intro_fot_15–34) y hoja de un fotograma por plano de 0–70 s con cortes_rafagas.json; 37 hojas de minuto; 10 tramos a 0,1 s en detalle/ (d_0324, d_0900a de 30 s, d_1000, d_1424, d_1825, d_1853, d_2335, d_2838, d_3535, d_3625); cada gráfico de dinero, mapa, flecha, HUD y sticker a 1–6 f (hoja propia en scratchpad, graf1/mapa1); 30 candidatos a jump cut comprobados a 2 f; 5 hojas de candidatos de sonido (sfx_hoja_00–03, 15) + recortes de 14 celdas de otras hojas; 13 fotogramas 1080p y 15 recortes en rotulos/ con fuente_rotulo.py --color; 16 medidas con medir_zoom.py",
+    "estilo": "vlog",
+    "tipo": "viaje",
+    "estilo_por_que": "ESTILO = «vlog» (el archivo de estilo que se usa; un viaje se edita con el estilo vlog, sección «En viajes»). TIPO = «viaje» (el contenido): 2 días en Marruecos, 2 ciudades (Marrakech y Casablanca), llegar, moverse y descubrir; no es reto (no hay regla, ni contador, ni riesgo de fallar: las «estafas» del título son un hilo temático, no una prueba con marcador; la única «misión» es un gag de HUD de videojuego de 18 s) ni día a día. Lo que lo hace viaje frente a un vlog normal, con número: (1) LLEGADA: montaje de llegada a Marrakech de 27,5 s (0:42.05–1:09.57, 12 planos: jardín, coche, aeropuerto «AIRPORTS OF MOROCCO», calle, Kutubía) y llegada a Casablanca con «llegamos a Casablanca» (28:05) y su primera parada; (2) MAPAS: 2, ambos PLANOS tipo Google Maps claro, NINGUNO de satélite: situación con círculo rojo en Rabat + cifra «1,000,000» sobre Marrakech (3:56.72–4:02.84, 6,1 s) y ruta Marrakech→Casablanca con flecha roja de puntos que se dibuja en 1,4 s (26:23.6–26:29.45, ≈5,9 s); (3) RÓTULOS DE LUGAR: solo 1, el título de país «MARRUECOS» en 3D amarillo (0:30.80); ninguna chincheta ni rótulo de ciudad, barrio o sitio; (4) TRAYECTOS: 2 cortos y reales (cruzar la calle con HUD 5:22–5:40 y 7:00–7:14; carretera de 3 h a Casablanca resumida en 20 s de ventanilla + mapa + gasolinera, 26:16–27:58) y 1 contado con animación dibujada (taxista de madrugada, 23:35–25:04); (5) PRESENTACIÓN DE CADA PARADA: hablada a cámara con «este es / esta es…» y un plano de b-roll por cosa nombrada (tour del hotel 1:09–3:24 con 6 planos de detalle de rosas; zoco; restaurante; mezquita Hassan II; Café Imperial), sin cartela; (6) PRECIOS Y MONEDA: 10 precios dichos (2000 dírhams = 200 $, 13,95 %, 50 dh = 5 $, 28 $ de comisión, 10 dh = 1 $, 200 dh = 20 $, 10 $ el baile, chanclas 30 dh = 3 $, 3 dulces 15 dh = 30 MXN = 1,5 $, perfumes 12 € / 20 dh, propina Uber 10 $ → 20 $) y 6 en pantalla (círculo en el 13,95 %, cálculo «Si sacas $200 / recibes: $172 / -$28», 2 conversiones «10 dírham marroquí = 1 Dólar» y «200 … = 20 Dólar», «-$10 usd», «$30 MXN / 1.62 USD»); (7) DATOS DEL PAÍS: ≈ 16 (Rabat capital, Marrakech 1 millón, «ciudad roja», mujeres cubiertas, rey Mohamed VI en los billetes, francés oficial, zoco con +3000 puestos y +800 años, minarete 210 m vs 70 m de la Kutubía vs 265 m en Argelia, 7 años de obra 86–93, 13.000 obreros, 3.500 artesanos, Casablanca 4/6 millones, Café Imperial de 1956, taco/kebab). Del vlog le queda el motor: Luisito habla a cámara en selfie gran angular el 97 % del tiempo, con su humor y sus secundarios locales.",
+    "modelo": "opus"
+  },
+  "resumen": [
+    "Luisito Comunica vuelve a Marruecos 9 años después con su pareja/camarógrafa Ari: dos días, Marrakech (hotel de lujo, plaza Jemaa el Fna, zoco de noche, cena con show) y Casablanca (mezquita Hassan II, Café Imperial, «taco» marroquí). El hilo del título son las estafas a turistas: cajero que cobra 13,95 % de conversión, encantadores de serpientes y hombres con monos que cobran por foto, bailarines que te piden 10 $ cada uno y un taxista de Uber que le exige más dinero a las 4 de la madrugada.",
+    "La intro es un COLD OPEN con sonido directo (0:00–25.40, 13 planos) armado con frases del propio vídeo en orden NO cronológico (serpientes de 8:37 → archivo de su vídeo de hace 9 años → cruzar la calle de 7:00 → oler hierbas de 18:53), cortado en seco a media palabra («¿Qué…», 25.44) por una RÁFAGA de 19 planos en 5,05 s (13 de 5–9 f) con la música a nivel de voz, el título «MARRUECOS» 3D amarillo letra a letra sobre la mezquita de Casablanca (30.80–32.68) y el saludo en plano general («¿Qué pasa, amigos? ¿Qué pasa, mis cracks?», 32.82). Después, 27,5 s de llegada antes del tour del hotel (1:09.7).",
+    "Cada estafa se cuenta en tres tiempos y siempre con imagen propia: AVISO a cámara («los cajeros te quieren estafar», 5:45.9; «la vez pasada un brother me robó», 8:01.8, con 6 planos de su vídeo viejo en tarjeta de YouTube), MOMENTO grabado en directo (pantalla del cajero con círculo rojo con seguimiento 6:45.1; la cobra «it’s ok, brother» 8:22; Ari bailando 9:38) y DESENLACE con cifra en pantalla («-$28» 6:54.5; «-$10 usd» 10:02.0) + moraleja hablada («Hazme güey una vez, el malo eres tú…», 8:27). No hay cámara oculta: lo que no se grabó (el taxista de Uber) se cuenta al día siguiente en el coche y se ilustra con una ANIMACIÓN DIBUJADA tipo cartoon de 4 bloques (≈ 51 s entre 23:35.7 y 25:04.1).",
+    "El dinero es el sistema gráfico más repetido: 6 textos de dinero en 10 min (6:45–16:16), todos abajo-centro o arriba-izquierda, grotesca negra ancha (Archivo Black +0,62/+0,70) en VERDE #47AD4A cuando es precio/conversión y ROJO #BF3332/#FE0001 cuando es pérdida, escritos letra a letra (≈ 20 caracteres/s) justo en la palabra, y 4 de 6 con caja registradora/ding.",
+    "Ritmo: 545 cortes detectados (14,8/min, mediana 3,18 s, 10 % < 1 s) y ≈ 735 reales (≈ 20/min) contando los jump cuts del selfie, que el detector no ve: 25 de 30 candidatos comprobados a 2 f eran cortes. Los jump cuts cambian la escala solo un 2–5 % (×0,956–×1,023 con medir_zoom): NO hay punch-ins ni zooms digitales sobre la cara en 36 min. Lo grande es el gancho (46 cortes en el minuto 0) y la prueba de dulces (31 en el 16).",
+    "Música el 51 % del vídeo, 17,4 dB bajo la voz de mediana, 5 cambios de pista (1:44, 9:58, 14:38, 22:02, 31:56); sube a nivel de voz solo en la ráfaga + título (−12,5…−16,7 dB, 25–32 s) y en montajes sin voz (35:40–35:53). Se QUITA en las estafas en directo (8:27–9:27 serpientes y monos), en las explicaciones serias (12:37–13:23) y en todo el relato del taxista (24:08–26:21, incluido el plano más largo del vídeo: 49,8 s en el coche, 25:04.1–25:53.9).",
+    "Efectos de sonido escasos: 11 confirmados (0,3/min), todos pegados a un gráfico (doble clic al entrar la tarjeta de archivo, caja registradora/ding en las cifras, chime de «misión cumplida», pop del sticker, whoosh de la mano que tapa el objetivo, motor del coche dibujado). Ninguno en cortes normales, ni en el título.",
+    "Humor de comentario: insertos-meme de una idea (backrooms 18:32.47 en la palabra «backrooms», 4,3 s; aspa roja sobre el kebab 35:12; sticker de mantarraya 18:45.70), apartes en blanco y negro (8:48 «ya vinieron a correrme»; 29:16 «quería que se viera más pro»), comentarios del editor en subtítulo con emoji («Me la querían volver a aplicar 😂» 8:22; «“No money, no money” 😂😂» 9:04) y una nota del editor bajo una foto («investigué después, y existe un platillo llamado “taco francés”», 35:37.08).",
+    "Patrocinio de Holafly de ≈ 78 s (puente hablado desde 14:13.4 «y si le están preguntando, Luisillo…», imagen 14:23.63–15:33.28) grabado aparte en Casablanca y Nueva York, con barra de progreso roja abajo, logo 3D, «ILIMITADOS», globo «+200 DESTINOS», QR y código. Cierre: despedida en el aeropuerto (35:53.3–36:29.5) y pantalla final de 15,3 s sobre un cielo de Casablanca con «SUSCRÍBETE :)» 2,8 s y «VE UN VIDEO SIMILAR:» + créditos (editor y cámara)."
+  ],
+  "contexto": {
+    "quien": "Luisito Comunica (México), que habla a cámara en selfie con gran angular casi todo el vídeo y a veces sale en plano medio grabado por otra persona (tour del hotel, cruces, mezquita). Ari (Arianny Tenorio), su pareja y camarógrafa (créditos «CÁMARA: ARY @ARIANNY.TENORIO & DIANIS»), sale en 9 escenas (vestidor 2:32, mujeres cubiertas 4:18, baile 9:38, teleobjetivo 11:10, henna 12:04, perfumes 17:21, labial 21:02) y se va en un vuelo de madrugada (23:19). Secundarios locales que hacen avanzar la trama: Mustafa el chófer (5:05), los encantadores de serpientes y los hombres de los monos («No money, no money»), los bailarines gnawa, la chica de la henna que se tapa la cara, dos peruanos (11:36), el vendedor de especias políglota (19:42–20:47), el maître del restaurante (22:10) y el taxista de Uber (solo en dibujo). Editor: Cris @cristiantrejordz.",
+    "donde": "Marruecos. Marrakech: hotel junto a la mezquita Kutubía (suite con 2 terrazas), plaza de la Kutubía (cruce sin semáforo), cajero CIH Bank/Euronet, plaza Jemaa el Fna de día y de noche, zoco de la Medina, restaurante con show. Carretera de ≈ 3 h con gasolinera Shell. Casablanca: mezquita Hassan II (minarete de 210 m), calles, parque, Café Imperial. Aeropuerto de Casablanca al final. Lo sitúan 2 mapas planos (3:56.72 y 26:23.6).",
+    "objetivo": "Enseñar Marrakech y Casablanca en «dos días aprovechados al máximo» (36:07) y, de paso, avisar al espectador de las estafas típicas con consejos prácticos: rechazar la conversión del cajero («siempre tienes que ponerle nel, carnal», 6:20), no pagar a cada artista por separado («ustedes son equipo», 10:37), no grabar sin dar propina (8:50), no meter la tarjeta en la máquina de un taxista (24:24). Es un viaje de vuelta: compara con su visita de hace 9 años (archivo propio en 0:04, 0:49.7 y 8:06) y con la de hace 2 años (4:38).",
+    "tono": "Humor mexicano de colega viajero («güey», «carnal», «chido», «ni pedo»), curioso y didáctico (datos leídos y dichos con fuente: «leo siempre las descripciones… y en internet», 14:15), con autoironía («mi ignorancia está saliendo a flote», 2:52 y 3:12) y momentos serios cortos sin música (la mujer que se tapa la cara, 12:42–13:18; la reflexión sobre monumentos y religión, 29:38–30:10). Las estafas se cuentan con indignación cómica pero sin rencor («estoy seguro que el taxista debe ser un buen tipo», 25:56).",
+    "gancho_5s": "f0–f241 (0:00–4.02): plaza Jemaa el Fna con encantadores y cobras en el suelo, plano general en mano; voz directa «Hola, hay un buen, vean eso / Todas esas son serpientes» (sacada de 8:37.8). En f242 (4.03) corte con doble clic a su propio vídeo de hace 9 años en una tarjeta de YouTube sobre papel blanco: Luisito joven con una serpiente al cuello y «La vez pasada que estuve aquí… un brother pues prácticamente me robó». Promesa: peligro/estafa + que esto ya le pasó.",
+    "gancho_30s": "7.68–12.0 vuelve a la plaza y la cobra («Ah, pues de hecho acá está, güey, son estos / no, it’s ok, brother»), con el comentario «Me la querían volver a aplicar 😂» → 12.02–17.62 cruzar la calle entre coches y motos («Caminamos, sin miedo… Ay, qué hijo de su madre, pasó bien cerca») → 17.63–25.40 de noche, un vendedor les da a oler algo «muy poderoso» y reaccionan («Wow, hola, madre… ¿Verdad? También duros») → 25.42 la frase se corta en «¿Qué…» y entra la ráfaga de 19 planos (carretera, Kutubía, fachadas, zoco) con la música arriba → 30.80 «MARRUECOS» → 32.82 saludo. Promete: estafas, peligro físico (el tráfico), cosas raras que probar y un país entero.",
+    "preguntas_abiertas": [
+      "0:04–0:07 «un brother pues prácticamente me robó» (¿qué le pasó?) → se cierra en 8:01.8–8:19.7 con 6 planos del vídeo viejo: le asustaron con una cobra para pedirle más dinero",
+      "0:12–0:17 cruzar la calle «sin miedo» → se cierra con el HUD de misión (5:22.7–5:40.6) y el cruce de vuelta (7:00–7:15)",
+      "0:17.6–0:25.4 «nos están dando a oler algo, según muy poderoso» → se cierra en 18:53–19:31 (hierbas para la migraña y los ronquidos)",
+      "5:42 «les quiero enseñar una cosa súper útil… los cajeros te quieren estafar» → se cierra en 6:10–6:54 (13,95 % → -$28)",
+      "9:45 «Ya se estafaron a Arisita sabroso» → se cierra en 10:02 (-$10 usd) y 10:19–10:41 (el modo de la estafa)",
+      "23:15.6 «les voy a contar mi patoaventura» (taxista de madrugada) → se cierra en 26:10 («grata experiencia, 10 de 10») tras 2:55 de relato",
+      "28:23 «¿por qué no se ve nada? ¿neblina?» (minarete entre la niebla) → se cierra en 31:07 «ya se despejó el cielo… ahora sí podemos verla al cien»",
+      "34:09 «quiero saber cómo es un taco marroquí» → se cierra en 34:20–35:39 (burrito cuadrado tostado; nota del editor «taco francés»)"
+    ],
+    "giros": [
+      "1:04.6 «vean esto, esto es masivo… pero no, este es el hotel al que estamos llegando»: lo que parecía una plaza pública es el hotel",
+      "6:10.5 la letra pequeña del cajero «Incluye 13,95 % de margen de conversión» (círculo rojo 6:45.1)",
+      "8:19.7 «Ah, pues de hecho acá está, güey»: el encantador de serpientes de hace 9 años sigue ahí",
+      "10:19 «cuando le pagas a uno, todos los demás quieren recibir la misma cantidad»: la estafa no es el baile, es el grupo",
+      "11:19.8 un local cobra por hacerse foto con ellos porque cree que son famosos; Ari: «yo también se la voy a cobrar»",
+      "12:44 la chica de la henna se tapa la cara al acercarse la cámara (posible trabajo sin permiso del marido)",
+      "18:11–18:22 se pierden en el zoco al cerrar («me sentí en los backrooms» + inserto 18:32.47)",
+      "23:26 el chofer reservado cancela a las 3 de la madrugada → el Uber de vuelta acaba a gritos en la calle (25:22 «¡ah, chinga tu madre!»)",
+      "31:07 se despeja el cielo y por fin se ve el minarete entero",
+      "34:20 el «taco» marroquí es igual al de Madagascar (capturas de su vídeo, 34:16–34:21)"
+    ],
+    "recompensas": [
+      "Cold open + ráfaga de 19 planos + título 3D (0:00–32.68)",
+      "Suite del hotel con pétalos de rosa (1:52–2:30, 6 planos de detalle de rosas) y segunda terraza (2:42)",
+      "HUD de videojuego con «misión cumplida» en verde y chime (5:40.45)",
+      "La trampa del cajero desvelada con círculo rojo con seguimiento y cálculo «-$28» (6:45.1–6:56)",
+      "Archivo de su visita de hace 9 años (6 planos, 8:06–8:16)",
+      "Baile gnawa en la plaza de noche con música en directo (9:38–10:00) y «-$10 usd»",
+      "Inserto de los backrooms (18:32.47–18:36.75)",
+      "Reacción exagerada a las hierbas («te destapa el cerebro», 18:58–19:21)",
+      "Show de cabezas y belly dance (22:29–22:58)",
+      "Animación dibujada del taxista (23:35.7–25:04.1)",
+      "Minarete de 210 m con flecha (28:42.1) y el cielo que se despeja (31:07)",
+      "El «taco» marroquí con capturas de Madagascar y nota del editor (34:16–35:39)"
+    ]
+  },
+  "curva_energia": [
+    {
+      "minuto": 0,
+      "nivel": 5,
+      "motivo": "46 cortes (máximo del vídeo): cold open de 13 planos con sonido directo y música que se apaga en cada reacción, ráfaga de 19 planos en 5,05 s con la música a nivel de voz (−13 dB), título 3D, saludo y montaje de llegada"
+    },
+    {
+      "minuto": 1,
+      "nivel": 3,
+      "motivo": "tour del hotel: él dentro del plano grabado por Ari, un plano por cosa nombrada (terraza, Kutubía, sala, baño de visitas, cama con pétalos); 13 cortes, música de cama −35 dB; cambio de pista 1:44"
+    },
+    {
+      "minuto": 2,
+      "nivel": 3,
+      "motivo": "6 planos de detalle de rosas (2:18–2:30), Ari en el vestidor, segunda terraza; 12 cortes + ≈ 7 jump cuts; música fuera 2:32–3:13"
+    },
+    {
+      "minuto": 3,
+      "nivel": 4,
+      "motivo": "fuente de abluciones, «cambiazo» con la mano que tapa el objetivo y whoosh (3:26.1), cruce de la plaza Kutubía, mapa con círculo en Rabat (3:56.7)"
+    },
+    {
+      "minuto": 4,
+      "nivel": 3,
+      "motivo": "«1,000,000» escrito sobre el mapa, ciudad roja en b-roll, mujeres cubiertas con Ari, archivo de vídeos viejos en tarjeta (4:38–4:43); 18 cortes"
+    },
+    {
+      "minuto": 5,
+      "nivel": 4,
+      "motivo": "Mustafa el chófer, HUD de videojuego «Misión: Cruzar las calles de Marrakech» con 3 vidas y chime de misión cumplida (5:40.45), entra al cajero; 20 cortes"
+    },
+    {
+      "minuto": 6,
+      "nivel": 4,
+      "motivo": "estafa del cajero en POV: letra pequeña 13,95 %, «nel, carnal», círculo rojo con seguimiento (6:45.1), cálculo «-$28» en rojo (6:54.5); música −30 dB"
+    },
+    {
+      "minuto": 7,
+      "nivel": 4,
+      "motivo": "cruce de vuelta con HUD, billete de 200 dh con 2 conversiones en verde y caja registradora (7:27.1, 7:29.7), Wikipedia del rey, 4 retratos del rey; hombres con monos"
+    },
+    {
+      "minuto": 8,
+      "nivel": 5,
+      "motivo": "estafa de las serpientes: aviso con 6 planos de su vídeo de hace 9 años (8:06–8:16, doble clic), la cobra en directo, «Me la querían volver a aplicar 😂», moraleja, aparte en B/N (8:48); 20 cortes, música fuera desde 8:27"
+    },
+    {
+      "minuto": 9,
+      "nivel": 4,
+      "motivo": "«No money, no money 😂😂», explicación de idiomas a cámara con 6 jump cuts en 15 s, cae la tarde, baile gnawa con la música en directo de la plaza (voz−música 0,2 dB)"
+    },
+    {
+      "minuto": 10,
+      "nivel": 4,
+      "motivo": "«-$10 usd» con caja registradora (10:02.0), «el modo de la estafa» explicado a cámara (10:19–10:41), henna; 8 cortes detectados, ≈ 15 con jump cuts"
+    },
+    {
+      "minuto": 11,
+      "nivel": 3,
+      "motivo": "chanclas a 30 dh, gag de Ari con el teleobjetivo en el móvil, local que cobra foto, peruanos; 15 cortes"
+    },
+    {
+      "minuto": 12,
+      "nivel": 2,
+      "motivo": "henna de Ari, b-roll del zoco sobre «venden en todos los idiomas», reflexión seria sobre la mujer que se tapa (sin música 12:37–13:23); 9 cortes, mediana 6,55 s"
+    },
+    {
+      "minuto": 13,
+      "nivel": 2,
+      "motivo": "dátiles, cae la noche, «no traje mi luz», datos del zoco (+3000 puestos, +800 años); selfie de noche con jump cuts"
+    },
+    {
+      "minuto": 14,
+      "nivel": 2,
+      "motivo": "puente al patrocinio («y si le están preguntando, Luisillo…» 14:13.4) y Holafly grabado aparte (14:23.6) con logo, «ILIMITADOS» y golpe (14:38.0), cambio de pista 14:38; 9 cortes"
+    },
+    {
+      "minuto": 15,
+      "nivel": 2,
+      "motivo": "patrocinio hasta 15:33.3 (QR, «+1 GB», código), vuelve al zoco con el pato «random»; 16 cortes"
+    },
+    {
+      "minuto": 16,
+      "nivel": 4,
+      "motivo": "tienda de dulces: pide en francés con subtítulos de traducción, «$30 MXN / 1.62 USD» con ding (16:15.1), prueba con 3 dulces y chocolate derretido; 31 cortes (máximo del cuerpo)"
+    },
+    {
+      "minuto": 17,
+      "nivel": 3,
+      "motivo": "motos por el zoco, perfumes a 20 dh, Ari hace la demostración, zona del zoco en obras; 18 cortes"
+    },
+    {
+      "minuto": 18,
+      "nivel": 4,
+      "motivo": "cierre de puestos, se pierden por callejones vacíos, inserto de los backrooms (18:32.47), huevos de mantarraya con sticker y pop (18:45.70), le dan a oler hierbas"
+    },
+    {
+      "minuto": 19,
+      "nivel": 4,
+      "motivo": "reacciones a las hierbas («te destapa el cerebro», ojos llorosos, primerísimo primer plano), «¿nos están drogando?», vendedor de especias; 21 cortes"
+    },
+    {
+      "minuto": 20,
+      "nivel": 3,
+      "motivo": "vendedor políglota con subtítulo de su frase (20:40), tienda 138; 10 cortes, plano de 26,2 s"
+    },
+    {
+      "minuto": 21,
+      "nivel": 3,
+      "motivo": "demostración del «Viagra» y del labial («todos los gérmenes del mercado más grande del norte de África»), cena con b-roll de comida; 16 cortes"
+    },
+    {
+      "minuto": 22,
+      "nivel": 3,
+      "motivo": "maître, show de cabezas (Luisito lo intenta con sombrero), belly dance; cambio de pista 22:02; voz en off en pasado sobre b-roll"
+    },
+    {
+      "minuto": 23,
+      "nivel": 4,
+      "motivo": "mañana siguiente en el coche: «les voy a contar mi patoaventura»; foto del aeropuerto con muñecos dibujados y coche que entra con sonido (23:37.2), animación cartoon del taxista"
+    },
+    {
+      "minuto": 24,
+      "nivel": 4,
+      "motivo": "la discusión con el taxista contada a cámara e ilustrada con 3 bloques de cartoon («PAGADO ✓», la cartera, «PROPINA $»); sin música desde 24:08"
+    },
+    {
+      "minuto": 25,
+      "nivel": 3,
+      "motivo": "plano único de 49,8 s en el coche (25:04.1–25:53.9) con el desenlace: «me voy gritando ¡ah, chinga tu madre!», reflexión; 2 cortes en el minuto, sin música"
+    },
+    {
+      "minuto": 26,
+      "nivel": 3,
+      "motivo": "«10 de 10», carretera a Casablanca: ventanilla, mapa de ruta con flecha (26:23.6), gasolinera; 10 cortes"
+    },
+    {
+      "minuto": 27,
+      "nivel": 3,
+      "motivo": "tour veloz de la gasolinera: juguetes de Messi/Ronaldo/Haaland, Mirinda y Orangina en árabe, bolsitas de tela; 18 cortes"
+    },
+    {
+      "minuto": 28,
+      "nivel": 4,
+      "motivo": "llegan a Casablanca: mezquita Hassan II en la niebla, flecha «210 METROS» (28:42.1), inserto de la Kutubía para comparar (28:48)"
+    },
+    {
+      "minuto": 29,
+      "nivel": 3,
+      "motivo": "foto de la mezquita de Argelia (29:04), intento de plano «pro» fallido con aparte en B/N (29:16–29:20), reflexión sobre religión y monumentos con foto del Taj Mahal (29:56)"
+    },
+    {
+      "minuto": 30,
+      "nivel": 2,
+      "motivo": "«vean lo diminuto que me veo», horarios y protocolo de visita; 9 cortes, mediana 6,65 s, sin música 30:09–31:49"
+    },
+    {
+      "minuto": 31,
+      "nivel": 3,
+      "motivo": "el cielo se despeja y se ve el minarete entero (31:07), datos de la obra (7 años, 13.000 obreros), cambio de pista 31:56"
+    },
+    {
+      "minuto": 32,
+      "nivel": 2,
+      "motivo": "Casablanca: 4/6 millones de habitantes, tráfico, parque al atardecer, hombres trajeados; selfie con jump cuts"
+    },
+    {
+      "minuto": 33,
+      "nivel": 2,
+      "motivo": "té servido a lo alto, Café Imperial (70 años, presencia francesa) con b-roll de la terraza llena"
+    },
+    {
+      "minuto": 34,
+      "nivel": 3,
+      "motivo": "el «taco» marroquí: capturas de su vídeo de Madagascar en tarjeta (34:16–34:21), lo prueba, catsup y mayonesa"
+    },
+    {
+      "minuto": 35,
+      "nivel": 3,
+      "motivo": "kebab vs shawarma con aspa roja (35:12) y stock, nota del editor «taco francés» (35:37.08), montaje sin voz de Casablanca con música (35:40–35:53), despedida en el aeropuerto"
+    },
+    {
+      "minuto": 36,
+      "nivel": 2,
+      "motivo": "despedida («mis genios y genias, capos y capas»), «pinpollo, marjava» y pantalla final de 15,3 s"
+    }
+  ],
+  "picos_y_preparacion": [
+    "Pico 1 (0:00–0:32.68, gancho): frases de reacción con su sonido y la música que se apaga en cada reacción (resto −26…−30 dB en 7–11 s y 20–21 s; −50…−61 dB en 18–19 s y 24 s); la última frase se corta en «¿Qué…» (25.44) y la música salta a −16,7/−13 dB con la ráfaga de 19 planos que acelera (de 52–59 f a 5–6 f por plano) hasta el arco oscuro (39 f) y el título.",
+    "Pico 2 (6:10–6:56, cajero): POV pegado a la pantalla 52 s sin cortar la tensión → «¿Qué?» (6:14.5) → vuelve a la pantalla con círculo rojo (6:45.1) → cálculo escrito en pantalla en la frase «si sacas 200 dólares te quitan 28» (6:52.0–6:54.5).",
+    "Pico 3 (8:01–8:48, serpientes): se prepara con el recuerdo (archivo 8:06–8:16 con doble clic) y se resuelve en directo 3 s después («Ah, pues de hecho acá está, güey», 8:19.7); la música se va en 8:27 y el remate es un aparte en B/N (8:48).",
+    "Pico 4 (23:15–26:10, taxista): la tensión crece con 4 bloques de animación (23:35.7, 24:05.2, 24:22.4, 24:54.8) y la música desaparece en 24:08; el clímax va en un plano fijo de 49,8 s sin música (25:04.1–25:53.9), sin aceleración ni gráfico.",
+    "Pico 5 (28:05–31:15, mezquita): niebla que no deja ver la punta (28:23) → flecha de 210 m (28:42) → cielo que se despeja «¡wow!» (31:07–31:14)."
+  ],
+  "ritmo_informacion": "Algo nuevo cada 15–30 s: una cosa nombrada + su plano de b-roll cada 2–4 s en los tours (hotel 1:12–2:30: terraza → camastro → sala → vista a la mezquita → baño de visitas → cama → pétalos → regadera → tina → rosas ×6 → batas), una cifra o dato cada ≈ 1,5 min (≈ 26 en 36,7 min: 10 precios + 16 datos del país) y una escena nueva cada 1–3 min (≈ 25 escenas). Las estafas reparten el vídeo en 4 bloques (cajero 5:42, serpientes 8:01, baile 9:38, taxista 23:15). Lo que se recorta: el vuelo y el aeropuerto (5 s de llegada 54.75–57.15), el cambio de ropa («cambiazo de ovni», mano que tapa el objetivo 3:26.1), la carretera de 3 h (20 s de ventanilla + mapa + gasolinera), las comidas («normalmente me grabaría probando todo, pero ya tengo hambre», 22:02) y la noche entera (corte seco de la cena 22:58 a «Buenos días» en el coche 23:08). No hay rótulos tipo «3 HORAS DESPUÉS», ni cámara rápida en el cuerpo, ni marcador de días o progreso.",
+  "estructura": [
+    {
+      "desde": "0:00.00",
+      "hasta": "0:25.40",
+      "parte": "cold open con sonido directo",
+      "que_pasa": "13 planos de 4 escenas del vídeo, sin orden cronológico: serpientes (8:37) → archivo de hace 9 años → cobra con comentario → cruzar la calle (7:00) → hierbas de noche (18:53)"
+    },
+    {
+      "desde": "0:25.42",
+      "hasta": "0:30.45",
+      "parte": "ráfaga",
+      "que_pasa": "19 planos en 5,05 s: carretera con la Kutubía, edificio con bandera, Kutubía, 5 fachadas en contrapicado, 10 planos del zoco de 5–6 f, arco oscuro"
+    },
+    {
+      "desde": "0:30.47",
+      "hasta": "0:32.68",
+      "parte": "título",
+      "que_pasa": "«MARRUECOS» 3D amarillo letra a letra sobre la mezquita Hassan II de Casablanca, zoom-out lento"
+    },
+    {
+      "desde": "0:32.70",
+      "hasta": "1:09.57",
+      "parte": "saludo y llegada",
+      "que_pasa": "saludo en plano general en la terraza (9,3 s), «estamos llegando a Marrakech», archivo de hace 9 años en tarjeta, aeropuerto, calle, Kutubía, «les doy la bienvenida»"
+    },
+    {
+      "desde": "1:09.58",
+      "hasta": "3:24.0",
+      "parte": "tour del hotel",
+      "que_pasa": "terraza con vista a la Kutubía, sala, baño de visitas, cuarto principal, baño con tina y rosas, Ari en el vestidor, segunda terraza con fuente"
+    },
+    {
+      "desde": "3:24.0",
+      "hasta": "5:22.6",
+      "parte": "Marrakech: primeras impresiones",
+      "que_pasa": "cambiazo (mano al objetivo), plaza Kutubía, Rabat es la capital (mapa), 1 millón de habitantes, ciudad roja, mujeres cubiertas, Mustafa el chófer"
+    },
+    {
+      "desde": "5:22.7",
+      "hasta": "7:19.0",
+      "parte": "ESTAFA 1: cajero (+ misión cruzar la calle)",
+      "que_pasa": "HUD de videojuego en el cruce, cajero con 13,95 % de margen, círculo rojo y cálculo -$28, cruce de vuelta con HUD"
+    },
+    {
+      "desde": "7:19.1",
+      "hasta": "7:55.0",
+      "parte": "moneda",
+      "que_pasa": "dírham: 10 = 1 $ (2 conversiones en pantalla), el rey Mohamed VI en billetes, Wikipedia y retratos"
+    },
+    {
+      "desde": "7:55.0",
+      "hasta": "9:05.9",
+      "parte": "ESTAFA 2: monos y serpientes",
+      "que_pasa": "hombres con monos, recuerdo de la cobra de hace 9 años con archivo, la cobra en directo, «hazme güey dos veces…», le echan por grabar (B/N), «No money, no money»"
+    },
+    {
+      "desde": "9:06.0",
+      "hasta": "9:37.0",
+      "parte": "idiomas y Medina",
+      "que_pasa": "francés como idioma oficial, carteles, el zoco «subquelzoco»; cae la tarde"
+    },
+    {
+      "desde": "9:37.0",
+      "hasta": "10:49.0",
+      "parte": "ESTAFA 3: el baile",
+      "que_pasa": "Ari baila con los gnawa, -$10 usd, el resto quiere lo mismo, «ustedes son equipo»"
+    },
+    {
+      "desde": "10:49.0",
+      "hasta": "14:13.0",
+      "parte": "Jemaa el Fna al atardecer",
+      "que_pasa": "henna, chanclas 30 dh, teleobjetivo de Ari, fans, peruanos, henna de Ari, idiomas de los vendedores, mujer que se tapa, dátiles, noche, datos del zoco"
+    },
+    {
+      "desde": "14:13.4",
+      "hasta": "15:33.3",
+      "parte": "patrocinio Holafly",
+      "que_pasa": "puente hablado en el zoco + pieza grabada aparte (Casablanca y Nueva York) con barra de progreso roja, logo, ILIMITADOS, globo +200 destinos, QR, +1 GB, código"
+    },
+    {
+      "desde": "15:33.3",
+      "hasta": "18:37.0",
+      "parte": "zoco de noche",
+      "que_pasa": "pato, dulces con subtítulos de traducción y $30 MXN, motos, perfumes, zona en obras, se pierden, backrooms"
+    },
+    {
+      "desde": "18:37.0",
+      "hasta": "21:41.0",
+      "parte": "herboristería y especias",
+      "que_pasa": "huevos de mantarraya (sticker), hierbas «muy poderosas», vendedor políglota, Viagra, labial; «buen uso del tiempo por Marruecos»"
+    },
+    {
+      "desde": "21:41.0",
+      "hasta": "23:07.0",
+      "parte": "cena con show",
+      "que_pasa": "restaurante fresón, maître, show de cabezas y belly dance (voz en off en pasado)"
+    },
+    {
+      "desde": "23:07.0",
+      "hasta": "26:16.0",
+      "parte": "ESTAFA 4: el taxista (contada)",
+      "que_pasa": "al día siguiente en el coche: el chofer que cancela, el Uber que pide más, cajero, tarjeta, gritos; 4 bloques de animación cartoon; plano de 49,8 s; «10 de 10»"
+    },
+    {
+      "desde": "26:16.0",
+      "hasta": "28:05.0",
+      "parte": "carretera a Casablanca",
+      "que_pasa": "ventanilla, mapa de ruta, gasolinera con juguetes y marcas en árabe, campos de olivo"
+    },
+    {
+      "desde": "28:05.0",
+      "hasta": "31:50.0",
+      "parte": "mezquita Hassan II",
+      "que_pasa": "niebla, 210 m con flecha, comparación con la Kutubía y Argelia, plano «pro» fallido, monumentos y religión, protocolo, cielo despejado, datos de la obra"
+    },
+    {
+      "desde": "31:50.0",
+      "hasta": "33:07.0",
+      "parte": "Casablanca",
+      "que_pasa": "4/6 millones, tráfico, arquitectura, parque al atardecer, bazares"
+    },
+    {
+      "desde": "33:07.0",
+      "hasta": "35:53.2",
+      "parte": "Café Imperial y taco marroquí",
+      "que_pasa": "historia del café, el taco cuadrado con capturas de Madagascar, kebab vs shawarma, nota del editor, montaje sin voz de Casablanca"
+    },
+    {
+      "desde": "35:53.3",
+      "hasta": "36:44.87",
+      "parte": "cierre",
+      "que_pasa": "despedida en el aeropuerto (36,2 s) y pantalla final (15,3 s)"
+    }
+  ],
+  "intro": {
+    "tipo": "otra: cold open de anécdotas con sonido directo + ráfaga + título (pariente de la «corta», sin premisa explicada)",
+    "por_que_ese_tipo": "No hay premisa que explicar: «Luisito en Marruecos» se entiende sola y el título ya dice «estafas». Por eso no hay ni una frase de «hoy vamos a…» antes del saludo: los primeros 25,4 s son 4 momentos del vídeo con su voz y su sonido originales (como el tráiler de Paul Cuffaro), elegidos para que el espectador vea las estafas y el peligro antes de que se las cuenten, y montados en un orden que cuenta una minihistoria (aquí me robaron → el que me robó sigue aquí → cruzar es peligroso → y encima nos drogan). Luego toma de la intro corta de Alessio la ráfaga muda (19 planos en 5 s) a la música, el nombre (el país, no el canal) y el «al lío» con saludo. Lo que sí se explica (vuelta tras 9 años, llegada a Marrakech) va DESPUÉS del saludo, en la llegada (0:42–1:09), con 2 tarjetas de archivo como única ilustración.",
+    "duracion_s": 69.58,
+    "duracion_f": 4175,
+    "duracion_cold_open_s": 25.4,
+    "duracion_rafaga_s": 5.05,
+    "duracion_titulo_s": 2.22,
+    "primer_plano_hablando_s": 15.4,
+    "primer_plano_hablando_nota": "Primer plano de Luisito hablando a cámara: f924 (0:15.40) en el cold open, selfie riéndose «qué hijo de su madre, pasó bien cerca». Primer plano propio del vídeo hablando: el saludo en f1962 (0:32.70), plano general fijo en la terraza, «¿Qué pasa, amigos?» desde 0:32.82 (sin saludo de cerca: Luisito ocupa ≈ 15 % del alto). Primer plano medio a cámara de la llegada: f3694 (1:01.57) con los brazos abiertos, «les doy la bienvenida».",
+    "orden": "1) cold open con sonido directo, 13 planos (0:00–25.40) → 2) ráfaga muda de 19 planos (25.42–30.45) → 3) título «MARRUECOS» (30.47–32.68) → 4) saludo en plano general (32.70–42.03) → 5) llegada: 12 planos con 2 bloques de archivo, «les doy la bienvenida» (42.05–1:09.57) → al lío con el tour del hotel («quiero empezar el video haciéndoles un breve tour», 1:09.74).",
+    "sin": "Sin logo ni cabecera del canal, sin explicación previa de la premisa, sin textos salvo el comentario reciclado de 8:22 y el título, sin mapa en la intro, sin CTA (ni de suscripción ni de like), sin patrocinio en la intro.",
+    "medidas": {
+      "planos_intro": "50 planos en 69,58 s (49 cortes, con cortes_rafagas.json): cold open 13 planos en 25,4 s (mediana 1,73 s; el más largo 4,02 s, el más corto 0,75 s); ráfaga 19 planos en 5,05 s (mediana 6 f = 0,10 s; 13 de 5–9 f); título 1 plano de 2,22 s; saludo 1 plano de 9,33 s; llegada 16 planos en 27,5 s (mediana 1,6 s)",
+      "cortes_por_minuto": "46 cortes en el minuto 0 (el detector normal junta la ráfaga y da 33)",
+      "sincronia": "el corte a la ráfaga cae a media palabra («¿Qué» 25.44, corte 25.42); el título empieza 20 f después de entrar el plano (f1828 → f1848); el saludo arranca 7 f después del corte (32.82)",
+      "musica": "0–6 s sin música (sonido directo); 7–11 s música −26…−30 dB (≈ 12–14 dB bajo la voz); 12–13 s baja a −38 dB; 14 s −27 dB; 17–19 s fuera (−50…−53); 20–21 s −26 dB; 22–24 s fuera (−39…−61); 25–32 s ARRIBA −12,5…−16,7 dB sin voz (ráfaga + título); 33 s cae a −32 dB bajo el saludo; 34–74 s cama −33…−36 dB (≈ 18 dB bajo la voz)",
+      "efectos": "1 confirmado: doble clic en 0:04.01 al entrar la tarjeta de archivo. Ráfaga y título sin candidatos de sonido (la música está a −13 dB)"
+    },
+    "animaciones_explicativas": [
+      {
+        "n": 1,
+        "t": "0:04.03–0:07.67",
+        "frase": "«La vez pasada que estuve aquí me acuerdo que un brother pues prácticamente me robó»",
+        "que_es": "TARJETA DE ARCHIVO: su vídeo de hace 9 años dentro de una maqueta de reproductor de YouTube (vídeo redondeado + título + barra de canal y botones) sobre fondo de papel blanco texturado",
+        "f0": 242,
+        "f1": 460,
+        "entrada": "corte seco: la tarjeta ya está entera en el primer fotograma",
+        "salida": "corte seco",
+        "posicion": "centrada, vídeo ≈ 72 % del ancho",
+        "como_esta_hecha": "plantilla de tarjeta de YouTube con el clip dentro + zoom lento +2,8 %/s",
+        "sfx": "doble clic 0:04.01 (−15,5 dB)"
+      },
+      {
+        "n": 2,
+        "t": "0:30.80–0:32.68",
+        "frase": "(sin voz: música)",
+        "que_es": "TÍTULO «MARRUECOS» 3D (ver titulo_cabecera)",
+        "f0": 1848,
+        "f1": 1961,
+        "como_esta_hecha": "texto 3D extruido con curvatura en arco, letra a letra",
+        "sfx": "ninguno separable"
+      },
+      {
+        "n": 3,
+        "t": "0:49.73–0:54.73",
+        "frase": "«Yo estuve aquí hace unos 9 años más o menos, aquí en Marrakech, y holo, está cambiado»",
+        "que_es": "TARJETA DE ARCHIVO con 4 clips de su vídeo viejo (Jemaa el Fna, bandera, letrero árabe, camioneta)",
+        "f0": 2984,
+        "f1": 3284,
+        "entrada": "corte seco",
+        "salida": "corte seco al cartel del aeropuerto en «desde el aeropuerto»",
+        "como_esta_hecha": "misma plantilla que la nº1; cambia el clip dentro en cada corte",
+        "sfx": "ninguno confirmado"
+      }
+    ],
+    "animaciones_nota": "No es una intro explicativa: estas 3 piezas son las únicas gráficas de la intro, y 2 de ellas son archivo propio, no infografía.",
+    "clips_rafaga_trailer": [
+      {
+        "t": "0:00.00–0:04.02 (f0–241)",
+        "sale_de": "minuto 8 (8:34–8:41, estafa de las serpientes)",
+        "funcion": "llamativo",
+        "que_se_ve": "cobras en el suelo de la plaza y encantadores"
+      },
+      {
+        "t": "0:04.03–0:07.67 (f242–460)",
+        "sale_de": "archivo de su vídeo de hace 9 años (vuelve en 8:06–8:16)",
+        "funcion": "promesa",
+        "que_se_ve": "Luisito joven con una serpiente al cuello en tarjeta de YouTube: «me robó» (no se cuenta cómo hasta 8:01)"
+      },
+      {
+        "t": "0:07.68–0:09.15 (f461–549)",
+        "sale_de": "minuto 8 (8:34)",
+        "funcion": "anticipa",
+        "que_se_ve": "el encantador con la cobra: «de hecho acá está»"
+      },
+      {
+        "t": "0:09.17–0:10.60 (f550–636)",
+        "sale_de": "minuto 8 (8:36)",
+        "funcion": "llamativo",
+        "que_se_ve": "cobras otra vez y «it's ok, brother» (se aleja)"
+      },
+      {
+        "t": "0:10.62–0:12.00 (f637–720)",
+        "sale_de": "minuto 8 (8:22)",
+        "funcion": "llamativo",
+        "que_se_ve": "flautista + comentario «Me la querían volver a aplicar 😂»"
+      },
+      {
+        "t": "0:12.02–0:13.48 (f721–809)",
+        "sale_de": "minuto 7 (7:00, cruce de vuelta)",
+        "funcion": "anticipa",
+        "que_se_ve": "paso de cebra con tráfico: «Caminamos, sin miedo»"
+      },
+      {
+        "t": "0:13.50–0:15.38 (f810–923)",
+        "sale_de": "minuto 7 (7:05)",
+        "funcion": "llamativo",
+        "que_se_ve": "moto que pasa cerca"
+      },
+      {
+        "t": "0:15.40–0:17.62 (f924–1057)",
+        "sale_de": "minuto 7 (7:13)",
+        "funcion": "llamativo",
+        "que_se_ve": "reacción riéndose: «qué hijo de su madre, pasó bien cerca»"
+      },
+      {
+        "t": "0:17.63–0:19.85 (f1058–1191)",
+        "sale_de": "minuto 18 (18:53)",
+        "funcion": "promesa",
+        "que_se_ve": "de noche, les dan a oler algo «muy poderoso»"
+      },
+      {
+        "t": "0:19.87–0:21.22 (f1192–1273)",
+        "sale_de": "minuto 18 (18:58)",
+        "funcion": "llamativo",
+        "que_se_ve": "huele y «Wow, hola, madre»"
+      },
+      {
+        "t": "0:21.23–0:21.98 (f1274–1319)",
+        "sale_de": "minuto 19 (19:00)",
+        "funcion": "llamativo",
+        "que_se_ve": "reacción de cerca «Ay»"
+      },
+      {
+        "t": "0:22.00–0:23.80 (f1320–1428)",
+        "sale_de": "minuto 19 (19:05)",
+        "funcion": "llamativo",
+        "que_se_ve": "Ari se ríe"
+      },
+      {
+        "t": "0:23.82–0:25.40 (f1429–1524)",
+        "sale_de": "minuto 19 (19:10)",
+        "funcion": "llamativo",
+        "que_se_ve": "«¿Verdad? También duros» y la frase cortada «¿Qué…»"
+      },
+      {
+        "t": "0:25.42–0:26.27 (f1525–1576)",
+        "sale_de": "llegada (repetido en 0:45.83)",
+        "funcion": "anticipa",
+        "que_se_ve": "carretera con la Kutubía al fondo"
+      },
+      {
+        "t": "0:26.28–0:27.25 (f1577–1635)",
+        "sale_de": "llegada (repetido en 0:47.80)",
+        "funcion": "bonito",
+        "que_se_ve": "edificio rosa con bandera gigante"
+      },
+      {
+        "t": "0:27.27–0:27.90 (f1636–1674)",
+        "sale_de": "Marrakech (Kutubía, vuelve en 0:58.68 y 3:36)",
+        "funcion": "bonito",
+        "que_se_ve": "minarete de la Kutubía en contrapicado"
+      },
+      {
+        "t": "0:27.92–0:28.87 (f1675–1732)",
+        "sale_de": "llegada (fachadas cerca del hotel)",
+        "funcion": "bonito",
+        "que_se_ve": "5 planos de fachadas en contrapicado de 6–18 f"
+      },
+      {
+        "t": "0:28.88–0:29.80 (f1733–1788)",
+        "sale_de": "zoco de día (no vuelve tal cual)",
+        "funcion": "bonito",
+        "que_se_ve": "10 planos del zoco de 5–6 f, avanzando entre la gente"
+      },
+      {
+        "t": "0:29.82–0:30.45 (f1789–1827)",
+        "sale_de": "zoco",
+        "funcion": "bonito",
+        "que_se_ve": "arco oscuro con el minarete dorado al fondo"
+      },
+      {
+        "t": "0:30.47–0:32.68 (f1828–1961)",
+        "sale_de": "Casablanca, minuto 28–31 (mezquita Hassan II)",
+        "funcion": "bonito",
+        "que_se_ve": "explanada de la mezquita con Luisito de espaldas y el título"
+      }
+    ],
+    "clips_rafaga_trailer_resumen": {
+      "total": 20,
+      "de_donde": "cold open: 13 planos de 4 escenas (serpientes min 8 ×5, cruce min 7 ×3, hierbas min 18–19 ×5) + 1 de archivo propio; ráfaga y título: 7 planos de la llegada/Marrakech (3 se repiten tal cual en 0:45.83, 0:47.80 y 0:58.68), 11 del zoco de día (no vuelven) y 1 de Casablanca (mezquita, sección de 28:05)",
+      "funcion": "llamativo 10 (50 %) · bonito 6 (30 %) · anticipa 2 (10 %) · promesa 2 (10 %)",
+      "regla_que_se_ve": "el cold open es TODO llamativo/promesa con su sonido (reacciones, peligro, estafa); la ráfaga es TODO bonito/ciudad sin sonido; nunca se mezclan",
+      "que_nunca_entra": "ni el hotel de lujo, ni la comida, ni el patrocinio, ni el cajero (estafa 1), ni el baile (estafa 3), ni el taxista (estafa 4, no hay imagen), ni Casablanca salvo el plano del título; ningún texto de dinero; ningún trayecto salvo el plano de carretera de 0,85 s",
+      "orden": "cold open en orden NO cronológico del vídeo (8:34 → archivo → 7:00 → 18:53) y cronológico dentro de cada escena; ráfaga en orden de llegada (carretera → ciudad → hotel → zoco)"
+    },
+    "linea_de_tiempo": [
+      {
+        "f0": 0,
+        "f1": 241,
+        "t": "0:00.00–0:04.02",
+        "que_se_ve": "plaza Jemaa el Fna de día: encantadores en cuclillas con 3 cobras en el suelo, plano general",
+        "origen": "escena de 8:34–8:41 (estafa 2)",
+        "camara": "en mano, POV",
+        "zoom_velocidad": "sin zoom",
+        "texto": "—",
+        "motion_graphic": "—",
+        "sfx": "—",
+        "musica": "sin música (resto −40…−48 dB): sonido directo de la plaza",
+        "voz": "«Hola, hay un buen, vean eso / Todas esas son serpientes»"
+      },
+      {
+        "f0": 242,
+        "f1": 460,
+        "t": "0:04.03–0:07.67",
+        "que_se_ve": "su vídeo de hace 9 años («Explorando los legendarios callejones de MARRUECOS») en tarjeta de YouTube redondeada sobre fondo de papel blanco: Luisito joven con una serpiente al cuello; 2 clips (corte interno en f303)",
+        "origen": "archivo propio del canal (vuelve en 8:06–8:16)",
+        "camara": "tarjeta fija",
+        "zoom_velocidad": "zoom lento +2,8 %/s sobre la tarjeta (×1,023 en 0,85 s, medir_zoom 4.1–5.0)",
+        "texto": "título del vídeo viejo y barra de la interfaz de YouTube bajo el clip",
+        "motion_graphic": "maqueta de tarjeta de YouTube",
+        "sfx": "doble clic en 4.01 (−15,5 dB respecto a la voz)",
+        "musica": "sin música",
+        "voz": "«La vez pasada que estuve aquí me acuerdo que un brother pues prácticamente me robó»"
+      },
+      {
+        "f0": 461,
+        "f1": 549,
+        "t": "0:07.68–0:09.15",
+        "que_se_ve": "encantador con turbante agachado ante una cobra, alfombra roja",
+        "origen": "escena de 8:34",
+        "camara": "en mano",
+        "zoom_velocidad": "sin zoom",
+        "texto": "—",
+        "motion_graphic": "—",
+        "sfx": "—",
+        "musica": "entra la música en ≈ 6,9 s (resto −30 dB)",
+        "voz": "«Ah, pues de hecho acá está, güey, son estos»"
+      },
+      {
+        "f0": 550,
+        "f1": 636,
+        "t": "0:09.17–0:10.60",
+        "que_se_ve": "vuelve el plano general de las cobras",
+        "origen": "escena de 8:36",
+        "camara": "en mano",
+        "zoom_velocidad": "sin zoom",
+        "texto": "—",
+        "motion_graphic": "—",
+        "sfx": "—",
+        "musica": "música −27…−29 dB",
+        "voz": "«Vean eso, no, it's ok, brother»"
+      },
+      {
+        "f0": 637,
+        "f1": 720,
+        "t": "0:10.62–0:12.00",
+        "que_se_ve": "flautista y encantador con la cobra",
+        "origen": "escena de 8:22",
+        "camara": "en mano",
+        "zoom_velocidad": "sin zoom",
+        "texto": "comentario «Me la querían volver a aplicar 😂» abajo-centro (el mismo de 8:22)",
+        "motion_graphic": "subtítulo-comentario",
+        "sfx": "—",
+        "musica": "música −25,7 dB",
+        "voz": "«it's ok»"
+      },
+      {
+        "f0": 721,
+        "f1": 809,
+        "t": "0:12.02–0:13.48",
+        "que_se_ve": "paso de cebra con taxis y furgonetas",
+        "origen": "escena de 7:00 (cruce de vuelta)",
+        "camara": "en mano",
+        "zoom_velocidad": "sin zoom",
+        "texto": "—",
+        "motion_graphic": "—",
+        "sfx": "—",
+        "musica": "música baja −38 dB",
+        "voz": "«Caminamos, sin miedo»"
+      },
+      {
+        "f0": 810,
+        "f1": 923,
+        "t": "0:13.50–0:15.38",
+        "que_se_ve": "cruce con una moto que pasa cerca",
+        "origen": "escena de 7:05",
+        "camara": "en mano",
+        "zoom_velocidad": "sin zoom",
+        "texto": "—",
+        "motion_graphic": "—",
+        "sfx": "—",
+        "musica": "música −34 dB",
+        "voz": "«Está difícil no tener miedo, pero»"
+      },
+      {
+        "f0": 924,
+        "f1": 1057,
+        "t": "0:15.40–0:17.62",
+        "que_se_ve": "selfie de Luisito riéndose con el tráfico detrás",
+        "origen": "escena de 7:13",
+        "camara": "selfie gran angular",
+        "zoom_velocidad": "sin zoom",
+        "texto": "—",
+        "motion_graphic": "—",
+        "sfx": "—",
+        "musica": "música −27…−34 dB",
+        "voz": "«Ay, qué hijo de su madre, pasó bien cerca»"
+      },
+      {
+        "f0": 1058,
+        "f1": 1191,
+        "t": "0:17.63–0:19.85",
+        "que_se_ve": "de noche: Luisito y Ari con un bote blanco bajo un toldo verde",
+        "origen": "escena de 18:53",
+        "camara": "selfie",
+        "zoom_velocidad": "sin zoom",
+        "texto": "—",
+        "motion_graphic": "—",
+        "sfx": "—",
+        "musica": "música fuera (−50…−53 dB)",
+        "voz": "«Nos están dando a oler algo, que según muy poderoso»"
+      },
+      {
+        "f0": 1192,
+        "f1": 1273,
+        "t": "0:19.87–0:21.22",
+        "que_se_ve": "Luisito huele el bote y abre los ojos",
+        "origen": "escena de 18:58",
+        "camara": "selfie",
+        "zoom_velocidad": "sin zoom",
+        "texto": "—",
+        "motion_graphic": "—",
+        "sfx": "—",
+        "musica": "música vuelve −27 dB",
+        "voz": "«Wow, hola, madre»"
+      },
+      {
+        "f0": 1274,
+        "f1": 1319,
+        "t": "0:21.23–0:21.98",
+        "que_se_ve": "reacción de cerca",
+        "origen": "escena de 19:00",
+        "camara": "selfie",
+        "zoom_velocidad": "sin zoom",
+        "texto": "—",
+        "motion_graphic": "—",
+        "sfx": "—",
+        "musica": "música −25,6 dB",
+        "voz": "«Ay»"
+      },
+      {
+        "f0": 1320,
+        "f1": 1428,
+        "t": "0:22.00–0:23.80",
+        "que_se_ve": "Ari se ríe con el bote",
+        "origen": "escena de 19:05",
+        "camara": "selfie",
+        "zoom_velocidad": "sin zoom",
+        "texto": "—",
+        "motion_graphic": "—",
+        "sfx": "—",
+        "musica": "música −38…−43 dB",
+        "voz": "—"
+      },
+      {
+        "f0": 1429,
+        "f1": 1524,
+        "t": "0:23.82–0:25.40",
+        "que_se_ve": "los dos bajo los toldos, Luisito mira a Ari",
+        "origen": "escena de 19:10",
+        "camara": "selfie",
+        "zoom_velocidad": "sin zoom",
+        "texto": "—",
+        "motion_graphic": "—",
+        "sfx": "—",
+        "musica": "música fuera (−61 dB) en 24 s",
+        "voz": "«¿Verdad? También duros» + «¿Qué…» cortado en 25.44"
+      },
+      {
+        "f0": 1525,
+        "f1": 1576,
+        "t": "0:25.42–0:26.27",
+        "que_se_ve": "carretera desde el coche con la Kutubía al fondo y un autobús",
+        "origen": "llegada (el mismo plano vuelve en 0:45.83)",
+        "camara": "coche en marcha",
+        "zoom_velocidad": "—",
+        "texto": "—",
+        "motion_graphic": "—",
+        "sfx": "—",
+        "musica": "música salta a −16,7 dB (25 s) y −13 dB (26 s): la música hace de voz",
+        "voz": "—"
+      },
+      {
+        "f0": 1577,
+        "f1": 1635,
+        "t": "0:26.28–0:27.25",
+        "que_se_ve": "edificio rosa con bandera marroquí enorme",
+        "origen": "llegada (vuelve en 0:47.80)",
+        "camara": "fija",
+        "zoom_velocidad": "—",
+        "texto": "—",
+        "motion_graphic": "—",
+        "sfx": "—",
+        "musica": "música −13…−15 dB",
+        "voz": "—"
+      },
+      {
+        "f0": 1636,
+        "f1": 1674,
+        "t": "0:27.27–0:27.90",
+        "que_se_ve": "minarete de la Kutubía en contrapicado contra nubes grises",
+        "origen": "Marrakech (la Kutubía vuelve en 0:58.68 y 3:36)",
+        "camara": "fija",
+        "zoom_velocidad": "—",
+        "texto": "—",
+        "motion_graphic": "—",
+        "sfx": "—",
+        "musica": "música −15 dB",
+        "voz": "—"
+      },
+      {
+        "f0": 1675,
+        "f1": 1692,
+        "t": "0:27.92–0:28.20",
+        "que_se_ve": "fachadas en contrapicado (18 f)",
+        "origen": "llegada",
+        "camara": "fija",
+        "zoom_velocidad": "—",
+        "texto": "—",
+        "motion_graphic": "—",
+        "sfx": "—",
+        "musica": "música",
+        "voz": "—"
+      },
+      {
+        "f0": 1693,
+        "f1": 1709,
+        "t": "0:28.22–0:28.48",
+        "que_se_ve": "fachadas con luces verdes (17 f)",
+        "origen": "llegada",
+        "camara": "fija",
+        "zoom_velocidad": "—",
+        "texto": "—",
+        "motion_graphic": "—",
+        "sfx": "—",
+        "musica": "música",
+        "voz": "—"
+      },
+      {
+        "f0": 1710,
+        "f1": 1717,
+        "t": "0:28.50–0:28.62",
+        "que_se_ve": "fachada acristalada del hotel (8 f)",
+        "origen": "llegada",
+        "camara": "fija",
+        "zoom_velocidad": "—",
+        "texto": "—",
+        "motion_graphic": "—",
+        "sfx": "—",
+        "musica": "música",
+        "voz": "—"
+      },
+      {
+        "f0": 1718,
+        "f1": 1726,
+        "t": "0:28.63–0:28.77",
+        "que_se_ve": "fachada con banderas (9 f)",
+        "origen": "llegada",
+        "camara": "fija",
+        "zoom_velocidad": "—",
+        "texto": "—",
+        "motion_graphic": "—",
+        "sfx": "—",
+        "musica": "música",
+        "voz": "—"
+      },
+      {
+        "f0": 1727,
+        "f1": 1732,
+        "t": "0:28.78–0:28.87",
+        "que_se_ve": "fachada frontal con banderas (6 f)",
+        "origen": "llegada",
+        "camara": "fija",
+        "zoom_velocidad": "—",
+        "texto": "—",
+        "motion_graphic": "—",
+        "sfx": "—",
+        "musica": "música",
+        "voz": "—"
+      },
+      {
+        "f0": 1733,
+        "f1": 1788,
+        "t": "0:28.88–0:29.80",
+        "que_se_ve": "zoco de día: 10 planos de 5–6 f (f1733, 1739, 1745, 1750, 1756, 1761, 1767, 1772, 1778, 1783), calles cubiertas llenas de gente y tiendas, avanzando en POV",
+        "origen": "zoco de día (no vuelve tal cual: el b-roll de 12:20–12:36 es de tarde)",
+        "camara": "en mano, avanzando",
+        "zoom_velocidad": "—",
+        "texto": "—",
+        "motion_graphic": "—",
+        "sfx": "—",
+        "musica": "música −12,5 dB (29 s)",
+        "voz": "—"
+      },
+      {
+        "f0": 1789,
+        "f1": 1827,
+        "t": "0:29.82–0:30.45",
+        "que_se_ve": "arco oscuro del zoco con el minarete dorado al fondo (39 f)",
+        "origen": "zoco",
+        "camara": "fija",
+        "zoom_velocidad": "—",
+        "texto": "—",
+        "motion_graphic": "—",
+        "sfx": "—",
+        "musica": "música −14 dB",
+        "voz": "—"
+      },
+      {
+        "f0": 1828,
+        "f1": 1961,
+        "t": "0:30.47–0:32.68",
+        "que_se_ve": "explanada de la mezquita Hassan II (Casablanca) con su minarete; Luisito de espaldas en el centro se gira y mira arriba",
+        "origen": "Casablanca, sección de 28:05–31:50",
+        "camara": "fija baja",
+        "zoom_velocidad": "zoom-out lento −1,67 %/s (×0,965 en 2,1 s); cambio de color en f1880 (31.33: más frío y saturado)",
+        "texto": "«MARRUECOS» 3D amarillo letra a letra f1848–1888",
+        "motion_graphic": "título (ver titulo_cabecera)",
+        "sfx": "ninguno separable",
+        "musica": "música −13…−16 dB sin voz",
+        "voz": "—"
+      },
+      {
+        "f0": 1962,
+        "f1": 2522,
+        "t": "0:32.70–0:42.03",
+        "que_se_ve": "terraza del hotel en plano general fijo gran angular; Luisito pequeño al fondo, de pie entre tumbonas",
+        "origen": "saludo grabado en el hotel",
+        "camara": "trípode",
+        "zoom_velocidad": "fijo",
+        "texto": "—",
+        "motion_graphic": "—",
+        "sfx": "—",
+        "musica": "la música baja a −32 dB (≈ 17 dB bajo la voz) en 33 s",
+        "voz": "«¿Qué pasa, amigos? ¿Qué pasa, mis cracks? O debería decir tal vez Salam Alecum, porque nos encontramos en Marruecos. Así es, estamos llegando a Marrakech»"
+      },
+      {
+        "f0": 2523,
+        "f1": 2983,
+        "t": "0:42.05–0:49.72",
+        "que_se_ve": "jardín con banderas, carretera desde el coche, edificio con bandera",
+        "origen": "llegada",
+        "camara": "fija / coche",
+        "zoom_velocidad": "—",
+        "texto": "—",
+        "motion_graphic": "—",
+        "sfx": "—",
+        "musica": "cama −33…−36 dB",
+        "voz": "«…en este momento. Que bello todo, que buenas primeras impresiones»"
+      },
+      {
+        "f0": 2984,
+        "f1": 3284,
+        "t": "0:49.73–0:54.73",
+        "que_se_ve": "su vídeo de hace 9 años en tarjeta de YouTube sobre papel blanco: 4 clips (f2984, 3047, 3122, 3187) de Jemaa el Fna y calles",
+        "origen": "archivo propio",
+        "camara": "tarjeta fija",
+        "zoom_velocidad": "—",
+        "texto": "título del vídeo viejo",
+        "motion_graphic": "maqueta de tarjeta de YouTube",
+        "sfx": "ninguno confirmado",
+        "musica": "cama",
+        "voz": "«Yo estuve aquí hace unos 9 años más o menos… y holo, está cambiado»"
+      },
+      {
+        "f0": 3285,
+        "f1": 3693,
+        "t": "0:54.75–1:01.55",
+        "que_se_ve": "cartel «AIRPORTS OF MOROCCO», terminal, calle con muro, minarete de la Kutubía entre palmeras",
+        "origen": "llegada",
+        "camara": "en mano",
+        "zoom_velocidad": "—",
+        "texto": "—",
+        "motion_graphic": "—",
+        "sfx": "—",
+        "musica": "cama",
+        "voz": "«Desde el aeropuerto, no sé, las calles, lo veo muy cambiado»"
+      },
+      {
+        "f0": 3694,
+        "f1": 4174,
+        "t": "1:01.57–1:09.57",
+        "que_se_ve": "Luisito en la terraza con los brazos abiertos (gran angular bajo) y la terraza con la Kutubía",
+        "origen": "hotel",
+        "camara": "operador",
+        "zoom_velocidad": "—",
+        "texto": "—",
+        "motion_graphic": "—",
+        "sfx": "—",
+        "musica": "cama",
+        "voz": "«les doy la bienvenida desde lo que pareciera ser como una plaza pública… pero no, este es el hotel al que estamos llegando»"
+      }
+    ],
+    "titulo_cabecera": {
+      "como_se_construye": "Plano de la explanada de la mezquita Hassan II (f1828, 0:30.47) con zoom-out lento. f1848 (0:30.80) aparece arriba-izquierda una mancha amarilla («M» naciendo, ≈ 2 % del ancho); las letras entran una a una de izquierda a derecha, cada una creciendo desde un punto y asentándose: «M·» f1848–1855, «MA» f1855 (0:30.91), «MAR» f1862 (0:31.03), «MARR» f1869 (0:31.15), «MARRU» f1875 (0:31.25), «MARRUEC» f1882 (0:31.36), «MARRUECO» f1886, «MARRUECOS» completo f1888 (0:31.46): 9 letras en 40 f (≈ 4,4 f por letra). El bloque va curvado en arco (las letras de los extremos, «M» y «S», más grandes y la «S» inclinada hacia la cámara) y queda «vivo»: las letras tiemblan 1–2 px de un fotograma a otro hasta el final (efecto wiggle). En f1880 (0:31.33) cambia el color del plano de fondo (más frío y saturado) sin tocar el texto. Sale por corte seco en f1962 (0:32.70) al saludo. Visible 114 f (1,9 s).",
+      "fuente": "display redondeada ultranegra tipo cómic (a ojo Luckiest Guy / Bangers) con extrusión 3D; fuente_rotulo.py no fiable por la curvatura y la extrusión: League Gothic (−0,838) · Caveat 600 (−0,876) · Special Elite (−0,930) [--color #E4B406, rotulos/r_titulo.png]",
+      "color": "amarillo #E4B406 con extrusión naranja-ocre oscura hacia abajo-derecha y sombra",
+      "tamano": "bloque ≈ 74 % del ancho (x 12–86 %), letras de 9 % («A» central) a 34 % del alto («S»), arriba-izquierda (y 7–46 %)",
+      "duracion_f": 114,
+      "sonido": "ninguno separable: música a −12,5…−16 dB sin voz; sfx.json no propone candidatos entre 25,4 y 37,7 s",
+      "plantilla_o_mano": "animación de texto 3D estilo «warp en arco» con aparición por letra y wiggle (After Effects o similar); el mismo amarillo no vuelve en el resto del vídeo: es pieza única de intro"
+    }
+  },
+  "motion_graphics": [
+    {
+      "tipo": "tarjeta de archivo / foto sobre papel blanco",
+      "que_es": "maqueta de reproductor de YouTube (vídeo con esquinas redondeadas, título, avatar, botones) o foto en tarjeta, centrada sobre un fondo de papel blanco texturado; se usa para su propio archivo y para fotos de cosas nombradas",
+      "total": 9,
+      "por_minuto": "0,25/min",
+      "ejemplos": "0:04.03 (vídeo de hace 9 años) · 4:38–4:43 (3 clips de «Aquí CADA HOMBRE puede tener CUATRO ESPOSAS» y «Explorando los legendarios callejones») · 8:06–8:16 (6 clips, la cobra de hace 9 años) · 29:04 (foto de la mezquita de Argelia) · 29:56 (Taj Mahal) · 34:16–34:21 (3 capturas de su vídeo de Madagascar) · 35:37.08–35:39.4 (foto del «taco francés» con nota)",
+      "entrada_salida": "corte seco de entrada y de salida; dentro, el clip cambia por corte (6 en 8:06–8:16, uno cada ≈ 1,7 s)",
+      "curva": "zoom lento lineal +2,8 %/s sobre la tarjeta (0:04.1–0:05.0)",
+      "posicion": "centrada; vídeo ≈ 72 % del ancho y ≈ 70 % del alto",
+      "tamano": "título del vídeo ≈ 1 % del alto (ilegible a propósito: solo dice «es un vídeo de YouTube»)",
+      "color": "fondo blanco papel #F2F2F0 aprox., interfaz de YouTube clara",
+      "fuente": "Roboto de la interfaz (sin medir)",
+      "sonido": "doble clic en 2 de 2 entradas de archivo de hace 9 años (0:04.01 −15,5 dB; 8:06.15 −15 dB); el resto sin efecto confirmado",
+      "disparador": "«la vez pasada / hace 9 años / hace dos añitos / la de Madagascar»: lo que dice que ya hizo o vio",
+      "como_esta_hecho": "plantilla de tarjeta + clip dentro",
+      "cuando_si": "para recordar un vídeo anterior del canal o enseñar algo que nombra y no está en imagen (otra mezquita, el Taj Mahal)",
+      "cuando_no": "nunca para material del propio viaje"
+    },
+    {
+      "tipo": "texto de dinero (precio, conversión, pérdida)",
+      "que_es": "cifra o frase de dinero escrita letra a letra sobre el plano, verde para precio/conversión y roja para lo que se pierde",
+      "total": 6,
+      "por_minuto": "6 entre 6:52 y 16:16 (≈ 0,6/min en ese tramo; 0 fuera)",
+      "ejemplos": "6:52.0–6:56 «Si sacas $200 / recibes: $172 / -$28» · 7:27.05 «10 dírham marroquí = 1 Dólar» y 7:29.7 «200 dírham marroquí = 20 Dólar» · 10:02.0 «-$10 usd» · 16:15.08 «$30 MXN / 1.62 USD»",
+      "entrada_salida": "máquina de escribir: «10 dirh» en 21 f (7:27.05–7:27.40, ≈ 1 carácter cada 3 f); «-$10 usd» en 24 f (10:02.00–10:02.40); «$30 MXN» en 20 f (16:15.08–16:15.41); cálculo línea a línea: «200» 6:52.0, «recibes: $172» 6:54.0, «-$28» 6:54.5; salen por corte",
+      "curva": "aparición por carácter, sin escala",
+      "posicion": "abajo-centro (y 86–92 %) los de una línea; arriba-izquierda (x 4–30 %, y 5–35 %) el cálculo",
+      "tamano": "«-$10 usd» y «$30 MXN» ≈ 10,4 % del alto; conversiones ≈ 7 %; «-$28» ≈ 12 %; «Si sacas $200» ≈ 4 %",
+      "color": "verde #47AD4A con borde negro (conversión, precio en MXN); rojo #BF3332 con borde blanco («-$10 usd»); rojo puro #FE0001 sin borde («-$28»); blanco con sombra (líneas del cálculo)",
+      "fuente": "«$30 MXN» --color #47AD4A → Archivo Black (+0,699) · Work Sans 800 (+0,658) · Lexend 800 (+0,657); «-$10 usd» --color #BF3332 → Archivo Black (+0,622) · Archivo 800 (+0,494) · Figtree 800 (+0,486); «= 1 Dólar» --color #48AD4A → Montserrat 800 (+0,568) · Figtree 800 (+0,477) · Archivo 800 (+0,461); «-$28» --color #FE0001 → Roboto 900 (+0,834) · Roboto Condensed 700 (+0,754) · Manrope 800 (+0,700); «recibes: $172» --color #FFFFFF → Roboto Condensed 700 (+0,209) · Roboto 500 (+0,175) · Caveat 600 (+0,117) (no fiable; a ojo Roboto bold)",
+      "sonido": "caja registradora/ding en 4 de 6 (7:27.14 −2,8 dB, 7:29.69 −0,4 dB, 10:01.70 +6,9 dB, 16:15.09 −10,1 dB); el cálculo de 6:52 sin efecto",
+      "disparador": "la cifra dicha: empieza 0–0,3 s después de la palabra («10 por un dólar» 7:24.2–7:28.2 → 7:27.05; «10 dólares» 10:02.3 → 10:02.0, a la vez; «treinta pesos» 16:15.1 → 16:15.08)",
+      "como_esta_hecho": "texto con animación de escritura + trazo",
+      "cuando_si": "cuando el dinero es el chiste o la lección (cuánto te quitan, cuánto vale en tu moneda)",
+      "cuando_no": "chanclas 30 dh (11:01), perfumes 20 dh (17:05), comisión de 50 dh (6:24) y la propina de Uber (25:00–25:20) van solo habladas"
+    },
+    {
+      "tipo": "círculo rojo dibujado",
+      "que_es": "elipse roja a mano alzada que se dibuja alrededor de un texto o lugar",
+      "total": 2,
+      "por_minuto": "—",
+      "ejemplos": "3:56.8–3:58.55 alrededor de «Rabat» en el mapa · 6:45.1–6:48.9 alrededor de «INCLUYE 13,95% DE MARGEN» en la pantalla del cajero",
+      "entrada_salida": "se dibuja en ≈ 18 f (3:56.8→3:57.1); sale por corte",
+      "curva": "trazo continuo",
+      "posicion": "sobre el objeto",
+      "tamano": "≈ 15 % del ancho",
+      "color": "rojo #D22 aprox., trazo ≈ 6 px",
+      "fuente": "—",
+      "sonido": "ninguno confirmado",
+      "disparador": "«la capital tal cual de Marruecos es Rabat» (circulo en el corte, 4 f antes de «Rabat» 3:56.79); «incluye 13,95 % de margen» repetido al resumir (6:44)",
+      "como_esta_hecho": "trazo animado; en el cajero va con SEGUIMIENTO (tracking) del texto mientras la cámara en mano se mueve (6:45.1–6:46.0 el círculo sigue al texto ≈ 30 % del ancho)",
+      "cuando_si": "para señalar la letra pequeña o un nombre en un mapa",
+      "cuando_no": "—"
+    },
+    {
+      "tipo": "mapa plano tipo Google Maps",
+      "que_es": "captura de mapa claro (modo día) sin satélite",
+      "total": 2,
+      "por_minuto": "—",
+      "ejemplos": "3:56.72–4:02.84 (6,1 s): costa de Marruecos con círculo en Rabat → flash blanco 2 f (3:58.58) → mapa más cercano de Marrakech con «1,000,000» escrito a rotulador negro (3:58.9–3:59.65) y «(Podría variar entre 1 y 1.5 millones)» debajo · 26:23.6–26:29.45 (≈ 5,9 s): flecha roja de puntos que se dibuja de Marrakech hacia Casablanca en 1,4 s (26:23.7–26:25.1) y se queda",
+      "entrada_salida": "corte seco; salida por corte seco",
+      "curva": "sin movimiento de cámara sobre el mapa (fijo); solo se dibujan el círculo, la cifra y la flecha",
+      "posicion": "pantalla completa",
+      "tamano": "«1,000,000» ≈ 12 % del alto, centrado-abajo (y 60–80 %)",
+      "color": "mapa claro de Google; cifra negra #111111; flecha roja oscura #A01010 aprox.",
+      "fuente": "«1,000,000» --color #111111 → Poppins (+0,241) · Montserrat 900 (+0,232) · Inter 900 (+0,214) (no fiable; a ojo grotesca ultranegra redondeada tipo Cooper/Archivo Black con trazo de rotulador)",
+      "sonido": "ninguno confirmado",
+      "disparador": "«Rabat» (3:56.79) y «un millón de personas» (3:59.85: la cifra se completa 0,2 s antes de la palabra); «vamos rumbo a Casablanca… son como 3 horas» (26:22.8–26:29.2)",
+      "como_esta_hecho": "captura de Google Maps + trazos animados",
+      "cuando_si": "dato de población/capital y trayecto entre ciudades",
+      "cuando_no": "nunca al llegar a un sitio (las llegadas van sin mapa) ni con satélite"
+    },
+    {
+      "tipo": "HUD de videojuego",
+      "que_es": "caja oscura semitransparente abajo-izquierda «Misión: / Cruzar las calles de Marrakech» + «VIDAS ♥♥♥» arriba-derecha durante el cruce de la calle",
+      "total": 2,
+      "por_minuto": "—",
+      "ejemplos": "5:22.68–5:40.6 (ida; la caja se pone VERDE en 5:40.45 = misión cumplida) · 7:00–7:14.5 (vuelta)",
+      "entrada_salida": "aparece con el corte (de golpe); sale por corte",
+      "curva": "—",
+      "posicion": "misión x 1–27 %, y 81–91 %; vidas x 89–99 %, y 2–5 %",
+      "tamano": "«Misión:» ≈ 2,3 % del alto, línea ≈ 2,3 %; corazones ≈ 2 %",
+      "color": "caja negra 70 %, «Misión:» amarillo #F0C461, texto blanco, corazones rojos; caja verde al cumplir",
+      "fuente": "grotesca de interfaz (a ojo Roboto/Lexend); fuente_rotulo.py no fiable: «Cruzar las calles de Marrakech» --color #FFFFFF → Bodoni Moda 500 (+0,204) · Roboto 500 (+0,187) · Lexend 600 (+0,181)",
+      "sonido": "chime/notificación al ponerse verde (5:40.20–5:40.45, rayas horizontales; −3,0 dB); la entrada (5:25.0) en dudas",
+      "disparador": "«Primera misión, cruzar la calle en Marrakech» (5:24.1)",
+      "como_esta_hecho": "plantilla de HUD (no sigue a nada, fijo a pantalla)",
+      "cuando_si": "una acción cotidiana convertida en reto de juego, al principio del viaje",
+      "cuando_no": "una sola misión en todo el vídeo"
+    },
+    {
+      "tipo": "animación dibujada (cartoon) para lo que no se grabó",
+      "que_es": "dibujos planos de personajes (Luisito con su pelo rizado, el taxista con bigote, Ari) dentro de un coche de noche, con poses que cambian por corte y objetos (móvil «PAGADO ✓», cartera, móvil «PROPINA $»)",
+      "total": "4 bloques, ≈ 51 s",
+      "por_minuto": "—",
+      "ejemplos": "23:35.67–23:57.5 (foto real del Aeropuerto de Marrakech Menara con Luisito y Ari dibujados andando + Mercedes dibujado que entra 23:37.69–23:38.4 → coche por dentro: taxista y Luisito, «PAGADO ✓» 23:54) · 24:05.2–24:15.5 (la cartera) · 24:22.4–24:31.9 · 24:54.8–25:04.1 (móvil «PROPINA $»)",
+      "entrada_salida": "corte seco desde el plano de Luisito en el coche y vuelta por corte; dentro, las poses cambian por corte cada 1–3 s (23:45.48, 23:46.65, 23:49.19)",
+      "curva": "animación por poses (sin interpolación)",
+      "posicion": "pantalla completa",
+      "tamano": "—",
+      "color": "interior azul noche, personajes blanco-grisáceos con contorno negro",
+      "fuente": "—",
+      "sonido": "motor/whoosh del coche dibujado (23:37.18–23:38.63, −7,9 dB); el resto con la voz de Luisito contando, SIN música",
+      "disparador": "el relato en pasado del taxista («me dice… y yo…»): la animación ilustra cada réplica del diálogo",
+      "como_esta_hecho": "ilustración 2D por poses compuesta sobre foto real o fondo dibujado",
+      "cuando_si": "para contar una escena importante que no se pudo grabar (o no se debía)",
+      "cuando_no": "—"
+    },
+    {
+      "tipo": "inserto-meme con recorte",
+      "que_es": "Luisito recortado de pie dentro de una sala amarilla de los «backrooms» (recreación 3D)",
+      "total": 1,
+      "por_minuto": "—",
+      "ejemplos": "18:32.47–18:36.75 (4,3 s)",
+      "entrada_salida": "corte seco EN la palabra «backrooms» (18:32.44) y corte seco de vuelta",
+      "curva": "leve temblor de cámara",
+      "posicion": "figura centrada, ≈ 55 % del alto",
+      "tamano": "—",
+      "color": "amarillo verdoso de los backrooms",
+      "fuente": "—",
+      "sonido": "ninguno confirmado (la voz sigue: «o sea, por más que caminaba, no llegaba a ningún lado»)",
+      "disparador": "la referencia que dice",
+      "como_esta_hecho": "recorte de persona sobre fondo 3D",
+      "cuando_si": "referencia de internet dicha en voz alta",
+      "cuando_no": "—"
+    },
+    {
+      "tipo": "sticker",
+      "que_es": "dibujo de una mantarraya que entra abajo-izquierda sobre el cuenco de huevos de mantarraya",
+      "total": 1,
+      "por_minuto": "—",
+      "ejemplos": "18:45.70",
+      "entrada_salida": "aparece de golpe (pop) y se queda hasta el corte",
+      "curva": "golpe",
+      "posicion": "abajo-izquierda (x 0–25 %, y 70–95 %)",
+      "tamano": "≈ 25 % del ancho",
+      "color": "gris oscuro",
+      "fuente": "—",
+      "sonido": "pop 18:45.56–18:45.83 (+1,7 dB)",
+      "disparador": "«me dijo huevos de mantarraya» (18:44.8)",
+      "como_esta_hecho": "PNG con pop",
+      "cuando_si": "nombre de un animal u objeto raro que no se reconoce en el plano",
+      "cuando_no": "—"
+    },
+    {
+      "tipo": "flecha de medida",
+      "que_es": "flecha blanca vertical que crece desde la base hasta la punta del minarete con «210 METROS» escrito en vertical",
+      "total": 1,
+      "por_minuto": "—",
+      "ejemplos": "28:42.1–28:46.98",
+      "entrada_salida": "crece de abajo arriba en ≈ 1,4 s (28:42.1→28:43.5); sale por corte",
+      "curva": "lineal",
+      "posicion": "a la izquierda del minarete (x ≈ 33 %), de y 95 % a y 35 %",
+      "tamano": "texto ≈ 3 % del alto",
+      "color": "blanco #FFFFFF",
+      "fuente": "grotesca bold condensada (sin medir: texto vertical)",
+      "sonido": "ninguno confirmado",
+      "disparador": "«mide 210 metros de altura» (28:41.3–28:44.7)",
+      "como_esta_hecho": "trazo animado",
+      "cuando_si": "altura o tamaño dicho de algo que está en imagen",
+      "cuando_no": "—"
+    },
+    {
+      "tipo": "aspa roja + foto de stock",
+      "que_es": "foto de shawarma tachada con una X roja dibujada y foto de kebab largo a la brasa",
+      "total": 1,
+      "por_minuto": "—",
+      "ejemplos": "35:10–35:13 (shawarma) → 35:12 aspa → 35:14–35:17 (kebab)",
+      "entrada_salida": "el aspa se dibuja sobre la foto; corte seco",
+      "curva": "trazo",
+      "posicion": "centrada",
+      "tamano": "aspa ≈ 50 % del ancho",
+      "color": "rojo #E02020 aprox.",
+      "fuente": "—",
+      "sonido": "no confirmado",
+      "disparador": "«lo que creemos que es el kebab… pero no, kebab en estos países son salchichas de carne larga»",
+      "como_esta_hecho": "stock + trazo",
+      "cuando_si": "corregir una idea equivocada",
+      "cuando_no": "—"
+    },
+    {
+      "tipo": "captura de pantalla",
+      "que_es": "artículo de Wikipedia de Mohamed VI",
+      "total": 1,
+      "por_minuto": "—",
+      "ejemplos": "7:36",
+      "entrada_salida": "corte seco",
+      "curva": "—",
+      "posicion": "pantalla completa",
+      "tamano": "—",
+      "color": "—",
+      "fuente": "—",
+      "sonido": "no",
+      "disparador": "«la persona que aparece en el billete es el rey Mohamed Sexto»",
+      "como_esta_hecho": "captura",
+      "cuando_si": "persona nombrada",
+      "cuando_no": "—"
+    },
+    {
+      "tipo": "gráficos del patrocinio",
+      "que_es": "barra de progreso roja abajo durante toda la pieza, «#PUBLICIDAD» en esquina, logo «Holafly» rosa que sube desde abajo y gira letra a letra, capturas de la web, «ILIMITADOS» rosa gigante, globo 3D «+200 DESTINOS», QR fijo a la derecha, emoji de mano, «+1 GB», «Código de descuento: LUISITOCOMUNICA» con 2 manos señalando",
+      "total": "≈ 9 gráficos en 70 s",
+      "por_minuto": "—",
+      "ejemplos": "14:30.0 barra · 14:30.9 logo (en «HolaFly» 14:31.17) · 14:38.26 «ILIMITADOS» (en «ilimitados» 14:37.97) · 15:12 «+1 GB» · 15:18 código",
+      "entrada_salida": "logo sube desde abajo en 0,1 s y sus letras giran 14:31.3–14:31.9",
+      "curva": "golpe",
+      "posicion": "variable",
+      "tamano": "«ILIMITADOS» ≈ 100 % del ancho",
+      "color": "rosa Holafly #E8336D aprox.",
+      "fuente": "la de la marca",
+      "sonido": "golpe ancho con «ILIMITADOS» (14:38.0, −6,4 dB); resto en dudas",
+      "disparador": "cada palabra clave del guion de la marca",
+      "como_esta_hecho": "kit de la marca + edición del canal",
+      "cuando_si": "solo en el patrocinio",
+      "cuando_no": "nada de esta paleta fuera del patrocinio"
+    },
+    {
+      "tipo": "aparte en blanco y negro",
+      "que_es": "plano en B/N sin otro efecto",
+      "total": 2,
+      "por_minuto": "—",
+      "ejemplos": "8:48 (un encantador se acerca a echarle: «ya vinieron a correrme») · 29:16–29:20 (no consigue el plano «pro» del minarete)",
+      "entrada_salida": "corte seco",
+      "curva": "—",
+      "posicion": "pantalla completa",
+      "tamano": "—",
+      "color": "B/N",
+      "fuente": "—",
+      "sonido": "no confirmado",
+      "disparador": "pequeño fracaso o momento incómodo",
+      "como_esta_hecho": "desaturación",
+      "cuando_si": "micro-fracaso cómico",
+      "cuando_no": "—"
+    }
+  ],
+  "cortes": {
+    "total_visibles": 545,
+    "total_visibles_nota": "detectar_cortes.py --rafagas --hasta 70 (cortes_rafagas.json); el cortes.json normal da 532 porque junta la ráfaga",
+    "total_real_estimado": "≈ 735 (680–800): 545 detectados + ≈ 190 jump cuts del selfie y cortes con fondo parecido que el detector no ve",
+    "cortes_por_minuto": 14.8,
+    "cortes_por_minuto_real": "≈ 20 (18,5–21,8)",
+    "plano_media_s": 4.04,
+    "plano_mediana_s": 3.18,
+    "p10_s": 1.0,
+    "p90_s": 7.93,
+    "menos_de_1s": "10 % de los planos detectados (8 % sin la ráfaga)",
+    "mas_de_5s": "28 %",
+    "plano_medio_real_s": "≈ 3,0 (2,75–3,25)",
+    "plano_mas_largo": "25:04.13–25:53.96 (49,8 s): Luisito en el coche contando el desenlace del taxista («y me voy gritando… dos señores enojados en la calle… simplemente los dos estábamos cansados»), sin música, sin gráfico, sin jump cut",
+    "como_se_contaron_los_jump_cuts": "a ojo en d_0900a (9:00–9:30 a 0,1 s): detector 9 → 12–13 (+3–4: 9:10.43, 9:11.68, 9:16.5 y quizá 9:05.8). Además, en 5 tramos de 1 min (2:30–3:30, 9:00–10:00, 13:00–14:00, 23:00–24:00, 32:00–33:00) se buscaron picos de cambio de escena (scdet) que el detector no marcó y se miraron los 30 a 2 f (scratchpad jc1/jc2): 25 eran cortes (jump cuts del selfie o del plano medio; 3 eran cambios de pose de la animación) y 5 no (gestos, mano que pasa, coche dibujado). Extrapolado: picos no marcados ≈ 6,3/min fuera de los minutos con parpadeo de luces (0, 11, 14, 18, 35) × 0,83 = ≈ 5,2/min → ≈ 190 en 36,7 min. En el tramo de selfie hablado ×1,35–1,45; en b-roll, tours y animación ×1,0–1,1.",
+    "por_minuto": [
+      46,
+      13,
+      12,
+      13,
+      18,
+      20,
+      16,
+      18,
+      20,
+      18,
+      8,
+      15,
+      9,
+      17,
+      9,
+      16,
+      31,
+      18,
+      12,
+      21,
+      10,
+      16,
+      12,
+      10,
+      11,
+      2,
+      10,
+      18,
+      12,
+      12,
+      9,
+      11,
+      13,
+      11,
+      15,
+      16,
+      7
+    ],
+    "por_minuto_a_ojo_muestras": {
+      "9 (9:00–9:30)": "detector 9 → 12–13 en 30 s",
+      "2:30–3:30": "detector 9 → +7 jump cuts confirmados",
+      "13:00–14:00": "detector 17 → +4",
+      "32:00–33:00": "detector 13 → +4"
+    },
+    "por_parte": [
+      {
+        "parte": "cold open 0:00–0:25.40",
+        "cortes_min": 30.7,
+        "mediana_s": 1.73,
+        "nota": "13 planos de 0,75–4,02 s"
+      },
+      {
+        "parte": "ráfaga 0:25.42–0:30.45",
+        "cortes_min": 214,
+        "mediana_s": 0.1,
+        "nota": "19 planos; 13 de 5–9 f"
+      },
+      {
+        "parte": "saludo y llegada 0:32.70–1:09.57",
+        "cortes_min": 26,
+        "mediana_s": 1.6,
+        "nota": "saludo de 9,33 s + 16 planos de llegada"
+      },
+      {
+        "parte": "tour del hotel 1:09.6–3:24",
+        "cortes_min": 12.5,
+        "mediana_s": 4.9,
+        "nota": "+ jump cuts en el plano medio (2:51.9, 2:54.9, 3:04.2, 3:12.6, 3:14.8, 3:18.05)"
+      },
+      {
+        "parte": "Marrakech de día y estafas 3:24–14:13",
+        "cortes_min": 15.9,
+        "mediana_s": 3.0,
+        "nota": "selfie con jump cuts cada 1,2–5 s (×1,35–1,45 a ojo)"
+      },
+      {
+        "parte": "patrocinio 14:13–15:33",
+        "cortes_min": 12,
+        "mediana_s": 4.5
+      },
+      {
+        "parte": "zoco de noche y especias 15:33–21:41",
+        "cortes_min": 18.0,
+        "mediana_s": 2.5,
+        "nota": "máximo del cuerpo en el minuto 16 (31 cortes, dulces)"
+      },
+      {
+        "parte": "cena y taxista 21:41–26:16",
+        "cortes_min": 10.4,
+        "mediana_s": 3.6,
+        "nota": "incluye el plano de 49,8 s"
+      },
+      {
+        "parte": "carretera y Casablanca 26:16–35:53",
+        "cortes_min": 12.6,
+        "mediana_s": 4.5
+      },
+      {
+        "parte": "cierre 35:53–36:44.87",
+        "cortes_min": 8.3,
+        "mediana_s": 3.98,
+        "nota": "despedida en el aeropuerto con jump cuts + pantalla final de 15,3 s"
+      }
+    ],
+    "rafagas": "1: la de la intro (0:25.42–0:30.45, 19 planos; detectar_cortes.py --rafagas --hasta 70 la separa y las hojas fotograma a fotograma confirman que son planos distintos, no cámara rápida: cada uno cambia de calle y de gente, f1733–1788). En el cuerpo no hay ninguna ráfaga ≥ 3 cortes en 2 s salvo la animación (cambios de pose) y el montaje de dulces del minuto 16.",
+    "montajes_sin_voz": "3: ráfaga + título (0:25.42–0:32.68, música −12,5…−16,7 dB); la carretera por la ventanilla (26:21.4–26:23.6, sin música); montaje de Casablanca antes de la despedida (35:40.7–35:53.2, 6 planos de 1,6–3,7 s: camiseta «Casablanca», minarete, zoco, calle con arcos, minarete; música −23,8 dB)",
+    "jump_cuts": "en el selfie hablado: mismo encuadre, la escala cambia solo 2–5 % (medir_zoom a través del corte: ×0,956 en 9:10.43, ×0,985 en 9:11.68, ×0,975 en 13:48.6, ×0,981 en 13:52.0, ×1,023 en 32:36.0), cada 1,2–5 s en cambio de frase; quitan muletillas y pausas, no buscan efecto de zoom. En 9:06–9:21 (explicación de idiomas) 6 jump cuts en 15 s",
+    "giros_de_camara_sin_corte": "selfie que gira a POV para enseñar lo que nombra (billete 7:20, chanclas 11:02, henna 12:38) y vuelve a la cara sin cortar",
+    "j_l_cuts": "voz en off en pasado sobre b-roll de la cena (21:43–22:08) y del show (22:29–22:58); la voz de la llegada sigue sobre los planos (0:42–1:09); en el cold open las frases están cortadas al plano (sin J/L)",
+    "match_cuts": "mano que tapa el objetivo y destapa ya cambiado de ropa y en la calle (3:26.1–3:26.4, «cambiazo de ovni»)",
+    "insertos_cortos": "backrooms 4,3 s (18:32.47); inserto de la Kutubía para comparar alturas (28:48–28:52); foto del Taj Mahal 29:56; 4 retratos del rey 7:38–7:45 (1,5–2 s cada uno)",
+    "velocidad": "ninguna cámara rápida, lenta, congelado ni rebobinado medida en el cuerpo; la ráfaga de la intro son planos distintos",
+    "cortes_con_acento_de_sonido": "102 de 532 (19 %) según audio.json; en el minuto 0, 8 de 33",
+    "cortes_en_pulso": "33 % de los cortes con música caen en pulso (= azar): no se monta a ritmo salvo la ráfaga y el montaje final de Casablanca"
+  },
+  "zooms": [
+    {
+      "tipo": "sin zoom sobre quien habla",
+      "medido": "medir_zoom 3:04.0–3:04.4 (×1,004), 23:16 (×1,001), 36:30–36:44 (×0,998)",
+      "escala_inicial_final": "×1,0",
+      "duracion_f": "—",
+      "curva": "—",
+      "centro": "—",
+      "disparador": "—",
+      "extras": "la cara crece o encoge porque él acerca o aleja el brazo del selfie (gran angular)",
+      "total": "todo el vídeo",
+      "por_minuto": 0,
+      "ejemplos": "9:06–9:21 · 23:15–23:31 · 25:04–25:53"
+    },
+    {
+      "tipo": "salto mínimo de escala en jump cut",
+      "medido": "medir_zoom a través del corte en 5",
+      "escala_inicial_final": "×1,0 → ×0,956–×1,023",
+      "duracion_f": "lo que dura la frase (1,2–5 s)",
+      "curva": "golpe (por corte)",
+      "centro": "la cara",
+      "disparador": "cambio de frase",
+      "extras": "sin sonido",
+      "total": "≈ 190 jump cuts",
+      "por_minuto": "≈ 5",
+      "ejemplos": "9:10.43 ×0,956 · 13:48.6 ×0,975 · 32:36.0 ×1,023"
+    },
+    {
+      "tipo": "zoom lento en tarjeta de archivo",
+      "medido": "medir_zoom 0:04.1–0:05.0",
+      "escala_inicial_final": "×1 → ×1,023 en 0,85 s",
+      "duracion_f": 51,
+      "curva": "lineal (+2,8 %/s)",
+      "centro": "centro de la tarjeta",
+      "disparador": "entra la tarjeta",
+      "extras": "doble clic",
+      "total": "—",
+      "por_minuto": "—",
+      "ejemplos": "0:04.1"
+    },
+    {
+      "tipo": "zoom-out lento bajo el título",
+      "medido": "medir_zoom 0:30.5–0:32.65",
+      "escala_inicial_final": "×1 → ×0,965 en 2,1 s",
+      "duracion_f": 129,
+      "curva": "lineal (−1,67 %/s)",
+      "centro": "centro",
+      "disparador": "título",
+      "extras": "cambio de color en f1880",
+      "total": 1,
+      "por_minuto": "—",
+      "ejemplos": "0:30.5"
+    },
+    {
+      "tipo": "b-roll fijo o con movimiento de cámara real",
+      "medido": "medir_zoom 1:18.9–1:22.7 (×1,008, fijo), 28:20–28:32 (inclinación de cámara real, no zoom)",
+      "escala_inicial_final": "×1,0",
+      "duracion_f": "—",
+      "curva": "—",
+      "centro": "—",
+      "disparador": "—",
+      "extras": "todos los movimientos son de la cámara en mano",
+      "total": "—",
+      "por_minuto": 0,
+      "ejemplos": "1:18.9 · 28:20 · 33:28"
+    }
+  ],
+  "textos": [
+    {
+      "tipo": "título de país (intro)",
+      "texto_ejemplos": "«MARRUECOS»",
+      "fuente": "ver intro.titulo_cabecera (no fiable: League Gothic −0,838 · Caveat 600 −0,876 · Special Elite −0,930; a ojo Luckiest Guy/Bangers 3D)",
+      "peso": "ultranegra",
+      "mayusculas": "sí",
+      "color": "#E4B406 con extrusión ocre",
+      "borde_sombra_caja": "extrusión 3D + sombra",
+      "tamano": "9–34 % del alto (arco)",
+      "posicion": "arriba-izquierda",
+      "entrada": "letra a letra 4,4 f/letra",
+      "salida": "corte seco",
+      "duracion": "1,9 s",
+      "por_minuto": "—",
+      "total": 1,
+      "disparador": "fin de la ráfaga",
+      "sonido": "música",
+      "ejemplos_con_tiempo": "0:30.80–0:32.68",
+      "recorte": "rotulos/r_titulo.png"
+    },
+    {
+      "tipo": "dinero: precio / conversión (verde)",
+      "texto_ejemplos": "«10 dírham marroquí = 1 Dólar» · «200 dírham marroquí = 20 Dólar» · «$30 MXN» + «1.62 USD»",
+      "fuente": "«$30 MXN» Archivo Black (+0,699) · Work Sans 800 (+0,658) · Lexend 800 (+0,657); «= 1 Dólar» Montserrat 800 (+0,568) · Figtree 800 (+0,477) · Archivo 800 (+0,461) [--color #47AD4A/#48AD4A]. Fiable: grotesca negra ancha",
+      "peso": "800–900",
+      "mayusculas": "no (mayúscula inicial en «Dólar», siglas en mayúscula)",
+      "color": "verde #47AD4A",
+      "borde_sombra_caja": "borde negro fino + sombra",
+      "tamano": "7 % (conversión) y 10,3 % («$30 MXN»); «1.62 USD» ≈ 2 %",
+      "posicion": "abajo-centro (y 86–92 %)",
+      "entrada": "escritura letra a letra (≈ 20 car/s)",
+      "salida": "corte seco",
+      "duracion": "2,5–4 s",
+      "por_minuto": "—",
+      "total": 3,
+      "disparador": "la cifra dicha (0–0,3 s después)",
+      "sonido": "caja registradora / ding (3 de 3)",
+      "ejemplos_con_tiempo": "7:27.05 · 7:29.7 · 16:15.08",
+      "recorte": "rotulos/r_conversion.png, r_conversion_dolar.png, r_mxn30.png"
+    },
+    {
+      "tipo": "dinero: pérdida (rojo)",
+      "texto_ejemplos": "«-$10 usd» · «-$28» con «Si sacas $200 / recibes: $172»",
+      "fuente": "«-$10 usd» Archivo Black (+0,622) · Archivo 800 (+0,494) · Figtree 800 (+0,486) [--color #BF3332]; «-$28» Roboto 900 (+0,834) · Roboto Condensed 700 (+0,754) · Manrope 800 (+0,700) [--color #FE0001]; «recibes: $172» Roboto Condensed 700 (+0,209) · Roboto 500 (+0,175) · Caveat 600 (+0,117) [--color #FFFFFF] (no fiable, a ojo Roboto bold)",
+      "peso": "900",
+      "mayusculas": "no",
+      "color": "rojo #BF3332 con borde blanco; rojo puro #FE0001; blanco para la cuenta",
+      "borde_sombra_caja": "borde blanco («-$10 usd»); sombra suave (cálculo)",
+      "tamano": "«-$10 usd» 10,4 %; «-$28» ≈ 12 %; líneas del cálculo ≈ 4 %",
+      "posicion": "«-$10 usd» abajo-centro; cálculo arriba-izquierda",
+      "entrada": "escritura letra a letra; el cálculo línea a línea siguiendo la frase",
+      "salida": "corte seco",
+      "duracion": "2–4 s",
+      "por_minuto": "—",
+      "total": 2,
+      "disparador": "la cifra de pérdida",
+      "sonido": "caja registradora en «-$10 usd» (+6,9 dB, el efecto más fuerte del vídeo); el cálculo sin efecto",
+      "ejemplos_con_tiempo": "6:52.0–6:56 · 10:02.0–10:05",
+      "recorte": "rotulos/r_menos10.png, r_menos28.png, r_calculo.png, r_calculo_l2.png"
+    },
+    {
+      "tipo": "comentario del editor en subtítulo con emoji",
+      "texto_ejemplos": "«Me la querían volver a aplicar 😂» · «“No money, no money” 😂😂»",
+      "fuente": "Archivo Black (+0,743) · Chakra Petch (+0,559) · Work Sans 800 (+0,517) [--color #FFFFFF, rotulos/r_comentario.png]. Fiable",
+      "peso": "900",
+      "mayusculas": "no",
+      "color": "blanco #FFFFFF",
+      "borde_sombra_caja": "borde/sombra negra fina",
+      "tamano": "≈ 3,7 % del alto",
+      "posicion": "abajo-centro (y ≈ 90 %)",
+      "entrada": "de golpe",
+      "salida": "corte seco",
+      "duracion": "1,4–2,5 s",
+      "por_minuto": "—",
+      "total": 2,
+      "disparador": "remate de una situación de estafa",
+      "sonido": "no",
+      "ejemplos_con_tiempo": "8:22–8:24 (y reciclado en 0:10.62) · 9:04–9:06",
+      "recorte": "rotulos/r_comentario.png"
+    },
+    {
+      "tipo": "subtítulo de traducción / voz poco clara",
+      "texto_ejemplos": "«Quiero uno de chocolate, por favor» · «son 15 Dírhams?» · «si quieres venir a la plaza de las especias»",
+      "fuente": "Figtree 600 (+0,383) · Roboto 500 (+0,364) · Inter 600 (+0,359) [--color #FFFFFF, rotulos/r_subtfr.png]; en cursiva (italic)",
+      "peso": "500–600 cursiva",
+      "mayusculas": "no",
+      "color": "blanco",
+      "borde_sombra_caja": "sombra suave",
+      "tamano": "≈ 2,8 % del alto",
+      "posicion": "abajo-centro (y ≈ 94 %)",
+      "entrada": "de golpe",
+      "salida": "de golpe",
+      "duracion": "1,5–2,5 s",
+      "por_minuto": "—",
+      "total": "≈ 4 tramos vistos",
+      "disparador": "frase en francés de Luisito o español con acento del vendedor",
+      "sonido": "no",
+      "ejemplos_con_tiempo": "16:04 · 16:08 · 20:40",
+      "recorte": "rotulos/r_subtfr.png"
+    },
+    {
+      "tipo": "HUD de misión",
+      "texto_ejemplos": "«Misión: / Cruzar las calles de Marrakech» · «VIDAS ♥♥♥»",
+      "fuente": "no fiable: Bodoni Moda 500 (+0,204) · Roboto 500 (+0,187) · Lexend 600 (+0,181) [--color #FFFFFF]; a ojo grotesca de interfaz",
+      "peso": "regular",
+      "mayusculas": "no",
+      "color": "«Misión:» #F0C461, texto blanco",
+      "borde_sombra_caja": "caja negra 70 % con esquinas redondeadas",
+      "tamano": "2,3 %",
+      "posicion": "abajo-izquierda",
+      "entrada": "de golpe",
+      "salida": "corte",
+      "duracion": "18 s y 14,5 s",
+      "por_minuto": "—",
+      "total": 2,
+      "disparador": "«Primera misión»",
+      "sonido": "chime al cumplir",
+      "ejemplos_con_tiempo": "5:22.68 · 7:00",
+      "recorte": "rotulos/r_hud.png, r_hud_l2.png"
+    },
+    {
+      "tipo": "cifra sobre mapa",
+      "texto_ejemplos": "«1,000,000» + «(Podría variar entre 1 y 1.5 millones)»",
+      "fuente": "Poppins (+0,241) · Montserrat 900 (+0,232) · Inter 900 (+0,214) [--color #111111] (no fiable)",
+      "peso": "900",
+      "mayusculas": "—",
+      "color": "negro #111111",
+      "borde_sombra_caja": "trazo blanco fino",
+      "tamano": "12 %; nota ≈ 1,8 %",
+      "posicion": "centro-abajo",
+      "entrada": "trazos de rotulador 45 f",
+      "salida": "corte",
+      "duracion": "3,2 s",
+      "por_minuto": "—",
+      "total": 1,
+      "disparador": "«un millón de personas»",
+      "sonido": "no",
+      "ejemplos_con_tiempo": "3:58.9–4:02.84",
+      "recorte": "rotulos/r_millon.png"
+    },
+    {
+      "tipo": "medida",
+      "texto_ejemplos": "«210 METROS»",
+      "fuente": "sin medir (vertical)",
+      "peso": "bold",
+      "mayusculas": "sí",
+      "color": "blanco",
+      "borde_sombra_caja": "—",
+      "tamano": "3 %",
+      "posicion": "junto a la flecha",
+      "entrada": "con la flecha",
+      "salida": "corte",
+      "duracion": "4,9 s",
+      "por_minuto": "—",
+      "total": 1,
+      "disparador": "«mide 210 metros»",
+      "sonido": "no",
+      "ejemplos_con_tiempo": "28:42.1",
+      "recorte": "rotulos/f_metros210.png"
+    },
+    {
+      "tipo": "nota del editor bajo foto",
+      "texto_ejemplos": "«investigué después, y existe un platillo llamado “taco francés”»",
+      "fuente": "DM Sans 700 (+0,457) · Roboto 500 (+0,374) · Work Sans 600 (+0,360) [--color #111111]",
+      "peso": "bold",
+      "mayusculas": "no (minúsculas, primera persona del creador)",
+      "color": "negro sobre papel blanco",
+      "borde_sombra_caja": "sin caja",
+      "tamano": "≈ 2 %",
+      "posicion": "bajo la foto, centrado (y ≈ 92 %)",
+      "entrada": "con la tarjeta",
+      "salida": "corte",
+      "duracion": "2,3 s",
+      "por_minuto": "—",
+      "total": 1,
+      "disparador": "pregunta que dejó abierta («¿tendrá algo que ver con la presencia francesa?»)",
+      "sonido": "no",
+      "ejemplos_con_tiempo": "35:37.08–35:39.4",
+      "recorte": "rotulos/r_nota.png"
+    },
+    {
+      "tipo": "pantalla final",
+      "texto_ejemplos": "«SUSCRÍBETE :)» · «VE UN VIDEO SIMILAR:» · «EDITADO POR: CRIS @CRISTIANTREJORDZ / CÁMARA: ARY @ARIANNY.TENORIO & DIANIS»",
+      "fuente": "«SUSCRÍBETE :)» Outfit 700 (+0,606) · Exo 2 700 (+0,580) · DM Sans 900 (+0,575) [--color #FFFFFF]",
+      "peso": "700–900",
+      "mayusculas": "sí",
+      "color": "blanco",
+      "borde_sombra_caja": "sombra suave",
+      "tamano": "«SUSCRÍBETE» ≈ 8 %; «VE UN VIDEO SIMILAR» ≈ 2 %; créditos ≈ 1,5 %",
+      "posicion": "centro; luego arriba-centro + créditos abajo-centro",
+      "entrada": "de golpe",
+      "salida": "corte / fin",
+      "duracion": "2,8 s y 11,3 s",
+      "por_minuto": "—",
+      "total": 1,
+      "disparador": "fin",
+      "sonido": "música −27 dB",
+      "ejemplos_con_tiempo": "36:30.5 · 36:33.5",
+      "recorte": "rotulos/r_suscribete.png"
+    }
+  ],
+  "subtitulos": {
+    "cobertura": "≈ 15 s en ≈ 6 tramos (< 1 % del vídeo; a ojo en las hojas). No subtitulan a Luisito nunca.",
+    "que_se_subtitula": [
+      "frases en francés de Luisito (16:04–16:10, traducción en cursiva)",
+      "frases con acento difícil de los vendedores (20:40)",
+      "comentarios del editor con emoji que citan o rematan (8:22, 9:04)"
+    ],
+    "que_no": "ni Luisito, ni Ari, ni la mayoría de vendedores que hablan español; tampoco el inglés con los encantadores («it's ok, brother»)",
+    "formato": "una línea, abajo-centro (y 90–94 %); traducción en grotesca cursiva blanca ≈ 2,8 % (Figtree 600 +0,383); comentario en grotesca negra blanca ≈ 3,7 % (Archivo Black +0,743) con emoji al final",
+    "enfasis": "el emoji 😂 marca el chiste; sin color ni tamaño de énfasis",
+    "ejemplos": "8:22 «Me la querían volver a aplicar 😂» · 9:04 «“No money, no money” 😂😂» · 16:04 «Quiero uno de chocolate, por favor»"
+  },
+  "sfx": {
+    "como_se_confirmo": "Candidatos de sfx.json mirados en sfx_hoja_00–03 y 15 enteras y en recortes de las celdas #144–147, #301–303, #309, #316–317, #329–330 (scratchpad sfx_a.jpg), cruzados con los fotogramas del gráfico a 1–6 f (graf1.jpg). Nivel: respecto_voz_db de sfx.json (pico de la pista sin voz respecto a la voz; incluye la música de debajo).",
+    "confirmados": [
+      {
+        "t": "0:04.01",
+        "tipo": "doble clic (2 rayas verticales finas)",
+        "acompaña_a": "entra la tarjeta de archivo de hace 9 años (cold open)",
+        "respecto_voz_db": -15.5,
+        "confirmado_en": "sfx_hoja_00 #2"
+      },
+      {
+        "t": "3:25.76–3:26.31",
+        "tipo": "whoosh (mancha ancha que crece)",
+        "acompaña_a": "mano que tapa el objetivo: cambio de ropa → calle",
+        "respecto_voz_db": 5.3,
+        "confirmado_en": "sfx_hoja_01 #32–35"
+      },
+      {
+        "t": "5:40.20–5:40.45",
+        "tipo": "chime / notificación (rayas horizontales que se apagan)",
+        "acompaña_a": "la caja del HUD se pone verde: misión cumplida",
+        "respecto_voz_db": -3.0,
+        "confirmado_en": "sfx_hoja_01 #43–44"
+      },
+      {
+        "t": "7:27.14–7:27.39",
+        "tipo": "caja registradora / ding (golpe + rayas horizontales largas)",
+        "acompaña_a": "«10 dírham marroquí = 1 Dólar» escribiéndose",
+        "respecto_voz_db": -2.8,
+        "confirmado_en": "sfx_hoja_02 #63–64"
+      },
+      {
+        "t": "7:29.69–7:29.94",
+        "tipo": "caja registradora / ding",
+        "acompaña_a": "«200 dírham marroquí = 20 Dólar»",
+        "respecto_voz_db": -0.4,
+        "confirmado_en": "sfx_hoja_02 #65–66"
+      },
+      {
+        "t": "8:06.15",
+        "tipo": "doble clic",
+        "acompaña_a": "entra la tarjeta de archivo (la cobra de hace 9 años)",
+        "respecto_voz_db": -15.0,
+        "confirmado_en": "sfx_hoja_03 #79 (rayas a la izquierda de la línea)"
+      },
+      {
+        "t": "10:01.70–10:02.16",
+        "tipo": "caja registradora (golpe + rayas)",
+        "acompaña_a": "«-$10 usd»",
+        "respecto_voz_db": 6.9,
+        "confirmado_en": "recorte #144–145"
+      },
+      {
+        "t": "14:38.00",
+        "tipo": "golpe ancho",
+        "acompaña_a": "«ILIMITADOS» gigante (patrocinio) y cambio de pista",
+        "respecto_voz_db": -6.4,
+        "confirmado_en": "recorte #302"
+      },
+      {
+        "t": "16:15.09–16:15.37",
+        "tipo": "ding / caja (2 golpes)",
+        "acompaña_a": "«$30 MXN» escribiéndose",
+        "respecto_voz_db": -10.1,
+        "confirmado_en": "recorte #316–317"
+      },
+      {
+        "t": "18:45.56–18:45.83",
+        "tipo": "pop (2 rayas finas)",
+        "acompaña_a": "sticker de la mantarraya",
+        "respecto_voz_db": 1.7,
+        "confirmado_en": "recorte #329–330 + fotograma 18:45.70"
+      },
+      {
+        "t": "23:37.18–23:38.63",
+        "tipo": "whoosh / motor (mancha grave que entra y sale)",
+        "acompaña_a": "el Mercedes dibujado entra ante el aeropuerto",
+        "respecto_voz_db": -7.9,
+        "confirmado_en": "sfx_hoja_15 #366–367"
+      }
+    ],
+    "por_minuto": {
+      "confirmados_por_minuto": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        2,
+        1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "total": 11,
+      "media": 0.3,
+      "intro": "1 en 69,6 s (doble clic del archivo); ráfaga y título sin efectos",
+      "cuerpo": "10 en 35,6 min, en racimos de gráfico: 6 entre 5:40 y 10:02; 0 desde 23:38 hasta el final (13 min seguidos sin efecto)",
+      "cierre": "0"
+    },
+    "reglas": [
+      "Las cifras de dinero llevan caja registradora/ding (4 de 6), sincronizada con el primer carácter que se escribe",
+      "La entrada de una tarjeta de archivo propio lleva doble clic suave (−15 dB) (2 de 2)",
+      "Sticker = pop; mano que tapa el objetivo = whoosh; coche dibujado = motor",
+      "Nada en cortes normales, jump cuts, título, ráfaga ni pantalla final",
+      "Círculos, flecha, mapas y nota del editor van en silencio (solo la voz)"
+    ],
+    "candidatos_descartados": "≈ 356 de 367: en su mayoría golpes de la música (rayas que se repiten a compás), sonido directo de la plaza (tambores gnawa 9:38–10:00, motos, flautas) y consonantes de la voz que demucs dejó en la pista sin voz; #1 (0:03.26, «whoosh») es la cola de la música, no un efecto"
+  },
+  "musica": {
+    "presencia": "51 % del vídeo (audio.json); primera música en ≈ 6,9 s",
+    "voz_menos_musica_db": "mediana 17,4 dB; cama habitual −32…−41 dB con la voz a −17 dB (15–25 dB por debajo); más alta en la llegada a Marrakech y el cajero (11–14 dB bajo la voz, 5:25–7:19)",
+    "tramos": "intro 0:07–0:15 y 0:20–2:32 (incluye ráfaga y título a −12,5…−16,7 dB sin voz); 3:13–4:03; 4:15–5:10; 5:25–5:41 (HUD); 6:31–7:19 (cajero/moneda); 7:49–7:57; 8:17–8:27; 11:18–11:36 y 9:27–10:05 son música EN DIRECTO de la plaza (voz−música 0,2–2,7 dB); 13:23–14:07; 14:25–15:33 (patrocinio); 16:59–18:33; 18:37–19:33 (−41…−43 dB, apenas); 20:44–21:22; 21:34–22:25 (cena); 22:57–23:11; 23:52–24:08; 26:21–26:41; 27:58–29:07; 31:49–33:24; 33:44–34:57; 35:39–35:59; 36:29–36:44",
+    "cambios_de_pista": "5: 1:44 (tour del hotel), 9:58 (tras el baile), 14:38 (patrocinio, con golpe), 22:02 (cena), 31:56 (Casablanca)",
+    "silencios_a_proposito": [
+      "0:00–0:06.9 y 3 huecos más en el cold open (17–19 s, 22–24 s): la reacción va limpia",
+      "2:32–3:13 (Ari en el vestidor, segunda terraza)",
+      "8:27–9:27 (estafa de las serpientes y los monos en directo: «hazme güey dos veces…», «ya vinieron a correrme», «No money»)",
+      "10:05–11:18 (el modo de la estafa del baile explicado a cámara)",
+      "12:37–13:23 (la mujer que se tapa la cara)",
+      "15:33–16:59 (dulces: sonido directo de la tienda y la prueba)",
+      "24:08–26:21 (desenlace del taxista, incluido el plano de 49,8 s)",
+      "26:41–27:58 (gasolinera) y 30:09–31:49 (reflexión en la mezquita)",
+      "34:57–35:39 (kebab vs shawarma) y 35:59–36:29 (despedida)"
+    ],
+    "silencios_resumen": "la música se quita en las estafas en directo, en las explicaciones serias o largas, en las catas de comida y en el clímax del taxista; se queda bajo los tours, los datos y los b-roll",
+    "musica_a_ritmo_de_cortes": "solo en la ráfaga (19 planos) y en el montaje de Casablanca (35:40–35:53); en el resto 33 % de cortes en pulso (azar)",
+    "sin_voz": "ráfaga + título −12,5…−16,7 dB (≈ 0–4 dB por debajo de la voz media); montaje final −23,8 dB; pantalla final −27 dB",
+    "sonido_directo": "la plaza (tambores gnawa, flautas, motos) suena a nivel de voz y hace de música en 9:27–10:05 y 11:18–11:36",
+    "lufs": "integrado −13,3 LUFS; LRA 3,1 LU; pico +2,2 dBTP",
+    "acentos_por_minuto": 25.1
+  },
+  "broll": {
+    "proporcion": "≈ 30–40 % del vídeo (estimación a ojo en las 37 hojas de minuto: alto en los tours y datos, ≈ 10 % en el selfie hablado)",
+    "de_donde_sale": "≈ 90 % del propio rodaje (Ari y el propio Luisito en POV); archivo propio del canal en 9 tarjetas; ≈ 6 piezas externas (Wikipedia, fotos de Argelia, Taj Mahal, shawarma, kebab, taco francés, backrooms)",
+    "duracion_tipica": "1,5–4 s por plano; 6 planos de detalle de rosas en 12 s (2:18–2:30); retratos del rey 1,5–2 s",
+    "disparador": "la cosa nombrada: un plano por sustantivo en los tours («camastro», «sala», «vista a la mezquita»), la persona o lugar del que habla (el rey → 4 retratos de hoteles y restaurantes del viaje; «ciudad roja» → 6 fachadas rojas; «mujeres cubiertas» → 4 mujeres andando)",
+    "vuelta_a_camara": "por corte seco al selfie en la frase siguiente",
+    "que_no": "nunca stock del país (las fachadas, la Kutubía y el zoco son propios); stock solo para cosas que no están en el viaje (kebab, Taj Mahal)"
+  },
+  "voz_en_off": "Casi no hay: Luisito cuenta en directo a cámara. Voz en off en pasado grabada después solo sobre la cena y el show (21:43–22:08 «Ya nos pegó el hambre… nos pedimos varias delicias»; 22:29–22:58 «Estuvo muy padre… salieron unos chicos a menear las cabezas»), quizá sobre la gasolinera (26:41 «Hicimos una paradita») y sobre la llegada (0:42–1:09, voz del saludo que sigue sobre los planos). Lo pasado que no se grabó (el taxista) se cuenta A CÁMARA al día siguiente (23:08–26:16) en vez de en off. Mezcla: mismo nivel que el directo (voz media −17 dB por segundo).",
+  "transiciones": [
+    {
+      "tipo": "corte seco",
+      "cuantas": "≈ 99 % de los cortes",
+      "donde": "todo el vídeo, incluidas llegadas, cambios de día (22:58 → 23:08) y de ciudad"
+    },
+    {
+      "tipo": "mano que tapa el objetivo",
+      "duracion_f": "≈ 18 (3:26.1–3:26.4)",
+      "cuantas": 1,
+      "donde": "3:26.1 «cambiazo de ovni» (ropa y lugar)",
+      "sonido": "whoosh 3:25.76–3:26.31 (+5,3 dB)"
+    },
+    {
+      "tipo": "flash blanco",
+      "duracion_f": "≈ 2–3",
+      "cuantas": 1,
+      "donde": "3:58.58 dentro del mapa (de Rabat a Marrakech)",
+      "sonido": "no"
+    },
+    {
+      "tipo": "cambio a B/N",
+      "cuantas": 2,
+      "donde": "8:48 y 29:16 (aparte cómico)"
+    }
+  ],
+  "cierre": {
+    "como_acaba": "Despedida a cámara en el aeropuerto de Casablanca con gorra (35:53.3–36:29.5, 36,2 s, jump cuts): «Pues listo, mis genios y genias, capos y capas, cracks y cracks… fueron dos días pero aprovechados al máximo… nos vemos en unos días con un video nuevo, adiós, pinpollo, marjava»; antes, montaje sin voz de Casablanca con música (35:40.7–35:53.2).",
+    "duracion_s": 51.6,
+    "cta": "solo en la pantalla final: «SUSCRÍBETE :)» (36:30.5–36:33.3) y «VE UN VIDEO SIMILAR:» (36:33.5–fin); ningún CTA hablado de suscripción o like en todo el vídeo (el patrocinio sí pide usar el código, 15:17)",
+    "pantalla_final": "36:29.6–36:44.87 (15,3 s): plano fijo de un cielo de nubes al atardecer con palmeras y un edificio de Casablanca (medir_zoom ×0,998, fijo); hueco libre arriba para la tarjeta de YouTube; créditos «EDITADO POR: CRIS @CRISTIANTREJORDZ / CÁMARA: ARY @ARIANNY.TENORIO & DIANIS» abajo-centro",
+    "musica": "−27 dB en la pantalla final (−26,8 sin voz)"
+  },
+  "para_el_estilo": [
+    "Viaje · cold open: abre con 4 momentos del vídeo con su sonido directo (13 planos, 25 s, mediana 1,7 s), sin explicar nada, en orden que forme una minihistoria (problema → el problema sigue aquí → peligro → algo raro); música que se apaga 3 veces para dejar limpias las reacciones",
+    "Viaje · cortar la última frase del cold open a media palabra y entrar de golpe a una ráfaga muda de 15–20 planos en ≈ 5 s (de 50 f a 5 f por plano, acelerando) con la música a nivel de voz; sale con un plano más largo (≈ 40 f) antes del título",
+    "Viaje · el nombre en pantalla es el PAÍS, no el canal: título 3D de color único, letra a letra (≈ 4–5 f por letra), 1,9 s visible, sobre el plano más bonito del vídeo, y fuera por corte al saludo",
+    "Viaje · cada estafa/problema en 3 tiempos con imagen propia: aviso a cámara → momento en directo → desenlace con la cifra en pantalla + moraleja hablada; la música se quita en el momento en directo",
+    "Viaje · dinero en pantalla solo cuando el dinero es el chiste o la lección: verde = precio/conversión a la moneda del público (dólar y peso), rojo = lo que se pierde; abajo-centro, grotesca negra ancha (Archivo Black), escrito a ≈ 20 caracteres/s en la palabra, con caja registradora; 1 de cada 2 precios dichos",
+    "Viaje · conversión de moneda siempre doble: la regla («10 dírham = 1 dólar») y el ejemplo con lo que tiene en la mano («200 dírham = 20 dólar»), 2,5 s después",
+    "Viaje · lo que no se grabó se cuenta a cámara al día siguiente y se ilustra con animación dibujada por poses (≈ 50 s en 4 bloques de 9–22 s), sin música; el desenlace en un plano fijo largo (49,8 s)",
+    "Viaje · archivo propio del canal en tarjeta de YouTube sobre papel blanco cada vez que se dice «la vez pasada / hace X años / en el vídeo de…» (9 veces en 36 min), con doble clic suave al entrar",
+    "Viaje · mapa plano (no satélite) 2 veces, 6 s cada uno, solo para un dato (capital, población) o el trayecto entre ciudades; las llegadas van sin mapa ni rótulo de lugar",
+    "Viaje · tours de sitio con un plano de b-roll por sustantivo, cada 2–4 s, y él dentro del plano grabado por otra persona",
+    "Vlog · jump cuts del selfie cada 1,2–5 s con escala casi igual (±2–5 %): limpian, no dinamizan; nada de punch-in ni zoom digital sobre la cara",
+    "Vlog · humor de edición en piezas sueltas de una idea: inserto-meme en la palabra exacta (backrooms), sticker con pop, aparte en B/N para el micro-fracaso, comentario del editor con 😂, nota del editor en primera persona del creador bajo una foto"
+  ],
+  "no_se_hereda_de_contexto": [
+    "CONTEXTO 1 «Abren con lo mejor del propio vídeo… recap/tráiler»: SÍ, pero aquí con sonido directo (como Paul Cuffaro) y seguido de ráfaga + título de país; no hay voz guionada encima",
+    "CONTEXTO §Dinamismo 1–2 «cambio visual cada 2–3 s con corte de escala ×1,12–1,5 y frase fuerte ×1,6–1,75»: NO; los jump cuts cambian la escala 2–5 % y no hay frase fuerte con punch",
+    "CONTEXTO §Dinamismo 4 «zoom animado con cuentagotas»: NO, 0 zooms animados en 36 min",
+    "CONTEXTO §Textos «Unbounded 900 para todo lo grande, amarillo de marca»: aquí la familia es Archivo Black/Roboto 900 y el color va por función (verde dinero, rojo pérdida, amarillo solo el título)",
+    "CONTEXTO §Textos «Lugar: chincheta roja + píldora blanca al llegar»: NO, 0 rótulos de lugar",
+    "CONTEXTO §Mapas «base de satélite con cámara que vuela»: NO, 2 mapas planos de Google Maps fijos con trazos",
+    "CONTEXTO 7 «CTA de suscripción hablado a mitad de vídeo»: NO, solo texto en la pantalla final",
+    "CONTEXTO §Estructura «siempre hay un marcador de progreso»: NO, ni días, ni lista, ni barra (salvo la barra del patrocinio)",
+    "CONTEXTO §Música «música solo cuando toca» (Lucas): coincide en el 51 %, más baja que en RH/PC (17,4 dB bajo la voz)"
+  ],
+  "para_la_base": [
+    "Cold open con sonido directo: 3–5 momentos del vídeo con frases cortas y reacciones (20–25 s), la música se apaga en cada reacción; cortar la última frase a media palabra para entrar en lo siguiente",
+    "Ráfaga de entrada al título: 15–20 planos que aceleran de ≈ 50 f a 5 f, música a nivel de voz, acabar con un plano de ≈ 40 f",
+    "Dinero en pantalla con color por función (verde/rojo), escrito en la palabra y con caja registradora; la conversión a la moneda del público",
+    "Círculo rojo dibujado para la letra pequeña, con seguimiento si la cámara se mueve",
+    "Lo que no se grabó: contarlo a cámara después + animación dibujada por poses, sin música",
+    "El clímax contado o en directo, en plano largo sin música ni gráfico (49,8 s)",
+    "Inserto-meme en la palabra exacta que lo nombra (no antes), 3–5 s",
+    "Nota del editor en primera persona del creador bajo una foto para cerrar una pregunta que el creador dejó abierta",
+    "Efectos de sonido solo en gráficos (0,3/min): doble clic suave para archivo, pop para sticker, ding/caja para cifras; nada en cortes",
+    "Pantalla final de ≈ 15 s sobre un plano fijo bonito del viaje con hueco para la tarjeta de YouTube y créditos"
+  ],
+  "para_el_motor": {
+    "ESCALAS": [
+      1.0,
+      0.97,
+      1.0,
+      1.02,
+      0.98,
+      1.0
+    ],
+    "ESCALAS_nota": "medidas con medir_zoom a través del jump cut: ×0,956, ×0,985, ×0,975, ×0,981, ×1,023. Los jump cuts no buscan efecto de zoom",
+    "CAMBIO_CADA": [
+      1.2,
+      5.0
+    ],
+    "CAMBIO_CADA_nota": "selfie hablado: 9:00–9:30 a ojo 12–13 cambios en 30 s (≈ 2,4 s); mediana de plano detectada 3,18 s; real ≈ 3,0 s",
+    "Z_FUERTE": 1.0,
+    "Z_FUERTE_nota": "no hay punch de frase fuerte; el remate lo hace un inserto, un sticker o un aparte en B/N",
+    "Z_SIN_CARA": 1.0,
+    "CARA_Y": null,
+    "CARA_Y_nota": "selfie gran angular a pulso sin zoom digital",
+    "ZOOM_LENTO": {
+      "activo": true,
+      "solo_en": "tarjetas de archivo y plano del título",
+      "tarjeta_pct_por_s": 2.8,
+      "titulo_pct_por_s": -1.67,
+      "sobre_el_que_habla_pct_por_s": 0
+    },
+    "TEXTO_ENTRADA": {
+      "tipo": "máquina de escribir",
+      "caracteres_por_s": 20,
+      "titulo_f_por_letra": 4.4,
+      "salida": "corte"
+    },
+    "DINERO": {
+      "verde": "#47AD4A",
+      "rojo": "#BF3332",
+      "rojo_perdida": "#FE0001",
+      "fuente": "Archivo Black",
+      "alto_pct": [
+        7,
+        12
+      ],
+      "y_pct": [
+        86,
+        92
+      ],
+      "adelanto_s": [
+        -0.3,
+        0.0
+      ],
+      "sonido": "caja registradora / ding"
+    },
+    "INTRO": {
+      "cold_open_s": [
+        20,
+        25.4
+      ],
+      "cold_open_planos": 13,
+      "rafaga_planos": 19,
+      "rafaga_s": 5.05,
+      "rafaga_plano_f": [
+        5,
+        59
+      ],
+      "titulo_s": 1.9,
+      "titulo_color": "#E4B406"
+    },
+    "MAPA": {
+      "tipo": "plano (Google Maps)",
+      "satelite": false,
+      "duracion_s": [
+        5.9,
+        6.1
+      ],
+      "ruta_f": 84,
+      "circulo_f": 18,
+      "cifra_f": 45,
+      "sonido": null
+    },
+    "ANIMACION_RELATO": {
+      "bloques": 4,
+      "duracion_s": [
+        9.3,
+        21.8
+      ],
+      "total_s": 51,
+      "musica": false
+    },
+    "SFX": {
+      "titulo": null,
+      "seccion": null,
+      "trk": null,
+      "archivo": {
+        "sonido": "doble clic",
+        "respecto_voz_db": -15
+      },
+      "dato": {
+        "sonido": "caja registradora / ding",
+        "respecto_voz_db": [
+          -10,
+          7
+        ],
+        "cuando": "primer carácter de la cifra"
+      },
+      "sticker": {
+        "sonido": "pop",
+        "respecto_voz_db": 1.7
+      },
+      "mision": {
+        "sonido": "chime",
+        "respecto_voz_db": -3.0
+      },
+      "mano_objetivo": {
+        "sonido": "whoosh",
+        "respecto_voz_db": 5.3
+      },
+      "golpe": null,
+      "suscribe": null
+    },
+    "SFX_nota": "11 confirmados en 36,7 min (0,3/min); 0 en título, ráfaga, cortes y pantalla final",
+    "MUSICA_NIVELES": {
+      "BASE": -34,
+      "TRAILER": -28,
+      "TITULO": -14,
+      "SINVOZ": -16,
+      "SECCION": null,
+      "MAPA": null,
+      "CIERRE": -27
+    },
+    "MUSICA_NIVELES_nota": "absolutos por segundo del máster (voz −17 dB de media). BASE ≈ 17 dB bajo la voz (mediana 17,4, rango 11–26); TRAILER = cold open −26…−30 con apagones a −50; TITULO/SINVOZ = ráfaga + título −12,5…−16,7 (a nivel de voz); MAPA null: sin cambio; CIERRE = pantalla final",
+    "MUSICA_FUERA": "estafas en directo (8:27–9:27), explicación seria (12:37–13:23), catas (15:33–16:59), clímax contado (24:08–26:21), reflexión (30:09–31:49), despedida (35:59–36:29)",
+    "LUFS": -13.3,
+    "LUFS_nota": "LRA 3,1 LU; pico +2,2 dBTP",
+    "RITMO_OBJETIVO": {
+      "mediana_plano_s": [
+        2.8,
+        3.2
+      ],
+      "cortes_por_minuto": [
+        18.5,
+        21.8
+      ],
+      "detectados_por_minuto": 14.8,
+      "menos_de_1s_pct": 10,
+      "intro_cortes_minuto_0": 46,
+      "plano_largo_climax_s": 49.8
+    }
+  },
+  "comparacion_con_bycalitos": {
+    "ficha_comparada": "bycalitos/2026-10-04_el-hotel-de-carretera-mas-lujoso-de-espana.json (vlog, tipo viaje: visita a un hotel por zonas)",
+    "se_repite": [
+      "Estilo vlog con tipo viaje: el creador habla a cámara en selfie gran angular casi todo el tiempo y el motor es su personalidad (byC la pareja; Luisito él + secundarios locales)",
+      "Sin zoom animado sobre quien habla; los saltos por corte son pequeños (byC ×1,04–1,09; Luisito ×0,956–1,023)",
+      "Los picos no se aceleran: plano largo sin música (byC agua helada 13 s/plano; Luisito taxista 49,8 s)",
+      "La música se quita para lo importante y vuelve en montajes sin voz (byC 68 %; Luisito 51 %); 5 cambios de pista los dos",
+      "Precios con gráfico sincronizado a la palabra y efecto en cada cifra (byC impacto + clic; Luisito caja registradora)",
+      "Maqueta de interfaz de YouTube como recurso (byC para el CTA de comentarios; Luisito para su archivo)",
+      "Un mapa corto de ≈ 6 s para un lugar que no está en imagen (byC satélite Albillos→Landa 5,56 s; Luisito planos 6,1 y 5,9 s)",
+      "Subtítulos solo puntuales, nunca al creador entero (byC 4,8 %; Luisito < 1 %)",
+      "Corte seco en las llegadas y elipsis de la noche por corte (byC mano que tapa el objetivo; Luisito corte seco de la cena a «Buenos días»)",
+      "Mano que tapa el objetivo con whoosh como transición de tiempo/lugar (byC 2; Luisito 1)"
+    ],
+    "cambia": [
+      "INTRO: byC explicativa hablada desde f0 con textos 3D en el edificio; Luisito cold open con sonido directo + ráfaga de 19 planos + título de país, sin premisa",
+      "TÍTULO: byC cabecera de serie dorada a los 2:28; Luisito «MARRUECOS» 3D amarillo a los 0:30.8 y no hay cabecera del canal",
+      "TRANSICIONES: byC 19 flashes + 6 ascensores temáticos; Luisito ≈ 99 % corte seco (1 mano, 1 flash, 2 B/N)",
+      "GRAFISMO: byC sistema único de lujo (serif dorada); Luisito piezas pop sueltas por función (dinero verde/rojo, HUD de videojuego, cartoon, meme, sticker) sin paleta común",
+      "EFECTOS: byC 31 (1,2/min); Luisito 11 (0,3/min)",
+      "RITMO: byC ≈ 25 cortes/min reales; Luisito ≈ 20; Luisito tiene ráfaga (19 planos de hasta 5 f), byC ninguna",
+      "ESTRUCTURA: byC por zonas con separador; Luisito cronológica por ciudades sin separador ni marcador",
+      "LO NO GRABADO: byC no lo necesita; Luisito animación dibujada de 51 s",
+      "ARCHIVO PROPIO: byC 1 clip; Luisito 9 tarjetas (visitas anteriores y otro vídeo)",
+      "PATROCINIO: byC ninguno; Luisito ≈ 78 s a mitad (14:13–15:33)",
+      "CIERRE: byC maqueta de comentario + coletilla, sin pantalla final; Luisito despedida + pantalla final de 15,3 s",
+      "CTA: byC comentarios y like ilustrados antes de la cabecera; Luisito ninguno hablado"
+    ],
+    "receta_comun": "Viaje editado como vlog: el creador cuenta a cámara y sus reacciones mandan; precios y datos con gráfico sincronizado a la palabra y su efecto; un mapa corto para lo que no se ve; picos en plano largo sin música; corte seco en las llegadas."
+  },
+  "dudas": [
+    "Efectos en la ráfaga y el título: sfx.json no da candidatos entre 25,4 y 37,7 s y la música está a −13 dB; puede haber whoosh/impactos tapados",
+    "Entrada del HUD (5:25.02–5:25.35, «error/notificación» −3,6 dB): podría ser un sonido de videojuego al aparecer la misión; no confirmado",
+    "«+1 GB» del patrocinio (15:14.69, raya fina −19,1 dB): posible pop; no confirmado. Los gráficos del patrocinio (logo, globo, QR, código) sin revisar a 1 f",
+    "Total real de cortes ≈ 735 con margen 680–800: extrapolado desde 1 tramo de 30 s a 0,1 s y 30 candidatos de scdet comprobados (83 % eran cortes); los minutos 0, 11, 14, 18 y 35 tienen parpadeo de luces que hincha los candidatos y se excluyeron",
+    "Proporción de b-roll (30–40 %) a ojo, sin muestreo plano a plano",
+    "Voz en off posterior: segura en la cena y el show (verbos en pasado); dudosa en la gasolinera y la llegada",
+    "Subtítulos: total aproximado (≈ 6 tramos) sin barrido completo con detector de texto",
+    "Fuentes no fiables: título (3D curvado), HUD, conversión ondulada («200 dírham marroquí», −1,9), «1,000,000» (+0,24) y líneas blancas del cálculo (+0,21)",
+    "La ráfaga del zoco (f1733–1788) parece planos distintos de 5–6 f; no se descarta que algunos sean cortes dentro de un mismo plano en movimiento (hyperlapse troceado)",
+    "El cartoon: no se ha medido si hay movimiento interpolado entre poses o solo cortes; tampoco su sonido más allá del coche",
+    "Cambio de color en f1880 (0:31.33) durante el título: no está claro si es corrección de color animada o un segundo plano del mismo encuadre"
+  ]
+}

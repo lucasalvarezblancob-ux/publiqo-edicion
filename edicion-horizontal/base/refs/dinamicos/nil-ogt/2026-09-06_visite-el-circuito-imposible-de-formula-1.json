@@ -11,7 +11,9 @@
   "fps": 29.97,
   "resolucion": "1920x1080",
   "idioma": "es",
-  "estilo": "viaje",
+  "estilo": "vlog",
+  "tipo": "viaje",
+  "modelo": "fable",
   "estilo_por_que": "Es llegar a un sitio y descubrirlo parada a parada, no un día a día: una mañana entera recorriendo el circuito nuevo de Madrid (boxes → pit lane → salida y meta → podio → recta → curva 1 → Club 91 → terrazas → gradas → fan zone → vuelta en coche → curva peraltada → azotea). Lo que lo hace «viaje», con número: 3 mapas 3D (0:25.83, 2,1 s; 8:09.4, 10,3 s con 7 etiquetas de lugar y distancia; 11:48, ≈ 1,5 s) + 1 trazado del circuito dibujado (0:29.80, 37 f); 11 montajes de situación sin voz de 2–7 s (46 s en total, uno cada ≈ 81 s) que hacen de llegada a cada zona; cada parada se presenta con una frase de situación a cámara («Estoy ahora mismo en los garajes…» 0:39.6, «Llegamos a la curva» 5:38.0, «Volvemos a estar en el centro del circuito» 8:40.9, «Llegamos a una de las zonas más chulas» 12:01.7); 21 insertos de archivo o render para enseñar lo que no está delante (1,4/min). Lo que NO tiene de un viaje clásico: 0 rótulos de lugar fijos a pantalla (los nombres van pegados a la escena en 3D: «FAST LANE», «PIT STOP», o dentro del mapa), 0 rótulos de día, 0 trayectos (ni avión ni carretera: el único desplazamiento es la vuelta en coche de 10:46–11:57, que se usa para una entrevista) y ningún marcador de progreso. No es «vlog»: no hay rutina ni casa ni vida diaria, todo ocurre en una localización y con un objetivo de visita. No es «reto»: no hay reglas, marcador ni cuenta atrás. No es «entreno». Para Lucas vlog y viaje van casi juntos: de vlog tiene el selfie en mano, el amigo-operador que contesta desde detrás de la cámara y el sonido directo (habla el 95 % del metraje, 214 palabras/min)."
  },
  "resumen": [

@@ -24,8 +24,8 @@ edición, nunca su marca, sus recursos ni sus reglas.
 
 | Estilo | Estado | Referencias candidatas (ya en `../`) |
 |---|---|---|
-| [vlog](vlog.md) | sin analizar | Paul Cuffaro ×4 |
-| [viaje](viaje.md) | sin analizar | Rubén Holgado (Yakutia, Titanic del Amazonas), YoSoyPlex ×4, TheGrefg (Tailandia); las visitas a un sitio (Lucas Valero, zoo de Fuerteventura; ElXokas, Santuario de Frank) van aquí o a vlog según cada vídeo |
+| [vlog](vlog.md) | **analizado** (15 refs, 2026-11-24; con `vlog.py`; incluye § En viajes y la frontera con reto) | Alessio Pierucci ×3, Nil OGT ×4, Plex ×3, byCalitos, Luisito Comunica, Rubén Holgado ×3 |
+| [viaje](viaje.md) | = vlog (§ En viajes) | — |
 | [reto](reto.md) | **analizado** (7 refs + 1 de contraste, 2026-11-24; con `reto.py`) | Plex ×2, Jesse James West ×2, MrBeast ×2, THE FEZZ; contraste: Lucas Álvarez (Survivor Race) |
 | [entreno](entreno.md) | sin analizar | ninguna: hacen falta referencias |
 

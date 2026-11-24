@@ -1,8 +1,7 @@
 # Encargo: estudiar a fondo UN vídeo de referencia para un ESTILO (vlog, reto, viaje…) — 2026-11-24
 
 Eres editor de vídeo profesional y guionista de YouTube. Este vídeo es una referencia que Lucas ha elegido para el
-estilo **<ESTILO>** (si el estilo viene como «provisional», decide tú tras verlo a cuál encaja mejor —vlog, viaje,
-reto o entreno— y explícalo en `video.estilo_por_que`) (`base/refs/dinamicos/estilos/<estilo>.md`). Hay que entender **cómo está editado y por qué
+estilo **<ESTILO>** (`base/refs/dinamicos/estilos/<estilo>.md`). Hay que entender **cómo está editado y por qué
 funciona**, fijándose al milímetro: cada efecto, zoom, sonido, fuente, transición, motion graphic, la intro entera
 plano a plano, el ritmo, el contexto y lo que lo hace interesante. Salen **hechos con tiempo (mm:ss.cc o fotograma)
 y número**, nunca opiniones sueltas. Une y amplía `ENCARGO.md` y `ENCARGO_DINAMISMO.md`. No juzgues la calidad de imagen.
@@ -10,9 +9,7 @@ y número**, nunca opiniones sueltas. Une y amplía `ENCARGO.md` y `ENCARGO_DINA
 Trabaja desde la raíz de la carpeta de edición (en Windows, con Git Bash). Python: `herramientas/.venv/Scripts/python.exe`
 (macOS: `herramientas/.venv/bin/python`). Mira las imágenes con Read. No descargues, no uses git, no lances demucs ni
 whisper (ya está hecho): solo herramientas ligeras (`hoja_contactos.sh`, `ffmpeg -ss T -frames:v 1`, `medir_zoom.py`,
-`fuente_rotulo.py`). No modifiques nada fuera de la carpeta de análisis del vídeo y de la ficha. **Temporales (scripts,
-JSON intermedios, recortes) SIEMPRE en una subcarpeta propia con el nombre del vídeo** (`<carpeta del vídeo>/tmp/` o
-`<scratchpad>/<slug>/`), nunca con nombres genéricos en una carpeta compartida: con dos agentes a la vez se pisan.
+`fuente_rotulo.py`). No modifiques nada fuera de la carpeta de análisis del vídeo y de la ficha.
 
 ## Lo que ya está calculado (carpeta `refs/dinamicos/_analisis/<video>/`)
 - `cortes.json` (cortes, s/plano, tramos), `transcripcion.json/.txt` (idioma detectado), `sonoridad.json` (LUFS).
@@ -28,11 +25,7 @@ JSON intermedios, recortes) SIEMPRE en una subcarpeta propia con el nombre del v
    2 del principio, 2 del medio, 2 del final, 1 momento de acción/pico y 1 chiste/reacción. Y **a 1 fotograma**
    (paso = 1/fps) cada transición construida, cada motion graphic y cada entrada de texto que veas.
 4. Cada tipo de rótulo: un fotograma completo a resolución del vídeo (1080p) y un recorte ajustado al texto en
-   `rotulos/`. Pásale `fuente_rotulo.py <recorte> [--texto "…"] --color "#FFFFFF"` (el color de las letras: sin él, con
-   texto sobre vídeo el fondo se mezcla y la puntuación baja) y apunta el top-3 con su puntuación (< 0,5 = no fiable).
-   Si la intro tiene micro-flash o estroboscopio (planos de 2–5 f), cuenta sus cortes con
-   `detectar_cortes.py VIDEO <carpeta>/cortes_rafagas.json --rafagas --hasta <fin de la intro en s>` (el `cortes.json` normal
-   los junta en uno; sin `--hasta`, la cámara rápida muy brusca de más adelante puede salir como «ráfaga»: compruébalo a la vista).
+   `rotulos/`. Pásale `fuente_rotulo.py <recorte> [--texto "…"]` y apunta el top-3 con su puntuación.
 5. `medir_zoom.py VIDEO INI FIN` en ≥ 8 planos; en cámara en mano, a ojo por el tamaño de la cara (final ÷ inicial).
 6. Cruza siempre imagen + transcripción + audio: qué palabra dispara cada zoom, texto, efecto o corte.
 
@@ -46,18 +39,7 @@ JSON intermedios, recortes) SIEMPRE en una subcarpeta propia con el nombre del v
 - Ritmo de información: cada cuántos segundos pasa algo nuevo (lugar, persona, dato, giro). Qué se recorta (esperas,
   trayectos) y cómo se resume (montaje rápido, cámara rápida, texto «3 HORAS DESPUÉS»).
 
-**B. Intro, plano a plano** (lo más importante del estilo). Lucas distingue DOS TIPOS de intro, y las dos le parecen
-impecables; el tipo no depende del estilo (puede salir en un vlog, un viaje, un reto o un lifestyle):
-- **Corta** (referencia: Alessio Pierucci): 30–55 s, casi sin explicar nada. Ráfaga o estroboscopio → nombre o
-  cabecera mínima → tráiler sin voz cortado a la música → lema → al lío.
-- **Explicativa** (referencia: Nil OGT): el creador cuenta qué va a hacer y por qué, más larga, apoyada en
-  **animaciones y motion graphics** que ilustran cada cosa que dice (mapas, cifras, recortes, imágenes que entran,
-  textos cinéticos, lo que haya).
-Di cuál es (`intro.tipo`: «corta» | «explicativa» | «otra: …»), por qué (qué tiene el vídeo que la pide: una premisa
-que hay que explicar o no) y, si es explicativa, **cada animación** de la intro con su frase, entrada y salida en
-fotogramas, cómo está hecha y su sonido. Si la intro pasa de 30 s, saca más hojas fotograma a fotograma hasta su final
-(`hoja_contactos.sh VIDEO hojas/intro_fot_NN.jpg <1/fps> INICIO 2 10 256`).
-Además:
+**B. Intro, plano a plano** (lo más importante del estilo; las de Alessio Pierucci son la referencia estrella)
 - Línea de tiempo de 0 a donde acabe la intro: por cada plano, inicio–fin en **fotogramas**, qué se ve, de dónde sale
   (del propio vídeo, grabado aparte, archivo), movimiento de cámara, zoom/velocidad, texto, motion graphic, efecto de
   sonido, música (entra, cae, golpe) y qué se dice.
@@ -65,9 +47,6 @@ Además:
 - El **título o cabecera**: cómo se construye fotograma a fotograma (máscaras, revelado, cinética, partículas, 3D),
   fuente, color, duración, sonido. ¿Se hizo con plantilla o a mano? ¿Motion graphics o tipografía simple?
 - Primer corte a la persona hablando: en qué segundo y con qué frase.
-- **Por qué está cada clip de la ráfaga o del tráiler**: para cada uno, su función —llamativo (acción, reacción,
-  sorpresa), bonito (sitio, luz, plano cuidado), anticipa (enseña qué pasará), promesa (empieza y no se resuelve)— y de
-  qué minuto del vídeo sale. Qué proporción hay de cada función y qué NO se mete nunca (relleno, trayectos).
 
 **C. Motion graphics y animaciones** (catálogo)
 - Cada tipo: qué es (mapa, lista, cifra, lower third, flecha, círculo, sticker, emoji, interfaz de móvil, captura,
@@ -117,10 +96,10 @@ dónde) frente a corte seco.
 
 ## Entrega
 Ficha JSON (UTF-8, español) en `base/refs/dinamicos/<creador>/AAAA-MM-DD_<slug>.json` (en la rama de trabajo) con:
-`video` {archivo, creador, canal, url, titulo, duracion, publicado, estilo, estilo_por_que}, `resumen` (6–10 frases),
+`video` {archivo, creador, canal, url, titulo, duracion, publicado, estilo}, `resumen` (6–10 frases),
 `contexto` {quien, donde, objetivo, tono, gancho_5s, gancho_30s, preguntas_abiertas, giros, recompensas},
 `curva_energia` [{minuto, nivel, motivo}], `ritmo_informacion`, `estructura` [{desde, hasta, parte, que_pasa}],
-`intro` {tipo, por_que_ese_tipo, clips_rafaga_trailer [{t, sale_de, funcion, que_se_ve}], duracion_s, orden, animaciones_explicativas [{t, frase, que_es, f0, f1, como_esta_hecha, sfx}], linea_de_tiempo [{f0, f1, t, que_se_ve, origen, camara, zoom_velocidad, texto,
+`intro` {duracion_s, orden, linea_de_tiempo [{f0, f1, t, que_se_ve, origen, camara, zoom_velocidad, texto,
 motion_graphic, sfx, musica, voz}], titulo_cabecera {como_se_construye, fuente, color, duracion_f, sonido},
 primer_plano_hablando_s}, `motion_graphics` [...], `cortes` {...}, `zooms` [...], `textos` [...], `subtitulos`,
 `sfx` {confirmados [{t, tipo, acompaña_a, respecto_voz_db}], por_minuto, reglas, candidatos_descartados},
