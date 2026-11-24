@@ -1,0 +1,2555 @@
+{
+ "video": {
+  "archivo": "refs/dinamicos/nil-ogt/2026-09-06_visite-el-circuito-imposible-de-formula-1.mp4",
+  "creador": "nil-ogt",
+  "canal": "Nil OGT (Nil Ojeda)",
+  "url": "https://www.youtube.com/watch?v=gFMeKTmc4Kg",
+  "titulo": "Visité el Circuito Imposible de Fórmula 1",
+  "duracion": "14:53.23",
+  "publicado": "2026-09-06",
+  "tramo_analizado": "completo (0:00–14:53.23; 26.770 fotogramas)",
+  "fps": 29.97,
+  "resolucion": "1920x1080",
+  "idioma": "es",
+  "estilo": "viaje",
+  "estilo_por_que": "Es llegar a un sitio y descubrirlo parada a parada, no un día a día: una mañana entera recorriendo el circuito nuevo de Madrid (boxes → pit lane → salida y meta → podio → recta → curva 1 → Club 91 → terrazas → gradas → fan zone → vuelta en coche → curva peraltada → azotea). Lo que lo hace «viaje», con número: 3 mapas 3D (0:25.83, 2,1 s; 8:09.4, 10,3 s con 7 etiquetas de lugar y distancia; 11:48, ≈ 1,5 s) + 1 trazado del circuito dibujado (0:29.80, 37 f); 11 montajes de situación sin voz de 2–7 s (46 s en total, uno cada ≈ 81 s) que hacen de llegada a cada zona; cada parada se presenta con una frase de situación a cámara («Estoy ahora mismo en los garajes…» 0:39.6, «Llegamos a la curva» 5:38.0, «Volvemos a estar en el centro del circuito» 8:40.9, «Llegamos a una de las zonas más chulas» 12:01.7); 21 insertos de archivo o render para enseñar lo que no está delante (1,4/min). Lo que NO tiene de un viaje clásico: 0 rótulos de lugar fijos a pantalla (los nombres van pegados a la escena en 3D: «FAST LANE», «PIT STOP», o dentro del mapa), 0 rótulos de día, 0 trayectos (ni avión ni carretera: el único desplazamiento es la vuelta en coche de 10:46–11:57, que se usa para una entrevista) y ningún marcador de progreso. No es «vlog»: no hay rutina ni casa ni vida diaria, todo ocurre en una localización y con un objetivo de visita. No es «reto»: no hay reglas, marcador ni cuenta atrás. No es «entreno». Para Lucas vlog y viaje van casi juntos: de vlog tiene el selfie en mano, el amigo-operador que contesta desde detrás de la cámara y el sonido directo (habla el 95 % del metraje, 214 palabras/min)."
+ },
+ "resumen": [
+  "Nil Ojeda recorre en una mañana el circuito de Fórmula 1 de Madrid dos semanas antes de la carrera, todavía en obras, con un amigo (Saúl) que hace de operador y de réplica.",
+  "La intro es EXPLICATIVA: 34,37 s hablando a cámara desde el fotograma 0 en los que cada dato se ilustra con una animación o un inserto que entra a ± 2 fotogramas de su palabra (9 ilustraciones: «24%» en 3D, vuelo sobre IFEMA, render que se construye, «200.000.000€» detrás de la cabeza, mapa 3D, dos ráfagas de 4 planos, trazado del circuito y clip de videojuego), más un chiste subtitulado en silencio; después, 5,34 s de montaje sin voz con la música arriba y al lío en 0:39.71. No hay título, cabecera, logo ni tráiler.",
+  "El cuerpo es selfie en mano + planos de operador, con 19,3 cortes/min visibles (23,4–24,9/min contando jump cuts), mediana de plano 2,14 s (1,85 s con jump cuts).",
+  "La firma de edición son los gráficos PEGADOS A LA ESCENA: texto en perspectiva sobre el asfalto o la grada, zonas de color sobre la pista y cifras que pasan por detrás de la cabeza (máscara de la persona), 8 en total, con fundido de 4–15 f.",
+  "Subtítulos de énfasis en el 31 % del vídeo (≈ 280 s): cursiva negrita blanca con borde negro para Nil y amarilla para quien le contesta; se ponen en diálogos, cifras, remates y en toda la promo, y se quitan sobre los insertos.",
+  "Un 21 % de los planos medibles llevan zoom digital continuo y lineal (17 de entrada a +0,7…+8 %/s y 6 de salida a −1,5…−5 %/s), además de 20 punch-in y 22 punch-out por corte de ×1,08–1,32.",
+  "Cada inserto de archivo entra por corte seco y sale con una fuga de luz cálida de ≈ 16 f (9 veces): es la única transición construida del vídeo.",
+  "Sonido: música de cama el 73–77 % del tiempo a 15 dB bajo la voz, 11 montajes sin voz con la música 14 dB más alta, y efectos contados (1,3/min fuera de la promo; 0,7/min fuera de intro y promo): caja registradora en las cifras de dinero, ding en mapas y resaltes, impacto grave en los tres remates de chiste.",
+  "Promo integrada de 39,8 s en 4:58 (33 % del vídeo) con otro ritmo (45 cortes/min, barra de progreso amarilla, 13 efectos); CTA de like y suscripción con botón animado en 12:52 (86 %); cierre de 20 s sin pantalla final: la mano tapa el objetivo."
+ ],
+ "contexto": {
+  "quien": "Nil Ojeda (a cámara, en selfie o delante de un operador; chaleco amarillo, luego naranja desde 3:16 y casco blanco desde 6:40). Saúl / «Soul», el amigo que graba y contesta desde detrás de la cámara (subtítulos amarillos; sale en imagen en 2:00, 7:48, 9:26–9:57, 11:02 y 13:30). Carla (del circuito) e Imen, una de las arquitectas, que conduce el coche (10:52–11:46).",
+  "donde": "Circuito urbano de Fórmula 1 de Madrid (IFEMA / Valdebebas), en obras, dos semanas antes de la carrera. Un solo sitio y una sola mañana.",
+  "objetivo": "Enseñar por dentro el circuito antes de que se estrene: «tour privado». La pregunta que plantea en 0:21.4 es «hoy veremos si toda esa inversión [200 millones] vale la pena». En juego no hay nada más que el acceso: estar donde nadie puede entrar todavía.",
+  "tono": "Didáctico y cercano con humor de colegas: dato + broma con el amigo cada 30–60 s. Nada épico ni íntimo. Tacos tapados con asteriscos en el subtítulo.",
+  "gancho_5s": "Frase superlativa en el sitio más raro del circuito, desde el fotograma 0 y sin saludo: «Esta es la nueva curva con más inclinación de todo el mundo de Fórmula 1» (0:00.00–0:03.64), en selfie sobre el peralte, con un «24%» gigante (27 % del alto) que aparece en f16 y se tumba sobre el asfalto en f40, justo en «inclinación». En 0:03.64 la promesa: «Bienvenidos al tour privado del nuevo circuito de Fórmula 1 de Madrid» con 4 planos del propio vídeo de 17–20 f.",
+  "gancho_30s": "Sitúa (IFEMA, vuelo 3D), da la escala (dos años de obra, render que se construye; «200.000.000€» con caja registradora en 0:15.12), mete un chiste en silencio (0:16.78–0:21.42: «¿No te parece poco?» / «Me parece una barbaridad»), abre la pregunta («hoy veremos si toda esa inversión vale la pena», 0:21.4), enseña el mapa (0:25.83) y promete el recorrido con cifras («6 kilómetros de circuito, 22 curvas», 0:29.80). No enseña lo mejor del vídeo: lo explica.",
+  "preguntas_abiertas": [
+   "¿Vale la pena la inversión de 200 millones? Se abre en 0:21.4 y no se cierra con un veredicto: lo más parecido es 14:28.4 «¿Qué opinas del tour de hoy?» — «muy interesante».",
+   "La curva más inclinada: se enseña 3,6 s en el gancho y no se vuelve a ella hasta 11:52 («la monumental, la que más ha dado que hablar») y 12:10: la recompensa del gancho se guarda 12 minutos.",
+   "¿Llegarán a tiempo? (3:24 «parece que no vayan a llegar a tiempo»): queda abierta.",
+   "¿Subirá Fernando Alonso al podio? (2:40–3:14): hilo de humor que vuelve en 7:48 y 13:57."
+  ],
+  "giros": [
+   "0:16.78 el dato de los 200 millones se convierte en chiste («yo creo que es poco»).",
+   "2:47.2 corta al clip propio de Mónaco en el que Alonso no se para a hacerse la foto.",
+   "4:58.2 «Momento promo, soy el Nil del futuro»: salto a otro lugar y otro día.",
+   "11:35.0 la arquitecta contesta «Tú» a «¿cuál fue el mayor problema?»: impacto grave y 7,7 s de reacción.",
+   "12:16 y 13:46 flashbacks a primera hora (chaleco amarillo) para cerrar lo que se vio en el gancho."
+  ],
+  "recompensas": [
+   "1:13.3 el pit stop real de 1,8 s en imagen mientras lo cuenta.",
+   "3:43.5 lo que ve un piloto a 340 km/h (clip de simulador con contador).",
+   "8:09.4 mapa de accesos de 10,3 s.",
+   "9:29 los precios (500–600 € la entrada; 10:37 hot dog 12,50 €; 10:42 cerveza 7 €).",
+   "12:01.7 llegada a la curva peraltada con render de cómo será llena (12:10)."
+  ],
+  "personajes_secundarios": "Saúl es la réplica cómica (11 intercambios subtitulados en amarillo); la arquitecta da el momento más comentable (11:07–11:46)."
+ },
+ "curva_energia": [
+  {
+   "minuto": 0,
+   "nivel": 5,
+   "motivo": "Intro explicativa: 45 cortes, 9 ilustraciones en 34 s, chiste con silencio de 3,3 s y montaje sin voz 0:34.37–0:39.71 con la música a −13 dB (20 dB más alta que bajo la voz)."
+  },
+  {
+   "minuto": 1,
+   "nivel": 3,
+   "motivo": "Dentro del garaje: planos largos (mediana 4,07 s, 13 cortes), sin música 0:49–1:13. Sube al final con el archivo del pit stop (1:13.3), el remate con impacto (1:27.0) y «FAST LANE» (1:33.7)."
+  },
+  {
+   "minuto": 2,
+   "nivel": 4,
+   "motivo": "Saúl de banderillero, línea de meta recién pintada, montaje del podio sin voz (2:31–2:36, 4 cortes, música −19 dB) y clip de Alonso en Mónaco (2:47–2:57)."
+  },
+  {
+   "minuto": 3,
+   "nivel": 3,
+   "motivo": "Broma de Fernando, cambio de chaleco (3:14), obras con «2024» (3:34.9) y contador de velocidad a 340 (3:43.5)."
+  },
+  {
+   "minuto": 4,
+   "nivel": 2,
+   "motivo": "Valle: monólogo en selfie sobre los reservados VIP, solo 4 s de insertos; lo sostiene la música más alta del cuerpo (12,6 dB bajo la voz) y el dato subtitulado de las 19 banderas rojas (4:34)."
+  },
+  {
+   "minuto": 5,
+   "nivel": 4,
+   "motivo": "Promo a 45 cortes/min con 13 efectos (4:58.2–5:38.0) y llegada a la curva 1 con franja verde y zona roja sobre la pista (5:39.9–5:43.9)."
+  },
+  {
+   "minuto": 6,
+   "nivel": 3,
+   "motivo": "Curva 1 en plano de operador (el plano más largo: 15,4 s en 6:02.5), montaje sin voz 6:32–6:39 (7 s, 6 cortes) y llegada al Club 91."
+  },
+  {
+   "minuto": 7,
+   "nivel": 3,
+   "motivo": "Obra del reservado, terraza, vuelve el hilo de Fernando (7:48) y montaje 7:57–8:02."
+  },
+  {
+   "minuto": 8,
+   "nivel": 3,
+   "motivo": "Jarama + mapa de accesos de 10,3 s (8:09.4), cartela «SE ESPERAN 120.000 PERSONAS» (8:36.65) y grada temporal."
+  },
+  {
+   "minuto": 9,
+   "nivel": 2,
+   "motivo": "Paisajes (9:00–9:05, 9:22–9:25) y charla sentados en trípode de 31 s (9:26–9:57) con zoom lento: el tramo más tranquilo."
+  },
+  {
+   "minuto": 10,
+   "nivel": 3,
+   "motivo": "Fan zone y precios con pop (10:37.65); 25 s sin música (10:17–10:42) y entra de golpe en el corte de 10:42.8 para subir al coche."
+  },
+  {
+   "minuto": 11,
+   "nivel": 4,
+   "motivo": "Entrevista en inglés subtitulada, chiste «Tú» con impacto de +19 dB (11:35.07) y música fuerte 7,7 s; llegada a La Monumental con montaje (11:58.5)."
+  },
+  {
+   "minuto": 12,
+   "nivel": 4,
+   "motivo": "Se cumple la promesa del gancho: la curva peraltada, render (12:10), flashback (12:16), mini-tráiler de la Sagrada Familia (12:34.4, 5,5 s) y botón de suscribir (12:52.7)."
+  },
+  {
+   "minuto": 13,
+   "nivel": 3,
+   "motivo": "Edificio en selfie sin subtítulos (13:00–13:28), piscina, coche aparcado en el peralte y cuello de Alonso (13:57.4)."
+  },
+  {
+   "minuto": 14,
+   "nivel": 3,
+   "motivo": "Restaurante, opinión de Saúl, montaje final de 4 paisajes (14:33.2–14:38.4) y despedida de 14 s con la música a 10 dB de la voz."
+  }
+ ],
+ "picos_y_preparacion": [
+  "0:15.12 «200.000.000€»: se prepara con 2 s de frase («El cual ha costado aproximadamente unos…»), zoom lento +1,27 %/s y el número entra 1 f antes de la palabra con caja registradora; el remate es quitar la música (0:17.9) para el chiste.",
+  "1:27.0 y 11:35.07: el pico de humor es SIEMPRE lo mismo: música fuera o muy baja durante la charla, subtítulo amarillo del remate, impacto grave (+12 y +19 dB sobre la voz) y música que entra detrás.",
+  "12:01.7 la curva peraltada: se anuncia en el coche (11:52), inserto con fuga de luz (11:54.5), montaje de 3 planos con bombo (11:58.5) y selfie. No hay ralentí ni cuenta atrás en todo el vídeo."
+ ],
+ "ritmo_informacion": "Pasa algo nuevo cada 8–15 s: 16 paradas o zonas en 14,2 min de cuerpo (una cada ≈ 53 s), 21 insertos de archivo o render (uno cada ≈ 41 s), 17 gráficos (uno cada 50 s; 9 de ellos en los dos primeros minutos) y ≈ 30 cifras dichas (14 garajes, 11 escuderías, 1,8 s, 340 km/h, 19 banderas rojas, 600 m, 15 m, 78°, 12 reservados, 120.000 personas, 500 €, 12,50 €…). 214 palabras/min de media (153–256). Lo que se recorta: todos los desplazamientos a pie entre zonas (no hay ni un plano de andar de A a B); se sustituyen por un montaje de 2–6 planos fijos del sitio nuevo, sin voz, de 2–7 s, o por corte seco a la frase «Estamos en…». No hay cámara rápida, ni timelapse, ni texto de elipsis («3 horas después»). La vuelta en coche (71 s) se justifica con la entrevista.",
+ "estructura": [
+  {
+   "desde": "0:00.00",
+   "hasta": "0:34.37",
+   "parte": "intro explicativa",
+   "que_pasa": "Curva peraltada (gancho), bienvenida, IFEMA, dos años de obra, 200 millones, chiste, pregunta, mapa, 6 km y 22 curvas, «vamos allá»."
+  },
+  {
+   "desde": "0:34.37",
+   "hasta": "0:39.71",
+   "parte": "montaje de arranque sin voz",
+   "que_pasa": "6 planos desde el coche (15–40 f) con la música a −13 dB."
+  },
+  {
+   "desde": "0:39.71",
+   "hasta": "1:27.9",
+   "parte": "boxes y garaje",
+   "que_pasa": "Fuera (resalte verde del garaje, rejilla de escuderías), dentro, dato del pit stop con archivo de TV, broma de la rueda."
+  },
+  {
+   "desde": "1:27.9",
+   "hasta": "1:48.0",
+   "parte": "pit lane",
+   "que_pasa": "«FAST LANE» y «PIT STOP» pegados a la escena."
+  },
+  {
+   "desde": "1:48.0",
+   "hasta": "2:28.5",
+   "parte": "salida y meta",
+   "que_pasa": "Gradas VIP, Saúl de banderillero, la meta recién pintada, Brad Pitt."
+  },
+  {
+   "desde": "2:28.5",
+   "hasta": "3:16.0",
+   "parte": "podio",
+   "que_pasa": "Montaje del podio, Alonso, clip propio de Mónaco, cambio de chaleco."
+  },
+  {
+   "desde": "3:16.0",
+   "hasta": "4:00.1",
+   "parte": "recta: zona privada",
+   "que_pasa": "Semáforo sin montar, obras («2024»), carteles de frenada, contador a 340."
+  },
+  {
+   "desde": "4:00.1",
+   "hasta": "4:58.2",
+   "parte": "reservado de la primera recta",
+   "que_pasa": "El VIP más exclusivo, 19 banderas rojas, «he conducido el circuito»."
+  },
+  {
+   "desde": "4:58.2",
+   "hasta": "5:38.0",
+   "parte": "promo",
+   "que_pasa": "«Momento promo»: 4 trucos de viaje y la marca, en otro lugar; barra de progreso amarilla."
+  },
+  {
+   "desde": "5:38.0",
+   "hasta": "6:39.2",
+   "parte": "curva 1",
+   "que_pasa": "600 m de recta, 15 m de ancho, 320 → 100 km/h, frenadas, test de Ferrari; montaje 6:32–6:39."
+  },
+  {
+   "desde": "6:39.2",
+   "hasta": "7:44.0",
+   "parte": "Club 91",
+   "que_pasa": "Reservado en obras, 12 reservados temáticos, «caos»."
+  },
+  {
+   "desde": "7:44.0",
+   "hasta": "8:40.9",
+   "parte": "terraza de la tercera planta",
+   "que_pasa": "Fernando, Jarama, mapa de accesos, reservados del paddock, 120.000 personas."
+  },
+  {
+   "desde": "8:40.9",
+   "hasta": "9:25.2",
+   "parte": "grada temporal",
+   "que_pasa": "Estructura, todo se desmonta, mejores vistas."
+  },
+  {
+   "desde": "9:25.2",
+   "hasta": "9:58.0",
+   "parte": "zona general",
+   "que_pasa": "Charla sentados en trípode: precios de 500–600 €, ¿lo pagarías?"
+  },
+  {
+   "desde": "9:58.0",
+   "hasta": "10:46.0",
+   "parte": "palcos y fan zone",
+   "que_pasa": "Palcos pequeños, puestos de comida, hot dog a 12,50 € y cerveza a 7 €."
+  },
+  {
+   "desde": "10:46.0",
+   "hasta": "11:57.2",
+   "parte": "vuelta en coche",
+   "que_pasa": "Presentación de la arquitecta, entrevista subtitulada, chiste «Tú», mapa de Valdebebas."
+  },
+  {
+   "desde": "11:57.2",
+   "hasta": "13:28.0",
+   "parte": "La Monumental (curva peraltada)",
+   "que_pasa": "Mirador, render, NASCAR, recomendación de la Sagrada Familia, like y suscripción, edificio."
+  },
+  {
+   "desde": "13:28.0",
+   "hasta": "14:07.0",
+   "parte": "césped y pista",
+   "que_pasa": "Piscina, coche aparcado en el peralte, fuerza G y cuello de Alonso."
+  },
+  {
+   "desde": "14:07.0",
+   "hasta": "14:33.2",
+   "parte": "restaurante y cubierta",
+   "que_pasa": "Primera planta, la ola, opinión de Saúl."
+  },
+  {
+   "desde": "14:33.2",
+   "hasta": "14:53.23",
+   "parte": "cierre",
+   "que_pasa": "4 paisajes sin voz, despedida a cámara y mano al objetivo."
+  }
+ ],
+ "intro": {
+  "tipo": "explicativa",
+  "por_que_ese_tipo": "El vídeo tiene una premisa que hay que explicar antes de enseñar nada: qué es este sitio (un circuito de F1 nuevo, dentro de una ciudad, todavía en obras), dónde está (IFEMA), cuánto ha costado (200 millones), qué se va a ver (6 km, 22 curvas, «casi todos los lados») y qué pregunta se va a contestar («si toda esa inversión vale la pena»). No hay imágenes de acción que vender en un tráiler: lo que hay son datos y acceso. Por eso Nil habla a cámara desde el fotograma 0 durante 34,37 s (134 palabras suyas, 234 palabras/min) y CADA dato lleva su ilustración, que entra a ± 2 fotogramas de la palabra que la nombra: 9 ilustraciones en 34,37 s (una cada 3,8 s). Frente a la intro «corta» de Alessio (27,97 s, estrobo de 7 clips de 2–4 f → nombre → tráiler de 23 planos de 16–39 f sin voz → lema; 0 animaciones), aquí no hay estrobo, ni nombre, ni cabecera, ni lema, y el tramo sin voz se reduce a 5,34 s al final (6 planos de 15–40 f) que hacen de «al lío».",
+  "duracion_s": 39.71,
+  "duracion_f": 1190,
+  "orden": [
+   "1. Gancho superlativo a cámara en el sitio, con cifra cinética «24%» (f0–55, 1,87 s)",
+   "2. Dos planos de él en la pista para acabar la frase (f56–109, 1,80 s)",
+   "3. Bienvenida y promesa «tour privado» + ráfaga-índice de 4 planos de 17–20 f (f110–222, 3,77 s)",
+   "4. Dónde: «la entrada a IFEMA» + vuelo 3D sobre el edificio (f223–293, 2,37 s)",
+   "5. Qué: «dos años construyendo» + render 3D que se construye (f294–409, 3,87 s)",
+   "6. Cuánto: «200 millones» con la cifra detrás de la cabeza (f410–502, 3,10 s)",
+   "7. Chiste con el operador, subtitulado y sin música (f503–641, 4,64 s)",
+   "8. Pregunta del vídeo: «hoy veremos si toda esa inversión vale la pena» (f642–736, 3,17 s)",
+   "9. Mapa: «os pongo por aquí una foto del circuito» (f737–836, 3,34 s)",
+   "10. Recorrido: ráfaga de 4 planos de 9–11 f + trazado del circuito + clip de videojuego, «6 kilómetros, 22 curvas» (f837–965, 4,30 s)",
+   "11. «Y toda la mañana que tenemos por delante, así que vamos allá» (f966–1029, 2,14 s)",
+   "12. Montaje sin voz de 6 planos desde el coche con la música arriba (f1030–1189, 5,34 s)",
+   "13. Primer plano del cuerpo: «Estoy ahora mismo en los garajes…» (f1190 = 0:39.71)"
+  ],
+  "sin": "Sin cold open sin voz, sin tráiler de lo mejor, sin estrobo, sin título ni cabecera animada, sin logo, sin nombre del canal, sin saludo tipo «¿qué tal, gente?» (la bienvenida es la segunda frase y ya es la promesa), sin rótulo del nombre de Nil, sin CTA de suscripción.",
+  "medidas": {
+   "planos": 32,
+   "cortes": 31,
+   "cortes_por_minuto": 46.8,
+   "mediana_plano_f": 32.5,
+   "mediana_plano_s": 1.08,
+   "menos_de_1s": "13 de 32 (41 %)",
+   "plano_mas_corto_f": 9,
+   "plano_mas_largo_f": 139,
+   "nota_detector": "detectar_cortes --rafagas da 55,9 cortes/min y mediana 0,77 s en este tramo porque cuenta como cortes los 2 destellos de salida de inserto (0:09.7, 0:13.5) y los saltos del render que brota (0:11.18–0:12.11). A mano son 31 cortes.",
+   "reparto_del_tiempo": "Nil a cámara 21,9 s (55 %: 655 f en 12 planos) · ilustraciones a pantalla completa 6,9 s (17 %: 207 f en 4 insertos) · planos propios de recurso y ráfagas 5,6 s (14 %: 168 f) · montaje sin voz 5,3 s (13 %: 160 f).",
+   "ilustraciones": 9,
+   "segundos_por_ilustracion": 3.8,
+   "tiempo_maximo_sin_cambio_visual_s": 2.14,
+   "tiempo_maximo_sin_cambio_visual_nota": "contando como cambio un corte, un gráfico que entra o un subtítulo nuevo; el máximo es el plano f966–1029 (64 f), que además lleva zoom-out"
+  },
+  "animaciones_explicativas": [
+   {
+    "t": "0:00.53",
+    "frase": "«Esta es la NUEVA curva con más INCLINACIÓN de todo el mundo de Fórmula 1» (entra en «nueva», f16; se tumba en «inclinación», f43)",
+    "que_es": "Cifra cinética «24%» (el peralte de la curva) que aparece de pie junto a Nil y se TUMBA sobre el asfalto, como si se acostara en la pendiente",
+    "f0": 16,
+    "f1": 55,
+    "duracion_f": 40,
+    "entrada": "fundido de 4 f (f16–19), sin escala ni rebote",
+    "movimiento": "quieta f20–39 (20 f); desde f40 gira en 3D sobre su borde inferior (y ≈ 800 fijo) y se aplasta en vertical: alto 290 px en f28 → 200 px en f46; sigue cayendo hasta el corte",
+    "salida": "por corte en f56 (a mitad del giro)",
+    "curva": "entrada lineal; giro con aceleración suave (ease-in), no llega a frenar",
+    "posicion": "x 290–910, y 510–800 en f28 (15–47 % del ancho, 47–74 % del alto): a la izquierda de Nil, a la altura del pecho, sobre la pista",
+    "tamano": "«24» ≈ 290 px = 27 % del alto de pantalla; con el signo %, 340 px = 31 %; ancho 620 px = 32 %",
+    "color": "#F1F1F4 (blanco apenas frío), sin borde; sombra muy leve",
+    "fuente": "grotesca extendida, ultranegra y en cursiva, de carreras (tipo Druk Wide Bold Italic / Formula1 Display Wide). fuente_rotulo.py --color '#FFFFFF' no la reconoce: Caveat 600 −0,133 · Permanent Marker −0,196 · Bebas Neue −0,226 (puntuaciones negativas = sin parecido). En Google Fonts: Unbounded 900 inclinada ≈ 12° o Archivo expandida 900 Italic.",
+    "como_esta_hecha": "Tipografía en capa 3D + MÁSCARA de la persona: la mano de Nil pasa por DELANTE del número (f24–38), así que el texto está entre él y el fondo (rotoscopia o recorte automático de persona). El giro es una rotación 3D de la capa sobre el eje X con el ancla en la base. A mano, no plantilla.",
+    "sfx": "DUDA: 3–4 ticks agudos entre 1,00 y 1,55 s (f30–46) que coincidirían con el giro; no se distinguen de la voz con seguridad. No confirmado."
+   },
+   {
+    "t": "0:04.97",
+    "frase": "«Bienvenidos al tour privado del NUEVO CIRCUITO DE FÓRMULA 1 DE MADRID» (los 4 planos cubren de «nuevo» f152 a «Madrid» f203–222)",
+    "que_es": "Ráfaga-índice de 4 planos del propio vídeo sobre la voz: (1) Nil con chaleco naranja y casco en el césped, 18 f · (2) una curva vacía, 20 f · (3) explanada de obra, 17 f · (4) recta con la bandera de España, 19 f",
+    "f0": 149,
+    "f1": 222,
+    "duracion_f": 74,
+    "entrada": "corte seco",
+    "salida": "corte seco",
+    "curva": "—",
+    "posicion": "pantalla completa",
+    "tamano": "100 %",
+    "color": "—",
+    "fuente": "—",
+    "como_esta_hecha": "Planos del propio rodaje a 100 % de velocidad, 17–20 f cada uno (0,57–0,67 s), sin texto ni efecto. Una palabra o dos por plano.",
+    "sfx": "ninguno"
+   },
+   {
+    "t": "0:08.71",
+    "frase": "«Esto de aquí detrás es la ENTRADA A IFEMA» (corta en f261; «entrada» f257, «IFEMA» f275)",
+    "que_es": "Vuelo 3D sobre el edificio de «IFEMA MADRID» (malla de fotogrametría tipo Google Earth), con la cámara avanzando",
+    "f0": 261,
+    "f1": 293,
+    "duracion_f": 33,
+    "entrada": "corte seco desde Nil señalando hacia atrás (el gesto hace de raccord)",
+    "movimiento": "empuje de cámara continuo ×1,088 en 0,8 s (≈ +11 %/s)",
+    "salida": "fuga de luz cálida: f290–293 ya lavados, f294–296 sobreexpuestos sobre el plano siguiente (≈ 7 f en total)",
+    "curva": "lineal",
+    "posicion": "pantalla completa",
+    "tamano": "100 %",
+    "color": "—",
+    "fuente": "—",
+    "como_esta_hecha": "Captura de vuelo en un visor 3D de mapas (fotogrametría), sin etiquetas ni interfaz. No es dron: los bordes de la malla se deforman.",
+    "sfx": "ninguno confirmado (un punto tonal en 9,68 s queda en dudas)"
+   },
+   {
+    "t": "0:11.18",
+    "frase": "«Y es que durante los dos últimos años se ha estado CONSTRUYENDO el nuevo circuito de Fórmula 1» («construyendo» f342–362)",
+    "que_es": "Render 3D del circuito que SE CONSTRUYE solo: las gradas, la zona verde y el edificio brotan del suelo por tandas mientras la cámara orbita",
+    "f0": 335,
+    "f1": 409,
+    "duracion_f": 75,
+    "entrada": "corte seco en f335, 7 f antes de «construyendo»",
+    "movimiento": "f335–372 (38 f) las piezas aparecen escalonadas con pop y la cámara orbita y se acerca +8,4 % en 0,55 s con frenada; f373–404 (32 f) quieto",
+    "salida": "fuga de luz f405–411 (7 f) hacia Nil",
+    "curva": "ease-out (frena al llegar)",
+    "posicion": "pantalla completa",
+    "tamano": "100 %",
+    "color": "—",
+    "fuente": "—",
+    "como_esta_hecha": "Animación 3D ya hecha (lleva el rótulo del circuito en las cubiertas): con toda probabilidad material promocional oficial, recortado al tramo en que se monta la maqueta. No lo anima el editor.",
+    "sfx": "2–3 clics/pops agudos entre 0:11.85 y 0:12.15 (f355–365), uno por tanda de gradas que brota, ≈ −10 dB respecto a la voz (confirmado, flojo)"
+   },
+   {
+    "t": "0:15.12",
+    "frase": "«El cual ha costado aproximadamente unos 200 MILLONES de euros» (entra en f453; «200» empieza en f454)",
+    "que_es": "Cifra «200.000.000€» que cruza todo el ancho por DETRÁS de la cabeza de Nil",
+    "f0": 453,
+    "f1": 502,
+    "duracion_f": 50,
+    "entrada": "fundido de 4 f (f453–456), sin escala; estática",
+    "salida": "por corte en f503 (el punch-out del chiste)",
+    "curva": "lineal",
+    "posicion": "arriba: x 105–1800 (88 % del ancho), y 48–250; la cabeza tapa los ceros centrales",
+    "tamano": "alto de la cifra 200 px = 18,5 % del alto de pantalla",
+    "color": "#FFFFFF con sombra suave difusa, sin borde",
+    "fuente": "sans redondeada negrita (tipo Arial Rounded MT Bold / Nunito 900). fuente_rotulo.py --color '#FFFFFF': lado izquierdo «200.0» → Plus Jakarta Sans 800 +0,296 · Space Mono 700 +0,266 · Outfit 700 +0,236; lado derecho «00€» → Roboto 700 +0,565 · Inter Tight 700 +0,531 · Inter 800 +0,480 (parecido medio: los terminales redondos no están en el catálogo)",
+    "como_esta_hecha": "Texto 2D + máscara de persona (recorte de Nil duplicado encima del texto). El plano lleva además un zoom-in lento ×1,037 (+1,27 %/s) que el texto no sigue: está fijo a pantalla.",
+    "sfx": "caja registradora / monedas 0:15.12–0:15.90, −5 dB respecto a la voz (CONFIRMADO: raya vertical + cola de agudos en el espectrograma, justo en el fotograma de entrada)"
+   },
+   {
+    "t": "0:25.83",
+    "frase": "«De hecho, para que os podáis ubicar, OS PONGO por aquí una foto del circuito» (corta en f774; «os pongo» f772–780)",
+    "que_es": "Mapa 3D estilizado e inclinado: la ciudad en bloques blancos, zonas verdes y el trazado del circuito como una línea roja brillante",
+    "f0": 774,
+    "f1": 836,
+    "duracion_f": 63,
+    "entrada": "corte seco",
+    "movimiento": "deriva lenta de cámara, ×1,031 en 2,1 s (+0,9…+1,7 %/s)",
+    "salida": "corte seco (sin fuga de luz: es la única ilustración de la intro que sale en seco)",
+    "curva": "lineal",
+    "posicion": "pantalla completa",
+    "tamano": "100 %",
+    "color": "trazado rojo-rosa brillante sobre maqueta blanca y verde",
+    "fuente": "—",
+    "como_esta_hecha": "Maqueta 3D de ciudad con el trazado iluminado; es la MISMA maqueta que el mapa de accesos de 8:09 y el inserto de 11:48, así que es un único vídeo (probablemente oficial) troceado en tres sitios.",
+    "sfx": "ninguno"
+   },
+   {
+    "t": "0:28.46",
+    "frase": "«Haremos un RECORRIDO POR CASI TODOS LOS LADOS» («por» f859, «casi» f863, «todos» f870, «lados» f885)",
+    "que_es": "Ráfaga de 4 planos del propio vídeo, uno por palabra: (1) vista desde el coche, 10 f · (2) selfie en la curva, 10 f · (3) fachada de boxes, 9 f · (4) vista desde la azotea, 11 f",
+    "f0": 853,
+    "f1": 892,
+    "duracion_f": 40,
+    "entrada": "corte seco",
+    "salida": "corte seco",
+    "curva": "—",
+    "posicion": "pantalla completa",
+    "tamano": "100 %",
+    "color": "—",
+    "fuente": "—",
+    "como_esta_hecha": "Planos del rodaje de 9–11 f (0,30–0,37 s): la ráfaga más rápida del vídeo. Los cortes caen en el arranque de cada palabra, no en la música.",
+    "sfx": "ninguno"
+   },
+   {
+    "t": "0:29.80",
+    "frase": "«6 KILÓMETROS de circuito…» (entra en f893; «6» f892)",
+    "que_es": "Silueta del TRAZADO del circuito en línea blanca, al lado de Nil en selfie",
+    "f0": 893,
+    "f1": 929,
+    "duracion_f": 37,
+    "entrada": "de golpe con el corte (entero, no se dibuja)",
+    "salida": "con el corte",
+    "curva": "sin animación (estático)",
+    "posicion": "tercio izquierdo: x 192–710 (27 % del ancho), y 48–1037",
+    "tamano": "92 % del alto de pantalla; trazo ≈ 12 px (1,1 %)",
+    "color": "#FFFFFF con sombra suave; marca de meta («) en la parte baja",
+    "fuente": "—",
+    "como_esta_hecha": "PNG/SVG del trazado superpuesto, fijo a pantalla, sin máscara; el plano de debajo lleva zoom-in ×1,059 (+6,3 %/s).",
+    "sfx": "ninguno"
+   },
+   {
+    "t": "0:31.03",
+    "frase": "«…22 CURVAS» (corta en f930; «22» f932)",
+    "que_es": "Clip de videojuego / simulador de F1 (monoplaza rojo con el número 44, cámara trasera tomando una curva)",
+    "f0": 930,
+    "f1": 965,
+    "duracion_f": 36,
+    "entrada": "corte seco; el sonido del motor empieza ≈ 12 f antes (J-cut, 0:30.65)",
+    "salida": "corte seco",
+    "curva": "—",
+    "posicion": "pantalla completa",
+    "tamano": "100 %",
+    "color": "—",
+    "fuente": "—",
+    "como_esta_hecha": "Captura de pantalla de un juego o simulador (se repite el recurso en 3:43.5, 3:54, 5:54 y 6:20).",
+    "sfx": "motor de F1 0:30.65–0:32.20, −6,7 dB respecto a la voz (CONFIRMADO: banda ancha con armónicos que sube y baja)"
+   }
+  ],
+  "otros_textos_de_la_intro": [
+   {
+    "t": "0:16.78",
+    "f0": 503,
+    "f1": 535,
+    "texto": "«Que yo creo que es poco...»",
+    "color": "blanco",
+    "nota": "subtítulo de énfasis; entra con el corte del punch-out"
+   },
+   {
+    "t": "0:17.88",
+    "f0": 536,
+    "f1": 559,
+    "texto": "«¿No te parece poco?»",
+    "color": "blanco"
+   },
+   {
+    "t": "0:18.69",
+    "f0": 560,
+    "f1": 604,
+    "texto": "«Me parece una barbaridad»",
+    "color": "amarillo #FED100",
+    "nota": "habla el operador, fuera de cuadro; la transcripción automática no recoge la frase"
+   },
+   {
+    "t": "0:20.19",
+    "f0": 605,
+    "f1": 622,
+    "texto": "«Yo estoy seguro de»",
+    "color": "blanco"
+   },
+   {
+    "t": "0:20.79",
+    "f0": 623,
+    "f1": 641,
+    "texto": "«que se han gastado más»",
+    "color": "blanco",
+    "nota": "sale con el corte de f642"
+   }
+  ],
+  "clips_rafaga_trailer": [
+   {
+    "t": "0:01.87",
+    "f0": 56,
+    "f1": 79,
+    "sale_de": "primera hora (chaleco amarillo), no vuelve a salir en el cuerpo",
+    "funcion": "bonito",
+    "que_se_ve": "plano bajo e inclinado: Nil andando sobre las flechas pintadas del asfalto"
+   },
+   {
+    "t": "0:02.67",
+    "f0": 80,
+    "f1": 109,
+    "sale_de": "primera hora (chaleco amarillo)",
+    "funcion": "bonito",
+    "que_se_ve": "lateral lejano: Nil corriendo por la pista vacía (da la escala)"
+   },
+   {
+    "t": "0:04.97",
+    "f0": 149,
+    "f1": 166,
+    "sale_de": "≈ 13:28–13:45 (chaleco naranja y casco, césped)",
+    "funcion": "anticipa",
+    "que_se_ve": "Nil con casco en el césped interior"
+   },
+   {
+    "t": "0:05.57",
+    "f0": 167,
+    "f1": 186,
+    "sale_de": "≈ 5:38–6:39 (curva 1)",
+    "funcion": "bonito",
+    "que_se_ve": "curva vacía"
+   },
+   {
+    "t": "0:06.24",
+    "f0": 187,
+    "f1": 203,
+    "sale_de": "≈ 3:24–3:34 (obras de la recta)",
+    "funcion": "anticipa",
+    "que_se_ve": "explanada de obra"
+   },
+   {
+    "t": "0:06.81",
+    "f0": 204,
+    "f1": 222,
+    "sale_de": "≈ 1:48–2:28 (recta de meta)",
+    "funcion": "bonito",
+    "que_se_ve": "recta con la bandera de España"
+   },
+   {
+    "t": "0:28.46",
+    "f0": 853,
+    "f1": 862,
+    "sale_de": "≈ 10:46–11:57 (vuelta en coche)",
+    "funcion": "anticipa",
+    "que_se_ve": "vista desde el coche rodando por la pista"
+   },
+   {
+    "t": "0:28.80",
+    "f0": 863,
+    "f1": 872,
+    "sale_de": "≈ 12:01–12:30 (La Monumental)",
+    "funcion": "anticipa",
+    "que_se_ve": "selfie en la curva"
+   },
+   {
+    "t": "0:29.13",
+    "f0": 873,
+    "f1": 881,
+    "sale_de": "≈ 0:39–0:56 (boxes)",
+    "funcion": "anticipa",
+    "que_se_ve": "fachada de boxes"
+   },
+   {
+    "t": "0:29.43",
+    "f0": 882,
+    "f1": 892,
+    "sale_de": "≈ 14:20–14:33 (cubierta)",
+    "funcion": "bonito",
+    "que_se_ve": "vista general desde arriba"
+   },
+   {
+    "t": "0:34.37",
+    "f0": 1030,
+    "f1": 1061,
+    "sale_de": "vuelta en coche (≈ 10:46–11:57), plano no usado en el cuerpo",
+    "funcion": "llamativo",
+    "que_se_ve": "vista desde el coche pasando bajo una pasarela"
+   },
+   {
+    "t": "0:35.44",
+    "f0": 1062,
+    "f1": 1082,
+    "sale_de": "vuelta en coche",
+    "funcion": "bonito",
+    "que_se_ve": "piano rojo y amarillo pasando a ras"
+   },
+   {
+    "t": "0:36.14",
+    "f0": 1083,
+    "f1": 1104,
+    "sale_de": "vuelta en coche",
+    "funcion": "llamativo",
+    "que_se_ve": "Nil en selfie asomado a la ventanilla"
+   },
+   {
+    "t": "0:36.87",
+    "f0": 1105,
+    "f1": 1144,
+    "sale_de": "vuelta en coche",
+    "funcion": "bonito",
+    "que_se_ve": "la pista por delante"
+   },
+   {
+    "t": "0:38.21",
+    "f0": 1145,
+    "f1": 1174,
+    "sale_de": "vuelta en coche",
+    "funcion": "anticipa",
+    "que_se_ve": "comisarios de verde por el parabrisas"
+   },
+   {
+    "t": "0:39.21",
+    "f0": 1175,
+    "f1": 1189,
+    "sale_de": "vuelta en coche",
+    "funcion": "bonito",
+    "que_se_ve": "recta"
+   }
+  ],
+  "clips_rafaga_trailer_resumen": "16 planos de recurso propios en la intro (2 + 4 + 4 + 6): bonito 8 (50 %), anticipa 6 (38 %), llamativo 2 (12 %), promesa 0. Ninguno enseña un momento del vídeo (ni chistes, ni reacciones, ni a los invitados): solo SITIOS, vacíos o con él dentro. Nunca entran: caras de otros, planos hablando del cuerpo, trayectos a pie, la promo. 8 de los 16 llevan movimiento de avance (desde el coche o él corriendo). El origen por minuto está deducido del vestuario y del lugar, no casado plano a plano (ver dudas).",
+  "linea_de_tiempo": [
+   {
+    "f0": 0,
+    "f1": 55,
+    "t": "0:00.00",
+    "que_se_ve": "Selfie gran angular en la curva peraltada, chaleco amarillo; el horizonte inclinado por el peralte",
+    "origen": "propio (primera hora del rodaje)",
+    "camara": "selfie en mano, andando",
+    "zoom_velocidad": "sin zoom, 100 %",
+    "texto": "«24%» f16–55",
+    "motion_graphic": "cifra 3D que se tumba, detrás de la mano",
+    "sfx": "ticks 1,00–1,55 s (duda)",
+    "musica": "colchón tonal desde 0,2 s a ≈ −34 dB (19–20 dB bajo la voz)",
+    "voz": "«Esta es la nueva curva con más inclinación de todo el…»"
+   },
+   {
+    "f0": 56,
+    "f1": 79,
+    "t": "0:01.87",
+    "que_se_ve": "Plano bajo inclinado: Nil andando sobre flechas del asfalto",
+    "origen": "propio",
+    "camara": "operador, fijo",
+    "zoom_velocidad": "sin zoom",
+    "texto": "",
+    "motion_graphic": "",
+    "sfx": "",
+    "musica": "sigue",
+    "voz": "«…mundo de…»"
+   },
+   {
+    "f0": 80,
+    "f1": 109,
+    "t": "0:02.67",
+    "que_se_ve": "Lateral lejano: Nil corriendo por la pista",
+    "origen": "propio",
+    "camara": "operador, fijo",
+    "zoom_velocidad": "sin zoom",
+    "texto": "",
+    "motion_graphic": "",
+    "sfx": "",
+    "musica": "sigue",
+    "voz": "«…Fórmula 1»"
+   },
+   {
+    "f0": 110,
+    "f1": 148,
+    "t": "0:03.67",
+    "que_se_ve": "Nil de frente con los brazos abiertos, plano medio",
+    "origen": "propio",
+    "camara": "operador",
+    "zoom_velocidad": "zoom-in digital ×1,067 (+6,7 %/s), lineal",
+    "texto": "",
+    "motion_graphic": "",
+    "sfx": "",
+    "musica": "sigue",
+    "voz": "«Bienvenidos al tour privado del…»"
+   },
+   {
+    "f0": 149,
+    "f1": 166,
+    "t": "0:04.97",
+    "que_se_ve": "Nil con chaleco naranja y casco en el césped",
+    "origen": "propio (final del rodaje)",
+    "camara": "operador",
+    "zoom_velocidad": "100 %",
+    "texto": "",
+    "motion_graphic": "ráfaga-índice 1/4",
+    "sfx": "",
+    "musica": "sigue",
+    "voz": "«…nuevo circuito…»"
+   },
+   {
+    "f0": 167,
+    "f1": 186,
+    "t": "0:05.57",
+    "que_se_ve": "Curva vacía",
+    "origen": "propio",
+    "camara": "fijo",
+    "zoom_velocidad": "100 %",
+    "texto": "",
+    "motion_graphic": "ráfaga-índice 2/4",
+    "sfx": "",
+    "musica": "cambio de acorde en 5,9 s",
+    "voz": "«…de Fórmula 1…»"
+   },
+   {
+    "f0": 187,
+    "f1": 203,
+    "t": "0:06.24",
+    "que_se_ve": "Explanada de obra",
+    "origen": "propio",
+    "camara": "fijo",
+    "zoom_velocidad": "100 %",
+    "texto": "",
+    "motion_graphic": "ráfaga-índice 3/4",
+    "sfx": "",
+    "musica": "sigue",
+    "voz": "«…de…»"
+   },
+   {
+    "f0": 204,
+    "f1": 222,
+    "t": "0:06.81",
+    "que_se_ve": "Recta con bandera de España",
+    "origen": "propio",
+    "camara": "fijo",
+    "zoom_velocidad": "100 %",
+    "texto": "",
+    "motion_graphic": "ráfaga-índice 4/4",
+    "sfx": "",
+    "musica": "sigue",
+    "voz": "«…Madrid.» + «Esto…»"
+   },
+   {
+    "f0": 223,
+    "f1": 260,
+    "t": "0:07.44",
+    "que_se_ve": "Nil con camiseta negra en el aparcamiento de IFEMA, cuerpo entero, señala hacia atrás",
+    "origen": "propio (otro momento: antes de entrar)",
+    "camara": "operador o trípode",
+    "zoom_velocidad": "zoom-in digital ×1,077 (+7,9 %/s)",
+    "texto": "",
+    "motion_graphic": "",
+    "sfx": "",
+    "musica": "sigue",
+    "voz": "«…de aquí detrás es la entrada…»"
+   },
+   {
+    "f0": 261,
+    "f1": 293,
+    "t": "0:08.71",
+    "que_se_ve": "Vuelo 3D sobre el edificio IFEMA MADRID",
+    "origen": "visor 3D de mapas",
+    "camara": "virtual, avanza",
+    "zoom_velocidad": "+11 %/s",
+    "texto": "",
+    "motion_graphic": "inserto 3D; sale con fuga de luz (≈ 7 f)",
+    "sfx": "",
+    "musica": "sigue",
+    "voz": "«…a IFEMA.» + «Y es que…»"
+   },
+   {
+    "f0": 294,
+    "f1": 334,
+    "t": "0:09.81",
+    "que_se_ve": "Nil, plano medio (camiseta negra)",
+    "origen": "propio",
+    "camara": "operador",
+    "zoom_velocidad": "zoom-OUT digital ×0,955 (−4,7 %/s)",
+    "texto": "",
+    "motion_graphic": "",
+    "sfx": "",
+    "musica": "sigue",
+    "voz": "«…durante los dos últimos años se ha…»"
+   },
+   {
+    "f0": 335,
+    "f1": 409,
+    "t": "0:11.18",
+    "que_se_ve": "Render 3D: las gradas y edificios brotan; la cámara orbita y frena",
+    "origen": "render promocional",
+    "camara": "virtual",
+    "zoom_velocidad": "+8,4 % en 0,55 s y quieto",
+    "texto": "",
+    "motion_graphic": "render que se construye; sale con fuga de luz f405–411",
+    "sfx": "clics 0:11.85–0:12.15",
+    "musica": "sigue",
+    "voz": "«…estado construyendo el nuevo circuito de Fórmula 1.»"
+   },
+   {
+    "f0": 410,
+    "f1": 502,
+    "t": "0:13.68",
+    "que_se_ve": "Nil, plano medio",
+    "origen": "propio",
+    "camara": "operador",
+    "zoom_velocidad": "zoom-in lento ×1,037 (+1,27 %/s)",
+    "texto": "«200.000.000€» f453–502",
+    "motion_graphic": "cifra detrás de la cabeza",
+    "sfx": "caja registradora 0:15.12",
+    "musica": "sigue",
+    "voz": "«El cual ha costado aproximadamente unos 200 millones de euros.»"
+   },
+   {
+    "f0": 503,
+    "f1": 641,
+    "t": "0:16.78",
+    "que_se_ve": "El mismo plano, más abierto: Nil mira al operador",
+    "origen": "propio (misma toma)",
+    "camara": "fijo",
+    "zoom_velocidad": "PUNCH-OUT por corte ×0,71; después fijo",
+    "texto": "5 subtítulos (4 blancos, 1 amarillo)",
+    "motion_graphic": "",
+    "sfx": "",
+    "musica": "se apaga en 17,9 s; SILENCIO 18,0–21,3 s",
+    "voz": "«Que yo creo que es poco, ¿no te parece poco?» — (operador) «Me parece una barbaridad» — «Yo estoy seguro de que se han gastado más»"
+   },
+   {
+    "f0": 642,
+    "f1": 675,
+    "t": "0:21.42",
+    "que_se_ve": "Nil, plano medio corto",
+    "origen": "propio (misma toma)",
+    "camara": "operador",
+    "zoom_velocidad": "PUNCH-IN por corte ×1,30",
+    "texto": "",
+    "motion_graphic": "",
+    "sfx": "",
+    "musica": "vuelve DE GOLPE en f642, más alta (≈ −27 dB, 10 dB bajo la voz)",
+    "voz": "«Así que hoy veremos si…»"
+   },
+   {
+    "f0": 676,
+    "f1": 736,
+    "t": "0:22.56",
+    "que_se_ve": "Lo mismo tras un jump cut",
+    "origen": "propio (misma toma)",
+    "camara": "operador",
+    "zoom_velocidad": "zoom-OUT ×0,940 (−3,5 %/s)",
+    "texto": "",
+    "motion_graphic": "",
+    "sfx": "",
+    "musica": "sigue",
+    "voz": "«…toda esa inversión vale la pena.»"
+   },
+   {
+    "f0": 737,
+    "f1": 773,
+    "t": "0:24.59",
+    "que_se_ve": "Lo mismo, más abierto",
+    "origen": "propio (misma toma)",
+    "camara": "fijo",
+    "zoom_velocidad": "punch-out por corte ×0,83",
+    "texto": "",
+    "motion_graphic": "",
+    "sfx": "",
+    "musica": "sigue",
+    "voz": "«De hecho, para que os podáis ubicar…»"
+   },
+   {
+    "f0": 774,
+    "f1": 836,
+    "t": "0:25.83",
+    "que_se_ve": "Mapa 3D inclinado con el trazado en rojo",
+    "origen": "maqueta 3D (promocional)",
+    "camara": "virtual, deriva",
+    "zoom_velocidad": "+0,9…+1,7 %/s",
+    "texto": "",
+    "motion_graphic": "mapa 3D",
+    "sfx": "",
+    "musica": "sigue",
+    "voz": "«…os pongo por aquí una foto del circuito.»"
+   },
+   {
+    "f0": 837,
+    "f1": 852,
+    "t": "0:27.93",
+    "que_se_ve": "Nil cerca, selfie",
+    "origen": "propio",
+    "camara": "selfie",
+    "zoom_velocidad": "100 %",
+    "texto": "",
+    "motion_graphic": "",
+    "sfx": "",
+    "musica": "sigue",
+    "voz": "«Haremos un recorrido…»"
+   },
+   {
+    "f0": 853,
+    "f1": 862,
+    "t": "0:28.46",
+    "que_se_ve": "Vista desde el coche",
+    "origen": "propio",
+    "camara": "en mano",
+    "zoom_velocidad": "100 %",
+    "texto": "",
+    "motion_graphic": "ráfaga 1/4",
+    "sfx": "",
+    "musica": "sigue",
+    "voz": "«…por…»"
+   },
+   {
+    "f0": 863,
+    "f1": 872,
+    "t": "0:28.80",
+    "que_se_ve": "Selfie en la curva",
+    "origen": "propio",
+    "camara": "selfie",
+    "zoom_velocidad": "100 %",
+    "texto": "",
+    "motion_graphic": "ráfaga 2/4",
+    "sfx": "",
+    "musica": "sigue",
+    "voz": "«…casi…»"
+   },
+   {
+    "f0": 873,
+    "f1": 881,
+    "t": "0:29.13",
+    "que_se_ve": "Fachada de boxes",
+    "origen": "propio",
+    "camara": "fijo",
+    "zoom_velocidad": "100 %",
+    "texto": "",
+    "motion_graphic": "ráfaga 3/4",
+    "sfx": "",
+    "musica": "sigue",
+    "voz": "«…todos los…»"
+   },
+   {
+    "f0": 882,
+    "f1": 892,
+    "t": "0:29.43",
+    "que_se_ve": "Vista desde la azotea",
+    "origen": "propio",
+    "camara": "fijo",
+    "zoom_velocidad": "100 %",
+    "texto": "",
+    "motion_graphic": "ráfaga 4/4",
+    "sfx": "",
+    "musica": "sigue",
+    "voz": "«…lados.»"
+   },
+   {
+    "f0": 893,
+    "f1": 929,
+    "t": "0:29.80",
+    "que_se_ve": "Selfie cerca, Nil a la derecha del cuadro",
+    "origen": "propio",
+    "camara": "selfie",
+    "zoom_velocidad": "zoom-in ×1,059 (+6,3 %/s)",
+    "texto": "",
+    "motion_graphic": "trazado del circuito en línea blanca a la izquierda (92 % del alto)",
+    "sfx": "motor que entra en 0:30.65 (J-cut)",
+    "musica": "empieza a subir en 30,6 s",
+    "voz": "«6 kilómetros de circuito…»"
+   },
+   {
+    "f0": 930,
+    "f1": 965,
+    "t": "0:31.03",
+    "que_se_ve": "Videojuego de F1: monoplaza rojo nº 44 desde atrás",
+    "origen": "captura de juego",
+    "camara": "virtual",
+    "zoom_velocidad": "100 %",
+    "texto": "",
+    "motion_graphic": "inserto",
+    "sfx": "motor F1 hasta 0:32.20",
+    "musica": "subiendo",
+    "voz": "«…22 curvas.»"
+   },
+   {
+    "f0": 966,
+    "f1": 1029,
+    "t": "0:32.23",
+    "que_se_ve": "Selfie",
+    "origen": "propio",
+    "camara": "selfie",
+    "zoom_velocidad": "zoom-OUT ×0,908 (−5,0 %/s)",
+    "texto": "",
+    "motion_graphic": "",
+    "sfx": "",
+    "musica": "subiendo",
+    "voz": "«Y toda la mañana que tenemos por delante, así que vamos allá.»"
+   },
+   {
+    "f0": 1030,
+    "f1": 1061,
+    "t": "0:34.37",
+    "que_se_ve": "Desde el coche, bajo una pasarela",
+    "origen": "propio",
+    "camara": "en mano desde el coche",
+    "zoom_velocidad": "100 %",
+    "texto": "",
+    "motion_graphic": "",
+    "sfx": "whoosh en el corte (0:34.35)",
+    "musica": "ARRIBA: −13…−16 dB (nivel de voz), bombo en 34,5 s",
+    "voz": "—"
+   },
+   {
+    "f0": 1062,
+    "f1": 1082,
+    "t": "0:35.44",
+    "que_se_ve": "Piano rojo y amarillo a ras",
+    "origen": "propio",
+    "camara": "desde el coche",
+    "zoom_velocidad": "100 %",
+    "texto": "",
+    "motion_graphic": "",
+    "sfx": "whoosh (0:35.45)",
+    "musica": "bombo 35,8 s",
+    "voz": "—"
+   },
+   {
+    "f0": 1083,
+    "f1": 1104,
+    "t": "0:36.14",
+    "que_se_ve": "Nil en selfie asomado a la ventanilla",
+    "origen": "propio",
+    "camara": "selfie",
+    "zoom_velocidad": "100 %",
+    "texto": "",
+    "motion_graphic": "",
+    "sfx": "whoosh (0:36.15)",
+    "musica": "sigue",
+    "voz": "—"
+   },
+   {
+    "f0": 1105,
+    "f1": 1144,
+    "t": "0:36.87",
+    "que_se_ve": "La pista por delante",
+    "origen": "propio",
+    "camara": "desde el coche",
+    "zoom_velocidad": "100 %",
+    "texto": "",
+    "motion_graphic": "",
+    "sfx": "whoosh (0:36.87); bloque de ruido 37,4–38,1 s (duda)",
+    "musica": "bombo 36,9 s",
+    "voz": "—"
+   },
+   {
+    "f0": 1145,
+    "f1": 1174,
+    "t": "0:38.21",
+    "que_se_ve": "Comisarios de verde por el parabrisas",
+    "origen": "propio",
+    "camara": "desde el coche",
+    "zoom_velocidad": "100 %",
+    "texto": "",
+    "motion_graphic": "",
+    "sfx": "whoosh (0:38.25)",
+    "musica": "bombo 38,3 s",
+    "voz": "—"
+   },
+   {
+    "f0": 1175,
+    "f1": 1189,
+    "t": "0:39.21",
+    "que_se_ve": "Recta",
+    "origen": "propio",
+    "camara": "desde el coche",
+    "zoom_velocidad": "100 %",
+    "texto": "",
+    "motion_graphic": "",
+    "sfx": "whoosh (0:39.25)",
+    "musica": "bombo 39,5 s; en f1190 cae a −27 dB al hablar",
+    "voz": "«Estoy…» entra 3 f antes del corte (f1187): L-cut mínimo"
+   }
+  ],
+  "titulo_cabecera": {
+   "como_se_construye": "NO HAY título, cabecera ni logo en todo el vídeo. Lo que ocupa su sitio es el «24%» del primer plano (f16–55), que es un dato, no un título: fundido de 4 f, 20 f quieto y giro 3D hasta tumbarse sobre el asfalto, por detrás de la mano de Nil (máscara de persona).",
+   "fuente": "grotesca extendida ultranegra en cursiva (ver animaciones_explicativas[0]); top-3 de fuente_rotulo.py no fiable: Caveat 600 −0,133 · Permanent Marker −0,196 · Bebas Neue −0,226",
+   "color": "#F1F1F4",
+   "duracion_f": 40,
+   "sonido": "sin confirmar (ticks 1,00–1,55 s en dudas)",
+   "plantilla_o_a_mano": "a mano (texto 3D + rotoscopia); no es una plantilla"
+  },
+  "primer_plano_hablando_s": 0.0,
+  "primer_plano_hablando_frase": "«Esta es la nueva curva con más inclinación de todo el mundo de Fórmula 1» (fotograma 0, selfie)",
+  "musica_intro": "Una sola pista electrónica suave. 0,2–17,9 s colchón a ≈ −34 dB (19–20 dB bajo la voz, casi inaudible); 17,9–21,3 s FUERA (chiste en silencio); f642 (21,42 s) vuelve de golpe a ≈ −27 dB (10 dB bajo la voz); desde 30,6 s sube; 34,37–39,71 s a −13…−16 dB (nivel de voz) con bombo en 34,5 · 35,8 · 36,9 · 38,3 · 39,5 s; en 39,71 s cae a −27 dB bajo la primera frase del cuerpo. Los cortes del montaje final van a 1 f de un bombo en 3 de 6; el resto de la intro NO va a ritmo: va a la palabra.",
+  "reglas_de_la_intro": [
+   "Habla desde el fotograma 0, en el sitio más llamativo, con una frase superlativa de ≤ 3,7 s; la bienvenida va después y ya es la promesa.",
+   "Una ilustración por dato, cada 3,8 s de media; entra entre 2 f antes y 2 f después de la palabra que nombra (medido en 8 de 8).",
+   "Nunca más de 2,14 s (64 f) seguidos sin un corte, un gráfico que entra o un subtítulo nuevo; el chiste dura 4,64 s en plano fijo pero cambia de subtítulo cada 18–45 f.",
+   "De los 12 planos de Nil hablando, 7 llevan zoom digital continuo y lineal (4 de entrada a +1,3…+7,9 %/s, 3 de salida a −3,5…−5,0 %/s) y 3 entran con salto de escala por corte (×0,71, ×1,30, ×0,83); los 2 restantes son el selfie inicial (que lleva el «24%») y uno de 16 f.",
+   "Los gráficos hechos por el editor (3: «24%», «200.000.000€», trazado) entran con fundido de 4 f o de golpe y salen SIEMPRE por corte; no hay rebotes ni pops.",
+   "Las cifras grandes van DETRÁS de la persona (máscara), no encima.",
+   "Los insertos que no son suyos (vuelo 3D, render) entran por corte y vuelven con fuga de luz de ≈ 7 f.",
+   "Sonido solo donde hay cifra de dinero (caja registradora), piezas que brotan (clics) o motor (J-cut de 12 f): 3 efectos en 34 s de habla.",
+   "El chiste se monta quitando la música 3,3 s y subtitulando; la música vuelve de golpe en el corte de la frase siguiente.",
+   "Acaba con «vamos allá» + 5,3 s de planos en movimiento sin voz con la música 14–20 dB más alta; la primera frase del cuerpo dice dónde está."
+  ],
+  "hojas": "detalle/intro_fot_15–19.jpg (30–40 s fotograma a fotograma), hojas/intro_fot_*.jpg (0–30 s), detalle/a01–a06 (cada animación a 1 fotograma), i_f056_262, i_f636_780, i_f930_1060, i_f1062_1192, i_subs_chiste_f500_650, e01–e06 (espectrogramas de 0 a 42 s)"
+ },
+ "motion_graphics": [
+  {
+   "tipo": "texto 3D pegado a la escena (con seguimiento y máscara de persona)",
+   "que_es": "Palabra o cifra colocada EN el espacio del plano: tumbada sobre el asfalto, de pie sobre una grada o detrás de la cabeza. La persona pasa por delante. Es la firma del vídeo.",
+   "total": 4,
+   "por_minuto": 0.27,
+   "ejemplos": [
+    {
+     "t": "0:00.53",
+     "f0": 16,
+     "f1": 55,
+     "texto": "24%",
+     "detalle": "fundido 4 f, se tumba desde f40; detrás de la mano; 27–31 % del alto"
+    },
+    {
+     "t": "0:15.12",
+     "f0": 453,
+     "f1": 502,
+     "texto": "200.000.000€",
+     "detalle": "fundido 4 f, detrás de la cabeza, 88 % del ancho, 18,5 % del alto; caja registradora"
+    },
+    {
+     "t": "1:33.99",
+     "f0": 2817,
+     "f1": 2877,
+     "texto": "FAST LANE",
+     "detalle": "de pie sobre la grada del fondo, en perspectiva; entra f2817–2826 (9 f), quieto f2826–2868 (42 f), sale f2868–2877 (9 f); alto ≈ 100 px (9 %); «FAST» en peso fino + «LANE» en negro; el cuerpo de Nil lo tapa al pasar"
+    },
+    {
+     "t": "1:36.30",
+     "f0": 2886,
+     "f1": 3035,
+     "texto": "PIT STOP",
+     "detalle": "tumbado en perspectiva sobre el hormigón del pit lane, negro; entra f2886–2895 (9 f), quieto hasta f3027, sale f3027–3035 (8 f); 147 f (4,9 s); «Y aquí es donde hacen el cambio de ruedas»"
+    }
+   ],
+   "entrada_salida": "fundido de 4–9 f de entrada; salida por corte (intro) o fundido de 8–9 f (cuerpo)",
+   "curva": "lineal; sin rebote, sin escala",
+   "posicion": "donde está la cosa que nombra (el carril, el suelo del box, la pendiente)",
+   "tamano": "9–31 % del alto",
+   "color": "blanco #F1F1F4–#FFFFFF sobre fondo oscuro; negro sobre hormigón claro",
+   "fuente": "extendida de carreras: «24%» ultranegra cursiva; «FAST LANE» / «PIT STOP» extendida tipo Formula1 Display (Regular + Bold). Equivalente en Google Fonts: Unbounded 300/900.",
+   "sonido": "ding/blip en «FAST LANE» (1:33.72, con la franja verde); caja registradora en la cifra de dinero; el resto sin sonido confirmado",
+   "disparador": "la palabra exacta que da nombre al sitio o la cifra",
+   "duracion_f": "40–147",
+   "como_esta_hecho": "seguimiento de cámara 3D o de plano (corner pin) + recorte de la persona encima",
+   "cuando_si": "plano de operador o selfie estable con suelo o pared amplia donde apoyar el texto; un nombre técnico o una cifra que merece quedarse",
+   "cuando_no": "en selfie andando deprisa, en interiores estrechos y nunca dos a la vez; desde 1:41 no vuelve a usarse texto 3D (solo zonas de color)"
+  },
+  {
+   "tipo": "resalte de zona pegado a la escena",
+   "que_es": "Rectángulo o franja de color semitransparente que marca de qué parte del plano se habla (una puerta, un carril, un tramo de pista), en perspectiva y por detrás de la persona",
+   "total": 4,
+   "por_minuto": 0.27,
+   "ejemplos": [
+    {
+     "t": "0:41.27",
+     "f0": 1237,
+     "f1": 1274,
+     "detalle": "marco verde lima (#7CFF3A aprox.) con relleno degradado sobre la puerta del garaje; entra f1237–1242 (6 f), quieto hasta f1266, sale f1266–1274 (8 f); 37 f = 1,23 s; «en los garajes de lo que serán los boxes»; ding en 0:41.45"
+    },
+    {
+     "t": "1:33.69",
+     "f0": 2808,
+     "f1": 2880,
+     "detalle": "franja verde aditiva (#3CFF4A aprox.) sobre el carril rápido; fundido f2808–2817 (9 f), sale f2871–2880; 72 f = 2,4 s; ding/blip 1:33.72"
+    },
+    {
+     "t": "5:39.9",
+     "detalle": "franja verde que CRECE a lo largo de la recta 5:39.9–5:41.3 (1,4 s) y sale en 5:41.6: «600 metros de recta»"
+    },
+    {
+     "t": "5:41.6",
+     "detalle": "zona roja (#E0103A aprox.) sobre la curva, 5:41.6–5:43.9 con fundidos de ≈ 0,5 s: «15 metros de ancho»"
+    }
+   ],
+   "entrada_salida": "fundido de 6–15 f; la de la recta se revela creciendo (barrido de máscara de ≈ 42 f)",
+   "curva": "lineal",
+   "posicion": "sobre el objeto, en perspectiva",
+   "tamano": "el del objeto",
+   "color": "verde lima #7CFF3A / #3CFF4A = «esto de aquí», rojo #E0103A = zona de frenada",
+   "fuente": "—",
+   "sonido": "ding corto en 2 de 4 (0:41.45, 1:33.72), a ≈ −3 dB respecto a la voz",
+   "disparador": "un deíctico («esto», «aquí», «esa recta»)",
+   "duracion_f": "37–72",
+   "cuando_si": "plano abierto donde lo que se nombra es pequeño o no se distingue del resto",
+   "cuando_no": "primeros planos; cuando Nil ya lo señala con el dedo"
+  },
+  {
+   "tipo": "inserto 3D / render / mapa a pantalla completa",
+   "que_es": "Material 3D que no es del rodaje: vuelo de fotogrametría, render del circuito, maqueta-mapa de la ciudad",
+   "total": 6,
+   "por_minuto": 0.4,
+   "ejemplos": [
+    {
+     "t": "0:08.71",
+     "f0": 261,
+     "f1": 293,
+     "detalle": "vuelo 3D sobre IFEMA, 33 f, +11 %/s"
+    },
+    {
+     "t": "0:11.18",
+     "f0": 335,
+     "f1": 409,
+     "detalle": "render que se construye, 75 f"
+    },
+    {
+     "t": "0:25.83",
+     "f0": 774,
+     "f1": 836,
+     "detalle": "mapa 3D con trazado rojo, 63 f"
+    },
+    {
+     "t": "8:09.4",
+     "detalle": "mapa de accesos, 10,3 s (≈ 306 f): chinchetas «Feria de Madrid» y «Valdebebas»; barrido de cámara en 8:11.3; etiqueta «Aeropuerto · 3 km - 5 min» que se escribe letra a letra 8:12.0–8:13.7; corte + destello cálido en 8:13.8; etiquetas que caen «Centro Ciudad · 15 km - 30 min» 8:14.6–8:16.5, «Nuevos Ministerios · 12 km - 20 min» 8:16.0–8:17.9, «Atocha · 17 km - 35 min» 8:17.3–8:19.4, «Plaza Castilla · 8,9 km - 25 min» 8:18.3–8:19.6 (≈ 1,9 s cada una, solapadas ≈ 0,6 s); ding de entrada en 8:09.34"
+    },
+    {
+     "t": "11:48",
+     "detalle": "la misma maqueta, ≈ 1,5 s, sobre «rodeando todo Valdebebas»"
+    },
+    {
+     "t": "12:10.1",
+     "detalle": "render de la curva llena de público, ≈ 1,1 s, zoom +3,3 %/s"
+    }
+   ],
+   "entrada_salida": "entra por corte seco; sale con fuga de luz (4 de 6) o corte seco",
+   "curva": "movimiento de cámara virtual lineal o con frenada",
+   "posicion": "pantalla completa",
+   "tamano": "100 %",
+   "color": "maqueta blanca con verde y trazado rojo",
+   "fuente": "etiquetas del mapa en condensada negrita oscura (#2E2A30) sobre píldora clara; top-3 de fuente_rotulo.py no fiable: Figtree 600 +0,184 · DM Serif Display +0,108 · Roboto 500 +0,103 (juicio: tipo Barlow Condensed / DIN Condensed)",
+   "sonido": "ding al entrar el mapa largo (8:09.34, −3,3 dB respecto a la voz); clics en el render que brota",
+   "disparador": "«esto es…», «os pongo…», nombres de sitios que no están en plano",
+   "duracion_f": "33–306",
+   "cuando_si": "para situar (dónde está, cómo se llega) y para enseñar cómo será algo que hoy está en obras",
+   "cuando_no": "nunca más de uno por parada; el mapa largo solo una vez en el vídeo"
+  },
+  {
+   "tipo": "cifra o año sobre plano de archivo",
+   "que_es": "Número grande centrado sobre un plano que no es del día: año sobre dron antiguo, contador de velocidad sobre simulador",
+   "total": 2,
+   "por_minuto": 0.13,
+   "ejemplos": [
+    {
+     "t": "3:35.88",
+     "f0": 6470,
+     "f1": 6527,
+     "texto": "2024",
+     "detalle": "plano de dron f6440–6527 (88 f, +1,27 %/s); el texto entra con fundido f6470–6476, 30 f (1,0 s) DESPUÉS del corte; centrado (x 50 %, y 46 %), alto 120 px = 11 %; blanco con sombra dura corta; sale con la fuga de luz f6518–6535; sin sonido. fuente_rotulo.py: Inter Tight 700 +0,850 · Plus Jakarta Sans 800 +0,796 · DM Sans 900 +0,782"
+    },
+    {
+     "t": "3:43.56",
+     "f0": 6700,
+     "f1": 6789,
+     "texto": "270 → 338 (contador)",
+     "detalle": "plano de simulador a ras de asfalto, 90 f; fundido f6700–6706; cuenta 270 (f6702) → 300 (f6734) → 324 (f6766) → 338 (f6786): +1,0 por fotograma al principio y +0,7 al final (frena); gris claro #DAD9DA con aberración cromática; alto 147 px = 13,6 %; centro x 49,7 %, y 86,7 %; sale con fuga de luz. Motor/viento 3:42.8–3:46.49 que empieza 0,7 s antes del corte y se corta en seco. fuente_rotulo.py --color '#DAD9DA': Unbounded 700 +0,434 · DM Sans 700 +0,412 · Manrope 600 +0,400 (juicio: extendida tipo Eurostile Extended)"
+    }
+   ],
+   "entrada_salida": "fundido de 6 f; salida con la fuga de luz del plano",
+   "curva": "contador con frenada (ease-out)",
+   "posicion": "centro (año) o centro-abajo (contador)",
+   "tamano": "11–14 % del alto",
+   "color": "#FFFFFF / #DAD9DA",
+   "fuente": "ver ejemplos",
+   "sonido": "motor en el contador; nada en el año",
+   "disparador": "«llevan casi dos años», «la velocidad peak… 340 por hora»",
+   "duracion_f": "57–90",
+   "cuando_si": "el plano de archivo necesita fecha o magnitud para entenderse",
+   "cuando_no": "sobre planos propios"
+  },
+  {
+   "tipo": "tarjeta a pantalla completa",
+   "que_es": "Rejilla de las 11 escuderías (3 × 3 + 2) con dos pilotos y logotipo cada una, sobre fondo negro",
+   "total": 1,
+   "por_minuto": 0.07,
+   "ejemplos": [
+    {
+     "t": "0:48.75",
+     "f0": 1461,
+     "f1": 1530,
+     "detalle": "corte seco; estática 64 f con zoom +0,9 %/s; fuga de luz f1525–1530 hasta blanco total en f1531; 70 f = 2,34 s; «para las 11 escuderías con 22 corredores»"
+    }
+   ],
+   "entrada_salida": "corte seco / fuga de luz a blanco",
+   "curva": "lineal",
+   "posicion": "pantalla completa",
+   "tamano": "100 %",
+   "color": "fondo negro",
+   "fuente": "la del gráfico de origen",
+   "sonido": "sin confirmar (posible whoosh flojo en 0:48.7)",
+   "disparador": "una enumeración que no cabe en una frase",
+   "duracion_f": 70,
+   "cuando_si": "una vez, para un dato de lista",
+   "cuando_no": "no se repite en el vídeo"
+  },
+  {
+   "tipo": "cartela de dato (lower third)",
+   "que_es": "Cartela con estética de grafismo de retransmisión de F1: dos cajas negras con filete rojo, «SE ESPERAN / 120.000 PERSONAS» y «#MadridGP»",
+   "total": 1,
+   "por_minuto": 0.07,
+   "ejemplos": [
+    {
+     "t": "8:36.65",
+     "f0": 15484,
+     "f1": 15609,
+     "detalle": "f15484 paralelogramo rojo rayado + contorno; f15488–15500 caja roja con trama diagonal que barre; f15504–15512 se revela el texto línea a línea y la caja pasa de rojo a negro (f15512–15520); f15524–15536 se despliega debajo la caja «#MadridGP» y la primera sube; quieta f15540–15608; sale por corte en f15610. Montaje 52 f (1,7 s), quieta 69 f, total 126 f = 4,2 s"
+    }
+   ],
+   "entrada_salida": "barrido de máscara + cambio de color en 52 f; sale por corte",
+   "curva": "ease-out",
+   "posicion": "esquina inferior derecha: x 1455–1865, y 795–1035",
+   "tamano": "21 % del ancho × 22 % del alto",
+   "color": "negro con filete rojo (#E10600 aprox.), texto blanco",
+   "fuente": "tipo Formula1 Display. fuente_rotulo.py: «120.000 PERSONAS» → Inter 600 +0,524 · Manrope 800 +0,524 · DM Sans 700 +0,511; «#MadridGP» → Unbounded 700 +0,541 · DM Sans 900 +0,460 · Inter 800 +0,454; «SE ESPERAN» → Bodoni Moda 500 +0,160 · Libre Baskerville 400 +0,146 · Cormorant Garamond 500 +0,039 (no fiable)",
+   "sonido": "sin firma clara en el espectrograma",
+   "disparador": "«120.000 personas, eh, van a venir»",
+   "duracion_f": 126,
+   "cuando_si": "el dato redondo del vídeo, una sola vez",
+   "cuando_no": "no es un sistema: los demás datos van como subtítulo-dato"
+  },
+  {
+   "tipo": "botón de suscripción animado",
+   "que_es": "Píldora blanca con los iconos de me gusta, no me gusta, «Subscribe» y campana, con un cursor que los pulsa. En inglés aunque el vídeo es en español (plantilla).",
+   "total": 1,
+   "por_minuto": 0.07,
+   "ejemplos": [
+    {
+     "t": "12:52.7",
+     "detalle": "12:52.7 nace como una raya; 12:52.8–12:53.0 la píldora se abre en horizontal (≈ 9 f); 12:53.1–12:53.2 entran los iconos con pop; quieta hasta 12:55.2; 12:55.3 entra el cursor; 12:55.9 pulsa me gusta (pasa a azul); 12:56.5–12:56.7 pulsa «Subscribe» (rojo #CC1F36 → «Subscribed» gris); 12:57.3–12:57.5 pulsa la campana, que vibra hasta ≥ 12:58.0; total ≈ 5,5 s (≈ 165 f)"
+    }
+   ],
+   "entrada_salida": "se abre desde el centro en ≈ 9 f; salida no vista con precisión (≈ 12:58.1–12:58.3)",
+   "curva": "ease-out con pop en los iconos",
+   "posicion": "abajo al centro: x 630–1290, y 855–1014 (centro y 86,5 %)",
+   "tamano": "34 % del ancho × 15 % del alto",
+   "color": "blanco, rojo #CC1F36, azul #1A73E8 al pulsar",
+   "fuente": "la de la plantilla (tipo Roboto)",
+   "sonido": "ruido agudo sostenido 12:54.0–12:55.1 (brillo/whoosh, confirmado débil)",
+   "disparador": "«Puedes dejar un like y suscribirte si te está gustando el vídeo» (12:52), dicho de pasada en mitad de una explicación",
+   "duracion_f": 165,
+   "cuando_si": "una vez, en el 86 % del vídeo, justo después de un momento bueno",
+   "cuando_no": "ningún subtítulo ni otro texto a la vez; nunca en la intro ni en el cierre"
+  },
+  {
+   "tipo": "paquete gráfico de la promo",
+   "que_es": "Solo dentro de 4:58.2–5:38.0: barra amarilla de progreso en el borde inferior que crece hasta 5:37, tarjetas 3D («0€ COMISIONES» sobre fondo blanco, 5:08.2–5:10.2 en B/N), símbolos de divisa (5:12), notificación de móvil (5:15–5:16), lista de la aplicación (5:20–5:22), tarjeta «3,04 % TAE · 8452€» con contador (5:28), texto legal arriba y QR (5:34–5:37)",
+   "total": 8,
+   "por_minuto": "12/min dentro de la promo",
+   "ejemplos": [
+    {
+     "t": "4:58.2–5:37",
+     "detalle": "barra de progreso amarilla: le dice al espectador cuánto queda de promo"
+    },
+    {
+     "t": "5:08.2",
+     "detalle": "tarjeta 3D «0€ COMISIONES» con dos pops (5:08.6, 5:09.1)"
+    },
+    {
+     "t": "5:27.7",
+     "detalle": "tarjeta con contador y ruido de contador 5:27.7–5:29.0"
+    }
+   ],
+   "entrada_salida": "pops y deslizamientos de 4–8 f",
+   "curva": "ease-out con rebote leve (el único sitio del vídeo con rebotes)",
+   "posicion": "centro o junto a Nil",
+   "tamano": "20–60 % del alto",
+   "color": "blanco, negro y amarillo",
+   "fuente": "la de la marca",
+   "sonido": "13 efectos en 39,8 s (≈ 20/min): ding en cada punto de la lista, pops, whoosh, 2 impactos graves",
+   "disparador": "cada argumento",
+   "cuando_si": "la promo va con OTRO lenguaje (más gráfico, más sonido, subtitulada entera) para que se distinga del vídeo",
+   "cuando_no": "nada de esto sale fuera de la promo"
+  }
+ ],
+ "motion_graphics_resumen": "17 gráficos fuera de la promo (1,2/min), por minuto [6, 3, 0, 2, 0, 2, 0, 0, 2, 0, 0, 1, 1, 0, 0]: 9 en los dos primeros minutos y 8 en los 13 restantes. No hay emojis, stickers, flechas, círculos, memes, recortes de persona con borde ni interfaces de móvil fuera de la promo.",
+ "cortes": {
+  "total_visibles": 288,
+  "cortes_por_minuto": 19.3,
+  "plano_media_s": 3.09,
+  "plano_mediana_s": 2.14,
+  "p10_s": 0.83,
+  "p90_s": 6.17,
+  "plano_mas_largo": "15,38 s (6:02.46–6:17.84, Nil explicando la frenada de la curva 1 en plano de operador)",
+  "menos_de_1s": "14 %",
+  "mas_de_5s": "19 %",
+  "con_rafagas": "cortes_rafagas.json: 293 cortes, 19,7/min, mediana 2,10 s, 7 cortes de ráfaga",
+  "con_jump_cuts_ocultos": "Añadiendo los picos débiles (puntuación ≥ 5) que el detector no cuenta: 78 más → 371 cortes, 24,9/min, media 2,40 s, mediana 1,85 s, p10 0,67, p90 4,85, 20 % < 1 s, 10 % > 5 s, máximo 11,3 s. En una muestra de 32 vistos a fotograma, 25 eran jump cuts reales (78 %), 4 fugas de luz y 3 nada: la cifra prudente es ≈ 61 jump cuts ocultos → ≈ 349 cortes, 23,4/min.",
+  "por_minuto": [
+   45,
+   13,
+   18,
+   18,
+   19,
+   27,
+   18,
+   22,
+   21,
+   15,
+   16,
+   14,
+   15,
+   15,
+   17
+  ],
+  "por_minuto_con_jump_cuts": [
+   46,
+   17,
+   22,
+   22,
+   22,
+   37,
+   21,
+   27,
+   28,
+   18,
+   23,
+   20,
+   23,
+   19,
+   26
+  ],
+  "por_parte": [
+   {
+    "parte": "intro 0:00–0:39.7",
+    "cortes_min": 55.9,
+    "mediana_s": 0.77,
+    "con_jump_cuts": "57,4/min · 0,80 s · 55 % < 1 s (a mano: 31 cortes, 46,8/min, mediana 1,08 s)"
+   },
+   {
+    "parte": "boxes y pit lane 0:39.7–1:48",
+    "cortes_min": 15.8,
+    "mediana_s": 3.57,
+    "con_jump_cuts": "18,5/min · 2,77 s"
+   },
+   {
+    "parte": "salida, meta y podio 1:48–3:16",
+    "cortes_min": 16.4,
+    "mediana_s": 2.4,
+    "con_jump_cuts": "21,8/min · 1,80 s"
+   },
+   {
+    "parte": "recta y reservado 3:16–4:58",
+    "cortes_min": 19.4,
+    "mediana_s": 2.24,
+    "con_jump_cuts": "21,2/min · 2,14 s"
+   },
+   {
+    "parte": "promo 4:58–5:38",
+    "cortes_min": 33.0,
+    "mediana_s": 1.17,
+    "con_jump_cuts": "45,0/min · 0,93 s"
+   },
+   {
+    "parte": "curva 1 5:38–6:39",
+    "cortes_min": 17.7,
+    "mediana_s": 1.57,
+    "con_jump_cuts": "22,6/min · 1,59 s"
+   },
+   {
+    "parte": "Club 91 y terrazas 6:39–9:25",
+    "cortes_min": 20.6,
+    "mediana_s": 2.39,
+    "con_jump_cuts": "26,4/min · 2,00 s"
+   },
+   {
+    "parte": "grada y fan zone 9:25–10:46",
+    "cortes_min": 14.1,
+    "mediana_s": 2.89,
+    "con_jump_cuts": "19,3/min · 2,46 s"
+   },
+   {
+    "parte": "coche y arquitecta 10:46–11:57",
+    "cortes_min": 13.5,
+    "mediana_s": 2.87,
+    "con_jump_cuts": "18,5/min · 2,50 s"
+   },
+   {
+    "parte": "La Monumental y final 11:57–14:33",
+    "cortes_min": 16.5,
+    "mediana_s": 2.32,
+    "con_jump_cuts": "22,7/min · 1,98 s"
+   },
+   {
+    "parte": "cierre 14:33–14:53",
+    "cortes_min": 18.0,
+    "mediana_s": 1.07,
+    "con_jump_cuts": "33,0/min · 1,29 s"
+   }
+  ],
+  "rafagas": "Solo 3 ráfagas de ≥ 3 cortes separados ≤ 0,7 s en todo el vídeo (0,2/min): 0:04.97–0:07.44 (4 planos de 17–20 f), 0:28.46–0:29.80 (4 planos de 9–11 f) y 5:22.66–5:24.12 (4 cortes, promo). Las dos primeras son de la intro y son planos de sitios sobre la voz. En el cuerpo NO hay ráfagas.",
+  "montajes_sin_voz": "11 tramos sin voz de 2–7 s (46 s, 5,2 % del vídeo; uno cada ≈ 81 s) con 2–6 planos de 0,8–2 s y la música arriba: 0:34.4 (5,3 s, 6 planos) · 2:31 (5 s, 4) · 6:32 (7 s, 6) · 7:23 (3 s, 2) · 7:57 (5 s, 5) · 9:00 (5 s, 4) · 9:23 (2 s, 1) · 10:43 (4 s, 4) · 11:58.5 (3,2 s, 3 planos de 0,9/0,9/1,4 s) · 14:02 (5 s, 4) · 14:33.2 (5,2 s, 4). Son el único sitio donde los cortes buscan el pulso.",
+  "jump_cuts": "≈ 61–78 jump cuts dentro de la misma toma (4,1–5,2/min): uno cada 41–52 palabras. Sin fundido ni morph. Cuando la toma es de operador o trípode el salto se tapa con un cambio de escala por corte (42 en el vídeo, ver zooms); en selfie se dejan a la misma escala, porque el movimiento de la mano los disimula. No se quitan todas las pausas: quedan «eh», risas y medias frases del amigo.",
+  "j_l_cuts": "Pocos y siempre con motor o ambiente: 0:30.65 el motor entra 12 f antes del clip del videojuego; 3:42.8 el motor entra 0,7 s antes del plano del contador; 0:39.6 la voz del cuerpo entra 3 f antes del corte. La voz de Nil no se adelanta sobre otro plano más de 3–4 f.",
+  "match_cuts": "Ninguno construido. El gesto de señalar hacia atrás (0:08.3) hace de raccord con el vuelo 3D; el barrido real de cámara en 11:35.2–11:35.5 lleva de Nil a la conductora sin corte.",
+  "insertos_cortos": "Insertos de 0,3–0,7 s solo en las dos ráfagas de la intro. En el cuerpo el inserto típico dura 1,0–3,5 s (p. ej. 8:06.6 Jarama 33 f; 12:10.1 render 1,1 s; 1:13.3 pit stop 3,5 s; 11:54.5 curva 2,7 s). No hay insertos-meme ni repeticiones.",
+  "velocidad": "Todo a 100 %: 0 cámaras rápidas, 0 ralentís, 0 congelados, 0 rebobinados, 0 speed ramps.",
+  "cortes_con_acento_de_sonido": "61 de 288 = 21 %",
+  "cortes_en_pulso": "31 % (azar ≈ 30 %): no se monta a ritmo, salvo los montajes sin voz"
+ },
+ "zooms": [
+  {
+   "tipo": "zoom digital continuo de ENTRADA dentro del plano (lento, lineal y centrado)",
+   "medido": "ORB entre el primer y el último fotograma de cada plano ≥ 1,2 s (zoom_planos.py); se cuenta como zoom de edición solo si el desplazamiento es el de un escalado centrado (dx ≈ dy ≈ −0,5·(s−1)), para no confundirlo con la cámara en mano. De 273 planos ≥ 1,2 s, 109 medibles: 17 con zoom de entrada, 6 de salida, 49 fijos y 37 con movimiento de cámara real.",
+   "escala_inicial_final": "×1,00 → ×1,02…×1,20; mediana +2,3 %/s (p10 +0,9, p90 +9,3 %/s)",
+   "duracion_f": "lo que dura el plano: 36–340 f",
+   "curva": "lineal de principio a fin (empieza en el primer fotograma del plano y no frena); se corta con el plano",
+   "centro": "centro del cuadro (no sigue la cara)",
+   "disparador": "dos usos: (a) planos cortos de la intro o de montaje, rápido, +6…+8 %/s, para que nada esté quieto; (b) planos largos de charla o explicación en trípode u operador, muy lento, +0,3…+2 %/s, para sostener 5–11 s sin cortar",
+   "extras": "sin blur, sin temblor, sin sonido",
+   "total": 17,
+   "por_minuto": 1.14,
+   "ejemplos": [
+    {
+     "t": "0:03.67",
+     "detalle": "×1,067 en 1,3 s (+6,7 %/s), bienvenida"
+    },
+    {
+     "t": "0:07.44",
+     "detalle": "×1,077 en 1,27 s (+7,9 %/s), «la entrada a IFEMA»"
+    },
+    {
+     "t": "0:13.68",
+     "detalle": "×1,037 en 3,1 s (+1,27 %/s), «200 millones»"
+    },
+    {
+     "t": "0:29.80",
+     "detalle": "×1,059 (+6,3 %/s), con el trazado"
+    },
+    {
+     "t": "0:39.71",
+     "detalle": "×1,094 en 5,0 s (+2,0 %/s), primera frase del cuerpo"
+    },
+    {
+     "t": "3:29.34",
+     "detalle": "×1,16 (+11,4 %/s)"
+    },
+    {
+     "t": "6:32.19",
+     "detalle": "×1,197 (+20 %/s), primer plano del montaje sin voz"
+    },
+    {
+     "t": "9:29.60",
+     "detalle": "×1,077 en 9,7 s (+0,83 %/s), plano a dos sentados"
+    },
+    {
+     "t": "9:41.15",
+     "detalle": "×1,131 en 11,3 s (+1,19 %/s), el mismo plano tras un punch-in"
+    },
+    {
+     "t": "12:01.69",
+     "detalle": "×1,034 (+1,45 %/s), llegada a la curva"
+    },
+    {
+     "t": "14:38.7",
+     "detalle": "+0,88 %/s, plano general de la despedida"
+    }
+   ]
+  },
+  {
+   "tipo": "zoom digital continuo de SALIDA dentro del plano",
+   "medido": "igual que el anterior",
+   "escala_inicial_final": "×1,05…×1,10 → ×1,00 (se parte de ampliado); −1,5…−5,0 %/s, mediana −2,9 %/s",
+   "duracion_f": "40–185",
+   "curva": "lineal",
+   "centro": "centro",
+   "disparador": "alterna con el de entrada para no repetir sentido en planos seguidos: en la intro van entrada, entrada, SALIDA, (render), entrada, (chiste), SALIDA…; en el cuerpo, sobre charla o archivo",
+   "extras": "ninguno",
+   "total": 6,
+   "por_minuto": 0.4,
+   "ejemplos": [
+    {
+     "t": "0:09.81",
+     "detalle": "×0,955 (−4,7 %/s)"
+    },
+    {
+     "t": "0:22.56",
+     "detalle": "×0,940 (−3,5 %/s)"
+    },
+    {
+     "t": "0:32.23",
+     "detalle": "×0,908 (−5,0 %/s), «vamos allá»"
+    },
+    {
+     "t": "1:10.94",
+     "detalle": "×0,952 (−2,3 %/s); también el archivo del pit stop 1:13.3"
+    },
+    {
+     "t": "1:16.88",
+     "detalle": "×0,912 en 6,2 s (−1,5 %/s), charla en el garaje"
+    },
+    {
+     "t": "9:25.23",
+     "detalle": "×0,924 en 4,4 s (−1,9 %/s)"
+    }
+   ]
+  },
+  {
+   "tipo": "punch-in por corte (salto de escala de golpe en la misma toma)",
+   "medido": "ORB entre el fotograma f−2 y el f+1 de cada corte (escala_cortes.py, 562 candidatos)",
+   "escala_inicial_final": "×1,08…×1,32, mediana ×1,17",
+   "duracion_f": "0 (de golpe); el plano ampliado dura 1,2–11 s",
+   "curva": "corte",
+   "centro": "la cara queda algo por encima del centro",
+   "disparador": "frase que resume o pregunta directa («Así que hoy veremos…» 0:21.42 ×1,30; «¿lo pagarías?» 9:57.00 ×1,26), o tapar un jump cut",
+   "extras": "sin sonido; en 5:04.27 (promo) primerísimo plano con impacto grave",
+   "total": 20,
+   "por_minuto": 1.34,
+   "ejemplos": [
+    {
+     "t": "0:21.42",
+     "detalle": "×1,30"
+    },
+    {
+     "t": "1:07.77",
+     "detalle": "×1,08"
+    },
+    {
+     "t": "1:29.59",
+     "detalle": "×1,14"
+    },
+    {
+     "t": "1:41.37",
+     "detalle": "×1,16"
+    },
+    {
+     "t": "2:02.49",
+     "detalle": "×1,29"
+    },
+    {
+     "t": "3:04.05",
+     "detalle": "×1,18"
+    },
+    {
+     "t": "5:32.30",
+     "detalle": "×1,19"
+    },
+    {
+     "t": "5:57.49",
+     "detalle": "×1,21"
+    },
+    {
+     "t": "7:50.37",
+     "detalle": "×1,09"
+    },
+    {
+     "t": "8:32.55",
+     "detalle": "×1,32"
+    },
+    {
+     "t": "8:45.46",
+     "detalle": "×1,09"
+    },
+    {
+     "t": "9:41.15",
+     "detalle": "×1,11"
+    },
+    {
+     "t": "9:57.00",
+     "detalle": "×1,26"
+    },
+    {
+     "t": "10:18.55",
+     "detalle": "×1,12"
+    },
+    {
+     "t": "10:23.22",
+     "detalle": "×1,24"
+    },
+    {
+     "t": "11:35.46",
+     "detalle": "×1,11"
+    },
+    {
+     "t": "12:24.88",
+     "detalle": "×1,23"
+    },
+    {
+     "t": "12:50.10",
+     "detalle": "×1,15"
+    },
+    {
+     "t": "13:16.63",
+     "detalle": "×1,08"
+    },
+    {
+     "t": "14:45.35",
+     "detalle": "×1,15"
+    }
+   ]
+  },
+  {
+   "tipo": "punch-out por corte (abrir de golpe)",
+   "medido": "igual",
+   "escala_inicial_final": "×0,71…×0,92, mediana ×0,86",
+   "duracion_f": "0",
+   "curva": "corte",
+   "centro": "centro",
+   "disparador": "el chiste o el aparte: se ABRE el plano para que quepa la reacción y el subtítulo (0:16.78 ×0,71 «Que yo creo que es poco…»); o volver de un punch-in",
+   "extras": "en la intro coincide con quitar la música",
+   "total": 22,
+   "por_minuto": 1.48,
+   "ejemplos": [
+    {
+     "t": "0:16.78",
+     "detalle": "×0,71"
+    },
+    {
+     "t": "0:24.59",
+     "detalle": "×0,83"
+    },
+    {
+     "t": "0:55.05",
+     "detalle": "×0,86"
+    },
+    {
+     "t": "1:30.82",
+     "detalle": "×0,88"
+    },
+    {
+     "t": "1:42.90",
+     "detalle": "×0,87"
+    },
+    {
+     "t": "2:04.39",
+     "detalle": "×0,81"
+    },
+    {
+     "t": "2:47.30",
+     "detalle": "×0,92"
+    },
+    {
+     "t": "5:04.94",
+     "detalle": "×0,84"
+    },
+    {
+     "t": "5:14.51",
+     "detalle": "×0,91"
+    },
+    {
+     "t": "6:00.29",
+     "detalle": "×0,82"
+    },
+    {
+     "t": "6:13.27",
+     "detalle": "×0,92"
+    },
+    {
+     "t": "8:34.05",
+     "detalle": "×0,76"
+    },
+    {
+     "t": "9:19.26",
+     "detalle": "×0,86"
+    },
+    {
+     "t": "9:29.60",
+     "detalle": "×0,89"
+    },
+    {
+     "t": "9:52.46",
+     "detalle": "×0,79"
+    },
+    {
+     "t": "10:24.72",
+     "detalle": "×0,81"
+    },
+    {
+     "t": "11:06.73",
+     "detalle": "×0,92"
+    },
+    {
+     "t": "12:51.57",
+     "detalle": "×0,80"
+    },
+    {
+     "t": "13:23.87",
+     "detalle": "×0,89"
+    },
+    {
+     "t": "13:26.84",
+     "detalle": "×0,83"
+    },
+    {
+     "t": "14:46.92",
+     "detalle": "×0,87"
+    },
+    {
+     "t": "14:50.62",
+     "detalle": "×0,89"
+    }
+   ]
+  },
+  {
+   "tipo": "lo que NO hay",
+   "medido": "revisado en las hojas de detalle y en los 562 cortes",
+   "detalle": "0 snap zooms animados (entrada rápida con frenada), 0 zooms con temblor, 0 zooms al detalle ×1,6+, 0 pantallas partidas, 0 reencuadres con cámara virtual. La escala máxima vista es ×1,32. El 45 % de los planos medibles ≥ 1,2 s están fijos y el 34 % se mueven por la cámara en mano."
+  }
+ ],
+ "zooms_resumen": "Cambios de escala hechos en edición: 42 por corte (2,8/min; 15 % de los cortes visibles) + 23 animados dentro del plano (1,5/min; 21 % de los planos medibles ≥ 1,2 s). El salto por corte es moderado (mediana ×1,17 hacia dentro y ×0,86 hacia fuera) y el animado es lento y lineal.",
+ "textos": [
+  {
+   "tipo": "subtítulo de énfasis (blanco = Nil, amarillo = el otro)",
+   "texto_ejemplos": [
+    "«Que yo creo que es poco...»",
+    "«Me parece una barbaridad» (amarillo)",
+    "«¿Tú sabes lo que pesa esa m**rda?»",
+    "«Tú» (amarillo, 11:35.0)"
+   ],
+   "fuente": "Arial / Helvetica Bold Italic (juicio a ojo; equivalente libre: Arimo Bold Italic). fuente_rotulo.py no la reconoce bien por el borde: blanco --color '#FFFFFF' → Bodoni Moda 800 +0,192 · Figtree 600 +0,120 · Caveat 600 +0,120; amarillo --color '#FED100' → Space Grotesk 700 +0,474 · Montserrat 600 +0,468 · DM Sans 700 +0,461",
+   "peso": "negrita cursiva",
+   "mayusculas": "no: frase normal, con mayúscula inicial y signos (¿?, puntos suspensivos)",
+   "color": "#FFFFFF (Nil) · #FED100 (otra persona)",
+   "borde_sombra_caja": "borde negro ≈ 5 px (0,5 % del alto) + sombra corta; sin caja",
+   "tamano": "alto de línea con ascendentes y descendentes 104 px = 9,6 % del alto; altura de la x ≈ 50 px = 4,6 %",
+   "posicion": "abajo al centro, una línea: y 933–1037 (borde inferior al 96 %)",
+   "entrada": "de golpe (0 f), sin animación ni palabra resaltada",
+   "salida": "de golpe; el siguiente lo sustituye sin hueco; el último sale con el corte",
+   "duracion": "0,5–1,9 s por trozo (mediana ≈ 0,8 s); 1–5 palabras",
+   "por_minuto": "≈ 19 s de cada minuto con subtítulo (31 % del vídeo)",
+   "total": "≈ 276 s en 38 tramos",
+   "disparador": "ver «subtitulos»",
+   "sonido": "ninguno",
+   "ejemplos_con_tiempo": [
+    {
+     "t": "0:16.78–0:21.39",
+     "detalle": "5 trozos de 33, 24, 45, 18 y 19 f; el tercero amarillo"
+    },
+    {
+     "t": "1:16.9–1:27.0",
+     "detalle": "charla sobre el peso de la rueda; remate con impacto"
+    },
+    {
+     "t": "11:31.4–11:36.1",
+     "detalle": "pregunta en blanco en 3 trozos + respuesta «Tú» en amarillo 1,1 s"
+    }
+   ],
+   "recorte": "rotulos/r03_sub_blanco.png, r04_sub_amarillo.png"
+  },
+  {
+   "tipo": "subtítulo-dato (la cifra sola)",
+   "texto_ejemplos": [
+    "«500€»",
+    "«12,50€»",
+    "«7 pavazos»",
+    "«320km/h»",
+    "«0.0»"
+   ],
+   "fuente": "la misma del subtítulo, sin cursiva aparente en las cifras. fuente_rotulo.py («500€»): Inter Tight 600 +0,539 · Roboto 700 +0,536 · Archivo 600 +0,533",
+   "peso": "negrita",
+   "mayusculas": "—",
+   "color": "#FFFFFF",
+   "borde_sombra_caja": "borde negro ≈ 7 px",
+   "tamano": "61 px = 5,6 % del alto (cifras)",
+   "posicion": "abajo al centro, y ≈ 90 %",
+   "entrada": "de golpe en la sílaba de la cifra",
+   "salida": "de golpe, 0,6–1,2 s después",
+   "duracion": "0,6–1,2 s",
+   "por_minuto": "≈ 0,5",
+   "total": "≈ 8",
+   "disparador": "precio o medida dicha de pasada que conviene retener",
+   "sonido": "caja registradora en «500€» (9:32.65, −5,8 dB) y pop en «12,50€» (10:37.65, −3,7 dB): 2 de ≈ 8 llevan sonido, los dos de dinero",
+   "ejemplos_con_tiempo": [
+    {
+     "t": "9:32.65",
+     "detalle": "«500€»"
+    },
+    {
+     "t": "10:37.65",
+     "detalle": "«12,50€»"
+    },
+    {
+     "t": "10:42",
+     "detalle": "«7 pavazos»"
+    }
+   ],
+   "recorte": "rotulos/r09_sub_dato_500.png"
+  },
+  {
+   "tipo": "cifra grande cinética / detrás de la persona",
+   "texto_ejemplos": [
+    "«24%»",
+    "«200.000.000€»"
+   ],
+   "fuente": "ver intro.animaciones_explicativas (dos familias distintas: extendida ultranegra cursiva y sans redondeada negrita)",
+   "peso": "900 / 700",
+   "mayusculas": "—",
+   "color": "#F1F1F4 / #FFFFFF",
+   "borde_sombra_caja": "sin borde; sombra suave",
+   "tamano": "18,5–31 % del alto",
+   "posicion": "al lado o por encima de Nil, detrás de él",
+   "entrada": "fundido de 4 f",
+   "salida": "corte",
+   "duracion": "40–50 f",
+   "por_minuto": "solo en la intro",
+   "total": 2,
+   "disparador": "la cifra del gancho y la cifra del presupuesto",
+   "sonido": "caja registradora en la de dinero",
+   "ejemplos_con_tiempo": [
+    {
+     "t": "0:00.53"
+    },
+    {
+     "t": "0:15.12"
+    }
+   ],
+   "recorte": "rotulos/r01_24pct.png, r02_200m_izq.png, r02_200m_der.png"
+  },
+  {
+   "tipo": "nombre técnico pegado a la escena",
+   "texto_ejemplos": [
+    "«FAST LANE»",
+    "«PIT STOP»"
+   ],
+   "fuente": "extendida tipo Formula1 Display (fina + negra)",
+   "peso": "300 + 900",
+   "mayusculas": "sí",
+   "color": "blanco / negro según el fondo",
+   "borde_sombra_caja": "ninguno",
+   "tamano": "≈ 9 % del alto",
+   "posicion": "sobre la superficie que nombra",
+   "entrada": "fundido 9 f",
+   "salida": "fundido 8–9 f",
+   "duracion": "60–147 f",
+   "por_minuto": "—",
+   "total": 2,
+   "disparador": "término en inglés que se explica",
+   "sonido": "ding con la franja",
+   "ejemplos_con_tiempo": [
+    {
+     "t": "1:33.99"
+    },
+    {
+     "t": "1:36.30"
+    }
+   ],
+   "recorte": "detalle/g02_fastlane.jpg, g04_pitstop_suelo.jpg"
+  },
+  {
+   "tipo": "lo que NO hay",
+   "detalle": "0 títulos de capítulo, 0 rótulos de lugar a pantalla, 0 rótulos con el nombre de las personas (ni Saúl ni la arquitecta llevan cartela), 0 «día N», 0 cuentas atrás, 0 listas, 0 comentarios del editor, 0 texto-chiste aparte del subtítulo, 0 palabra-golpe que crece."
+  }
+ ],
+ "subtitulos": {
+  "cobertura": "≈ 276 s de 893 s = 31 % del vídeo, en 38 tramos (el detector dio 282 s en 40 tramos; se restan el botón de suscripción y la cartela de 8:37). Amarillo: ≈ 50 s = 18 % de lo subtitulado.",
+  "por_minuto_pct": [
+   33,
+   27,
+   21,
+   30,
+   29,
+   91,
+   12,
+   35,
+   13,
+   46,
+   23,
+   41,
+   19,
+   20,
+   35
+  ],
+  "que_se_subtitula": [
+   "Los diálogos con otra persona, enteros: los dos lados, cada uno en su color (0:16.8–0:22; 1:13.4–1:27; 4:34.4–4:50; 9:29.6–9:58.8; 11:07–11:34.8; 13:30–13:41.6; 14:07–14:22.6).",
+   "A la arquitecta, que habla en inglés, se la TRADUCE al español en amarillo (11:07–11:34.8).",
+   "La primera frase de una parada (0:39.8–0:44.6 «Estoy ahora mismo en los garajes…»; 5:38–5:52 curva 1).",
+   "Las cifras y precios sueltos, como subtítulo-dato.",
+   "Los remates de chiste, aunque el resto del párrafo no lleve nada.",
+   "La promo entera, a 2–3 palabras (91 % del minuto 5)."
+  ],
+  "que_no": "El monólogo explicativo largo en selfie va SIN subtítulos (p. ej. 4:00–4:34, 6:02–6:25, 13:00–13:28); tampoco se subtitula encima de un inserto, un gráfico o el botón de suscripción.",
+  "formato": "Una línea, 1–5 palabras, de golpe, 0,5–1,9 s (mediana ≈ 0,8 s), sin hueco entre trozos y sin palabra activa resaltada. Blanco = Nil; amarillo #FED100 = cualquier otra voz. Tacos tapados con asteriscos («p***a», «m**rda», «c*ñ*», «jo*ienda»). Puntos suspensivos y signos de interrogación escritos.",
+  "enfasis": "El énfasis lo da el hecho de subtitular (2 de cada 3 segundos no llevan nada) y el color del hablante; no hay cambios de tamaño ni de color por palabra.",
+  "ejemplos": "detalle/d01_0039_boxes.jpg (0:39.7–0:52), d02_0110_pitstop_charla.jpg (1:16.9–1:25.4), d03_0537_curva1.jpg (5:38–5:50), d08_1132_chiste_arquitecta.jpg (11:32–11:36), i_subs_chiste_f500_650.jpg"
+ },
+ "sfx": {
+  "como_se_confirmo": "Claude no oye. Cada efecto se ha confirmado por su firma en el espectrograma de la pista SIN voz (stems/no_vocals.wav; hojas propias detalle/e01–e19 con las marcas de corte, más sfx_hoja_00–06.jpg) y por el fotograma en el que cae. sfx.json proponía 148 candidatos (solo el 15,5 % en un corte); la mayoría eran golpes de la música o restos de voz.",
+  "confirmados": [
+   {
+    "t": "0:11.85–0:12.15",
+    "tipo": "2–3 clics/pops agudos",
+    "acompaña_a": "las gradas del render que brotan (f355–365)",
+    "respecto_voz_db": -10
+   },
+   {
+    "t": "0:15.12",
+    "tipo": "caja registradora / monedas (0,8 s)",
+    "acompaña_a": "la cifra «200.000.000€» en su fotograma de entrada (f453)",
+    "respecto_voz_db": -5
+   },
+   {
+    "t": "0:30.65",
+    "tipo": "motor de F1 (1,55 s), entra 12 f antes del corte",
+    "acompaña_a": "el clip del videojuego (f930–965)",
+    "respecto_voz_db": -6.7
+   },
+   {
+    "t": "0:34.35 · 0:35.45 · 0:36.15 · 0:36.87 · 0:38.25 · 0:39.25",
+    "tipo": "whoosh / ráfaga de aire por corte (5 claros de 6)",
+    "acompaña_a": "cada corte del montaje sin voz que cierra la intro",
+    "respecto_voz_db": "no hay voz; por debajo de la música (−13 dB)"
+   },
+   {
+    "t": "0:41.45",
+    "tipo": "ding",
+    "acompaña_a": "el resalte verde del garaje (entra f1237–1242)",
+    "respecto_voz_db": -3
+   },
+   {
+    "t": "0:56.1–0:57.6",
+    "tipo": "acorde / stinger musical",
+    "acompaña_a": "el plano general de «vamos para adentro» (cambio de espacio)",
+    "respecto_voz_db": 1
+   },
+   {
+    "t": "1:27.00",
+    "tipo": "impacto grave con cola de ≈ 1,5 s",
+    "acompaña_a": "el remate «¿Tú sabes lo que pesa esa m**rda?»",
+    "respecto_voz_db": 12
+   },
+   {
+    "t": "1:33.72",
+    "tipo": "ding / blip",
+    "acompaña_a": "la franja verde del carril rápido (f2808)",
+    "respecto_voz_db": "≈ −3"
+   },
+   {
+    "t": "3:42.8–3:46.5",
+    "tipo": "motor + viento, empieza 0,7 s antes del corte y se corta en seco",
+    "acompaña_a": "el plano de simulador con el contador de velocidad",
+    "respecto_voz_db": "≈ −6"
+   },
+   {
+    "t": "5:04.30",
+    "tipo": "impacto grave",
+    "acompaña_a": "primerísimo plano «Ya lo sabréis» (promo)",
+    "respecto_voz_db": 9
+   },
+   {
+    "t": "5:07.0 · 5:07.66",
+    "tipo": "brillo + ding",
+    "acompaña_a": "«1.» de la lista (promo)",
+    "respecto_voz_db": "≈ −4"
+   },
+   {
+    "t": "5:08.6 · 5:09.1",
+    "tipo": "2 pops",
+    "acompaña_a": "tarjeta «0€ COMISIONES» (promo)",
+    "respecto_voz_db": "≈ −4"
+   },
+   {
+    "t": "5:12.6",
+    "tipo": "whoosh",
+    "acompaña_a": "símbolos de divisas (promo)",
+    "respecto_voz_db": "≈ −6"
+   },
+   {
+    "t": "5:14.51 · 5:15.3 · 5:19.5 · 5:25.2",
+    "tipo": "4 dings",
+    "acompaña_a": "«3.», notificación de móvil, «y por último», tarjeta (promo)",
+    "respecto_voz_db": "≈ −4"
+   },
+   {
+    "t": "5:20.5 · 5:33.0 · 5:35.8",
+    "tipo": "3 clics",
+    "acompaña_a": "lista de la aplicación y QR (promo)",
+    "respecto_voz_db": "≈ −8"
+   },
+   {
+    "t": "5:27.7–5:29.0",
+    "tipo": "ruido de contador",
+    "acompaña_a": "tarjeta con cifra que cuenta (promo)",
+    "respecto_voz_db": "≈ −8"
+   },
+   {
+    "t": "5:31.35",
+    "tipo": "impacto grave",
+    "acompaña_a": "«hasta 50.000 pavos» (promo)",
+    "respecto_voz_db": 12.5
+   },
+   {
+    "t": "8:09.34",
+    "tipo": "ding",
+    "acompaña_a": "la entrada del mapa de accesos",
+    "respecto_voz_db": -3.3
+   },
+   {
+    "t": "9:32.65",
+    "tipo": "caja registradora",
+    "acompaña_a": "el subtítulo-dato «500€»",
+    "respecto_voz_db": -5.8
+   },
+   {
+    "t": "10:37.65",
+    "tipo": "pop",
+    "acompaña_a": "el subtítulo-dato «12,50€»",
+    "respecto_voz_db": -3.7
+   },
+   {
+    "t": "11:35.07",
+    "tipo": "impacto grave con cola larga",
+    "acompaña_a": "la respuesta «Tú» (subtítulo amarillo) y el barrido de cámara hacia la conductora",
+    "respecto_voz_db": 19
+   },
+   {
+    "t": "12:54.0–12:55.1",
+    "tipo": "brillo agudo sostenido",
+    "acompaña_a": "el botón de suscripción ya desplegado",
+    "respecto_voz_db": "≈ −12 (débil)"
+   }
+  ],
+  "por_minuto": {
+   "confirmados_por_minuto": [
+    10,
+    2,
+    0,
+    1,
+    0,
+    13,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0
+   ],
+   "total": 31,
+   "media": 2.1,
+   "fuera_de_la_promo": "18 en 14,2 min = 1,3/min",
+   "fuera_de_intro_y_promo": "10 en 13,6 min = 0,7/min",
+   "intro": "8 en los 39,7 s de intro (5 de ellos, los whoosh del montaje final) y 2 más antes del minuto 1",
+   "promo": "13 en 39,8 s ≈ 20/min"
+  },
+  "reglas": [
+   "Cifra de DINERO en pantalla → caja registradora a −5…−6 dB respecto a la voz, en el fotograma en que entra la cifra (2 de 2: 0:15.12, 9:32.65). Precio pequeño → pop (10:37.65).",
+   "Resalte o mapa que entra → un ding corto a ≈ −3 dB (3 de 3: 0:41.45, 1:33.72, 8:09.34). El texto 3D y las cifras sobre archivo no llevan sonido propio.",
+   "Remate de chiste → impacto grave MÁS ALTO que la voz (+12 y +19 dB; +9 y +12,5 en la promo), con cola de 1,5 s o más; 2 en el cuerpo, 2 en la promo. Solo 2 en los 14 min que no son promo.",
+   "Clip de coche (videojuego, simulador) → su motor, que entra 12–21 f ANTES del corte y se corta en seco al salir.",
+   "Whoosh por corte solo en el montaje sin voz de la intro; los otros 10 montajes sin voz no llevan whoosh.",
+   "La fuga de luz NO lleva sonido (comprobado en 11:57.18 y 0:51.1).",
+   "Los subtítulos no llevan sonido. Los cortes de escala tampoco.",
+   "Fuera de intro y promo: 0,7 efectos por minuto (10 en 13,6 min). El sonido se reserva para dinero, mapas y remates."
+  ],
+  "candidatos_descartados": [
+   "Los «redobles» de 2:29–2:36 son la batería de la música del montaje del podio.",
+   "3:37.7–3:40.4 banda de agudos = ambiente del plano del cartel de 200 m, no un efecto.",
+   "La mayoría de los 148 candidatos de sfx.json marcados «error» o «redoble» caen sobre golpes de música o consonantes de la voz que se cuelan en la pista sin voz.",
+   "8:36.65 cartela «120.000 PERSONAS»: sin firma propia en el espectrograma."
+  ]
+ },
+ "musica": {
+  "presencia": "Música en el 77 % del vídeo según audio.json (73 % midiendo la pista sin voz por encima de −36 dB). Habla en el 95 %.",
+  "voz_menos_musica_db": "mediana 14,9 dB (voz media −17,0 dB; mediana por minuto −14,8…−17,6). Por minuto: 17,4 · 16,3 · 16,4 · 13,6 · 12,6 · 17,1 · 15,0 · 15,2 · 16,2 · 16,2 · 19,9 · 29,2 · 13,2 · 19,6 · 10,4.",
+  "tramos": [
+   {
+    "desde": "0:00.2",
+    "hasta": "0:17.9",
+    "nivel_db": -34,
+    "voz_menos_musica_db": 19,
+    "nota": "colchón casi inaudible bajo la intro"
+   },
+   {
+    "desde": "0:21.4",
+    "hasta": "0:49",
+    "nivel_db": -26.6,
+    "voz_menos_musica_db": 9.8,
+    "nota": "sin voz −14,2 dB (0:34.4–0:39.7)"
+   },
+   {
+    "desde": "1:13",
+    "hasta": "2:39",
+    "nivel_db": -31.8,
+    "voz_menos_musica_db": 16.1,
+    "nota": "sin voz −19,0…−20,6 (montaje del podio 2:31–2:36)"
+   },
+   {
+    "desde": "3:15",
+    "hasta": "4:46",
+    "nivel_db": -27.9,
+    "voz_menos_musica_db": 12.5
+   },
+   {
+    "desde": "4:49",
+    "hasta": "5:59",
+    "nivel_db": -32.8,
+    "voz_menos_musica_db": 15.4,
+    "nota": "cambio de pista en 4:58 (promo)"
+   },
+   {
+    "desde": "6:18",
+    "hasta": "6:51",
+    "nivel_db": -28.9,
+    "voz_menos_musica_db": 14.3,
+    "nota": "sin voz −16,4 (6:32–6:39)"
+   },
+   {
+    "desde": "6:55",
+    "hasta": "8:51",
+    "nivel_db": -30.1,
+    "voz_menos_musica_db": 14.1,
+    "nota": "cambios de pista 7:14 y 7:48; sin voz −15,9…−19,4"
+   },
+   {
+    "desde": "8:59",
+    "hasta": "9:59",
+    "nivel_db": -31.9,
+    "voz_menos_musica_db": 14.0,
+    "nota": "sin voz −22,0…−22,7 (paisajes)"
+   },
+   {
+    "desde": "10:08",
+    "hasta": "10:17",
+    "nivel_db": -33.4,
+    "voz_menos_musica_db": 15.6
+   },
+   {
+    "desde": "10:42",
+    "hasta": "11:04",
+    "nivel_db": -32.8,
+    "voz_menos_musica_db": 17.3,
+    "nota": "entra de golpe con bombo en el corte de 10:42.8; sin voz −22,3"
+   },
+   {
+    "desde": "11:09",
+    "hasta": "11:22",
+    "nivel_db": -47.0,
+    "voz_menos_musica_db": 29.3,
+    "nota": "prácticamente fuera durante la entrevista"
+   },
+   {
+    "desde": "11:35",
+    "hasta": "11:47",
+    "nivel_db": -21.6,
+    "voz_menos_musica_db": 2.5,
+    "nota": "música-chiste tras el impacto; se corta en seco en 11:46.1"
+   },
+   {
+    "desde": "11:58",
+    "hasta": "12:21",
+    "nivel_db": -29.5,
+    "voz_menos_musica_db": 14.9,
+    "nota": "entra de golpe en 11:58.5 con el montaje de llegada; sin voz −17,9"
+   },
+   {
+    "desde": "12:27",
+    "hasta": "12:59",
+    "nivel_db": -26.1,
+    "voz_menos_musica_db": 11.0
+   },
+   {
+    "desde": "13:04",
+    "hasta": "13:12",
+    "nivel_db": -38.6,
+    "voz_menos_musica_db": 23.3
+   },
+   {
+    "desde": "13:34",
+    "hasta": "13:44",
+    "nivel_db": -31.5,
+    "voz_menos_musica_db": 15.2
+   },
+   {
+    "desde": "13:51",
+    "hasta": "14:53",
+    "nivel_db": -26.7,
+    "voz_menos_musica_db": 11.2,
+    "nota": "sin voz −17,2…−17,6; la despedida va con la música a 10,4 dB de la voz, la más alta bajo habla"
+   }
+  ],
+  "cambios_de_pista": "audio.json detecta 3 cambios de timbre (4:58, 7:14, 7:48); contando las entradas tras cada silencio hay ≈ 8–10 pistas o tramos distintos, todos del mismo género (electrónica suave y lo-fi con bombo marcado en los montajes). La música cambia por PARADA, no por emoción.",
+  "silencios_a_proposito": [
+   {
+    "t": "0:17.9–0:21.4",
+    "para_que": "chiste del dinero en la intro; vuelve de golpe con el corte"
+   },
+   {
+    "t": "0:49–1:13",
+    "para_que": "entrar al garaje y explicar, con el sonido directo"
+   },
+   {
+    "t": "2:39–3:15",
+    "para_que": "broma larga de Fernando Alonso y clip de Mónaco con su sonido"
+   },
+   {
+    "t": "5:59–6:18",
+    "para_que": "explicación técnica de la frenada (plano más largo del vídeo)"
+   },
+   {
+    "t": "10:17–10:42",
+    "para_que": "precios de la fan zone (hot dog, cerveza); la música entra con bombo en 10:42.8"
+   },
+   {
+    "t": "11:09–11:35",
+    "para_que": "entrevista en el coche: silencio hasta el impacto del chiste"
+   },
+   {
+    "t": "13:12–13:34",
+    "para_que": "selfie explicando el edificio y el césped"
+   }
+  ],
+  "silencios_resumen": "≈ 2,6 min sin música (17 %; 23 % según audio.json contando huecos menores) en 7 huecos de 3,5–36 s: siempre en charla, chiste o explicación con otra persona. Regla: la música SALE con fundido corto y VUELVE de golpe en un corte (0:21.42, 10:42.8, 11:58.5).",
+  "musica_a_ritmo_de_cortes": "No en el habla (31 % de los cortes en pulso = azar). Sí en los 11 montajes sin voz: 3 de 6 cortes a 1 f del bombo en el de la intro; planos de 0,8–2 s.",
+  "sin_voz": "En los 11 montajes sin voz la música sube a −14,2…−22,7 dB (media −18,1): entre 9 y 17 dB más alta que bajo la voz. La más alta es la de la intro (−14,2).",
+  "sonido_directo": "Se conserva siempre el directo (obras, viento, el coche). En los insertos de archivo se deja su sonido (TV del pit stop 1:13.3, clip de Mónaco 2:47) por debajo de la voz.",
+  "lufs": "−12,8 LUFS integrados, LRA 4,9 LU, pico real −2,0 dBTP",
+  "acentos_por_minuto": 22.4
+ },
+ "broll": {
+  "proporcion": "≈ 157 s de planos que no son la persona hablando = 17,6 % del vídeo: 46 s en montajes sin voz (5,2 %) + ≈ 111 s de insertos sobre la voz (12,4 %). Por minuto (s): 22 · 4 · 21 · 11,5 · 4 · 14,5 · 11 · 11,5 · 11,4 · 8,5 · 4 · 6 · 11 · 5,5 · 11,7.",
+  "de_donde_sale": "Del mismo rodaje (planos fijos del sitio hechos por el operador, vistas desde el coche) y 21 insertos que no son del momento (1,4/min): vuelo 3D de IFEMA, render ×2, maqueta-mapa ×3, videojuego o simulador ×4 (0:31.0, 3:43.5, 3:54–3:58, 5:54, 6:20), rejilla de escuderías, retransmisión del pit stop (1:13.3, 3,5 s), piloto en el photocall (2:38), clip propio de Mónaco con Alonso (2:47–2:57), dron de 2024 (3:34.9), aéreo del Jarama (8:06.6, 33 f), coche en la curva (11:54.5, 2,7 s), flashbacks propios de primera hora ×2 (12:16, 13:46), mini-tráiler de la Sagrada Familia (12:34.4–12:39.9: 4 clips de 0,8 / 2,6 / 1,5 / 0,7 s, con foto en B/N viñeteada y contador «172,5 M») y foto de Alonso entrenando el cuello (13:57.4, ≈ 2 s).",
+  "duracion_tipica": "inserto sobre la voz 1,0–3,5 s (mediana ≈ 1,5 s); solo 3 pasan de 5 s (mapa de accesos 10,3 s, clip de Mónaco ≈ 10 s, Sagrada Familia 5,5 s)",
+  "disparador": "se nombra algo que no está delante: un sitio («el Jarama»), una persona («Fernando»), un dato visualizable («1,8 segundos», «340 por hora»), el pasado («hace dos años»), el futuro («cuando esté lleno»), o algo ya visto («la curva de antes»)",
+  "vuelta_a_camara": "al mismo plano y a la misma escala del que se salió; con fuga de luz si el inserto era ajeno (9 de 21), por corte seco si era del propio rodaje",
+  "que_no": "No se tapa con b-roll un chiste ni una reacción: los 7,7 s de 11:38.3–11:46.0 van en un solo plano sin cortes. En el minuto 4 (monólogo del reservado) solo hay 4 s de insertos: es el valle del vídeo."
+ },
+ "voz_en_off": "No hay voz en off grabada aparte. El 95 % del metraje es Nil hablando en directo, a cámara o a su amigo; cuando hay inserto, la voz que suena es la del plano anterior, que sigue. Solo la promo (4:58.2–5:38.0) está grabada en otro sitio y otro día («soy el Nil del futuro») y también es a cámara. Mezcla: voz −16 dB de mediana, sin música o con la música 15 dB por debajo.",
+ "transiciones": [
+  {
+   "tipo": "fuga de luz cálida (destello rosa-naranja)",
+   "duracion_f": "≈ 16 (6–10 f lavándose antes del corte + 4–8 f sobre el plano siguiente); en la intro, más corta: ≈ 7 f",
+   "total": 9,
+   "donde": [
+    "0:09.7 (del vuelo 3D a Nil)",
+    "0:13.5 (del render a Nil)",
+    "0:51.1 (de la rejilla, hasta blanco total)",
+    "3:37.7 (del dron de 2024)",
+    "3:46.5 (del contador)",
+    "3:58.1 (del simulador)",
+    "8:07.7 (del Jarama)",
+    "11:57.2 (del inserto de la curva, hasta blanco)",
+    "12:40.0 (de la Sagrada Familia)"
+   ],
+   "regla": "SIEMPRE al SALIR de un inserto ajeno (archivo, render, gráfico a pantalla completa) de vuelta a Nil; la ENTRADA al inserto es corte seco. No se usa para cambiar de lugar ni entre planos propios.",
+   "sonido": "ninguno"
+  },
+  {
+   "tipo": "destello dentro de un gráfico",
+   "duracion_f": "≈ 6",
+   "total": 1,
+   "donde": [
+    "8:13.8 (corte dentro del mapa de accesos)"
+   ],
+   "regla": "tapa el salto de cámara de la maqueta",
+   "sonido": "ninguno"
+  },
+  {
+   "tipo": "barrido de cámara real",
+   "duracion_f": "≈ 10",
+   "total": 1,
+   "donde": [
+    "11:35.2–11:35.5, de Nil a la conductora, con el impacto"
+   ],
+   "regla": "hecho en rodaje, no en edición",
+   "sonido": "impacto grave"
+  },
+  {
+   "tipo": "corte seco",
+   "duracion_f": 0,
+   "total": "277 de 288 (96 %)",
+   "donde": [
+    "todo lo demás, incluidos los cambios de zona"
+   ],
+   "regla": "el cambio de zona se hace con corte seco a un montaje sin voz con música, no con una transición",
+   "sonido": "—"
+  }
+ ],
+ "transiciones_resumen": "11 transiciones construidas en 14:53 (0,7/min; 4 % de los cortes). 0 fundidos a negro, 0 encadenados entre planos, 0 whips de edición, 0 glitch, 0 apartes en blanco y negro (el B/N solo aparece en un gráfico de la promo y en la foto antigua de 12:35).",
+ "cierre": {
+  "como_acaba": "14:28.4 pregunta al amigo («¿Qué opinas del tour de hoy?»); 14:33.2–14:38.4 montaje de 4 paisajes sin voz (≈ 1,3 s cada uno) con la música arriba (−17,2 dB); 14:38.5–14:41.9 plano general de operador con zoom +0,88 %/s; 14:42.0–14:52.3 plano medio por corte de escala, despedida («…nos vemos a la próxima… adiós»), saluda en 14:48 y 14:52; en 14:52.3 la MANO tapa el objetivo y el vídeo acaba en 14:53.2.",
+  "duracion_s": 20,
+  "cta": "Ninguno en el cierre. El único CTA es el de «like y suscribirte» en 12:52 (86 % del vídeo), dicho de pasada con el botón animado 5,5 s. No remite a otro vídeo, ni a redes, ni a merch.",
+  "pantalla_final": "No hay: 0 s. Ni tarjetas, ni fondo, ni música que se alargue: los últimos 0,9 s son la mano sobre la lente.",
+  "musica": "la misma pista desde 13:51, a 10,4 dB de la voz, se corta con el vídeo"
+ },
+ "para_el_estilo": [
+  "INTRO EXPLICATIVA en vez de tráiler de lo mejor (CONTEXTO §2.1: abrir con 22–27 s de tráiler): hablar a cámara desde el fotograma 0 en el sitio más llamativo; 30–35 s; una ilustración cada 3,5–4 s que entra a ± 2 f de la palabra que la nombra; al final «vamos allá» + 5 s de 6 planos en movimiento de 15–40 f sin voz con la música a nivel de voz. Sin cabecera, sin título, sin logo.",
+  "Orden de la intro explicativa: gancho superlativo (≤ 3,7 s) → promesa («tour privado de…») con 4 planos de 17–20 f → dónde (inserto 3D, 33 f) → qué (render, 75 f) → cuánto (cifra detrás de la cabeza, 50 f, con caja registradora) → chiste subtitulado sin música (4,6 s) → la pregunta del vídeo → mapa (63 f) → recorrido con 4 planos de 9–11 f → cifras del recorrido con silueta e inserto → «vamos allá».",
+  "ZOOM LENTO sostenido SÍ (CONTEXTO, receta 5, dice que ninguna referencia lo usa): zoom digital lineal y centrado durante todo el plano en el 21 % de los planos de ≥ 1,2 s. Plano corto (≤ 1,5 s) de intro o montaje: +6…+8 %/s. Plano largo (5–11 s) de charla en trípode: +0,3…+2 %/s. De salida: −1,5…−5 %/s. Alternar sentido; no más de 2 seguidos hacia dentro.",
+  "PUNCH MODERADO: saltos de escala por corte ×1,08–1,32 (mediana ×1,17) y de vuelta ×0,71–0,92; 2,8 por minuto. No hay punch fuerte ×1,6–1,75 ni zoom rápido con frenada (CONTEXTO, recetas 2 y 4): la escala máxima es ×1,32.",
+  "Para el chiste se ABRE el plano (punch-out ×0,71–0,86), se quita la música y se subtitula; no se cierra.",
+  "SUBTÍTULOS DE ÉNFASIS en el 31 % del vídeo (CONTEXTO §2.6: solo puntuales): diálogos con otra persona enteros, primera frase de cada parada, cifras y remates. Blanco para el creador, amarillo #FED100 para cualquier otra voz; negrita cursiva, borde negro de 5 px, 9,6 % del alto de línea, una línea abajo, 1–5 palabras, de golpe, 0,5–1,9 s. El monólogo explicativo va sin subtítulo. A quien habla en otro idioma se le traduce en amarillo.",
+  "LUGAR SIN RÓTULO: ninguna chincheta ni píldora de lugar (CONTEXTO: chincheta + píldora 3–3,5 s). El nombre va (a) dicho en la primera frase de la parada, subtitulada, (b) pegado a la escena en 3D si es un término («FAST LANE», 60 f, 9 % del alto), o (c) dentro del mapa.",
+  "LLEGADA A CADA PARADA = corte seco a un montaje sin voz de 2–7 s (2–6 planos fijos de 0,8–2 s del sitio nuevo) con la música 9–17 dB más alta, y después la frase «Estamos en…». Uno cada ≈ 81 s. No se enseñan los trayectos a pie.",
+  "RESALTE DE ZONA: franja o marco de color semitransparente pegado al suelo o a la pared (verde #3CFF4A–#7CFF3A, rojo #E0103A), fundido de 6–15 f, 1,2–2,4 s, con ding a −3 dB, cuando dice «esto de aquí» en un plano abierto.",
+  "CIFRAS GRANDES detrás de la persona (máscara), 18–31 % del alto, fundido de 4 f, sin rebote, salida por corte.",
+  "FUGA DE LUZ cálida de ≈ 16 f solo al volver de un inserto ajeno (9 veces); la entrada al inserto es corte seco.",
+  "MAPA: una vez corto en la intro (2,1 s) y una vez largo (10,3 s) cuando se habla de cómo llegar, con etiquetas «Lugar · distancia - tiempo» que caen cada ≈ 1,3 s, duran ≈ 1,9 s y se solapan 0,6 s. (El aspecto de maqueta blanca es material ajeno: para Lucas sigue mandando el mapa de satélite de la base; lo copiable es la cadencia de las etiquetas.)",
+  "EFECTOS: 0,7 por minuto fuera de intro y promo. Caja registradora en cifras de dinero (−5 dB), ding en mapa y resaltes (−3 dB), impacto grave más alto que la voz (+12…+19 dB) en 1 remate cada ≈ 7 min.",
+  "MÚSICA: cama a 15 dB bajo la voz, cambia por parada; fuera en 7 huecos de 3,5–36 s (17 % del vídeo) para charlas y chistes; vuelve DE GOLPE en un corte.",
+  "CTA con botón animado abajo al centro (34 % × 15 % de pantalla, 5,5 s), sin ningún otro texto a la vez, en el 86 % del vídeo. Cierre de 20 s SIN pantalla final (CONTEXTO §2.7: pantalla final de 8–15 s): 4 paisajes, despedida y mano al objetivo.",
+  "PROMO con otro lenguaje: 45 cortes/min, subtitulada entera, barra de progreso amarilla abajo, 20 efectos/min; anunciada como tal («Momento promo») en el 33 % del vídeo.",
+  "NO SE HEREDA de CONTEXTO: el tráiler en frío de lo mejor, la cabecera o título, los capítulos con número, la chincheta de lugar, el punch fuerte ×1,6+, el zoom rápido con frenada, los insertos-chiste de 0,5–1,5 s, el aparte en B/N, la palabra-golpe que crece, el pop 80 → 106 → 100 % de los textos (aquí entran con fundido de 4–9 f o de golpe) y la pantalla final."
+ ],
+ "para_la_base": [
+  "Un gráfico entra entre 2 f antes y 2 f después del inicio de la palabra que lo nombra (medido en 8 de 8 en la intro); nunca antes de la frase.",
+  "Un plano de alguien hablando no pasa de ≈ 2,1 s en la intro sin un corte, un gráfico o un subtítulo nuevo.",
+  "Chiste = quitar la música 1–3 s antes del remate + subtítulo del remate + (opcional) impacto grave en la respuesta + música de vuelta de golpe en el corte siguiente. La reacción se sostiene en UN plano (7,7 s en 11:38.3) sin cortes ni zoom.",
+  "Color de subtítulo por hablante (blanco el creador, amarillo el otro) y traducción al idioma del vídeo cuando el otro habla otra lengua.",
+  "Cifra de dinero → sonido de caja registradora a −5 dB respecto a la voz en el fotograma de entrada.",
+  "Clip de archivo con sonido propio (motor, tele) → adelantar su audio 12–21 f (J-cut) y cortarlo en seco al salir.",
+  "La transición construida se reserva para la vuelta de un inserto ajeno; los cambios de lugar van por corte seco a un montaje.",
+  "Ningún texto a la vez que el botón de suscripción; botón abajo al centro (coincide con la regla que ya tiene Lucas).",
+  "Los montajes sin voz son el único sitio donde se corta al pulso; con voz se corta a la palabra.",
+  "El salto de escala por corte (≥ ×1,08 o ≤ ×0,92) tapa el jump cut en tomas de operador o trípode: 42 en el vídeo; en selfie se dejan 61–78 jump cuts a la misma escala.",
+  "Nada de cámara rápida, ralentí ni congelados para dar ritmo: 0 en 14:53."
+ ],
+ "para_el_motor": {
+  "ESCALAS": [
+   1.0,
+   1.17,
+   1.0,
+   1.3,
+   1.0,
+   1.1,
+   1.0,
+   1.24
+  ],
+  "ESCALAS_nota": "punch-in medidos ×1,08–1,32 (mediana ×1,17; p25 ≈ 1,10, p75 ≈ 1,24); siempre se vuelve a ×1,0 por corte (punch-out mediana ×0,86 ≈ 1/1,17)",
+  "CAMBIO_CADA": [
+   1.85,
+   4.85
+  ],
+  "CAMBIO_CADA_nota": "mediana y p90 de plano contando jump cuts; sin contarlos, 2,14 y 6,17 s",
+  "Z_FUERTE": 1.3,
+  "Z_FUERTE_nota": "el mayor salto del vídeo es ×1,32 (8:32.55) y ×1,30 (0:21.42); no hay punch ×1,6+",
+  "Z_SIN_CARA": 1.0,
+  "CARA_Y": null,
+  "CARA_Y_nota": "no medido con detector; a ojo la cara queda entre el 35 y el 42 % del alto tras el punch",
+  "ZOOM_LENTO": {
+   "activo": true,
+   "proporcion_de_planos": 0.21,
+   "corto_pct_por_s": [
+    6,
+    8
+   ],
+   "largo_pct_por_s": [
+    0.3,
+    2.0
+   ],
+   "salida_pct_por_s": [
+    -5.0,
+    -1.5
+   ],
+   "curva": "lineal",
+   "centro": "centro del cuadro",
+   "min_plano_s": 1.2
+  },
+  "ZOOM_LENTO_nota": "no existe en ajustes.py; es lo que distingue a este vídeo. En la intro: 7 de 12 planos hablando",
+  "TEXTO_ENTRADA_F": 4,
+  "TEXTO_ENTRADA_nota": "fundido de 4 f en cifras de intro, 6–9 f en texto 3D y resaltes; sin pop ni rebote; salida por corte",
+  "SUBTITULOS": {
+   "cobertura": 0.31,
+   "color_creador": "#FFFFFF",
+   "color_otro": "#FED100",
+   "fuente": "Arimo Bold Italic (≈ Arial Bold Italic)",
+   "borde_px_1080": 5,
+   "alto_linea_pct": 9.6,
+   "y_base_pct": 96,
+   "palabras": [
+    1,
+    5
+   ],
+   "duracion_s": [
+    0.5,
+    1.9
+   ]
+  },
+  "TRANSICION_INSERTO": {
+   "tipo": "fuga de luz cálida",
+   "duracion_f": 16,
+   "antes_f": 8,
+   "despues_f": 6,
+   "solo_a_la_salida": true
+  },
+  "SFX": {
+   "titulo": null,
+   "seccion": null,
+   "trk": {
+    "tipo": "ding",
+    "respecto_voz_db": -3
+   },
+   "mapa": {
+    "tipo": "ding",
+    "respecto_voz_db": -3.3
+   },
+   "suscribe": {
+    "tipo": "brillo agudo sostenido 1,1 s",
+    "respecto_voz_db": -12
+   },
+   "dato": {
+    "tipo": "caja registradora (solo dinero); pop en precio pequeño",
+    "respecto_voz_db": -5
+   },
+   "golpe": {
+    "tipo": "impacto grave con cola ≥ 1,5 s",
+    "respecto_voz_db": [
+     12,
+     19
+    ]
+   }
+  },
+  "SFX_nota": "titulo y seccion a null: no hay título ni capítulos. Tope fuera de intro y promo: 0,7/min",
+  "MUSICA_NIVELES": {
+   "BASE": -31,
+   "TRAILER": -34,
+   "TITULO": null,
+   "SECCION": -18,
+   "MAPA": -30,
+   "SINVOZ": -17.5,
+   "CIERRE": -26.7
+  },
+  "MUSICA_NIVELES_nota": "valores absolutos del máster con la voz a −16 dB de mediana; al pasarlos al motor hay que conservar la DIFERENCIA con la voz: BASE 15 dB por debajo, TRAILER (bajo la voz de la intro) 19 dB por debajo hasta el chiste y 10 dB después, SECCION y SINVOZ (montajes de llegada) entre 1 dB por encima y 7 dB por debajo de la voz (intro −14,2; media −18,1), MAPA sin subida (30 dB = como BASE), CIERRE 10,4 dB por debajo",
+  "MUSICA_FUERA": "7 huecos de 3,5–36 s (17 % del vídeo) en charlas y chistes; vuelta de golpe en corte",
+  "LUFS": -12.8,
+  "LUFS_nota": "LRA 4,9 LU, pico real −2,0 dBTP; la base usa −14",
+  "RITMO_OBJETIVO": {
+   "mediana_plano_s": [
+    1.85,
+    2.14
+   ],
+   "cortes_por_minuto": [
+    19,
+    25
+   ],
+   "menos_de_1s_pct": [
+    14,
+    20
+   ],
+   "intro_cortes_por_minuto": 47,
+   "intro_mediana_s": 1.08,
+   "montaje_sin_voz_cada_s": 81,
+   "insertos_ajenos_por_minuto": 1.4,
+   "graficos_por_minuto": 1.2
+  }
+ },
+ "dudas": [
+  "Sonido del «24%» (ticks agudos entre 1,00 y 1,55 s): no se distinguen de la voz en el espectrograma; sin confirmar.",
+  "Punto tonal en 0:09.68 (salida del vuelo 3D), posible whoosh flojo en 0:48.7 (rejilla de escuderías), bloque de ruido 0:37.4–0:38.1 y líneas tonales 1:35–1:37 con «PIT STOP»: candidatos sin confirmar.",
+  "Candidatos de sfx.json que no se han mirado: 3:08.85 (¿whoosh?), 7:21.5 («risas»), 7:56.98 (+16,8 dB, coincide con el arranque de un montaje sin voz: probablemente música), 9:06 (¿whoosh?).",
+  "El vuelo sobre IFEMA, el render que se construye y la maqueta-mapa (0:25.83, 8:09.4, 11:48) parecen material ajeno (visor 3D de mapas y vídeo promocional del circuito), no animaciones del editor; las etiquetas de distancia del mapa de 8:09 podrían venir ya en ese vídeo. No se ha podido comprobar la fuente.",
+  "Origen por minuto de los 16 planos de recurso de la intro: deducido por vestuario y lugar (chaleco amarillo → naranja → casco), no casado plano a plano con el cuerpo.",
+  "Fuentes: fuente_rotulo.py no reconoce ni el «24%» (puntuaciones negativas) ni el subtítulo en cursiva con borde (≤ +0,19 en blanco); Arial Bold Italic y la extendida de carreras son juicio a ojo.",
+  "Jump cuts ocultos: 78 candidatos por puntuación ≥ 5, de los que en una muestra de 32 eran reales 25 (78 %); el total real está entre 61 y 78.",
+  "Recuento de gráficos por minuto (17 fuera de la promo) y de subtítulos-dato (≈ 8): hecho sobre las hojas de contacto, puede variar en ± 1–2.",
+  "Salida exacta del botón de suscripción: sigue en 12:58.0; no se ha visto el fotograma en que desaparece.",
+  "La transcripción automática pone «Aquí» en 11:35; en pantalla el subtítulo dice «Tú». Y no recoge la frase del operador «Me parece una barbaridad» (0:18.7).",
+  "CARA_Y no medida con el detector de caras.",
+  "Los niveles «respecto a la voz» marcados con ≈ están leídos del espectrograma, no calculados."
+ ]
+}
