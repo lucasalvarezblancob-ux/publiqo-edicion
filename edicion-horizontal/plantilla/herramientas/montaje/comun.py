@@ -287,6 +287,13 @@ def caja_texto(it, f=None):
         return [(x0, y0, x0 + w, y0 + h)]
     if t in ("lista", "vidas"):      # Juego.tsx: en una esquina (MARGEN 0,045 del alto)
         e = it.get("esquina", {"lista": "ii", "vidas": "ii"}[t]); m = 0.045
+        if t == "lista" and it.get("estilo") != "panel":      # tarjeta de Notas (Juego.tsx Lista): 3 % izq., 4,9 % abajo
+            k = it.get("escala", 1); its = it.get("items", [])
+            w = 0.197 * k; h = max(0.365 * k, 0.03 * k + (0.035 * k * 1.25 if it.get("titulo") else 0) + 0.044 * k * (len(its) + 0.6) + 0.074 * k)
+            n = max([len(str(x)) for x in its] + [1]); dentro = (0.03 * 2 + 0.03 + 0.017) * k * H / W + n * 0.023 * k * 0.5 * H / W
+            if dentro > w: print(f"AVISO LISTA: la fila más larga ({n} letras) no cabe en la tarjeta: acórtala o baja «escala»")
+            x0 = 0.03 if e[1] == "i" else 0.97 - w; y0 = 0.049 if e[0] == "s" else 0.951 - h
+            return [(x0, y0, x0 + w, y0 + h)]
         if t == "lista":
             fs = it.get("alto", 0.03); its = it.get("items", []); n = max([len(str(x)) for x in its] + [len(s("titulo")) * 1.6, 4])
             w = (n * fs * 0.55 + fs * 1.6 + fs * 1.6) * H / W; h = fs * (1.35 * len(its) + 1.2 + (1.3 if it.get("titulo") else 0))

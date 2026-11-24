@@ -25,7 +25,7 @@ JUEGO Y RITMO (Juego.tsx / dinamica.py; estilos reto y vlog, pero valen en cualq
   DESTELLOS  destello de paso: [(ancla, {f: 6, sube: 0, color: "white", nivel: 1})]   (vlog 2 f; misión: verde, sube 4, f 18)
   MARCADORES cifra fija en esquina: [(ancla, segundos, hasta, {desde, dur_f: 12 (0 = salto seco), etiqueta, esquina: "si"})]
   BARRAS     progreso: [(ancla, segundos, {desde: 5, hasta: 90, dur_f: 65, izq: "Iquitos", der, y: 0.1})]
-  LISTAS     casillas: [(ancla, segundos, ["paso 1", ...], {hechas: [0], marca: {1: 40}, titulo, tachar, esquina: "ii"})]
+  LISTAS     tarjeta de Notas del iPhone (JJW): [(ancla, segundos, ["Tenis 🎾", ...], {titulo, hechas: [0], marca: {1: 40}, tachar, esquina: "ii", escala: 1})]; estilo "panel" = la antigua
   VIDAS      corazones: [(ancla, segundos, {total: 3, quedan: 3, pierde_en: 20, etiqueta: "RULES BROKEN"})]
   ELIMINADOS X roja: [(ancla, segundos, {x: 0.5, y: 0.5, tam: 0.42})]
   VAIVENES   zoom de vaivén sobre quien remata (Plex 2025): [(ancla, {z: 1.26, ent: 8, aguanta: 35, sal: 8})], ~1/min

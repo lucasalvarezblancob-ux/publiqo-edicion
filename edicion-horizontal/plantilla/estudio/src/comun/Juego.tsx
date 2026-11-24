@@ -74,28 +74,67 @@ export const Barra: React.FC<{ f: number; it: Item }> = ({ f, it }) => {
   );
 };
 
-// LISTA con casillas (Jesse James West: abajo a la izquierda, 19,7 % × 36,5 %, entra muda por corte; la casilla se
-// rellena en 1 f en su frase, con un «ding» en "snd"; Rubén: misiones que se tachan). `items`: textos; `hechas`: índices
-// ya marcados al entrar; `marca`: {índice: fotograma (desde el inicio de la pieza) en que se marca}.
-export const Lista: React.FC<{ f: number; it: Item }> = ({ f, it }) => {
+// LISTA = TARJETA DE NOTAS DEL IPHONE (Jesse James West, Rhea 4:56–5:06; Lucas, banco 2026-11-24: «tal cual como la
+// referencia, que es como las notas del iPhone, no una lista cutre»). Colores y letra FIJOS (no los del creador), medidos
+// a 1080 en el original: tarjeta blanca abajo a la izquierda (19,7 % × 36,5 %, margen 3 % izq. y 4,9 % abajo, radio 2,6 %
+// del alto, bisel claro por dentro abajo y a la derecha, sombra suave abajo a la derecha, aire bajo la última fila); título
+// Inter 700 #3C3C3C al 3,5 %; filas Inter 400 #3C3C3C al 2,3 %, cada 4,4 %, con su emoji al final; casillas REDONDAS del
+// 3 %: aro #C8C8C8 sin marcar, círculo #E5B00F con ✓ blanca fina marcada. Entra de golpe y muda; la casilla se llena en 1 f
+// (ding en su `marca`); sale sola en 4 f: se desenfoca, cae ~40 % de su alto y se funde. Cruza cortes.
+// `items`: textos (emoji incluido); `hechas`: índices ya marcados al entrar; `marca`: {índice: fotograma de la pieza};
+// `titulo`; `tachar`. estilo:"panel" = la de antes (panel oscuro, casillas cuadradas en el acento).
+export const Lista: React.FC<{ f: number; dur: number; it: Item }> = ({ f, dur, it }) => {
   const { height: H, width: W } = useVideoConfig();
-  const fs = H * (it.alto ?? 0.03), lado = fs * 1.05;
   const hechas = new Set<number>(it.hechas ?? []);
   Object.entries(it.marca ?? {}).forEach(([i, fr]) => { if (f >= Number(fr)) hechas.add(Number(i)); });
+  if (it.estilo === "panel") {
+    const fs = H * (it.alto ?? 0.03), lado = fs * 1.05;
+    return (
+      <AbsoluteFill>
+        <div style={{ ...esquina(it.esquina ?? "ii", W, H), ...caja, padding: `${fs * 0.6}px ${fs * 0.8}px` }}>
+          {it.titulo ? <div style={{ fontFamily: F_ANCHA, fontWeight: 900, fontSize: fs * 0.9, color: it.color ?? ACENTO, marginBottom: fs * 0.4 }}>{it.titulo}</div> : null}
+          {(it.items ?? []).map((t: string, i: number) => (
+            <div key={i} style={{ display: "flex", alignItems: "center", gap: fs * 0.5, marginTop: i ? fs * 0.35 : 0 }}>
+              <div style={{ width: lado, height: lado, border: `${H * 0.0035}px solid white`, borderRadius: 4, background: hechas.has(i) ? (it.color ?? ACENTO) : "transparent", display: "flex", alignItems: "center", justifyContent: "center" }}>
+                {hechas.has(i) ? <svg viewBox="0 0 100 100" width={lado * 0.72} height={lado * 0.72}><path d="M16 54 L40 76 L86 24" fill="none" stroke="#000" strokeWidth={16} strokeLinecap="round" strokeLinejoin="round" /></svg> : null}
+              </div>
+              <div style={{ fontFamily: F_TXT, fontWeight: 600, fontSize: fs, color: "white", textDecoration: hechas.has(i) && it.tachar ? "line-through" : "none", opacity: hechas.has(i) && it.tachar ? 0.7 : 1 }}>{t}</div>
+            </div>
+          ))}
+        </div>
+      </AbsoluteFill>
+    );
+  }
+  const k = it.escala ?? 1, fam = fuente(it.fuente ?? "Inter", F_TXT), gris = "#3C3C3C";
+  const items: string[] = it.items ?? [];
+  const tit = H * 0.035 * k, fila = H * 0.023 * k, paso = H * 0.044 * k, circ = H * 0.03 * k, pad = H * 0.03 * k;
+  const ancho = W * 0.197 * k, alto = Math.max(H * 0.365 * k, pad + (it.titulo ? tit * 1.25 : 0) + paso * (items.length + 0.6) + H * 0.074 * k);
+  const fuera = interpolate(f, [dur - 4, dur], [0, 1], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });      // salida en 4 f
+  const esq = it.esquina ?? "ii";
+  const pos: React.CSSProperties = { position: "absolute", width: ancho, height: alto, background: "#FFFFFF", borderRadius: H * 0.026 * k, overflow: "hidden",
+    boxShadow: `inset ${-H * 0.004 * k}px ${-H * 0.005 * k}px 0 rgba(0,0,0,.07), ${H * 0.006}px ${H * 0.01}px ${H * 0.03}px rgba(0,0,0,.35)`,
+    opacity: 1 - fuera, filter: fuera > 0 ? `blur(${fuera * H * 0.008}px)` : undefined, transform: `translateY(${fuera * alto * 0.4}px)` };
+  if (esq[1] === "i") pos.left = W * 0.03; else pos.right = W * 0.03;
+  if (esq[0] === "s") pos.top = H * 0.049; else pos.bottom = H * 0.049;
   return (
     <AbsoluteFill>
-      <div style={{ ...esquina(it.esquina ?? "ii", W, H), ...caja, padding: `${fs * 0.6}px ${fs * 0.8}px` }}>
-        {it.titulo ? <div style={{ fontFamily: F_ANCHA, fontWeight: 900, fontSize: fs * 0.9, color: it.color ?? ACENTO, marginBottom: fs * 0.4 }}>{it.titulo}</div> : null}
-        {(it.items ?? []).map((t: string, i: number) => (
-          <div key={i} style={{ display: "flex", alignItems: "center", gap: fs * 0.5, marginTop: i ? fs * 0.35 : 0 }}>
-            <div style={{ width: lado, height: lado, border: `${H * 0.0035}px solid white`, borderRadius: 4, background: hechas.has(i) ? (it.color ?? ACENTO) : "transparent",
-              display: "flex", alignItems: "center", justifyContent: "center" }}>
-              {/* ✓ dibujada (SVG) y centrada en su casilla: el carácter «✓» salía descentrado (revisión del banco) */}
-              {hechas.has(i) ? <svg viewBox="0 0 100 100" width={lado * 0.72} height={lado * 0.72}><path d="M16 54 L40 76 L86 24" fill="none" stroke="#000" strokeWidth={16} strokeLinecap="round" strokeLinejoin="round" /></svg> : null}
-            </div>
-            <div style={{ fontFamily: F_TXT, fontWeight: 600, fontSize: fs, color: "white", textDecoration: hechas.has(i) && it.tachar ? "line-through" : "none", opacity: hechas.has(i) && it.tachar ? 0.7 : 1 }}>{t}</div>
-          </div>
-        ))}
+      <div style={pos}>
+        <div style={{ position: "absolute", left: pad, right: pad, top: pad }}>
+          {it.titulo ? <div style={{ fontFamily: fam, fontWeight: 700, fontSize: tit, lineHeight: 1, color: gris, marginBottom: paso - circ * 0.5 - tit * 0.25 }}>{it.titulo}</div> : null}
+          {items.map((txt, i) => {
+            const ok = hechas.has(i);
+            return (
+              <div key={i} style={{ display: "flex", alignItems: "center", height: paso }}>
+                <svg viewBox="0 0 100 100" width={circ} height={circ} style={{ flexShrink: 0, marginRight: H * 0.017 * k }}>
+                  {ok ? <><circle cx="50" cy="50" r="50" fill="#E5B00F" /><path d="M28 52 L44 67 L73 35" fill="none" stroke="#fff" strokeWidth={8} strokeLinecap="round" strokeLinejoin="round" /></>
+                      : <circle cx="50" cy="50" r="46" fill="none" stroke="#C8C8C8" strokeWidth={6.5} />}
+                </svg>
+                <div style={{ fontFamily: fam, fontWeight: 400, fontSize: fila, lineHeight: 1, color: ok && it.tachar ? "#9A9A9A" : gris, whiteSpace: "nowrap",
+                  textDecoration: ok && it.tachar ? "line-through" : "none" }}>{txt}</div>
+              </div>
+            );
+          })}
+        </div>
       </div>
     </AbsoluteFill>
   );
@@ -196,7 +235,7 @@ export const PiezaJuego: React.FC<{ f: number; dur: number; it: Item }> = ({ f, 
   if (it.t === "destello") return <Destello f={f} dur={dur} it={it} />;
   if (it.t === "marcador") return <Marcador f={f} it={it} />;
   if (it.t === "barra") return <Barra f={f} it={it} />;
-  if (it.t === "lista") return <Lista f={f} it={it} />;
+  if (it.t === "lista") return <Lista f={f} dur={dur} it={it} />;
   if (it.t === "vidas") return <Vidas f={f} it={it} />;
   if (it.t === "eliminado") return <Eliminado f={f} it={it} />;
   return null;

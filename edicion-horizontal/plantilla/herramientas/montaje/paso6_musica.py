@@ -105,6 +105,10 @@ for anc, seg_ in getattr(plan, "VACIOS", []):
     g_ = L.ancla(anc); VACIOS.append((max(0, g_ - F(seg_)), g_))
 permitido = np.zeros(TOTAL + 1, bool)
 for a_, b_ in VACIOS: permitido[a_:b_] = True
+# Un plano V con su sonido (vol ≥ 0,5: el grupo, el animal, el lugar) tampoco es un hueco: se oye a sí mismo. Lucas,
+# estilo vlog: «huecos con el sonido del lugar». Windows, banco v4.30: tras una ventana seca avisaba en planos V con su diálogo.
+for p in P:
+    if p.get("k") == "V" and (p.get("vol", 1) or 0) >= 0.5: permitido[p["o"]:p["o"] + p["n"]] = True
 
 
 def huecos():
