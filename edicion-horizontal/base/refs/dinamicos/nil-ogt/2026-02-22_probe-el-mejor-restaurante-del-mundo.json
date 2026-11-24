@@ -11,7 +11,8 @@
     "resolucion": "1920×1080",
     "idioma": "español (con invitados catalanes hablando en castellano)",
     "tramo_analizado": "entero: intro fotograma a fotograma (f0–f1247), 30 hojas de minuto, 8 tramos de 15 s a 0,1 s, 13 hojas de candidatos de sonido y espectrogramas propios de la pista sin voz",
-    "estilo": "viaje",
+    "estilo": "vlog",
+    "tipo": "viaje",
     "estilo_por_que": "Viaje: visita a un sitio recorrido por zonas con anfitriones; visita = viaje según Lucas (el estilo «visita» no existe desde la v4.8). Se propuso «reto» y no lo es: no hay regla, ni marcador, ni cuenta atrás, ni riesgo de fallar (0 rótulos de progreso, 0 cronómetros). Es una VISITA a un sitio con anfitriones, recorrida por zonas y rematada con la experiencia: 6 min de historia y camino (calle de Can Roca, La Masia I+R, llegada), 5 min de cocina con Joan Roca (3 píldoras «ZONA DE…»), 2,5 min de bodega y sala y 14,5 min de menú (31 cartelas de plato, una cada 28 s). El hilo no es «¿lo conseguirá?» sino «¿qué hay dentro y está a la altura?». Los únicos contadores son implícitos y hablados («vamos a por 32 platos» 14:48, notas dichas «8,95» 25:50, «9,75» 26:27, «un sólido 8» 27:31). Dentro de «visita» es la variante gastronómica: la mitad del vídeo es probar y reaccionar plato a plato.",
     "modelo": "fable"
   },

@@ -12,7 +12,8 @@
     "fps_nota": "Contenedor a 60 fps; el metraje de la cámara pequeña va a 50 fps (1 fotograma duplicado cada 6) y el del móvil a 30 fps (1 de cada 2 duplicado). Todos los fotogramas de la ficha son a 60 fps.",
     "resolucion": "1920x1080",
     "idioma": "es",
-    "estilo": "viaje",
+    "estilo": "vlog",
+    "tipo": "viaje",
     "estilo_propuesto": "vlog (provisional)",
     "estilo_por_que": "Encaja en «viaje» (llegar a un sitio, moverse, descubrirlo) y no en «vlog» (día a día): el vídeo es un desplazamiento de dos días a Bélgica contado por lugares. De 16:45, 0:52–1:14 es el traslado (taxi, aeropuerto, avión), 1:14–5:59 es la llegada y el paseo por la ciudad (hotel, terraza, gofre, museo del chocolate, plaza, comida) y 7:22–16:38 es llegar al recinto y recorrerlo sitio a sitio: unos 55 bloques de lugar o actividad en 1.005 s (uno cada 18 s), tres carteles de escenario numerados (①, ②, ⑫), un plano del mapa del recinto (9:15.4) y una tarjeta de datos del sitio (14 escenarios, 400.000 personas). No es «reto»: no hay objetivo con desenlace ni marcador que recorra el vídeo; el único juego con contador (choques de manos, 15:59.6–16:13.3) dura 13,7 s. No es «entreno». Matiz: la intro lleva un sketch de producto patrocinado que es más de vídeo de «pruebo esta cámara» que de viaje, pero ocupa 26 s."
   },
