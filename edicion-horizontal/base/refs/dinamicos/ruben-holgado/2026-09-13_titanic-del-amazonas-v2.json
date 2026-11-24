@@ -1,0 +1,1724 @@
+{
+  "video": {
+    "archivo": "refs/dinamicos/ruben-holgado/2026-09-13_viaje-7-dias-en-el-titanic-del-amazonas.mp4",
+    "creador": "Rubén Holgado",
+    "canal": "ruben holgado",
+    "url": "https://www.youtube.com/watch?v=4-VPvXju2qI",
+    "titulo": "Viajé 7 Días en el Titanic del Amazonas",
+    "duracion": "32:58 (1977,6 s; 59.271 fotogramas)",
+    "publicado": "2026-09-13",
+    "fps": 29.97,
+    "resolucion": "1920×1080",
+    "idioma": "español (transcripción large-v3-turbo, idioma detectado «es»); locales peruanos subtitulados a ratos",
+    "tramo_analizado": "entero: 15 hojas intro_fot (0–30 s fotograma a fotograma) + detalle/fot_30-32.jpg (30–32 s a 1 f), 8 hojas intro_*, 33 hojas min_*, 2 final_*; 8 tramos a 0,1 s (1:00–1:10, 3:10–3:20, 10:00–10:30, 14:46–14:56, 17:21–17:31, 22:08–22:18, 27:03–27:15, 29:04–29:14, 31:56–32:06); hojas a 1 fotograma de los planos de la intro, de la lista de misiones, del destello verde ×5 y del cambio de viñeta de la cabecera; 83 candidatos a corte verificados con pares f−1/f (min 9, 10, 22, 23, 26, 27); 22 mediciones de zoom; 16 recortes de rótulo con fuente_rotulo.py; sfx_hoja_00, 03, 05 + 2 hojas propias de espectrograma ampliado (36 instantes)",
+    "estilo": "vlog",
+    "tipo": "viaje",
+    "estilo_por_que": "ESTILO = «vlog» (vlog y viaje son un solo estilo; esto va a la sección «En viajes»). TIPO = «viaje». Lo que lo hace viaje, con número: 1) TRAYECTO como hilo entero: 6 días de barco + 20 h de lancha («el autobús del Amazonas») de Pucallpa a Iquitos, contados en orden; 2) 6 RÓTULOS DE DÍA («DÍA 1 / SÁBADO» 3:12.8 … «DÍA 6 / JUEVES / (llegamos por fin)» 29:51.6), cada uno con su día de la semana y 4 de ellos con comentario amarillo entre paréntesis; 3) MARCADOR DEL TRAYECTO: barra de progreso con emojis origen–barco–destino, 3 apariciones de 11–12 s (14:48, 17:45, 29:06); 4) MAPAS: 0 mapas animados y 0 de satélite; el sitio se enseña con Google Maps real (móvil a cámara con insertos 20:10–20:30; captura a la izquierda 28:02–28:07); 5) LLEGADAS a 5 sitios (Pucallpa 0:31 en avión, Contamana 20:38, otro barco 24:42, Nauta 29:20, Iquitos 29:36 con las letras gigantes del pueblo) y presentación del vehículo-casa (tour del barco planta a planta 12:21–15:24); 6) DATOS DEL LUGAR dichos: Iquitos «la ciudad sin conexión terrestre más grande del mundo» (3:54), «lo mínimo son tres [días], lo máximo doce» (4:11, rotulado), río bajo y playas (15:48), piratas (19:02), pueblos llamados Holanda/París/Nueva York (20:18), «20 horas, no 8 días» (25:22), «28 horas» (29:04), Nauta «la única ciudad con conexión con Iquitos» (29:22); 7) PRECIOS: ninguno del viaje (el único «10 €» es del patrocinio, 12:08.9). Lo que tiene de reto: 3 misiones contables («encontrar tres animales», «probar tres platos», «jugar al Minecraft», 4:23–5:01) con contador «x/3» y destello verde 5 veces, pero sin reglas, sin plazo, sin castigo y sin desenlace en juego (la de animales se queda en 2/3 y se usa como gancho del siguiente vídeo, 32:42): son estructura de vlog, no reto. Por eso vlog/viaje y no reto.",
+    "modelo": "opus"
+  },
+  "resumen": [
+    "Rubén Holgado y su compañero de hamaca Iván viajan de Pucallpa a Iquitos (Perú) en el «Henry», un carguero de pasaje conocido como el «Titanic del Amazonas»: 3 días esperando a zarpar, 2 días de río, pierden el barco en Contamana y acaban 20 h apretados en una lancha rápida («el autobús del Amazonas»).",
+    "Intro de 31,0 s (f0–f930): tráiler narrado de 25,3 s con un busto grabado después en casa (sudadera verde) troceado en 9 fragmentos y 14 clips del propio viaje de 10–108 f (mediana 0,93 s por plano, 57 % de planos < 1 s), 1 tarjeta de noticia, título gigante «TITANIC» por detrás de la persona, y cabecera dibujada de 5,8 s «las aventurillas de ruben / EDICIÓN CRUCEROS».",
+    "El paso del tiempo se cuenta con 6 rótulos «DÍA N / día de la semana / (comentario)» de 2,1–5 s sobre un plano de paisaje con zoom lento lineal de 2,2–3,3 %/s, casi siempre tras un negro hecho tapando el objetivo con la mano o tras un respiro musical de 5–12 s.",
+    "No hay ningún mapa animado: el avance del trayecto lo da una barra de progreso roja con emojis que él presenta agachándose y señalándola (14:48), que vuelve con la mala noticia «ni el 5 %» (17:45) y que se llena del 5 al 90 % en 2,6 s al llegar a Nauta (29:08.4–29:11.0).",
+    "Tres misiones contables (3 animales, 3 comidas, Minecraft) presentadas con iconos en círculo que entran uno a uno (4:25–4:59) y cerradas con un destello verde a pantalla completa + icono + «x/3» + ding 5 veces (11:12, 16:58, 21:33, 30:27, 31:43): un hito cada 2–8 min.",
+    "Ritmo medido: 559 planos del detector (16,9 cortes/min, mediana 2,34 s); contando a 1 fotograma los jump cuts al mismo encuadre que el detector no ve, el total real es ≈ 655 planos (margen 620–690), ≈ 19,9 cortes/min y 3,0 s por plano de media.",
+    "Zoom de edición solo en tres sitios: el busto de la intro (rampa +4,7 % rematada con punch +9 % en 6 f al entrar el título; rampa +11 % y salto atrás a ×0,97), tarjetas (entrada ×1,24→×1,59 en 3 f y deriva +6 %/s) y planos de rótulo de día (2,2–3,3 %/s). A cámara, reencuadres por corte de ×1,22 en las conversaciones largas.",
+    "Música en el 75 % del vídeo con 7 cambios de pista, 11,4 dB bajo la voz de mediana; se quita en directos con locales y en el remate «Perdimos el Titanic»; sube a −16 dB (por encima de la voz media) solo en el «montaje épico» paródico de 20 s (27:05–27:24), que sirve para colar la petición de suscripción.",
+    "Cierra con 52 s de voz en off reflexiva (cita de los créditos de Minecraft, con su logo por detrás de la persona) sobre un recap de 34 planos a 1,4 s de mediana, «Iquitos fueron los amigos que hicimos por el camino», gancho al siguiente vídeo con la misión sin cerrar y pantalla final dibujada de 15,2 s.",
+    "Efectos de sonido muy escasos: 8 confirmados en 33 min (0,24/min), 6 de ellos son el ding de «misión cumplida» o de dinero; el resto del sonido lo pone el directo."
+  ],
+  "contexto": {
+    "quien": "Rubén Holgado (cámara en mano y selfie, micro de corbata; en la lancha habla con el micro en la mano pegado a la boca). Secundarios: Iván (peruano, compañero de hamaca, presentado 5:57 con etiqueta pixel; sale en casi todo el viaje y cierra con un abrazo 32:38), Ricardo (vecino de hamaca y tripulante que le ata la hamaca, 2:20–3:00, etiqueta), David (amigo por videollamada, 1:58–2:36), Pablo (estibador que se queda en Pucallpa, 7:30–8:25, etiqueta), Henry «el bichopalo» (insecto palo mascota, 3:41 y 7:05, con memorial de broma 17:24), vendedoras de Contamana (subtítulos amarillos 21:10–21:24) y el «Titanic» mismo como personaje.",
+    "donde": "Perú: Pucallpa (puerto, mercado n.º 1) → río Ucayali en el Henry 10 → Contamana (mercado) → lancha rápida nocturna → Nauta → Iquitos (mercado de Belén). Nunca se sitúa con mapa animado; solo Google Maps real (20:10, 28:02).",
+    "objetivo": "Llegar a Iquitos (ciudad sin carretera) en el barco con fama de hundirse y de ser «una de las peores experiencias», sobreviviendo en hamaca, y de paso cumplir 3 misiones inventadas porque «en un crucero hay actividades» (4:16–5:01). En juego: tiempo (3 a 12 días, y él tiene vuelo el viernes, 6:26), comodidad, la seguridad del barco y, a partir de 22:16, llegar sin el Titanic.",
+    "tono": "Humor de autoparodia y de mala suerte encadenada («dos noticias, una buena y una mala» 3:22; «tercera cosa buena: el Titanic no puede hundirse si no zarpa» 9:42; memorial del bicho palo 17:24; «montaje épico» con letras rosas y gatito kawaii 27:04) que se vuelve reflexivo en el cierre (32:04–32:37). El editor remata con gags gráficos y voz en off en pasado.",
+    "gancho_5s": "f0–f159 (0:00.00–0:05.32): busto a cámara «Perdido en el Perú hay un gigantesco barco que navega por el Amazonas y que va cargado hasta arriba de mercancías y de personas» con 5 clips de 23–37 f, uno por idea (barco, río al atardecer, carga, motocarro, hamacas). Promete un sitio extremo y absurdo en 5,3 s.",
+    "gancho_30s": "0:05.9–0:11.3 el PELIGRO: «se ha hundido más veces de las que me gustaría» con tarjeta de noticia del naufragio (f200) y el título «TITANIC del amazonas» por detrás de él (f289–f337); 0:11.4–0:18.8 la PRUEBA: «una de las peores experiencias» con ráfaga de 3 planos (cucaracha pixelada 10 f, pez diablo 14 f, dormido aplastado 28 f) y un clip de 3,6 s con su sonido directo («está entrando el agua»); 0:18.9–0:25.3 la PREGUNTA y el reto: «¿pero cómo de malo puede ser…?» + 4 planos bonitos + «No queda otra que comprobarlo. Empieza la aventurilla» → cabecera.",
+    "preguntas_abiertas": [
+      "0:06.0 «se ha hundido más veces…» → ¿se hundirá? Se reabre con la noticia real en 6:46 («10 murieron») y en 10:24–10:46 («oficialmente estamos en el Titanic»); se cierra sin hundimiento, pero con el barco perdido (22:16).",
+      "0:11.4 «una de las peores experiencias» → se cumple, pero en otro barco: «Lo que no sabíamos en ese momento es que ese barco iba a ser un infierno» (22:45) y la noche en la lancha (24:52–25:43).",
+      "3:46 «el barco sale a las 10… seguramente más tarde» → ¿cuándo zarpa? Se alarga 3 días (5:17, 7:18, 9:18) y se cierra en 9:55 con «DÍA 3 (x fin salimos)».",
+      "4:11 «lo mínimo son tres, lo máximo doce» → ¿cuántos días? Barra de progreso 14:48 y giro «ni el 5 %… más de 8» (17:46); se resuelve cambiando de barco (25:22).",
+      "4:23–5:01 las 3 misiones → hilo hasta el final: comidas 1/3 (11:12), animales 1/3 (16:58), animales 2/3 (21:33), comidas 2/3 (30:27), comidas 3/3 (31:43); animales queda en 2/3 → gancho al próximo vídeo (32:42).",
+      "5:17 «llevaba ya cuatro horas de retraso» → elipsis que mantiene la pregunta del zarpe.",
+      "21:37 «A las cuatro y cuarto sale el Henry. Si la señora lo trae a las cuatro…» → ¿llegan al barco? No: 22:12–22:16 «Perdimos el Titanic»."
+    ],
+    "giros": [
+      "6:32–6:56 Iván enseña la noticia del naufragio de la misma compañía (tarjeta de noticia, «10 murieron»).",
+      "9:18 el capitán: «salimos mañana a las 5» (segunda noche en puerto, DÍA 2 sin moverse).",
+      "17:37–17:56 voz en off: «Pues no, probablemente no habíamos hecho ni el 5 % del recorrido… más de 8 [días]» con la barra encima.",
+      "17:56 «vino una tormenta amazónica» (pico de música, 18:02–19:54).",
+      "22:12–22:16 «Y sin darnos cuenta… Perdimos el Titanic»: el barco se va mientras buscan pez diablo (punto de giro del vídeo).",
+      "22:45 anticipo en off del «barco del infierno» con 5 planos del futuro (cucarachas, gente hacinada).",
+      "24:17 «os he mentido, no estamos en el Amazonas aún» (gag sobre el atardecer).",
+      "29:04 «después de 28 horas… no hemos llegado a Iquitos» (Nauta, 2 h más de coche)."
+    ],
+    "recompensas": [
+      "2:56–3:06 habitación montada («y si entran, no salen… hemos atrapado un Pokémon»).",
+      "11:02–11:19 el chocolate regalado por un seguidor + primer destello verde «comidas 1/3» con ding.",
+      "12:56–13:01 «de repente ha cambiado todo… a jungla, libertad» (primer plano del río abierto).",
+      "16:37–16:59 el delfín rosado («Iván, sube, hay delfín») con viñeta oscura y destello «animales 1/3».",
+      "23:57–24:30 primer atardecer en el Amazonas, solo música.",
+      "27:05–27:24 «montaje épico» de tomas bonitas (respiro tras el caos).",
+      "28:46–29:00 «uno de los mejores atardeceres que he visto en toda mi vida».",
+      "29:06–29:17 la barra de progreso se llena.",
+      "30:27–31:50 por fin el pez diablo (comidas 2/3) y el paiche (comidas 3/3), «Buenazo, recomendado».",
+      "31:50–32:41 reflexión final y despedida de Iván."
+    ]
+  },
+  "curva_energia": [
+    {
+      "minuto": 0,
+      "nivel": 5,
+      "motivo": "tráiler de 21 planos en 25,4 s (49,6 planos/min), 2 ráfagas, tarjeta de noticia, título TITANIC, cabecera cantada; música desde f0 ≈ 15 dB bajo la voz"
+    },
+    {
+      "minuto": 1,
+      "nivel": 3,
+      "motivo": "Pucallpa: billete en directo y compras contadas en off (1:00–1:19, un plano por objeto: hamaca, tuppers, gorro); 23 planos; música −44 dB, se quita en 1:24"
+    },
+    {
+      "minuto": 2,
+      "nivel": 3,
+      "motivo": "videollamada con David superpuesta (1:58–2:36) y Ricardo ata la hamaca (etiqueta «ricardo»); 19 planos; sin música 1:24–2:24"
+    },
+    {
+      "minuto": 3,
+      "nivel": 4,
+      "motivo": "«hemos atrapado un Pokémon», adiós y DÍA 1 (3:12.8, zoom lento +7 %), «dos noticias, una buena y una mala»; 12 planos"
+    },
+    {
+      "minuto": 4,
+      "nivel": 3,
+      "motivo": "datos del destino (Iquitos sin carretera), pantalla partida «3 días | 12 días» (4:11.6), presentación de misiones con iconos (4:25, 4:44); planos de hasta 23,4 s"
+    },
+    {
+      "minuto": 5,
+      "nivel": 3,
+      "motivo": "Minecraft, elipsis en off «cuatro horas de retraso» (5:17), pollo con subtítulo, se acercan a Iván (5:51–5:57); 25 planos (mediana 1,97 s)"
+    },
+    {
+      "minuto": 6,
+      "nivel": 4,
+      "motivo": "conversación con Iván con reencuadres ×1,22, noticia del naufragio en tarjeta (6:46.5), «no me digas esto»; música −36,5 dB"
+    },
+    {
+      "minuto": 7,
+      "nivel": 3,
+      "motivo": "Henry el bicho palo, atardecer en el puerto, Pablo (etiqueta 7:32) y la buena noticia «tres días»; carga de coches en off (7:48–7:58, 8 planos)"
+    },
+    {
+      "minuto": 8,
+      "nivel": 3,
+      "motivo": "saludos de Pablo (cámara fija 8:01–8:25), excursión a por bombilla en off, montaje musical de la bombilla 8:47–9:05 a ≈ 2 s/plano"
+    },
+    {
+      "minuto": 9,
+      "nivel": 3,
+      "motivo": "primera noche en hamaca, mano al objetivo → negro (9:14.4), DÍA 2 con zoom-out, «tres cosas buenas» en hamaca con jump cuts, respiro de 12 s solo música (9:52–10:04)"
+    },
+    {
+      "minuto": 10,
+      "nivel": 3,
+      "motivo": "DÍA 3 «(x fin salimos)» sobre 2 planos (9:55–10:00), conversación en proa con Iván (detector: 6 planos; contados: 17 con reencuadres ×1,22–1,35), gag de Titanic con sus caras pegadas (10:42)"
+    },
+    {
+      "minuto": 11,
+      "nivel": 4,
+      "motivo": "chocolate y destello verde «comidas 1/3» con ding (11:12.1); arranca el patrocinio iGraal (11:29) con logo y capturas"
+    },
+    {
+      "minuto": 12,
+      "nivel": 2,
+      "motivo": "patrocinio (17 planos a 3,1 s): «10€» verde con ding (12:08.9), QR, subtítulo «enlace en la descripción»; empieza el tour del barco (12:21)"
+    },
+    {
+      "minuto": 13,
+      "nivel": 3,
+      "motivo": "tour planta a planta, «a jungla, libertad» (13:01), baños con váter pixelado (13:32), desayuno con «no entiendo nada» gigante (13:46)"
+    },
+    {
+      "minuto": 14,
+      "nivel": 3,
+      "motivo": "última planta, lancha de emergencia, «inauguramos barrita de progreso» (14:48.0) presentada señalándola; música fuera 14:32–14:59"
+    },
+    {
+      "minuto": 15,
+      "nivel": 2,
+      "motivo": "subida a la planta del capitán, Temu, río bajo y comunidades; 9 planos (mediana 4,97 s, máx. 22,8 s)"
+    },
+    {
+      "minuto": 16,
+      "nivel": 4,
+      "motivo": "búsqueda de animales, sale el sol (melocotones), «hay delfín» con viñeta oscura (16:46–16:50) y destello «animales 1/3» con whoosh + ding (16:58.65)"
+    },
+    {
+      "minuto": 17,
+      "nivel": 4,
+      "motivo": "ducha, cartilla de racionamiento, memorial «henry el bichopalo 2026-2026» con golpe (17:24.6), giro en off «ni el 5 %» con la barra (17:37–17:56)"
+    },
+    {
+      "minuto": 18,
+      "nivel": 4,
+      "motivo": "tormenta amazónica: música en su punto más alto del vídeo (−26 dB, 1,8 dB bajo la voz 18:02–19:54), «hay un jaguar, hay un loro» y Minecraft en el móvil"
+    },
+    {
+      "minuto": 19,
+      "nivel": 3,
+      "motivo": "frío en la hamaca (clip que abre el tráiler), historia de piratas sobre el río de noche, truco de la hamaca en diagonal; 8 planos (mediana 9,3 s)"
+    },
+    {
+      "minuto": 20,
+      "nivel": 3,
+      "motivo": "DÍA 4 (19:46.8, zoom +6,9 %), Google Maps en el móvil («Holanda, París, Nueva York»), mano al objetivo → negro (20:36.4), Contamana en off"
+    },
+    {
+      "minuto": 21,
+      "nivel": 4,
+      "motivo": "búsqueda del pez diablo con 3 subtítulos amarillos, loro → destello «animales 2/3» con ding (21:33.7), «nos lo jugamos»; 19 planos"
+    },
+    {
+      "minuto": 22,
+      "nivel": 5,
+      "motivo": "«no hay carachama… mañana», «Perdimos el Titanic» (22:16) con el barco alejándose en plano de 3 s y silencio de voz, otro barco, anticipo del infierno (22:45); 23 planos (detector) + 3 jump cuts; música −30 dB, 4,4 dB bajo la voz"
+    },
+    {
+      "minuto": 23,
+      "nivel": 3,
+      "motivo": "comida en una mesa a cámara (jump cuts 23:12.5, 23:14.0, 23:18.6, 23:33.4), plan para Iquitos; atardecer sin voz 23:47–23:59"
+    },
+    {
+      "minuto": 24,
+      "nivel": 3,
+      "motivo": "atardecer «os he mentido», noche esperando la lancha, embarque y arranque del off largo (24:52)"
+    },
+    {
+      "minuto": 25,
+      "nivel": 4,
+      "motivo": "noche en la lancha contada en off (50,6 s, ≈ 21 planos, «barco de las anchoas»), DÍA 5 «(en el autobús del amazonas)» 25:39.5, quejas"
+    },
+    {
+      "minuto": 26,
+      "nivel": 2,
+      "motivo": "quejas a cámara con el micro en la mano, pollitos, 10 planos (detector) + 4 jump cuts; sin música hasta 26:28"
+    },
+    {
+      "minuto": 27,
+      "nivel": 4,
+      "motivo": "«montaje épico» de 20 s con música a −16 dB, letras «peru» rosas, transiciones de corazón, remolino, mosaico y salpicadura, «GRACIAS!!»; CTA de suscripción (27:26); captura de la app de sueño"
+    },
+    {
+      "minuto": 28,
+      "nivel": 3,
+      "motivo": "Clavero en Google Maps (captura), pollos escapando, picor, fotos del Henry adelantado (28:34), atardecer con off y 8 s solo música (28:46–29:00)"
+    },
+    {
+      "minuto": 29,
+      "nivel": 4,
+      "motivo": "barra completándose (29:08.4–29:11.0), Nauta con subtítulos de color, letras IQUITOS, negro de 1,6 s (29:39.7), despertar en hotel en ráfaga (29:45, 29:47), DÍA 6"
+    },
+    {
+      "minuto": 30,
+      "nivel": 4,
+      "motivo": "mercado de Belén: suri, pez diablo por fin y destello «comidas 2/3» con ding (30:27.8); 25 planos (mediana 2,37 s)"
+    },
+    {
+      "minuto": 31,
+      "nivel": 4,
+      "motivo": "picante con Iván, paiche y destello «comidas 3/3» con ding (31:43.0); arranca el recap en off (31:50)"
+    },
+    {
+      "minuto": 32,
+      "nivel": 4,
+      "motivo": "recap de 34 planos a 1,4 s con 3 ráfagas, logo de Minecraft por detrás de la persona, subida de música, abrazo con Iván y pantalla final de 15,2 s"
+    }
+  ],
+  "picos_y_preparacion": [
+    "22:12–22:18 «Perdimos el Titanic»: preparado 40 s antes con «Nos lo jugamos. A las cuatro y cuarto sale el Henry» (21:37) y la búsqueda inútil por el mercado; la voz en off entra sola (22:12.8) y el remate se dice sobre el barco alejándose en un plano fijo de 2,6 s (22:15.4–22:18.0) con la voz retirada; el siguiente directo («Iván, ¿sabes si salen más?») llega a los 2,3 s.",
+    "18:00–19:00 tormenta: la música sube a −26 dB (1,8 dB bajo la voz) desde 18:02, después del giro en off «ni el 5 %».",
+    "27:05–27:24 montaje épico: anunciado hablando («Entra el montaje épico», 27:02.6), 0,8 s de negro/silencio y la música entra a −16 dB en 27:05.0.",
+    "29:06–29:17 llegada a Nauta: la barra se llena mientras habla («28 horas»), con 4 jump cuts debajo."
+  ],
+  "ritmo_informacion": "Intro: una idea nueva cada 1,2 s (21 planos en 25,4 s). Cuerpo: algo nuevo (dato, personaje, gag, giro o lugar) cada 15–40 s; picos de densidad en la previa (0:31–3:12, 21,1 planos/min), DÍA 4 (18,9) y DÍA 6 (23,3); valles en DÍA 2 (10,6) y el zarpe de DÍA 3 (7,7). Las esperas se recortan con voz en off en pasado y cifras («cuatro horas de retraso» 5:17, «ocho horas esperando» 7:48, «más de 10 horas» 17:46, «28 horas» 29:04), con montajes cortos de 8–21 planos (compras 1:00–1:19, coches 7:48–7:58, bombilla 8:47–9:05, lancha nocturna 24:52–25:43) y con negro hecho en cámara (mano al objetivo) para cerrar jornada. No hay cámara rápida, ni timelapse, ni rótulo «X HORAS DESPUÉS»: el tiempo largo lo marcan el rótulo de día y la barra.",
+  "estructura": [
+    {
+      "desde": "0:00.00",
+      "hasta": "0:25.26",
+      "parte": "tráiler narrado",
+      "que_pasa": "busto en casa + 14 clips; noticia, título TITANIC, prueba con sonido directo, pregunta y «Empieza la aventurilla» (f0–f756)"
+    },
+    {
+      "desde": "0:25.26",
+      "hasta": "0:31.03",
+      "parte": "cabecera",
+      "que_pasa": "bola de papel → «las aventurillas de ruben» → «EDICIÓN CRUCEROS» → papel arrugado (f757–f930)"
+    },
+    {
+      "desde": "0:31.03",
+      "hasta": "3:12.80",
+      "parte": "previa en Pucallpa (sin rótulo de día)",
+      "que_pasa": "llegada en avión con off, billete, compras, colgar la hamaca con David (videollamada) y Ricardo, mosquitera"
+    },
+    {
+      "desde": "3:12.80",
+      "hasta": "9:15.50",
+      "parte": "DÍA 1 · SÁBADO",
+      "que_pasa": "embarque, 2 noticias, Henry el bicho palo, datos de Iquitos, 3–12 días, misiones (4:23–5:01), Minecraft, retraso, Iván (5:57), naufragio (6:46), Pablo, coches, bombilla, primera noche, mano al objetivo"
+    },
+    {
+      "desde": "9:15.50",
+      "hasta": "9:55.30",
+      "parte": "DÍA 2 · DOMINGO",
+      "que_pasa": "un bloque en hamaca: «tres cosas buenas»; respiro musical de 12 s"
+    },
+    {
+      "desde": "9:55.30",
+      "hasta": "19:46.70",
+      "parte": "DÍA 3 · LUNES (x fin salimos)",
+      "que_pasa": "zarpan, conversación con Iván, chocolate (comidas 1/3), patrocinio 11:29–12:21, tour del barco, barra de progreso (14:48), animales, delfín (animales 1/3), memorial de Henry, «ni el 5 %», tormenta, piratas, noche"
+    },
+    {
+      "desde": "19:46.70",
+      "hasta": "25:39.50",
+      "parte": "DÍA 4 · MARTES",
+      "que_pasa": "Google Maps, Contamana, pez diablo que no hay, loro (animales 2/3), pierden el Titanic (22:16), otro barco, atardecer, embarque y noche en la lancha en off"
+    },
+    {
+      "desde": "25:39.50",
+      "hasta": "29:51.60",
+      "parte": "DÍA 5 · MIÉRCOLES (en el autobús del amazonas)",
+      "que_pasa": "quejas, pollitos, montaje épico + CTA (27:02–27:30), Clavero, fotos del Henry, atardecer, barra completa en Nauta, negro"
+    },
+    {
+      "desde": "29:51.60",
+      "hasta": "31:50.30",
+      "parte": "DÍA 6 · JUEVES (llegamos por fin)",
+      "que_pasa": "mercado de Belén: suri, pez diablo (comidas 2/3), picante, paiche (comidas 3/3)"
+    },
+    {
+      "desde": "31:50.30",
+      "hasta": "32:42.00",
+      "parte": "cierre",
+      "que_pasa": "reflexión en off sobre recap de 34 planos, créditos de Minecraft, despedida de Iván, gancho al siguiente vídeo"
+    },
+    {
+      "desde": "32:42.00",
+      "hasta": "32:57.20",
+      "parte": "pantalla final",
+      "que_pasa": "gallina dibujada con flecha «mira este video» (15,2 s)"
+    }
+  ],
+  "intro": {
+    "tipo": "otra: tráiler narrado (híbrido de corta y explicativa)",
+    "por_que_ese_tipo": "No es la corta de Lucas (no hay ráfaga de micro-flash ni estroboscopio —cortes_rafagas.json: 0 cortes en ráfaga hasta 32 s—, ni tráiler sin voz cortado a la música, ni lema) ni la explicativa pura (solo 2 animaciones en 25 s, frente a una cada 4,6 s en el hotel aislado). Es un TRÁILER CONTADO: el creador, grabado después en casa, cuenta la premisa en 6 frases (qué es → peligro → «la peor experiencia» → prueba → pregunta → «no queda otra que comprobarlo») y cada palabra fuerte tiene su clip del propio viaje (14 clips, 56 % del tiempo del tráiler es clip, no busto). La premisa necesita una línea de explicación (por qué un barco de pasaje es «el Titanic»: se hunde) y una prueba, pero no reglas ni cifras de viaje: por eso basta 1 tarjeta (la noticia) y 1 título gigante, y el resto es tráiler. Cabecera de serie dibujada al final (25,3 s), como en todo el canal.",
+    "duracion_s": 31.03,
+    "duracion_f": 930,
+    "trailer_s": 25.26,
+    "cabecera_s": 5.8,
+    "primer_plano_hablando_s": 0.0,
+    "primer_directo_en_destino_s": 40.33,
+    "orden": "0) busto «Perdido en el Perú hay…» (f0–f26) → 1) 5 clips de qué es el barco (f27–f176) → 2) busto (f177–f199) → 3) tarjeta de noticia del naufragio (f200–f257) → 4) busto con rampa + punch y título «EL TITANIC del amazonas» por detrás (f258–f337) → 5) busto (f338–f365) → 6) ráfaga de 3 planos de lo malo (f366–f417) → 7) busto (f418–f455) → 8) clip-prueba con sonido directo 3,6 s (f456–f563) → 9) busto con la pregunta (f564–f601) → 10) ráfaga de 4 planos bonitos (f602–f686) → 11) busto «No queda otra… Empieza la aventurilla» con rampa y salto atrás (f687–f756) → 12) bola de papel + papel rasgado (f757–f763) → 13) cabecera viñeta 1 «las aventurillas de ruben» (f764–f831) → 14) marco de jungla entra y viñeta 2 «EDICIÓN CRUCEROS» (f832–f926) → 15) papel arrugado en bola (f927–f930) → 16) bola volando sobre el ala del avión y voz en off (f931–f951).",
+    "sin": "sin saludo, sin logo previo, sin micro-flash ni estrobo, sin subtítulos, sin mapa, sin cifras rotuladas, sin efectos de sonido confirmados en los gráficos de la intro",
+    "medidas": {
+      "planos_trailer": "21 planos en f0–f756 (20 cortes del detector, verificados en las hojas fotograma a fotograma: no hay jump cuts ocultos en el tráiler)",
+      "s_por_plano": "media 1,21 s · mediana 0,93 s · 57 % < 1 s · el más corto 10 f (cucaracha) · el más largo 108 f (clip-prueba)",
+      "rafagas": "2 según la definición del encargo (≥ 3 cortes en 2 s): f366–f417 (3 planos de 10, 14 y 28 f) y f602–f686 (4 planos de 13, 13, 23 y 36 f); 4 si se cuentan los grupos de 0:03.30 y 0:18.82 que da el detector",
+      "busto_vs_clip": "busto 9 fragmentos = 11,2 s (44 %); clips + tarjeta = 14,1 s (56 %)",
+      "sincronia": "cada clip entra con su palabra o 1–9 f antes: «barco» f55 / corte f27 (va por la frase), «navega» f67 / f62, «cargado» f108 / f99, «mercancías» f133 / f126, «personas» f159 / f152, «hundido» f212 / tarjeta f200, «Titanic» f293 / título f289, «Amazonas» f316 / «del amazonas» f312, «sido» f376 / cucaracha f366, «peores» f392 / plato f376, «experiencias» f399 / dormido f390, «barco» f605 / f602, «viaja» f616 / f615, «lugares» f640 / f628, «increíbles» f656 / f651"
+    },
+    "animaciones_explicativas": [
+      {
+        "n": 1,
+        "t": "0:06.67–0:08.58",
+        "frase": "«Un barco que se ha hundido (f212) más veces de las que me gustaría (f245)»",
+        "que_es": "TARJETA DE NOTICIA: foto del barco hundido escorado en el río con marco blanco tipo recorte de prensa, titular negro «Tragedia en el río Ucayali: Más de 60 pasajeros salvan de morir tras naufragio de barco», sobre fondo gris claro liso",
+        "f0": 200,
+        "f1": 257,
+        "duracion_f": 58,
+        "entrada": "pop de escala: f200 ≈ 12 % del ancho → f203 ≈ 15 % → f206 ≈ 30 % → f210 tamaño casi final (≈ 45 % del ancho); medido ×1,24 en 0,1 s y ×1,54 en 0,2 s",
+        "movimiento": "deriva de escala continua de ×1,59 a ×1,70 en 1,5 s (≈ +6 %/s)",
+        "subrayado": "marcador amarillo (#F5E33A aprox.) que se pinta de izquierda a derecha sobre «Tragedia en el río Ucayali» en f210–f220 (10 f)",
+        "salida": "por corte f258",
+        "posicion": "centrada, ligeramente girada",
+        "tamano": "tarjeta ≈ 45–50 % del ancho al final",
+        "color": "fondo #E6E6E6, tarjeta #FFFFFF, titular #111111",
+        "como_esta_hecha": "captura de la noticia montada en tarjeta + keyframes de escala con frenada (mismo recurso en 6:46.5)",
+        "sfx": "ninguno confirmado (banda vertical ancha en ≈ 0:06.6 en el espectrograma: posible whoosh, a dudas)"
+      },
+      {
+        "n": 2,
+        "t": "0:09.48–0:11.25",
+        "frase": "«conocido como el TITANIC (f293) DEL AMAZONAS (f316)»",
+        "que_es": "TÍTULO GIGANTE por detrás del presentador: «EL» pequeño blanco arriba a la izquierda + «TITANIC» rojo condensado a todo lo ancho, detrás de la persona recortada + «del amazonas» blanco sobre el pecho",
+        "f0": 284,
+        "f1": 337,
+        "duracion_f": 54,
+        "entrada": "«EL» de golpe en f284; «TITANIC» sube desde abajo f289 (solo asoma la parte alta) → f296 entero (8 f, ease-out), coincidiendo con el punch-in +9 % del busto (f288–f294); «del amazonas» se abre desde el centro f312 («ma») → f316 («el amazona») → f320 completo (9 f)",
+        "movimiento": "fijo una vez dentro (acompaña al busto, que se relaja de ×1,135 a ×1,116)",
+        "salida": "por corte seco f338",
+        "posicion": "«TITANIC» centrado, x 1–98 % del ancho, desde y≈11 % hasta cortarse por abajo; «del amazonas» centrado en y≈80 %; «EL» x≈2–6 %, y≈3–6 %",
+        "tamano": "«TITANIC» ≥ 85 % del alto de pantalla y 95 % del ancho; «del amazonas» ≈ 5 %; «EL» ≈ 4 %",
+        "color": "«TITANIC» #E40234 (medido); «del amazonas» y «EL» #FFFFFF",
+        "fuente": "TITANIC: League Gothic (−0,594) · Bebas Neue (−0,644) · Anton (−0,666) — no fiable (la persona tapa letras); a ojo, condensada ultranegra tipo Anton",
+        "como_esta_hecha": "persona recortada (rotoscopia/máscara del busto fijo) sobre el texto; texto con keyframe de posición",
+        "sfx": "no confirmado (acentos en ≈ 0:09.4 y 0:10.4 entre golpes de música; a dudas)"
+      },
+      {
+        "n": 3,
+        "t": "0:12.21–0:12.51",
+        "frase": "«dice que ha sido (f376)»",
+        "que_es": "CENSURA en mosaico pixelado sobre la cucaracha (gag: se tapa algo asqueroso)",
+        "f0": 366,
+        "f1": 375,
+        "duracion_f": 10,
+        "entrada": "con el corte",
+        "salida": "por corte",
+        "posicion": "centro del plano",
+        "tamano": "≈ 15 % del ancho",
+        "como_esta_hecha": "mosaico de bloques sobre zona fija",
+        "sfx": "ninguno"
+      }
+    ],
+    "clips_rafaga_trailer": [
+      {
+        "t": "0:00.90–0:02.03 (f27–f61)",
+        "sale_de": "22:15 (el Henry navegando cargado bajo cielo gris, el plano de cuando lo pierden)",
+        "funcion": "anticipa",
+        "que_se_ve": "el Henry de proa, cargado de contenedores, en el río"
+      },
+      {
+        "t": "0:02.07–0:03.27 (f62–f98)",
+        "sale_de": "≈ 28:54 (atardecer de la lancha)",
+        "funcion": "bonito",
+        "que_se_ve": "río al atardecer con una canoa a contraluz"
+      },
+      {
+        "t": "0:03.30–0:04.17 (f99–f125)",
+        "sale_de": "día 3 sobre la carga (mismo sitio que el recap 31:58.7)",
+        "funcion": "anticipa",
+        "que_se_ve": "Rubén sentado entre fardos de carga en la cubierta"
+      },
+      {
+        "t": "0:04.20–0:05.04 (f126–f151)",
+        "sale_de": "8:02 (carga de coches con Pablo)",
+        "funcion": "anticipa",
+        "que_se_ve": "empujando un motocarro para meterlo en el barco"
+      },
+      {
+        "t": "0:05.07–0:05.87 (f152–f176)",
+        "sale_de": "≈ 1:38 (primera vez dentro del barco)",
+        "funcion": "anticipa",
+        "que_se_ve": "cubierta llena de hamacas de colores"
+      },
+      {
+        "t": "0:06.67–0:08.58 (f200–f257)",
+        "sale_de": "6:46.5 (la misma noticia, más larga)",
+        "funcion": "promesa (peligro: ¿se hundirá?)",
+        "que_se_ve": "tarjeta de noticia del naufragio"
+      },
+      {
+        "t": "0:12.21–0:12.51 (f366–f375)",
+        "sale_de": "22:50 / 28:24 (cucarachas en la lancha)",
+        "funcion": "llamativo",
+        "que_se_ve": "cucaracha pixelada sobre madera"
+      },
+      {
+        "t": "0:12.55–0:12.98 (f376–f389)",
+        "sale_de": "30:32 (pez diablo servido)",
+        "funcion": "anticipa",
+        "que_se_ve": "plato de pez diablo con caldo"
+      },
+      {
+        "t": "0:13.01–0:13.91 (f390–f417)",
+        "sale_de": "25:16 / 31:56 (dormido aplastado en la lancha)",
+        "funcion": "llamativo",
+        "que_se_ve": "selfie de Rubén dormido, la cara aplastada contra el asiento"
+      },
+      {
+        "t": "0:15.22–0:18.79 (f456–f563)",
+        "sale_de": "18:56 (tormenta, en la hamaca), con su sonido directo",
+        "funcion": "promesa (prueba de «la peor experiencia»)",
+        "que_se_ve": "en la hamaca con capucha y frío: «está entrando el agua»"
+      },
+      {
+        "t": "0:20.09–0:20.49 (f602–f614)",
+        "sale_de": "≈ 15:26 (asomado a la borda buscando animales)",
+        "funcion": "bonito",
+        "que_se_ve": "Rubén asomado al río desde la borda, de espaldas"
+      },
+      {
+        "t": "0:20.52–0:20.92 (f615–f627)",
+        "sale_de": "≈ 16:14–16:18 (Iván en la cubierta de proa)",
+        "funcion": "anticipa",
+        "que_se_ve": "Iván en la proa con otro barco al fondo"
+      },
+      {
+        "t": "0:20.95–0:21.69 (f628–f650)",
+        "sale_de": "≈ 15:42 (comunidades del río)",
+        "funcion": "bonito",
+        "que_se_ve": "casa de madera en la orilla verde"
+      },
+      {
+        "t": "0:21.72–0:22.89 (f651–f686)",
+        "sale_de": "28:48 (atardecer desde la lancha; reaparece en el recap 32:22)",
+        "funcion": "bonito",
+        "que_se_ve": "perfil de Rubén con auriculares mirando el atardecer por la ventanilla"
+      }
+    ],
+    "clips_rafaga_trailer_resumen": {
+      "total": "14 clips (incluida la tarjeta) + 9 fragmentos de busto",
+      "de_donde": "14 del propio vídeo (100 %), 0 de archivo; la noticia es una captura que también sale en el cuerpo",
+      "funcion": "anticipa 6 (43 %) · bonito 4 (29 %) · llamativo 2 (14 %) · promesa 2 (14 %)",
+      "duraciones_f": "10–108 f (mediana 26 f = 0,87 s); el único largo es el clip-prueba con sonido",
+      "orden": "NO cronológico: sigue al guion hablado (qué es → peligro → peor experiencia → prueba → lugar bonito)",
+      "que_nunca_entra": "ni la llegada a Iquitos, ni el delfín ni el loro, ni probar las comidas (el pez diablo sale en el plato, sin probarlo), ni la pérdida del barco, ni el montaje épico, ni Iván presentado, ni el patrocinio; nada de aeropuerto, carretera ni esperas en puerto: se guarda todas las recompensas"
+    },
+    "linea_de_tiempo": [
+      {
+        "f0": 0,
+        "f1": 26,
+        "t": "0:00.00–0:00.87",
+        "que_se_ve": "busto en casa: sudadera verde, puerta blanca y planta detrás, plano medio",
+        "origen": "grabado aparte después del viaje",
+        "camara": "fija",
+        "zoom_velocidad": "×1,00",
+        "texto": "—",
+        "motion_graphic": "—",
+        "sfx": "—",
+        "musica": "entra en f0, ≈ −38 dB (≈ 15–18 dB bajo la voz)",
+        "voz": "«Perdido (f0) en el Perú (f18) hay (f26)»"
+      },
+      {
+        "f0": 27,
+        "f1": 61,
+        "t": "0:00.90–0:02.03",
+        "que_se_ve": "el Henry navegando cargado, cielo gris",
+        "origen": "22:15",
+        "camara": "fija desde la orilla",
+        "zoom_velocidad": "—",
+        "texto": "—",
+        "motion_graphic": "—",
+        "sfx": "—",
+        "musica": "sigue",
+        "voz": "«un gigantesco (f36) barco (f55)»"
+      },
+      {
+        "f0": 62,
+        "f1": 98,
+        "t": "0:02.07–0:03.27",
+        "que_se_ve": "atardecer naranja con canoa",
+        "origen": "≈ 28:54",
+        "camara": "fija",
+        "zoom_velocidad": "—",
+        "texto": "—",
+        "motion_graphic": "—",
+        "sfx": "—",
+        "musica": "sigue",
+        "voz": "«que navega (f67) por el Amazonas (f83)»"
+      },
+      {
+        "f0": 99,
+        "f1": 125,
+        "t": "0:03.30–0:04.17",
+        "que_se_ve": "sentado entre la carga",
+        "origen": "día 3",
+        "camara": "fija",
+        "zoom_velocidad": "—",
+        "texto": "—",
+        "motion_graphic": "—",
+        "sfx": "—",
+        "musica": "sigue",
+        "voz": "«y que va cargado (f108) hasta arriba (f123)»"
+      },
+      {
+        "f0": 126,
+        "f1": 151,
+        "t": "0:04.20–0:05.04",
+        "que_se_ve": "empujando un motocarro",
+        "origen": "8:02",
+        "camara": "en mano",
+        "zoom_velocidad": "—",
+        "texto": "—",
+        "motion_graphic": "—",
+        "sfx": "—",
+        "musica": "sigue",
+        "voz": "«de mercancías (f133)»"
+      },
+      {
+        "f0": 152,
+        "f1": 176,
+        "t": "0:05.07–0:05.87",
+        "que_se_ve": "cubierta llena de hamacas",
+        "origen": "≈ 1:38",
+        "camara": "en mano",
+        "zoom_velocidad": "—",
+        "texto": "—",
+        "motion_graphic": "—",
+        "sfx": "—",
+        "musica": "sigue",
+        "voz": "«y de personas (f159)»"
+      },
+      {
+        "f0": 177,
+        "f1": 199,
+        "t": "0:05.91–0:06.64",
+        "que_se_ve": "busto",
+        "origen": "casa",
+        "camara": "fija",
+        "zoom_velocidad": "×1,00",
+        "texto": "—",
+        "motion_graphic": "—",
+        "sfx": "—",
+        "musica": "sigue",
+        "voz": "«Un barco (f182) que (f195)»"
+      },
+      {
+        "f0": 200,
+        "f1": 257,
+        "t": "0:06.67–0:08.58",
+        "que_se_ve": "tarjeta de noticia sobre gris",
+        "origen": "captura de prensa (también 6:46)",
+        "camara": "—",
+        "zoom_velocidad": "pop ×1,0→×1,59 en 3 f + deriva hasta ×1,70",
+        "texto": "titular con subrayado amarillo f210–f220",
+        "motion_graphic": "animación 1",
+        "sfx": "no confirmado (dudas)",
+        "musica": "sigue",
+        "voz": "«se ha hundido (f212) más veces de las que me gustaría (f245)»"
+      },
+      {
+        "f0": 258,
+        "f1": 337,
+        "t": "0:08.61–0:11.24",
+        "que_se_ve": "busto; detrás aparece el título",
+        "origen": "casa",
+        "camara": "fija",
+        "zoom_velocidad": "rampa lineal ×1,00→×1,047 en f258–f288 (+4,6 %/s) + punch ×1,047→×1,135 en 6 f (f288–f294) + relajación a ×1,116 hasta f337 (medido)",
+        "texto": "«EL» f284, «TITANIC» sube f289–f296, «del amazonas» se abre f312–f320",
+        "motion_graphic": "animación 2 (persona recortada)",
+        "sfx": "no confirmado",
+        "musica": "sigue (resto −38 dB)",
+        "voz": "«conocido (f265) como el Titanic (f293) del (f301) Amazonas (f316)»"
+      },
+      {
+        "f0": 338,
+        "f1": 365,
+        "t": "0:11.28–0:12.18",
+        "que_se_ve": "busto sin título",
+        "origen": "casa",
+        "camara": "fija",
+        "zoom_velocidad": "×1,00",
+        "texto": "—",
+        "motion_graphic": "—",
+        "sfx": "—",
+        "musica": "sigue",
+        "voz": "«La gente (f345) que ha subido (f357) dice (f365)»"
+      },
+      {
+        "f0": 366,
+        "f1": 375,
+        "t": "0:12.21–0:12.51",
+        "que_se_ve": "cucaracha pixelada",
+        "origen": "lancha (22:50 / 28:24)",
+        "camara": "en mano",
+        "zoom_velocidad": "—",
+        "texto": "—",
+        "motion_graphic": "censura (animación 3)",
+        "sfx": "—",
+        "musica": "sigue",
+        "voz": "«que ha sido (f376)»"
+      },
+      {
+        "f0": 376,
+        "f1": 389,
+        "t": "0:12.55–0:12.98",
+        "que_se_ve": "plato de pez diablo",
+        "origen": "30:32",
+        "camara": "en mano",
+        "zoom_velocidad": "—",
+        "texto": "—",
+        "motion_graphic": "—",
+        "sfx": "—",
+        "musica": "sigue",
+        "voz": "«una de las peores (f392)»"
+      },
+      {
+        "f0": 390,
+        "f1": 417,
+        "t": "0:13.01–0:13.91",
+        "que_se_ve": "dormido aplastado en la lancha",
+        "origen": "25:16",
+        "camara": "selfie",
+        "zoom_velocidad": "—",
+        "texto": "—",
+        "motion_graphic": "—",
+        "sfx": "—",
+        "musica": "sigue",
+        "voz": "«experiencias (f399)»"
+      },
+      {
+        "f0": 418,
+        "f1": 455,
+        "t": "0:13.95–0:15.18",
+        "que_se_ve": "busto",
+        "origen": "casa",
+        "camara": "fija",
+        "zoom_velocidad": "×1,00",
+        "texto": "—",
+        "motion_graphic": "—",
+        "sfx": "—",
+        "musica": "baja",
+        "voz": "«que ha vivido (f424) en toda su vida (f448)»"
+      },
+      {
+        "f0": 456,
+        "f1": 563,
+        "t": "0:15.22–0:18.79",
+        "que_se_ve": "en la hamaca con capucha, viento y frío",
+        "origen": "18:56 con su sonido directo",
+        "camara": "selfie",
+        "zoom_velocidad": "—",
+        "texto": "—",
+        "motion_graphic": "—",
+        "sfx": "— (los candidatos #1–#3 son el golpe de viento del directo)",
+        "musica": "casi fuera: el sonido directo sube a −13/−17 dB",
+        "voz": "«Está entrando un viento increíble (f484), hace muchísimo frío (f527), está entrando el agua (f556)»"
+      },
+      {
+        "f0": 564,
+        "f1": 601,
+        "t": "0:18.82–0:20.05",
+        "que_se_ve": "busto con las manos abiertas",
+        "origen": "casa",
+        "camara": "fija",
+        "zoom_velocidad": "×1,00",
+        "texto": "—",
+        "motion_graphic": "—",
+        "sfx": "—",
+        "musica": "vuelve a −42 dB",
+        "voz": "«Pero cómo de malo (f577) puede ser (f588)»"
+      },
+      {
+        "f0": 602,
+        "f1": 614,
+        "t": "0:20.09–0:20.49",
+        "que_se_ve": "asomado a la borda",
+        "origen": "≈ 15:26",
+        "camara": "en mano",
+        "zoom_velocidad": "—",
+        "texto": "—",
+        "motion_graphic": "—",
+        "sfx": "—",
+        "musica": "sigue",
+        "voz": "«un barco (f605)»"
+      },
+      {
+        "f0": 615,
+        "f1": 627,
+        "t": "0:20.52–0:20.92",
+        "que_se_ve": "Iván en proa con barco al fondo",
+        "origen": "≈ 16:14",
+        "camara": "en mano",
+        "zoom_velocidad": "—",
+        "texto": "—",
+        "motion_graphic": "—",
+        "sfx": "—",
+        "musica": "sigue",
+        "voz": "«que viaja (f616) por (f625)»"
+      },
+      {
+        "f0": 628,
+        "f1": 650,
+        "t": "0:20.95–0:21.69",
+        "que_se_ve": "casa en la orilla",
+        "origen": "≈ 15:42",
+        "camara": "fija",
+        "zoom_velocidad": "—",
+        "texto": "—",
+        "motion_graphic": "—",
+        "sfx": "—",
+        "musica": "sigue",
+        "voz": "«uno de los lugares (f640) más (f649)»"
+      },
+      {
+        "f0": 651,
+        "f1": 686,
+        "t": "0:21.72–0:22.89",
+        "que_se_ve": "perfil mirando el atardecer desde la lancha",
+        "origen": "28:48",
+        "camara": "selfie",
+        "zoom_velocidad": "—",
+        "texto": "—",
+        "motion_graphic": "—",
+        "sfx": "—",
+        "musica": "sigue",
+        "voz": "«increíbles (f656) del mundo (f674)»"
+      },
+      {
+        "f0": 687,
+        "f1": 756,
+        "t": "0:22.92–0:25.22",
+        "que_se_ve": "busto",
+        "origen": "casa",
+        "camara": "fija",
+        "zoom_velocidad": "rampa lineal ×1,00→×1,112 en ≈ 1,3 s (≈ +8,6 %/s, f688–f728) y salto atrás a ×0,972 en f729, justo en «Empieza» (medido)",
+        "texto": "—",
+        "motion_graphic": "—",
+        "sfx": "—",
+        "musica": "sigue (−41 dB)",
+        "voz": "«No queda otra (f698) que comprobarlo (f708). Empieza (f729) la aventurilla (f743)»"
+      },
+      {
+        "f0": 757,
+        "f1": 763,
+        "t": "0:25.26–0:25.46",
+        "que_se_ve": "una bola de papel blanca entra y tapa la cara (f757–f760); el papel se rasga y abre el dibujo (f761–f763)",
+        "origen": "transición construida",
+        "camara": "—",
+        "zoom_velocidad": "—",
+        "texto": "—",
+        "motion_graphic": "bola de papel + rasgado (7 f)",
+        "sfx": "no confirmado",
+        "musica": "arranca el jingle",
+        "voz": "«Las (f759)»"
+      },
+      {
+        "f0": 764,
+        "f1": 831,
+        "t": "0:25.49–0:27.73",
+        "que_se_ve": "dibujo a línea sobre acuarela azul: proa del barco y el personaje con los brazos abiertos (pose de Titanic); el logo se escribe arriba a la izquierda",
+        "origen": "animación 2D (sello del canal)",
+        "camara": "—",
+        "zoom_velocidad": "fijo",
+        "texto": "«las a…» f768 → «aventurillas de» f775 → «aventurillas de ruben» completo f790; se desvanece f826–f831",
+        "motion_graphic": "cabecera, viñeta 1",
+        "sfx": "—",
+        "musica": "jingle (resto −26/−30 dB)",
+        "voz": "cantado: «aventurillas (f776) de Rubén (f803)… Edición (f814)»"
+      },
+      {
+        "f0": 832,
+        "f1": 926,
+        "t": "0:27.76–0:30.90",
+        "que_se_ve": "un marco de hojas de jungla entra desde los bordes (f832–f846); viñeta 2: proa en verde con cocodrilo a la izquierda, serpiente a la derecha y «EDICIÓN CRUCEROS» escrito a lo largo del casco",
+        "origen": "animación 2D",
+        "camara": "—",
+        "zoom_velocidad": "fijo",
+        "texto": "«EDICIÓN / CRUCEROS» manuscrito en curva",
+        "motion_graphic": "cabecera, viñeta 2",
+        "sfx": "—",
+        "musica": "jingle; 0:30 casi silencio (−45/−49 dB)",
+        "voz": "cantado: «Crucero (f839)»"
+      },
+      {
+        "f0": 927,
+        "f1": 930,
+        "t": "0:30.93–0:31.03",
+        "que_se_ve": "el papel se arruga en bola",
+        "origen": "transición construida (el detector la ve como transición de 0,1 s)",
+        "camara": "—",
+        "zoom_velocidad": "—",
+        "texto": "—",
+        "motion_graphic": "papel arrugado (4 f)",
+        "sfx": "ninguno confirmado",
+        "musica": "—",
+        "voz": "J-cut: la voz en off «El (f915) vídeo (f931)…» arranca 12 f antes"
+      },
+      {
+        "f0": 931,
+        "f1": 951,
+        "t": "0:31.06–0:31.73",
+        "que_se_ve": "la bola de papel sale volando sobre el ala del avión",
+        "origen": "vuelo a Pucallpa",
+        "camara": "ventanilla",
+        "zoom_velocidad": "—",
+        "texto": "—",
+        "motion_graphic": "bola de papel saliendo",
+        "sfx": "—",
+        "musica": "nueva cama",
+        "voz": "«lo íbamos a empezar (f952)…»"
+      }
+    ],
+    "titulo_cabecera": {
+      "como_se_construye": "Dos piezas. (1) TÍTULO del vídeo dentro del tráiler (f284–f337, 1,8 s): ver animaciones_explicativas #2; sube por detrás de la persona en 8 f a la vez que el busto da un punch +9 % en 6 f, y sale por corte. (2) CABECERA DE SERIE dibujada (f757–f930, 5,8 s): bola de papel que tapa la cara (4 f) → rasgado que abre el dibujo (3 f) → viñeta 1 con la proa y el personaje en pose de Titanic, el logo «las aventurillas de ruben» se escribe a trazos en 23 f (f768–f790) y se desvanece en 6 f (f826–f831) → un marco de jungla entra desde los bordes en 15 f (f832–f846) → viñeta 2 «EDICIÓN CRUCEROS» con cocodrilo y serpiente (f847–f926) → papel arrugado en bola (f927–f930) que sale volando sobre el plano siguiente. Rubén CANTA el nombre (jingle propio). Hecha a mano (animación 2D con línea temblorosa), no plantilla.",
+      "fuente": "logo «aventurillas»: rotulación a mano — Cormorant Garamond 500 (−1,609) · Bodoni Moda 500 (−2,041) · Libre Baskerville 400 (−2,091), sin parecido (no está en la base); «EDICIÓN CRUCEROS»: mayúsculas lineales dibujadas; TITANIC: League Gothic (−0,594) · Bebas Neue (−0,644) · Anton (−0,666), a ojo Anton",
+      "color": "logo #1E2A3A sobre acuarela azul #78BDD2–#BFE0EA; viñeta 2 verde #8FCFB0 aprox.; TITANIC #E40234",
+      "duracion_f": "título 54 · cabecera 174",
+      "sonido": "jingle cantado por él (resto −26/−30 dB); ningún whoosh confirmado en las transiciones de papel"
+    }
+  },
+  "motion_graphics": [
+    {
+      "tipo": "tarjeta de noticia",
+      "apariciones": [
+        {
+          "t": "0:06.67–0:08.58",
+          "frase": "«se ha hundido»"
+        },
+        {
+          "t": "6:46.50–≈6:50",
+          "frase": "«Motonave El Zafiro se hunde…» (la lee Iván del móvil)",
+          "medida": "entrada ×1,28 en 0,4 s + deriva +2 %/s hasta ×1,35 a los 3,3 s"
+        }
+      ],
+      "curva": "pop con frenada + deriva lenta",
+      "posicion": "centrada",
+      "fondo": "gris liso #E6E6E6 en la intro; blanco en 6:46",
+      "sfx": "ninguno confirmado",
+      "cuando_si": "cuando se cita un hecho real verificable (prensa)"
+    },
+    {
+      "tipo": "título gigante por detrás de la persona",
+      "apariciones": [
+        {
+          "t": "0:09.48–0:11.25"
+        }
+      ],
+      "ver": "intro.animaciones_explicativas #2",
+      "cuando_si": "el nombre del vídeo, una vez, dentro del tráiler"
+    },
+    {
+      "tipo": "cabecera dibujada de serie",
+      "apariciones": [
+        {
+          "t": "0:25.26–0:31.03"
+        }
+      ],
+      "ver": "intro.titulo_cabecera"
+    },
+    {
+      "tipo": "lista de misiones (iconos en círculo)",
+      "que_es": "círculos blancos con borde verde y emoji dentro, en columna pegada al borde derecho (animales) o izquierdo (comidas)",
+      "apariciones": [
+        {
+          "t": "4:25.13 delfín rosa · 4:25.93 loro · 4:26.53 pájaro azul",
+          "frase": "«Primera actividad, encontrar tres animales exóticos» (4:23.7–4:26.3)"
+        },
+        {
+          "t": "4:44.35 chocolate · ≈4:47 pez diablo (emoji 😈) · ≈4:53 paiche",
+          "frase": "cada plato al nombrarlo («chocolate» 4:44.7, «pez diablo» 4:48.4, «paiche» 4:54.0)"
+        }
+      ],
+      "entrada": "desliza desde el borde y crece, ≈ 0,1–0,2 s, uno cada 0,6–0,8 s en animales y en su palabra en comidas (el icono entra 0,3–0,4 s antes de la palabra)",
+      "salida": "por corte",
+      "posicion": "x≈95 % (animales) / x≈4 % (comidas), y 20–55 %",
+      "tamano": "círculo ≈ 12 % del alto",
+      "color": "#FFFFFF con borde #3BB54A aprox.",
+      "sfx": "POP confirmado con el chocolate (4:44.35); en los demás, dudoso",
+      "cuando_si": "al presentar las reglas del juego"
+    },
+    {
+      "tipo": "misión cumplida (destello verde + contador)",
+      "que_es": "tinte verde a pantalla completa que sube y baja, con el icono de la misión en un círculo grande con borde verde y «comidas 1/3» / «animales 1/3» debajo",
+      "apariciones": [
+        {
+          "t": "11:12.14",
+          "texto": "comidas 1/3 (chocolate)"
+        },
+        {
+          "t": "16:58.65",
+          "texto": "animales 1/3 (delfín)"
+        },
+        {
+          "t": "21:33.66",
+          "texto": "animales 2/3 (loro)"
+        },
+        {
+          "t": "30:27.79",
+          "texto": "comidas 2/3 (pez diablo; el icono ya está desde 30:27.66)"
+        },
+        {
+          "t": "31:43.00",
+          "texto": "comidas 3/3 (paiche)"
+        }
+      ],
+      "entrada": "tinte verde sube en ≈ 4 f y el icono hace pop a la vez (11:12.14 → máximo 11:12.41)",
+      "salida": "el tinte baja en ≈ 15–18 f (fuera en 11:12.81); el icono y el texto se quedan ≈ 2,5–3 s y se van con fundido o corte",
+      "posicion": "icono junto a la cabeza de quien lo logra (x 45–55 %, y 35–50 %)",
+      "tamano": "círculo ≈ 27 % del alto; texto ≈ 3,5 %",
+      "color": "tinte #7CFF7C a ≈ 40 % de opacidad; borde #3BB54A; texto #FFFFFF",
+      "fuente": "«comidas 1/3»: Work Sans 600 (+0,535) · Archivo 600 (+0,520) · Figtree 600 (+0,384)",
+      "sfx": "DING en las 5 (confirmado en 11:12.14, 16:58.4 con whoosh, 21:33.65, 30:27.8, 31:42.9)",
+      "por_minuto": "5 en 33 min, uno cada 2–8 min",
+      "cuando_si": "siempre que se cumple una misión, en el mismo segundo en que se ve o se prueba"
+    },
+    {
+      "tipo": "barra de progreso del viaje",
+      "que_es": "píldora roja redondeada abajo, emoji de ciudad a la derecha (Iquitos) y de pueblo a la izquierda (Pucallpa), tramo verde con barquito que avanza",
+      "apariciones": [
+        {
+          "t": "14:48.00–≈14:59",
+          "frase": "«inauguramos barrita de progreso» (14:47.8) / «Aquí está Iquitos» (14:51.2) / «Aquí está Pucallpa» (14:53.2)",
+          "detalle": "nace como punto rojo en 14:48.0 y crece de izquierda a derecha hasta 14:49.9 (1,9 s, siguiendo la mano que la «dibuja» agachado); emoji de ciudad 14:50.8 (0,4 s antes de «Iquitos»); emoji de pueblo y tramo verde 14:53.4–14:54.6"
+        },
+        {
+          "t": "17:45–17:57",
+          "frase": "off «ni el 5 % del recorrido»",
+          "detalle": "fija a través de 5 planos de b-roll"
+        },
+        {
+          "t": "29:06.0–29:17.7",
+          "frase": "«después de 28 horas»",
+          "detalle": "crece en 29:06.0–29:06.6; el verde avanza del ≈ 5 % al ≈ 90 % en 29:08.4–29:11.0 (2,6 s, lineal); fija a través de 4 jump cuts"
+        }
+      ],
+      "posicion": "x 12–88 %, y≈85–87 %",
+      "tamano": "grosor ≈ 2,5 % del alto",
+      "color": "#E8434F rojo, #4CD964 verde aprox.",
+      "sfx": "no confirmado (candidato #210 ding 14:51.62 a 0,8 s del emoji: dudas)",
+      "cuando_si": "3 veces: presentarla, cuando el dato duele, al llegar"
+    },
+    {
+      "tipo": "pantalla partida con cifra",
+      "apariciones": [
+        {
+          "t": "4:11.58–4:16.0",
+          "frase": "«Lo mínimo son tres (f7552), lo máximo creo que son doce (f7591)»",
+          "detalle": "panel izquierdo (otro plano del barco) sube desde abajo en 4:11.58–4:11.89; «3 días» de golpe 4:12.19 (5 f después de «tres»); panel derecho (hamaca) sube 4:12.49–4:12.89; «12 días» 4:13.29 (1 f después de «doce»)"
+        }
+      ],
+      "fuente": "«3 días»: Archivo 600 (+0,643) · Inter 600 (+0,531) · Roboto 500 (+0,509)",
+      "tamano": "texto ≈ 9 % del alto",
+      "color": "#FFFFFF con sombra",
+      "sfx": "ninguno confirmado"
+    },
+    {
+      "tipo": "videollamada superpuesta",
+      "apariciones": [
+        {
+          "t": "1:58–2:36"
+        }
+      ],
+      "detalle": "grabación vertical del móvil con esquinas redondeadas a la izquierda (≈ 22 % del ancho) sobre el plano a cámara"
+    },
+    {
+      "tipo": "etiqueta de nombre pixel",
+      "apariciones": [
+        {
+          "t": "2:28 ricardo"
+        },
+        {
+          "t": "3:44 henry"
+        },
+        {
+          "t": "5:58.6 ivan"
+        },
+        {
+          "t": "7:32 pablo"
+        }
+      ],
+      "ver": "textos"
+    },
+    {
+      "tipo": "gags de recorte",
+      "apariciones": [
+        {
+          "t": "10:42.0–10:44.3",
+          "detalle": "escena de la película Titanic con las caras de Rubén e Iván pegadas, y luego el barco hundiéndose (10:44.3)"
+        },
+        {
+          "t": "17:24.59–17:26.25 (50 f)",
+          "detalle": "memorial: foto del bicho palo en marco sobre negro, «henry el bichopalo / 2026-2026» con palomas; zoom +1,3 % en 1,5 s; GOLPE confirmado en 17:24.75"
+        },
+        {
+          "t": "31:58.70–32:04.50",
+          "detalle": "logo «MINECRAFT JAVA EDITION» semitransparente con los créditos verdes del juego por detrás de la persona en 4 planos del recap («como dicen en los créditos finales de Minecraft», 31:58.5)"
+        }
+      ]
+    },
+    {
+      "tipo": "capturas reales",
+      "apariciones": [
+        {
+          "t": "11:34–12:16",
+          "detalle": "patrocinio: logo, web, tarjeta con cabeza recortada, «10€» verde (12:08.93, Roboto 700 +0,683, 17 % del alto, con ding), QR arriba a la izquierda 12:10–12:16"
+        },
+        {
+          "t": "20:10–20:30",
+          "detalle": "Google Maps en el móvil enseñado a cámara con insertos"
+        },
+        {
+          "t": "28:02–28:07",
+          "detalle": "captura vertical de Google Maps a la izquierda (≈ 22 % del ancho)"
+        },
+        {
+          "t": "27:45.0",
+          "detalle": "captura de la app de sueño superpuesta a la derecha («dos horas y cincuenta de sueño»)"
+        },
+        {
+          "t": "18:00–18:22",
+          "detalle": "Minecraft en la pantalla del móvil"
+        }
+      ]
+    },
+    {
+      "tipo": "viñeta oscura (resalte)",
+      "apariciones": [
+        {
+          "t": "16:46–16:50",
+          "detalle": "oscurece los bordes alrededor del delfín en el agua"
+        }
+      ]
+    },
+    {
+      "tipo": "gráficos paródicos del «montaje épico»",
+      "apariciones": [
+        {
+          "t": "27:04.8–27:08.2",
+          "detalle": "«peru» rosa con borde blanco que se escribe letra a letra («p» 27:04.8, «pe» 27:05.0, «per» 27:05.1, «peru» 27:05.3) + gatito kawaii que hace pop 27:05.7; fundido encadenado 27:06.1"
+        },
+        {
+          "t": "27:11.10–27:11.70",
+          "detalle": "transición de mosaico (cuadrícula de copias del plano)"
+        },
+        {
+          "t": "27:17.97",
+          "detalle": "transición en forma de corazón (iris)"
+        },
+        {
+          "t": "27:19.84–27:20.21",
+          "detalle": "remolino/ondas"
+        },
+        {
+          "t": "27:21.64",
+          "detalle": "salpicadura"
+        },
+        {
+          "t": "27:21.91–27:22.84",
+          "detalle": "letras sueltas que vuelan y se ordenan en «GRACIAS!!» amarillo con contorno negro y resplandor"
+        }
+      ],
+      "intencion": "kitsch a propósito: todos los efectos «de plantilla» que no usa nunca, juntos en 20 s"
+    },
+    {
+      "tipo": "censura en mosaico",
+      "apariciones": [
+        {
+          "t": "0:12.21 cucaracha"
+        },
+        {
+          "t": "13:32 váter"
+        }
+      ]
+    },
+    {
+      "tipo": "pantalla final dibujada",
+      "apariciones": [
+        {
+          "t": "32:42.0–32:57.2"
+        }
+      ],
+      "ver": "cierre"
+    },
+    {
+      "tipo": "lo que NO hay",
+      "detalle": "ningún mapa animado ni de satélite, ninguna ruta dibujada, ni globo 3D, ni rótulo de lugar con chincheta, ni lower third, ni timelapse, ni dron"
+    }
+  ],
+  "cortes": {
+    "detector": {
+      "n_cortes": 558,
+      "cortes_por_minuto": 16.9,
+      "planos": 559,
+      "media_s": 3.54,
+      "mediana_s": 2.34,
+      "p10_p90_s": "0,93–7,97",
+      "menos_de_1s": "11 %",
+      "mas_de_5s": "18 %",
+      "max_s": 26.56,
+      "transiciones_con_duracion": "2 (0:30.93 papel; 27:16 fundido del montaje)",
+      "cortes_en_rafaga_microflash": 0
+    },
+    "conteo_a_ojo": {
+      "metodo": "candidatos de cortes.scd.txt (pico ≥ 2, ≥ 6× la mediana de ±12 f, a > 6 f de un corte del detector): 218 en todo el vídeo; verificados 83 con pares de fotogramas f−1/f (detalle/pares_min09-10.jpg, pares_min22-23.jpg, pares_min26-27.jpg) y hojas a 0,1 s (detalle/cuenta_600.jpg, t05_22m08.jpg, t06_27m03.jpg)",
+      "tramos": [
+        {
+          "minuto": "9:00–11:00",
+          "detector": 21,
+          "real": 37,
+          "nota": "+5 en la hamaca (9:27.50, 9:30.90, 9:43.22, 9:46.42, 9:49.36); +11 en la conversación de proa (10:08.01 ×1,22, 10:12.45 ×1,22, 10:18.69, 10:21.79, 10:22.36, 10:29.36 vuelta ×0,74, 10:38.47, 10:44.31, 10:47.88, 10:49.68, 10:56.46); 17 falsos en el selfie de la hamaca 9:10–9:14 y 3 en el gag Titanic"
+        },
+        {
+          "minuto": "22:00–24:00",
+          "detector": 33,
+          "real": 40,
+          "nota": "+3 en el mercado (22:10.66, 22:13.33, 22:13.57); +4 en la mesa (23:12.49, 23:13.96, 23:18.60 reencuadre, 23:33.41)"
+        },
+        {
+          "minuto": "26:00–28:00",
+          "detector": 20,
+          "real": 34,
+          "nota": "+4 jump cuts a cámara en la lancha (26:03.40, 26:08.87, 26:11.04, 26:16.28); +10 en el montaje épico y después (fundido 27:06.13, 27:08.29, mosaico 27:11.10, 27:11.77, corazón 27:17.97, 27:18.64, remolino 27:19.84–27:20.21, salpicadura 27:21.64, 27:34.49, 27:40.43)"
+        }
+      ],
+      "extrapolacion": "en los 6 min verificados el detector ve 74 de 111 planos (×1,5), pero esos minutos se eligieron por tener muchos candidatos; por tasa de acierto de candidatos (37 reales de 83 = 45 %) sobre los 218 candidatos: +97 ± 25",
+      "total_estimado": "≈ 655 planos (margen 620–690) → ≈ 19,9 cortes/min (18,8–20,9), plano medio ≈ 3,0 s",
+      "jump_cuts_ocultos": "≈ 95 (15 % de los cortes): en selfie y conversaciones a cámara, casi siempre con reencuadre ×1,2–1,35 entre frases"
+    },
+    "por_parte_detector": [
+      {
+        "parte": "tráiler 0:00–0:25.3",
+        "planos": 21,
+        "media_s": 1.21,
+        "mediana_s": 0.93,
+        "menos_1s": "57 %",
+        "planos_min": 49.6
+      },
+      {
+        "parte": "cabecera 0:25.3–0:30.9",
+        "planos": 1,
+        "media_s": 5.54
+      },
+      {
+        "parte": "previa 0:31–3:12.8",
+        "planos": 57,
+        "media_s": 2.84,
+        "mediana_s": 2.2,
+        "menos_1s": "4 %",
+        "planos_min": 21.1
+      },
+      {
+        "parte": "DÍA 1 3:12.8–9:15.5",
+        "planos": 97,
+        "media_s": 3.74,
+        "mediana_s": 2.24,
+        "menos_1s": "11 %",
+        "planos_min": 16.0
+      },
+      {
+        "parte": "DÍA 2 9:15.5–9:55.3",
+        "planos": 7,
+        "media_s": 5.68,
+        "mediana_s": 4.07,
+        "planos_min": 10.6
+      },
+      {
+        "parte": "DÍA 3 zarpe 9:55–11:29",
+        "planos": 12,
+        "media_s": 7.81,
+        "mediana_s": 6.26,
+        "planos_min": 7.7,
+        "nota": "contando reencuadres a ojo: ≈ 15 planos/min"
+      },
+      {
+        "parte": "patrocinio 11:29–12:21",
+        "planos": 17,
+        "media_s": 3.06,
+        "mediana_s": 2.4,
+        "planos_min": 19.6
+      },
+      {
+        "parte": "DÍA 3 resto 12:21–19:46.7",
+        "planos": 94,
+        "media_s": 4.74,
+        "mediana_s": 3.22,
+        "menos_1s": "2 %",
+        "planos_min": 12.7
+      },
+      {
+        "parte": "DÍA 4 19:46.7–25:39.5",
+        "planos": 111,
+        "media_s": 3.18,
+        "mediana_s": 2.2,
+        "menos_1s": "11 %",
+        "planos_min": 18.9
+      },
+      {
+        "parte": "DÍA 5 25:39.5–29:51.5",
+        "planos": 66,
+        "media_s": 3.82,
+        "mediana_s": 2.47,
+        "menos_1s": "14 %",
+        "planos_min": 15.7
+      },
+      {
+        "parte": "DÍA 6 29:51.5–31:50",
+        "planos": 46,
+        "media_s": 2.58,
+        "mediana_s": 1.97,
+        "menos_1s": "15 %",
+        "planos_min": 23.3
+      },
+      {
+        "parte": "recap 31:50–32:42",
+        "planos": 34,
+        "media_s": 1.53,
+        "mediana_s": 1.4,
+        "menos_1s": "26 %",
+        "planos_min": 39.2
+      }
+    ],
+    "rafagas": "18 grupos de ≥ 3 cortes en 2 s (detector): 4 en el tráiler (0:03.30, 0:11.28, 0:18.82, 0:20.95), 2 en el día 1 (5:04.77, 6:30.26), 2 en la noche de la lancha (24:48.15, 25:35.30), 4 en la llegada (29:02, 29:45, 29:47, 30:41), 6 en el día 6 y el recap (31:07–32:23). Media del cuerpo: 0,43/min, concentradas en llegadas y cierre. Material: siempre del propio viaje; nunca estrobo ni planos de 2–5 f (cortes_rafagas.json --rafagas --hasta 32: 0 cortes en ráfaga).",
+    "jump_cuts_al_hablar": "en conversaciones y selfies largos, un corte cada 3–6 s (≈ cada 10–15 palabras), casi siempre con cambio de escala ×1,22 (10:08.0 y 10:12.4) o vuelta ×0,74 (10:29.4); en selfies de móvil en mano sin cambio de escala (9:27–9:49)",
+    "j_l_cuts": "J-cut de voz en off antes del corte de imagen: 0:30.53 (12–16 f antes, sobre la cabecera), 22:12.8, 24:52; L-cut: la última palabra del directo pisa el plano siguiente; directo que entra sobre el último plano del off («Vale, está aquí el barco», 0:40.3). La voz en off empieza a menudo con el plano anterior aún en pantalla",
+    "match_cuts": "por acción: mano que tapa el objetivo → negro → nuevo día o lugar (9:14.4, 20:36.4); bola de papel que tapa la cara (0:25.26) y bola que sale volando sobre el avión (0:31.06)",
+    "insertos_cortos": "ráfaga de 3 planos de 10–28 f en el tráiler; planos de 13 f en la segunda ráfaga; en el cuerpo, insertos de 0,4–0,8 s solo en ráfagas de llegada (29:45–29:48)",
+    "velocidad": "sin cámara rápida ni lenta, sin congelados ni rebobinados",
+    "cortes_en_beat": "33 % de los 437 cortes con música caen en pulso (no se monta a ritmo salvo el montaje épico y el recap); 16 % de los cortes llevan acento de sonido (91 de 558)"
+  },
+  "zooms": [
+    {
+      "tipo": "rampa + punch en el busto de la intro",
+      "escala": "×1,00→×1,047 lineal en 1,0 s + ×1,047→×1,135 en 6 f (f288–f294) + relajación a ×1,116 en 1,4 s",
+      "disparador": "el título «TITANIC» que sube (f289)",
+      "centro": "cara",
+      "extras": "texto detrás de la persona",
+      "ejemplos": [
+        "0:08.61–0:11.24 (medido)"
+      ]
+    },
+    {
+      "tipo": "rampa y salto atrás",
+      "escala": "×1,00→×1,112 lineal en 1,3 s (≈ +8,6 %/s) y corte de escala a ×0,972",
+      "disparador": "«Empieza (f729) la aventurilla»: el salto atrás cae en la palabra",
+      "ejemplos": [
+        "0:22.95–0:25.22 (medido)"
+      ]
+    },
+    {
+      "tipo": "pop + deriva en tarjetas",
+      "escala": "×1,0→×1,24 (1 muestra de 0,1 s) →×1,54 (0,2 s) →×1,59 (0,3 s) y deriva a ×1,70 en 1,5 s (+6 %/s); en 6:46.5 ×1,28 en 0,4 s y +2 %/s hasta ×1,35",
+      "curva": "ease-out fuerte y luego lineal",
+      "ejemplos": [
+        "0:06.70–0:08.56",
+        "6:46.6–6:49.9"
+      ]
+    },
+    {
+      "tipo": "zoom lento bajo el rótulo de día",
+      "escala": "+6,9 a +7,9 % en 2,1–3,6 s (2,2–3,3 %/s), lineal; in en DÍA 1 y DÍA 4, out en DÍA 2",
+      "disparador": "el rótulo de día",
+      "ejemplos": [
+        "3:12.82–3:15.53 ×1,071 (2,7 %/s)",
+        "9:15.6–9:19.3 ×0,921 (−2,2 %/s)",
+        "19:46.75–19:48.9 ×1,069 (3,3 %/s)"
+      ]
+    },
+    {
+      "tipo": "reencuadre por corte (jump cut con escala)",
+      "escala": "×1,22 y vuelta (×0,74 ≈ de ×1,35 a ×1,0)",
+      "duracion": "lo que dura la frase (4–10 s)",
+      "disparador": "cambio de frase en conversación larga",
+      "por_minuto": "≈ 3–5 en las conversaciones de proa (min 10) y la mesa (min 23); casi 0 en el resto",
+      "ejemplos": [
+        "10:07.9–10:08.2 ×1,216",
+        "10:12.3–10:12.6 ×1,224",
+        "10:29.25–10:29.55 ×0,741"
+      ]
+    },
+    {
+      "tipo": "deriva casi fija en gag",
+      "escala": "+1,3 % en 1,5 s (0,85 %/s)",
+      "ejemplos": [
+        "17:24.6–17:26.2 memorial"
+      ]
+    },
+    {
+      "tipo": "zoom en el recap (dudoso)",
+      "escala": "×1,0→×1,72 en 2,3 s, continuo",
+      "ejemplos": [
+        "31:56.2–31:58.6 dormido en el barco"
+      ],
+      "nota": "puede ser el móvil acercándose a la cara; ver dudas"
+    },
+    {
+      "tipo": "lo que NO hay",
+      "detalle": "ni punch-in de remate ×2–3 (sí en el hotel aislado), ni zoom animado sobre quien habla en el cuerpo, ni cámara virtual, ni temblor añadido. Planos fijos medidos: 9:17.5 ×1,00, 23:18.5 ×1,00, 26:29.3 ×0,99, 26:40.3 ×0,99, 27:40.4 ×1,00 (variaciones < 1 %)"
+    }
+  ],
+  "textos": [
+    {
+      "tipo": "rótulo de día (capítulo)",
+      "fuente": "«DÍA 1»: Unbounded 700 (+0,244) · Figtree 800 (+0,210) · Space Grotesk 700 (+0,188) — no fiable; «SÁBADO»: Roboto 700 (+0,390) · Space Grotesk 700 (+0,384) · Bricolage Grotesque 800 (+0,362). Juicio: grotesca negrita ancha tipo Montserrat Bold / Figtree ExtraBold",
+      "peso": "bold / extrabold",
+      "mayusculas": "sí en las dos primeras líneas; minúsculas en el comentario",
+      "color": "#FFFFFF; comentario #FFD21F aprox.",
+      "borde_sombra": "sombra suave, sin caja; raya blanca fina manuscrita bajo «DÍA N»",
+      "tamano": "DÍA 1: ≈ 12 % de mayúscula (16 % con la tilde), día de la semana ≈ 5,5 %; DÍA 2–6 más pequeños: «DÍA N» ≈ 9 %, día ≈ 4 %, comentario ≈ 3,5 %",
+      "posicion": "centrado (DÍA 1) o desplazado al hueco libre (DÍA 3 a la derecha, x≈78 %; DÍA 5 y 6 centrados en y≈35–45 %)",
+      "entrada": "«DÍA N» de golpe con el corte (3:12.80), la raya se dibuja de izquierda a derecha y el día de la semana funde en ≈ 0,5 s (SÁBADO visible 3:13.3–3:13.5)",
+      "salida": "por corte; en DÍA 3 y DÍA 5 aguanta sobre 2 planos",
+      "duracion": "DÍA 1 2,8 s (3:12.80–3:15.55); DÍA 3 ≈ 5 s; DÍA 5 ≈ 3 s; DÍA 6 ≈ 6 s sobre plano a cámara",
+      "ejemplos": [
+        "3:12.80 DÍA 1 / SÁBADO",
+        "9:55.30 DÍA 3 / LUNES / (x fin salimos)",
+        "25:39.5 DÍA 5 / MIÉRCOLES / (en el autobús del amazonas)",
+        "29:51.6 DÍA 6 / JUEVES / (llegamos por fin)"
+      ],
+      "fuente_comentario": "«(x fin salimos)»: Work Sans 600 (+0,342) · Inter 600 (+0,294) · DM Serif Display (+0,271)",
+      "recortes": [
+        "rotulos/recorte_dia1.png",
+        "rotulos/recorte_sabado.png",
+        "rotulos/recorte_xfin.png",
+        "rotulos/f_dia1.jpg",
+        "rotulos/f_dia3.jpg",
+        "rotulos/f_dia5.jpg",
+        "rotulos/f_dia6.jpg"
+      ]
+    },
+    {
+      "tipo": "título del vídeo",
+      "ver": "intro.animaciones_explicativas #2",
+      "recortes": [
+        "rotulos/recorte_titanic.png",
+        "rotulos/f_titanic.jpg"
+      ]
+    },
+    {
+      "tipo": "etiqueta de nombre (pixel, sobre la cabeza)",
+      "fuente": "«ivan»: Orbitron 700 (+0,373) · Plus Jakarta Sans 600 (+0,356) · Manrope 600 (+0,336); «pablo»: Bodoni Moda 500 (+0,057) · Libre Baskerville 400 (+0,022) · Caveat 600 (−0,010). Ninguna fiable: es una fuente pixel (tipo Pixelify Sans / Silkscreen) que no está en la base",
+      "peso": "regular",
+      "mayusculas": "minúsculas",
+      "color": "#FFFFFF sobre caja gris translúcida",
+      "tamano": "caja ≈ 7 % del alto; letra ≈ 4 %",
+      "posicion": "encima de la cabeza del personaje (ivan x≈73 %, y≈23 %; pablo x≈40 %, y≈33 %)",
+      "entrada": "de golpe",
+      "salida": "de golpe",
+      "duracion": "2–4 s",
+      "por_minuto": "4 en el vídeo (ricardo 2:28, henry 3:44, ivan 5:58, pablo 7:32), solo en la primera aparición",
+      "ejemplos": [
+        "5:58.6 ivan",
+        "7:32 pablo"
+      ],
+      "recortes": [
+        "rotulos/recorte_ivan.png",
+        "rotulos/recorte_pablo.png"
+      ]
+    },
+    {
+      "tipo": "subtítulos de terceros (color por hablante)",
+      "fuente": "«estás bien fuerte eh»: Roboto 500 (+0,691) · Inter 600 (+0,655) · Archivo 600 (+0,594); «mortal»: Inter 600 (+0,792) · Archivo 600 (+0,791) · Roboto 500 (+0,747). Juicio: Inter SemiBold / Arimo Bold",
+      "peso": "semibold",
+      "mayusculas": "minúsculas sin punto",
+      "color": "uno por hablante: cian (5:30), lima #C6FF77 (Ricardo 7:58), amarillo (vendedoras 21:10–21:24), blanco (Rubén 29:26), naranja #F1A50E (Iván 29:32)",
+      "borde_sombra": "sombra difusa oscura, sin caja",
+      "tamano": "≈ 4,5–5 % del alto",
+      "posicion": "abajo, y≈86–92 %, desplazado hacia quien habla",
+      "entrada": "de golpe por frase",
+      "duracion": "1,5–2,5 s por línea",
+      "por_minuto": "≈ 15 líneas en 33 min, en 6 tramos",
+      "ejemplos": [
+        "7:58 «estás bien fuerte eh» (lima)",
+        "21:10 «no hay carachama» (amarillo)",
+        "29:32 «mortal» (naranja)"
+      ],
+      "recortes": [
+        "rotulos/recorte_sub_lima.png",
+        "rotulos/recorte_sub_naranja.png"
+      ]
+    },
+    {
+      "tipo": "comentario / pensamiento grande",
+      "fuente": "«no entiendo nada»: Inter 600 (+0,751) · Roboto 500 (+0,710) · Inter Tight 600 (+0,649)",
+      "peso": "semibold",
+      "color": "#FFFFFF",
+      "borde_sombra": "sombra suave",
+      "tamano": "≈ 9 % del alto (x-height ≈ 6 %)",
+      "posicion": "arriba, centrado (y≈12–20 %)",
+      "entrada": "de golpe en su frase",
+      "salida": "por corte",
+      "duracion": "1–2,5 s",
+      "ejemplos": [
+        "13:46 «no entiendo nada» (el camarero habla y no se entiende)",
+        "4:12.19 «3 días» / 4:13.29 «12 días»",
+        "26:36 «ayuda» (pequeño, ≈ 3 %)"
+      ],
+      "recortes": [
+        "rotulos/recorte_no_entiendo.png",
+        "rotulos/recorte_tres_dias.png"
+      ]
+    },
+    {
+      "tipo": "contador de misión",
+      "ver": "motion_graphics «misión cumplida»",
+      "recortes": [
+        "rotulos/recorte_comidas13.png",
+        "rotulos/f_comidas13.jpg"
+      ]
+    },
+    {
+      "tipo": "cifra de dinero (patrocinio)",
+      "fuente": "«10€»: Roboto 700 (+0,683) · Archivo 600 (+0,611) · Roboto Condensed 700 (+0,609)",
+      "color": "#2FEC32",
+      "tamano": "≈ 17 % del alto",
+      "posicion": "izquierda, x≈17–37 %, y≈33–52 %",
+      "entrada": "de golpe en 12:08.93 (con ding 12:08.87)",
+      "duracion": "≈ 2 s",
+      "recortes": [
+        "rotulos/recorte_diez.png",
+        "rotulos/f_diez_euros.jpg"
+      ]
+    },
+    {
+      "tipo": "memorial (gag)",
+      "fuente": "Playfair Display 700 (+0,396) · DM Serif Display (+0,338) · Libre Baskerville 700 (+0,323)",
+      "color": "#FFFFFF sobre negro",
+      "tamano": "≈ 11 % del alto",
+      "duracion": "1,7 s (17:24.59–17:26.25)",
+      "recortes": [
+        "rotulos/recorte_memorial.png",
+        "rotulos/f_memorial.jpg"
+      ]
+    },
+    {
+      "tipo": "letras paródicas del montaje",
+      "fuente": "«peru»: Montserrat 600 (+0,357) · Space Grotesk 700 (+0,334) · Plus Jakarta Sans 800 (+0,298) — no fiable, a ojo redondeada tipo Chewy/Fredoka con contorno blanco; «GRACIAS!!»: Caveat 600 (−0,154) · Playfair Display 700 (−0,281) · Special Elite (−0,290) — sin parecido, a ojo cómic tipo Bangers con contorno negro y resplandor",
+      "color": "«peru» #E1628F; «GRACIAS!!» #F7EC33",
+      "tamano": "«peru» ≈ 26 %; «GRACIAS!!» ≈ 13 %",
+      "recortes": [
+        "rotulos/recorte_peru.png",
+        "rotulos/recorte_gracias.png"
+      ]
+    },
+    {
+      "tipo": "cabecera y pantalla final",
+      "fuente": "rotulación a mano (ver intro.titulo_cabecera y cierre)",
+      "recortes": [
+        "rotulos/recorte_aventurillas.png",
+        "rotulos/f_cabecera.jpg",
+        "rotulos/f_edicion.jpg",
+        "rotulos/f_final.jpg"
+      ]
+    },
+    {
+      "tipo": "lo que NO hay",
+      "detalle": "ni rótulo de lugar, ni palabra-golpe, ni texto hablado palabra a palabra, ni cifras de viaje rotuladas (salvo «3 días / 12 días»), ni subtítulos continuos. El énfasis lo dan el destello de color y el gag gráfico, no el tamaño de letra"
+    }
+  ],
+  "subtitulos": {
+    "subtitulan_todo": false,
+    "a_quien": "a locales con acento o lejos del micro (camarero 5:30, Ricardo 7:58, vendedoras 21:10–21:24) y a los dos con ruido de noche en Nauta (29:26–29:33); patrocinio («enlace en la descripción», 12:14) y comentario («perfecto muchas gracias :)», 13:48)",
+    "cuanto": "≈ 15 líneas, ≈ 30 s en 33 min (1,5 %)",
+    "lo_que_no": "la lancha con motor y pollitos (25:44–28:45) no se subtitula: lo resuelve hablando con el micro de corbata en la mano",
+    "estilo": "abajo, una línea, Inter/Roboto semibold ≈ 4,5–5 % del alto, sombra sin caja, un color por hablante"
+  },
+  "sfx": {
+    "confirmados": [
+      {
+        "t": "4:44.35",
+        "tipo": "pop (mancha corta y compacta justo en la línea, candidato #132 «pop» 1,0)",
+        "acompaña_a": "icono del chocolate que entra en la lista de comidas",
+        "respecto_voz_db": -6.3
+      },
+      {
+        "t": "11:12.14",
+        "tipo": "ding/campanilla de logro (rayas horizontales que empiezan en la línea y se apagan)",
+        "acompaña_a": "destello verde «comidas 1/3» (11:12.14)",
+        "respecto_voz_db": -7
+      },
+      {
+        "t": "12:08.87",
+        "tipo": "ding/caja registradora (raya horizontal larga que nace en la línea, #193)",
+        "acompaña_a": "«10€» verde del patrocinio (12:08.93)",
+        "respecto_voz_db": -2.5
+      },
+      {
+        "t": "16:58.40",
+        "tipo": "whoosh que sube hacia la línea + ding (rayas horizontales después)",
+        "acompaña_a": "destello verde «animales 1/3» (16:58.65)",
+        "respecto_voz_db": 0
+      },
+      {
+        "t": "17:24.75",
+        "tipo": "golpe/impacto (raya vertical ancha y aislada en silencio, #222–#223)",
+        "acompaña_a": "corte al memorial de Henry (17:24.59)",
+        "respecto_voz_db": 11.6
+      },
+      {
+        "t": "21:33.65",
+        "tipo": "ding (rayas horizontales que nacen en la línea, #246)",
+        "acompaña_a": "destello verde «animales 2/3» (21:33.66)",
+        "respecto_voz_db": -9.4
+      },
+      {
+        "t": "30:27.80",
+        "tipo": "ding (rayas horizontales a −0,6 s de la línea de la hoja ampliada de 30:28.40)",
+        "acompaña_a": "destello verde «comidas 2/3» (30:27.79)",
+        "respecto_voz_db": null
+      },
+      {
+        "t": "31:42.86",
+        "tipo": "ding (rayas horizontales; candidato #328 «notificación» +12,7 dB)",
+        "acompaña_a": "destello verde «comidas 3/3» (31:43.00)",
+        "respecto_voz_db": 12.7
+      }
+    ],
+    "por_minuto": "0,24/min confirmados (8 en 33 min); 0 en la intro",
+    "reglas": [
+      "Misión cumplida = destello verde + ding, siempre (5 de 5); el ding suena 0–0,25 s antes o con el destello.",
+      "Dinero que aparece en pantalla = ding de caja (1 de 1).",
+      "Gag de muerte/memorial = golpe seco en silencio.",
+      "Rótulos de día, barra de progreso, título, tarjetas y transiciones de papel: sin efecto confirmado (los acompaña la música o el corte de música)."
+    ],
+    "candidatos_descartados": [
+      "0:14.71, 0:15.21, 0:15.46 (#1–#3): golpe de viento del sonido directo del clip-prueba",
+      "0:26.01, 0:26.04 (#4–#5): notas del jingle de la cabecera",
+      "0:31.54, 0:43.62, 0:44.69: ambiente del avión y del puerto",
+      "1:59.73–3:04.34 (#10–#95, 86 candidatos): voz de David por la videollamada, cuerdas, mosquitera y música a compás (bandas verticales repetidas en sfx_hoja_00 y 03)",
+      "4:09.63–4:11.96 (#121–#127): golpes de música bajo el plano a cámara",
+      "5:23–6:55: ruido de puerto, voces y cubiertos",
+      "27:05.01 (#299): arranque de la música del montaje tras 0,8 s de silencio, no efecto",
+      "27:17.97–27:23.35 (#301–#302): golpes de la música del montaje a compás (rayas verticales repetidas cada ≈ 0,45 s)",
+      "32:42.6: entra la música de la pantalla final"
+    ]
+  },
+  "musica": {
+    "proporcion": "75 % del vídeo con música; habla el 88 %",
+    "primera_musica_s": 0,
+    "voz_menos_musica_db": "mediana 11,4 dB (voz media −25,1 dB). Tráiler ≈ 15 dB (0:00–0:14) y ≈ 17 dB (0:19–0:25); previa 18,3 dB (0:48–1:24); conversaciones 8–15 dB; tormenta 1,8 dB (18:02–19:54, −26,2 dB, la más alta con voz); perder el barco 4,4 dB (21:53–23:03); atardecer final 3,7 dB (28:47–29:53); cierre 11,6 dB (30:00–32:57)",
+    "sin_voz": "montaje épico −16 dB (27:05–27:23, 9 dB por ENCIMA de la voz media); respiro antes de DÍA 3 −27/−28 dB (9:52–10:04, 12 s); atardecer −34 dB (23:47–23:59); bombilla −31 dB (8:47–9:05)",
+    "tramos": "39 tramos; largos: 0:00–0:41, 7:26–9:14, 9:55–13:41 (zarpe, patrocinio, tour), 14:59–16:21, 18:02–19:54 (tormenta), 21:53–23:03, 26:28–28:05 (montaje), 28:47–29:53, 30:00–32:57",
+    "cambios_de_pista": "9:06 (bombilla → noche), 26:38, 27:02 (montaje épico), 27:22 (fin del montaje), 31:12, 31:26, 31:44 (recap); además pista propia en tráiler, jingle de cabecera y una cama nueva al entrar cada día",
+    "silencios_intencionados": [
+      "0:41–0:48: compra del billete en directo, sin música",
+      "1:24–2:24: videollamada y Ricardo, sin música (60 s)",
+      "14:32–14:59: presentación de la barra de progreso",
+      "22:15–22:18: «Perdimos el Titanic» con la voz retirada sobre el barco que se va (resto −18/−20 dB es el ambiente del río)",
+      "23:03–23:47: comida en la mesa",
+      "28:05–28:29: pollos y picor en la lancha",
+      "29:39.7–29:41.3: negro de 1,6 s antes del hotel"
+    ],
+    "a_ritmo_de_cortes": "no en el cuerpo (33 % de cortes en pulso); sí en el montaje épico (27:05–27:23) y en el recap final (34 planos a 1,4 s)",
+    "lufs": "−19,0 LUFS integrado, LRA 11,0, pico +0,7 dBTP (sonoridad.json)",
+    "directo_vs_musica": "en la acción con locales (taquilla, mercado, Contamana) la música se quita o baja a 15–18 dB; en la acción sin diálogo (tormenta, perder el barco) sube a 2–5 dB bajo la voz"
+  },
+  "broll": {
+    "proporcion_sobre_voz": "≈ 30 % del tiempo hablado (dato de la v1 por muestreo de 11 min, no re-medido entero; comprobado a la vista en las hojas de los min 1, 25 y 31–32): bimodal, 100 % cubierto bajo la voz en off y 5–15 % cuando habla a cámara",
+    "de_donde": "≈ 95 % del mismo viaje y casi siempre del mismo momento que se narra; reutilizado en el tráiler (14 clips) y en el recap (34 planos); archivo: noticia de prensa (0:06, 6:46), escena de la película Titanic (10:42), logo y créditos de Minecraft (31:58), capturas de Google Maps, app de sueño y web del patrocinador",
+    "duracion_tipica": "1,5–3 s bajo voz en off (un plano por objeto o verbo: hamaca / tuppers / gorro 1:05–1:09); 0,4–1,2 s en el tráiler",
+    "vuelta_a_camara": "por corte seco, con la primera palabra del directo sonando ya sobre el último plano del off (0:40.3)"
+  },
+  "voz_en_off": {
+    "uso": "≈ 26 bloques, ≈ 16 % del vídeo (cifra de la v1; comprobados aquí 6 bloques: 0:30.5–0:40.3, 1:00–1:19.3, 5:17–5:24, 17:37–17:56, 24:52–25:43, 31:50–32:41). Funciones: elipsis de esperas («cuatro horas de retraso» 5:17; «ocho horas esperando» 7:48), puente («Y eso hicimos» 8:38), giro («Pues no… ni el 5 %» 17:46; «Y sin darnos cuenta… perdimos el Titanic» 22:12), anticipo («Lo que no sabíamos en ese momento…» 22:45), lo que no se pudo grabar («extremadamente difícil de grabar» 24:53) y reflexión final (52 s)",
+    "guion": "pasado, primera persona del plural, coloquial; fórmulas «Así que…», «Y nada…», «Por suerte…», «Lo que no sabíamos…»; autocorrección («surcando los mares, o mejor dicho, los ríos» 17:38), pregunta + negación («¿no? Pues no» 17:41), comparaciones («el barco de las anchoas», «2 centímetros de eslora») y cifras concretas (4 h, 8 h, 5 %, 20 h, 28 h)",
+    "mezcla": "al nivel del directo (≈ −22/−25 dB), música 12–18 dB por debajo; en el cierre la música sube ≈ 8 dB en la última frase (resto de −42 a −33 dB en 32:20–32:37)"
+  },
+  "transiciones": [
+    {
+      "tipo": "corte seco",
+      "veces": "≈ 98 % de los cortes"
+    },
+    {
+      "tipo": "bola de papel / papel rasgado / papel arrugado",
+      "t": "0:25.26–0:25.46 (7 f) y 0:30.93–0:31.06 (4 f + bola que sale)",
+      "donde": "entrada y salida de la cabecera",
+      "sfx": "ninguno confirmado"
+    },
+    {
+      "tipo": "marco de jungla que entra desde los bordes",
+      "t": "0:27.76–0:28.23 (15 f)",
+      "donde": "entre las 2 viñetas de la cabecera"
+    },
+    {
+      "tipo": "negro hecho en cámara (mano que tapa el objetivo) o corte a negro",
+      "t": "9:14.4–9:15.4, 20:36.4–20:38.0, 29:39.7–29:41.3",
+      "donde": "cierre de jornada / cambio de lugar"
+    },
+    {
+      "tipo": "destello verde de misión",
+      "t": "11:12.14, 16:58.65, 21:33.66, 30:27.79, 31:43.00",
+      "duracion_f": "≈ 4 de subida + 15–18 de bajada",
+      "donde": "misión cumplida",
+      "sfx": "ding"
+    },
+    {
+      "tipo": "paneles que suben desde abajo",
+      "t": "4:11.58 y 4:12.49 (≈ 10–12 f cada uno)",
+      "donde": "pantalla partida «3 días | 12 días»"
+    },
+    {
+      "tipo": "transiciones de plantilla paródicas",
+      "t": "27:06.13 fundido, 27:11.10 mosaico, 27:17.97 corazón, 27:19.84 remolino, 27:21.64 salpicadura",
+      "donde": "solo dentro del montaje épico (20 s)"
+    },
+    {
+      "resumen": "≈ 15 transiciones construidas en 33 min, 5 de ellas como chiste en un solo bloque de 20 s; fuera del montaje y la cabecera, solo negros de cámara y el destello"
+    }
+  ],
+  "cierre": {
+    "como_acaba": "Tras tachar la última comida (31:43), voz en off de 52 s («Y hasta aquí llegó este largo viaje…», 31:50.3) sobre 34 planos de todos los días (mediana 1,4 s, 3 ráfagas); cita los créditos finales de Minecraft con su logo por detrás de la persona (31:58.7–32:04.5); la música sube en «Valió toda la pena cada maldito segundo» (32:33.8); remata «Iquitos fueron los amigos que hicimos por el camino» (32:37.5) sobre el abrazo con Iván (32:38–32:41).",
+    "cta": "Suscripción a mitad, pegada al montaje épico: «Si queréis más montajes como esos podéis suscribir, estamos ya cerca del millón» (27:26). Al final, solo gancho al siguiente vídeo con la misión abierta: «nos queda un animal por ver… lo veremos en el próximo vídeo… de becarios en la isla de los monos» (32:42–32:54).",
+    "pantalla_final": "32:42.0–32:57.2 (15,2 s): fondo crema, dibujo a línea de la gallina con los brazos en alto sosteniendo una flecha verde «mira este video» que apunta a la izquierda; la flecha se da la vuelta y vuelve 3 veces (32:44.0, 32:48.5, 32:53.5), cada ≈ 4,5–5 s; su voz sigue hasta «Nos vemos, adiós» (32:54.0)."
+  },
+  "para_el_estilo": [
+    "VIAJE de varios días — rótulo «DÍA N / DÍA DE LA SEMANA / (comentario irónico en amarillo)» en cada jornada (6 en 33 min), 2–5 s, sobre un plano de paisaje con zoom lento LINEAL de 2,2–3,3 %/s (in o out), precedido por un negro de cámara de 1–1,6 s o por un respiro musical de 5–12 s. El comentario entre paréntesis resume la jornada («x fin salimos», «llegamos por fin»).",
+    "VIAJE — si no hay mapa, BARRA DE PROGRESO con emojis origen–vehículo–destino, abajo (y≈86 %), 3 veces de 11–12 s: presentarla una vez en cámara (crece 1,9 s siguiendo la mano), repetirla cuando el dato duele, y llenarla al llegar (del 5 al 90 % en 2,6 s, lineal); fija a través de los cortes.",
+    "VIAJE — misiones contables (3 × 3) presentadas con iconos en círculo que entran en su palabra; cada misión cumplida = destello verde a pantalla completa (≈ 4 f subida, 15–18 f bajada) + icono grande + «x/3» + ding, en el segundo exacto en que se ve o se prueba. Dejar una sin cerrar para el siguiente vídeo.",
+    "Intro de tráiler narrado (25 s): busto grabado después, troceado en 9 fragmentos, con un clip del viaje por palabra fuerte (14 clips de 10–108 f, mediana 0,9 s), guion qué es → peligro (tarjeta de prensa) → «la peor experiencia» → UN clip-prueba de 3–4 s con su sonido directo → pregunta → «no queda otra que comprobarlo», y cabecera dibujada de 5,8 s.",
+    "Título gigante por detrás de la persona (≥ 85 % del alto), sube en 8 f a la vez que el busto da un punch +9 % en 6 f; 1,8 s y fuera por corte.",
+    "Elipsis de horas y días con voz en off en pasado + cifra («cuatro horas de retraso», «ni el 5 %», «28 horas») sobre 5–21 planos de 1,5–3 s; nada de cámara rápida ni «X horas después».",
+    "Punto de giro dicho en off en una frase corta y sostenido en UN plano fijo de 2–3 s del problema (el barco que se va) con la voz retirada; el anticipo del siguiente problema («lo que no sabíamos…») a los 30 s, con 5 planos del futuro.",
+    "Un montaje paródico de ≈ 20 s con todas las transiciones de plantilla (corazón, remolino, mosaico, letras rosas, «GRACIAS!!» brillante) y música a −16 dB, anunciado hablando, como respiro tras el tramo de quejas y para colar el CTA de suscripción justo después.",
+    "Qué NO se hereda de CONTEXTO.md en este viaje: «6–12 gráficos en el primer minuto» (aquí 2 en el tráiler), «punch-in ×1,5 / ×2 / ×2,5 por corte» (aquí ninguno en el cuerpo; solo reencuadres ×1,22), «mapa de vuelo / mapa 3D» (ninguno: 0 mapas animados) y el mapa de satélite de la base (aquí Google Maps real, 2 veces)."
+  ],
+  "para_la_base": [
+    "Un efecto de sonido solo cuando el gráfico es una recompensa (ding con la misión cumplida, ding de caja con el dinero) o un gag (golpe con el memorial): 8 en 33 min; los rótulos y transiciones van sin efecto.",
+    "Etiqueta de nombre pequeña (≈ 4 % de letra, caja gris translúcida, fuente pixel) sobre la cabeza de cada personaje nuevo, solo en su primera aparición (4 en el vídeo).",
+    "Subtitular solo lo que no se entiende, con un color por hablante (lima, amarillo, blanco, naranja, cian), una línea, abajo, sin caja.",
+    "En conversaciones largas a cámara, jump cut cada 3–6 s con reencuadre ×1,22 y vuelta a ×1,0: el detector no ve el 40–60 % de estos cortes.",
+    "Cerrar con un recap de 30+ planos a ≈ 1,4 s sobre una reflexión en off de ≈ 50 s, con subida de música en la frase final, antes de la pantalla final.",
+    "Negro hecho en cámara (mano que tapa el objetivo) para cerrar jornada y saltar de día o de lugar."
+  ],
+  "para_el_motor": {
+    "nota": "nombres de personal/_plantilla/ajustes.py; niveles de música en el formato de MUSICA_NIVELES (dB de la cama respecto a la voz; estándar BASE −24, TRAILER −16, TITULO −6, SECCION −15, MAPA −19, SINVOZ −13, CIERRE −20) traducidos desde lo medido (voz media −25,1 dB)",
+    "ESCALAS": "[1.0, 1.0, 1.22, 1.0, 1.22, 1.0] — solo reencuadres ×1,22 en conversaciones largas; el resto ×1,0 (la base ×1,3–1,5 es demasiado para este viaje)",
+    "CAMBIO_CADA": "(3.0, 6.0) en conversación a cámara (base 2,48–4,48); en selfie de móvil no se fuerza",
+    "Z_FUERTE": "None en el cuerpo (0 punch de remate); 1.135 en 6 f solo con el título de la intro",
+    "CARA_Y": "sin medir (no se cambia)",
+    "SFX": "{\"titulo\": None, \"seccion\": None, \"mapa\": None, \"dato\": (\"ding\", 0.3) solo para dinero en pantalla, \"logro\": (\"ding\", 0.4) con el destello de misión, \"golpe\": (\"impacto\", 0.6) solo gag en silencio} — 8 efectos en 33 min",
+    "MUSICA_NIVELES": "{\"BASE\": -11.5, \"TRAILER\": -15.5, \"TITULO\": -8 (jingle cantado), \"SECCION\": -12 (cama nueva con cada DÍA, sin subida), \"SINVOZ\": -3 (respiros/atardeceres; +9 sobre la voz en el montaje paródico), \"CIERRE\": -11.6 y +8 en la frase final} en dB bajo la voz media; ACCION sin voz propia en el motor: −2 a −5 en tormenta y perder el barco",
+    "MUSICA_PROPORCION": "75 % del tiempo, 7 cambios de pista, se quita en directos con locales",
+    "LUFS": "medido −19,0 integrado (se mantiene −14 de la base)",
+    "ZOOM_RAMPA_INTRO": "(no existe en ajustes.py) +4,6–8,6 %/s lineal en el busto, rematado con punch +9 % en 6 f o salto atrás a ×0,97 en la palabra clave",
+    "ZOOM_LENTO_DIA": "(no existe en ajustes.py) 2,2–3,3 %/s lineal, in o out, bajo el rótulo de día",
+    "TARJETA": "(no existe en ajustes.py) pop ×1,0→×1,59 en 3 f + deriva +2–6 %/s"
+  },
+  "cambios_frente_a_v1": [
+    "Total de planos: la v1 daba 559 (detector); contados a 1 fotograma, ≈ 655 (620–690): ≈ 19,9 cortes/min y 3,0 s de media, no 16,9 y 3,54.",
+    "Mesa de 23:08–23:30: la v1 la daba como «plano largo sin tocar de 21 s»; tiene 4 jump cuts (23:12.49, 23:13.96, 23:18.60 con reencuadre, 23:33.41).",
+    "Voz−música: 11,4 dB de mediana (audio.json nuevo), no 11,7; cortes en pulso 33 %, no 31 %; tramos de música 39, no 37; habla el 88 %.",
+    "LUFS: −19,0 integrado, LRA 11,0, pico +0,7 dBTP (la v1 no lo daba).",
+    "Título TITANIC: ≥ 85 % del alto (se corta por abajo), no 68 %; color medido #E40234; sube en 8 f (0,27 s); el punch del busto es +9 % en 6 f desde una rampa de +4,6 %/s (la v1: +3 % y +9 % en 0,2 s, coherente).",
+    "Tarjeta de noticia: entrada ×1,24 en 0,1 s y ×1,59 en 0,3 s, deriva hasta ×1,70 (v1: ×1,43 en 0,1 s; difiere la primera muestra). En 6:46.5 la deriva llega a ×1,35 en 3,3 s (v1: ×1,29).",
+    "Ráfagas: la v1 hablaba de 2 ráfagas en el tráiler; el detector da 18 grupos de ≥ 3 cortes en 2 s (4 en el tráiler, 14 en el cuerpo, la mayoría en llegadas y recap).",
+    "Intro: 31,03 s hasta la salida de la cabecera (f930), tráiler f0–f756 (25,26 s) con 21 planos, no 22; cabecera 5,8 s con 2 viñetas (la v1 no describía el marco de jungla ni que el personaje está en pose de Titanic).",
+    "Efectos de sonido: la v1 los deducía de acentos; aquí 8 confirmados con espectrograma (5 dings de misión, ding del «10€», pop del chocolate, golpe del memorial). Los acentos del título (0:09.5, 0:10.4), de la cabecera (0:27.5) y del rótulo de día no se confirman.",
+    "Destellos verdes: tiempos afinados a fotograma (16:58.65, 21:33.66, 30:27.79, 31:43.00; la v1 daba 16:58.5, 21:34, 30:28, 31:44).",
+    "Nuevo: clasificación del tipo de intro, función de cada clip del tráiler y su proporción, sincronía palabra–corte en fotogramas, fuentes con fuente_rotulo.py y transiciones del montaje épico (mosaico, corazón, remolino, salpicadura)."
+  ],
+  "comparacion_con_hotel_aislado": {
+    "ficha": "2026-05-10_fui-al-hotel-mas-aislado-del-mundo.json",
+    "sello_fijo_de_ruben": [
+      "Habla desde el fotograma 0, sin saludo, y la cabecera dibujada «las aventurillas de ruben» con 2.ª viñeta «EDICIÓN <SERIE>» (aquí CRUCEROS, allí HOTELES) entra con papel roto y sale con papel arrugado DESPUÉS del gancho (aquí 0:25.3, allí 0:36.8); la canta él.",
+      "Voz en off en pasado como puente y reflexión final (≈ 16 % en los dos).",
+      "Marcador de progreso de juego: lista de misiones que se tacha (aquí iconos + destello verde + «x/3»; allí pergamino + logro de Minecraft).",
+      "Minecraft como guiño recurrente (aquí misión, móvil y créditos finales; allí el logro).",
+      "Subtítulos solo para lo que no se oye, con color por hablante.",
+      "Efectos de sonido escasísimos y solo en recompensas (8 aquí, 5 allí; dings en los dos).",
+      "CTA de suscripción dentro de un gag a mitad (aquí tras el montaje épico 27:26; allí una apuesta 13:29) y pantalla final de la gallina con «mira este video» (15,2 s aquí, 10 s allí).",
+      "Ningún mapa de satélite; corte seco ≈ 98 %."
+    ],
+    "cambia_en_un_viaje_de_varios_dias": [
+      "Los días se cuentan con 6 rótulos «DÍA N / día de la semana / (comentario)»; en el hotel (2 días) no hay ni uno: el cambio de día es un plano fijo de la habitación.",
+      "El trayecto ES el vídeo (el barco es el alojamiento), así que no hay mapa de ruta con la cabeza que avanza como en el hotel: lo sustituye una barra de progreso de 3 apariciones; los lugares se sitúan con Google Maps real.",
+      "El paso del tiempo largo se resume con cifras en off (4 h, 8 h, 5 %, 20 h, 28 h), negros de cámara entre jornadas y respiros musicales de 5–12 s antes del rótulo de día.",
+      "Intro de tráiler narrado (21 planos en 25 s, 2 gráficos) frente a la intro explicativa del hotel (7 animaciones en 32 s para PROBAR el aislamiento con cifras).",
+      "Más secundarios (Iván en todo el viaje, Ricardo, Pablo, David) → etiquetas de nombre pixel y conversaciones con reencuadres ×1,22; el hotel, en solitario, se sostenía con jump cuts de trípode y punch-in ×3 de remate (aquí ninguno).",
+      "Ritmo más alto: ≈ 19,9 cortes/min reales (hotel ≈ 15,9) y música en el 75 % (hotel 52 %), más alta respecto a la voz (11,4 dB frente a 17,1 dB).",
+      "Cierre con recap de 34 planos de todo el viaje (el hotel cerraba sobre el clímax sin recap)."
+    ]
+  },
+  "dudas": [
+    "Total de planos (655, margen 620–690) extrapolado de 83 candidatos verificados en 6 minutos; la tasa de acierto (45 %) puede cambiar en tramos de GoPro o noche.",
+    "Proporción de b-roll (≈ 30 %) y de voz en off (≈ 16 %, 26 bloques): cifras de la v1 por muestreo, solo comprobadas a la vista en 6 bloques; no re-medidas bloque a bloque.",
+    "Posibles efectos no confirmados: banda vertical ancha en ≈ 0:06.6 (entrada de la tarjeta), acentos en 0:09.4 y 0:10.4 (título TITANIC), 0:25.2 (bola de papel), entrada de rayas horizontales con DÍA 1 (3:12.9, candidato #96 3:13.76) y DÍA 2 (9:15.6; parece la música que entra), pop en 4:26.38 (0,15 s antes del tercer icono de animales), ding #210 en 14:51.62 (0,8 s después del emoji de Iquitos en la barra), golpe en 27:22.74 con «GRACIAS!!» (parece la música).",
+    "Nivel del ding de 30:27.80 respecto a la voz: no medido (no hay candidato en sfx.json ahí).",
+    "Hojas sfx revisadas: 00, 03 y 05 enteras + 36 instantes en espectrograma ampliado; las hojas 01, 02, 04 y 06–13 no se han mirado una a una (los candidatos de 7:07–8:29 con +6 a +18 dB parecen voces y golpes del directo, sin confirmar).",
+    "El zoom ×1,0→×1,72 en 31:56.2–31:58.6 (recap, dormido) puede ser el móvil acercándose a la cara y no zoom de edición.",
+    "Origen exacto de 4 clips del tráiler (sentado en la carga 0:03.3, asomado a la borda 0:20.1, Iván en proa 0:20.5, casa en la orilla 0:21.0): por parecido, no por fotograma idéntico.",
+    "Fuentes: las de DÍA (Unbounded 700 +0,244), TITANIC (negativas), etiquetas pixel, «peru», «GRACIAS!!», logo y pantalla final no son fiables (< 0,5); las fiables son subtítulos (Inter/Roboto +0,69–0,79), «no entiendo nada» (Inter 600 +0,751), «3 días» (Archivo 600 +0,643), «10€» (Roboto 700 +0,683) y «comidas 1/3» (Work Sans 600 +0,535).",
+    "No se recortaron los subtítulos amarillo (21:10) y blanco (29:26): los fotogramas sacados cayeron entre líneas.",
+    "El título dice 7 días pero hay rótulos de DÍA 1 a DÍA 6 (la previa en Pucallpa, 0:31–3:12, no lleva rótulo)."
+  ]
+}
