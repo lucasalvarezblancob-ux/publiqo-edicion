@@ -70,3 +70,13 @@ gráfico; texto en el fotograma de su palabra (±3 f).
 {"id": "G006", "fecha": "2026-11-24", "tipo": "regla", "nombre": "REGLAS_ESTUDIO",
  "regla_antes": "Sin estas reglas: transiciones construidas ≤ 5 contando destellos y manos; sin regla de material fuera de sitio, plantillas, elipsis, clímax ni promesa."}
 ```
+
+## G007 — Contorno liso de los textos y letras que no se tocan (2026-11-24)
+Banco de pruebas, revisión del acabado a tamaño real: el borde negro eran 12 copias de la letra en círculo, con esquinas en
+escalera y una raya gris en los huecos de la E y la R (la sombra se colaba entre el borde y el relleno). Ahora es un trazo
+real por debajo del relleno y una sola sombra. Las palabras-golpe llevan un espaciado de 2 veces lo que el contorno sale por
+fuera: antes los contornos de E-S-O se fundían en una mancha.
+```json
+{"id": "G007", "fecha": "2026-11-24", "tipo": "ajuste", "nombre": "CONTORNO", "antes": "sombras",
+ "regla_antes": "Borde negro hecho con 12 sombras en círculo (borde()), sin espaciado extra en las palabras-golpe."}
+```

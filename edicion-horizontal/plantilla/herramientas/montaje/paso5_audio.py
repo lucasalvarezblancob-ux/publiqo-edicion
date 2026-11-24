@@ -125,7 +125,8 @@ if __name__ == "__main__":
             x = np.frombuffer(raw, np.float32).reshape(-1, 2)
             # sin el silencio del principio: el sonido empieza EN su fotograma (banco 2026-11-24: ping, error y tecleo
             # traían 0,3–0,6 s mudos y caían tarde). Umbral −45 dBFS y 5 ms de margen.
-            on = np.where(np.abs(x).max(1) > 10 ** (-45 / 20))[0]
+            amp = np.abs(x).max(1); umbral = max(10 ** (-45 / 20), amp.max() * 10 ** (-30 / 20))      # −45 dBFS o 30 dB bajo su pico (el tecleo traía un roce suave antes de la 1.ª tecla)
+            on = np.where(amp > umbral)[0]
             cache[(n, vel)] = x[max(0, on[0] - SR // 200):] if len(on) else x
         return cache[(n, vel)]
     fx = np.zeros_like(y); n = 0

@@ -1,8 +1,8 @@
 import React from "react";
 import { AbsoluteFill, Easing, interpolate, useVideoConfig } from "remotion";
 import { ACENTO } from "./marca";
-import { F_ANCHA, F_TXT } from "./fuentes";
-import { borde, Item } from "./Graficos";
+import { F_ANCHA, F_TXT, fuente } from "./fuentes";
+import { Item, contorno } from "./Graficos";
 
 // PIEZAS DE JUEGO Y DESTELLO (estudio de estilos 2026-11-24: estilos/reto.md «Progreso y estado», vlog.md § En viajes).
 // Solo salen si el plan.py los pide (DESTELLOS, MARCADORES, BARRAS, LISTAS, VIDAS, ELIMINADOS): sin pedirlos, nada cambia.
@@ -28,31 +28,31 @@ export const Destello: React.FC<{ f: number; dur: number; it: Item }> = ({ f, du
   return <AbsoluteFill style={{ backgroundColor: it.color ?? "white", opacity: (it.nivel ?? 1) * o }} />;
 };
 
-// MARCADOR fijo en una esquina («N PLAYERS LEFT», «TOTAL REPS», «DÍA 3/7»): etiqueta pequeña + cifra grande. Si trae
-// `desde`, la cifra va de `desde` a `hasta` en `dur_f` f (salto seco si dur_f = 0, como el contador de THE FEZZ).
+// MARCADOR fijo en una esquina, TAL CUAL el «100 PLAYERS LEFT» de MrBeast (Lucas, banco 2026-11-24: «lo quiero tal cual»):
+// cifra en geométrica ancha muy negra (Montserrat 900, no la letra del creador), mayúscula ~7 % del alto, blanca, SIN
+// contorno, solo sombra suave; etiqueta CENTRADA debajo, misma familia 800, mayúscula ~40 % de la de la cifra, en una o dos
+// líneas («|» parte; interlineado 1,0). Bloque centrado sobre sí mismo, a ~2 % del borde lateral y ~3 % del de arriba.
+// Si trae `desde`, la cifra va de `desde` a `hasta` en `dur_f` f (salto seco con dur_f = 0, como THE FEZZ).
 export const Marcador: React.FC<{ f: number; it: Item }> = ({ f, it }) => {
   const { height: H, width: W } = useVideoConfig();
   const hasta = Number(it.hasta ?? 0), desde = it.desde ?? hasta, d = it.dur_f ?? 12;
   const v = d > 0 ? interpolate(f, [0, d], [desde, hasta], { extrapolateLeft: "clamp", extrapolateRight: "clamp", easing: Easing.out(Easing.cubic) }) : (f >= 0 ? hasta : desde);
   const num = Math.round(v).toLocaleString(it.idioma === "en" ? "en-US" : "es-ES");
-  const fs = H * (it.alto ?? 0.085);
+  const fs = H * (it.alto ?? 0.097), fam = fuente(it.fuente ?? "Montserrat", F_ANCHA), e = it.esquina ?? "si";
+  const sombra = `0 ${H * 0.003}px ${H * 0.012}px rgba(0,0,0,.45)`;
+  const pos: React.CSSProperties = { position: "absolute", display: "flex", flexDirection: "column", alignItems: "center", textShadow: sombra, color: it.color ?? "white" };
+  if (e[0] === "s") pos.top = H * 0.03; else pos.bottom = H * 0.03;
+  if (e[1] === "i") pos.left = W * 0.02; else pos.right = W * 0.02;
   return (
     <AbsoluteFill>
-      <div style={{ ...esquina(it.esquina, W, H), textAlign: (it.esquina ?? "si")[1] === "i" ? "left" : "right", textShadow: borde(H * 0.004) }}>
-        {/* MrBeast «N PLAYERS LEFT»: la etiqueta DEBAJO de la cifra, ~4 % del alto, en una o dos líneas («|» parte); arriba con etiqueta_pos:"arriba" */}
-        {it.etiqueta && it.etiqueta_pos === "arriba" ? <Etiq it={it} fs={fs} /> : null}
-        <div style={{ fontFamily: F_ANCHA, fontWeight: 900, fontSize: fs, lineHeight: 1, color: it.color ?? "white" }}>{it.prefijo ?? ""}{num}{it.sufijo ?? ""}</div>
-        {it.etiqueta && it.etiqueta_pos !== "arriba" ? <Etiq it={it} fs={fs} /> : null}
+      <div style={pos}>
+        <div style={{ fontFamily: fam, fontWeight: 900, fontSize: fs, lineHeight: 1 }}>{it.prefijo ?? ""}{num}{it.sufijo ?? ""}</div>
+        {it.etiqueta ? <div style={{ fontFamily: fam, fontWeight: 800, fontSize: fs * 0.4, lineHeight: 1.0, textAlign: "center", textTransform: "uppercase", marginTop: fs * 0.04 }}>
+          {String(it.etiqueta).split("|").map((l: string, k: number) => <div key={k}>{l}</div>)}</div> : null}
       </div>
     </AbsoluteFill>
   );
 };
-
-const Etiq: React.FC<{ it: Item; fs: number }> = ({ it, fs }) => (
-  <div style={{ fontFamily: F_TXT, fontWeight: 800, fontSize: fs * 0.45, lineHeight: 1.05, color: "white", textTransform: "uppercase", margin: `${fs * 0.08}px 0` }}>
-    {String(it.etiqueta).split("|").map((l: string, i: number) => <div key={i}>{l}</div>)}
-  </div>
-);
 
 // BARRA de progreso (Rubén Titanic: se presenta, vuelve cuando el dato duele y se llena al llegar, 5 → 90 % en 2,6 s;
 // MrBeast: 3 barras con %). `desde`/`hasta` en %, llenado con frenada en `dur_f` f.
@@ -63,7 +63,7 @@ export const Barra: React.FC<{ f: number; it: Item }> = ({ f, it }) => {
   return (
     <AbsoluteFill>
       <div style={{ position: "absolute", left: (W - ancho) / 2, top: H * (it.y ?? 0.1), width: ancho }}>
-        <div style={{ display: "flex", justifyContent: "space-between", fontFamily: F_TXT, fontWeight: 800, fontSize: H * 0.026, color: "white", textShadow: borde(H * 0.003), marginBottom: H * 0.008 }}>
+        <div style={{ display: "flex", justifyContent: "space-between", fontFamily: F_TXT, fontWeight: 800, fontSize: H * 0.026, color: "white", ...contorno(H * 0.003), marginBottom: H * 0.008 }}>
           <span>{it.izq ?? ""}</span><span>{it.pct === false ? (it.der ?? "") : `${Math.round(p)} %`}</span>
         </div>
         <div style={{ ...caja, height: alto, borderRadius: alto / 2, overflow: "hidden", border: `${H * 0.003}px solid white` }}>
@@ -138,15 +138,17 @@ export const Vidas: React.FC<{ f: number; it: Item }> = ({ f, it }) => {
   const perdida = pe != null && f >= pe + 8, enGolpe = pe != null && f >= pe && f < pe + 8;
   const quedan = perdida ? antes - menos : antes;
   const e = it.esquina ?? "ii";      // JJW Diamond: abajo a la izquierda
-  const px = Math.max(2, 2 * Math.round((H * (it.alto ?? 0.085)) / 9 / 2));      // celda: nº par de píxeles
-  const ancho = (total * 10 - 1) * px, alto = 9 * px, m = 2 * Math.round((H * MARGEN) / 2), mx = 2 * Math.round((H * MARGEN * 1.3) / 2);
-  const x = e[1] === "i" ? mx : W - mx - ancho, y = e[0] === "s" ? m + (it.etiqueta ? Math.round(px * 4.2) : 0) : H - m - alto;
+  // JJW Diamond (medido en el Windows): corazón ~10,5 % del alto, fila en y 75–85 %, «RULES BROKEN» ~4 % alineada con el 1.er corazón
+  const px = Math.max(2, 2 * Math.round((H * (it.alto ?? 0.105)) / 9 / 2));      // celda: nº par de píxeles
+  const ancho = (total * 10 - 1) * px, alto = 9 * px, m = 2 * Math.round((H * (e[0] === "s" ? 0.06 : 0.15)) / 2), mx = 2 * Math.round((H * MARGEN * 1.3) / 2);
+  const fe = H * 0.045;      // etiqueta
+  const x = e[1] === "i" ? mx : W - mx - ancho, y = e[0] === "s" ? m + (it.etiqueta ? Math.round(fe * 1.3) : 0) : H - m - alto;
   const tiembla = enGolpe ? ((f - pe) % 2 === 0 ? 1 : -1) * px * 0.5 : 0;
   const parpadea = enGolpe && Math.floor((f - pe) / 1.4) % 2 === 0;
   if (it.estilo === "emoji") {
     return (
       <AbsoluteFill><div style={{ ...esquina(e, W, H), display: "flex", flexDirection: "column", alignItems: "center" }}>
-        {it.etiqueta ? <div style={{ fontFamily: F_TXT, fontWeight: 800, fontSize: px * 3.4, color: "white", textShadow: borde(H * 0.003), textTransform: "uppercase" }}>{it.etiqueta}</div> : null}
+        {it.etiqueta ? <div style={{ fontFamily: F_TXT, fontWeight: 800, fontSize: px * 3.4, color: "white", ...contorno(H * 0.003), textTransform: "uppercase" }}>{it.etiqueta}</div> : null}
         <div style={{ display: "flex", gap: px }}>{Array.from({ length: total }, (_, i) => <span key={i} style={{ fontSize: px * 9, lineHeight: 1, filter: i < quedan ? "none" : "grayscale(1) brightness(.45)" }}>❤️</span>)}</div>
       </div></AbsoluteFill>
     );
@@ -155,8 +157,9 @@ export const Vidas: React.FC<{ f: number; it: Item }> = ({ f, it }) => {
     <AbsoluteFill>
       {/* los corazones anclados a la esquina en píxel par; la etiqueta centrada ENCIMA de ellos (no al revés) */}
       <div style={{ position: "absolute", left: x + tiembla, top: y, width: ancho, height: alto, filter: `drop-shadow(0 0 ${px * 0.6}px rgba(0,0,0,.55))` }}>
-        {it.etiqueta ? <div style={{ position: "absolute", left: "50%", bottom: alto + px * 1.2, transform: "translateX(-50%)", whiteSpace: "nowrap", fontFamily: F_TXT, fontWeight: 800,
-          fontSize: px * 3.4, lineHeight: 1, color: "white", textShadow: borde(H * 0.003), textTransform: "uppercase" }}>{it.etiqueta}</div> : null}
+        {/* etiqueta alineada a la izquierda con el borde del primer corazón (JJW), justo encima */}
+        {it.etiqueta ? <div style={{ position: "absolute", left: 0, bottom: alto + px * 0.8, whiteSpace: "nowrap", fontFamily: F_TXT, fontWeight: 800,
+          fontSize: fe, lineHeight: 1, color: "white", ...contorno(H * 0.003), textTransform: "uppercase" }}>{it.etiqueta}</div> : null}
         <Corazones px={px} total={total} quedan={quedan} golpe={Math.ceil(antes) - 1} blanco={parpadea} />
       </div>
     </AbsoluteFill>
@@ -168,23 +171,20 @@ export const Vidas: React.FC<{ f: number; it: Item }> = ({ f, it }) => {
 // y una sombra cada una «se ve donde se juntan»). Regla para cualquier pieza hecha de partes que se cruzan: sombra al grupo.
 export const Eliminado: React.FC<{ f: number; it: Item }> = ({ f, it }) => {
   const { height: H, width: W } = useVideoConfig();
-  // MrBeast: entra en blanco, pasa por rosa y se asienta en rojo en ~12 f, con borde negro (medido en el Windows, banco)
-  const s = interpolate(f, [0, 3], [1.6, 1], { extrapolateRight: "clamp", easing: Easing.out(Easing.cubic) });
-  const k = interpolate(f, [0, 12], [0, 1], { extrapolateRight: "clamp", easing: Easing.out(Easing.quad) });
-  const rojo = it.color ?? "#E3262B";
-  const mezcla = (a: number[], b: number[], u: number) => `rgb(${a.map((v, i) => Math.round(v + (b[i] - v) * u)).join(",")})`;
-  const hex = (h: string) => [1, 3, 5].map((i) => parseInt(h.slice(i, i + 2), 16));
-  const col = k < 0.5 ? mezcla([255, 255, 255], [255, 150, 170], k * 2) : mezcla([255, 150, 170], hex(rojo), (k - 0.5) * 2);
-  const t = H * (it.tam ?? 0.42), g = 13, m = g / 2 + 4;
+  // La X que eligió Lucas (banco 2026-11-24, «usa mejor esta cruz»): dos barras rojas PLANAS, gruesas (~1/5 del lado), puntas
+  // redondeadas, SIN contorno negro, rojo #E8323A con un filo apenas más oscuro. Entra en 3 f con un pequeño golpe de escala.
+  // Si trae `pos` (paso3: seguimiento del cuerpo), va PEGADA a la persona fotograma a fotograma, como la de MrBeast.
+  const s = interpolate(f, [0, 3], [1.35, 1], { extrapolateRight: "clamp", easing: Easing.out(Easing.cubic) });
+  const p = Array.isArray(it.pos) && it.pos.length ? it.pos[Math.min(Math.max(0, Math.floor(f)), it.pos.length - 1)] : [it.x ?? 0.5, it.y ?? 0.5];
+  const t = H * (it.tam ?? 0.42), g = 20, m = g / 2 + 2;
   const d = `M ${m} ${m} L ${100 - m} ${100 - m} M ${100 - m} ${m} L ${m} ${100 - m}`;
   return (
     <AbsoluteFill>
-      <svg viewBox="0 0 100 100" width={t} height={t} style={{ position: "absolute", left: W * (it.x ?? 0.5) - t / 2, top: H * (it.y ?? 0.5) - t / 2, overflow: "visible",
-        transform: `scale(${s})`, filter: `drop-shadow(0 0 ${H * 0.008}px rgba(0,0,0,.55))` }}>
-        {/* entra de golpe, opaca: con fundido, el primer fotograma era una X gris fantasma (banco 2026-11-24) */}
-        {/* UNA forma: el borde negro es el mismo trazo más grueso por debajo; nada se cruza a la vista */}
-        <path d={d} stroke="#000" strokeWidth={g + 5} strokeLinecap="round" fill="none" />
-        <path d={d} stroke={col} strokeWidth={g} strokeLinecap="round" fill="none" />
+      <svg viewBox="0 0 100 100" width={t} height={t} style={{ position: "absolute", left: W * p[0] - t / 2, top: H * p[1] - t / 2, overflow: "visible",
+        transform: `scale(${s})`, filter: `drop-shadow(0 ${H * 0.002}px ${H * 0.006}px rgba(0,0,0,.35))` }}>
+        {/* una sola forma: el filo oscuro es el mismo trazo apenas más ancho por debajo */}
+        <path d={d} stroke={it.filo ?? "#B8222A"} strokeWidth={g + 1.6} strokeLinecap="round" fill="none" />
+        <path d={d} stroke={it.color ?? "#E8323A"} strokeWidth={g} strokeLinecap="round" fill="none" />
       </svg>
     </AbsoluteFill>
   );

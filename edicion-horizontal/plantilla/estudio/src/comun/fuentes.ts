@@ -48,3 +48,7 @@ export const usarFuentes = (m?: object) => {
   F_TXT = txt || M.F_TXT;
   F_RELLENO = txt || M.F_RELLENO;
 };
+
+// Una familia de Google Fonts por su nombre para UNA pieza (p. ej. el marcador en «Montserrat», el lema en «Inter»), con
+// la de reserva si no existe. Lucas, banco 2026-11-24: algunas piezas tienen que ir en la letra de su referencia, no en la del creador.
+export const fuente = (familia: string | undefined, reserva: string): string => (familia ? cargar(familia) || reserva : reserva);

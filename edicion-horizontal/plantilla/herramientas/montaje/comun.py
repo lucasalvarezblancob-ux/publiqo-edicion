@@ -83,6 +83,7 @@ def marca():
     # "fuentes" se mezcla clave a clave (se puede cambiar solo la de títulos).
     for k, v in (_g("MARCA") or {}).items():
         r[k] = {**(r.get(k) or {}), **v} if isinstance(v, dict) and isinstance(r.get(k), dict) else v
+    r.setdefault("contorno", ajuste("CONTORNO", "trazo"))      # G007: "trazo" (contorno liso) o "sombras" (el de antes)
     return r
 
 
@@ -278,23 +279,28 @@ def caja_texto(it, f=None):
     if cj and not (t == "golpe" and it.get("alto")): return [tuple(cj[it.get("lado", "der")] if isinstance(cj, dict) else cj)]
     if t in ("titulo", "mapa", "cartela_dia") or (t == "maquina" and it.get("fondo") != "ninguno"): return [(0.0, 0.0, 1.0, 1.0)]
     if t in ("oscurecer", "destello"): return []
-    if t in ("marcador", "lista", "vidas"):      # Juego.tsx: en una esquina (MARGEN 0,045 del alto)
-        e = it.get("esquina", {"marcador": "si", "lista": "ii", "vidas": "ii"}[t]); m = 0.045
-        if t == "marcador":
-            fs = it.get("alto", 0.085); n = len(f"{it.get('prefijo', '')}{it.get('hasta', '')}{it.get('sufijo', '')}")
-            ls = s("etiqueta").split("|") if it.get("etiqueta") else []
-            w = max([n * fs * 0.75 * H / W] + [len(l) * fs * 0.45 * 0.62 * H / W for l in ls]); h = fs * (1.0 + 0.47 * len(ls) + (0.16 if ls else 0))
-        elif t == "lista":
+    if t == "marcador":          # Juego.tsx Marcador (MrBeast): bloque centrado a 2 % del lateral y 3 % de arriba/abajo
+        fs = it.get("alto", 0.097); n = len(f"{it.get('prefijo', '')}{it.get('hasta', '')}{it.get('sufijo', '')}")
+        ls = s("etiqueta").split("|") if it.get("etiqueta") else []
+        w = max([n * fs * 0.78 * H / W] + [len(l) * fs * 0.4 * 0.72 * H / W for l in ls]); h = fs * (1.0 + 0.04 + 0.4 * len(ls))
+        e = it.get("esquina", "si"); x0 = 0.02 if e[1] == "i" else 0.98 - w; y0 = 0.03 if e[0] == "s" else 0.97 - h
+        return [(x0, y0, x0 + w, y0 + h)]
+    if t in ("lista", "vidas"):      # Juego.tsx: en una esquina (MARGEN 0,045 del alto)
+        e = it.get("esquina", {"lista": "ii", "vidas": "ii"}[t]); m = 0.045
+        if t == "lista":
             fs = it.get("alto", 0.03); its = it.get("items", []); n = max([len(str(x)) for x in its] + [len(s("titulo")) * 1.6, 4])
             w = (n * fs * 0.55 + fs * 1.6 + fs * 1.6) * H / W; h = fs * (1.35 * len(its) + 1.2 + (1.3 if it.get("titulo") else 0))
         else:
-            px = it.get("alto", 0.085) / 9; w = max((it.get("total", 3) * 10 - 1) * px, len(s("etiqueta")) * px * 3.4 * 0.62) * H / W; h = px * (9 + (4.6 if it.get("etiqueta") else 0))
-        x0 = m * 1.3 * H / W if e[1] == "i" else 1 - m * 1.3 * H / W - w; y0 = m if e[0] == "s" else 1 - m - h
+            px = it.get("alto", 0.105) / 9; w = max((it.get("total", 3) * 10 - 1) * px, len(s("etiqueta")) * 0.045 * 0.62) * H / W; h = px * 9 + (0.045 * 1.3 if it.get("etiqueta") else 0)
+            m = 0.06 if e[0] == "s" else 0.15
+        mx = 0.045 * 1.3 * H / W; x0 = mx if e[1] == "i" else 1 - mx - w; y0 = m if e[0] == "s" else 1 - m - h
         return [(x0, y0, x0 + w, y0 + h)]
     if t == "barra":
         w = it.get("ancho", 0.34); y = it.get("y", 0.1); return [((1 - w) / 2, y, (1 + w) / 2, y + 0.07)]
-    if t == "eliminado":
-        tam = it.get("tam", 0.42); x, y = it.get("x", 0.5), it.get("y", 0.5); return [(x - tam / 2 * H / W, y - tam / 2, x + tam / 2 * H / W, y + tam / 2)]
+    if t == "eliminado":         # con `pos` (sigue a la persona) se mira el fotograma pedido, o el primero, el del medio y el último
+        tam = it.get("tam", 0.42); pos = it.get("pos") or [[it.get("x", 0.5), it.get("y", 0.5)]]
+        ps = [pos[min(max(f - it["f0"], 0), len(pos) - 1)]] if f is not None else [pos[0], pos[len(pos) // 2], pos[-1]]
+        return [(x - tam / 2 * H / W, y - tam / 2, x + tam / 2 * H / W, y + tam / 2) for x, y in ps]
     if t == "partida":          # Intro.tsx: dos palabras a media altura, ancladas a cada lado
         fs = H * it.get("alto", 0.042) * 1.38; y = it.get("y", 0.495); h = fs / H; ch = fs * 0.58 / W
         iz = it.get("margen_izq", 0.077); de = it.get("margen_der", 0.095)
@@ -317,8 +323,9 @@ def caja_texto(it, f=None):
         if it.get("alto"):      # grande y quieto (Graficos.tsx Golpe): ancho real de la letra ancha, sin crecimiento
             fs = min(it["alto"] * H, 0.9 * W / (max(n, 2) * 0.98)); w, h = n * fs * 0.98, len(ls) * fs * 1.12     # +0,06 em de espaciado
         else:
-            fs = min(0.105 * H, 0.66 * W / (max(n, 2) * 0.82)); w, h = n * fs * 0.75 * 1.22, len(ls) * fs * 1.12 * 1.22
-        y1 = 1 - it.get("y", 0.1); return [((W - w) / 2 / W, y1 - h / H, (W + w) / 2 / W, y1)]
+            ls_ = 2 * 0.006 * H      # espaciado = 2 veces lo que el contorno sale por fuera (G007)
+            fs = min(0.105 * H, (0.66 * W - n * ls_) / (max(n, 2) * 0.82)); w, h = n * (fs * 0.75 + ls_) * 1.22, len(ls) * fs * 1.12 * 1.22
+        y1 = 1 - it.get("y", 0.1); cx = it.get("x", 0.5); return [(cx - w / 2 / W, y1 - h / H, cx + w / 2 / W, y1)]
     if t in ("nota", "sub"):
         fs = (0.046 if t == "nota" else 0.05) * H; b = 0.075 if t == "nota" else 0.1; w = len(s("txt")) * fs * 0.52
         return [((W - w) / 2 / W, 1 - b - fs * 1.3 / H, (W + w) / 2 / W, 1 - b)]

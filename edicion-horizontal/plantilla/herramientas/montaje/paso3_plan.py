@@ -161,11 +161,23 @@ def _plano(fr): return next((v for v in vid if v["o"] <= fr < v["o"] + v["n"]), 
 for a, *op in VAIVENES:
     fr = L.ancla(a); v = _plano(fr); o = {"z": 1.26, "ent": 8, "aguanta": 35, "sal": 8, **(op[0] if op else {})}
     if v is None or v.get("t"): print(f"AVISO: vaivén en {fr} sin plano o sobre un zoom animado; se salta"); continue
+    # la SALIDA entra entera antes del corte (Plex sale en 8–9 f): si no cabe, se acorta lo que aguanta (Windows, banco)
+    queda = v["o"] + v["n"] - fr
+    if o["ent"] + o["aguanta"] + o["sal"] > queda:
+        o["aguanta"] = max(0, queda - o["ent"] - o["sal"])
+        if o["ent"] + o["sal"] > queda: print(f"AVISO VAIVÉN: en {fr / FPS:.1f} s quedan {queda} f de plano y el vaivén necesita {o['ent'] + o['sal']}: muévelo antes o quítalo"); continue
+        print(f"vaivén en {fr / FPS:.1f} s: aguanta {o['aguanta']} f para salir antes del corte")
     v["anim"] = {"tipo": "vaiven", "desde": fr - v["o"], **o}
 for a, seg, *op in ZOOM_REMATE:
     r = L.ancla(a); v = _plano(max(0, r - 1)); o = {"vel": 0.04, **(op[0] if op else {})}
     if v is None or v.get("t"): print(f"AVISO: zoom al remate en {r} sin plano o sobre un zoom animado; se salta"); continue
-    v["anim"] = {"tipo": "rampa", "desde": max(0, r - F(seg) - v["o"]), "hasta": r - v["o"], **o}
+    ini = max(0, r - F(seg) - v["o"])
+    if (r - v["o"] - ini) < F(3): print(f"AVISO ZOOM REMATE: en {r / FPS:.1f} s la rampa solo dura {(r - v['o'] - ini) / FPS:.1f} s (el plano empieza ahí); Plex la hace de ~7 s: empieza antes o elige otro plano")
+    v["anim"] = {"tipo": "rampa", "desde": ini, "hasta": r - v["o"], **o}
+    # el remate llega POR CORTE de vuelta a la escala de antes (Plex); si el plano sigue, se parte en el remate (Windows, banco)
+    if r < v["o"] + v["n"] - 2:
+        i = vid.index(v); k = r - v["o"]; b = dict(v); b["in"] = v["in"] + round(k * v.get("speed", 1)); b["n"] = v["n"] - k; b["o"] = r; v["n"] = k
+        b.pop("anim", None); b["z0"] = b["z1"] = 1.0 if v["z1"] <= 1.0 else v["z1"]; vid.insert(i + 1, b)
 
 
 def cortar(f):   # parte el plano que contiene el frame f
@@ -376,13 +388,15 @@ def _cara_en(fr):
     v = next((v for v in vid if v["o"] <= fr < v["o"] + v["n"] and not v.get("b")), None)
     if not v: return None
     w, h, cxr, cyr = encuadre(v["z1"], v.get("cx"), v.get("cy"), v.get("ax", 0.5), v.get("ay", 0.5))
-    if v.get("cx") is not None: return (v["cx"] * v["z1"] - cxr) / AW, (v["cy"] * v["z1"] - cyr) / AH
+    if v.get("cx") is not None:
+        c = _CARAS.en(v["clip"], v["in"] + int((fr - v["o"]) * v.get("speed", 1)), 5)
+        return (v["cx"] * v["z1"] - cxr) / AW, (v["cy"] * v["z1"] - cyr) / AH, ((c["w"] if c else AW * 0.08) * v["z1"]) / AW
     # plano sin cara asignada (planos V de acción, sin zoom a una cara): se mira la cara detectada en ese trozo del bruto
     # (Windows, banco D360: la X caía al centro aunque caras_<clip>.json tenía la cara de Oyer en ese segundo)
     c = _CARAS.en(v["clip"], v["in"] + int((fr - v["o"]) * v.get("speed", 1)), 5)
     if not c: return None
     x, y = (c["cx"] * v["z1"] - cxr) / AW, (c["cy"] * v["z1"] - cyr) / AH
-    return (x, y) if 0 <= x <= 1 and 0 <= y <= 1 else None
+    return (x, y, c["w"] * v["z1"] / AW) if 0 <= x <= 1 and 0 <= y <= 1 else None      # (x, y, ancho de la cara) en pantalla
 for a, d, hasta, *op in CONTADORES:
     f0 = L.ancla(a); o = dict(op[0]) if op else {}; cara = _cara_en(f0 + 2)
     # Banco de pruebas (2026-11-24): un contador puesto a mano en x 0,72 le tapaba la cara a Reino. Sin x en el plan, va en
@@ -397,6 +411,22 @@ for a, d, hasta, *op in CONTADORES:
 for a, txt, *op in CARTELAS_DIA:
     o = dict(op[0]) if op else {}; f0 = L.ancla(a)
     items.append({"t": "cartela_dia", "f0": f0, "f1": f0 + int(o.get("flash_in", 6)) + int(o.get("negro", 41)) + int(o.get("flash_out", 5)), "txt": txt, **o})
+# ---- DETRAS: el golpe grande va AL LADO de la persona, con su borde interior un poco por detrás de ella (Nil OGT: el «24 %»
+# en x 15–47 %, solo la mano por delante). Antes iba centrado y la persona lo partía por la mitad («TI··OS»; Windows, banco).
+for a_, d_ in getattr(plan, "DETRAS", []):
+    g0 = L.ancla(a_); g1 = g0 + F(d_); cara = _cara_en(g0 + 2)
+    for it in items:
+        if it["t"] != "golpe" or not it.get("alto") or "x" in it or it["f1"] <= g0 or it["f0"] >= g1 or not cara: continue
+        # el cuerpo (hombros, brazos) mide ~3 caras de ancho: el texto llega hasta 0,8 caras del centro: el hombro y la mano pasan por delante (5–15 %)
+        izq = cara[0] >= 0.5; borde_int = cara[0] + (-1 if izq else 1) * 0.8 * cara[2]
+        hueco = (borde_int - 0.04) if izq else (0.96 - borde_int)
+        while True:
+            cj = caja_texto({**it, "x": 0.5})[0]; w = cj[2] - cj[0]
+            if w <= hueco or it["alto"] <= 0.12: break
+            it["alto"] = round(it["alto"] * 0.92, 3)
+        it["x"] = round((borde_int - w / 2) if izq else (borde_int + w / 2), 3)
+        print(f"DETRAS: «{it.get('txt')}» a la {'izquierda' if izq else 'derecha'} de la persona (x {it['x']}, alto {it['alto']})")
+
 # ---- juego y destello (Juego.tsx): solo si el plan.py los pide ----
 for a, *op in DESTELLOS:
     o = dict(op[0]) if op else {}; f0 = L.ancla(a); items.append({"t": "destello", "f0": f0, "f1": f0 + int(o.get("f", 6)), **o})
@@ -412,6 +442,21 @@ for a, d, *op in ELIMINADOS:      # sin x/y en el plan, la X va sobre la persona
     f0 = L.ancla(a); o = dict(op[0]) if op else {}; cara = _cara_en(f0 + 2)
     if cara and "x" not in o: o["x"], o["y"] = round(cara[0], 3), round(min(max(cara[1] + 0.12, 0.25), 0.75), 3)
     elif not cara and "x" not in o: print(f"AVISO: X de eliminado en {f0 / FPS:.1f} s sin cara detectada: va al centro (pon x/y)")
+    # SIGUE a la persona mientras está (Lucas, banco 2026-11-24: «la suya trackea el cuerpo»): seguimiento de la cara con
+    # seguir() en el bruto, pasado a pantalla con el encuadre del plano y suavizado (media de 5 f). Fuera de su plano, quieta.
+    v = next((v for v in vid if v["o"] <= f0 + 2 < v["o"] + v["n"] and not v.get("b")), None)
+    if cara and v and o.get("seguir", True) and "x" in o and not (op and "x" in op[0]):
+        n = min(F(d), v["o"] + v["n"] - f0); sp = v.get("speed", 1); fin = v["in"] + int((f0 - v["o"]) * sp)
+        c = _CARAS.en(v["clip"], fin, 5)
+        if c and n > 2:
+            try:
+                bru = seguir(v["clip"], fin / FPS, (fin + n * sp) / FPS, (c["cx"], c["cy"], max(c["w"] * 0.45, 30)))
+                w_, h_, cxr, cyr = encuadre(v["z1"], v.get("cx"), v.get("cy"), v.get("ax", 0.5), v.get("ay", 0.5))
+                dy = o["y"] - cara[1]
+                pp = np.array([[(px * v["z1"] - cxr) / AW, (py * v["z1"] - cyr) / AH + dy] for px, py in bru[::max(1, int(round(sp)))]][:n])
+                if len(pp) > 4: pp = np.array([pp[max(0, i - 2):i + 3].mean(0) for i in range(len(pp))])
+                o["pos"] = [[round(float(x), 4), round(float(y), 4)] for x, y in pp]
+            except Exception as ex: print(f"AVISO: no se pudo seguir a la persona para la X en {f0 / FPS:.1f} s ({ex}); queda quieta")
     items.append({"t": "eliminado", "f0": f0, "f1": f0 + F(d), **o})
 # ---- ningún texto se va antes de que se haya DICHO entero y se pueda leer (comun.texto_dicho) ----
 # Se alarga solo hasta medio segundo después de su última palabra (o hasta la pausa) y nunca menos que el tiempo de

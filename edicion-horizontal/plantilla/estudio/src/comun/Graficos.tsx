@@ -29,6 +29,16 @@ export const borde = (r: number) => {
   s.push("0 " + (r * 1.6).toFixed(1) + "px " + (r * 2.5).toFixed(1) + "px rgba(0,0,0,.6)");
   return s.join(", ");
 };
+// CONTORNO de los textos (G007, banco 2026-11-24): un trazo real (-webkit-text-stroke, pintado por DEBAJO del relleno con
+// paint-order) y UNA sola sombra. Antes eran 12 copias en círculo (borde()): esquinas en escalera y la sombra se colaba
+// entre el borde y el relleno (raya gris en los huecos de la E y la R). El trazo va centrado en el contorno de la letra y
+// el relleno tapa su mitad interior: se ve r por fuera, igual que antes. CONTORNO = "sombras" en ajustes.py vuelve a lo de antes.
+let CONTORNO_MODO = "trazo";
+export const usarContorno = (m?: object) => { CONTORNO_MODO = (m && (m as { contorno?: string }).contorno) || "trazo"; };
+export const contorno = (r: number): React.CSSProperties =>
+  CONTORNO_MODO === "sombras" ? { ...contorno(r) } : {
+    WebkitTextStroke: `${(2 * r).toFixed(1)}px #000`, paintOrder: "stroke fill",
+    textShadow: "0 " + (r * 1.6).toFixed(1) + "px " + (r * 2.5).toFixed(1) + "px rgba(0,0,0,.6)" };
 // tamaño de letra para que un texto de una línea quepa en `max` px (la familia ancha ocupa ~0,82 de su cuerpo por letra)
 export const ajusta = (txt: string, max: number, tope: number, ancho = 0.82) => Math.min(tope, max / (Math.max(txt.length, 2) * ancho));
 // NINGÚN texto se sale del cuadro (Lucas, 2026-11-17: «los textos no se pueden salir de pantalla nunca, es un error muy
@@ -43,9 +53,9 @@ export const Titulo: React.FC<{ f: number; dur: number; it: Item }> = ({ f, dur,
   const fs = ajusta(String(it.grande ?? ""), W * 0.9, H * 0.2);
   return (
     <AbsoluteFill style={{ backgroundColor: "rgba(0,0,0,.45)", justifyContent: "center", alignItems: "center", opacity: fuera }}>
-      {it.arriba ? <div style={{ fontFamily: F_TXT, fontSize: H * 0.036, letterSpacing: H * 0.006, color: "white", fontWeight: 800, textShadow: borde(H * 0.003), opacity: f >= 8 ? 1 : 0 }}>{it.arriba}</div> : null}
-      <div style={{ fontFamily: F_ANCHA, fontSize: fs, lineHeight: 1.05, fontWeight: 900, color: ACENTO, textShadow: borde(H * 0.006), transform: "scale(" + pop(f) + ")", whiteSpace: "nowrap" }}>{it.grande}</div>
-      {it.abajo ? <div style={{ fontFamily: F_TXT, fontSize: H * 0.036, color: "white", fontWeight: 600, textShadow: borde(H * 0.003), marginTop: H * 0.012, opacity: f >= 16 ? 1 : 0 }}>{it.abajo}</div> : null}
+      {it.arriba ? <div style={{ fontFamily: F_TXT, fontSize: H * 0.036, letterSpacing: H * 0.006, color: "white", fontWeight: 800, ...contorno(H * 0.003), opacity: f >= 8 ? 1 : 0 }}>{it.arriba}</div> : null}
+      <div style={{ fontFamily: F_ANCHA, fontSize: fs, lineHeight: 1.05, fontWeight: 900, color: ACENTO, ...contorno(H * 0.006), transform: "scale(" + pop(f) + ")", whiteSpace: "nowrap" }}>{it.grande}</div>
+      {it.abajo ? <div style={{ fontFamily: F_TXT, fontSize: H * 0.036, color: "white", fontWeight: 600, ...contorno(H * 0.003), marginTop: H * 0.012, opacity: f >= 16 ? 1 : 0 }}>{it.abajo}</div> : null}
     </AbsoluteFill>
   );
 };
@@ -62,14 +72,14 @@ export const Seccion: React.FC<{ f: number; dur: number; it: Item }> = ({ f, it 
     <AbsoluteFill style={{ background: "linear-gradient(15deg, rgba(0,0,0,.7) 0%, rgba(0,0,0,0) 50%)" }}>
       <div style={{ position: "absolute", left: H * 0.07, bottom: H * 0.07, display: "flex", alignItems: "flex-end", gap: H * 0.03, transform: "scale(" + pop(f) + ")", transformOrigin: "0 100%" }}>
         {sinContador ? null : (
-          <div style={{ fontFamily: F_ANCHA, fontWeight: 900, fontSize: H * 0.23, lineHeight: 0.86, color: ACENTO, textShadow: borde(H * 0.006) }}>
+          <div style={{ fontFamily: F_ANCHA, fontWeight: 900, fontSize: H * 0.23, lineHeight: 0.86, color: ACENTO, ...contorno(H * 0.006) }}>
             {it.n}
             {de ? <span style={{ fontSize: H * 0.085, color: "white" }}>/{de}</span> : null}
           </div>
         )}
         <div style={{ paddingBottom: H * 0.004 }}>
-          <div style={{ fontFamily: F_ANCHA, fontWeight: 900, fontSize: fs, color: "white", textShadow: borde(H * 0.004), lineHeight: 1.1, whiteSpace: "nowrap", opacity: f >= 4 ? 1 : 0 }}>{it.titulo}</div>
-          <div style={{ fontFamily: F_TXT, fontSize: H * 0.034, fontWeight: 600, color: "white", textShadow: borde(H * 0.0025), marginTop: H * 0.006, opacity: f >= 10 ? 1 : 0 }}>{it.sub}</div>
+          <div style={{ fontFamily: F_ANCHA, fontWeight: 900, fontSize: fs, color: "white", ...contorno(H * 0.004), lineHeight: 1.1, whiteSpace: "nowrap", opacity: f >= 4 ? 1 : 0 }}>{it.titulo}</div>
+          <div style={{ fontFamily: F_TXT, fontSize: H * 0.034, fontWeight: 600, color: "white", ...contorno(H * 0.0025), marginTop: H * 0.006, opacity: f >= 10 ? 1 : 0 }}>{it.sub}</div>
           <div style={{ display: "flex", gap: H * 0.006, marginTop: H * 0.018 }}>
             {Array.from({ length: de }, (_, i) => (
               <div key={i} style={{ width: H * 0.05, height: H * 0.009, background: i < it.n ? ACENTO : "rgba(255,255,255,.4)", opacity: f >= 10 + i ? 1 : 0 }} />
@@ -88,8 +98,8 @@ export const Dato: React.FC<{ f: number; it: Item }> = ({ f, it }) => {
   const mitad = (Math.max(String(it.grande).length * fs * 0.9, String(it.peq ?? "").length * H * 0.04 * 0.6) * 1.15) / 2;
   return (
     <div style={{ position: "absolute", left: dentro(W * it.x, mitad, W), top: H * it.y, transform: "translate(-50%, -50%) scale(" + pop(f) + ") rotate(-3deg)", textAlign: "center", whiteSpace: "nowrap" }}>
-      <div style={{ fontFamily: F_ANCHA, fontWeight: 900, fontSize: fs, lineHeight: 1, color: ACENTO, textShadow: borde(H * 0.007) }}>{it.grande}</div>
-      <div style={{ fontFamily: F_TXT, fontWeight: 800, fontSize: H * 0.04, color: "white", textShadow: borde(H * 0.003), marginTop: H * 0.012, opacity: f >= 7 ? 1 : 0 }}>{it.peq}</div>
+      <div style={{ fontFamily: F_ANCHA, fontWeight: 900, fontSize: fs, lineHeight: 1, color: ACENTO, ...contorno(H * 0.007) }}>{it.grande}</div>
+      <div style={{ fontFamily: F_TXT, fontWeight: 800, fontSize: H * 0.04, color: "white", ...contorno(H * 0.003), marginTop: H * 0.012, opacity: f >= 7 ? 1 : 0 }}>{it.peq}</div>
     </div>
   );
 };
@@ -104,11 +114,13 @@ export const Golpe: React.FC<{ f: number; dur: number; it: Item }> = ({ f, dur, 
   // it.alto: tamaño propio (fracción del alto), p. ej. 0,3 para un texto enorme por detrás de la persona (DETRAS, Nil «24 %»)
   // Grande (it.alto): QUIETO, sin crecer (Nil; banco de pruebas: al crecer ×1,22 «DETRÁS» se salía por los lados) y medido con
   // el ancho real de la letra ancha (~0,92 del cuerpo por mayúscula), para que ocupe como mucho el 90 % del ancho.
-  const fs = it.alto ? Math.min(H * it.alto, (W * 0.9) / (largo * 0.98)) : Math.min(H * 0.105, (W * 0.66) / (largo * 0.82));
+  const fs = it.alto ? Math.min(H * it.alto, (W * 0.9) / (largo * 0.98)) : Math.min(H * 0.105, (W * 0.66 - largo * 2 * H * 0.006) / (largo * 0.82));
   const esc = it.alto ? pop(f) : pop(f) * interpolate(f, [0, dur], [1, 1.22], { extrapolateRight: "clamp", easing: Easing.out(Easing.quad) });
   return (
-    <AbsoluteFill style={{ justifyContent: "flex-end", alignItems: "center", paddingBottom: H * (it.y ?? 0.1) }}>
-      <div style={{ fontFamily: F_ANCHA, fontWeight: 900, fontSize: fs, lineHeight: 1.12, color: ACENTO, textShadow: borde(H * 0.006), textAlign: "center", whiteSpace: "nowrap", transform: "scale(" + esc + ")", transformOrigin: "50% 100%", letterSpacing: it.alto ? "0.06em" : undefined }}>
+    <AbsoluteFill style={{ justifyContent: "flex-end", alignItems: it.x != null ? "flex-start" : "center", paddingBottom: H * (it.y ?? 0.1) }}>
+      {/* it.x (centro, 0-1): el golpe GRANDE de DETRAS va al lado libre de la persona (Nil: el «24 %» al lado, solo la mano por delante) */}
+      <div style={{ fontFamily: F_ANCHA, fontWeight: 900, fontSize: fs, lineHeight: 1.12, color: ACENTO, ...contorno(H * 0.006), textAlign: "center", whiteSpace: "nowrap",
+        transform: (it.x != null ? "translateX(-50%) " : "") + "scale(" + esc + ")", transformOrigin: "50% 100%", letterSpacing: Math.max(it.alto ? fs * 0.06 : 0, 2 * H * 0.006), marginLeft: it.x != null ? W * it.x : undefined }}>
         {lineas.map((l, i) => (
           <div key={i}>{l}</div>
         ))}
@@ -122,7 +134,7 @@ export const Nota: React.FC<{ it: Item }> = ({ it }) => {
   const { height: H } = useVideoConfig();
   return (
     <AbsoluteFill style={{ justifyContent: "flex-end", alignItems: "center", paddingBottom: H * 0.075 }}>
-      <div style={{ fontFamily: F_TXT, fontWeight: 600, fontSize: H * 0.046, color: "white", textShadow: borde(H * 0.003) }}>{it.txt}</div>
+      <div style={{ fontFamily: F_TXT, fontWeight: 600, fontSize: H * 0.046, color: "white", ...contorno(H * 0.003) }}>{it.txt}</div>
     </AbsoluteFill>
   );
 };
@@ -132,7 +144,7 @@ export const Sub: React.FC<{ it: Item }> = ({ it }) => {
   const { height: H } = useVideoConfig();
   return (
     <AbsoluteFill style={{ justifyContent: "flex-end", alignItems: "center", paddingBottom: H * 0.1 }}>
-      <div style={{ fontFamily: F_TXT, fontSize: H * 0.05, fontWeight: 800, color: it.color ?? "white", textShadow: borde(H * 0.0035) }}>{it.txt}</div>
+      <div style={{ fontFamily: F_TXT, fontSize: H * 0.05, fontWeight: 800, color: it.color ?? "white", ...contorno(H * 0.0035) }}>{it.txt}</div>
     </AbsoluteFill>
   );
 };
@@ -191,8 +203,8 @@ export const Seguido: React.FC<{ f: number; dur: number; it: Item }> = ({ f, dur
         <div style={{ position: "absolute", right: -H * 0.012, top: -H * 0.011, width: 0, height: 0, borderTop: `${H * 0.015}px solid transparent`, borderBottom: `${H * 0.015}px solid transparent`, borderLeft: `${H * 0.026}px solid ${ACENTO}` }} />
       </div>
       <div style={{ position: "absolute", left: tx, top: ty, transform: `translate(${izq ? "-100%" : "0"}, -100%) scale(${s})`, transformOrigin: izq ? "100% 100%" : "0 100%", textAlign: izq ? "right" : "left", whiteSpace: "nowrap" }}>
-        <div style={{ fontFamily: F_ANCHA, fontSize: H * 0.06, fontWeight: 900, color: ACENTO, textShadow: borde(H * 0.004), lineHeight: 1.1 }}>{it.grande}</div>
-        <div style={{ fontFamily: F_TXT, fontSize: H * 0.034, fontWeight: 800, color: "white", textShadow: borde(H * 0.0025) }}>{it.peq}</div>
+        <div style={{ fontFamily: F_ANCHA, fontSize: H * 0.06, fontWeight: 900, color: ACENTO, ...contorno(H * 0.004), lineHeight: 1.1 }}>{it.grande}</div>
+        <div style={{ fontFamily: F_TXT, fontSize: H * 0.034, fontWeight: 800, color: "white", ...contorno(H * 0.0025) }}>{it.peq}</div>
       </div>
     </AbsoluteFill>
   );
@@ -202,7 +214,7 @@ export const Seguido: React.FC<{ f: number; dur: number; it: Item }> = ({ f, dur
 export const CapasBase: React.FC<{ datos: { items: Item[]; marca?: Marca }; extra?: (it: Item, f: number, dur: number, k: string) => React.ReactNode }> = ({ datos, extra }) => {
   const frame = useCurrentFrame();
   usarMarca(datos.marca);      // color y cuentas del creador de ESTE vídeo (personal/<creador>/marca.json)
-  usarFuentes(datos.marca);    // sus fuentes, si marca.json o MARCA de proyecto.py traen "fuentes" (si no, las de marca.ts)
+  usarFuentes(datos.marca); usarContorno(datos.marca);    // sus fuentes, si marca.json o MARCA de proyecto.py traen "fuentes" (si no, las de marca.ts)
   const vivos = datos.items.filter((it) => frame >= it.f0 && frame < it.f1);
   return (
     <AbsoluteFill style={{ fontFamily: F_RELLENO }}>

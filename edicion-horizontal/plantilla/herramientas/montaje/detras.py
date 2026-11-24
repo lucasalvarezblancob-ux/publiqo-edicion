@@ -7,7 +7,7 @@ Qué hace: recorta a la persona fotograma a fotograma desde el bruto (rembg u2ne
 resolución y suavizada) y la guarda con alfa en trabajo/detras/p<o>_<f0>.mov + .json. paso4_render.py le aplica el MISMO
 zoom y encuadre que al plano y la pone encima de las capas solo en esos fotogramas: el texto queda detrás de ella.
   detras.py           -> recorta lo que falte (reanudable; ~0,3 s por fotograma en CPU)
-  (al acabar mide cuánto tapa la persona cada texto y avisa si es más de la mitad: «AVISO DETRÁS»)
+  (al acabar mide cuánto tapa la persona cada texto y avisa si pasa del 15 %: «AVISO DETRÁS»)
   detras.py hoja      -> trabajo/detras/hoja_N.jpg: la máscara sobre el plano cada 3 fotogramas. MIRARLAS: pelo, manos.
 Sin DETRAS en plan.py no hace nada y el montaje sale como siempre. Si cambias el plan, borra trabajo/detras."""
 import json, os, subprocess, sys, tempfile
@@ -96,7 +96,7 @@ def comprobar():
                 r = a[max(0, Y0):max(0, Y1), max(0, X0):max(0, X1)]; tap += (r > 128).sum(); tot += max(1, r.size)
             fr_tap = tap / max(tot, 1)
             print(f"  «{it.get('txt') or it.get('hasta') or it['t']}» ({it['t']}): la persona tapa el {100 * fr_tap:.0f} % de su caja")
-            if fr_tap > 0.5: malos += 1; print(f"AVISO DETRÁS: se lee menos de la mitad: más grande (\"alto\": 0.3) o a un lado para que asome")
+            if fr_tap > 0.15: malos += 1; print(f"AVISO DETRÁS: la persona tapa más del 15 % (Nil: solo la mano pasa por delante): a un lado (DETRAS lo coloca solo si no hay x) o más pequeño")
     return malos
 
 

@@ -1,8 +1,8 @@
 import React from "react";
 import { AbsoluteFill, Easing, interpolate, useVideoConfig } from "remotion";
 import { ACENTO } from "./marca";
-import { F_ANCHA, F_TXT } from "./fuentes";
-import { borde, Item } from "./Graficos";
+import { F_ANCHA, F_TXT, fuente } from "./fuentes";
+import { Item, contorno } from "./Graficos";
 
 // KIT DE INTROS (base/intros.md → «Dos tipos de intro»; números de base/refs/dinamicos/estilos/INTROS_corta_vs_explicativa.md).
 // Solo salen si el plan.py del vídeo los pide (PARTIDAS, MAQUINA, CONTADORES, CARTELAS_DIA, OSCURECER): un vídeo que no
@@ -17,7 +17,7 @@ export const Partida: React.FC<{ f: number; it: Item }> = ({ f, it }) => {
   const y = H * (it.y ?? 0.495);
   const color = it.color ?? "white";
   const est: React.CSSProperties = { position: "absolute", top: y - fs / 2, fontFamily: it.fuente === "ancha" ? F_ANCHA : F_TXT, fontWeight: it.peso ?? 600,
-    fontSize: fs, lineHeight: 1, color, letterSpacing: -fs * 0.01, whiteSpace: "nowrap", textShadow: it.sombra === false ? "none" : `0 0 ${H * 0.006}px rgba(0,0,0,.35)` };
+    fontSize: fs, lineHeight: 1, color, letterSpacing: -fs * 0.01, whiteSpace: "nowrap", textShadow: it.sombra === false ? "none" : `0 0 ${fs * 0.12}px rgba(0,0,0,.55), 0 ${fs * 0.03}px ${fs * 0.06}px rgba(0,0,0,.35)` };      // se lee sobre cielo claro (banco)
   return (
     <AbsoluteFill>
       <div style={{ ...est, left: W * (it.margen_izq ?? 0.077) }}>{it.izq}</div>
@@ -36,7 +36,11 @@ export const Maquina: React.FC<{ f: number; it: Item }> = ({ f, it }) => {
   const n = Math.min(txt.length, Math.floor((f + 1) * (it.cps ?? 1)));
   return (
     <AbsoluteFill style={{ backgroundColor: it.fondo === "ninguno" ? "transparent" : "black", justifyContent: "center", alignItems: "center" }}>
-      <div style={{ position: "relative", fontFamily: it.fuente === "ancha" ? F_ANCHA : F_TXT, fontWeight: it.peso ?? 600, fontSize: fs, color: it.color ?? "white", whiteSpace: "pre" }}>
+      {/* Letra de la referencia (Alessio: grotesca tipo Helvetica/Inter, peso ~800, interletra cerrada −0,04 em, caja normal;
+          Lucas, banco 2026-11-24: «no es la misma fuente, en la referencia es más bold»). `fuente`: "ancha", "textos" o el
+          nombre de una Google Font. El texto va como se escribe en el plan: nada de mayúsculas forzadas. */}
+      <div style={{ position: "relative", fontFamily: it.fuente === "ancha" ? F_ANCHA : it.fuente === "textos" ? F_TXT : fuente(it.fuente ?? "Inter", F_TXT),
+        fontWeight: it.peso ?? 800, letterSpacing: it.espaciado ?? "-0.04em", fontSize: fs, color: it.color ?? "white", whiteSpace: "pre" }}>
         <span style={{ visibility: "hidden" }}>{txt}</span>
         <span style={{ position: "absolute", left: 0, top: 0 }}>{txt.slice(0, n)}</span>
       </div>
@@ -61,7 +65,7 @@ export const Contador: React.FC<{ f: number; it: Item }> = ({ f, it }) => {
       {/* letterSpacing +0,03 em: en la letra ancha la coma se pegaba al «2» y al «5» (revisión del banco, 2026-11-24).
           La flecha es un SVG del alto de las mayúsculas y alineado con ellas (el carácter «↑» salía más bajo y pequeño). */}
       <div style={{ position: "absolute", left: W * (it.x ?? 0.5), top: H * (it.y ?? 0.4), transform: `translate(-50%,-50%) rotate(${it.giro ?? 0}deg)`, opacity: ent,
-        fontFamily: F_ANCHA, fontWeight: 900, fontSize: fs, lineHeight: 1, color: it.color ?? ACENTO, textShadow: borde(H * 0.005), whiteSpace: "nowrap", letterSpacing: "0.03em", display: "flex", alignItems: "baseline" }}>
+        fontFamily: F_ANCHA, fontWeight: 900, fontSize: fs, lineHeight: 1, color: it.color ?? ACENTO, ...contorno(H * 0.005), whiteSpace: "nowrap", letterSpacing: "0.03em", display: "flex", alignItems: "baseline" }}>
         <span>{txt}</span>
         {it.flecha ? <Flecha alto={fs * 0.72} dir={it.flecha} color={it.color ?? ACENTO} grueso={H * 0.005} /> : null}
       </div>

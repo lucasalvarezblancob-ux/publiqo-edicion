@@ -2,7 +2,7 @@ import React from "react";
 import { AbsoluteFill, Img, interpolate, staticFile, useVideoConfig } from "remotion";
 import { ACENTO } from "./marca";
 import { F_ANCHA } from "./fuentes";
-import { borde, entra, Item, sale } from "./Graficos";
+import { entra, Item, sale, contorno } from "./Graficos";
 
 // Mapa de satélite animado (recurso estándar: a Lucas le gustó en `ramon`, 2026-11-11).
 // Receta (refs/dinamicos/_mapas): base de SATÉLITE, la cámara VUELA hacia la zona (~1,2 s con aceleración y frenada),
@@ -84,12 +84,12 @@ export const MapaSatelite: React.FC<{ f: number; dur: number; it: Item; cfg: Map
       </div>
       <AbsoluteFill style={{ background: "radial-gradient(ellipse at center, rgba(0,0,0,0) 55%, rgba(0,0,0,.55) 100%)" }} />
       <div style={{ position: "absolute", left: W / 2 + (ex - cx) * z, top: H / 2 + (ey - cy) * z, transform: "translate(-50%, -50%) scale(" + etq + ")", opacity: Math.min(etq, 1), textAlign: "center", whiteSpace: "nowrap" }}>
-        <div style={{ fontFamily: F_ANCHA, fontSize: H * 0.085, fontWeight: 900, color: "white", lineHeight: 1, textShadow: borde(H * 0.005) }}>{R.nombre}</div>
+        <div style={{ fontFamily: F_ANCHA, fontSize: H * 0.085, fontWeight: 900, color: "white", lineHeight: 1, ...contorno(H * 0.005) }}>{R.nombre}</div>
         {R.nota ? <div style={{ display: "inline-block", marginTop: H * 0.012, background: R.color, color: "#0b1016", fontWeight: 800, fontSize: H * 0.03, padding: H * 0.005 + "px " + H * 0.016 + "px", borderRadius: H * 0.008 }}>{R.nota}</div> : null}
       </div>
       <div style={{ position: "absolute", left: H * 0.07, top: H * 0.07, display: "flex", alignItems: "center", gap: H * 0.018 }}>
         {total > 1 ? <div style={{ background: ACENTO, color: "#14160a", fontWeight: 800, fontSize: H * 0.04, padding: H * 0.004 + "px " + H * 0.018 + "px", borderRadius: H * 0.008 }}>{R.n}/{total}</div> : null}
-        {cfg.cabecera ? <div style={{ fontFamily: F_ANCHA, color: "white", fontWeight: 700, fontSize: H * 0.03, textShadow: borde(H * 0.0025) }}>{cfg.cabecera}</div> : null}
+        {cfg.cabecera ? <div style={{ fontFamily: F_ANCHA, color: "white", fontWeight: 700, fontSize: H * 0.03, ...contorno(H * 0.0025) }}>{cfg.cabecera}</div> : null}
       </div>
       <div style={{ position: "absolute", right: H * 0.03, bottom: H * 0.02, color: "rgba(255,255,255,.5)", fontSize: H * 0.016, fontWeight: 600 }}>{cfg.pie ?? "Imagery: NASA Blue Marble"}</div>
     </AbsoluteFill>
