@@ -7,6 +7,10 @@ Uso: detectar_cortes.py VIDEO SALIDA.json [--umbral 10] [--tramo 60]
      -> descarta movimiento de cámara y flashes sostenidos
   3) escribe cortes, duración de cada plano y estadísticas por tramo de --tramo segundos
 Los fundidos y whips salen como varios picos seguidos: se agrupan (<0,2 s) y se marcan "transicion".
+--rafagas: para intros con micro-flash o estroboscopio (planos de 2-5 fotogramas). El vecindario se mide con el
+  percentil 25 en vez de la mediana (si no, una ráfaga entera se descarta como «flash sostenido») y un grupo de >= 3
+  picos separados >= 2 fotogramas se cuenta como otros tantos cortes ("rafaga"), no como una transición.
+  Sin --rafagas, el resultado es el de siempre (comparable con las fichas antiguas).
 """
 import argparse, json, re, statistics as st, subprocess, sys
 from pathlib import Path
@@ -15,6 +19,7 @@ ap = argparse.ArgumentParser()
 ap.add_argument("video"); ap.add_argument("salida")
 ap.add_argument("--umbral", type=float, default=10.0)
 ap.add_argument("--tramo", type=float, default=60.0)
+ap.add_argument("--rafagas", action="store_true")
 a = ap.parse_args()
 
 sal = Path(a.salida); scd = sal.with_suffix(".scd.txt")
@@ -37,17 +42,26 @@ picos = []
 for i in range(1, n - 1):
     if s[i] < a.umbral or s[i] < s[i - 1] or s[i] < s[i + 1]: continue
     vec = s[max(0, i - 12):i - 1] + s[i + 2:i + 13]
-    base = st.median(vec) if vec else 0
+    base = (sorted(vec)[len(vec) // 4] if a.rafagas else st.median(vec)) if vec else 0
     if s[i] >= 3 * max(base, 0.5):
         picos.append((t[i], s[i]))
 # agrupar picos pegados (transición con duración: fundido, whip, flash)
 cortes = []
 for tt, sc in picos:
     if cortes and tt - cortes[-1]["fin"] < 0.2:
-        c = cortes[-1]; c["fin"] = tt; c["tipo"] = "transicion"; c["score"] = max(c["score"], sc)
+        c = cortes[-1]; c["fin"] = tt; c["tipo"] = "transicion"; c["score"] = max(c["score"], sc); c["_p"].append((tt, sc))
     else:
-        cortes.append({"t": round(tt, 3), "fin": tt, "score": round(sc, 1), "tipo": "seco"})
-for c in cortes: c["dur_transicion"] = round(c.pop("fin") - c["t"], 3)
+        cortes.append({"t": round(tt, 3), "fin": tt, "score": round(sc, 1), "tipo": "seco", "_p": [(tt, sc)]})
+if a.rafagas:      # un grupo de >= 3 picos separados >= 2 fotogramas = una ráfaga de planos cortísimos, no un fundido
+    paso = (t[-1] - t[0]) / max(1, n - 1)
+    nuevos = []
+    for c in cortes:
+        ps = c["_p"]
+        if len(ps) >= 3 and min(b_[0] - a_[0] for a_, b_ in zip(ps, ps[1:])) >= 1.5 * paso:
+            nuevos += [{"t": round(pt, 3), "fin": pt, "score": round(ps_, 1), "tipo": "rafaga", "_p": []} for pt, ps_ in ps]
+        else: nuevos.append(c)
+    cortes = nuevos
+for c in cortes: c["dur_transicion"] = round(c.pop("fin") - c["t"], 3); c.pop("_p", None)
 
 bordes = [0.0] + [c["t"] for c in cortes] + [dur]
 planos = [round(b - a_, 3) for a_, b in zip(bordes, bordes[1:])]
@@ -70,6 +84,7 @@ while k < dur:
 out = {"video": a.video, "duracion": round(dur, 2), "umbral": a.umbral, "n_cortes": len(cortes),
        "cortes_por_minuto": round(len(cortes) / dur * 60, 1),
        "transiciones_con_duracion": sum(c["tipo"] == "transicion" for c in cortes),
+       "cortes_en_rafaga": sum(c["tipo"] == "rafaga" for c in cortes), "modo_rafagas": a.rafagas,
        "global": resumen(planos), "tramos": tramos, "cortes": cortes}
 sal.write_text(json.dumps(out, ensure_ascii=False, indent=1), encoding="utf-8")
 print(json.dumps({k: out[k] for k in ("duracion", "n_cortes", "cortes_por_minuto", "transiciones_con_duracion", "global")}, ensure_ascii=False))

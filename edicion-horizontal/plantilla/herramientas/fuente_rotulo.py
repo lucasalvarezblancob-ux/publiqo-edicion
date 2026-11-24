@@ -42,7 +42,7 @@ CANDIDATAS = {
     "Kanit": ("ofl/kanit/Kanit-Black.ttf", None),
     "Outfit": ("ofl/outfit/Outfit%5Bwght%5D.ttf", [700, 900]),
     "Bricolage Grotesque": ("ofl/bricolagegrotesque/BricolageGrotesque%5Bopsz%2Cwdth%2Cwght%5D.ttf", [700, 800]),
-    "Luckiest Guy": ("ofl/luckiestguy/LuckiestGuy-Regular.ttf", None),
+    "Luckiest Guy": ("apache/luckiestguy/LuckiestGuy-Regular.ttf", None),
     "Bangers": ("ofl/bangers/Bangers-Regular.ttf", None),
     "Titan One": ("ofl/titanone/TitanOne-Regular.ttf", None),
     "Lilita One": ("ofl/lilitaone/LilitaOne-Regular.ttf", None),
@@ -66,7 +66,7 @@ CANDIDATAS = {
     "Cormorant Garamond": ("ofl/cormorantgaramond/CormorantGaramond%5Bwght%5D.ttf", [500, 700]),
     "Bodoni Moda": ("ofl/bodonimoda/BodoniModa%5Bopsz%2Cwght%5D.ttf", [500, 800]),
     "Cinzel": ("ofl/cinzel/Cinzel%5Bwght%5D.ttf", [500, 800]),
-    "Libre Baskerville": ("ofl/librebaskerville/LibreBaskerville-Regular.ttf", None),
+    "Libre Baskerville": ("ofl/librebaskerville/LibreBaskerville%5Bwght%5D.ttf", [400, 700]),
     # a mano
     "Caveat": ("ofl/caveat/Caveat%5Bwght%5D.ttf", [600]),
 }
