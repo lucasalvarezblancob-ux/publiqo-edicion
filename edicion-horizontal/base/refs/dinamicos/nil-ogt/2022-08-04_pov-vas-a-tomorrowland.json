@@ -352,6 +352,32 @@
       }
     ],
     "animaciones_explicativas_nota": "6 momentos «explicados» en 26,3 s: 3 con texto animado y 3 con objeto real. Media: una ilustración cada 4,4 s y un plano nuevo cada 1,4 s. Todas entran con la palabra (de 0,24 s antes a 0,58 s después) y ninguna dura más de 4,6 s.",
+    "clips_rafaga_trailer": [
+      {"t": "0:00.00–0:19.35 (f0–1161, 11 planos)", "sale_de": "cola y entrada al recinto (≈ 8:20–9:03.5), condensado y subtitulado", "funcion": "promesa (avance en frío hablado: anuncia el «modo POV», «espero que podáis vivirlo como lo veía yo»)", "que_se_ve": "Nil con palo selfie en la cola, POV de las verjas y del arco de entrada, tapa el objetivo con destello y aparece dentro en POV; no es ráfaga, es un trozo del vídeo puesto delante"},
+      {"t": "0:19.37 (f1162–1185)", "sale_de": "recinto, día 2 (9:03–16:38); minuto: no consta en la ficha", "funcion": "bonito", "que_se_ve": "cabecera 1/13: multitud y escenario principal al atardecer, con bandas negras"},
+      {"t": "0:19.77 (f1186–1213)", "sale_de": "recinto; minuto: no consta en la ficha", "funcion": "llamativo", "que_se_ve": "2/13: POV con un brazo en alto frente al escenario"},
+      {"t": "0:20.23 (f1214–1263)", "sale_de": "recinto; minuto: no consta en la ficha", "funcion": "llamativo", "que_se_ve": "3/13: espalda con camiseta morada y chicas bailando (2 golpes, 50 f)"},
+      {"t": "0:21.07 (f1264–1292)", "sale_de": "recinto; minuto: no consta en la ficha", "funcion": "promesa (entra el título «TOMORROWLAND»)", "que_se_ve": "4/13: POV dando palmas"},
+      {"t": "0:21.55 (f1293–1318)", "sale_de": "recinto; minuto: no consta en la ficha", "funcion": "llamativo", "que_se_ve": "5/13: chicas bailando; se suma «2022»"},
+      {"t": "0:21.98 (f1319–1344)", "sale_de": "recinto; minuto: no consta en la ficha", "funcion": "bonito", "que_se_ve": "6/13: siluetas contra el cielo; se suma «NIL OJEDA»"},
+      {"t": "0:22.87 (f1372–1401)", "sale_de": "recinto; minuto: no consta en la ficha", "funcion": "anticipa (el público)", "que_se_ve": "8/13: un chico se graba entre el público (el 7/13 es negro con el título y no se cuenta)"},
+      {"t": "0:23.37 (f1402–1424)", "sale_de": "recinto; minuto: no consta en la ficha", "funcion": "llamativo", "que_se_ve": "9/13: POV con los dos brazos arriba frente al escenario"},
+      {"t": "0:23.75 (f1425–1452)", "sale_de": "14:21", "funcion": "llamativo", "que_se_ve": "10/13: el tipo vestido de Spiderman"},
+      {"t": "0:24.22 (f1453–1475)", "sale_de": "recinto; minuto: no consta en la ficha", "funcion": "anticipa", "que_se_ve": "11/13: cabina del DJ"},
+      {"t": "0:24.60 (f1476–1499)", "sale_de": "no consta en la ficha (probable zona de fotos del encuentro con Garrix, 13:50–15:58)", "funcion": "anticipa", "que_se_ve": "12/13: césped de la zona de fotos"},
+      {"t": "0:25.00 (f1500–1570)", "sale_de": "encuentro con Martin Garrix (15:25)", "funcion": "promesa (la promesa mayor; se paga en 15:25 y en el cierre)", "que_se_ve": "13/13: Martin Garrix en el césped, apretón de manos en POV; su cuerpo tapa el objetivo y da el negro para volver a casa (71 f)"}
+    ],
+    "clips_rafaga_trailer_resumen": {
+      "origen": "derivado de linea_de_tiempo sin volver a ver el vídeo",
+      "total": 13,
+      "nota": "1 avance en frío hablado (0:00–0:19.35, material de 8:20–9:03.5) + 12 clips de la cabecera-tráiler a compás (0:19.37–0:26.17); el plano 7/13 de la cabecera es negro con el título y no se cuenta, y el sketch en casa con voz en off (0:26.18–0:52.52) está rodado aparte y no es tráiler. La ficha no marca la función de cada clip: se asigna a criterio desde que_se_ve. llamativo = acción, emoción o algo raro/caro que engancha; bonito = paisaje o detalle estético sin acción; anticipa = un sitio o momento que se contará después, sin más valor visual; promesa = el plano que lleva nombre/título o enseña la recompensa principal del vídeo.",
+      "de_donde": "100 % del propio vídeo, todo del día 2 en el festival: la cola y la entrada (avance en frío) y el recinto (9:03–16:38); de los 12 clips de cabecera solo 2 tienen minuto (Spiderman 14:21, Garrix 15:25)",
+      "funcion": "con el avance: llamativo 5 (38 %) · promesa 3 (23 %) · anticipa 3 (23 %) · bonito 2 (15 %); solo cabecera (12): llamativo 5 (42 %) · anticipa 3 (25 %) · bonito 2 (17 %) · promesa 2 (17 %)",
+      "duraciones_f": "cabecera 23–30 (uno de 50 = 2 golpes; Garrix 71) a 60 fps, un corte por golpe de música; el avance en frío dura 1.162 f en 11 planos",
+      "que_nunca_entra": "en la cabecera no entra ningún selfie de Nil ni ninguna frase (todo es POV y público con música), ni nada del viaje (taxi, avión), del hotel, del día 1 en la ciudad (gofre, chocolate), de la cámara patrocinada, de la comida o la zona Comfort, ni el mapa ni los datos del festival",
+      "orden": "no consta el orden de origen (solo 2 minutos); lo que sí consta es que el último plano es la promesa mayor (Garrix), como dice para_el_estilo, y que el avance en frío va antes de la cabecera",
+      "no_consta": "minuto exacto de 10 de los 12 clips de cabecera (solo se sabe que son del recinto, 9:03–16:38); la función de cada clip (ver nota)"
+    },
     "linea_de_tiempo": [
       {
         "f0": 0,

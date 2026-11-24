@@ -131,6 +131,18 @@
     "sin": ["tráiler o avance", "título del vídeo en pantalla", "cabecera o logo", "rótulos", "ráfaga de planos", "mapa", "b-roll"],
     "animaciones_explicativas": [],
     "animaciones_explicativas_nota": "No hay ninguna en la intro.",
+    "clips_rafaga_trailer": [],
+    "clips_rafaga_trailer_resumen": {
+      "origen": "derivado de linea_de_tiempo sin volver a ver el vídeo",
+      "total": 0,
+      "nota": "No hay ráfaga, tráiler ni avance: la intro es un saludo directo y una charla a cámara de 59,33 s en un solo selfie en la habitación del hotel. Lo único que no es el plano hablando es el punch-in de 10 f (f284–293) y el inserto borroso de Paconi (f1695–1728), que es un recorte ampliado del mismo selfie, y el aparte en B/N (f1729–1779): ninguno sale de otro minuto del vídeo.",
+      "de_donde": "no aplica",
+      "funcion": "no aplica (llamativo 0 · bonito 0 · anticipa 0 · promesa 0)",
+      "duraciones_f": "no aplica",
+      "que_nunca_entra": "nada del vídeo entra en la intro: ni el coche (se nombra en 11:24 y se ve al abrirse el camión, 13:27–14:02), ni París, ni el desfile, ni la panadería, ni el troleo, ni el cerrajero; solo se habla de París y del desfile",
+      "orden": "no aplica",
+      "no_consta": "nada: la linea_de_tiempo de la intro es completa"
+    },
     "linea_de_tiempo": [
       {"f0": 0, "f1": 283, "t": "0:00.00–0:09.47", "que_se_ve": "Plex en selfie, cámara en mano, habitación de hotel con Paconi diminuto al fondo; cara centrada, ojos a ≈ 35 % de la altura", "origen": "propio", "camara": "en mano; acerca la cámara con el brazo 0:00–0:01.3", "zoom_velocidad": "sin zoom de edición; por el brazo la escala pasa de 1,00 a 1,058 (medir_zoom 0:02–0:09.3, +0,8 %/s)", "texto": "ninguno", "motion_graphic": "ninguno", "sfx": "ninguno", "musica": "cama desde el s 1, −38,5 dB (19 dB bajo la voz)", "voz": "«¡Hola chavales! ¿Qué tal estáis? Bienvenidos a un nuevo vlog. ¡Wow! ¿Cuánto tiempo llevaba sin vloguearme con esta camarita? … creo que la última vez que esta cámara grabó mi jeta no tenía perilla»"},
       {"f0": 284, "f1": 293, "t": "0:09.47–0:09.80", "que_se_ve": "la misma toma ampliada a la cara mientras se toca la barbilla", "origen": "propio", "camara": "en mano", "zoom_velocidad": "punch-in por corte ×1,58, 10 f, escala fija", "texto": "ninguno", "motion_graphic": "ninguno", "sfx": "ninguno (pista sin voz en silencio, detalle/e01)", "musica": "cama", "voz": "cola de «perilla» y «Bueno,»"},

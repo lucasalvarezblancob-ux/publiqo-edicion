@@ -126,6 +126,18 @@
   "primera_frase": "«Muy buenas chavales» (0:04.05, entra 17 f antes del corte de la cartela)",
   "animaciones_explicativas": [],
   "animaciones_explicativas_nota": "No hay ninguna: la premisa se explica solo de palabra. Lo más parecido es el inserto de la pantalla de la báscula (f2168–f2254, 0:36.17–0:37.62) justo en «82,4 kilos».",
+  "clips_rafaga_trailer": [],
+  "clips_rafaga_trailer_resumen": {
+   "origen": "derivado de linea_de_tiempo sin volver a ver el vídeo",
+   "total": 0,
+   "nota": "No hay ráfaga, tráiler ni avance: cartela de lugar («SEVILLA / 24 HORAS ANTES / DEL COMBATE») sobre un plano fijo de la fachada (f0–259), que es plano de situación del rodaje y no un adelanto, y después 48 s de premisa hablada a cámara. El inserto de la báscula (f2168–2254) es un detalle de ese mismo momento («82,4 kilos»), no sale de otro minuto.",
+   "de_donde": "no aplica",
+   "funcion": "no aplica (llamativo 0 · bonito 0 · anticipa 0 · promesa 0)",
+   "duraciones_f": "no aplica",
+   "que_nunca_entra": "nada del vídeo entra en la intro: ni el pesaje oficial, ni el ensayo en el estadio, ni la entrada en carro, ni el combate, ni la victoria con el cinturón, ni la fiesta; la ficha (que_no_se_hereda) lo achaca a que el público ya sabe el resultado",
+   "orden": "no aplica",
+   "no_consta": "nada: la linea_de_tiempo de la intro es completa"
+  },
   "linea_de_tiempo": [
    {"f0": 0, "f1": 259, "t": "0:00.00–0:04.34", "que_se_ve": "Plano fijo de la fachada de la casa con un coche negro delante.", "origen": "rodaje propio (plano de situación)", "camara": "fija (medir_zoom 1,000)", "zoom_velocidad": "ninguno", "texto": "«SEVILLA» fundido f1→f39; «24 HORAS ANTES / DEL COMBATE» fundido f129→f150; todo quieto hasta el corte seco del f260", "motion_graphic": "cartela de lugar", "sfx": "ninguno (los candidatos 0:02.91, 0:03.19 y 0:03.47 son golpes de la música)", "musica": "desde el f0, a −16 dB (sin voz)", "voz": "«Muy buenas chavales» entra en 0:04.05 (f243), 17 f antes del corte"},
    {"f0": 260, "f1": 482, "t": "0:04.34–0:08.06", "que_se_ve": "Plex sin camiseta en el zaguán de azulejos, plano medio (de cintura para arriba), centrado, saluda con la mano.", "origen": "rodaje propio", "camara": "en mano, operador (deriva 0,992)", "zoom_velocidad": "ninguno", "texto": "", "motion_graphic": "", "sfx": "", "musica": "baja a −34,8 dB (15 dB bajo la voz)", "voz": "«Muy buenas chavales… bienvenidos a un nuevo vlog»"},
