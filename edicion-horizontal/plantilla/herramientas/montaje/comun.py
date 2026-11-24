@@ -295,8 +295,8 @@ def caja_texto(it, f=None):
         if t == "lista" and it.get("estilo") != "panel":      # tarjeta de Notas (Juego.tsx Lista): 3 % izq., 4,9 % abajo
             k = it.get("escala", 1); its = it.get("items", [])
             w = 0.197 * k; h = max(0.365 * k, 0.03 * k + (0.035 * k * 1.25 if it.get("titulo") else 0) + 0.044 * k * (len(its) + 0.6) + 0.074 * k)
-            n = max([len(str(x)) for x in its] + [1]); dentro = (0.03 * 2 + 0.03 + 0.017) * k * H / W + n * 0.023 * k * 0.5 * H / W
-            if dentro > w: print(f"AVISO LISTA: la fila más larga ({n} letras) no cabe en la tarjeta: acórtala o baja «escala»")
+            n = max([len(str(x)) for x in its] + [1]); ocupa = (0.03 * 2 + 0.03 + 0.017) * k * H / W + n * 0.023 * k * 0.5 * H / W
+            if ocupa > w: print(f"AVISO LISTA: la fila más larga ({n} letras) no cabe en la tarjeta: acórtala o baja «escala»")
             x0 = 0.03 if e[1] == "i" else 0.97 - w; y0 = 0.049 if e[0] == "s" else 0.951 - h
             return [(x0, y0, x0 + w, y0 + h)]
         if t == "lista":
