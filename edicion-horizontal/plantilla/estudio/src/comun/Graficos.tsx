@@ -114,13 +114,13 @@ export const Golpe: React.FC<{ f: number; dur: number; it: Item }> = ({ f, dur, 
   // it.alto: tamaño propio (fracción del alto), p. ej. 0,3 para un texto enorme por detrás de la persona (DETRAS, Nil «24 %»)
   // Grande (it.alto): QUIETO, sin crecer (Nil; banco de pruebas: al crecer ×1,22 «DETRÁS» se salía por los lados) y medido con
   // el ancho real de la letra ancha (~0,92 del cuerpo por mayúscula), para que ocupe como mucho el 90 % del ancho.
-  const fs = it.alto ? Math.min(H * it.alto, (W * 0.9) / (largo * 0.98)) : Math.min(H * 0.105, (W * 0.66 - largo * 2 * H * 0.006) / (largo * 0.82));
+  const fs = it.alto ? Math.min(H * it.alto, (W * 0.9) / (largo * 0.98)) : Math.min(H * 0.105, (W * 0.66 - largo * H * 0.006) / (largo * 0.82));
   const esc = it.alto ? pop(f) : pop(f) * interpolate(f, [0, dur], [1, 1.22], { extrapolateRight: "clamp", easing: Easing.out(Easing.quad) });
   return (
     <AbsoluteFill style={{ justifyContent: "flex-end", alignItems: it.x != null ? "flex-start" : "center", paddingBottom: H * (it.y ?? 0.1) }}>
       {/* it.x (centro, 0-1): el golpe GRANDE de DETRAS va al lado libre de la persona (Nil: el «24 %» al lado, solo la mano por delante) */}
       <div style={{ fontFamily: F_ANCHA, fontWeight: 900, fontSize: fs, lineHeight: 1.12, color: ACENTO, ...contorno(H * 0.006), textAlign: "center", whiteSpace: "nowrap",
-        transform: (it.x != null ? "translateX(-50%) " : "") + "scale(" + esc + ")", transformOrigin: "50% 100%", letterSpacing: Math.max(it.alto ? fs * 0.06 : 0, 2 * H * 0.006), marginLeft: it.x != null ? W * it.x : undefined }}>
+        transform: (it.x != null ? "translateX(-50%) " : "") + "scale(" + esc + ")", transformOrigin: "50% 100%", letterSpacing: it.alto ? fs * 0.06 : H * 0.006, marginLeft: it.x != null ? W * it.x : undefined }}>
         {lineas.map((l, i) => (
           <div key={i}>{l}</div>
         ))}

@@ -92,6 +92,48 @@ def marca():
     return r
 
 
+_MEDIDAS = {}
+def familia_titulos():
+    """La familia de los títulos/golpes/cifras que pintará Remotion: la de la marca (o G008) o, si no, la de marca.ts."""
+    f = (marca().get("fuentes") or {}).get("titulos")
+    if isinstance(f, dict): f = f.get("familia")
+    if f: return f
+    try:
+        m = re.search(r"F_ANCHA\s*=\s*load(\w+)\(", open(f"{ESTUDIO}/src/comun/marca.ts", encoding="utf-8").read())
+        return re.sub(r"(?<!^)([A-Z])", r" \1", m.group(1)) if m else None
+    except OSError: return None
+
+
+def ancho_real(txt, fs, familia=None, peso=900, espaciado=0.0):
+    """Ancho en px de `txt` (una línea, en mayúsculas si va así) con la letra que pinta Remotion, medido con su archivo de
+    Google Fonts (se baja una vez a herramientas/.fuentes/). None si no se puede medir: entonces se usa la estimación.
+    Por qué (Windows, banco v4.34): con la letra de Nil el texto detrás medía con el factor de Anton y la persona tapaba el 52 %."""
+    familia = familia or familia_titulos()
+    if not familia or not txt: return None
+    clave = (familia, peso)
+    if clave not in _MEDIDAS:
+        _MEDIDAS[clave] = None
+        try:
+            import subprocess, urllib.request
+            from PIL import ImageFont
+            d = os.path.join(AQUI, "..", ".fuentes"); os.makedirs(d, exist_ok=True)
+            f = os.path.join(d, f"{familia.replace(' ', '')}-{peso}.woff2")
+            if not os.path.exists(f):
+                mod = familia.replace(" ", "")
+                url = subprocess.run(["node", "-e", f"const i=require('@remotion/google-fonts/{mod}').getInfo().fonts.normal;const k=i['{peso}']?'{peso}':Object.keys(i).pop();console.log(i[k].latin)"],
+                                     cwd=ESTUDIO, capture_output=True, text=True, timeout=60).stdout.strip()
+                if url.startswith("https://"): urllib.request.urlretrieve(url, f)
+            if os.path.exists(f):
+                fnt = ImageFont.truetype(f, 200)
+                try: fnt.set_variation_by_axes([peso])      # Google sirve muchas como variables: hay que fijar el peso
+                except Exception: pass
+                _MEDIDAS[clave] = fnt
+        except Exception as e: print(f"(no se pudo medir la letra {familia}: {e}; se estima)")
+    fnt = _MEDIDAS[clave]
+    if fnt is None: return None
+    return fnt.getlength(txt) / 200 * fs + espaciado * max(len(txt) - 1, 0)
+
+
 def sin_tildes(s):
     return "".join(c for c in unicodedata.normalize("NFD", s) if unicodedata.category(c) != "Mn")
 
@@ -324,6 +366,8 @@ def caja_texto(it, f=None):
         txt = f"{it.get('prefijo', '')}{it.get('hasta', '')}{it.get('sufijo', '')}"; fl = 0.9 if it.get("flecha") else 0      # = Intro.tsx Contador
         k = max(len(txt), 2) * (0.74 + max(0, 2 * 0.005 / it.get("alto", 0.14) - 0.03)) + fl      # + espaciado ≥ 2 veces el contorno (G007)
         fs = min(H * it.get("alto", 0.14), W * 0.42 / k); w = k * fs; x, y = it.get("x", 0.5) * W, it.get("y", 0.4) * H
+        ar = ancho_real(txt.replace(".", ",") if it.get("idioma") != "en" else txt, fs, espaciado=max(fs * 0.03, 2 * 0.005 * H))
+        if ar is not None: w = ar + fl * fs + 4 * 0.005 * H
         return [((x - w / 2) / W, (y - fs / 2) / H, (x + w / 2) / W, (y + fs / 2) / H)]
     if t == "seccion":
         x0 = 0.07 * H; de = it.get("de") or 0
@@ -333,11 +377,15 @@ def caja_texto(it, f=None):
         y1 = H * 0.93; return [(x0 / W, (y1 - 0.23 * H * 0.9) / H, (x0 + numw + 0.03 * H + txt) / W, y1 / H)]
     if t == "golpe":
         ls = s("txt").split("|"); n = max(len(l) for l in ls)
-        if it.get("alto"):      # grande y quieto (Graficos.tsx Golpe): ancho real de la letra ancha, sin crecimiento
+        if it.get("alto"):      # grande y quieto (Graficos.tsx Golpe): ancho MEDIDO con su letra, sin crecimiento
             fs = min(it["alto"] * H, 0.9 * W / (max(n, 2) * 0.98)); w, h = n * fs * 0.98, len(ls) * fs * 1.12     # +0,06 em de espaciado
+            ar = [ancho_real(l.upper(), fs, espaciado=fs * 0.06) for l in ls]
+            if all(a_ is not None for a_ in ar): w = max(ar) + 4 * 0.006 * H      # + el contorno por los dos lados
         else:
-            ls_ = 2 * 0.006 * H      # espaciado = 2 veces lo que el contorno sale por fuera (G007)
+            ls_ = 0.006 * H      # espaciado = lo que el contorno sale por fuera (G007; con el doble, Inter Tight quedaba casi extendida)
             fs = min(0.105 * H, (0.66 * W - n * ls_) / (max(n, 2) * 0.82)); w, h = n * (fs * 0.75 + ls_) * 1.22, len(ls) * fs * 1.12 * 1.22
+            ar = [ancho_real(l.upper(), fs, espaciado=ls_) for l in ls]
+            if all(a_ is not None for a_ in ar): w = (max(ar) + 4 * 0.006 * H) * 1.22      # 1,22: el golpe crece al entrar
         y1 = 1 - it.get("y", 0.1); cx = it.get("x", 0.5); return [(cx - w / 2 / W, y1 - h / H, cx + w / 2 / W, y1)]
     if t in ("nota", "sub"):
         fs = (0.046 if t == "nota" else 0.05) * H; b = 0.075 if t == "nota" else 0.1; w = len(s("txt")) * fs * 0.52
