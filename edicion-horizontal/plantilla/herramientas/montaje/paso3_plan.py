@@ -14,6 +14,12 @@ Lee plan.py del vídeo (todo opcional; lo que no esté, no se pone):
   FALLOS    [(ancla_inicio, ancla_fin)]: un fail (se cae la cámara, se va la luz, se le cae algo): el tramo en BLANCO Y NEGRO
             y la voz algo saturada (paso5_audio.py), hasta que se recupera («¡hemos vuelto!»)
   REPETIR_OK [(clip, segundo)]: tramos del bruto que salen dos veces A PROPÓSITO (si no, paso3 se para: «REPETIDO»)
+  KIT DE INTROS (estudio/src/comun/Intro.tsx; base/intros.md → «Dos tipos de intro»):
+  PARTIDAS  etiqueta partida «izq | der» (nombre, título, «lugar | hora»): [(ancla, segundos, "IZQ", "DER", {desfase, y, alto, color})]
+  MAQUINA   lema a máquina, 1 letra/fotograma, sobre negro: [(ancla, "texto", {fijo: 25, cps: 1, fondo: "negro"|"ninguno"})]
+  CONTADORES cifra que sube con frenada: [(ancla, segundos, hasta, {desde, sufijo, prefijo, dec, x, y, flecha, dur_f})]
+  CARTELAS_DIA cambio de día: destello → negro con texto → destello: [(ancla, "Next day", {negro: 41, flash_in: 6, flash_out: 5})]
+  OSCURECER fondo al 50 % bajo un rótulo o icono: [(ancla, segundos, {nivel: 0.5, fundido: 4})]
   PROPIOS   gráficos PROPIOS del creador (su mascota, su logo…): [(ancla, segundos, "tipo", {datos})]; los pinta
             estudio/src/personal/<creador>/ y se documentan en personal/<creador>/recursos.md
 Los cortes de escala los pone dinamica.py. Al final imprime el ritmo (mediana de plano, cortes/min) y los avisos."""
@@ -28,6 +34,7 @@ BROLL, TRK, DETALLE, MAPAS, SUBS = g("BROLL", []), g("TRK", []), set(g("DETALLE"
 FUERTES, ENTRADAS, DATOS, GOLPES, NOTAS = g("FUERTES", []), g("ENTRADAS", []), g("DATOS", []), g("GOLPES", []), g("NOTAS", [])
 TITULO, SUSCRIBE, BOTONES, PROPIOS = g("TITULO", None), g("SUSCRIBE", None), g("BOTONES", []), g("PROPIOS", [])
 FALLOS, REPETIR_OK = g("FALLOS", []), g("REPETIR_OK", [])
+PARTIDAS, MAQUINA, CONTADORES, CARTELAS_DIA, OSCURECER = g("PARTIDAS", []), g("MAQUINA", []), g("CONTADORES", []), g("CARTELAS_DIA", []), g("OSCURECER", [])
 L = Linea(); P, W, M = L.piezas, L.palabras, L.marcas
 
 
@@ -329,6 +336,20 @@ for a, d, txt, *op in GOLPES:      # (ancla, segundos, "TEXTO"[, {"y": 0.62}]): 
     f0 = L.ancla(a); items.append({"t": "golpe", "f0": f0, "f1": f0 + F(d), "txt": txt, **(op[0] if op else {})})
 for a, ret, d, txt in NOTAS:
     f0 = L.ancla(a) + F(ret); items.append({"t": "nota", "f0": f0, "f1": f0 + F(d), "txt": txt})
+# ---- kit de intros (Intro.tsx): solo si el plan.py los pide ----
+for a, d, *op in OSCURECER:        # va PRIMERO (debajo de todo lo que coincida con él)
+    f0 = L.ancla(a); items.insert(0, {"t": "oscurecer", "f0": f0, "f1": f0 + F(d), **(op[0] if op else {})})
+for a, d, izq, der, *op in PARTIDAS:
+    f0 = L.ancla(a); items.append({"t": "partida", "f0": f0, "f1": f0 + F(d), "izq": izq, "der": der, **(op[0] if op else {})})
+for a, txt, *op in MAQUINA:
+    o = dict(op[0]) if op else {}; f0 = L.ancla(a)
+    n = int(np.ceil(len(txt) / float(o.get("cps", 1)))) + int(o.get("fijo", 25))
+    items.append({"t": "maquina", "f0": f0, "f1": f0 + n, "txt": txt, **o})
+for a, d, hasta, *op in CONTADORES:
+    f0 = L.ancla(a); items.append({"t": "contador", "f0": f0, "f1": f0 + F(d), "hasta": hasta, "idioma": IDIOMA, **(op[0] if op else {})})
+for a, txt, *op in CARTELAS_DIA:
+    o = dict(op[0]) if op else {}; f0 = L.ancla(a)
+    items.append({"t": "cartela_dia", "f0": f0, "f1": f0 + int(o.get("flash_in", 6)) + int(o.get("negro", 41)) + int(o.get("flash_out", 5)), "txt": txt, **o})
 # ---- ningún texto se va antes de que se haya DICHO entero y se pueda leer (comun.texto_dicho) ----
 # Se alarga solo hasta medio segundo después de su última palabra (o hasta la pausa) y nunca menos que el tiempo de
 # leerlo; sin pisar el texto siguiente. Imprime lo que alarga: si un texto crece mucho, mira si el ancla está bien.

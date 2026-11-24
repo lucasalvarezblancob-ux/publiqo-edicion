@@ -271,7 +271,19 @@ def caja_texto(it, f=None):
     W, H = ANCHO, ALTO; t = it["t"]; cj = ajuste("CAJAS", {}).get(t)
     s = lambda k: str(it.get(k) or "")
     if cj: return [tuple(cj[it.get("lado", "der")] if isinstance(cj, dict) else cj)]
-    if t in ("titulo", "mapa"): return [(0.0, 0.0, 1.0, 1.0)]
+    if t in ("titulo", "mapa", "cartela_dia") or (t == "maquina" and it.get("fondo") != "ninguno"): return [(0.0, 0.0, 1.0, 1.0)]
+    if t == "oscurecer": return []
+    if t == "partida":          # Intro.tsx: dos palabras a media altura, ancladas a cada lado
+        fs = H * it.get("alto", 0.042) * 1.38; y = it.get("y", 0.495); h = fs / H; ch = fs * 0.58 / W
+        iz = it.get("margen_izq", 0.077); de = it.get("margen_der", 0.095)
+        return [(iz, y - h / 2, iz + len(s("izq")) * ch, y + h / 2), (1 - de - len(s("der")) * ch, y - h / 2, 1 - de, y + h / 2)]
+    if t == "maquina":
+        fs = min(H * it.get("alto", 0.034) * 1.38, W * 0.84 / (max(len(s("txt")), 8) * 0.55)); w = len(s("txt")) * fs * 0.55
+        return [((W - w) / 2 / W, 0.5 - fs / 2 / H, (W + w) / 2 / W, 0.5 + fs / 2 / H)]
+    if t == "contador":
+        txt = f"{it.get('prefijo', '')}{it.get('hasta', '')}{it.get('sufijo', '')}" + ("  " if it.get("flecha") else "")
+        fs = min(H * it.get("alto", 0.14), W * 0.42 / (max(len(txt), 2) * 0.62)); w = len(txt) * fs * 0.62; x, y = it.get("x", 0.5) * W, it.get("y", 0.4) * H
+        return [((x - w / 2) / W, (y - fs / 2) / H, (x + w / 2) / W, (y + fs / 2) / H)]
     if t == "seccion":
         x0 = 0.07 * H; de = it.get("de") or 0
         numw = 0.23 * H * 0.62 * len(str(it.get("n", ""))) + (0.085 * H * 0.62 * (1 + len(str(de))) if de else 0)
