@@ -272,7 +272,23 @@ def caja_texto(it, f=None):
     s = lambda k: str(it.get(k) or "")
     if cj: return [tuple(cj[it.get("lado", "der")] if isinstance(cj, dict) else cj)]
     if t in ("titulo", "mapa", "cartela_dia") or (t == "maquina" and it.get("fondo") != "ninguno"): return [(0.0, 0.0, 1.0, 1.0)]
-    if t == "oscurecer": return []
+    if t in ("oscurecer", "destello"): return []
+    if t in ("marcador", "lista", "vidas"):      # Juego.tsx: en una esquina (MARGEN 0,045 del alto)
+        e = it.get("esquina", {"marcador": "si", "lista": "ii", "vidas": "sd"}[t]); m = 0.045
+        if t == "marcador":
+            fs = it.get("alto", 0.085); n = len(f"{it.get('prefijo', '')}{it.get('hasta', '')}{it.get('sufijo', '')}")
+            w = max(n * fs * 0.75 * H / W, len(s("etiqueta")) * fs * 0.3 * 0.62 * H / W); h = fs * (1.35 if it.get("etiqueta") else 1.0)
+        elif t == "lista":
+            fs = it.get("alto", 0.03); its = it.get("items", []); n = max([len(str(x)) for x in its] + [len(s("titulo")) * 1.6, 4])
+            w = (n * fs * 0.55 + fs * 1.6 + fs * 1.6) * H / W; h = fs * (1.35 * len(its) + 1.2 + (1.3 if it.get("titulo") else 0))
+        else:
+            fs = it.get("alto", 0.06); w = it.get("total", 3) * fs * 1.15 * H / W; h = fs * (1.4 if it.get("etiqueta") else 1.0)
+        x0 = m * 1.3 * H / W if e[1] == "i" else 1 - m * 1.3 * H / W - w; y0 = m if e[0] == "s" else 1 - m - h
+        return [(x0, y0, x0 + w, y0 + h)]
+    if t == "barra":
+        w = it.get("ancho", 0.34); y = it.get("y", 0.1); return [((1 - w) / 2, y, (1 + w) / 2, y + 0.07)]
+    if t == "eliminado":
+        tam = it.get("tam", 0.42); x, y = it.get("x", 0.5), it.get("y", 0.5); return [(x - tam / 2 * H / W, y - tam / 2, x + tam / 2 * H / W, y + tam / 2)]
     if t == "partida":          # Intro.tsx: dos palabras a media altura, ancladas a cada lado
         fs = H * it.get("alto", 0.042) * 1.38; y = it.get("y", 0.495); h = fs / H; ch = fs * 0.58 / W
         iz = it.get("margen_izq", 0.077); de = it.get("margen_der", 0.095)

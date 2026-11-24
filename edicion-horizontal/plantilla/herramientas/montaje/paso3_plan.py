@@ -21,6 +21,18 @@ Lee plan.py del vídeo (todo opcional; lo que no esté, no se pone):
   CARTELAS_DIA cambio de día: destello → negro con texto → destello: [(ancla, "Next day", {negro: 41, flash_in: 6, flash_out: 5})]
   OSCURECER fondo al 50 % bajo un rótulo o icono: [(ancla, segundos, {nivel: 0.5, fundido: 4})]
   DETRAS    la PERSONA por encima de los gráficos (texto por detrás de ella): [(ancla, segundos)]; luego detras.py
+JUEGO Y RITMO (Juego.tsx / dinamica.py; estilos reto y vlog, pero valen en cualquier vídeo). Sin pedirlos, nada cambia:
+  DESTELLOS  destello de paso: [(ancla, {f: 6, sube: 0, color: "white", nivel: 1})]   (vlog 2 f; misión: verde, sube 4, f 18)
+  MARCADORES cifra fija en esquina: [(ancla, segundos, hasta, {desde, dur_f: 12 (0 = salto seco), etiqueta, esquina: "si"})]
+  BARRAS     progreso: [(ancla, segundos, {desde: 5, hasta: 90, dur_f: 65, izq: "Iquitos", der, y: 0.1})]
+  LISTAS     casillas: [(ancla, segundos, ["paso 1", ...], {hechas: [0], marca: {1: 40}, titulo, tachar, esquina: "ii"})]
+  VIDAS      corazones: [(ancla, segundos, {total: 3, quedan: 3, pierde_en: 20, etiqueta: "RULES BROKEN"})]
+  ELIMINADOS X roja: [(ancla, segundos, {x: 0.5, y: 0.5, tam: 0.42})]
+  VAIVENES   zoom de vaivén sobre quien remata (Plex 2025): [(ancla, {z: 1.26, ent: 8, aguanta: 35, sal: 8})], ~1/min
+  ZOOM_REMATE zoom lento hacia un remate: [(ancla_del_remate, segundos_antes, {vel: 0.04})] (+4 %/s; vuelve en el corte)
+  Lo que suena es el CAMBIO (casilla, vida, X): {"snd": ["ping", 0.25], "snd_en": 40} en la pieza (snd_en = fotogramas
+  desde su entrada; el mismo que su `marca` o `pierde_en`).
+  VACIOS     vacío antes del golpe, sin voz ni música (≤ 4 s; estilos reto/vlog): [(ancla_del_golpe, segundos)] (paso6_musica.py)
   PROPIOS   gráficos PROPIOS del creador (su mascota, su logo…): [(ancla, segundos, "tipo", {datos})]; los pinta
             estudio/src/personal/<creador>/ y se documentan en personal/<creador>/recursos.md
 Los cortes de escala los pone dinamica.py. Al final imprime el ritmo (mediana de plano, cortes/min) y los avisos."""
@@ -36,6 +48,8 @@ FUERTES, ENTRADAS, DATOS, GOLPES, NOTAS = g("FUERTES", []), g("ENTRADAS", []), g
 TITULO, SUSCRIBE, BOTONES, PROPIOS = g("TITULO", None), g("SUSCRIBE", None), g("BOTONES", []), g("PROPIOS", [])
 FALLOS, REPETIR_OK = g("FALLOS", []), g("REPETIR_OK", [])
 PARTIDAS, MAQUINA, CONTADORES, CARTELAS_DIA, OSCURECER = g("PARTIDAS", []), g("MAQUINA", []), g("CONTADORES", []), g("CARTELAS_DIA", []), g("OSCURECER", [])
+DESTELLOS, MARCADORES, BARRAS, LISTAS, VIDAS, ELIMINADOS = (g(k, []) for k in ("DESTELLOS", "MARCADORES", "BARRAS", "LISTAS", "VIDAS", "ELIMINADOS"))
+VAIVENES, ZOOM_REMATE = g("VAIVENES", []), g("ZOOM_REMATE", [])
 L = Linea(); P, W, M = L.piezas, L.palabras, L.marcas
 
 
@@ -141,6 +155,16 @@ for x, y in zip(orden, orden[1:]):
     if y["f0"] < x["f1"]: print("AVISO: especiales solapados", x["tipo"], x["f0"], x["f1"], y["tipo"], y["f0"]); x["f1"] = y["f0"]
 
 vid = planos_de_voz(P, W, Caras(TRABAJO), esp, L.secciones)
+# ---- zoom de vaivén y zoom lento hacia un remate (dinamica.filtro_zoom, "anim"): solo si el plan.py los pide ----
+def _plano(fr): return next((v for v in vid if v["o"] <= fr < v["o"] + v["n"]), None)
+for a, *op in VAIVENES:
+    fr = L.ancla(a); v = _plano(fr); o = {"z": 1.26, "ent": 8, "aguanta": 35, "sal": 8, **(op[0] if op else {})}
+    if v is None or v.get("t"): print(f"AVISO: vaivén en {fr} sin plano o sobre un zoom animado; se salta"); continue
+    v["anim"] = {"tipo": "vaiven", "desde": fr - v["o"], **o}
+for a, seg, *op in ZOOM_REMATE:
+    r = L.ancla(a); v = _plano(max(0, r - 1)); o = {"vel": 0.04, **(op[0] if op else {})}
+    if v is None or v.get("t"): print(f"AVISO: zoom al remate en {r} sin plano o sobre un zoom animado; se salta"); continue
+    v["anim"] = {"tipo": "rampa", "desde": max(0, r - F(seg) - v["o"]), "hasta": r - v["o"], **o}
 
 
 def cortar(f):   # parte el plano que contiene el frame f
@@ -351,6 +375,19 @@ for a, d, hasta, *op in CONTADORES:
 for a, txt, *op in CARTELAS_DIA:
     o = dict(op[0]) if op else {}; f0 = L.ancla(a)
     items.append({"t": "cartela_dia", "f0": f0, "f1": f0 + int(o.get("flash_in", 6)) + int(o.get("negro", 41)) + int(o.get("flash_out", 5)), "txt": txt, **o})
+# ---- juego y destello (Juego.tsx): solo si el plan.py los pide ----
+for a, *op in DESTELLOS:
+    o = dict(op[0]) if op else {}; f0 = L.ancla(a); items.append({"t": "destello", "f0": f0, "f1": f0 + int(o.get("f", 6)), **o})
+for a, d, hasta, *op in MARCADORES:
+    f0 = L.ancla(a); items.append({"t": "marcador", "f0": f0, "f1": f0 + F(d), "hasta": hasta, "idioma": IDIOMA, **(op[0] if op else {})})
+for a, d, *op in BARRAS:
+    f0 = L.ancla(a); items.append({"t": "barra", "f0": f0, "f1": f0 + F(d), **(op[0] if op else {})})
+for a, d, lis, *op in LISTAS:
+    f0 = L.ancla(a); items.append({"t": "lista", "f0": f0, "f1": f0 + F(d), "items": lis, **(op[0] if op else {})})
+for a, d, *op in VIDAS:
+    f0 = L.ancla(a); items.append({"t": "vidas", "f0": f0, "f1": f0 + F(d), **(op[0] if op else {})})
+for a, d, *op in ELIMINADOS:
+    f0 = L.ancla(a); items.append({"t": "eliminado", "f0": f0, "f1": f0 + F(d), **(op[0] if op else {})})
 # ---- ningún texto se va antes de que se haya DICHO entero y se pueda leer (comun.texto_dicho) ----
 # Se alarga solo hasta medio segundo después de su última palabra (o hasta la pausa) y nunca menos que el tiempo de
 # leerlo; sin pisar el texto siguiente. Imprime lo que alarga: si un texto crece mucho, mira si el ancla está bien.

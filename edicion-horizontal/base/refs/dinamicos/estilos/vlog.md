@@ -554,6 +554,12 @@ Decididas en el Mac con el criterio de las referencias (se pueden cambiar si Luc
 
 ## Piezas del motor que faltan
 
+> **Construidas en v4.24** (se piden en el `plan.py`, ver la cabecera de `paso3_plan.py`): `DESTELLOS`, `MARCADORES`,
+> `BARRAS`, `LISTAS`, `VIDAS`, `ELIMINADOS` (Juego.tsx), `VAIVENES` y `ZOOM_REMATE` (dinamica.py), `VACIOS` y
+> `HUECOS_MUSICA` / ventanas `{"seco": True}` (paso6_musica.py). El sonido del cambio, con `snd` + `snd_en`. Render corto
+> de prueba: `prueba_clip.py DESDE HASTA salida.mp4` (1080p ligero).
+
+
 Mientras no estén, se hace a mano con PROPIOS o se omite: zoom de vaivén (8 f de entrada, 1,4 s, 8 f de salida); empujón
 acelerado hacia un rótulo (×1,75–1,9 en 12–48 f, ease-in); cartela de salto de día (flash + negro, 53 f); etiqueta pareada
 «sitio | hora» (también la pide `INTROS`); corte de música en seco con vuelta en el corte (= reto); sonidos de caja registradora

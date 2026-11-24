@@ -83,8 +83,19 @@ for w in L.palabras:
     if "o0" in w: voz[max(0, int(w["o0"]) - F(0.25)):int(w["o1"]) + F(0.25)] = True
 
 
+# VACÍOS ANTES DEL GOLPE (estilos reto y vlog, Lucas 2026-11-24): hasta 4 s sin voz ni música justo antes de un golpe,
+# pedidos en plan.py con VACIOS = [(ancla_del_golpe, segundos)]. No cuentan como hueco que rellenar y en ellos se quita la
+# música en seco (vuelve en el golpe). Sin VACIOS no cambia nada.
+VACIOS = []
+for anc, seg_ in getattr(plan, "VACIOS", []):
+    if seg_ > 4: print(f"AVISO: vacío de {seg_} s: el máximo es 4 s; se deja en 4"); seg_ = 4
+    g_ = L.ancla(anc); VACIOS.append((max(0, g_ - F(seg_)), g_))
+permitido = np.zeros(TOTAL + 1, bool)
+for a_, b_ in VACIOS: permitido[a_:b_] = True
+
+
 def huecos():
-    oye = np.zeros(TOTAL + 1, bool)
+    oye = permitido.copy()
     for _, f0, f1 in W: oye[f0:f1 if f1 >= TOTAL else max(f0, f1 - SAL // 2)] = True
     h, i = [], 0
     while i <= TOTAL:
@@ -143,11 +154,16 @@ k = np.hanning(21); g = np.convolve(np.pad(g, 10, mode="edge"), k / k.sum(), "va
 env = 10 ** (np.interp(np.arange(N) / SR * FPS, np.arange(len(g)), g) / 20)
 env[-3 * SR:] *= np.linspace(1, 0, 3 * SR) ** 2
 # G005: SILENCIO COMO REMATE (8 de 15 vlogs, 7 de 7 retos). En plan.py: HUECOS_MUSICA = [(ancla_del_remate, segundos), ...]
-# La música se va EN SECO `segundos` antes del remate (0,7–6 s) y vuelve de golpe en el primer corte tras el remate.
+# La música se va EN SECO `segundos` antes del remate (0,7–6 s) y vuelve de golpe en el primer corte tras el remate
+# (como mucho 2 s después: banco de pruebas, un corte 3,8 s tarde dejaba 5,8 s de silencio).
 # Va después del suavizado, con 1 fotograma de rampa (sin chasquido). Sin HUECOS_MUSICA no cambia nada.
 _V = json.load(open(f"{TRABAJO}/video.json")); _cortes = sorted({v["o"] for tr in _V["tramos"] for v in tr} | {TOTAL})
+for a, b in VACIOS:
+    sa, sb, ram = a * SR // FPS, b * SR // FPS, SR // FPS
+    env[sa:sb] = 0; env[max(0, sa - ram):sa] *= np.linspace(1, 0, sa - max(0, sa - ram)); env[sb:sb + ram] *= np.linspace(0, 1, len(env[sb:sb + ram]))
+    print(f"vacío antes del golpe {mmss(a)}–{mmss(b)}")
 for anc, seg_ in getattr(plan, "HUECOS_MUSICA", []):
-    r = L.ancla(anc); a = max(0, r - F(seg_)); b = next((c for c in _cortes if c > r), TOTAL)
+    r = L.ancla(anc); a = max(0, r - F(seg_)); b = min(next((c for c in _cortes if c > r), TOTAL), r + F(2.0))   # vuelve en el corte, como mucho 2 s tras el remate
     sa, sb, ram = a * SR // FPS, b * SR // FPS, SR // FPS
     env[sa:sb] = 0; env[max(0, sa - ram):sa] *= np.linspace(1, 0, sa - max(0, sa - ram))
     env[sb:sb + ram] *= np.linspace(0, 1, len(env[sb:sb + ram]))

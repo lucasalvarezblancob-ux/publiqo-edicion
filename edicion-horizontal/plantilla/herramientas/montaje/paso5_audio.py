@@ -10,10 +10,10 @@ import plan      # después de comun: es quien mete la carpeta del vídeo en el 
 SR = 48000; SND = f"{ESTUDIO}/public/sonidos"
 # G003 (2026-11-24, estudio de 22 referencias): suena la CONSECUENCIA, no la entrada. Etiquetas (trk), cifras (dato) y
 # golpes de zoom entran mudos; el sonido va con "snd" en el instante del cambio (casilla, logro, plaza). Excepción: el
-# DINERO suena siempre (7 de 7 refs que rotulan precios): cualquier texto con €, $, «euros», «dólares»… lleva "dinero".
+# DINERO suena siempre (7 de 7 refs que rotulan precios): cualquier texto con €, $, «euros», «dólares»… lleva "dinero" (caja registradora; la larga, para un total, con "snd").
 # Rollback por creador: deshacer_cambio.py <creador> G003.
 SFX = {"titulo": ("impact-bass-1", 0.30), "seccion": ("whoosh-short", 0.22), "trk": None, "mapa": ("click-soft", 0.30),
-       "suscribe": ("pop", 0.25), "dato": None, "golpe": None, "dinero": ("ping", 0.22)}
+       "suscribe": ("pop", 0.25), "dato": None, "golpe": None, "dinero": ("caja-registradora", 0.18)}
 SFX = {**SFX, **ajuste("SFX", {})}                 # personal/<creador>/ajustes.py: cambia o quita (None) el de un tipo
 SFX = {k: v for k, v in getattr(plan, "SFX", SFX).items() if v}   # plan.py del vídeo: sustituye el mapa entero
 LUFS = ajuste("LUFS", -14)
@@ -119,8 +119,8 @@ if __name__ == "__main__":
     for it in C["items"]:
         if not it.get("snd") and it["t"] not in SFX and "dinero" in SFX and DINERO.search(str(it.get("txt", "")) + " " + str(it.get("sub", ""))):
             it = {**it, "snd": SFX["dinero"]}
-        if it.get("snd") or it["t"] in SFX:      # "snd": [archivo, ganancia, velocidad?] en el item (botones, gráficos propios) manda sobre el mapa por tipo
-            nombre, g, *v = it.get("snd") or SFX[it["t"]]; s = snd(nombre, float(v[0]) if v else 1.0) * g; o = it["f0"] * SR // FPS; s = s[:len(fx) - o]; fx[o:o + len(s)] += s; n += 1
+        if it.get("snd") or it["t"] in SFX:      # "snd_en": fotogramas desde la entrada (el CAMBIO: casilla, vida, X); "snd": [archivo, ganancia, velocidad?] en el item (botones, gráficos propios) manda sobre el mapa por tipo
+            nombre, g, *v = it.get("snd") or SFX[it["t"]]; s = snd(nombre, float(v[0]) if v else 1.0) * g; o = (it["f0"] + int(it.get("snd_en", 0))) * SR // FPS; s = s[:len(fx) - o]; fx[o:o + len(s)] += s; n += 1
     sf.write(f"{TRABAJO}/voz_fx_pre.wav", y, SR); sf.write(f"{TRABAJO}/fx.wav", fx, SR)
     # voz: paso alto 80 Hz + compresión suave; luego mezcla con efectos
     subprocess.run(["ffmpeg", "-nostdin", "-v", "error", "-y", "-i", f"{TRABAJO}/voz_fx_pre.wav", "-i", f"{TRABAJO}/fx.wav", "-filter_complex",

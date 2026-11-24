@@ -34,7 +34,7 @@ antes de un golpe o detalle del plan también queda a ×1,0.
 Estudio de estilos: zooms y punch mudos en 9 de 9 vlogs; cifras y etiquetas mudas en 5 de 7 retos; el dinero suena en
 7 de 7 que rotulan precios. Etiquetas (`trk`), cifras (`dato`) y golpes de zoom (`golpe`) entran mudos; el efecto va
 con `"snd"` en el instante del cambio (casilla, logro, plaza). Un texto con €, $, «euros», «dólares», «pesos»… suena
-(`dinero`: ping). Alimentación: de 29 efectos (1,3/min) a 11 (0,5/min); las referencias, 0,16–2,1/min (mediana 0,5).
+(`dinero`: caja registradora corta; la larga, con `"snd"`, para un total). Alimentación: de 29 efectos (1,3/min) a 11 (0,5/min); las referencias, 0,16–2,1/min (mediana 0,5).
 ```json
 {"id": "G003", "fecha": "2026-11-24", "tipo": "ajuste", "nombre": "SFX",
  "antes": {"trk": ["pop", 0.25], "dato": ["pop", 0.2], "golpe": ["whoosh-short", 0.16], "dinero": null},

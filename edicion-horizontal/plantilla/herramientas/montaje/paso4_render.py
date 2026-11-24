@@ -38,6 +38,9 @@ def codificador():
 
 def capas(tope=0):
     t = time.time()
+    if os.environ.get("SOLO_TRAMOS"):      # prueba_clip.py: solo las capas de esos tramos (no todo el vídeo)
+        ids = [int(x) for x in os.environ["SOLO_TRAMOS"].split(",")]; tr = [(V["tramos"][i][0]["o"], V["tramos"][i][-1]["o"] + V["tramos"][i][-1]["n"]) for i in ids]
+        V["rangos"] = [(a, b) for a, b in V["rangos"] if any(a < y and b > x for x, y in tr)]
     if not V["rangos"]: print("sin gráficos"); return
     faltan = [(a, b) for a, b in V["rangos"] if not os.path.exists(f"{OUT}/capas/c{a}.mov")]
     if not faltan: print("capas: ya están todas"); return          # rehacer solo tramos (un difuminado, un recurso) no necesita Remotion ni Node

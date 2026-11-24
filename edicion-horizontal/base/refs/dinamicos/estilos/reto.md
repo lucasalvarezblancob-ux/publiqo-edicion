@@ -401,6 +401,12 @@ PROPIOS o se omite): corte de música en seco 1–3 s con vuelta en el corte (pa
 golpe» en el plan, zoom lento hacia un remate, destello de 4–8 f, y piezas de juego en Remotion (contador fijo, barras,
 lista que se tacha, vidas, X de eliminado, tablero, índice de pruebas). El contador con frenada ya existe (`CONTADORES`).
 
+> **Construidas en v4.24** (se piden en el `plan.py`, ver la cabecera de `paso3_plan.py`): `DESTELLOS`, `MARCADORES`,
+> `BARRAS`, `LISTAS`, `VIDAS`, `ELIMINADOS` (Juego.tsx), `VAIVENES` y `ZOOM_REMATE` (dinamica.py), `VACIOS` y
+> `HUECOS_MUSICA` / ventanas `{"seco": True}` (paso6_musica.py). El sonido del cambio, con `snd` + `snd_en`. Render corto
+> de prueba: `prueba_clip.py DESDE HASTA salida.mp4` (1080p ligero).
+
+
 ## Lo que le falta al reto de Lucas (Survivor Race)
 
 lucas-survivor frente a las 7. Lo que hace bien: tráiler de 13,5 s con el pico cortado sin resolver; un rótulo por

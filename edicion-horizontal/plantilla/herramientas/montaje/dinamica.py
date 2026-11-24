@@ -135,8 +135,21 @@ def filtro_zoom(v):
     # fuente 16:9 no hace nada (min(iw, ih*16/9) = iw). Sin esto, scale a ANCHO x ALTO la deformaba (vaciamos-estanque-2,
     # 2026-11-19). En un vertical el centro casi nunca es el sujeto: ahí, mejor una copia _h recortada a mano a su altura.
     pre = RECORTE_169
-    if z0 == 1 and z1 == 1: return pre + f"scale={AW}:{AH}:flags=bicubic,"
+    if z0 == 1 and z1 == 1 and not v.get("anim"): return pre + f"scale={AW}:{AH}:flags=bicubic,"
     cx, cy, ax, ay = v.get("cx"), v.get("cy"), v.get("ax", 0.5), v.get("ay", CARA_Y)
+    an = v.get("anim")
+    if an and t == 0 and z0 == z1:      # vaivén / rampa hacia un remate (paso3: VAIVENES, ZOOM_REMATE), sobre la escala del plano
+        u = f"(t-{an['desde'] / FPS:.4f})"
+        if an["tipo"] == "vaiven":
+            e, h_, s = an["ent"] / FPS, an["aguanta"] / FPS, an["sal"] / FPS
+            env = (f"if(lt({u},0),0,if(lt({u},{e:.4f}),1-pow(1-{u}/{e:.4f},3),if(lt({u},{e + h_:.4f}),1,"
+                   f"if(lt({u},{e + h_ + s:.4f}),0.5+0.5*cos(PI*({u}-{e + h_:.4f})/{s:.4f}),0))))")
+            Z = f"({z1}*(1+{an['z'] - 1:.4f}*{env}))"
+        else:
+            Z = f"({z1}*(1+{an['vel']:.4f}*min(max({u},0),{(an['hasta'] - an['desde']) / FPS:.4f})))"
+        xs = f"({AW}*{Z}-{AW})/2" if cx is None else f"min(max({cx:.0f}*{Z}-{ax * AW:.0f},0),max({AW}*{Z}-{AW + 2},0))"
+        ys = f"({AH}*{Z}-{AH})/2" if cy is None else f"min(max({cy:.0f}*{Z}-{ay * AH:.0f},0),max({AH}*{Z}-{AH + 2},0))"
+        return pre + f"scale=w='2*trunc({AW // 2}*{Z}+0.01)':h='2*trunc({AH // 2}*{Z}+0.01)':eval=frame:flags=bicubic,crop=w={AW}:h={AH}:x='{xs}':y='{ys}',"
     if t == 0 and z0 == z1:
         w, h, x, y = encuadre(z1, cx, cy, ax, ay)
         return pre + f"scale={w}:{h}:flags=bicubic,crop={AW}:{AH}:{x}:{y},"

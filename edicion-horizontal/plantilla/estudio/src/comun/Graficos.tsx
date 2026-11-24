@@ -3,6 +3,7 @@ import { AbsoluteFill, Easing, interpolate, OffthreadVideo, Sequence, staticFile
 import { ACENTO, Marca, usarMarca } from "./marca";
 import { F_ANCHA, F_RELLENO, F_TXT, usarFuentes } from "./fuentes";
 import { PiezaIntro, TIPOS_INTRO } from "./Intro";
+import { PiezaJuego, TIPOS_JUEGO } from "./Juego";
 
 // Capas gráficas del vídeo horizontal: SOLO lo que va encima de la imagen (fondo transparente, salvo el mapa).
 // El montaje (cortes, zooms, planos de recurso) lo hace ffmpeg desde los brutos (herramientas/montaje/paso4_render.py);
@@ -213,7 +214,8 @@ export const CapasBase: React.FC<{ datos: { items: Item[]; marca?: Marca }; extr
         if (it.t === "nota") return <Nota key={k} it={it} />;
         if (it.t === "suscribe") return <Suscribe key={k} f={f} it={it} />;
         if (it.t === "boton") return <Boton key={k} it={it} />;
-        if (TIPOS_INTRO.has(it.t)) return <PiezaIntro key={k} f={f} dur={dur} it={it} />;   // kit de intros (Intro.tsx)
+        if (TIPOS_INTRO.has(it.t)) return <PiezaIntro key={k} f={f} dur={dur} it={it} />;
+        if (TIPOS_JUEGO.has(it.t)) return <PiezaJuego key={k} f={f} dur={dur} it={it} />;   // juego y destello (Juego.tsx)   // kit de intros (Intro.tsx)
         return extra ? <React.Fragment key={k}>{extra(it, f, dur, k)}</React.Fragment> : null;
       })}
     </AbsoluteFill>
