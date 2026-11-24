@@ -12,6 +12,10 @@ Valen para cualquier estilo. Se elige por el vídeo, no por el estilo: ¿hay una
   creador → tráiler sin voz cortado a la música → lema → al lío. Cuando el vídeo se entiende solo.
 - **Explicativa** (Nil OGT): el creador cuenta qué va a hacer y por qué, apoyado en animaciones que ilustran cada frase.
   Cuando hay una premisa, un reto con reglas o un sitio que hay que situar.
+**Qué clips van en una ráfaga o un tráiler** (Lucas, 2026-11-24): los más llamativos, los más bonitos o los que
+enseñan qué va a pasar en el vídeo, elegidos para dar **curiosidad y ganas de verlo**. Nunca planos de relleno ni
+de transición (caminar, coche, pasillo). Cada clip tiene que responder a «¿por qué querría alguien ver esto?»: un
+momento de acción o de reacción, un sitio espectacular, una promesa (algo que se ve empezar y no acabar).
 Los números y la receta de cada una salen de las fichas (`refs/dinamicos/alessio-pierucci/`, `refs/dinamicos/nil-ogt/`)
 y se escriben aquí cuando acabe el estudio. Mientras, la estructura de serie de abajo sigue siendo la de siempre.
 

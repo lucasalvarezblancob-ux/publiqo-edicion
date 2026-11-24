@@ -63,6 +63,9 @@ Además:
 - El **título o cabecera**: cómo se construye fotograma a fotograma (máscaras, revelado, cinética, partículas, 3D),
   fuente, color, duración, sonido. ¿Se hizo con plantilla o a mano? ¿Motion graphics o tipografía simple?
 - Primer corte a la persona hablando: en qué segundo y con qué frase.
+- **Por qué está cada clip de la ráfaga o del tráiler**: para cada uno, su función —llamativo (acción, reacción,
+  sorpresa), bonito (sitio, luz, plano cuidado), anticipa (enseña qué pasará), promesa (empieza y no se resuelve)— y de
+  qué minuto del vídeo sale. Qué proporción hay de cada función y qué NO se mete nunca (relleno, trayectos).
 
 **C. Motion graphics y animaciones** (catálogo)
 - Cada tipo: qué es (mapa, lista, cifra, lower third, flecha, círculo, sticker, emoji, interfaz de móvil, captura,
@@ -115,7 +118,7 @@ Ficha JSON (UTF-8, español) en `base/refs/dinamicos/<creador>/AAAA-MM-DD_<slug>
 `video` {archivo, creador, canal, url, titulo, duracion, publicado, estilo, estilo_por_que}, `resumen` (6–10 frases),
 `contexto` {quien, donde, objetivo, tono, gancho_5s, gancho_30s, preguntas_abiertas, giros, recompensas},
 `curva_energia` [{minuto, nivel, motivo}], `ritmo_informacion`, `estructura` [{desde, hasta, parte, que_pasa}],
-`intro` {tipo, por_que_ese_tipo, duracion_s, orden, animaciones_explicativas [{t, frase, que_es, f0, f1, como_esta_hecha, sfx}], linea_de_tiempo [{f0, f1, t, que_se_ve, origen, camara, zoom_velocidad, texto,
+`intro` {tipo, por_que_ese_tipo, clips_rafaga_trailer [{t, sale_de, funcion, que_se_ve}], duracion_s, orden, animaciones_explicativas [{t, frase, que_es, f0, f1, como_esta_hecha, sfx}], linea_de_tiempo [{f0, f1, t, que_se_ve, origen, camara, zoom_velocidad, texto,
 motion_graphic, sfx, musica, voz}], titulo_cabecera {como_se_construye, fuente, color, duracion_f, sonido},
 primer_plano_hablando_s}, `motion_graphics` [...], `cortes` {...}, `zooms` [...], `textos` [...], `subtitulos`,
 `sfx` {confirmados [{t, tipo, acompaña_a, respecto_voz_db}], por_minuto, reglas, candidatos_descartados},
