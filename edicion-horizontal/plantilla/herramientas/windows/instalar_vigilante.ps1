@@ -9,6 +9,6 @@ $Accion = "powershell.exe -NoProfile -WindowStyle Hidden -ExecutionPolicy Bypass
 schtasks /Create /TN $Nombre /TR $Accion /SC MINUTE /MO 5 /F | Out-Null
 schtasks /Run /TN $Nombre | Out-Null
 Start-Sleep -Seconds 8
-schtasks /Query /TN $Nombre /FO LIST | Select-String "TaskName|Next Run|Próxima|Status|Estado"
+schtasks /Query /TN $Nombre /FO LIST | Select-String "TaskName|Next Run|Proxima|Status|Estado"
 $log = Join-Path $Carpeta "refs\dinamicos\_analisis\vigilante.log"
-if (Test-Path $log) { "Última línea del log:"; Get-Content $log -Tail 1 } else { "Aún no hay log en $log (mira en 1 min)" }
+if (Test-Path $log) { "Ultima linea del log:"; Get-Content $log -Tail 1 } else { "Aun no hay log en $log (mira en 1 min)" }

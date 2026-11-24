@@ -122,6 +122,11 @@ elif a.orden in ("hecho", "saltar"):
     e["cambiado"] = ahora(); guardar(c)
 
 elif a.orden == "avanzar":
+    pre = open(f"{AQUI}/precalcular_ref.sh", encoding="utf-8").read()
+    if "--ligero" not in pre or "escuchar_sfx.py" not in pre:
+        raise SystemExit("herramientas/precalcular_ref.sh es una versión vieja (sin intro fotograma a fotograma, LUFS, audio ni "
+                         "efectos): actualizar.sh no lo tocó porque estaba cambiado en local. Cópialo de la plantilla de la skill "
+                         "(.claude/skills/edicion-horizontal/plantilla/herramientas/precalcular_ref.sh) y vuelve a lanzar.")
     if os.path.exists(FLAG):
         print("El vigilante cortó un paso: se repite."); os.remove(FLAG)
     lat = Latido()

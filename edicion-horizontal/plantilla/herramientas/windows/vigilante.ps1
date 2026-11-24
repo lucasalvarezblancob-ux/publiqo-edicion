@@ -1,6 +1,6 @@
 # Vigilante del analisis de referencias (Windows). Lo lanza cada 5 min la tarea programada "EdicionHorizontal-Vigilante"
-# (instalar_vigilante.ps1). Solo toca NUESTROS procesos: ffmpeg, ffprobe, yt-dlp, y los python/node lanzados desde la
-# carpeta de edicion. Cualquier otro proceso: solo se apunta en el log, nunca se cierra.
+# (instalar_vigilante.ps1). Solo toca NUESTROS procesos: los python/node/bash de la carpeta de edicion y lo que lancen
+# (ffmpeg, ffprobe, yt-dlp). Cualquier otro proceso: solo se apunta en el log, nunca se cierra.
 #   1) Apunta la RAM libre.
 #   2) Recorta la memoria de trabajo (EmptyWorkingSet) de nuestros procesos: libera RAM sin cerrar nada.
 #   3) Si la cola lleva > $MinColgado min sin latido (refs\dinamicos\_analisis\latido.json) o la RAM libre baja de
@@ -19,12 +19,23 @@ Add-Type -Namespace Vig -Name Mem -MemberDefinition '[DllImport("psapi.dll")] pu
 $os = Get-CimInstance Win32_OperatingSystem
 $libre = [math]::Round($os.FreePhysicalMemory * 100 / $os.TotalVisibleMemorySize, 1)
 
-$carpetaN = (Resolve-Path $Carpeta).Path.ToLower()
-$nuestros = Get-CimInstance Win32_Process | Where-Object {
+# "Nuestros" = los python/node/bash cuya linea de comandos o ejecutable esta en ESTA carpeta de edicion (en sus tres
+# formas: C:\..., C:/... y /c/... de Git Bash) y todos sus descendientes (ffmpeg, ffprobe, yt-dlp que lanzan).
+# Un ffmpeg o un python de otra carpeta o del sistema NO cuenta.
+$carpetaN = (Resolve-Path $Carpeta).Path.ToLower().TrimEnd('\')
+$formas = @($carpetaN, $carpetaN.Replace('\', '/'), ('/' + $carpetaN.Substring(0, 1) + $carpetaN.Substring(2).Replace('\', '/')))
+$todos = Get-CimInstance Win32_Process
+$raices = $todos | Where-Object {
   $n = $_.Name.ToLower(); $cl = "$($_.CommandLine)".ToLower(); $ex = "$($_.ExecutablePath)".ToLower()
-  ($n -in @("ffmpeg.exe", "ffprobe.exe", "yt-dlp.exe")) -or
-  (($n -in @("python.exe", "pythonw.exe", "node.exe")) -and ($cl.Contains($carpetaN) -or $ex.Contains($carpetaN) -or $cl.Contains("herramientas")))
+  ($n -in @("python.exe", "pythonw.exe", "node.exe", "bash.exe", "sh.exe")) -and (@($formas | Where-Object { $cl.Contains($_) -or $ex.Contains($_) }).Count -gt 0)
 }
+$ids = New-Object System.Collections.Generic.HashSet[int]
+foreach ($r in $raices) { [void]$ids.Add([int]$r.ProcessId) }
+do {
+  $antes = $ids.Count
+  foreach ($p in $todos) { if ($ids.Contains([int]$p.ParentProcessId)) { [void]$ids.Add([int]$p.ProcessId) } }
+} while ($ids.Count -gt $antes)
+$nuestros = $todos | Where-Object { $ids.Contains([int]$_.ProcessId) }
 $recortados = 0
 foreach ($p in $nuestros) {
   $h = (Get-Process -Id $p.ProcessId).Handle
@@ -60,7 +71,7 @@ if (($colgado -or $libre2 -lt $RamMin) -and $nuestros) {
 # procesos de otros que no responden: solo aviso
 $noResp = Get-Process | Where-Object { $_.MainWindowHandle -ne 0 -and -not $_.Responding }
 foreach ($p in $noResp) {
-  if ($nuestros.ProcessId -notcontains $p.Id) { Apunta "AVISO: "$($p.ProcessName)" (pid $($p.Id)) no responde. No lo toco." }
+  if ($nuestros.ProcessId -notcontains $p.Id) { Apunta "AVISO: '$($p.ProcessName)' (pid $($p.Id)) no responde. No lo toco." }
 }
 Apunta "RAM libre $libre % -> $libre2 % (recortados $recortados de $(@($nuestros).Count) nuestros)$(if ($paso) {" - cola: $paso"})"
 # el log no crece sin fin: se queda con las ultimas 2000 lineas
