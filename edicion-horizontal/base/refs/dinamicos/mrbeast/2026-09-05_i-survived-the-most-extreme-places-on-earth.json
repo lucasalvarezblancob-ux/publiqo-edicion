@@ -1,0 +1,2411 @@
+{
+  "video": {
+    "archivo": "refs/dinamicos/mrbeast/2026-09-05_i-survived-the-most-extreme-places-on-earth.mp4",
+    "creador": "mrbeast",
+    "canal": "MrBeast",
+    "url": "https://www.youtube.com/watch?v=gTKS8SAwUzE",
+    "titulo": "I Survived The Most Extreme Places On Earth",
+    "duracion": "23:27 (1.407,07 s; 42.170 fotogramas)",
+    "publicado": "2026-09-05",
+    "fps": 29.97,
+    "resolucion": "1920x1080",
+    "idioma": "en",
+    "tramo_analizado": "entero (0:00–23:27): intro fotograma a fotograma hasta 1:34 (hojas intro_fot_00–46), todo el vídeo cada 2 s, 4 minutos enteros a 0,1 s (2:00–3:00, 7:00–8:00, 12:00–13:00, 16:00–17:00) y 9 tramos de detalle más (marcador, mapa 3D, pantalla partida, recuerdo en B/N + móvil 3D, explosión, rótulos de las madres, «no más actualizaciones», meta y clasificación, cierre)",
+    "modelo": "fable",
+    "estilo": "reto",
+    "estilo_por_que": "Es un RETO con forma de carrera, no un viaje: hay objetivo con desenlace (3 parejas, cada una en un sitio extremo, corren a su helicóptero de rescate; la primera gana 100.000 $ para sus madres), reglas explicadas en los primeros 17,8 s, cuenta atrás con salida sincronizada (0:22.1–0:27.5), marcador de progreso persistente y clasificación final con tiempos. LO QUE TIENE DE RETO (con números): reglas y premio dichos en 12 s (0:05.8–0:17.8) con la cifra «$100,000» 1,9 s en pantalla; marcador de 3 barras con % que sale 13 veces (≈ 71 s, 5,0 % del vídeo; 2,0–9,5 s cada vez) + 1 mapa 3D con los mismos % (7,4 s) = 14 actualizaciones de estado entre 1:42 y 18:09, una cada 70 s de media (mediana 49 s, hueco máximo 160 s); el progreso se dice además de viva voz ≥ 9 veces; desventajas por equipo explicadas en la intro (0:40–1:26: 16 kg de agua extra en el desierto, lista de peligros de la selva, ventisca en la Antártida); ≥ 6 obstáculos con su mini-arco (puente, filtro, cañón, tirar el agua, balsa y cruce del río, ventisca, atajo); un giro de reglas (18:03–18:09: «no más actualizaciones hasta que alguien gane» y el marcador desaparece los últimos 4 min 37 s); sprint final en montaje paralelo (22:38–22:45), toque de meta con cronómetro «28:15:40» y tarjeta de clasificación 8,6 s (2.º a 7 min 44 s); entrega del premio (12,4 s) y coda cómica del que no llegó (3 s). LO QUE TIENE DE VIAJE (con números): 3 lugares extremos presentados en la intro cada uno con el mismo patrón (aéreo de situación + 3–4 palabras que lo definen + testimonio de quien está allí + su desventaja: desierto 0:40.4–0:53.2, selva 0:53.7–1:10.3, Antártida 1:11.4–1:26.3); mapas en 4 momentos (tríptico cenital con rutas que se dibujan 0:11.8–0:14.5; mapa 3D de maquetas 3:24.3–3:31.7; mapa de ruta 3D del atajo ≈ 10:00, ≈ 2 s; tríptico cenital con las rutas que se borran 18:17.1–18:22); cada vuelta a un equipo suele abrir con un aéreo o un general de situación de 2,7–4,7 s (≈ 2,5 por minuto en los 4 minutos contados a 0,1 s); la noche se resume con cámara rápida (7:38.8–7:41.4) y 3 planos de estrellas (8:20–8:26). Lo que NO tiene de viaje: 0 rótulos de nombre de lugar, 0 rótulos de día u hora, 0 mapas de satélite con zoom desde lejos, 0 «llegada» a un sitio (ya empiezan dentro), 0 presentación de paradas (no hay paradas: hay obstáculos). No encaja en vlog (no es un día contado: es una competición con marcador) ni en entreno. Para el borrador de «viaje» sirven sobre todo la presentación de cada lugar en la intro, los mapas y el uso del aéreo como plano de situación; todo lo demás alimenta «reto»."
+  },
+  "resumen": "Tres parejas (Jimmy y su mujer Tia en la selva amazónica, Tareq y Nolan en el desierto de Perú, Darius y Allison en la Antártida) corren a pie hasta su helicóptero de rescate; la primera gana 100.000 $ para sus madres. La intro (93,3 s) es explicativa: Jimmy cuenta premisa, premio y desventajas de cada sitio y CADA idea se ilustra con un gráfico (tríptico de paneles que entran en la palabra que nombra cada lugar, mapas cenitales con la ruta que se dibuja, helicóptero que se enciende en verde con «$100,000», salida sincronizada, mochilas resaltadas, ráfaga de 6 clips de archivo para la lista de peligros) y acaba con un avance rotulado «COMING UP…»; no hay cabecera, ni logo, ni saludo. El cuerpo alterna los tres equipos en bloques cortos (un cambio de equipo cada ≈ 19 s en la primera etapa) y lo cose con voz en off de Jimmy en pasado y con un marcador de tres barras con porcentajes que sale 13 veces. El ritmo es de ≈ 24 cortes/min reales (570 ± 50; el detector ve 434 porque no distingue cortes verde-sobre-verde ni blanco-sobre-blanco), casi todo corte seco en el cuerpo (≈ 97 %) y sin zoom digital sobre los bustos: el dinamismo viene de cambiar de equipo, de punto de vista (aéreo, GoPro, tele) y de gráficos. El recurso de sonido más repetido no es un efecto: es el SILENCIO de música (55 huecos de ≥ 1 s, 27 de ≥ 2 s) justo en el chiste o en la frase clave y la vuelta de la música con un golpe en el corte siguiente. El clímax (cruce del río, 11:30–13:00) acelera a planos de 0,7–1,6 s, mete 7 subtítulos en 17 s y remata con 4,1 s bajo el agua sin voz ni música antes del «I can stand». A los 18:03 el propio vídeo retira el marcador («no más actualizaciones») para que el final se viva a ciegas; la meta se resuelve con un destello verde, un cronómetro y una tarjeta de clasificación. Cierra con las madres recibiendo el dinero, una coda de 3 s con la pareja que no llegó y 5 s de negro con una sola línea de texto; sin pantalla final.",
+  "contexto": {
+    "quien": "Jimmy (MrBeast) y Tia, su mujer (equipo SELVA, camisetas rojo-naranja; son los protagonistas y los que narran); Tareq y Nolan (equipo DESIERTO, de azul); Darius y Allison (equipo ANTÁRTIDA, al que la voz llama a veces «Arctic», de verde). Secundarios: el cámara que se cae dos veces y se queda dentro (2:21.8–2:30.2, 22:12–22:17), las madres por videollamada (16:19.8, 17:48, 21:04–21:21) y en el salón final, y el asistente de móvil al que preguntan 4 veces (9:40, 10:27, 10:40, 14:52).",
+    "donde": "Tres sitios a la vez: selva amazónica (con un río ancho que hay que cruzar en balsa), desierto de dunas de Perú (con un cañón) y una llanura helada de la Antártida con ventisca. Final en un salón de casa con las madres.",
+    "objetivo": "Llegar andando al helicóptero de rescate propio antes que los otros dos equipos. En juego: 100.000 $ para las madres del equipo ganador. Lo que cada uno arrastra: el desierto carga 35 libras (16 kg) de agua extra por persona; la selva tiene «una lista de todo lo que puede matarnos» y un río; la Antártida no ve a un metro por la ventisca.",
+    "tono": "Épico en la forma (aéreos, música orquestal, gráficos 3D) y de humor entre amigos en el contenido (piques entre equipos por videollamada, chistes secos rematados con silencio). Emotivo en dos momentos medidos: las llamadas a las madres (21:03–21:21, entra música emotiva) y la entrega del dinero (23:06.7–23:19.1). Nada didáctico.",
+    "gancho_5s": "0:00.1–0:05.2: «We're in the middle of the world's deadliest jungle, and we're in the desert, and we're in the Antarctic»: en 4,0 s la pantalla pasa de un plano a un tríptico de tres mundos (el panel del desierto entra en 0:02.76, al acabar «jungle» y 0,2 s antes de que empiece «and we're in the desert» (2,99–3,6); el de la Antártida en 0:03.80, 0,3 s antes de «and we're in the Antarctic» (4,11–5,6): cada panel entra al EMPEZAR la frase de su lugar, 0,8–1,4 s antes de la palabra). La primera palabra suena a los 0,11 s y la música desde 0:00.1: cero espera.",
+    "gancho_30s": "0:05.8–0:27.5: carrera entre tres entornos («racing each other», 0:06.8), meta (helicópteros, 0:12.2, con la ruta dibujándose en tres mapas), premio («$100,000 for their moms», 0:15.3–0:17.1, con la cifra en verde sobre el helicóptero), pique (0:17.5 «you guys literally stand no chance») y salida: cuenta atrás «3, 2, 1» (0:22.1, 0:22.7, 0:23.8) con la música bajando de −22 a −40 dB, golpe en 0:25.1 y los tres equipos echando a correr a la vez en tríptico (0:26.0–0:27.5). A los 27,5 s ya se sabe quién, dónde, qué gana y ha empezado.",
+    "preguntas_abiertas": [
+      {
+        "pregunta": "¿Quién llega primero?",
+        "se_abre": "0:06.8",
+        "se_cierra": "22:45.4 (Jimmy toca el poste; cronómetro 28:15:40)",
+        "como_se_mantiene": "marcador de % 13 veces + mapa 3D; a los 18:03 se retira a propósito"
+      },
+      {
+        "pregunta": "¿Qué obstáculos cambiarán la carrera?",
+        "se_abre": "1:26.35 (rótulo «COMING UP…» + avance de Jimmy nadando)",
+        "se_cierra": "11:30–13:00 (el cruce del río del avance)",
+        "como_se_mantiene": "el avance enseña el momento pero no el resultado"
+      },
+      {
+        "pregunta": "¿Fue un error tirar el agua en el desierto?",
+        "se_abre": "≈ 5:50–6:02",
+        "se_cierra": "≈ 18:58–19:15 («there goes my water… we have to finish very soon or else we go thirsty» y aparece el helicóptero de hidratación)",
+        "como_se_mantiene": "se deja dicho («this might be the biggest mistake of this video but we'll find out later», ≈ 5:58–6:02) y no se retoma hasta 13 min después"
+      },
+      {
+        "pregunta": "¿Funcionará la balsa?",
+        "se_abre": "7:07 («we're going to build a raft»)",
+        "se_cierra": "13:00.3 («I can stand»)",
+        "como_se_mantiene": "noche por medio, construcción con 4 consultas al móvil, botadura a 11:28"
+      },
+      {
+        "pregunta": "¿Les sale bien el atajo a los de la Antártida?",
+        "se_abre": "9:58–10:04 (mapa de ruta 3D; «if we take this path we can cut straight through… It's risky, though»)",
+        "se_cierra": "10:21.5 y 10:57.8 (el marcador salta de 7 % a 22 % y a 34 %)",
+        "como_se_mantiene": "se responde con el marcador, sin frase: luego se frenan en 40–41 % con la ventisca"
+      },
+      {
+        "pregunta": "¿Cómo van ahora?",
+        "se_abre": "18:08.8 (se acaban las actualizaciones)",
+        "se_cierra": "22:45.4",
+        "como_se_mantiene": "montaje paralelo de los tres sin cifras durante 4 min 37 s"
+      }
+    ],
+    "giros": [
+      {
+        "t": "2:05.4–2:19.1",
+        "que": "la Antártida se cae y acampa a los 2 minutos de vídeo: se queda en 7 % cinco actualizaciones seguidas (3:24 → 7:55)"
+      },
+      {
+        "t": "5:46.5",
+        "que": "la selva se pone en cabeza (32 % frente a 25 % y 7 %)"
+      },
+      {
+        "t": "11:06.5",
+        "que": "«you guys just passed us»: el desierto adelanta (41/34/40) mientras la selva construye la balsa; frase en silencio de música 3,6 s"
+      },
+      {
+        "t": "12:11–12:36",
+        "que": "la corriente se los lleva: se pasan el punto de desembarco (resalte azul en la balsa)"
+      },
+      {
+        "t": "13:38",
+        "que": "tras el río: desierto 58, selva 47, Antártida 40"
+      },
+      {
+        "t": "15:56–16:05",
+        "que": "Jimmy vomita; Tia carga las dos mochilas (9 s casi sin música)"
+      },
+      {
+        "t": "17:14–17:20",
+        "que": "el desierto se escapa: su barra sube EN PANTALLA de 59 a 72 («since then they went from 59 to 72») con la selva en 62"
+      },
+      {
+        "t": "18:03–18:22",
+        "que": "acuerdo: sin más actualizaciones; el marcador y las rutas del mapa se borran delante del espectador"
+      },
+      {
+        "t": "19:08–20:50",
+        "que": "el «helicóptero de hidratación» (integración del patrocinador como ayuda dentro de la historia)"
+      },
+      {
+        "t": "22:45.4",
+        "que": "gana la selva por 7 min 44 s (28:15:40 frente a 28:23:24) viniendo de atrás: la última cifra enseñada (18:06) era desierto 73, selva 66; la Antártida ni llega"
+      }
+    ],
+    "recompensas": [
+      {
+        "t": "0:25.1",
+        "que": "la salida de los tres a la vez"
+      },
+      {
+        "t": "3:24.3–3:31.7",
+        "que": "el mapa 3D: primera vez que se ve la carrera entera de un vistazo"
+      },
+      {
+        "t": "12:59.2–13:00.3",
+        "que": "salir del agua y hacer pie tras 4,1 s de silencio bajo el agua"
+      },
+      {
+        "t": "13:57.0",
+        "que": "explosión de fuego falsa sobre la ropa mojada (chiste visual de 0,8 s)"
+      },
+      {
+        "t": "22:45.4–22:54.0",
+        "que": "el toque, el destello verde, el cronómetro y la clasificación"
+      },
+      {
+        "t": "23:06.7–23:19.1",
+        "que": "las madres con las bolsas de dinero"
+      },
+      {
+        "t": "23:19.1–23:22.0",
+        "que": "coda: la Antártida llega a una meta vacía"
+      }
+    ]
+  },
+  "curva_energia": [
+    {
+      "minuto": 0,
+      "nivel": 5,
+      "motivo": "gancho + reglas + premio + salida: tríptico, 3 destellos, mapas con ruta, «$100,000», cuenta atrás con la música bajando 18 dB y golpe en 0:25.1; 19 cortes detectados (≈ 22 con los de a ojo) y 7 gráficos en 60 s"
+    },
+    {
+      "minuto": 1,
+      "nivel": 4,
+      "motivo": "lista de peligros leída en seco (3,8 s sin música) → ráfaga de 6 clips de archivo de 15–26 f con la música en su nivel más alto → chiste «our danger is death» con zoom de golpe → «COMING UP…»; 24 cortes detectados, 33 % de planos < 1 s; a 1:33.3 baja al cuerpo"
+    },
+    {
+      "minuto": 2,
+      "nivel": 3,
+      "motivo": "pantalla partida de rutas, caída y acampada en la ventisca, el cámara que se cae, puente de tronco; 22 cortes reales (12 detectados); 1 silencio en «timber»"
+    },
+    {
+      "minuto": 3,
+      "nivel": 3,
+      "motivo": "filtro de agua, MAPA 3D (7,4 s, pico de producción), «we're only 10 % done» en silencio, dunas; 12 cortes detectados"
+    },
+    {
+      "minuto": 4,
+      "nivel": 3,
+      "motivo": "vista del desierto con golpe musical al aéreo, tienda en la nieve, la rana (chiste en silencio de 3 s), marcador + tríptico"
+    },
+    {
+      "minuto": 5,
+      "nivel": 3,
+      "motivo": "cañón, 3 marcadores en 41 s (5:07, 5:35, 5:46), la selva se pone primera, tiran el agua (pregunta abierta)"
+    },
+    {
+      "minuto": 6,
+      "nivel": 2,
+      "motivo": "valle: llegan al río al atardecer, tiendas, Antártida con el pelo helado; planos más largos y contemplativos"
+    },
+    {
+      "minuto": 7,
+      "nivel": 3,
+      "motivo": "plan de la balsa con dos silencios de chiste («anacondas», «uh, yep»), cámara rápida del campamento, videollamada nocturna con marcador 9 s y escalera de cortes de escala"
+    },
+    {
+      "minuto": 8,
+      "nivel": 2,
+      "motivo": "noche: estrellas en cámara rápida (3 planos), amanecer, mañana despejada en la Antártida; respiro antes del día 2"
+    },
+    {
+      "minuto": 9,
+      "nivel": 3,
+      "motivo": "Jimmy a cámara explica por qué no nadar, recuerdo en blanco y negro (4,2 s, 4 planos), móvil 3D con la respuesta escribiéndose"
+    },
+    {
+      "minuto": 10,
+      "nivel": 3,
+      "motivo": "mapa de ruta del atajo, 2 marcadores (10:21, 10:57), diente de tiburón (chiste en silencio 3,8 s); 23 cortes detectados"
+    },
+    {
+      "minuto": 11,
+      "nivel": 4,
+      "motivo": "«you guys just passed us» en silencio, presentación de la balsa, botadura y arranque del cruce alternando dron lejano y GoPro"
+    },
+    {
+      "minuto": 12,
+      "nivel": 5,
+      "motivo": "clímax: 24 cortes reales, 9 planos en 10,2 s, 7 subtítulos en 17 s, 2 resaltes de color, 4,1 s bajo el agua sin voz ni música y vuelta triunfal a 12:59.0; mínimo de palabras (144/min)"
+    },
+    {
+      "minuto": 13,
+      "nivel": 4,
+      "motivo": "resolución en la orilla, tríptico de videollamada (≈ 17 s), marcador 9,5 s sobre 4–5 planos, explosión de fuego VFX"
+    },
+    {
+      "minuto": 14,
+      "nivel": 3,
+      "motivo": "chistes del desierto, fruta con el móvil 3D (música a −40 dB 5,5 s) y vuelta con golpe a la tormenta"
+    },
+    {
+      "minuto": 15,
+      "nivel": 4,
+      "motivo": "hormigas, cuestas, ventisca; marcador 59/41/47; Jimmy vomita (15:56) con 9 s casi sin música"
+    },
+    {
+      "minuto": 16,
+      "nivel": 3,
+      "motivo": "bajón a propósito: Tia con dos mochilas, llamada a la madre en recuadro de móvil, caídas en la ventisca con subtítulos, «I think we lost» en silencio; 18 cortes reales (9 detectados)"
+    },
+    {
+      "minuto": 17,
+      "nivel": 4,
+      "motivo": "el desierto se escapa: su barra sube en pantalla de 59 a 72, pista nueva con golpe a 17:28.9, segunda llamada a una madre"
+    },
+    {
+      "minuto": 18,
+      "nivel": 4,
+      "motivo": "giro: marcador + tríptico, pacto de «no más actualizaciones», las rutas del mapa se borran; flecha roja 3D al horizonte"
+    },
+    {
+      "minuto": 19,
+      "nivel": 2,
+      "motivo": "integración del patrocinador como escena de humor (helicóptero de hidratación); baja la tensión de carrera"
+    },
+    {
+      "minuto": 20,
+      "nivel": 3,
+      "motivo": "tarjeta del patrocinador 10 s (logo + QR + código), mochilas resaltadas en verde, vuelta a la carrera"
+    },
+    {
+      "minuto": 21,
+      "nivel": 4,
+      "motivo": "música emotiva desde 21:03, rótulos de las madres, recta final desde 21:24, 3 latidos de corazón a 21:49.8"
+    },
+    {
+      "minuto": 22,
+      "nivel": 5,
+      "motivo": "sprint en montaje paralelo (planos de 1,1–3,0 s), silencio de 4,6 s cuando se cae el cámara, subida + golpe más fuerte del vídeo en el toque (22:45.4), clasificación 8,6 s; mínimo de palabras (120/min)"
+    },
+    {
+      "minuto": 23,
+      "nivel": 3,
+      "motivo": "premio a las madres (12,4 s), coda de 3 s, negro con una línea 5 s; 27 s en total"
+    }
+  ],
+  "ritmo_informacion": {
+    "palabras_por_minuto": "187 de media (4.391 palabras en 23,45 min); por minuto [177, 181, 177, 185, 179, 232, 182, 192, 225, 208, 219, 204, 144, 170, 226, 198, 166, 181, 228, 152, 195, 208, 120, 42]. Los dos mínimos son los dos picos de acción (min 12 el cruce, min 22 la meta): en el pico se calla la voz y manda la imagen.",
+    "habla": "97 % del tiempo con voz (audio.json); voz en off de Jimmy + diálogo en directo.",
+    "cambio_de_equipo": "contado en las hojas de 2 s entre 1:33 y 10:58: ≈ 30 bloques en 565 s → cambia de equipo (o de escena dentro del mismo) cada ≈ 19 s de media; bloques de 4 a 74 s. El bloque más largo sin salir de un equipo es el cruce del río: 10:58–13:13 (135 s), y dentro se compensa con 3 puntos de vista que rotan cada 1,5–3 s.",
+    "actualizacion_de_estado": "14 actualizaciones de marcador entre 1:42 y 18:09: una cada 70 s de media (mediana 49 s; huecos 102, 35, 49, 20, 27, 11, 129, 146, 37, 160, 100, 116, 49 s).",
+    "algo_nuevo_cada": "en los 4 minutos mirados a 0,1 s hay un elemento nuevo (lugar, gráfico, chiste con silencio, giro, punto de vista) cada 6–10 s; un plano nuevo cada ≈ 2,5 s.",
+    "que_se_recorta_y_como": [
+      "Trayectos: corte seco al paso ya hecho; en el puente (2:34.2–3:00) un plano general fijo se repite 5 veces como plano maestro y entre medias van insertos de 0,9–4 s (cortar, cargar, colocar, pisar).",
+      "Esperas largas: voz en off en pasado («After hours of struggling we were only 10 %», 3:23.9) en vez de rótulo de tiempo. 0 rótulos tipo «3 HORAS DESPUÉS», 0 rótulos de día.",
+      "Noche: cámara rápida con estela del montaje de la tienda (7:38.8–7:41.4, 2,6 s) y 3 planos de estrellas en cámara rápida (8:20–8:26).",
+      "Vídeo anterior: 4 planos de archivo en blanco y negro de alto contraste en 4,2 s (9:33.0–9:37.2), entre dos destellos blancos."
+    ]
+  },
+  "estructura": [
+    {
+      "desde": "0:00",
+      "hasta": "0:27.56",
+      "parte": "gancho + reglas + salida",
+      "que_pasa": "tríptico de los tres mundos, mapas con ruta, helicóptero y premio, piques, cuenta atrás y salida sincronizada. 8 planos compuestos, 7 gráficos."
+    },
+    {
+      "desde": "0:27.56",
+      "hasta": "1:26.35",
+      "parte": "presentación de cada lugar y su desventaja",
+      "que_pasa": "primeros pasos (caída en la duna, «bad start»); desierto 0:40.4–0:53.2 (aéreos con fundidos, mochilas resaltadas, 16 kg de agua); selva 0:53.7–1:10.3 (la lista leída en seco + ráfaga de 6 clips de archivo); Antártida 1:11.4–1:26.3 (transición por mochila, blanco total)."
+    },
+    {
+      "desde": "1:26.35",
+      "hasta": "1:33.30",
+      "parte": "avance «COMING UP…»",
+      "que_pasa": "rótulo arriba-izquierda 6,9 s sobre 3 planos: dron que se aleja, Jimmy nadando (adelanto del min 12), cámara que se hunde → destello blanco."
+    },
+    {
+      "desde": "1:33.30",
+      "hasta": "6:30",
+      "parte": "etapa 1 (día 1)",
+      "que_pasa": "alternancia rápida de los tres equipos; primer marcador (1:41.7), pantalla partida de rutas (1:58.8), la Antártida acampa, puente, filtro, MAPA 3D (3:24.3), cañón, la selva se pone primera (5:46.5), el desierto tira el agua."
+    },
+    {
+      "desde": "6:30",
+      "hasta": "8:26",
+      "parte": "tarde y noche",
+      "que_pasa": "llegada al río, plan de la balsa, campamentos, videollamada entre equipos con marcador (7:55.3), estrellas en cámara rápida."
+    },
+    {
+      "desde": "8:26",
+      "hasta": "11:28",
+      "parte": "día 2: construir la balsa",
+      "que_pasa": "mañana en los tres sitios; recuerdo en B/N; 3 consultas al móvil 3D; atajo de la Antártida con mapa de ruta; el desierto adelanta (11:06.5)."
+    },
+    {
+      "desde": "11:28",
+      "hasta": "13:13",
+      "parte": "clímax 1: el cruce del río",
+      "que_pasa": "botadura, corriente, 2 resaltes de color, 7 subtítulos, 9 planos en 10,2 s, 4,1 s bajo el agua, «I can stand»."
+    },
+    {
+      "desde": "13:13",
+      "hasta": "18:03",
+      "parte": "persecución",
+      "que_pasa": "tríptico de videollamada, marcador 58/40/47, explosión VFX, chistes, hormigas, ventisca, Jimmy vomita, llamadas a las madres, «I think we lost», el desierto se escapa (17:14)."
+    },
+    {
+      "desde": "18:03",
+      "hasta": "19:08",
+      "parte": "giro: sin actualizaciones",
+      "que_pasa": "último marcador (73/51/66), pacto, tríptico cenital con las rutas que se borran; flecha roja 3D."
+    },
+    {
+      "desde": "19:08",
+      "hasta": "20:50",
+      "parte": "integración del patrocinador",
+      "que_pasa": "helicóptero de hidratación como escena de la historia (102 s, 7,2 % del vídeo); tarjeta con logo + QR + código los últimos 10 s con Jimmy a cámara."
+    },
+    {
+      "desde": "20:50",
+      "hasta": "22:45.4",
+      "parte": "recta final",
+      "que_pasa": "sueltan mochilas (resalte verde), llamadas emotivas con rótulos de las madres, latidos, sprint en montaje paralelo, caída del cámara en silencio."
+    },
+    {
+      "desde": "22:45.4",
+      "hasta": "23:27.07",
+      "parte": "meta y cierre",
+      "que_pasa": "toque + cronómetro + clasificación (8,6 s), celebración, despegue → televisor del salón → madres con el dinero, coda de la Antártida, negro con una línea de texto."
+    }
+  ],
+  "intro": {
+    "tipo": "explicativa",
+    "por_que_ese_tipo": "La premisa no se entiende sin explicarla: tres equipos en tres sitios a la vez, una meta distinta para cada uno, un premio y una desventaja por equipo. Jimmy lo cuenta de viva voz (primera palabra a los 0,11 s) y CADA idea lleva su animación en la palabra que la nombra: los tres sitios (tríptico), la meta (rutas que se dibujan en tres mapas), el premio (helicóptero encendido + «$100,000»), la salida (tríptico sincronizado con cuenta atrás), la desventaja del desierto (mochilas resaltadas), la de la selva (ráfaga de archivo) y lo que viene («COMING UP…»). Es más larga que una intro corta (93,3 s) pero a los 27,5 s la carrera ya ha empezado: la explicación de las desventajas (0:37–1:26) va con la acción ya en marcha. No es «corta»: no hay ráfaga estroboscópica (cortes_rafagas.json: 0 cortes en ráfaga hasta 93 s), ni tráiler sin voz, ni cabecera.",
+    "duracion_s": 93.3,
+    "duracion_f": 2796,
+    "orden": [
+      "1) 0:00–0:05.4 dónde: tres mundos en tríptico",
+      "2) 0:05.8–0:14.5 qué: carrera hasta el helicóptero (aéreos + mapas con ruta)",
+      "3) 0:14.55–0:17.85 por qué: «$100,000» para las madres",
+      "4) 0:17.85–0:22.1 pique entre equipos (2 testimonios de 2,0–2,2 s)",
+      "5) 0:22.1–0:27.56 cuenta atrás y salida sincronizada",
+      "6) 0:27.56–0:38.07 primeros pasos y primer tropiezo («bad start»)",
+      "7) 0:38.07–1:26.35 ventajas y desventajas, un lugar cada vez (desierto 12,8 s, selva 16,6 s, Antártida 14,9 s)",
+      "8) 1:26.35–1:33.30 «COMING UP…»: avance de un obstáculo",
+      "9) 1:33.30 al lío (cuerpo), sin cabecera"
+    ],
+    "numeros": {
+      "planos": "40 con los cortes del detector + 3 vistos a ojo (36.06, 57.52, 58.50); media 2,33 s, mediana 1,82 s, 22 % < 1 s",
+      "primeros_27_5_s": "8 planos compuestos (media 3,44 s) pero 7 gráficos y 3 destellos: el ritmo lo ponen las capas, no los cortes",
+      "transiciones_construidas": "17 de ≈ 45 cambios de plano (38 %; 39 cortes + 6 fundidos que el detector no cuenta): 4 destellos blancos, 6 fundidos encadenados (15–35 f), 1 cortinilla por mochila + barrido, 6 destellos de la ráfaga de archivo. En el cuerpo son ≈ 3 %.",
+      "graficos": "8 animaciones explicativas en 93,3 s = una cada 11,7 s (6 de ellas en los primeros 51,6 s)",
+      "voz": "primer hablante a cámara 0:00.1 (plano general); primer busto hablando 0:17.85; voz en off de Jimmy desde 0:36"
+    },
+    "clips_rafaga_trailer": [
+      {
+        "t": "1:04.26–1:04.90 (f1926–1945, 20 f)",
+        "sale_de": "archivo de naturaleza (no es del rodaje)",
+        "funcion": "llamativo",
+        "que_se_ve": "araña en primer plano; entra con destello blanco de 3–5 f; palabra «wandering spider» (1:04.3)"
+      },
+      {
+        "t": "1:04.93–1:05.67 (f1946–1968, 23 f)",
+        "sale_de": "archivo",
+        "funcion": "llamativo",
+        "que_se_ve": "jaguar; entra en la palabra «jaguars» (1:04.9)"
+      },
+      {
+        "t": "1:05.70–1:06.54 (f1969–1994, 26 f)",
+        "sale_de": "archivo",
+        "funcion": "llamativo",
+        "que_se_ve": "murciélago; «disease-carrying bats» (1:05.4–1:06.1)"
+      },
+      {
+        "t": "1:06.57–1:07.04 (f1995–2009, 15 f)",
+        "sale_de": "archivo",
+        "funcion": "llamativo",
+        "que_se_ve": "hormigas; «swarm of bullet ants» (1:06.3–1:06.8)"
+      },
+      {
+        "t": "1:07.07–1:07.60 (f2010–2026, 17 f)",
+        "sale_de": "archivo",
+        "funcion": "llamativo",
+        "que_se_ve": "serpiente; «anacondas» (1:07.1)"
+      },
+      {
+        "t": "1:07.63–1:08.17 (f2027–2043, 17 f)",
+        "sale_de": "archivo",
+        "funcion": "llamativo",
+        "que_se_ve": "riada; «flash floods» (1:07.6)"
+      },
+      {
+        "t": "1:26.35–1:29.06 (f2588–2669, 82 f)",
+        "sale_de": "desierto, luz dorada de tarde (minuto exacto sin localizar; ver dudas)",
+        "funcion": "bonito",
+        "que_se_ve": "cresta de duna con dos figuras; el dron se aleja a toda velocidad (×1,0 → ×0,088 en 2,4 s) con desenfoque de maqueta; lleva el rótulo «COMING UP…»"
+      },
+      {
+        "t": "1:29.09–1:31.93 (f2670–2755, 86 f)",
+        "sale_de": "min 12 (cruce del río, ≈ 12:36–12:46)",
+        "funcion": "anticipa",
+        "que_se_ve": "Jimmy nadando agarrado a la balsa con mueca de esfuerzo; voz «that might change the direction of this entire race»; golpe en el corte (1:29.4)"
+      },
+      {
+        "t": "1:31.96–1:33.27 (f2756–2795, 40 f)",
+        "sale_de": "min 12 (≈ 12:46–12:47 o 12:55: la cámara que se hunde)",
+        "funcion": "promesa",
+        "que_se_ve": "la cámara se hunde en el agua verde y funde a blanco (5 f): deja el resultado sin enseñar"
+      }
+    ],
+    "clips_rafaga_trailer_proporciones": "No hay tráiler al uso. De los 93,3 s de intro, solo 6,9 s (7,4 %) son avance del propio vídeo (3 planos: 1 bonito, 1 anticipa, 1 promesa) y 3,9 s (4,2 %) son ráfaga de archivo ajeno (6 clips de 15–26 f, media 19,7 f = 0,66 s). El 88 % restante es material del arranque del rodaje (minuto 0–1 real) y aéreos de situación.",
+    "clips_rafaga_trailer_nunca": "Nunca se enseña la meta, ni quién gana, ni la clasificación, ni el marcador avanzado, ni a las madres, ni el final del cruce (el avance corta al hundirse la cámara). El avance es de UN solo obstáculo y va al final de la intro, rotulado, no al principio.",
+    "animaciones_explicativas": [
+      {
+        "t": "0:02.76–0:05.40",
+        "frase": "«…deadliest jungle, and we're in the desert, and we're in the Antarctic»",
+        "que_es": "tríptico: sobre el plano de la selva entran dos paneles verticales con borde blanco fino",
+        "f0": 83,
+        "f1": 161,
+        "como_esta_hecha": "panel del desierto desliza desde la derecha en 7 f (f83–90, con frenada); panel de la Antártida desde la izquierda en 6–7 f (f114–120); cada panel ocupa 1/3 del ancho; tríptico completo 1,4 s (4,0–5,4); sale por destello a blanco de 12 f (f162–174, blanco total en 5,80)",
+        "sfx": "golpe en 0:00.9 al asentarse el empuje de apertura (confirmado) y golpe/soplido del destello en 0:05.3 (confirmado); la entrada de cada panel no tiene pico propio medible"
+      },
+      {
+        "t": "0:10.01–0:14.50",
+        "frase": "«Each of us have to travel to our rescue helicopters»",
+        "que_es": "tríptico de los tres equipos de pie → destello con desenfoque radial y alejamiento a vista cenital → tres mapas cenitales (hielo con río turquesa | selva con río | dunas) → en cada uno nace un punto brillante abajo y la RUTA se dibuja hacia arriba",
+        "f0": 300,
+        "f1": 435,
+        "como_esta_hecha": "tríptico 17 f; destello + desenfoque radial 38 f (f317–354); mapas quietos 33 f; ruta de puntos brillante (cian | verde | naranja, cada una del color de su equipo) que se traza en ≈ 40 f (f388–425) a la vez en los tres; sale por destello amarillo-blanco de 9 f (f426–435)",
+        "sfx": "ninguno confirmado aparte de la música"
+      },
+      {
+        "t": "0:14.55–0:17.85",
+        "frase": "«and whichever team gets there first wins $100,000 for their moms»",
+        "que_es": "vuelo a ras de suelo por el desierto siguiendo una línea discontinua naranja hasta el helicóptero, que se enciende en VERDE con un anillo de balizas rojas; encima aparece «$100,000»",
+        "f0": 436,
+        "f1": 534,
+        "como_esta_hecha": "avance de cámara ×1,0 → ×5,1 en 3,0 s (tirón ×1,12 → ×1,83 en 0,2 s a 0:15.0–0:15.4); la línea se apaga en f450–459; el helicóptero se enciende en f462 (silueta con resplandor verde) justo antes de «$100» (0:15.3); el texto entra en f478 (0:15.93, en «,000») y crece suave y continuo hasta el corte (57 f = 1,9 s), sin rebote",
+        "sfx": "ninguno confirmado"
+      },
+      {
+        "t": "0:22.09–0:27.53",
+        "frase": "«Starting in 3, 2, 1»",
+        "que_es": "salida sincronizada: sobre Jimmy con el brazo en alto entran los otros dos equipos en paneles; al bajar el brazo arrancan los tres a la vez, cada uno con su línea de meta de cuadros",
+        "f0": 662,
+        "f1": 825,
+        "como_esta_hecha": "panel del desierto desde la IZQUIERDA en f695 (0:23.19, 0,5 s después de «2») y panel de la Antártida desde la DERECHA en f722 (0:24.09, 0,3 s después de «1»): los lados se invierten respecto al tríptico de 0:02.76; orden desierto | selva | antártida; 1,3 s de pausa de voz (24,3–25,1) y arranque",
+        "sfx": "la música cae de −22 a −40 dB entre 0:22.0 y 0:25.0 y en 0:25.1 entra un GOLPE (−10/−12 dB, ≈ +8 dB sobre el nivel medio de la voz, que en ese instante calla) con cola grave de ≈ 1 s (confirmado)"
+      },
+      {
+        "t": "0:50.03–0:51.60",
+        "frase": "«an extra 35 pounds of water each»",
+        "que_es": "las dos mochilas del dúo del desierto, de espaldas, se iluminan en CIAN brillante",
+        "f0": 1500,
+        "f1": 1546,
+        "como_esta_hecha": "máscara de las mochilas con tinte cian y resplandor; sube en ≈ 14 f (50,03–50,5), se mantiene ≈ 0,6 s y se apaga antes del corte de f1550; entra con el corte, 0,2 s antes de «pounds»",
+        "sfx": "acento leve en 0:50.5 (+5 dB sobre el colchón): sin confirmar, va a dudas"
+      },
+      {
+        "t": "1:04.26–1:08.20",
+        "frase": "«rattlesnakes, wandering spiders, jaguars, disease-carrying bats, swarms of bullet ants, anacondas, flash floods…»",
+        "que_es": "ráfaga de 6 clips de archivo, uno por peligro, cada uno en su palabra",
+        "f0": 1926,
+        "f1": 2043,
+        "como_esta_hecha": "6 clips de 20, 23, 26, 15, 17 y 17 f; cada uno entra con un destello blanco/desaturado de 3–5 f; a pantalla completa, sin texto; antes, la lista se lee 3,8 s en seco (0:59.4–1:03.2) para que la ráfaga contraste",
+        "sfx": "la música vuelve a su nivel más alto de la intro (−14/−18 dB; voz−música 0–3 dB); los impactos de cada destello no se separan de la música: van a dudas"
+      },
+      {
+        "t": "1:13.31–1:17.20",
+        "frase": "«Okay, in the Antarctic… well, that's pretty self-explanatory»",
+        "que_es": "transición construida: Tia cruza por delante de la cámara, su mochila negra llena el cuadro, barrido borroso y fundido a un aéreo de la Antártida",
+        "f0": 2197,
+        "f1": 2315,
+        "como_esta_hecha": "mochila + barrido 1:13.6–1:14.5 (≈ 27 f) → fundido encadenado ≈ 15 f (1:14.5–1:15.0) a ladera nevada → segundo fundido ≈ 25 f (1:16.3–1:17.2) a blanco total con el dúo diminuto: el chiste es que no hay nada que explicar",
+        "sfx": "soplido en 1:14.3–1:15.0 (−17/−19 dB, 8–10 dB bajo la voz): probable, va a dudas"
+      },
+      {
+        "t": "1:26.35–1:33.25",
+        "frase": "«Throughout this video we'll be coming across different obstacles that might change the direction of this entire race»",
+        "que_es": "rótulo «COMING UP…» arriba-izquierda sobre 3 planos de avance",
+        "f0": 2588,
+        "f1": 2795,
+        "como_esta_hecha": "entra entero con el corte (sin animación), fijo 207 f = 6,9 s sobre 3 planos, y desaparece dentro del destello blanco final (f2791–2795)",
+        "sfx": "golpe en 1:29.4 en el corte al avance de Jimmy nadando (−14 dB, ≈ +3 dB sobre la voz; confirmado)"
+      }
+    ],
+    "linea_de_tiempo": [
+      {
+        "f0": 0,
+        "f1": 82,
+        "t": "0:00.00–0:02.73",
+        "que_se_ve": "general de la selva con Jimmy y Tia pequeños en el centro; se aclara desde un desenfoque radial en ≈ 18 f",
+        "origen": "rodaje (arranque real, selva)",
+        "camara": "dron + digital, empuje hacia delante",
+        "zoom_velocidad": "×1,00 → ×3,05 en 2,6 s (79 %/s), en dos tirones, frena al final",
+        "texto": "",
+        "motion_graphic": "desenfoque radial de entrada",
+        "sfx": "golpe 0:00.9 (confirmado)",
+        "musica": "pista 1 desde 0:00.1, −19/−23 dB (voz−música 5–6 dB)",
+        "voz": "«We're in the middle of the world's deadliest jungle,» (0,11–2,9)"
+      },
+      {
+        "f0": 83,
+        "f1": 161,
+        "t": "0:02.76–0:05.40",
+        "que_se_ve": "tríptico antártida | selva | desierto",
+        "origen": "rodaje (3 sitios)",
+        "camara": "fija dentro de cada panel",
+        "zoom_velocidad": "paneles: deslizamiento de 6–7 f con frenada",
+        "texto": "",
+        "motion_graphic": "panel desierto f83 (dcha.), panel Antártida f114 (izda.), borde blanco fino",
+        "sfx": "",
+        "musica": "pista 1",
+        "voz": "«and we're in the desert, and we're in the Antarctic» (3,0–5,6)"
+      },
+      {
+        "f0": 162,
+        "f1": 194,
+        "t": "0:05.40–0:06.50",
+        "que_se_ve": "destello a blanco (12 f, blanco total en 5,80) y salida del blanco al general de la selva",
+        "origen": "efecto",
+        "camara": "",
+        "zoom_velocidad": "",
+        "texto": "",
+        "motion_graphic": "destello blanco",
+        "sfx": "golpe/soplido 0:05.3 (confirmado, ≈ +3 dB sobre la voz)",
+        "musica": "pista 1",
+        "voz": "«And we're gonna be racing» (5,85–7,2)"
+      },
+      {
+        "f0": 195,
+        "f1": 221,
+        "t": "0:06.50–0:07.37",
+        "que_se_ve": "Jimmy y Tia andando, general",
+        "origen": "rodaje selva",
+        "camara": "retroceso",
+        "zoom_velocidad": "×1,0 → ×0,815 en 0,6 s",
+        "texto": "",
+        "motion_graphic": "",
+        "sfx": "",
+        "musica": "pista 1",
+        "voz": "«racing each other»"
+      },
+      {
+        "f0": 222,
+        "f1": 261,
+        "t": "0:07.41–0:08.71",
+        "que_se_ve": "aéreo de la Antártida, figuras diminutas",
+        "origen": "rodaje Antártida (dron)",
+        "camara": "dron",
+        "zoom_velocidad": "",
+        "texto": "",
+        "motion_graphic": "",
+        "sfx": "",
+        "musica": "pista 1",
+        "voz": "«in these completely»"
+      },
+      {
+        "f0": 262,
+        "f1": 299,
+        "t": "0:08.74–0:09.98",
+        "que_se_ve": "aéreo de dunas",
+        "origen": "rodaje desierto (dron)",
+        "camara": "dron",
+        "zoom_velocidad": "",
+        "texto": "",
+        "motion_graphic": "",
+        "sfx": "",
+        "musica": "pista 1",
+        "voz": "«different environments»"
+      },
+      {
+        "f0": 300,
+        "f1": 435,
+        "t": "0:10.01–0:14.52",
+        "que_se_ve": "tríptico de los 3 equipos de pie (17 f) → destello con desenfoque radial y alejamiento a cenital (38 f) → 3 mapas cenitales (33 f) → las rutas se dibujan (≈ 40 f) → destello (9 f)",
+        "origen": "rodaje + gráfico",
+        "camara": "cenital",
+        "zoom_velocidad": "alejamiento de golpe a cenital en ≈ 1,3 s",
+        "texto": "",
+        "motion_graphic": "tríptico, mapas, punto + ruta de puntos brillante por equipo (cian | verde | naranja)",
+        "sfx": "",
+        "musica": "pista 1",
+        "voz": "«Each of us have to travel to our rescue helicopters and whichever team gets there first» (9,8–14,7)"
+      },
+      {
+        "f0": 436,
+        "f1": 534,
+        "t": "0:14.55–0:17.82",
+        "que_se_ve": "vuelo rasante por el desierto siguiendo una línea naranja hasta el helicóptero, que se enciende en verde con anillo de balizas rojas; «$100,000» encima",
+        "origen": "rodaje desierto + VFX",
+        "camara": "avance",
+        "zoom_velocidad": "×1,0 → ×5,1 en 3,0 s (137 %/s)",
+        "texto": "«$100,000» f478–534 (57 f)",
+        "motion_graphic": "línea discontinua (se apaga f450–459), helicóptero verde f462, cifra con crecimiento continuo",
+        "sfx": "",
+        "musica": "pista 1",
+        "voz": "«wins $100,000 for their moms» (14,9–17,4)"
+      },
+      {
+        "f0": 535,
+        "f1": 594,
+        "t": "0:17.85–0:19.82",
+        "que_se_ve": "dúo del desierto a cámara (primer busto hablando)",
+        "origen": "rodaje desierto",
+        "camara": "en mano, plano medio",
+        "zoom_velocidad": "",
+        "texto": "",
+        "motion_graphic": "",
+        "sfx": "",
+        "musica": "pista 1",
+        "voz": "«you guys literally stand no chance»"
+      },
+      {
+        "f0": 595,
+        "f1": 661,
+        "t": "0:19.85–0:22.06",
+        "que_se_ve": "dúo de la Antártida en la ventisca, banderas rojas y línea de salida de cuadros",
+        "origen": "rodaje Antártida",
+        "camara": "en mano",
+        "zoom_velocidad": "",
+        "texto": "",
+        "motion_graphic": "",
+        "sfx": "",
+        "musica": "pista 1",
+        "voz": "«Guys, I can't even see in front of me»"
+      },
+      {
+        "f0": 662,
+        "f1": 825,
+        "t": "0:22.09–0:27.53",
+        "que_se_ve": "Jimmy con el brazo en alto; entran los otros dos equipos en paneles; baja el brazo y los tres arrancan a la vez",
+        "origen": "rodaje (3 sitios)",
+        "camara": "fija",
+        "zoom_velocidad": "",
+        "texto": "",
+        "motion_graphic": "panel desierto f695 (izda.), panel Antártida f722 (dcha.); tríptico hasta f825",
+        "sfx": "golpe de salida 0:25.1 (confirmado)",
+        "musica": "baja de −22 a −40 dB (22,0–25,0) y vuelve con el golpe",
+        "voz": "«Starting in 3, 2, 1» (21,1–24,3); 3,2 s sin voz (24,3–27,5)"
+      },
+      {
+        "f0": 826,
+        "f1": 859,
+        "t": "0:27.56–0:28.66",
+        "que_se_ve": "Jimmy en selfie andando",
+        "origen": "rodaje selva",
+        "camara": "selfie",
+        "zoom_velocidad": "",
+        "texto": "",
+        "motion_graphic": "",
+        "sfx": "",
+        "musica": "pista 1",
+        "voz": "«Gotta beat the boys.»"
+      },
+      {
+        "f0": 860,
+        "f1": 899,
+        "t": "0:28.70–0:30.00",
+        "que_se_ve": "Tia en selfie con sombrero",
+        "origen": "rodaje selva",
+        "camara": "selfie",
+        "zoom_velocidad": "",
+        "texto": "",
+        "motion_graphic": "",
+        "sfx": "",
+        "musica": "pista 1",
+        "voz": "«I'm doing this for my mom.»"
+      },
+      {
+        "f0": 900,
+        "f1": 970,
+        "t": "0:30.03–0:32.37",
+        "que_se_ve": "dúo de la Antártida con bastones",
+        "origen": "rodaje Antártida",
+        "camara": "retroceso",
+        "zoom_velocidad": "×1,0 → ×0,47 en 2,0 s (−26 %/s), lineal",
+        "texto": "",
+        "motion_graphic": "",
+        "sfx": "",
+        "musica": "pista 1",
+        "voz": "«I don't care what we have to do.»"
+      },
+      {
+        "f0": 971,
+        "f1": 1080,
+        "t": "0:32.40–0:36.04",
+        "que_se_ve": "dúo del desierto baja corriendo una duna; Nolan se cae (33,4–34,0)",
+        "origen": "rodaje desierto",
+        "camara": "en mano",
+        "zoom_velocidad": "",
+        "texto": "",
+        "motion_graphic": "",
+        "sfx": "",
+        "musica": "pista 1",
+        "voz": "«Oh sand… Nolan, no»"
+      },
+      {
+        "f0": 1081,
+        "f1": 1141,
+        "t": "0:36.07–0:38.04",
+        "que_se_ve": "general muy lejano del desierto (corte que el detector no ve)",
+        "origen": "rodaje desierto",
+        "camara": "fija lejana",
+        "zoom_velocidad": "",
+        "texto": "",
+        "motion_graphic": "",
+        "sfx": "",
+        "musica": "pista 1",
+        "voz": "«Bad start, bad start.»"
+      },
+      {
+        "f0": 1142,
+        "f1": 1209,
+        "t": "0:38.07–0:40.34",
+        "que_se_ve": "Jimmy andando hacia cámara por la selva",
+        "origen": "rodaje selva",
+        "camara": "travelling de retroceso",
+        "zoom_velocidad": "fondo ×1,0 → ×0,56 en 2,0 s",
+        "texto": "",
+        "motion_graphic": "",
+        "sfx": "",
+        "musica": "pista 1",
+        "voz": "voz en off: «Each group has its advantages and disadvantages.»"
+      },
+      {
+        "f0": 1210,
+        "f1": 1378,
+        "t": "0:40.37–0:45.98",
+        "que_se_ve": "paisaje del desierto → fundido con empuje (≈ 15 f, 42,0–42,6) a aéreo de dunas con dos caminantes → fundido largo (≈ 35 f, 44,0–45,3) a aéreo más cercano",
+        "origen": "rodaje desierto (dron)",
+        "camara": "dron",
+        "zoom_velocidad": "",
+        "texto": "",
+        "motion_graphic": "2 fundidos encadenados",
+        "sfx": "soplido + golpe 0:42.1–0:42.3 en el primer fundido (−12 dB, ≈ +4 dB sobre la voz; confirmado)",
+        "musica": "pista 1",
+        "voz": "«The desert, for example. No shade, no water, blistering heat.»"
+      },
+      {
+        "f0": 1379,
+        "f1": 1450,
+        "t": "0:46.01–0:48.38",
+        "que_se_ve": "dúo del desierto, plano medio",
+        "origen": "rodaje desierto",
+        "camara": "en mano acercándose",
+        "zoom_velocidad": "×1,0 → ×1,32 en 2,0 s",
+        "texto": "",
+        "motion_graphic": "",
+        "sfx": "",
+        "musica": "pista 1",
+        "voz": "«I feel like an egg in a frying pan out here.»"
+      },
+      {
+        "f0": 1451,
+        "f1": 1499,
+        "t": "0:48.41–0:50.02",
+        "que_se_ve": "contrapicado subiendo la duna",
+        "origen": "rodaje desierto",
+        "camara": "baja",
+        "zoom_velocidad": "",
+        "texto": "",
+        "motion_graphic": "",
+        "sfx": "",
+        "musica": "pista 1",
+        "voz": "voz en off: «And that means that they have to carry an»"
+      },
+      {
+        "f0": 1500,
+        "f1": 1549,
+        "t": "0:50.05–0:51.68",
+        "que_se_ve": "dúo de espaldas con las MOCHILAS resaltadas en cian",
+        "origen": "rodaje desierto + VFX",
+        "camara": "seguimiento",
+        "zoom_velocidad": "",
+        "texto": "",
+        "motion_graphic": "resalte de objeto (sube 14 f, apagado en f1546)",
+        "sfx": "",
+        "musica": "pista 1",
+        "voz": "«extra 35 pounds of water each»"
+      },
+      {
+        "f0": 1550,
+        "f1": 1608,
+        "t": "0:51.72–0:53.66",
+        "que_se_ve": "pies subiendo la duna; fundido ≈ 15 f (53,16–53,66)",
+        "origen": "rodaje desierto",
+        "camara": "baja",
+        "zoom_velocidad": "",
+        "texto": "",
+        "motion_graphic": "fundido encadenado",
+        "sfx": "",
+        "musica": "pista 1",
+        "voz": "«compared to everyone else.»"
+      },
+      {
+        "f0": 1609,
+        "f1": 1642,
+        "t": "0:53.70–0:54.79",
+        "que_se_ve": "cascada en la selva",
+        "origen": "rodaje selva",
+        "camara": "fija",
+        "zoom_velocidad": "",
+        "texto": "",
+        "motion_graphic": "",
+        "sfx": "",
+        "musica": "pista 1",
+        "voz": "«And here in the Amazon,»"
+      },
+      {
+        "f0": 1643,
+        "f1": 1687,
+        "t": "0:54.82–0:56.29",
+        "que_se_ve": "panorámica de la selva desde arriba",
+        "origen": "rodaje selva (dron)",
+        "camara": "dron",
+        "zoom_velocidad": "",
+        "texto": "",
+        "motion_graphic": "",
+        "sfx": "",
+        "musica": "pista 1",
+        "voz": "«it's hot, there's hills,»"
+      },
+      {
+        "f0": 1688,
+        "f1": 1723,
+        "t": "0:56.32–0:57.49",
+        "que_se_ve": "Jimmy anda hacia cámara",
+        "origen": "rodaje selva",
+        "camara": "en mano",
+        "zoom_velocidad": "",
+        "texto": "",
+        "motion_graphic": "",
+        "sfx": "",
+        "musica": "pista 1",
+        "voz": "«and most importantly,»"
+      },
+      {
+        "f0": 1724,
+        "f1": 1752,
+        "t": "0:57.52–0:58.47",
+        "que_se_ve": "general de los dos; Jimmy se para (corte no detectado)",
+        "origen": "rodaje selva",
+        "camara": "fija",
+        "zoom_velocidad": "",
+        "texto": "",
+        "motion_graphic": "",
+        "sfx": "",
+        "musica": "hueco 58,1–58,4",
+        "voz": "«pause for one second,»"
+      },
+      {
+        "f0": 1753,
+        "f1": 1908,
+        "t": "0:58.50–1:03.63",
+        "que_se_ve": "plano medio corto: saca el papel con la lista (corte no detectado)",
+        "origen": "rodaje selva",
+        "camara": "en mano",
+        "zoom_velocidad": "reapertura ×1,0 → ×0,78 en ≈ 0,6 s (59,6–60,2) para que quepa el papel; luego fijo 3,4 s",
+        "texto": "",
+        "motion_graphic": "",
+        "sfx": "",
+        "musica": "golpe de vuelta en 58,7 y SILENCIO 59,4–1:03,2 (3,8 s)",
+        "voz": "«this, it's a list of everything that could kill us in the Amazon» / «okay, what's on the list?»"
+      },
+      {
+        "f0": 1909,
+        "f1": 1925,
+        "t": "1:03.66–1:04.23",
+        "que_se_ve": "mismo plano más cerrado (corte de escala al mismo eje)",
+        "origen": "rodaje selva",
+        "camara": "",
+        "zoom_velocidad": "",
+        "texto": "",
+        "motion_graphic": "",
+        "sfx": "",
+        "musica": "pista 2 entra en 1:03",
+        "voz": "«Rattlesnakes,»"
+      },
+      {
+        "f0": 1926,
+        "f1": 2043,
+        "t": "1:04.26–1:08.17",
+        "que_se_ve": "RÁFAGA DE ARCHIVO: araña 20 f · jaguar 23 f · murciélago 26 f · hormigas 15 f · serpiente 17 f · riada 17 f",
+        "origen": "archivo",
+        "camara": "",
+        "zoom_velocidad": "",
+        "texto": "",
+        "motion_graphic": "destello blanco de 3–5 f a la entrada de cada clip",
+        "sfx": "",
+        "musica": "−14/−18 dB (máximo de la intro)",
+        "voz": "la lista, un clip por palabra"
+      },
+      {
+        "f0": 2044,
+        "f1": 2107,
+        "t": "1:08.20–1:10.30",
+        "que_se_ve": "primer plano de Tia sonriendo",
+        "origen": "rodaje selva",
+        "camara": "en mano",
+        "zoom_velocidad": "",
+        "texto": "",
+        "motion_graphic": "",
+        "sfx": "",
+        "musica": "pista 2",
+        "voz": "«…diseases that mosquitoes carry» (sigue fuera de plano)"
+      },
+      {
+        "f0": 2108,
+        "f1": 2140,
+        "t": "1:10.34–1:11.40",
+        "que_se_ve": "primer plano de Jimmy",
+        "origen": "rodaje selva",
+        "camara": "en mano",
+        "zoom_velocidad": "",
+        "texto": "",
+        "motion_graphic": "",
+        "sfx": "",
+        "musica": "pista 2",
+        "voz": "«you get the point.»"
+      },
+      {
+        "f0": 2141,
+        "f1": 2196,
+        "t": "1:11.44–1:13.28",
+        "que_se_ve": "plano de los dos",
+        "origen": "rodaje selva",
+        "camara": "zoom de cámara de golpe",
+        "zoom_velocidad": "fijo 0,8 s y ×1,0 → ×1,22 en ≈ 0,3 s (1:12.3–1:12.6, ≈ 9 f), sigue lento hasta ×1,26",
+        "texto": "",
+        "motion_graphic": "",
+        "sfx": "",
+        "musica": "silencio 1:12.6–1:13.5",
+        "voz": "«our danger is death» («death» 1:12.6) / «Okay.»"
+      },
+      {
+        "f0": 2197,
+        "f1": 2355,
+        "t": "1:13.31–1:18.58",
+        "que_se_ve": "Tia cruza por delante, la mochila llena el cuadro, barrido → fundido a ladera nevada → fundido a blanco total con el dúo diminuto",
+        "origen": "rodaje selva → Antártida (dron)",
+        "camara": "barrido + dron",
+        "zoom_velocidad": "",
+        "texto": "",
+        "motion_graphic": "cortinilla por objeto + 2 fundidos (≈ 15 f y ≈ 25 f)",
+        "sfx": "",
+        "musica": "pista 2 sube a −17/−19 en 1:14.3–1:15.0",
+        "voz": "«in the Antarctic… well, that's pretty self-explanatory»"
+      },
+      {
+        "f0": 2356,
+        "f1": 2408,
+        "t": "1:18.61–1:20.35",
+        "que_se_ve": "dúo de la Antártida con raquetas, picado",
+        "origen": "rodaje Antártida",
+        "camara": "en mano",
+        "zoom_velocidad": "",
+        "texto": "",
+        "motion_graphic": "",
+        "sfx": "",
+        "musica": "pista 2",
+        "voz": "«My toes are getting a little frozen. It's really cold out here.»"
+      },
+      {
+        "f0": 2409,
+        "f1": 2561,
+        "t": "1:20.38–1:25.45",
+        "que_se_ve": "dúo de frente, pequeño, todo blanco → fundido largo (≈ 35 f, 1:22.4–1:23.6) a plano lateral en plena ventisca",
+        "origen": "rodaje Antártida",
+        "camara": "fija",
+        "zoom_velocidad": "",
+        "texto": "",
+        "motion_graphic": "fundido encadenado",
+        "sfx": "",
+        "musica": "pista 2",
+        "voz": "«I actually can't see anything in front of me now» / voz en off: «even though they're getting absolutely destroyed»"
+      },
+      {
+        "f0": 2562,
+        "f1": 2587,
+        "t": "1:25.49–1:26.32",
+        "que_se_ve": "uno caído en la nieve",
+        "origen": "rodaje Antártida",
+        "camara": "en mano",
+        "zoom_velocidad": "",
+        "texto": "",
+        "motion_graphic": "",
+        "sfx": "",
+        "musica": "pista 2",
+        "voz": "«compared to us right now»"
+      },
+      {
+        "f0": 2588,
+        "f1": 2669,
+        "t": "1:26.35–1:29.06",
+        "que_se_ve": "cresta de duna a contraluz dorado; el dron se aleja muy rápido",
+        "origen": "rodaje desierto (dron), adelantado",
+        "camara": "dron acelerado",
+        "zoom_velocidad": "×1,0 → ×0,088 en 2,4 s (frenada exponencial)",
+        "texto": "«COMING UP…» (entra con el corte)",
+        "motion_graphic": "rótulo fijo arriba-izquierda + desenfoque de maqueta",
+        "sfx": "",
+        "musica": "pista 2",
+        "voz": "«Throughout this video we'll be coming across different obstacles»"
+      },
+      {
+        "f0": 2670,
+        "f1": 2755,
+        "t": "1:29.09–1:31.93",
+        "que_se_ve": "ADELANTO: Jimmy nadando en el río con mueca",
+        "origen": "min 12 del vídeo",
+        "camara": "GoPro a ras de agua",
+        "zoom_velocidad": "",
+        "texto": "«COMING UP…» sigue",
+        "motion_graphic": "",
+        "sfx": "golpe 1:29.4 (confirmado)",
+        "musica": "pista 2",
+        "voz": "«that might change the direction of this entire race»"
+      },
+      {
+        "f0": 2756,
+        "f1": 2795,
+        "t": "1:31.96–1:33.27",
+        "que_se_ve": "la cámara se hunde (verde 1:32.2–1:33.0) → destello blanco de ≈ 5 f",
+        "origen": "min 12 del vídeo",
+        "camara": "GoPro",
+        "zoom_velocidad": "",
+        "texto": "«COMING UP…» desaparece en el destello (f2791–2795)",
+        "motion_graphic": "destello blanco",
+        "sfx": "",
+        "musica": "pista 2",
+        "voz": "(sin voz 0,6 s)"
+      },
+      {
+        "f0": 2796,
+        "f1": 2796,
+        "t": "1:33.30",
+        "que_se_ve": "aéreo de dunas: empieza el cuerpo",
+        "origen": "rodaje desierto",
+        "camara": "dron",
+        "zoom_velocidad": "",
+        "texto": "",
+        "motion_graphic": "",
+        "sfx": "",
+        "musica": "pista 2 sigue (sin cambio de pista en la frontera)",
+        "voz": "«Yeah, it's blistering out here»"
+      }
+    ],
+    "titulo_cabecera": {
+      "como_se_construye": "NO HAY. Ni título del vídeo en pantalla, ni logo, ni cabecera, ni saludo. Lo más parecido es «COMING UP…» (1:26.35), que rotula el avance, no el vídeo.",
+      "fuente": "—",
+      "color": "—",
+      "duracion_f": 0,
+      "sonido": "—"
+    },
+    "primer_plano_hablando_s": "0,11 s primera palabra (Jimmy, plano general a cámara); 17,85 s primer busto hablando (dúo del desierto); 27,56 s primer selfie de Jimmy",
+    "musica_intro": "pista 1 de 0:00.1 a 1:00 (voz−música 6,4 dB: la más alta del vídeo), silencio 0:59.4–1:03.2 y pista 2 desde 1:03 (voz−música 9,0 dB) que sigue dentro del cuerpo hasta 1:46. Dos bajadas a propósito: cuenta atrás (0:22.0–0:25.0, −18 dB) y lista (3,8 s).",
+    "hojas": "hojas/intro_fot_00–46.jpg (0–94 s fotograma a fotograma), detalle/coming_up_tira.jpg, detalle/spec_000_030.png"
+  },
+  "motion_graphics": [
+    {
+      "tipo": "marcador de progreso (3 barras con %)",
+      "que_es": "tres filas abajo-izquierda, una por equipo, en orden FIJO desierto (ámbar #F2A81D) / Antártida (azul #2F9FD0) / selva (verde #2FD63A): avatar circular con aro dorado y foto recortada de la pareja + barra en forma de píldora brillante cuya longitud es el % + cifra pegada al final de la barra, sobre un carril gris translúcido que marca el 100 %",
+      "entrada_salida": "entra en ≈ 12 f: aparecen carril y avatares y las barras CRECEN de izquierda a derecha, de arriba abajo (1:41.7–1:42.1; 7:55.4–7:55.9); otras veces entra ya puesto con el corte (4:48.6). Sale por fundido de ≈ 9–12 f (1:46.8–1:47.1; 18:08.4–18:08.8) o con el corte",
+      "curva": "crecimiento con frenada, sin rebote; cuando un equipo avanza, la barra sube en pantalla (17:14–17:20: 59 → 72)",
+      "posicion": "caja x 258–1.870 px, y 665–1.030 px (13–97 % del ancho, 62–95 % del alto); filas a y ≈ 725, 848 y 972 px (123 px entre filas); carril de x ≈ 390 a 1.660 px (66 % del ancho)",
+      "tamano": "avatar Ø ≈ 110 px (10 % del alto); barra de 48 px de alto (4,4 %); cifra ≈ 56 px (5,2 % del alto) con el «%» al ≈ 60 %",
+      "color": "barras ámbar/azul/verde saturadas con brillo; cifra crema #EDE6D2 con contorno oscuro; fila del equipo del que se habla opaca, las otras al ≈ 50 % de opacidad",
+      "fuente": "cifra en tecno ancha negrita (aspecto Eurostile Bold Extended / Orbitron Bold). fuente_rotulo.py (--color #EDE6D2, rotulos/marcador_cifra.png): Libre Baskerville 700 +0,015 · Unbounded 700 −0,014 · Courier Prime −0,025 → NO fiable (< 0,5)",
+      "sonido": "sin efecto confirmado: en 1:41.4 hay un tic leve 13 dB bajo la voz (dudas); en 4:48–4:55 la entrada es muda",
+      "disparador": "la frase que da las cifras («You guys are about six percent done», 1:40.9; «Here's the current standing», 4:48) o un adelantamiento; la fila se enciende cuando la voz dice SU cifra (1:42.1 «six», 1:44.0 «four», 1:46.5 «two»)",
+      "por_minuto": 0.55,
+      "total": 13,
+      "duracion_f": "60–285 f (2,0–9,5 s); media 5,5 s; total ≈ 71 s = 5,0 % del vídeo",
+      "ejemplos": [
+        "1:41.7–1:47.1 (5,4 s) 6/2/4",
+        "3:58.8–4:00.8 (2,0 s) 15/7/12",
+        "4:48.5–4:56.2 (7,8 s) 20/7/15 con paneles",
+        "5:07.5–5:11.0 (3,5 s) 23/7/19",
+        "5:35.0–5:39.5 (4,5 s) 25/7/25",
+        "5:46.5–5:49.0 (2,5 s) 25/7/32",
+        "7:55.3–8:04.3 (9,0 s) 33/7/40",
+        "10:21.5–10:24.5 (3,0 s) 36/22/40",
+        "10:57.8–11:03.5 (5,8 s) 41/34/40",
+        "13:38–13:47.8 (≈ 9,5 s) 58/40/47 sobre 4–5 planos",
+        "15:18.3–15:24.5 (6,2 s) 59/41/47",
+        "17:14–17:20 (≈ 6 s) 59→72/51/62",
+        "18:03.0–18:08.8 (5,8 s) 73/51/66 con paneles"
+      ],
+      "cuando_si": "cada vez que cambia el orden o se da una cifra; va en capa aparte (no se mueve aunque el plano de debajo corte: 7:58.1, 13:38–13:47)",
+      "cuando_no": "nunca en el clímax (11:28–13:13: 160 s sin marcador) ni en los últimos 4 min 37 s (se retira a propósito a los 18:08.8); nunca con otro texto encima"
+    },
+    {
+      "tipo": "pantalla partida / tríptico de paneles verticales",
+      "que_es": "2 o 3 paneles verticales, uno por equipo, con divisor blanco de ≈ 18 px (0,9 % del ancho) con leve resplandor; el plano que ya estaba se estrecha y los otros entran deslizando",
+      "entrada_salida": "cada panel entra en 6–18 f con frenada (0:02.76: 7 f; 4:50.4–4:50.8: 12 f; 4:52.8–4:53.4: 18 f; 18:04.8–18:05.0: 6 f con una barra blanca que barre); salen en orden inverso (18:08.0–18:08.5) o por corte/destello",
+      "curva": "deslizamiento con frenada, sin rebote",
+      "posicion": "a pantalla completa; 2 paneles al 50 % o 3 a 1/3",
+      "tamano": "panel = 33–50 % del ancho",
+      "color": "divisor blanco; en 1:58.8 el borde de cada panel lleva el color de su equipo (naranja, cian)",
+      "fuente": "—",
+      "sonido": "soplido leve en 1:58.8–1:59.0 (sin confirmar, dudas); el resto mudos",
+      "disparador": "la frase que nombra a cada equipo: cada panel entra al empezar la frase de SU equipo («Desert's 20» 4:50.8; «Antarctic…» 4:53.4)",
+      "por_minuto": 0.34,
+      "total": 8,
+      "duracion_f": "40–500 f (1,4–17 s)",
+      "ejemplos": [
+        "0:02.76–0:05.40 tres mundos",
+        "0:10.01–0:14.50 equipos de pie → mapas cenitales",
+        "0:23.19–0:27.53 salida sincronizada",
+        "1:58.8–2:05.35 (6,5 s) rutas: selva | desierto | móvil con brújula; los paneles cortan por separado (2 cambios en el de la selva)",
+        "4:50.4–4:56.2 con marcador encima",
+        "≈ 13:19–13:36.7 videollamada a tres (≈ 17 s)",
+        "18:04.8–18:08.5 con marcador",
+        "18:17.2–18:22 cenital con rutas que se borran"
+      ],
+      "cuando_si": "cuando una frase habla de los tres a la vez (premisa, salida, clasificación parcial, llamada a tres, giro de reglas)",
+      "cuando_no": "en acción de un solo equipo; nunca más de 3 paneles"
+    },
+    {
+      "tipo": "mapa 3D de maquetas (estado de la carrera)",
+      "que_es": "tres maquetas 3D isométricas del terreno (selva con río, desierto con cañón, hielo con montaña) sobre negro con rejilla gris; a la derecha de cada una, el helicóptero sobre un anillo rojo y una franja de meta de cuadros; a la izquierda, chincheta redonda con icono + cifra grande en % del color del equipo",
+      "entrada_salida": "ENTRA por fundido a blanco de ≈ 4 f (3:24.2–3:24.3) y arranca con la cámara 3D pegada a la maqueta de la selva; SALE por velo y blanco total de 2–3 f (3:31.6–3:31.7) al plano siguiente",
+      "curva": "cámara 3D que se aleja y sube de forma continua 7 s (con frenada el primer tramo 3:24.4–3:25.8); cada maqueta nueva aparece cuando cabe; el contador de cada equipo SUBE contando (5 % → 10 % en ≈ 6 f; 2 → 9 → 11 %; 0 → 7 %)",
+      "posicion": "pantalla completa",
+      "tamano": "cifra ≈ 75–85 px (7–8 % del alto)",
+      "color": "fondo negro; cifras verde / amarillo / cian con degradado, contorno y resplandor",
+      "fuente": "ultra negrita cursiva con degradado (no pasada por fuente_rotulo.py: sin recorte limpio)",
+      "sonido": "golpe de entrada en 3:24.2 (−17 dB, +2/+3 sobre la voz en off; confirmado) y soplido de salida en 3:31.8–3:32.0 (confirmado)",
+      "disparador": "voz en off en pasado: «After hours of struggling we were only 10 %» (3:23.9–3:26.6) → selva; «Desert was at 11 %» (3:28.4) → aparece el desierto a 3:27.4–3:27.7; «Antarctic was still at 7 %» (3:30.1) → aparece el hielo a 3:29.2–3:29.5. Tres bloques de ≈ 2,3 s",
+      "por_minuto": 0.04,
+      "total": 1,
+      "duracion_f": 222,
+      "ejemplos": [
+        "3:24.3–3:31.7 (7,4 s); f6123–6345; detalle/d_mapa3d_0323.jpg; rotulos/f_mapa3d_0329.jpg"
+      ],
+      "cuando_si": "una vez, pronto (minuto 3), para fijar en la cabeza del espectador el tablero completo: quién, dónde está la meta y cuánto falta",
+      "cuando_no": "no se repite: después basta el marcador de barras"
+    },
+    {
+      "tipo": "mapa cenital con ruta que se dibuja (o se borra)",
+      "que_es": "vista cenital real de cada terreno en tríptico con una línea de puntos brillante del color del equipo desde un punto de salida hasta la meta",
+      "entrada_salida": "0:11.83 entra tras destello + desenfoque radial; la ruta se dibuja en ≈ 40 f (f388–425); sale por destello de 9 f. En 18:17.1 entra por barrido de 2 f con las rutas ya dibujadas, se APAGAN en ≈ 6 f (18:18.6–18:18.8) y quedan los mapas mudos 2,2 s",
+      "curva": "trazo lineal de abajo arriba",
+      "posicion": "pantalla completa, 3 paneles",
+      "tamano": "línea ≈ 0,5 % del ancho con resplandor",
+      "color": "cian | verde | naranja (0:12.9); amarillo | verde | cian (18:17)",
+      "fuente": "sin texto",
+      "sonido": "ninguno confirmado",
+      "disparador": "«travel to our rescue helicopters» (0:11.0–0:12.2); «you now won't know how close we are to finishing either» (18:17–18:21)",
+      "por_minuto": 0.09,
+      "total": 2,
+      "duracion_f": "0:11.83–0:14.50 = 80 f; 18:17.1–18:22 ≈ 147 f",
+      "ejemplos": [
+        "0:11.83–0:14.50",
+        "18:17.1–18:22.0 (detalle/d_noupdates_1802.jpg)"
+      ],
+      "cuando_si": "para enseñar el recorrido como idea (no como geografía): no hay topónimos, ni escala, ni zoom desde el globo",
+      "cuando_no": "no se usa para situar el país ni la región"
+    },
+    {
+      "tipo": "mapa de ruta 3D (atajo)",
+      "que_es": "terreno de hielo 3D estilizado con chincheta cian del equipo (Ø ≈ 95 px, con triángulo dorado), chincheta naranja de destino arriba-derecha y una línea blanca con resplandor azul que se dibuja entre las dos",
+      "entrada_salida": "visto en la hoja de 2 s en ≈ 10:00; entrada y salida no medidas al fotograma (dudas)",
+      "curva": "trazo que avanza",
+      "posicion": "pantalla completa",
+      "tamano": "chincheta ≈ 9 % del alto",
+      "color": "blanco/azul sobre hielo",
+      "fuente": "sin texto",
+      "sonido": "mudo (sin pico en la pista sin voz)",
+      "disparador": "«if we take this path, we can cut straight through» (≈ 9:58–10:02)",
+      "por_minuto": 0.04,
+      "total": 1,
+      "duracion_f": "≈ 60–90 f (estimado)",
+      "ejemplos": [
+        "≈ 10:00 (rotulos/f_maparuta_1000.jpg)"
+      ],
+      "cuando_si": "cuando alguien DECIDE cambiar de camino",
+      "cuando_no": "—"
+    },
+    {
+      "tipo": "resalte de objeto o lugar con color",
+      "que_es": "el objeto del que se habla (mochilas, agua, colchoneta, balsa, orilla) se pinta con una máscara de color brillante + resplandor encima del vídeo real; en la balsa lejana, con seguimiento",
+      "entrada_salida": "sube en 2–14 f, aguanta 0,6–2,8 s y se funde en 12–21 f o se va con el corte",
+      "curva": "encendido rápido, apagado suave",
+      "posicion": "sobre el objeto",
+      "tamano": "del objeto: desde 3 % del ancho (balsa lejana, 12:11.3) hasta ≈ 40 % (agua del arroyo, 2:34.3)",
+      "color": "cian (mochilas 0:50, orilla 12:27.4), turquesa (agua 2:34.3), cian-verde (colchoneta 9:56), azul eléctrico con chispas (balsa 12:11.3), verde (helicóptero 0:15.4, mochilas 20:58)",
+      "fuente": "sin texto",
+      "sonido": "ninguno confirmado (0:50.5 acento leve en dudas)",
+      "disparador": "la palabra que nombra el objeto: «extra 35 pounds of water» (0:49.3–0:50.8), «if we step in this water» (2:34–2:37), «we should probably aim for that» (12:27–12:29)",
+      "por_minuto": 0.3,
+      "total": 7,
+      "duracion_f": "33–87 f (1,1–2,9 s)",
+      "ejemplos": [
+        "0:15.40 helicóptero verde (f462)",
+        "0:50.03–0:51.60 mochilas cian (f1500–1546)",
+        "2:34.3–2:37.0 agua turquesa (f4624–4705)",
+        "≈ 9:56 colchoneta",
+        "12:11.3–12:14.2 balsa azul con seguimiento (f21917–22004)",
+        "12:27.4–12:28.9 orilla cian (f22400–22445)",
+        "≈ 20:58 mochilas verdes"
+      ],
+      "cuando_si": "cuando lo importante es pequeño, está lejos o se confunde con el fondo, o cuando la frase habla de un objeto concreto que está en plano",
+      "cuando_no": "nunca sobre caras; nunca dos objetos a la vez; no se combina con texto"
+    },
+    {
+      "tipo": "móvil 3D con visor y respuesta escrita",
+      "que_es": "maqueta 3D de un móvil de pie a la izquierda (x 130–592 px = 24 % del ancho; y 58–1.018 px = 89 % del alto) sobre el vídeo a pantalla completa; su pantalla enseña primero el visor de la cámara (lo que «ve» el asistente) y luego fondo negro-azul con la respuesta escribiéndose palabra a palabra a la vez que suena la voz del asistente",
+      "entrada_salida": "entra girando desde la esquina inferior izquierda: su pantalla blanca tapa media imagen (9:40.8), gira y se endereza en ≈ 20 f con frenada (9:41.0–9:41.5); el corte de plano se esconde debajo (9:40.9). Sale por corte",
+      "curva": "giro 3D con frenada",
+      "posicion": "izquierda; el sujeto queda a la derecha",
+      "tamano": "24 % × 89 % del cuadro; texto de la respuesta ≈ 30 px (2,8 % del alto), blanco, palo seco",
+      "color": "negro con degradado azul",
+      "fuente": "palo seco de interfaz (no medida)",
+      "sonido": "soplido de la cortinilla en 9:39.5–9:40.0 (−18 dB, ≈ +2 sobre la voz; confirmado); la pregunta se hace con la música en silencio (9:42.4–9:45.1; 14:53.4–14:59.2)",
+      "disparador": "la pregunta al asistente («Hey Gemini, how do I turn mattresses, bamboo and some rope into a raft?»)",
+      "por_minuto": 0.17,
+      "total": 4,
+      "duracion_f": "≈ 150–480 f (5–16 s)",
+      "ejemplos": [
+        "9:40.8–≈ 9:57 (≈ 16 s; cortes de plano por debajo en 9:42.2 y 9:43.8 sin que el móvil se mueva)",
+        "≈ 10:27–10:33 (nudo)",
+        "≈ 10:40–10:45 (diente de tiburón)",
+        "≈ 14:52–14:57 (fruta)"
+      ],
+      "cuando_si": "cada consulta al móvil: el producto se enseña como objeto gráfico grande y legible, no como captura de pantalla pequeña",
+      "cuando_no": "—"
+    },
+    {
+      "tipo": "recuadro de videollamada",
+      "que_es": "marco de móvil vertical con la cara de quien llama, arriba-izquierda (x ≈ 5–25 % del ancho, y ≈ 12–95 % del alto), sobre el plano de quien escucha",
+      "entrada_salida": "aparece con un salto de escala de 2–3 f (16:19.8–16:19.9) y sale con el corte (16:25.9)",
+      "curva": "salto corto",
+      "posicion": "arriba-izquierda",
+      "tamano": "≈ 20 % × 83 % del cuadro",
+      "color": "marco negro",
+      "fuente": "—",
+      "sonido": "ninguno confirmado",
+      "disparador": "«There's my mom»",
+      "por_minuto": 0.04,
+      "total": 1,
+      "duracion_f": 183,
+      "ejemplos": [
+        "16:19.8–16:25.9 (6,1 s; f29365–29547): el plano de fondo corta debajo en 16:22.0 y el recuadro no se mueve"
+      ],
+      "cuando_si": "llamada en la que importa ver la cara de quien llama",
+      "cuando_no": "en 21:11–21:21 la madre solo se oye y se rotula con texto («Darius's Mom»)"
+    },
+    {
+      "tipo": "VFX de chiste (explosión de fuego)",
+      "que_es": "bola de fuego compuesta sobre la ropa mojada que Jimmy tira a las piedras",
+      "entrada_salida": "nace en el fotograma en que la ropa toca el suelo (13:57.00), llena en 4 f (≈ 4 % → 18 % del ancho), arde ≈ 20 f y se CORTA con el plano (13:57.80) a un general donde no pasa nada",
+      "curva": "explosivo",
+      "posicion": "sobre el objeto",
+      "tamano": "≈ 18 % del ancho",
+      "color": "naranja/amarillo",
+      "fuente": "—",
+      "sonido": "explosión en 13:57.1 (−13 dB, +1 sobre la voz; confirmado)",
+      "disparador": "gesto exagerado (tirar algo con rabia)",
+      "por_minuto": 0.04,
+      "total": 1,
+      "duracion_f": 24,
+      "ejemplos": [
+        "13:57.00–13:57.80 (f25085–25109; detalle/d_explosion_1355.jpg)"
+      ],
+      "cuando_si": "una sola vez: exagerar un gesto cómico",
+      "cuando_no": "no hay más VFX de humor en 23 min"
+    },
+    {
+      "tipo": "meta: destello + cronómetro + tarjeta de clasificación",
+      "que_es": "al tocar el poste, bola de resplandor verde en la mano (≈ 10 % del ancho, ≈ 27 f) y el tiempo «28:15:40» aparece en blanco con resplandor abajo-centro; se mete en una caja translúcida de borde neón verde y la caja se despliega con «1 [2 avatares] JUNGLE … 28:15:40». Cuatro segundos después, lo mismo en ámbar: «2 [avatares] DESERT … 28:23:24» con el tiempo en rojo",
+      "entrada_salida": "tiempo: pop de 3 f (22:45.4) → caja con solo el tiempo (22:45.5–22:46.1) → despliegue de número, avatares y nombre en ≈ 6 f (22:46.2–22:46.4). Fila 2: pop 22:49.2 → caja 22:49.4 → despliegue 22:50.0–22:50.3. Las dos filas se van con un corte seco (22:54.0)",
+      "curva": "pop corto y despliegue lateral con frenada",
+      "posicion": "abajo; cajas de x 160–1.755 px (83 % del ancho); fila 1 y 680–813 px, fila 2 y 840–973 px",
+      "tamano": "caja de 133 px de alto (12,3 %); nombre ≈ 50 px (4,6 %); tiempo ≈ 75 px (7 %); avatares Ø ≈ 95 px",
+      "color": "fila 1 verde #39E84B; fila 2 ámbar #E8A93B; tiempo del ganador verde, tiempo del segundo ROJO #FF5A5A; esquinas de visor",
+      "fuente": "nombre: grotesca negrita blanca. fuente_rotulo.py (--color #E6E6EE, rotulos/jungle.png): Manrope 800 +0,819 · Inter 600 +0,804 · DM Sans 900 +0,754 (fiable). Tiempo: dígitos de 7 segmentos",
+      "sonido": "subida 22:44.8–22:45.4 + GOLPE en 22:45.5 (−9/−10 dB, sin voz encima: el efecto más fuerte del vídeo; confirmado); segundo golpe en 22:50.0 para la fila 2 (−15/−16 dB; confirmado)",
+      "disparador": "el toque físico del poste (22:45.3–22:45.4)",
+      "por_minuto": 0.04,
+      "total": 1,
+      "duracion_f": 258,
+      "ejemplos": [
+        "22:45.4–22:54.0 (8,6 s; f40921–41179) sobre 5 planos; detalle/d_meta_2238.jpg; rotulos/f_clasif_2250.jpg"
+      ],
+      "cuando_si": "el desenlace del reto: el resultado se ve escrito con tiempos, no solo se dice",
+      "cuando_no": "el tercero (no llegó) no sale en la tarjeta"
+    },
+    {
+      "tipo": "recuerdo en blanco y negro",
+      "que_es": "4 planos de archivo de un vídeo anterior en B/N de alto contraste",
+      "entrada_salida": "destello blanco de ≈ 5 f a la entrada (9:33.0–9:33.2) y a la salida (9:37.0–9:37.2)",
+      "curva": "—",
+      "posicion": "pantalla completa",
+      "tamano": "—",
+      "color": "blanco y negro",
+      "fuente": "sin texto",
+      "sonido": "ninguno confirmado",
+      "disparador": "«And where last time I had a survival expert helping us every step of the way»",
+      "por_minuto": 0.04,
+      "total": 1,
+      "duracion_f": 126,
+      "ejemplos": [
+        "9:33.0–9:37.2 (f17173–17299): 1,3 s + 1,0 s + 1,3 s + 0,5 s"
+      ],
+      "cuando_si": "cuando la voz nombra algo del pasado: el B/N lo separa del presente sin rótulo",
+      "cuando_no": "—"
+    },
+    {
+      "tipo": "flecha 3D y tarjeta del patrocinador",
+      "que_es": "flecha roja 3D que señala el punto de recogida en el horizonte del desierto (≈ 18:42) y tarjeta lateral del patrocinador (logo ovalado x 230–740 px, y 80–320 px + QR blanco de 433 px = 40 % del alto + «ENTER CODE:» y el código en tecno ancha negrita de 45 y 65 px) con Jimmy a cámara a la derecha",
+      "entrada_salida": "no medidas al fotograma",
+      "curva": "—",
+      "posicion": "flecha sobre el horizonte; tarjeta en la columna izquierda",
+      "tamano": "ver arriba",
+      "color": "rojo; blanco",
+      "fuente": "código: fuente_rotulo.py (--color #F0F0F0, rotulos/beast40.png): Rubik 700 +0,705 · Montserrat 800 +0,685 · Lexend 600 +0,665",
+      "sonido": "sin confirmar",
+      "disparador": "«just over that way is where we got to get picked up» (≈ 18:42); la mención del código (20:40–20:50)",
+      "por_minuto": 0.09,
+      "total": 2,
+      "duracion_f": "tarjeta ≈ 300 f (10 s)",
+      "ejemplos": [
+        "≈ 18:42 flecha",
+        "20:40–20:50 tarjeta (rotulos/f_patro_2040.jpg)"
+      ],
+      "cuando_si": "señalar algo que no se distingue en un plano general; cerrar la integración con los datos legibles 10 s",
+      "cuando_no": "—"
+    }
+  ],
+  "motion_graphics_resumen": "≈ 42 gráficos en 23,45 min (≈ 1,8/min): 8 en la intro (uno cada 11,7 s) y ≈ 34 en el cuerpo (≈ 1,6/min). Tres familias: ESTADO (marcador, mapas, clasificación: 17), COMPOSICIÓN (paneles, móvil 3D, recuadro: 13) y ÉNFASIS (resaltes de color, VFX, flecha, B/N: 11). Ninguno es decorativo: todos responden a una frase.",
+  "cortes": {
+    "total_cortes_json": 434,
+    "cortes_por_minuto_cortes_json": 18.5,
+    "total_estimado": 570,
+    "margen": "± 50 (520–620)",
+    "cortes_por_minuto_estimado": 24.3,
+    "nota_correccion": "Contado a ojo a 0,1 s en 4 minutos enteros: 2:00–3:00 = 22 cortes (detector 12, ×1,83); 7:00–8:00 = 20 (detector 20, ×1,0); 12:00–13:00 = 24 (detector 21, ×1,14); 16:00–17:00 = 18 (detector 9, ×2,0). Suma 84 frente a 62 → ×1,35 → 434 × 1,35 ≈ 588. Segunda vía: los candidatos débiles de cortes.scd.txt (puntuación 5–10, fuera de un corte detectado) son 114 en todo el vídeo y en los 4 minutos contados predicen bien (89 frente a 84 a ojo) → 434 + 114 = 548. Se da la media de las dos vías: 570 ± 50. El detector falla donde la paleta no cambia entre planos (selva verde sobre verde, ventisca blanco sobre blanco) y en los cortes de escala al mismo eje; acierta cuando se alternan biomas.",
+    "global": {
+      "planos": 435,
+      "media_s": 3.23,
+      "mediana_s": 2.44,
+      "p10_s": 1.17,
+      "p90_s": 6.24,
+      "max_s": 22.66,
+      "menos_de_1s_pct": 7,
+      "mas_de_5s_pct": 16
+    },
+    "global_estimado": {
+      "planos": 571,
+      "media_s": 2.46,
+      "mediana_s": "≈ 2,0",
+      "nota": "el plano real más largo comprobado es de 9,7 s (7:11.8–7:21.5, una toma con 3 barridos dentro); los «planos» de 13–23 s del detector esconden cortes o paneles (13:14.0–13:36.7 es el tríptico de videollamada)"
+    },
+    "por_parte": [
+      {
+        "parte": "gancho + reglas (0:00–0:27.56)",
+        "planos": 8,
+        "media_s": 3.44,
+        "mediana_s": 2.77,
+        "nota": "pocos cortes y 7 gráficos: el ritmo lo llevan las capas"
+      },
+      {
+        "parte": "intro entera (0:00–1:33.3)",
+        "planos": 40,
+        "media_s": 2.33,
+        "mediana_s": 1.82,
+        "menos_de_1s_pct": 22,
+        "nota": "con 3 cortes añadidos a ojo"
+      },
+      {
+        "parte": "ráfaga de archivo (1:03.66–1:08.2)",
+        "planos": 9,
+        "media_s": 0.51,
+        "menos_de_1s_pct": 100
+      },
+      {
+        "parte": "etapa 1 (1:33–6:30)",
+        "planos_detector": 72,
+        "media_s_detector": 4.12,
+        "mediana_s_detector": 2.97,
+        "nota": "es donde más se equivoca el detector (selva y ventisca): real ≈ 2,3–2,7 s"
+      },
+      {
+        "parte": "tarde y noche (6:30–8:20)",
+        "planos_detector": 41,
+        "media_s_detector": 2.68,
+        "mediana_s_detector": 2.57
+      },
+      {
+        "parte": "día 2, balsa (8:20–11:30)",
+        "planos_detector": 73,
+        "media_s_detector": 2.6,
+        "mediana_s_detector": 2.2,
+        "menos_de_1s_pct": 15
+      },
+      {
+        "parte": "cruce (11:30–13:13)",
+        "planos_detector": 38,
+        "media_s_detector": 2.71,
+        "mediana_s_detector": 2.12,
+        "nota": "en 12:44.8–12:55.0: 9 planos en 10,2 s (0,7–1,6 s)"
+      },
+      {
+        "parte": "persecución (13:13–18:08)",
+        "planos_detector": 75,
+        "media_s_detector": 3.93,
+        "mediana_s_detector": 2.54,
+        "nota": "real ≈ 2,6–3,0 s (minuto 16 contado: 18 cortes)"
+      },
+      {
+        "parte": "sin marcador (18:08–19:08)",
+        "planos_detector": 17,
+        "media_s_detector": 3.53,
+        "mediana_s_detector": 2.79
+      },
+      {
+        "parte": "patrocinio (19:08–20:50)",
+        "planos_detector": 37,
+        "media_s_detector": 2.76,
+        "mediana_s_detector": 2.57
+      },
+      {
+        "parte": "recta final (20:50–22:46)",
+        "planos_detector": 39,
+        "media_s_detector": 2.97,
+        "mediana_s_detector": 2.47
+      },
+      {
+        "parte": "meta y cierre (22:46–23:27)",
+        "planos_detector": 15,
+        "media_s_detector": 2.74,
+        "mediana_s_detector": 2.17
+      }
+    ],
+    "por_minuto": [
+      19,
+      24,
+      12,
+      12,
+      22,
+      11,
+      21,
+      20,
+      23,
+      20,
+      23,
+      23,
+      21,
+      17,
+      18,
+      13,
+      9,
+      21,
+      15,
+      23,
+      18,
+      18,
+      23,
+      8
+    ],
+    "por_minuto_estimado": [
+      23,
+      27,
+      22,
+      23,
+      26,
+      16,
+      24,
+      20,
+      26,
+      26,
+      27,
+      24,
+      24,
+      24,
+      21,
+      16,
+      18,
+      26,
+      22,
+      25,
+      20,
+      25,
+      29,
+      9
+    ],
+    "por_minuto_estimado_nota": "detector + candidatos débiles, salvo los 4 minutos contados a ojo (2, 7, 12 y 16), que llevan su cifra real. El ritmo es casi plano: 20–27 cortes/min de principio a fin; solo bajan el min 5 (16), los min 15–16 (16–18: el bajón emocional) y el cierre. La lista suma 543: es un suelo; el total estimado (570 ± 50) añade ≈ 5 % que no se puede repartir por minuto.",
+    "rafagas": {
+      "cortes_rafagas_json": "434 cortes, 0 en ráfaga (ejecutado con --rafagas --hasta 93)",
+      "micro_flash": "no hay estroboscopio ni planos de 2–5 f",
+      "unica_rafaga": "1:04.26–1:08.17: 6 clips de archivo de 15–26 f (media 19,7 f = 0,66 s), cada uno con destello blanco de 3–5 f, un clip por palabra de la lista"
+    },
+    "jump_cuts_al_hablar": "No hay punch-in digital sistemático sobre el busto. Lo que hay es CORTE DE ESCALA AL MISMO EJE en los diálogos largos: 7:48.4 (×1,0) → 7:51.3 (≈ ×1,5) → [inserto del otro equipo] → 7:53.9 (×1,0) → 7:55.3 (≈ ×1,4) → 7:58.1 (≈ ×1,8): una escalera de 2–3 peldaños, un salto cada ≈ 2,8 s, siempre en cambio de frase. También 1:03.66 (más cerrado al empezar la lista) y 2:09.2 → 2:10.0 (dos saltos seguidos hacia el caído). En los 4 minutos contados: ≈ 7 cortes de escala al mismo eje (≈ 1,7/min).",
+    "j_l_cuts": "Constantes y en un sentido: la VOZ EN OFF de Jimmy o la frase de un equipo sigue sobre la imagen de otro (0:36–0:53 la voz explica el desierto sobre sus aéreos; 1:08.2–1:10.3 la lista sigue sobre el primer plano de Tia; 2:15.0–2:19.1 «We are going to be the most rested» sobre la caída con el saco). No se ha contado uno a uno.",
+    "match_cuts": "23:04.6 el plano del helicóptero se encoge y resulta ser un televisor en el salón; 3:46.96 corte en el pisotón en el barro (con sonido directo); 0:25.1 el brazo que baja da la salida a los tres paneles",
+    "insertos_cortos": "detalles de 0,5–2 s sobre la voz: copas de los árboles con sol (2:30.3–2:32.3), botella-filtro (≈ 3:18), macro de la rana (≈ 4:42), el cámara (≈ 6:30), manos atando (9:34.4, 1,0 s)",
+    "planos_largos": "se guardan para el respiro o el vacío: aéreo lejano del río 5,2 s (12:14.3–12:19.5), bajo el agua 4,1 s sin voz (12:55.0–12:59.1), río al anochecer 3,6 s (7:03.4–7:07.0), salón con las madres 5,7 s (23:06.7–23:12.4), negro final 5,0 s. La toma más larga es de diálogo: 9,7 s (7:11.8–7:21.5) con 3 barridos de cámara dentro en vez de cortes.",
+    "velocidad": "cámara rápida 3 veces: dron que se aleja acelerado (1:26.4–1:29.0), montaje de la tienda con estela (7:38.8–7:41.4, 2,6 s) y 3 planos de estrellas (8:20–8:26). No se ha visto ralentí en ninguna hoja.",
+    "cortes_a_ritmo_de_musica": "No de forma sistemática: 32 % de los cortes caen en pulso y 19 % en un acento (audio.json). Lo que sí está colocado es la VUELTA de la música tras cada silencio: cae en el corte al plano siguiente (18 casos medidos, ver musica.silencios)."
+  },
+  "zooms": [
+    {
+      "tipo": "zoom digital sobre el busto (punch-in)",
+      "medido": "7:48.5–7:51.2: ×1,000 → ×0,984 (fijo); 22:48.2–22:50.0: ×1,00 (fijo)",
+      "escala_inicial_final": "1,0 → 1,0",
+      "duracion_f": 0,
+      "curva": "—",
+      "centro": "—",
+      "disparador": "—",
+      "extras": "NO SE USA: ningún plano hablando de los medidos lleva zoom digital. El cambio de escala se hace por corte (ver cortes.jump_cuts_al_hablar)",
+      "por_minuto": 0,
+      "total": 0,
+      "ejemplos": []
+    },
+    {
+      "tipo": "zoom de cámara de golpe (dentro del plano)",
+      "medido": "1:11.5–1:13.25: fijo 0,8 s y ×1,0 → ×1,22 en ≈ 0,3 s (≈ 9 f), sigue hasta ×1,26",
+      "escala_inicial_final": "1,0 → 1,22–1,26",
+      "duracion_f": 9,
+      "curva": "tirón y cola lenta",
+      "centro": "la cara de quien remata",
+      "disparador": "la palabra del remate: «death» (1:12.6), con la música en silencio 1:12.6–1:13.5",
+      "extras": "hecho en cámara (objetivo), no en edición",
+      "por_minuto": "≈ 0,3",
+      "total": "≈ 6–8 (estimado: 2 en los 5 minutos mirados a 0,1 s)",
+      "ejemplos": [
+        "1:12.3–1:12.6 «our danger is death»",
+        "16:05.3 empuje/panorámica rápida a Jimmy (≈ ×1,6 en ≈ 3 f, a ojo)"
+      ]
+    },
+    {
+      "tipo": "empuje de cámara con curva en S (operador)",
+      "medido": "7:07.1–7:11.7: ×1,0 → ×1,94 en 4,4 s (21 %/s de media; máximo +0,10 por 0,2 s en 7:09.5–7:10.1)",
+      "escala_inicial_final": "1,0 → 1,94",
+      "duracion_f": 132,
+      "curva": "arranca suave, acelera a mitad, frena al llegar",
+      "centro": "los dos, de plano entero a plano medio",
+      "disparador": "el plan que se va concretando («the one filled with anacondas»)",
+      "extras": "seguido de barridos de 0,3–0,6 s entre los dos hablantes (7:13.0, 7:17.6, 7:19.3) en lugar de cortes",
+      "por_minuto": "≈ 0,5",
+      "total": "sin contar",
+      "ejemplos": [
+        "7:07.1–7:11.7",
+        "7:32.4–7:33.0 barrido de Jimmy a la playa («What about here?»)"
+      ]
+    },
+    {
+      "tipo": "empuje lento sobre quien explica a cámara",
+      "medido": "9:03.8–9:07.0: ×1,00 → ×1,28 en 3,2 s (≈ 8 %/s), lineal",
+      "escala_inicial_final": "1,0 → 1,28",
+      "duracion_f": 96,
+      "curva": "lineal",
+      "centro": "cara",
+      "disparador": "explicación de 4–6 s a cámara",
+      "extras": "acercamiento físico (en mano o estabilizador), no digital",
+      "por_minuto": "≈ 0,3",
+      "total": "sin contar",
+      "ejemplos": [
+        "9:03.8–9:07.0",
+        "0:46.1–0:48.3 ×1,0 → ×1,32 en 2,0 s (irregular, en mano)"
+      ]
+    },
+    {
+      "tipo": "retroceso / travelling hacia atrás con el sujeto andando a cámara",
+      "medido": "0:30.1–0:32.3: ×1,0 → ×0,47 en 2,0 s (−26 %/s), lineal; 0:38.1–0:40.3: ×1,0 → ×0,56 en 2,0 s (−22 %/s); 0:06.6–0:07.35: ×1,0 → ×0,815 en 0,6 s; 9:02.2–9:03.8: ×1,0 → ×0,68 en 1,6 s",
+      "escala_inicial_final": "1,0 → 0,47–0,82",
+      "duracion_f": "18–60",
+      "curva": "lineal",
+      "centro": "el sujeto",
+      "disparador": "frase dicha andando",
+      "extras": "da movimiento a un plano hablado sin tocar la escala en edición",
+      "por_minuto": "≈ 1",
+      "total": "sin contar",
+      "ejemplos": [
+        "0:30.1",
+        "0:38.1",
+        "9:02.2"
+      ]
+    },
+    {
+      "tipo": "empuje de apertura (dron + digital)",
+      "medido": "0:00.0–0:02.7: ×1,00 → ×3,05 en 2,6 s (79 %/s), dos tirones",
+      "escala_inicial_final": "1,0 → 3,05",
+      "duracion_f": 82,
+      "curva": "curva 1,0 · 1,22 · 1,47 · 1,64 · 1,73 · 1,81 · 1,90 · 2,02 · 2,23 · 2,56 · 2,77 · 2,90 · 2,98 · 3,05 (cada 0,2 s): frena al llegar",
+      "centro": "Jimmy y Tia",
+      "disparador": "primera frase",
+      "extras": "sale de un desenfoque radial de ≈ 18 f; golpe de sonido al asentarse (0:00.9)",
+      "por_minuto": 0.04,
+      "total": 1,
+      "ejemplos": [
+        "0:00.0–0:02.7"
+      ]
+    },
+    {
+      "tipo": "vuelo de avance (VFX)",
+      "medido": "0:14.6–0:17.8: ×1,0 → ×5,1 en 3,0 s (137 %/s); tirón ×1,12 → ×1,83 en 0,2 s (0:15.0–0:15.4)",
+      "escala_inicial_final": "1,0 → 5,1",
+      "duracion_f": 96,
+      "curva": "tirón inicial y avance constante",
+      "centro": "helicóptero",
+      "disparador": "«whichever team gets there first wins»",
+      "extras": "lleva encima la línea guía y «$100,000»",
+      "por_minuto": 0.04,
+      "total": 1,
+      "ejemplos": [
+        "0:14.55–0:17.85"
+      ]
+    },
+    {
+      "tipo": "dron que se aleja (el sujeto se hace diminuto)",
+      "medido": "1:26.4–1:29.0: ×1,0 → ×0,088 en 2,4 s (el sujeto queda 11 veces más pequeño), frenada exponencial, acelerado",
+      "escala_inicial_final": "1,0 → 0,088",
+      "duracion_f": 72,
+      "curva": "rápido al principio, frena",
+      "centro": "las figuras",
+      "disparador": "frase de escala («throughout this video…») o respiro tras un momento duro",
+      "extras": "a velocidad real en 16:14.7–16:19.4 (4,7 s tras «Jimmy's throwing up»)",
+      "por_minuto": "≈ 0,3",
+      "total": "sin contar",
+      "ejemplos": [
+        "1:26.35–1:29.06",
+        "16:14.7–16:19.4"
+      ]
+    },
+    {
+      "tipo": "zoom-out digital a pantalla dentro de pantalla",
+      "medido": "23:04.6–23:04.9: la imagen se encoge ≈ ×1,0 → ×0,6 en ≈ 9 f (a ojo, hoja a 0,1 s)",
+      "escala_inicial_final": "1,0 → ≈ 0,6",
+      "duracion_f": 9,
+      "curva": "con frenada",
+      "centro": "centro",
+      "disparador": "cambio de lugar y de tiempo (del río al salón)",
+      "extras": "seguido de un barrido de ≈ 12 f (23:06.2–23:06.6)",
+      "por_minuto": 0.04,
+      "total": 1,
+      "ejemplos": [
+        "23:04.6"
+      ]
+    },
+    {
+      "tipo": "zoom de texto",
+      "medido": "«$100,000»: crece suave y continuo 57 f (0:15.93–0:17.82), sin rebote. «Alison's Mom»: ENCOGE de ≈ 9 % a ≈ 3,5 % del alto en 7,2 s (≈ −14 %/s al principio), con deriva hacia abajo-izquierda",
+      "escala_inicial_final": "texto 1,0 → ≈ 1,15 (cifra); 1,0 → ≈ 0,4 (rótulo)",
+      "duracion_f": "57 y 216",
+      "curva": "continua, sin rebote",
+      "centro": "el propio texto",
+      "disparador": "—",
+      "extras": "ningún texto entra con rebote o elástico",
+      "por_minuto": 0.09,
+      "total": 2,
+      "ejemplos": [
+        "0:15.93",
+        "21:13.8"
+      ]
+    }
+  ],
+  "zooms_resumen": "12 planos medidos con medir_zoom.py (--paso 0.2) + 3 a ojo. La etiqueta automática del script («punch-in/out») no vale aquí: todo son movimientos de cámara o de dron. Conclusión: CERO zoom digital sobre bustos; el movimiento sale del rodaje (operador que empuja, retrocede o barre; dron que se aleja) y de los gráficos.",
+  "textos": [
+    {
+      "tipo": "cifra del premio",
+      "texto_ejemplos": [
+        "$100,000"
+      ],
+      "fuente": "de bloque tipo videojuego con ceros cuadrados (a ojo). fuente_rotulo.py (--color #3BFF3B, rotulos/cien_mil.png): Poppins Black +0,560 · Titan One +0,554 · Poppins +0,552",
+      "peso": "ultra negrita",
+      "mayusculas": "cifra",
+      "color": "verde neón #3BFF3B",
+      "borde_sombra_caja": "extrusión verde oscuro + resplandor ancho; sin caja",
+      "tamano": "≈ 95 px de alto (8,8 % del alto); 470 px de ancho (24 % del ancho)",
+      "posicion": "centrada, x 735–1.205 px, y 345–440 px: justo encima del helicóptero",
+      "entrada": "aparece en f478 (0:15.93), en «,000», y crece de forma continua",
+      "salida": "con el corte (f535)",
+      "duracion": "57 f = 1,9 s",
+      "por_minuto": 0.04,
+      "total": 1,
+      "disparador": "la cifra dicha («$100,000», 0:15.3–0:16.4)",
+      "sonido": "ninguno confirmado",
+      "ejemplos_con_tiempo": [
+        "0:15.93–0:17.82 (rotulos/f_100000.jpg)"
+      ],
+      "recorte": "rotulos/cien_mil.png"
+    },
+    {
+      "tipo": "rótulo de avance",
+      "texto_ejemplos": [
+        "COMING UP..."
+      ],
+      "fuente": "tecno ancha cuadrada ultra negrita (a ojo). fuente_rotulo.py (--color #FFFFFF, rotulos/coming_up.png): Kanit +0,494 · Montserrat 800 +0,486 · Lexend 800 +0,462 (rozando el umbral de 0,5)",
+      "peso": "ultra negrita",
+      "mayusculas": "sí",
+      "color": "blanco puro",
+      "borde_sombra_caja": "sombra leve, sin caja ni contorno",
+      "tamano": "≈ 60 px de alto (5,6 % del alto); 562 px de ancho (29 %)",
+      "posicion": "arriba-izquierda, x 30–592 px, y 28–90 px",
+      "entrada": "entero con el corte, sin animación",
+      "salida": "se pierde dentro del destello blanco (f2791–2795)",
+      "duracion": "207 f = 6,9 s sobre 3 planos",
+      "por_minuto": 0.04,
+      "total": 1,
+      "disparador": "«Throughout this video we'll be coming across different obstacles» (1:26.8)",
+      "sonido": "ninguno propio",
+      "ejemplos_con_tiempo": [
+        "1:26.35–1:33.25"
+      ],
+      "recorte": "rotulos/coming_up.png"
+    },
+    {
+      "tipo": "cifras del marcador y del mapa 3D",
+      "texto_ejemplos": [
+        "6 %",
+        "20 %",
+        "73 %",
+        "10%",
+        "11%",
+        "7%"
+      ],
+      "fuente": "ver motion_graphics (marcador): tecno ancha negrita; top-3 no fiable (+0,015 / −0,014 / −0,025)",
+      "peso": "negrita",
+      "mayusculas": "cifra",
+      "color": "crema #EDE6D2 con contorno oscuro (marcador); verde/amarillo/cian con resplandor (mapa)",
+      "borde_sombra_caja": "contorno oscuro",
+      "tamano": "≈ 56 px (5,2 %) en el marcador; 75–85 px (7–8 %) en el mapa 3D",
+      "posicion": "al final de su barra / junto a su chincheta",
+      "entrada": "con su barra; en el mapa, contador que sube",
+      "salida": "con el gráfico",
+      "duracion": "2,0–9,5 s",
+      "por_minuto": 0.6,
+      "total": "14 gráficos, 3 cifras cada uno",
+      "disparador": "la cifra dicha en voz",
+      "sonido": "—",
+      "ejemplos_con_tiempo": [
+        "1:41.7",
+        "3:25.8",
+        "18:03.0"
+      ],
+      "recorte": "rotulos/marcador_cifra.png"
+    },
+    {
+      "tipo": "rótulo de quién habla fuera de plano",
+      "texto_ejemplos": [
+        "Darius's Mom",
+        "Alison's Mom"
+      ],
+      "fuente": "tecno geométrica ancha (aspecto Orbitron / Michroma, a ojo). fuente_rotulo.py (--color #FFFFFF, rotulos/mom.png): Cinzel 500 −0,081 · Manrope 600 −0,116 · Courier Prime −0,160 → NO fiable (la aberración cromática rompe la medida)",
+      "peso": "seminegra",
+      "mayusculas": "no (mayúscula inicial)",
+      "color": "blanco",
+      "borde_sombra_caja": "contorno negro + aberración cromática de ≈ 4 px (rojo/azul separados); sin caja",
+      "tamano": "«Darius's Mom» ≈ 3,5 % del alto (28 % del ancho); «Alison's Mom» entra a ≈ 9 % del alto (100 px; 56 % del ancho, x 150–1.235 px, y 645–765 px) y encoge hasta ≈ 3,5 %",
+      "posicion": "izquierda, a media altura (y ≈ 52–70 %), sobre el plano de quien escucha",
+      "entrada": "con el corte; el segundo, grande y encogiendo de forma continua con deriva",
+      "salida": "con el corte",
+      "duracion": "2,6 s (21:11.2–21:13.7) y 7,2 s (21:13.8–21:21.0); el segundo cruza un corte (21:18.9)",
+      "por_minuto": 0.09,
+      "total": 2,
+      "disparador": "empieza a sonar la voz de la madre por teléfono",
+      "sonido": "ninguno confirmado",
+      "ejemplos_con_tiempo": [
+        "21:11.2 (f38098)",
+        "21:13.8 (f38176)"
+      ],
+      "recorte": "rotulos/mom.png"
+    },
+    {
+      "tipo": "tarjeta de clasificación",
+      "texto_ejemplos": [
+        "1 JUNGLE 28:15:40",
+        "2 DESERT 28:23:24"
+      ],
+      "fuente": "nombre: Manrope 800 +0,819 · Inter 600 +0,804 · DM Sans 900 +0,754 (--color #E6E6EE, rotulos/jungle.png; fiable). Tiempo en dígitos de 7 segmentos",
+      "peso": "800",
+      "mayusculas": "sí",
+      "color": "blanco; tiempos verde #39E84B y rojo #FF5A5A",
+      "borde_sombra_caja": "caja translúcida oscura redondeada con borde neón y esquinas de visor",
+      "tamano": "caja 83 % del ancho × 12,3 % del alto; nombre 4,6 %; tiempo 7 %",
+      "posicion": "abajo (y 680–973 px)",
+      "entrada": "pop del tiempo (3 f) → caja → despliegue (≈ 6 f)",
+      "salida": "corte seco",
+      "duracion": "8,6 s",
+      "por_minuto": 0.04,
+      "total": 1,
+      "disparador": "el toque del poste",
+      "sonido": "subida + golpe (22:44.8–22:45.6) y golpe 2 (22:50.0)",
+      "ejemplos_con_tiempo": [
+        "22:45.4–22:54.0"
+      ],
+      "recorte": "rotulos/jungle.png"
+    },
+    {
+      "tipo": "texto final sobre negro",
+      "texto_ejemplos": [
+        "SUBSCRIBE AND GIVE YOUR MOM A HUG!"
+      ],
+      "fuente": "la misma de los subtítulos (cómic cursiva ultra negrita). fuente_rotulo.py (--color #FFFFFF, rotulos/final_subscribe.png): Luckiest Guy +0,408 · Poppins +0,330 · Lilita One +0,330 (< 0,5: orientativo)",
+      "peso": "ultra negrita cursiva",
+      "mayusculas": "sí",
+      "color": "blanco",
+      "borde_sombra_caja": "contorno negro (sobre negro no se ve)",
+      "tamano": "≈ 68 px de alto (6,3 %); 77 % del ancho (x 215–1.695 px)",
+      "posicion": "abajo-centro, y 980–1.050 px (donde van los subtítulos)",
+      "entrada": "con el corte a negro (23:22.0), sin animación",
+      "salida": "fin del vídeo",
+      "duracion": "5,0 s (≈ 152 f)",
+      "por_minuto": 0.04,
+      "total": 1,
+      "disparador": "fin",
+      "sonido": "sin música; voces en off",
+      "ejemplos_con_tiempo": [
+        "23:22.0–23:27.07 (rotulos/f_final_2323.jpg)"
+      ],
+      "recorte": "rotulos/final_subscribe.png"
+    }
+  ],
+  "textos_resumen": "Muy pocos textos y todos funcionales: ≈ 32 apariciones en 23,45 min (≈ 1,4/min) contando marcadores (13), mapa 3D (1), subtítulos (9 líneas), consultas al móvil (4), madres (2), premio (1), avance (1), clasificación (1), patrocinador (1) y final (1); ≈ 165 s con algún texto en pantalla (≈ 12 % del vídeo). Lo que NO hay: 0 rótulos de lugar, 0 de día u hora, 0 títulos de sección o capítulo, 0 rótulos de nombre de persona (los equipos se reconocen por el color de la ropa y por los avatares del marcador), 0 palabras clave sueltas sobre la voz, 0 emojis. Cuatro tipografías: tecno ancha (marcador, avance, madres, código), de bloque (premio), cómic cursiva (subtítulos y final), grotesca negrita (clasificación).",
+  "subtitulos": {
+    "hay": "solo puntuales: no hay subtítulos corridos. Salen cuando la frase se oye mal (gritos con agua o viento, lejos del micro)",
+    "donde": "2 escenas: cruce del río 12:19.6–12:36.3 (7 líneas en 17 s) y ventisca 16:35.3–16:38.2 (2 líneas). Total visto: 9 líneas (≈ 12 s en pantalla)",
+    "lineas": [
+      {
+        "t": "12:19.6–12:21.0",
+        "texto": "PADDLE AS HARD AS YOU CAN BABE",
+        "dur_s": 1.4
+      },
+      {
+        "t": "12:22.0–12:23.5",
+        "texto": "WE NEED MORE KICKING POWER",
+        "dur_s": 1.5
+      },
+      {
+        "t": "12:23.6–12:24.6",
+        "texto": "WE'RE PROBABLY A MILE OFF",
+        "dur_s": 1.0
+      },
+      {
+        "t": "12:24.7–12:26.3",
+        "texto": "THIS CURRENT DOES NOT WANT US TO STOP",
+        "dur_s": 1.6,
+        "nota": "entra con el corte de 12:24.7"
+      },
+      {
+        "t": "12:32.7–12:33.9",
+        "texto": "IF YOU DON'T PADDLE NOW",
+        "dur_s": 1.2,
+        "nota": "cruza el corte de 12:33.7"
+      },
+      {
+        "t": "12:34.0–12:34.8",
+        "texto": "YOU'RE GOING TO HAVE TO WALK",
+        "dur_s": 0.8
+      },
+      {
+        "t": "12:34.9–12:36.3",
+        "texto": "ANOTHER FIVE HOURS",
+        "dur_s": 1.4,
+        "nota": "cruza el corte de 12:35.5"
+      },
+      {
+        "t": "16:35.3–16:37.0",
+        "texto": "WE PUT OURSELVES IN A WORSE POSITION",
+        "dur_s": 1.8
+      },
+      {
+        "t": "16:37.1–16:38.2",
+        "texto": "THAN WE ALREADY WERE",
+        "dur_s": 1.2,
+        "nota": "cruza el corte de 16:37.76"
+      }
+    ],
+    "fuente": "cómic cursiva ultra negrita (aspecto Komika Axis, a ojo). fuente_rotulo.py (--color #FFFFFF, rotulos/subtitulo.png): Luckiest Guy +0,340 · Poppins +0,296 · Oswald 700 +0,262 → NO fiable (< 0,5)",
+    "color": "blanco con contorno negro grueso (≈ 8 px) y sombra dura",
+    "mayusculas": "sí",
+    "tamano": "altura de mayúscula ≈ 68 px (6,3 % del alto); «WE'RE PROBABLY A MILE OFF» ocupa x 415–1.505 px (57 % del ancho)",
+    "posicion": "abajo-centro, una sola línea, y 975–1.055 px",
+    "palabras_por_tarjeta": "3–8; una frase larga se parte en 2–3 tarjetas seguidas con 0,1 s de hueco",
+    "animacion": "ninguna: aparecen y desaparecen de golpe; no hay resaltado palabra a palabra",
+    "regla": "la tarjeta entra con la primera sílaba y dura lo que la frase (0,8–1,8 s); puede cruzar un corte de plano sin moverse. Las frases de Jimmy a la GoPro en la misma escena NO llevan subtítulo (se le entiende)"
+  },
+  "sfx": {
+    "confirmados": [
+      {
+        "t": "0:00.9",
+        "tipo": "golpe grave",
+        "acompaña_a": "el empuje de apertura al asentarse (×3,05) y la primera frase",
+        "respecto_voz_db": "≈ −3 (pista sin voz a −13 dB; voz a −9/−11)"
+      },
+      {
+        "t": "0:05.3",
+        "tipo": "golpe + soplido de destello",
+        "acompaña_a": "destello a blanco que cierra el tríptico de los tres mundos",
+        "respecto_voz_db": "≈ +3"
+      },
+      {
+        "t": "0:25.1",
+        "tipo": "golpe de salida con cola grave de ≈ 1 s",
+        "acompaña_a": "el brazo de Jimmy que baja; llega tras 3 s de música bajando de −22 a −40 dB",
+        "respecto_voz_db": "≈ +8 sobre el nivel medio de la voz (la voz calla en ese instante); pista sin voz a −10/−12 dB"
+      },
+      {
+        "t": "0:42.1–0:42.3",
+        "tipo": "soplido + golpe",
+        "acompaña_a": "fundido con empuje al aéreo de dunas («No shade…»)",
+        "respecto_voz_db": "≈ +4 (sube de −27 a −12 dB)"
+      },
+      {
+        "t": "1:29.4",
+        "tipo": "golpe",
+        "acompaña_a": "corte al adelanto de Jimmy nadando bajo «COMING UP…»",
+        "respecto_voz_db": "≈ +3 (−14 dB)"
+      },
+      {
+        "t": "3:24.2",
+        "tipo": "golpe de entrada",
+        "acompaña_a": "entrada del mapa 3D (fundido a blanco), tras 0,2 s de hueco",
+        "respecto_voz_db": "+2 a +3 sobre la voz en off (−17 dB)"
+      },
+      {
+        "t": "3:31.8–3:32.0",
+        "tipo": "soplido de salida",
+        "acompaña_a": "salida del mapa 3D (velo blanco)",
+        "respecto_voz_db": "≈ −6 a −9 (−24/−28 dB)"
+      },
+      {
+        "t": "9:39.5–9:40.0",
+        "tipo": "soplido",
+        "acompaña_a": "el móvil 3D que entra girando (su pantalla blanca barre el cuadro)",
+        "respecto_voz_db": "≈ +2 (−18 dB)"
+      },
+      {
+        "t": "13:57.1",
+        "tipo": "explosión",
+        "acompaña_a": "bola de fuego VFX sobre la ropa que tira Jimmy",
+        "respecto_voz_db": "≈ +1 (−13 dB)"
+      },
+      {
+        "t": "21:49.8 · 21:50.1 · 21:50.5",
+        "tipo": "3 latidos de corazón",
+        "acompaña_a": "«I can feel my heart beating out of my chest»",
+        "respecto_voz_db": "≈ −2 a +1 (−19 / −19 / −16 dB)"
+      },
+      {
+        "t": "22:44.8–22:45.6",
+        "tipo": "subida (riser) de 0,6 s + golpe",
+        "acompaña_a": "Jimmy toca el poste: destello verde + cronómetro",
+        "respecto_voz_db": "≈ +8/+9 sobre el nivel medio de la voz, sin voz encima (−9/−10 dB: lo más fuerte del vídeo)"
+      },
+      {
+        "t": "22:50.0",
+        "tipo": "golpe",
+        "acompaña_a": "se despliega la fila 2 de la clasificación (DESERT)",
+        "respecto_voz_db": "≈ +3 (−15/−16 dB)"
+      },
+      {
+        "t": "23:06.4–23:06.5",
+        "tipo": "soplido",
+        "acompaña_a": "barrido de cámara del televisor al salón",
+        "respecto_voz_db": "≈ +2 (−16 dB)"
+      },
+      {
+        "t": "23:21.8",
+        "tipo": "nota final (sting)",
+        "acompaña_a": "la Antártida ante la meta vacía, justo antes del negro",
+        "respecto_voz_db": "≈ −2 (−21 dB)"
+      }
+    ],
+    "como_se_confirmo": "cada candidato de sfx.json se miró en su sfx_hoja_NN.jpg (firma en el espectrograma: barra vertical ancha = golpe; cuña que sube = riser; mancha de banda ancha = soplido) y se cruzó con el fotograma de ese instante y con el nivel de la pista sin voz medido cada 0,1 s. Solo queda como confirmado lo que tiene firma en la hoja + evento visual en el mismo instante + salto de nivel sobre el colchón de música.",
+    "como_se_midio_el_nivel": "RMS cada 0,1 s de stems/no_vocals.wav y stems/vocals.wav; «respecto a la voz» = nivel de la pista sin voz en el efecto menos el de la voz en ese momento (o menos la media de la voz, −18,6 dB, si en ese instante calla). La pista sin voz mezcla música y efectos: el dato es del conjunto.",
+    "por_minuto": [
+      4,
+      1,
+      0,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      2,
+      2
+    ],
+    "total_confirmados": 14,
+    "por_minuto_media": 0.6,
+    "reglas": [
+      "Los efectos de biblioteca son POCOS (14 confirmados en 23,45 min = 0,6/min) y se guardan para gráficos grandes y momentos de estructura: 5 de los 14 están en los primeros 93 s y 5 en los últimos 100 s.",
+      "Llevan efecto casi siempre: la entrada y salida de un gráfico a pantalla completa (mapa 3D: golpe al entrar, soplido al salir), las transiciones construidas con movimiento (móvil 3D, barrido al salón, fundido con empuje), el VFX (explosión) y el desenlace (subida + golpe).",
+      "NO llevan efecto: el marcador (13 apariciones mudas o casi), los paneles del cuerpo, los resaltes de color, los subtítulos, los rótulos de las madres, los cortes secos.",
+      "Nivel: un golpe va entre +1 y +4 dB sobre la voz; los dos que marcan salida y meta van a +8/+9 y caen en un hueco de voz preparado (3 s de música bajando antes de la salida; 0,6 s de subida antes de la meta).",
+      "El recurso que hace de «efecto» el resto del tiempo es el SILENCIO de música y su vuelta con golpe (ver musica.silencios): 55 veces frente a 14 efectos."
+    ],
+    "candidatos_descartados": [
+      "sfx.json da 234 candidatos (redoble 77, error 43, explosión 35, soplido 14, subida 12…); solo el 19 % cae en un corte. Casi todos son percusión de la música o sonido directo.",
+      "3:41–3:49 líneas rítmicas: percusión de la pista",
+      "3:46.96 pisotón en el barro: sonido directo",
+      "9:14.3–9:14.6 tres barras gruesas: percusión de la pista",
+      "9:23–9:25.7 golpes de machete: sonido directo",
+      "12:19.75–12:20.1 pico de −3,5 dBFS: grito de Tia y golpe del tronco, directo",
+      "15:54.3–16:00.7 ruido de banda ancha: forcejeo y arcadas, directo",
+      "2:05–2:16 viento y caídas en la nieve: directo",
+      "16:29 y 16:31: viento + música",
+      "vueltas de la música con golpe tras un silencio (3:02.6, 3:34.5, 4:05.2, 7:21.6, 8:35.1, 10:22.5, 10:45.9, 11:25.2, 11:28.5, 12:27.0, 12:59.0, 14:59.2, 15:24.5, 17:28.9, 19:15.8, 21:59.2, 22:16.9, 23:00): son la propia música entrando, no efectos de biblioteca"
+    ]
+  },
+  "musica": {
+    "cobertura": "93 % del tiempo con música (audio.json); empieza en 0:00.1; el vídeo acaba SIN música (23:22.6–23:27)",
+    "pistas": "≈ 12 pistas en 23,45 min (una cada ≈ 2 min). Cambios detectados (audio.json): 3:10, 4:30, 5:12, 6:02, 9:00, 14:36, 18:42; además pista 1 → 2 en 1:03 (tras el silencio de la lista), pista nueva con golpe en 17:28.9, música emotiva desde 21:03, pista del sprint desde 22:16.9 y pista de celebración desde 23:00",
+    "cambio_de_pista_por": "por momento emocional, no por equipo ni por lugar: tensión/aventura (etapas), calma (atardecer 6:02), humor (chistes), emotiva (madres 21:03), sprint (22:17), celebración (23:00). Cada cambio entra con un corte y casi siempre tras un silencio",
+    "voz_menos_musica_db": "mediana 9,1 dB (audio.json). Por tramos: intro 6,4 (0–60 s) y 9,0 (63–106 s); cuerpo 8,3–11,9; mínimo 4,0 en 14:59–15:55 (ventisca + esfuerzo, música a −20,8 dB). Por minuto (medido en los stems): [6,7 · 10,7 · 11,3 · 9,4 · 10,1 · 9,2 · 8,9 · 8,3 · 7,4 · 6,9 · 11,6 · 11,0 · 11,0 · 10,8 · 10,2 · 5,8 · 12,8 · 6,9 · 9,0 · 11,9 · 9,2 · 8,9 · 10,5 · 9,4]",
+    "niveles_absolutos": "voz media −18,6 dB; música bajo la voz −28/−35 dB en el cuerpo y −19/−23 dB en los primeros 22 s; música sin voz −22 a −29 dB; mapa 3D: voz en off a −20 dB con la música a −19/−22 (0–2 dB de diferencia: en el gráfico la música sube casi al nivel de la voz)",
+    "silencios": {
+      "cuantos": "104 tramos con la pista sin voz por debajo de −36 dB durante ≥ 0,5 s; ≈ 55 de ≥ 1,0 s (2,3 por minuto); 27 de ≥ 2,0 s (1,2 por minuto)",
+      "para_que": "es la firma sonora del vídeo: la música se CORTA en seco justo antes del remate de un chiste, de una frase importante o de un momento incómodo, la frase se oye limpia con sonido directo, y la música VUELVE con un golpe en el corte al plano siguiente",
+      "ejemplos": [
+        {
+          "t": "0:22.0–0:25.1",
+          "dur_s": 3.1,
+          "frase": "«Starting in 3, 2, 1» (bajada progresiva de 18 dB, no corte)",
+          "vuelta": "golpe de salida 0:25.1"
+        },
+        {
+          "t": "0:59.4–1:03.2",
+          "dur_s": 3.8,
+          "frase": "«it's a list of everything that could kill us in the Amazon» / «okay, what's on the list?»",
+          "vuelta": "pista 2 con la ráfaga de archivo"
+        },
+        {
+          "t": "1:12.6–1:13.5",
+          "dur_s": 0.9,
+          "frase": "«…is death.» + zoom de golpe",
+          "vuelta": "cortinilla de la mochila"
+        },
+        {
+          "t": "1:47.3–1:48.7",
+          "dur_s": 1.4,
+          "frase": "«How does our dust taste?»",
+          "vuelta": "corte"
+        },
+        {
+          "t": "2:44.6–2:46.9",
+          "dur_s": 2.3,
+          "frase": "«Whoa, timber» (cae el tronco, sonido directo)",
+          "vuelta": "corte"
+        },
+        {
+          "t": "3:32.4–3:34.5",
+          "dur_s": 2.1,
+          "frase": "«We're only 10 % done»",
+          "vuelta": "a −15 dB con el corte"
+        },
+        {
+          "t": "4:03.6–4:05.2",
+          "dur_s": 1.6,
+          "frase": "«wow, look at that»",
+          "vuelta": "golpe a −12 dB con el corte al aéreo (4:05.5)"
+        },
+        {
+          "t": "4:44.6–4:47.6",
+          "dur_s": 3.0,
+          "frase": "chiste de la rana",
+          "vuelta": "marcador"
+        },
+        {
+          "t": "5:02.7–5:07.4",
+          "dur_s": 4.7,
+          "frase": "chiste del esqueleto",
+          "vuelta": "aéreo + marcador"
+        },
+        {
+          "t": "7:10.0–7:13.2",
+          "dur_s": 3.2,
+          "frase": "«the one filled with anacondas?»",
+          "vuelta": "—"
+        },
+        {
+          "t": "7:19.0–7:21.6",
+          "dur_s": 2.6,
+          "frase": "«uh, yep»",
+          "vuelta": "con el corte al aéreo del río (7:21.5)"
+        },
+        {
+          "t": "9:42.4–9:45.1",
+          "dur_s": 2.7,
+          "frase": "«Hey Gemini, how do I…»",
+          "vuelta": "respuesta escrita"
+        },
+        {
+          "t": "10:34.5–10:38.3",
+          "dur_s": 3.8,
+          "frase": "chiste del diente de tiburón",
+          "vuelta": "—"
+        },
+        {
+          "t": "11:06.5–11:10.1",
+          "dur_s": 3.6,
+          "frase": "«you guys just passed us»",
+          "vuelta": "—"
+        },
+        {
+          "t": "11:22.0–11:25.2 y 11:26.5–11:28.5",
+          "dur_s": 5.2,
+          "frase": "«it's Tia size» / «seven hours»",
+          "vuelta": "botadura de la balsa (11:28.5)"
+        },
+        {
+          "t": "12:56.0–12:59.0",
+          "dur_s": 3.0,
+          "frase": "(sin voz) cámara bajo el agua",
+          "vuelta": "entrada triunfal a −17 dB en 12:59.0, 1,3 s antes de «I can stand»"
+        },
+        {
+          "t": "14:53.4–14:59.2",
+          "dur_s": 5.8,
+          "frase": "«Is this plant edible?»",
+          "vuelta": "golpe a −12 dB con el corte a la tormenta"
+        },
+        {
+          "t": "15:56.0–16:05.2",
+          "dur_s": 9.2,
+          "frase": "«Jimmy's throwing up» (el más largo)",
+          "vuelta": "suave"
+        },
+        {
+          "t": "16:53.7–16:55.9",
+          "dur_s": 2.2,
+          "frase": "«I think we lost»",
+          "vuelta": "—"
+        },
+        {
+          "t": "19:13.8–19:15.8",
+          "dur_s": 2.0,
+          "frase": "«is that a ride home?»",
+          "vuelta": "golpe a −11 dB con el corte al helicóptero"
+        },
+        {
+          "t": "22:12.3–22:16.9",
+          "dur_s": 4.6,
+          "frase": "se cae el cámara: «You good? I'm good»",
+          "vuelta": "pista del sprint final con golpe"
+        },
+        {
+          "t": "23:22.6–23:27.1",
+          "dur_s": 4.5,
+          "frase": "negro final con voces en off",
+          "vuelta": "no vuelve"
+        }
+      ]
+    },
+    "musica_a_ritmo_de_cortes": "no (32 % de cortes en pulso, 19 % en acento); la música sigue a la escena, no al revés",
+    "lufs": "−11,1 LUFS integrados, LRA 7,4 LU, pico real +3,0 dBTP (sonoridad.json): mezcla muy alta y comprimida",
+    "sonido_directo_vs_musica": "en la acción manda el sonido directo (agua, viento, pisadas, gritos) con la música debajo; en los gráficos y aéreos sin voz la música sube a −22/−29 dB; en el clímax del río la música se calla del todo 3 s bajo el agua"
+  },
+  "broll": {
+    "proporcion": "en los 4 minutos mirados a 0,1 s, los aéreos y planos de situación sobre la voz suman 3–17 % del minuto (2:00–3:00: 2 s; 7:00–8:00: 10,4 s; 16:00–17:00: 7,7 s). No hay busto fijo sobre el que poner b-roll: casi todo es acción grabada con 2–3 cámaras",
+    "de_donde_sale": "todo del propio rodaje (dron, tele desde lejos, GoPro) salvo 2 momentos de archivo: 6 clips de naturaleza en la ráfaga de la intro (3,9 s) y 4 planos de un vídeo anterior en B/N (4,2 s)",
+    "duracion_tipica": "aéreo de situación 2,7–4,7 s (7:03.4 3,6 s; 7:21.5 4,1 s; 7:28.7 2,7 s; 16:14.7 4,7 s; 16:28.0 3,0 s); inserto de detalle 0,5–2 s; clip de archivo 0,5–0,9 s",
+    "vuelta_a_camara": "por corte seco al mismo equipo o al siguiente; el aéreo hace de bisagra entre equipos (≈ 2,5 aéreos o generales de situación por minuto)",
+    "puntos_de_vista": "en la acción se rotan 3: dron lejano (2–5 s) ↔ GoPro pegada al sujeto (1,5–2,5 s) ↔ tele desde la orilla; nunca dos planos seguidos del mismo punto de vista (12:14–12:45)",
+    "regla": "cuando la voz nombra algo que no está en plano, se enseña: peligros de la lista (archivo), el vídeo anterior (B/N), la corriente (9:08–9:12), el otro equipo (corte a él)"
+  },
+  "voz_en_off": {
+    "hay": "sí, de Jimmy, guionada y grabada después, EN PASADO («After hours of struggling we were only 10 % of the way», 3:23.9; «missing our landing spot made our short cut into a long cut», 13:14; «And just like them, you now won't know how close we are», 18:17)",
+    "funcion": "cose los saltos entre equipos y de tiempo, da las cifras, explica las desventajas en la intro (0:37–0:53, 1:23–1:26) y da paso a cada equipo; las preguntas abiertas se dicen dentro de la escena («this might be the biggest mistake of this video but we'll find out later», ≈ 5:58)",
+    "mezcla": "al mismo nivel que la voz en directo (media −18,6 dB); sobre el mapa 3D la música sube hasta casi igualarla (0–2 dB)",
+    "proporcion": "sin medir al segundo: a ojo, una frase de voz en off (2–6 s) cada 20–40 s en la primera mitad y menos en el clímax y en la recta final, donde manda el directo",
+    "directo": "el resto es diálogo en directo en presente, mucho a cámara o en selfie; los equipos se hablan entre sí por videollamada (7:48–8:06, 13:19–13:36, 18:02–18:17), que es la forma de juntar a los tres en una escena"
+  },
+  "transiciones": [
+    {
+      "tipo": "corte seco",
+      "duracion_f": 0,
+      "cuantas": "≈ 540 de ≈ 570 (≈ 95 % en total; ≈ 97 % en el cuerpo, ≈ 62 % en la intro)",
+      "donde": "todo el cuerpo"
+    },
+    {
+      "tipo": "destello a blanco",
+      "duracion_f": "5–12 (hasta 38 con desenfoque radial)",
+      "cuantas": 9,
+      "donde": "0:05.40 (12 f), 0:10.56 (38 f con desenfoque radial), 0:14.2 (9 f), 1:33.1 (5 f), 3:24.2 y 3:31.6 (entrada y salida del mapa 3D, 3–4 f), 9:33.0 y 9:37.0 (entrada y salida del B/N, 5 f), 12:55.0 (2 f, al hundirse la cámara)"
+    },
+    {
+      "tipo": "destello corto en cada clip de la ráfaga de archivo",
+      "duracion_f": "3–5",
+      "cuantas": 6,
+      "donde": "1:04.26–1:08.17"
+    },
+    {
+      "tipo": "fundido encadenado",
+      "duracion_f": "15–35",
+      "cuantas": 7,
+      "donde": "intro: 0:42.0 (15 f, con empuje), 0:44.0 (35 f), 0:53.16 (15 f), 1:14.5 (15 f), 1:16.3 (25 f), 1:22.4 (35 f); cuerpo: 17:53.07 (0,5 s, la única que detecta cortes.json). Siempre entre aéreos o paisajes, nunca entre personas hablando"
+    },
+    {
+      "tipo": "cortinilla por objeto + barrido",
+      "duracion_f": "≈ 27 + 15",
+      "cuantas": 1,
+      "donde": "1:13.31–1:15.0: la mochila de Tia tapa el cuadro, barrido y fundido a la Antártida"
+    },
+    {
+      "tipo": "barrido borroso (whip)",
+      "duracion_f": "2–12",
+      "cuantas": "≈ 5 como transición entre planos (5:44, 12:14.2, 12:27.0, 18:17.1, 23:06.2) + ≥ 4 dentro de una misma toma (7:13.0, 7:17.6, 7:19.3, 7:32.4)",
+      "donde": "entre un plano de persona y un aéreo, o entre dos hablantes"
+    },
+    {
+      "tipo": "objeto 3D que barre el cuadro (móvil)",
+      "duracion_f": "≈ 20",
+      "cuantas": 4,
+      "donde": "9:40.8, ≈ 10:27, ≈ 10:40, ≈ 14:52"
+    },
+    {
+      "tipo": "paneles que entran y salen",
+      "duracion_f": "6–18",
+      "cuantas": 8,
+      "donde": "ver motion_graphics (pantalla partida)"
+    },
+    {
+      "tipo": "pantalla dentro de pantalla (encoger a un televisor)",
+      "duracion_f": 9,
+      "cuantas": 1,
+      "donde": "23:04.6: del helicóptero al salón de las madres"
+    },
+    {
+      "tipo": "corte a negro",
+      "duracion_f": 0,
+      "cuantas": 1,
+      "donde": "23:22.0"
+    }
+  ],
+  "cierre": {
+    "como_acaba": "desenlace escrito (clasificación 22:45.4–22:54.0) → celebración en el helicóptero (≈ 9 s) → despegue (23:03.2) → la imagen se encoge a un televisor y un barrido lleva al salón (23:04.6–23:06.6) → las madres reciben las bolsas de dinero (23:06.7–23:19.1: 5 planos de 5,7 · 2,5 · 1,0 · 0,9 · 2,1 s) → coda de 3 s con la Antártida llegando a una meta vacía («Darius, there's nothing there» / «I think we might have been a little late») → corte a negro",
+    "duracion_tras_el_desenlace": "41,6 s desde el toque (22:45.4) hasta el final: el vídeo no se alarga después de saberse quién gana",
+    "cta": "una sola línea de texto sobre negro, «SUBSCRIBE AND GIVE YOUR MOM A HUG!», 5,0 s (23:22.0–23:27.07), que ata la llamada a la acción con el tema del vídeo (las madres). De voz, solo «All right, thanks for watching» (23:16.5) dicho dentro de la escena. Ni botón animado, ni flecha, ni vídeo siguiente, ni tarjetas",
+    "pantalla_final": "no hay: 5 s de negro con el texto y voces en off",
+    "musica": "pista de celebración desde 23:00 hasta la coda; nota final en 23:21.8 y silencio total de música sobre el negro",
+    "ultima_frase": "«I think we lost. I think we might have been a little late.» (la pareja que no llegó), ya sobre el negro"
+  },
+  "para_el_estilo": [
+    "RETO = marcador. Un marcador de progreso fijo (misma posición abajo-izquierda, mismo orden de filas, un color por participante) sale cada 50–70 s (aquí 14 veces en 16,5 min; nunca más de 160 s sin él), 2–9 s cada vez (media 5,5 s), y la fila del que se nombra se enciende mientras las otras quedan al 50 %. CONTEXTO.md pide marcador de progreso; aquí se concreta: va por porcentaje, lo dispara una frase con la cifra y la barra crece en pantalla.",
+    "Reglas, meta y premio en los primeros 18 s, con UN gráfico por idea (lugares → tríptico; meta → ruta dibujada; premio → cifra de 8,8 % del alto 1,9 s) y la prueba EMPEZADA antes de 30 s (aquí salida a 0:25.1). Las desventajas de cada participante se explican después, con la acción ya en marcha (0:37–1:26).",
+    "Salida con cuenta atrás: la música baja 18 dB durante 3 s, 0,8 s de hueco de voz y un golpe a +8 dB sobre la voz en el gesto de salida; todos los participantes en pantalla a la vez.",
+    "Intro explicativa SIN cabecera: 0 títulos, 0 logo, 0 saludo. La intro acaba con un avance rotulado («COMING UP…», 6,9 s, 3 planos: uno bonito, uno que anticipa el momento más duro, uno que lo deja sin resolver) y no enseña nunca la meta ni el marcador final.",
+    "Una vez, pronto (min 3–4), un gráfico a pantalla completa del TABLERO entero (aquí mapa 3D de 7,4 s, tres bloques de ≈ 2,3 s, uno por participante, cada uno en su frase). Después basta el marcador.",
+    "Retirar el marcador en el último tramo: a falta de ≈ 23 % del vídeo (18:09 de 23:27) se dice en voz alta que no habrá más cifras y el final se monta en paralelo (planos de 1,1–3,0 s por participante) sin dar ventaja a nadie hasta el toque.",
+    "Desenlace escrito: gesto físico de meta → destello de color (≈ 27 f) + cronómetro que aparece en 3 f → tarjeta de clasificación con puesto, avatares, nombre y tiempo (83 % × 12 % del cuadro, 8,6 s), la segunda fila 4,6 s después con el tiempo en rojo. Subida de 0,6 s + golpe, sin voz encima.",
+    "Tras el desenlace, ≤ 45 s: premio entregado (≈ 12 s), coda cómica del perdedor (3 s) y negro con una línea (5 s).",
+    "Varios participantes en sitios distintos: cambiar de uno a otro cada ≈ 19 s (4–74 s) y coserlo con voz en off en pasado; cuando una frase habla de todos, pantalla partida de 2–3 paneles verticales (33–50 % del ancho, divisor blanco de 0,9 % del ancho) en la que cada panel entra en 6–18 f al empezar la frase de su participante.",
+    "Lo que tiene de VIAJE y vale para ese estilo: presentar cada lugar con el mismo molde de 13–17 s (aéreo de situación con fundido de 15–35 f + 3–4 palabras que lo definen + un testimonio de 2 s de quien está allí + su dificultad con un resalte o un archivo); usar el aéreo de 2,7–4,7 s como bisagra cada vez que se vuelve a un sitio; mapas como IDEA de recorrido (ruta que se dibuja en ≈ 40 f, sin topónimos); la noche en 2,6 s de cámara rápida + 3 planos de estrellas.",
+    "DISTINTO de CONTEXTO.md — cero zoom digital sobre el busto: de los planos hablando medidos, ninguno lleva punch-in (×1,000 → ×0,984). El cambio de escala se hace por CORTE al mismo eje en escalera 1,0 → 1,4 → 1,8 (un salto cada ≈ 2,8 s en diálogos largos, ≈ 1,7/min) y el movimiento lo pone la cámara (retrocesos de −22 a −26 %/s andando, empujes del operador, barridos de 0,3–0,6 s entre hablantes).",
+    "DISTINTO de CONTEXTO.md — música mucho más alta: voz−música mediana 9,1 dB (6,4 en la intro) frente a los 12–18 dB de la base, y −11,1 LUFS. Se compensa con silencios: 2,3 huecos de ≥ 1 s por minuto.",
+    "DISTINTO de CONTEXTO.md — textos: 0 rótulos de lugar, 0 de día, 0 de sección, 0 palabras clave sobre la voz, 0 nombres de persona; solo cifras de estado, subtítulos puntuales (9 líneas) y 6 rótulos funcionales. Cuatro tipografías (tecno ancha, bloque, cómic cursiva, grotesca) en vez de una sola de marca.",
+    "DISTINTO de CONTEXTO.md — transiciones construidas concentradas en la intro (17 de ≈ 45 cambios, 38 %); el cuerpo es ≈ 97 % corte seco, coherente con el 96–98 % de la base.",
+    "Qué NO se hereda de CONTEXTO.md en este estilo: la cabecera con título, el botón animado de suscribir (aquí una línea de texto sobre negro), los rótulos de lugar y de capítulo, el punch-in digital en la palabra fuerte, los mapas de satélite con zoom desde lejos (aquí mapas 3D y cenitales sin geografía), la música 12–18 dB bajo la voz.",
+    "Integración del patrocinador como escena de la historia (una «ayuda» que llega dentro del reto, 102 s = 7,2 % del vídeo, pasado el 80 %) y solo los últimos 10 s con tarjeta (logo + QR al 40 % del alto + código), con el creador a cámara."
+  ],
+  "para_la_base": [
+    "Silencio de música como remate: cortar la música en seco 1–4 s justo antes de la frase del chiste o de la frase clave, dejar la frase con sonido directo y devolver la música con un golpe en el corte al plano siguiente. Medido: 55 huecos de ≥ 1 s en 23 min (2,3/min); 27 de ≥ 2 s. Vale para cualquier vídeo dinámico y no necesita biblioteca de efectos.",
+    "Antes del golpe más fuerte, preparar el hueco: 3 s de música bajando 18 dB (salida) o 0,6 s de subida (meta) y NADA de voz encima del golpe; el golpe va a +8/+9 dB sobre el nivel medio de la voz. El resto de golpes, a +1/+4 dB.",
+    "En el pico de acción, menos palabras y más imagen: los dos picos son los dos minutos con menos palabras (144 y 120 por minuto frente a 187 de media). Patrón del clímax: acelerar a planos de 0,7–1,6 s (9 en 10,2 s) → vacío de 3–4 s sin voz ni música → resolución con la música entrando 1,3 s antes de la frase.",
+    "Cada gráfico responde a una frase y entra al EMPEZAR esa frase (0,2–0,3 s antes de la primera palabra) o en la palabra del dato; ninguno es decorativo. Entradas de 6–18 f con frenada y sin rebote; salidas con el corte o con fundido de 9–12 f.",
+    "Resalte de objeto con color: cuando lo importante es pequeño, está lejos o se confunde con el fondo, máscara de color brillante + resplandor sobre el objeto durante 1,1–2,9 s (sube en 2–14 f, se funde en 12–21 f), disparada por la palabra que lo nombra. 7 usos en 23 min; nunca sobre caras ni dos a la vez. Encaja con el «resalte (foco)» que ya tiene la base.",
+    "Subtítulos solo donde no se entiende (gritos, agua, viento, lejos del micro): tarjetas de 3–8 palabras, 0,8–1,8 s, abajo-centro, una línea, mayúsculas con contorno de ≈ 8 px, 6,3 % del alto, de golpe y sin animación; la frase larga se parte en 2–3 tarjetas con 0,1 s de hueco; la tarjeta puede cruzar un corte.",
+    "Lo que la voz nombra y no está en plano, se enseña en ese momento: enumeración → un clip de archivo por palabra (15–26 f cada uno, entrando en ±0,1–0,4 s de su palabra); «la última vez» → 4 planos en blanco y negro entre dos destellos (4,2 s).",
+    "Leer en seco antes de la ráfaga: 3,8 s sin música y un plano fijo ANTES de 3,9 s de ráfaga con la música al máximo. El contraste hace el efecto, no la ráfaga sola.",
+    "Plano general fijo como plano maestro de una tarea larga: repetirlo (5 veces en 26 s) e intercalar insertos de 0,9–4 s de cada paso; elipsis por corte seco, sin cámara rápida.",
+    "Tres puntos de vista en la acción (lejano 2–5 s ↔ pegado 1,5–2,5 s ↔ tele) sin repetir dos seguidos.",
+    "Dejar dentro al equipo de rodaje cuando da humor (el cámara que se cae: 2:21.8–2:30.2 y 22:12.3–22:16.9, la segunda en silencio de música).",
+    "Rotular la voz que no se ve (llamada de teléfono): nombre a la izquierda a media altura, 2,6–7,2 s, entrando con el corte.",
+    "Los efectos de biblioteca, pocos y con función (0,6/min): solo en gráficos a pantalla completa, transiciones con movimiento, VFX y desenlace. El marcador, los paneles, los resaltes y los subtítulos van mudos.",
+    "Ritmo de corte casi plano de principio a fin (20–27 cortes/min; plano medio ≈ 2,5 s): el dinamismo no depende de acelerar el corte sino de que cada 6–10 s cambie algo (equipo, punto de vista, gráfico, silencio)."
+  ],
+  "para_el_motor": {
+    "ESCALAS": [
+      1.0,
+      1.4,
+      1.8,
+      1.0,
+      1.4,
+      1.0
+    ],
+    "ESCALAS_nota": "escalera por CORTE al mismo eje medida a ojo en 7:48.4–7:58.1 (1,0 → ≈ 1,5 → 1,0 → ≈ 1,4 → ≈ 1,8); solo en diálogos largos de dos personas sentadas. En planos de acción, 1,0.",
+    "CAMBIO_CADA": [
+      2.0,
+      3.0
+    ],
+    "CAMBIO_CADA_nota": "un salto de escala cada ≈ 2,8 s en el diálogo medido; plano medio real del vídeo ≈ 2,5 s (mediana del detector 2,44 s)",
+    "Z_FUERTE": 1.22,
+    "Z_FUERTE_duracion_f": 9,
+    "Z_FUERTE_por_minuto": 0.3,
+    "Z_FUERTE_nota": "medido en 1:12.3–1:12.6 (×1,0 → ×1,22 en ≈ 9 f, luego hasta ×1,26): es un zoom de CÁMARA en la palabra del remate, con la música en silencio. Mucho más corto que el 1,65 de la plantilla; se usa muy poco.",
+    "ZOOM_LENTO": 0.0,
+    "ZOOM_LENTO_nota": "sin zoom digital sostenido sobre el busto (×1,000 → ×0,984 medido). El único empuje lento medido es físico: ×1,28 en 3,2 s (≈ 8 %/s) sobre quien explica a cámara (9:03.8–9:07.0).",
+    "Z_SIN_CARA": 1.0,
+    "Z_SIN_CARA_nota": "ningún aéreo ni plano de acción lleva corte de escala digital",
+    "CARA_Y": null,
+    "CARA_Y_nota": "no medido: casi no hay busto fijo (selfies, GoPro y planos de dos)",
+    "SFX": {
+      "golpe": "+1 a +4 dB sobre la voz; +8/+9 en salida y meta, sin voz encima",
+      "mapa": "golpe de entrada a +2/+3 dB y soplido de salida a −6/−9 dB",
+      "seccion": null,
+      "dato": null,
+      "titulo": null,
+      "suscribe": null,
+      "trk": "soplido a ≈ +2 dB solo en transiciones con movimiento (móvil 3D, barrido al salón)"
+    },
+    "SFX_nota": "0,6 efectos confirmados por minuto. El marcador, los paneles, los resaltes y los subtítulos NO llevan efecto. No hay cabecera ni botón de suscribir, así que «titulo» y «suscribe» quedan vacíos.",
+    "MUSICA_NIVELES": {
+      "BASE": -9.1,
+      "TRAILER": -6.4,
+      "SINVOZ": -5.0,
+      "MAPA": -1.0,
+      "CIERRE": null,
+      "TITULO": null,
+      "SECCION": null
+    },
+    "MUSICA_NIVELES_nota": "en dB RESPECTO A LA VOZ (voz media −18,6 dB), no absolutos: BASE = mediana de voz−música con voz (9,1 dB por debajo); TRAILER = primeros 60 s (6,4); SINVOZ = música sin voz a −22/−29 dB, es decir 3–10 dB bajo el nivel medio de la voz; MAPA = sobre el mapa 3D la música queda a 0–2 dB de la voz en off. En absoluto (stems): música bajo la voz −28/−35 dB en el cuerpo. CIERRE: sin música sobre el negro final.",
+    "LUFS": -11.1,
+    "LUFS_nota": "LRA 7,4 LU; pico real +3,0 dBTP. Más alto que el −14 de la plantilla.",
+    "RITMO_OBJETIVO": {
+      "cortes_por_minuto": 24,
+      "plano_medio_s": 2.5,
+      "intro_mediana_s": 1.8,
+      "climax_plano_s": [
+        0.7,
+        1.6
+      ],
+      "respiro_plano_s": [
+        3.6,
+        5.2
+      ]
+    },
+    "RITMO_OBJETIVO_nota": "570 ± 50 cortes en 23,45 min. Casi plano por minuto (20–27).",
+    "propuestas_sin_nombre_en_ajustes": {
+      "MARCADOR_CADA_S": [
+        50,
+        70
+      ],
+      "MARCADOR_DURACION_S": [
+        2.0,
+        9.5
+      ],
+      "MARCADOR_MAX_HUECO_S": 160,
+      "MARCADOR_RETIRAR_EN_PCT": 77,
+      "SILENCIOS_MUSICA_POR_MINUTO": 2.3,
+      "SILENCIO_MUSICA_S": [
+        1.0,
+        4.0
+      ],
+      "RESALTE_OBJETO_S": [
+        1.1,
+        2.9
+      ],
+      "PANEL_ENTRADA_F": [
+        6,
+        18
+      ],
+      "SUBTITULO_TARJETA_S": [
+        0.8,
+        1.8
+      ],
+      "SUBTITULO_ALTO_PCT": 6.3,
+      "RAFAGA_ARCHIVO_CLIP_F": [
+        15,
+        26
+      ],
+      "CAMBIO_DE_PARTICIPANTE_S": 19,
+      "nota": "valores medidos en este vídeo para cosas que ajustes.py no tiene todavía; son propuesta de nombres, no nombres existentes"
+    }
+  },
+  "dudas": [
+    "Efectos sin confirmar (hay cambio de nivel pero no firma clara o puede ser la música): 0:50.5 acento leve con el resalte de las mochilas (+5 dB sobre el colchón); 1:04.2–1:08.2 impactos de cada destello de la ráfaga (tapados por la música a −14/−18); 1:14.3–1:15.0 soplido de la cortinilla de la mochila (probable); 1:41.4 tic leve con la entrada del primer marcador (13 dB bajo la voz); 1:58.8–1:59.0 soplido leve al entrar la pantalla partida; 5:03.6 efecto corto aislado en pleno silencio (0,3 s, de −51 a −28 dB, tipo sin identificar); 13:06.5 línea fina con armónicos al llegar a la orilla; 14:01.2 chasquido (puede ser una palmada en directo); 19:52.1 impacto al caer la caja. No se oyen: habría que escucharlos.",
+    "No puedo oír: el TIPO de cada efecto confirmado (golpe, soplido, subida, explosión, latido) sale de la forma en el espectrograma y del nivel, no del timbre; y la descripción de las pistas (tensión, calma, emotiva) sale de la escena y de audio.json, no de escuchar.",
+    "Total de cortes: 570 ± 50 es una estimación (4 minutos contados a ojo + candidatos débiles del detector). El reparto por minuto fuera de esos 4 minutos es aproximado.",
+    "Fuentes: fuente_rotulo.py no reconoce con fiabilidad (< 0,5) las cifras del marcador, los subtítulos, el rótulo de las madres ni el texto final (contornos, resplandor y aberración cromática); los nombres a ojo (Eurostile/Orbitron, Komika Axis, Michroma) son orientativos. Fiables: clasificación (Manrope 800 +0,819) y código (Rubik 700 +0,705). «$100,000» (+0,560) y «COMING UP…» (+0,494) quedan en el límite. La cifra del mapa 3D no se pasó por la herramienta (sin recorte limpio).",
+    "Sin medir al fotograma (vistos solo en hojas de 2 s o en un fotograma suelto): mapa de ruta 3D de ≈ 10:00, flecha roja de ≈ 18:42, resaltes de ≈ 9:56 y ≈ 20:58, usos 2.º–4.º del móvil 3D, tarjeta del patrocinador, entrada y salida exactas del tríptico de videollamada (≈ 13:19–13:36.7) y del marcador en 13:38 y 17:14.",
+    "Subtítulos: 9 líneas vistas en 2 escenas; puede haber alguna más en tramos mirados solo cada 2 s a tamaño pequeño.",
+    "Origen del primer plano del avance (cresta de duna a contraluz, 1:26.35): es del desierto con luz de tarde, pero no he localizado el minuto del cuerpo del que sale (puede ser material que solo se usa ahí).",
+    "Cortes de escala al mismo eje en la videollamada nocturna (7:48–7:58): no se distingue si son recorte digital de una toma o segunda cámara en el mismo eje; para el motor da igual (se reproduce con recorte).",
+    "Frecuencia de la voz en off y de los cortes J/L: descritas a ojo, sin contar una a una.",
+    "audio.json da voz−música de 20,7 dB en 961–966 s y otros tramos cortos; no los he comprobado uno a uno contra los stems.",
+    "Los porcentajes del marcador a 17:14–17:20 (59 → 72 / 51 / 62) se leen en un fotograma a mitad de animación; la cifra final de la selva en ese gráfico no la he confirmado en otro fotograma.",
+    "Nombres: la transcripción escribe «Allison» y el rótulo «Alison's Mom»; «KetoLite» en la transcripción es el nombre del patrocinador mal reconocido. La voz llama «Arctic» y «Antarctic» al mismo equipo."
+  ]
+}

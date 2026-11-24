@@ -1,0 +1,2241 @@
+{
+  "video": {
+    "archivo": "refs/dinamicos/the-fezz/2026-06-21_21-fitness-influencers-compitieron-solo-uno-gano.mp4",
+    "creador": "THE FEZZ",
+    "canal": "THE FEZZ",
+    "url": "https://www.youtube.com/watch?v=k17LT9yvbYk",
+    "titulo": "21 Fitness Influencers Compitieron — Solo Uno Ganó",
+    "duracion": "17:59 (1078,87 s; 25.868 fotogramas)",
+    "publicado": "2026-06-21",
+    "fps": 23.976,
+    "resolucion": "1920x1080",
+    "idioma": "español (España)",
+    "tramo_analizado": "entero (0:00–17:58.87). Intro fotograma a fotograma 0–36 s; 4 tramos contados a 0,1 s (1:00–2:00, 5:00–6:00, 13:11–13:39, 16:00–17:00) y 9 gráficos a 1 fotograma.",
+    "estilo": "reto",
+    "estilo_por_que": "Es un reto de competición por eliminación (formato torneo), no un vlog ni un entreno: no hay día, ni trayecto, ni rutina; todo el metraje es prueba, regla, marcador o resultado. Lo que lo hace reto, con números: (1) OBJETIVO CON DESENLACE: se enuncia en 0:04.4–0:06.8 («ganar el trofeo y 200 euros») y como pregunta en 0:30.9 («¿quién es el más fitness?»); se resuelve en 17:03.7 («¡Toni!») y se remata con el reparto 100/100 en 17:42. (2) REGLAS: cada una de las 6 pruebas se explica antes de jugarse, en 1,0–8,6 s (flexiones: 8,6 s con 6 planos, 9 subtítulos y 3 gráficos, 2:10.7–2:19.3; agarre: 1 frase a cámara tras una cartela de 1,0 s). (3) MARCADOR/CONTADOR siempre en pantalla mientras se compite: cronómetro de la plancha 49 s seguidos (0:13.5–1:02.6), contador de repeticiones en las 15 series de flexiones (2:26–11:50) con «RONDA n/5» fijo arriba a la izquierda, resultado de la serie en cifra grande (visto en 8 de las 15, 0,7–0,9 s), 3 marcadores parciales por equipos (5:18, 9:12, 10:55) y pantalla «Resultado final» 250/248/264 (12:09.75, 1,66 s); 5 cifras de agarre (14:26–15:05). (4) ELIMINACIONES: 21 → 15 → 10 → 5 → 4 → 2 → 1 en 6 pruebas; cada salida tiene su gráfico (6 tarjetas que saltan a una columna en la plancha, X roja de «ELIMINADO» en las reglas, tira de 5 retratos del equipo que cae 12:04–12:12.6, tarjeta que pasa de color a gris en la baja de 13:34) y hay 1 «revivido» (13:33) que acaba ganando. (5) PROGRESO: barra de 6 iconos (una por prueba + trofeo) que sale 6 veces, 2,5–3,6 s cada una, con las pruebas que faltan pixeladas; y el recuento «10 PARTICIPANTES» (12:22.4, 1,4 s). No encaja en «entreno» (no se enseña a entrenar ni hay rutina) ni en «vlog» (cero vida, cero desplazamientos, una sola localización).",
+    "modelo": "fable"
+  },
+  "resumen": [
+    "Competición de 21 creadores de fitness en una finca con pistas de tenis: 6 pruebas (plancha, flexiones por equipos, soga, fuerza de agarre, tres en raya por relevos y carrera con mancuerna de 20 kg), eliminación en cada una y un trofeo con 200 € para el último que quede.",
+    "Intro explicativa comprimida de 35,2 s (844 fotogramas, 52 planos): abre con el grupo y una ráfaga de 20 retratos de 2 fotogramas (1,67 s), ilustra cada cosa que dice la voz con un gráfico (texto amarillo «21 CREADORES», trofeo que brilla, «200€» en 3D, cartela «PLANCHA», barra de 6 iconos, cuenta atrás 3-2-1-GO y cronómetro) y mete dentro el arranque de la primera prueba; cierra con el ganador pixelado (0:33.1) y un golpe con destello blanco (0:35.2).",
+    "El vídeo se sostiene con un sistema de gráficos de concurso hecho a medida: tarjetas-retrato de estudio de cada participante (fondo del color de su equipo, con su @), color de equipo en todo (destellos a pantalla completa, lavados de suelo, subtítulos, cifras), contador de repeticiones, cronómetro, marcadores parciales y una barra de progreso de iconos pixelados.",
+    "Ritmo: 461 cortes detectados (25,6/min), ≈ 520 ± 25 reales (≈ 29/min) contando la ráfaga de retratos y los jump cuts al mismo encuadre que el detector no ve; mediana de plano 1,5 s, 26 % por debajo de 1 s. El pico de corte no está en la final sino en el tres en raya (17 cortes en 10 s, 16:00.6–16:10.5).",
+    "El tiempo se comprime solo con cortes, nunca con cámara rápida: el cronómetro y el contador saltan en cada corte (plancha: 4 min reales en 49 s; una serie de 56 flexiones en 25 s) y el número en pantalla hace legible la elipsis. Las últimas repeticiones de cada serie se dejan enteras, en plano fijo de 6–9 s.",
+    "Casi sin zoom animado: fuera de la intro (4 zooms digitales) el énfasis es cambiar de cámara (2–3 cámaras por prueba) o un plano más cerrado por corte (×1,6–1,9) en el momento clave. Trípode = escala ×1,000 medida.",
+    "Sonido: efectos concentrados en la intro (10 confirmados en 35 s) y en el sorteo de equipos (14 en 25 s); en el resto manda el sonido directo (palmas, gritos, conteo). La música se corta a propósito 5 veces para un aparte o un suspense (0:32.95, 1:32.56, 13:29.2, 16:24.9, 17:00.2).",
+    "Los subtítulos no son continuos: blanco para la voz en off de Fezz (intro y reglas), y del color del equipo para las frases sueltas de los participantes; el directo de Fezz no se subtitula.",
+    "El desenlace no lleva ningún gráfico: carrera de 8 s en tiempo real, 3,6 s de espera en plano fijo y corte a un plano más cerrado en «¡Toni!» (17:04.02). Cierra con 47 s de charla a cámara y CTA hablado, sin pantalla final."
+  ],
+  "contexto": {
+    "quien": "THE FEZZ (presentador y árbitro: camiseta de tirantes negra, gorra negra hacia atrás, micrófono de mano con cubo negro) y 21 creadores de contenido de fitness (9 chicas y 12 chicos según la ráfaga de retratos y las tarjetas; cada uno identificado por su @ en una tarjeta-retrato de estudio). Con nombre propio en el montaje: Campos (@campos_gym, se lesiona), Toni G (@tonigimenex, el revivido que gana), Samu (hace las 86 flexiones que salvan al equipo verde), Lara, París. Fezz no compite: narra, cuenta repeticiones y entrevista.",
+    "donde": "Una sola localización: una finca con pistas de tenis rodeadas de setos, pinos y viñedos, a pleno sol. Tres fondos que se alternan: pista verde con red (plancha, flexiones, soga), muro de piedra (retratos, tres en raya) y pista rojiza con seto y cielo (final y cierre). Ningún desplazamiento.",
+    "objetivo": "Saber «quién es el más fitness»: 6 pruebas con eliminación hasta que quede uno, que se lleva el trofeo de los Fitness Games y 200 €. Está en juego el premio y, sobre todo, el orgullo delante de otros 20 creadores (se pican entre equipos, piden que los comentarios juzguen si las flexiones fueron estrictas, 12:11).",
+    "tono": "Concurso de colegas: competitivo pero de buen rollo, con humor de vestuario (piques, tacos censurados en el subtítulo, «la vida es un carrusel» con rayos en 6:52). El montaje no ridiculiza a nadie; el gráfico de concurso (cuenta atrás de videojuego, tarjetas, destellos de color) le da el aire de programa de televisión y el directo desordenado le quita solemnidad.",
+    "gancho_5s": "Premisa completa en 6,8 s y ya ilustrada: fotograma 0 con Fezz delante de todo el grupo («He traído»), ráfaga de 20 retratos de 2 fotogramas con «21 CREADORES DE CONTENIDO» en amarillo (0:00.50–0:02.12), primera imagen de prueba (plancha 0:02.16, soga 0:03.29) y el premio (trofeo que brilla 0:04.3–0:05.9; «200€» verde en 3D 0:05.9–0:07.0). En 5 s se sabe quién, cuántos, qué hacen y qué se gana.",
+    "gancho_30s": "A los 7,0 s ya se está jugando: cartela «PLANCHA» (0:07.87), cuenta atrás 3-2-1-GO (0:09.75–0:13.3) y cronómetro en marcha (0:13.5). En 0:24.7 la voz promete que «esta es solo una de las 6 pruebas» (barra de 6 iconos vista en 0:09.4, cinco de ellos pixelados), formula la pregunta (0:30.9 «¿quién es el más fitness?») y enseña al ganador con el trofeo pero pixelado y en gris (0:33.08–0:35.16) con «la respuesta podrá sorprenderte».",
+    "preguntas_abiertas": [
+      "¿Quién gana? Abierta en 0:30.9 y con el ganador pixelado en 0:33.1; se cierra en 17:03.7 (16 min 30 s después).",
+      "¿Cuáles son las otras 5 pruebas? Iconos pixelados en 0:09.4; cada uno se revela al presentar su prueba (2:10.3, 12:23.9, 14:09.5, 15:35.5) y el del trofeo en 16:22.8.",
+      "¿Quién cae en la plancha? Columna de 6 siluetas grises con «??????» desde 0:35.9; se llena entre 0:42.5 y ≈ 0:59.5.",
+      "¿Qué equipo queda eliminado en flexiones? Marcador final enseñado pero pixelado en 2:15.1 («REPS TOTALES»); parciales en 5:18, 9:12 y 10:55; se resuelve en 11:55 y se enseña limpio en 12:09.75 (9 min 55 s después).",
+      "¿Llega Samu a las 84 que necesita el verde para empatar? Planteado en 11:05–11:09; resuelto en 11:49.5 (86)."
+    ],
+    "giros": [
+      "1:33 — al salir tres rojos seguidos en el sorteo, Fezz se justifica («te lo juro que los he mezclado») y la música se corta 2,2 s para el aparte.",
+      "11:55–12:11 — el equipo azul, primero en los dos parciales (63 en 5:20 y 189 en 9:18), queda eliminado por 2 repeticiones (248 frente a 250).",
+      "13:29 — baja por lesión: Campos se hace daño en la mano en la soga y «revive» Toni G, del equipo ya eliminado (tarjetas que cambian de color a gris y de gris a color, 13:32.9–13:36.5).",
+      "17:03.7 — gana el revivido.",
+      "17:42 — el ganador reparte el premio con el otro finalista: 100 y 100."
+    ],
+    "recompensas": [
+      "Cada 1–3 min hay un resultado: 6 eliminados de la plancha (0:42–1:00), 15 revelaciones de equipo (1:13–1:38), 15 resultados de serie (2:43–11:50), 3 parciales, 1 marcador final, 2 rondas de soga (13:27, 14:02), 5 cifras de agarre (14:26–15:05), tres en raya (16:10) y la final (16:55).",
+      "Momentos de esfuerzo sostenido sin cortar: últimas repeticiones de 5:08.8–5:15.4 (6,6 s) y 5:46.0–5:54.9 (8,9 s, cae al suelo); Samu rodeado de todos en 11:17–11:50.",
+      "Humor: «ME COMEIS LOS HUEVOS» (0:38), «LOCURAAA» (3:12), «la vida es un carrusel» con rayos (6:52), «ME DEJAS REPETIR O QUE?» (14:59)."
+    ],
+    "personajes_secundarios": "Los tres equipos funcionan como personajes colectivos gracias al color (azul, rojo, verde): cada uno tiene su entrevista de 9–11 s (1:39–2:10), su tira de 5 retratos y sus subtítulos en su color. Individuales: la primera eliminada de la plancha (0:41.4), la chica de naranja que abre las flexiones (2:26), Samu (11:10), Campos y Toni G (13:29), la «Eliminada» del agarre (15:05)."
+  },
+  "curva_energia": [
+    {
+      "minuto": 0,
+      "nivel": 5,
+      "motivo": "Intro (0–35,2 s: 52 planos, ráfaga de 20 retratos, 9 gráficos, 10 efectos) y la plancha con 6 eliminaciones en 25 s; 48 cortes detectados + 19 de la ráfaga. Música arriba desde el segundo 0."
+    },
+    {
+      "minuto": 1,
+      "nivel": 4,
+      "motivo": "Sorteo de equipos: 15 destellos de color en 24,4 s (1 cada 1,6 s), cada uno con su toque de sonido y su tarjeta; 35 cortes reales (el detector ve 22). Baja al final con las entrevistas por equipo (tomas de 8–12 s, sin música 1:40–2:10)."
+    },
+    {
+      "minuto": 2,
+      "nivel": 3,
+      "motivo": "Entrevista del rojo, reglas de flexiones en 8,6 s (cartela + reps pixeladas + X roja, el golpe más fuerte del vídeo en 2:18.6) y primera serie (20) en plano fijo."
+    },
+    {
+      "minuto": 3,
+      "nivel": 3,
+      "motivo": "Series de 28 y 25 en tomas fijas de 18–20 s con jump cuts ocultos por el contador; «LOCURAAA» (3:12). Solo 18 cortes detectados."
+    },
+    {
+      "minuto": 4,
+      "nivel": 3,
+      "motivo": "Series de 43, 21 y arranque de la sexta; mismo patrón lateral ↔ inserto. 18 cortes."
+    },
+    {
+      "minuto": 5,
+      "nivel": 4,
+      "motivo": "Primer marcador parcial (63/49/46 en 6,6 s, 5:20.0–5:26.6) con entrada de música en 5:18.4; serie de 56 con el contador saltando de 3 a 21; 34 cortes."
+    },
+    {
+      "minuto": 6,
+      "nivel": 4,
+      "motivo": "Serie de 71 (el más alto hasta ahí) y minuto con más cortes del cuerpo (38); gag del «carrusel» con rayos en 6:52."
+    },
+    {
+      "minuto": 7,
+      "nivel": 3,
+      "motivo": "Series de 43 y 71 con subtítulos de ánimo en color de equipo; 28 cortes."
+    },
+    {
+      "minuto": 8,
+      "nivel": 3,
+      "motivo": "Series de 59 y 75; sin música 7:52–8:22 (se oye el conteo y el público). 26 cortes."
+    },
+    {
+      "minuto": 9,
+      "nivel": 4,
+      "motivo": "Segundo parcial (rojo 179, verde 164, azul 189 en 9:12–9:21): la clasificación se aprieta; serie del último azul (59)."
+    },
+    {
+      "minuto": 10,
+      "nivel": 4,
+      "motivo": "Serie de 85 del rojo (10:43) que da la vuelta al marcador; tercer parcial (azul 248, rojo 264) y la cuenta de lo que necesita el verde: 84 (11:05–11:09)."
+    },
+    {
+      "minuto": 11,
+      "nivel": 5,
+      "motivo": "Clímax de la prueba larga: Samu con todos alrededor (11:17–11:50), «te doy 20 pavos», 84… 86; sentencia en 11:55 («el equipo eliminado es el equipo azul»). Tomas de 10–12 s sostenidas."
+    },
+    {
+      "minuto": 12,
+      "nivel": 3,
+      "motivo": "Respiro: pantalla «Resultado final» (12:09.75), despedida con aplausos, «10 PARTICIPANTES» (12:22.4), cartela de la soga y un plano secuencia de 36,1 s de estrategia (12:30.3–13:06.4). Solo 12 cortes."
+    },
+    {
+      "minuto": 13,
+      "nivel": 4,
+      "motivo": "Soga: arranque en ráfaga (4 cortes en 1,75 s, 13:12.5), destello rojo de punto (13:26.3), silencio seco para la baja (13:29.2) y las tarjetas del revivido; segunda ronda."
+    },
+    {
+      "minuto": 14,
+      "nivel": 3,
+      "motivo": "Gana el rojo (14:02) y fuerza de agarre: ritmo más lento (mediana 2,23 s), casi sin música, tensión por plano cerrado y cifra grande (32,9 → 57,6)."
+    },
+    {
+      "minuto": 15,
+      "nivel": 3,
+      "motivo": "«Eliminada. Hola.» en silencio (15:05–15:10), parejas, cartela «3 EN RALLA» y reglas a cámara en una toma de 14,3 s; a 15:48.9 empieza el juego."
+    },
+    {
+      "minuto": 16,
+      "nivel": 5,
+      "motivo": "Pico de corte del vídeo: tres en raya con 17 cortes en 10 s (mediana ≈ 0,55 s) y casillas que se pintan sobre el suelo; golpe y música al presentar finalistas (16:18.4); carrera final de 8 s (16:47–16:55). 38 cortes."
+    },
+    {
+      "minuto": 17,
+      "nivel": 3,
+      "motivo": "Suspense de 3,6 s sin música y «¡Toni!» con plano cerrado por corte (17:04.02) = pico breve; después 47 s de charla en tomas de 8–18 s sin gráficos ni música (nivel 2)."
+    }
+  ],
+  "ritmo_informacion": "104,6 palabras/min de media (1.881 palabras), pero el dato lo llevan los gráficos: algo nuevo cada 1–3 s en la intro (un gráfico por idea de la frase), cada ≈ 1,6 s en el sorteo (15 revelaciones en 24,4 s) y, en las flexiones, un número nuevo en pantalla cada 0,5–1 s (el contador) más un resultado cada ≈ 37 s (15 series en 9 min 24 s) y un parcial cada 2–4 min. Lo que se recorta: esperas entre series (corte directo de «equipo rojo» a «3, 2, 1, ya»), repeticiones intermedias (el contador salta 5–18 en un corte: 3 → 21 en 5:32.5; 36 → 43 en 5:40.5) y 4 min de plancha en 49 s. Nunca cámara rápida ni rótulo de «x minutos después»: la elipsis la marca el número que salta. Lo que NO se recorta: las últimas repeticiones, los resultados leídos por Fezz y las reacciones del público.",
+  "estructura": [
+    {
+      "desde": "0:00.00",
+      "hasta": "0:35.20",
+      "parte": "Intro explicativa con arranque de prueba",
+      "que_pasa": "Premisa y premio (0–7,0 s), cartela «PLANCHA», barra de iconos, cuenta atrás y primeros 44 s de cronómetro en 11 planos (7,0–24,8 s), promesa de las 6 pruebas, pregunta y ganador pixelado (24,8–35,2 s)."
+    },
+    {
+      "desde": "0:35.20",
+      "hasta": "1:02.70",
+      "parte": "Prueba 1: plancha (eliminaciones)",
+      "que_pasa": "Columna de 6 siluetas a la izquierda que se va llenando con las tarjetas de los que caen (0:42.5 → ≈ 0:59.5); cronómetro de 2:09 a 3:49. 21 → 15."
+    },
+    {
+      "desde": "1:02.70",
+      "hasta": "1:39.10",
+      "parte": "Resumen y sorteo de equipos",
+      "que_pasa": "«Han aguantado 4 minutos» con «4 MIN» en pantalla; 15 participantes sacan carta: destello del color, toque de sonido y tarjeta al montón (azul, verde, rojo)."
+    },
+    {
+      "desde": "1:39.10",
+      "hasta": "2:10.60",
+      "parte": "Entrevistas por equipo",
+      "que_pasa": "Azul (1:39.1–1:50.6), verde (1:50.6–2:01.6) y rojo (2:01.6–2:10.6) con subtítulos y tira de retratos de su color. Sin música."
+    },
+    {
+      "desde": "2:10.60",
+      "hasta": "12:20.40",
+      "parte": "Prueba 2: flexiones por equipos (5 rondas, 15 series)",
+      "que_pasa": "Reglas (2:10.7–2:19.3); R1 20/28/25; R2 43/21/21 y parcial 63/49/46 (5:18–5:27); R3 56/71/43; R4 71/59/75 y parcial 189/179/164 (9:12–9:21); R5 59/85 y parcial 248/264 (10:55–11:09), Samu 86 (11:10–11:50); eliminado el azul (11:55) y «Resultado final» 250/248/264 (12:09.75). 15 → 10."
+    },
+    {
+      "desde": "12:20.40",
+      "hasta": "14:09.85",
+      "parte": "Prueba 3: tirar de la cuerda",
+      "que_pasa": "«10 PARTICIPANTES» (12:22.4), barra de iconos, cartela (12:25.56), estrategia de cada equipo en un plano secuencia de 36,1 s, ronda 1 (13:12.5–13:27), baja y revivido (13:29.1–13:38.2), ronda 2 y victoria del rojo (14:02). 10 → 5."
+    },
+    {
+      "desde": "14:09.85",
+      "hasta": "15:09.40",
+      "parte": "Prueba 4: fuerza de agarre",
+      "que_pasa": "Cartela de 1,0 s, 5 intentos con plano cerrado y cifra grande (32,9 · 39,2 · 39,3 · 48,3 · 57,6); «Eliminada. Hola.» en silencio. 5 → 4."
+    },
+    {
+      "desde": "15:09.40",
+      "hasta": "16:18.40",
+      "parte": "Prueba 5: tres en raya por relevos, en parejas",
+      "que_pasa": "Se hacen parejas, cartela «3 EN RALLA» (15:33.4), reglas a cámara (14,3 s), juego en ráfaga con casillas pintadas (15:48.9–16:10.5) y resultado. 4 → 2."
+    },
+    {
+      "desde": "16:18.40",
+      "hasta": "17:12.00",
+      "parte": "Final: carrera con mancuerna de 20 kg",
+      "que_pasa": "Tarjetas de los dos finalistas (16:19.6), barra de iconos completa con el trofeo, reglas en multicámara, carrera de 8 s (16:47.0–16:55.0), suspense y ganador (17:03.7), entrega del trofeo. 2 → 1."
+    },
+    {
+      "desde": "17:12.00",
+      "hasta": "17:58.87",
+      "parte": "Cierre",
+      "que_pasa": "Palabras del ganador y del finalista, reparto del premio (17:42), CTA hablado a cámara (17:53.9) y fin en seco."
+    }
+  ],
+  "intro": {
+    "tipo": "explicativa",
+    "por_que_ese_tipo": "El vídeo tiene una premisa que hay que explicar antes de que nada tenga sentido: cuántos son, que se eliminan, qué se gana y que hay 6 pruebas. Por eso la voz de Fezz (grabada aparte) lo cuenta y CADA cosa que dice lleva su gráfico: «21 creadores» → texto amarillo sobre 20 retratos; «el trofeo» → trofeo con brillo; «200 euros» → cifra 3D; «la plancha» → cartela; «6 pruebas» → barra de 6 iconos; «quién es el más fitness» → ganador pixelado. No es la explicativa larga tipo Nil OGT: está comprimida a 35,2 s porque no hay un porqué personal que contar, solo unas reglas. Y es híbrida en dos cosas: (a) arranca con una ráfaga como las intros cortas (20 retratos en 1,67 s) y (b) mete DENTRO el inicio real de la primera prueba (0:07.0–0:24.8, con voz en directo), así que cuando acaba la explicación el espectador ya lleva 2 min 09 s de plancha en el cronómetro. No hay cabecera, ni logo, ni saludo.",
+    "duracion_s": 35.2,
+    "orden": [
+      "Premisa con ráfaga de retratos y premio: 0:00.00–0:07.00 (f0–168), voz en off",
+      "Arranque de la prueba 1 dentro de la intro: cartela, barra de iconos, cuenta atrás, cronómetro y 11 planos de plancha: 0:07.04–0:24.80 (f169–594), voz en directo",
+      "Promesa (6 pruebas), pregunta y ganador pixelado: 0:24.82–0:35.16 (f595–843), voz en off",
+      "Destello blanco + golpe y de vuelta a la plancha ya avanzada (cronómetro 2:09): 0:35.20 (f844)"
+    ],
+    "clips_rafaga_trailer": [
+      {
+        "t": "0:00.00–0:00.46 (f0–11)",
+        "sale_de": "grabado aparte (presentación del grupo; no vuelve a salir en el cuerpo)",
+        "funcion": "promesa",
+        "que_se_ve": "Fezz en el centro, delante de unos 20 creadores en fila; zoom-out de entrada."
+      },
+      {
+        "t": "0:00.50–0:02.12 (f12–51): 20 planos",
+        "sale_de": "grabados aparte para la intro: un retrato de cada participante contra el muro de piedra (el muro del tres en raya, 15:48–16:18). No son del cuerpo del vídeo.",
+        "funcion": "llamativo",
+        "que_se_ve": "Ráfaga de 20 retratos (9 chicas en f12–30 y 11 chicos en f31–51): el primero 3 fotogramas, 18 de 2 fotogramas y el último 1. Cada uno hace un gesto distinto (saluda, saca bíceps, se toca el pelo): se ve que son muchos y quiénes, sin poder leer a ninguno."
+      },
+      {
+        "t": "0:02.16–0:03.25 (f52–78)",
+        "sale_de": "0:13–1:02 (la plancha, minuto 0)",
+        "funcion": "anticipa",
+        "que_se_ve": "General de todos colocándose en plancha sobre la pista."
+      },
+      {
+        "t": "0:03.29–0:04.25 (f79–102)",
+        "sale_de": "13:12–14:02 (soga, minuto 13)",
+        "funcion": "anticipa",
+        "que_se_ve": "Un equipo tirando de la cuerda."
+      },
+      {
+        "t": "0:04.29–0:05.87 (f103–141)",
+        "sale_de": "grabado aparte (presentación; el trofeo no vuelve hasta 16:37)",
+        "funcion": "promesa",
+        "que_se_ve": "El grupo con Fezz sosteniendo el trofeo; golpe de zoom al trofeo, que brilla en dorado."
+      },
+      {
+        "t": "0:05.91–0:07.00 (f142–168)",
+        "sale_de": "el mismo plano del grupo, desenfocado y oscurecido, como fondo del gráfico",
+        "funcion": "promesa",
+        "que_se_ve": "«200€» verde en 3D."
+      },
+      {
+        "t": "0:25.75–0:26.20 (f617–628)",
+        "sale_de": "2:26–2:44 (flexiones, primera serie, minuto 2)",
+        "funcion": "anticipa",
+        "que_se_ve": "La chica de naranja haciendo flexiones, plano lateral."
+      },
+      {
+        "t": "0:26.25–0:26.62 (f629–638)",
+        "sale_de": "13:12–14:02 (soga)",
+        "funcion": "anticipa",
+        "que_se_ve": "Soga, un lado."
+      },
+      {
+        "t": "0:26.66–0:27.41 (f639–657)",
+        "sale_de": "13:12–14:02 (soga)",
+        "funcion": "llamativo",
+        "que_se_ve": "Soga, el otro lado, con más esfuerzo."
+      },
+      {
+        "t": "0:27.45–0:29.12 (f658–698)",
+        "sale_de": "presentación de una prueba (Fezz de espaldas ante la fila; mismo tipo de plano que 2:19 y 12:23)",
+        "funcion": "anticipa",
+        "que_se_ve": "Fezz de espaldas explicando ante los creadores en fila."
+      },
+      {
+        "t": "0:31.25–0:33.04 (f749–792)",
+        "sale_de": "fila de participantes escuchando (minuto 2 o 12; no localizado al fotograma)",
+        "funcion": "bonito",
+        "que_se_ve": "La fila de creadores de frente, al sol."
+      },
+      {
+        "t": "0:33.08–0:35.16 (f793–843)",
+        "sale_de": "17:09–17:20 (entrega del trofeo, minuto 17)",
+        "funcion": "promesa",
+        "que_se_ve": "Fezz junto al ganador con el trofeo, pero el ganador va pixelado y en gris: se enseña el final sin resolverlo."
+      }
+    ],
+    "clips_proporciones": "De 31 clips (20 retratos + 11): llamativo 21 (68 %; 20 de ellos son la ráfaga de retratos), anticipa 5 (16 %), promesa 4 (13 %), bonito 1 (3 %). Contando por tiempo de pantalla (13,9 s de clips): promesa 5,2 s (37 %), anticipa 4,5 s (33 %), llamativo 2,4 s (17 %), bonito 1,8 s (13 %). Lo que NO se mete nunca: ningún resultado legible (ni cifra, ni marcador, ni la cara del ganador), ninguna de las tres pruebas tranquilas (agarre, tres en raya, carrera), ninguna entrevista, ningún plano de espera ni de gente colocándose salvo el primero, nada de paisaje ni de la finca sin gente. De 6 pruebas solo se adelantan 3 (plancha, flexiones, soga): las otras se guardan como iconos pixelados.",
+    "animaciones_explicativas": [
+      {
+        "t": "0:00.62–0:02.12",
+        "frase": "«(a) 21 creadores de contenido»",
+        "que_es": "Texto cinético amarillo de 2 líneas «21 CREADORES / DE CONTENIDO» sobre la ráfaga de retratos; sustituye al subtítulo pequeño mientras dura.",
+        "f0": 15,
+        "f1": 51,
+        "como_esta_hecha": "Sube desde fuera del cuadro por abajo y frena en su sitio en 10–12 f (f15 → f25–27); se queda fijo 25 f mientras debajo cambian 13 retratos y sale por corte en f52. Amarillo ≈ #FFFF14 con resplandor del mismo color; cada línea ≈ 10 % del alto; ocupa la franja inferior (y 830–1080 px), con la segunda línea cortada por el borde mientras sube. Tipografía simple animada con una clave de posición: plantilla propia, no partículas ni 3D.",
+        "sfx": "Subida tonal (riser) 0:01.55–0:02.21 que muere en seco en el corte a la plancha (+11,1 dB sobre la voz). Un pop flojo en 0:00.72 al asomar el texto, sin confirmar."
+      },
+      {
+        "t": "0:04.33–0:05.87",
+        "frase": "«y ganar el trofeo»",
+        "que_es": "Golpe de zoom al trofeo + brillo dorado sobre el objeto.",
+        "f0": 104,
+        "f1": 141,
+        "como_esta_hecha": "Reencuadre digital ×1,0 → ×2,87 en ≈ 4 f (0:04.43–0:04.63), centrado en el trofeo que Fezz tiene en la mano, y deriva lenta hasta ×2,94 en 1,2 s (≈ 2 %/s). Encima, un resplandor dorado recortado al trofeo que crece desde 0:05.08, justo en la palabra «trofeo» (0:05.36).",
+        "sfx": "Subida tonal 0:05.12–0:05.79 (+13,9 dB sobre la voz)."
+      },
+      {
+        "t": "0:05.91–0:07.00",
+        "frase": "«y 200 euros»",
+        "que_es": "Cifra «200€» en verde neón con extrusión 3D sobre el plano desenfocado y oscurecido.",
+        "f0": 142,
+        "f1": 168,
+        "como_esta_hecha": "El fondo pasa de golpe a desenfocado (≈ 40 px) y oscurecido ≈ 50 %. La cifra entra girando desde abajo en 11 f (0:05.96–0:06.41) y se queda 14 f. Verde ≈ #35FF14 con resplandor; alto de la cifra ≈ 28 % de pantalla, ancho ≈ 55 %. Es el único 3D del vídeo.",
+        "sfx": "Golpe de banda ancha 0:05.79–0:06.00 (+13,9 dB) y campanilla 0:06.08–0:06.90 (+3,8 dB), que cae en «200» (0:06.02)."
+      },
+      {
+        "t": "0:07.87–0:08.75",
+        "frase": "«(Empezando por) la plancha»",
+        "que_es": "Cartela de prueba «PLANCHA» sobre el plano desenfocado.",
+        "f0": 189,
+        "f1": 210,
+        "como_esta_hecha": "Blanco, Montserrat ExtraBold en mayúsculas, alto de letra 19 % (210 px), ancho 79 %, centrada. El plano de debajo se desenfoca y oscurece ≈ 35 %; el texto sube desde abajo con desenfoque de movimiento vertical y se asienta en ≈ 8 f (0:07.87–0:08.2). Dura 22 f (0:07.87–0:08.75) y sale por corte. Cae en la palabra «plancha» (0:08.18).",
+        "sfx": "Raya vertical en 0:08.75 en el espectrograma (salida de la cartela), sin confirmar; el arranque queda tapado por la música."
+      },
+      {
+        "t": "0:09.37–0:10.6",
+        "frase": "«Empezamos en…»",
+        "que_es": "Barra de progreso de 6 iconos (plancha, flexión, soga, agarre, tres en raya, trofeo) arriba, con 5 de los 6 pixelados.",
+        "f0": 225,
+        "f1": 254,
+        "como_esta_hecha": "Los iconos blancos aparecen uno a uno de izquierda a derecha en 6 f (0:09.37–0:09.62). El de la plancha sale nítido; los demás, en mosaico de ≈ 12 px (no se sabe qué prueba es). Franja y 55–170 px, de x 110 a 1.700 (83 % del ancho); cada icono 7–10 % del alto.",
+        "sfx": "Rayas verticales en 0:08.96 y 0:09.52, sin confirmar."
+      },
+      {
+        "t": "0:09.75–0:13.29",
+        "frase": "«3, 2, 1, ya»",
+        "que_es": "Cuenta atrás de videojuego: «3», «2», «1» y «GO!» con rayos.",
+        "f0": 234,
+        "f1": 318,
+        "como_esta_hecha": "Cifras con degradado amarillo–naranja–rojo, doble borde blanco y negro grueso, inclinadas, alto ≈ 35 % de pantalla. Cada una cae en un plano distinto (corte en f234, f265, f288) y se desvanece en ≈ 20 f; «GO!» con rayos alrededor de 0:12.75 a 0:13.29, sobre el corte a general frontal (f307). Es un recurso de plantilla (estilo salida de carrera).",
+        "sfx": "Un pitido sostenido por cifra: 0:09.76 (+3,7 dB), 0:11.05 (−0,5), 0:12.00 (+1,8) y pitido agudo y más fuerte en «GO!» 0:12.96–0:13.92 (+7,0)."
+      },
+      {
+        "t": "0:13.50–1:02.60",
+        "frase": "(sin frase: arranca la prueba)",
+        "que_es": "Cronómetro «0:00» arriba a la derecha que cuenta el tiempo real de plancha.",
+        "f0": 324,
+        "f1": 1501,
+        "como_esta_hecha": "Blanco, Montserrat Black, alto ≈ 10 % (105 px), en x 1.520–1.830 / y 65–170, sombra suave, sin caja. Entra con un volteo vertical (desenfoque de movimiento) en ≈ 4 f. Va en una capa encima del montaje: no se quita en ningún corte y su tiempo salta en cada uno (0:02 → 0:14 → 0:22 → 0:30 → 0:44…).",
+        "sfx": "Golpes periódicos cada ≈ 0,4 s en 0:14.4–0:20 que pueden ser la música o un tic-tac; sin confirmar."
+      },
+      {
+        "t": "0:33.08–0:35.16",
+        "frase": "«La respuesta podrá sorprenderte»",
+        "que_es": "Ganador tapado: recorte de la persona en gris y pixelado, siguiéndola, con zoom de entrada.",
+        "f0": 793,
+        "f1": 843,
+        "como_esta_hecha": "Máscara sobre el cuerpo del ganador (mosaico grueso + blanco y negro) con seguimiento; Fezz, el trofeo y el fondo quedan en color. Zoom digital ×1,0 → ×1,53 en 1,1 s con frenada y afloja a ×1,43. Sale por destello blanco de 2–3 f en f844.",
+        "sfx": "Subida tonal 0:32.28–0:32.95 antes del corte (+7,6 dB), 1,9 s de casi silencio debajo de la frase y golpe grave en 0:35.32 con el destello (+8,7 dB)."
+      }
+    ],
+    "linea_de_tiempo": [
+      {
+        "f0": 0,
+        "f1": 11,
+        "t": "0:00.00–0:00.46",
+        "que_se_ve": "Fezz al frente de todo el grupo",
+        "origen": "grabado aparte (presentación)",
+        "camara": "fija",
+        "zoom_velocidad": "zoom-out digital de entrada ×1,42 → ×1,00 en 10 f con desenfoque",
+        "texto": "subtítulo blanco «HE TRAIDO»",
+        "motion_graphic": "—",
+        "sfx": "—",
+        "musica": "entra en el fotograma 0, arriba",
+        "voz": "off: «He traído»"
+      },
+      {
+        "f0": 12,
+        "f1": 51,
+        "t": "0:00.50–0:02.12",
+        "que_se_ve": "20 retratos contra muro de piedra (9 chicas f12–30, 11 chicos f31–51), 2 f cada uno",
+        "origen": "grabados aparte para la intro",
+        "camara": "fija, plano medio",
+        "zoom_velocidad": "—",
+        "texto": "«21 CREADORES / DE CONTENIDO» amarillo (f15–51)",
+        "motion_graphic": "texto cinético que sube (10–12 f)",
+        "sfx": "riser tonal 0:01.55–0:02.21",
+        "musica": "sigue",
+        "voz": "off: «a 21 creadores de contenido»"
+      },
+      {
+        "f0": 52,
+        "f1": 78,
+        "t": "0:02.16–0:03.25",
+        "que_se_ve": "general de todos poniéndose en plancha",
+        "origen": "propio vídeo (0:13)",
+        "camara": "fija alta",
+        "zoom_velocidad": "zoom-in ×1,00 → ×1,25 en 0,9 s con frenada",
+        "texto": "subs «PARA QUE» / «SE ENFRENTEN»",
+        "motion_graphic": "—",
+        "sfx": "—",
+        "musica": "sigue",
+        "voz": "off: «para que se enfrenten»"
+      },
+      {
+        "f0": 79,
+        "f1": 102,
+        "t": "0:03.29–0:04.25",
+        "que_se_ve": "soga",
+        "origen": "propio vídeo (13:12–14:02)",
+        "camara": "fija",
+        "zoom_velocidad": "—",
+        "texto": "subs «EN LOS JUEGOS» / «FITNESS»",
+        "motion_graphic": "—",
+        "sfx": "—",
+        "musica": "sigue",
+        "voz": "off: «en los juegos fitness»"
+      },
+      {
+        "f0": 103,
+        "f1": 141,
+        "t": "0:04.29–0:05.87",
+        "que_se_ve": "grupo con Fezz y el trofeo",
+        "origen": "grabado aparte",
+        "camara": "fija",
+        "zoom_velocidad": "golpe ×1,0 → ×2,87 en 4 f + deriva 2 %/s",
+        "texto": "subs «Y GANAR» / «EL TROFEO»",
+        "motion_graphic": "brillo dorado sobre el trofeo (f122–141)",
+        "sfx": "riser tonal 0:05.12–0:05.79",
+        "musica": "sigue",
+        "voz": "off: «y ganar el trofeo»"
+      },
+      {
+        "f0": 142,
+        "f1": 168,
+        "t": "0:05.91–0:07.00",
+        "que_se_ve": "mismo plano desenfocado y oscurecido",
+        "origen": "fondo de gráfico",
+        "camara": "—",
+        "zoom_velocidad": "—",
+        "texto": "«200€» verde 3D",
+        "motion_graphic": "cifra 3D que entra girando (11 f)",
+        "sfx": "golpe 0:05.79 + campanilla 0:06.08",
+        "musica": "sigue",
+        "voz": "off: «y 200 euros»"
+      },
+      {
+        "f0": 169,
+        "f1": 188,
+        "t": "0:07.04–0:07.83",
+        "que_se_ve": "Fezz a cámara con micro, gente en plancha detrás",
+        "origen": "propio vídeo (directo)",
+        "camara": "fija",
+        "zoom_velocidad": "×1,00 (medido)",
+        "texto": "—",
+        "motion_graphic": "—",
+        "sfx": "—",
+        "musica": "sigue",
+        "voz": "directo: «Empezando por»"
+      },
+      {
+        "f0": 189,
+        "f1": 210,
+        "t": "0:07.87–0:08.75",
+        "que_se_ve": "plano desenfocado y oscurecido",
+        "origen": "fondo de gráfico",
+        "camara": "—",
+        "zoom_velocidad": "—",
+        "texto": "cartela «PLANCHA»",
+        "motion_graphic": "cartela de prueba (sube con desenfoque, 8 f)",
+        "sfx": "sin confirmar",
+        "musica": "sigue",
+        "voz": "directo: «la plancha»"
+      },
+      {
+        "f0": 211,
+        "f1": 233,
+        "t": "0:08.79–0:09.71",
+        "que_se_ve": "Fezz de perfil",
+        "origen": "directo",
+        "camara": "en mano",
+        "zoom_velocidad": "—",
+        "texto": "—",
+        "motion_graphic": "barra de 6 iconos (entra f225–230)",
+        "sfx": "sin confirmar",
+        "musica": "sigue",
+        "voz": "directo: «Empezamos en»"
+      },
+      {
+        "f0": 234,
+        "f1": 264,
+        "t": "0:09.75–0:11.00",
+        "que_se_ve": "general de la plancha",
+        "origen": "directo",
+        "camara": "fija",
+        "zoom_velocidad": "—",
+        "texto": "«3»",
+        "motion_graphic": "cuenta atrás + barra de iconos (hasta ≈ f254)",
+        "sfx": "pitido 0:09.76",
+        "musica": "sigue",
+        "voz": "directo: «3»"
+      },
+      {
+        "f0": 265,
+        "f1": 287,
+        "t": "0:11.04–0:11.96",
+        "que_se_ve": "otro ángulo de la fila",
+        "origen": "directo",
+        "camara": "fija",
+        "zoom_velocidad": "—",
+        "texto": "«2»",
+        "motion_graphic": "cuenta atrás",
+        "sfx": "pitido 0:11.05",
+        "musica": "sigue",
+        "voz": "directo: «2»"
+      },
+      {
+        "f0": 288,
+        "f1": 306,
+        "t": "0:12.00–0:12.75",
+        "que_se_ve": "tercer ángulo",
+        "origen": "directo",
+        "camara": "fija",
+        "zoom_velocidad": "—",
+        "texto": "«1»",
+        "motion_graphic": "cuenta atrás",
+        "sfx": "pitido 0:12.00",
+        "musica": "sigue",
+        "voz": "directo: «1»"
+      },
+      {
+        "f0": 307,
+        "f1": 350,
+        "t": "0:12.79–0:14.58",
+        "que_se_ve": "general frontal: todos bajan a plancha",
+        "origen": "directo",
+        "camara": "fija",
+        "zoom_velocidad": "—",
+        "texto": "«GO!» (f306–318); cronómetro «0:00» desde f324",
+        "motion_graphic": "«GO!» con rayos; cronómetro entra con volteo",
+        "sfx": "pitido agudo 0:12.96–0:13.92",
+        "musica": "sigue",
+        "voz": "directo: «ya»"
+      },
+      {
+        "f0": 351,
+        "f1": 374,
+        "t": "0:14.62–0:15.58",
+        "que_se_ve": "plancha, detalle",
+        "origen": "directo",
+        "camara": "fija",
+        "zoom_velocidad": "—",
+        "texto": "crono 0:01–0:02",
+        "motion_graphic": "cronómetro",
+        "sfx": "—",
+        "musica": "sigue",
+        "voz": "—"
+      },
+      {
+        "f0": 375,
+        "f1": 418,
+        "t": "0:15.62–0:17.41",
+        "que_se_ve": "contrapicado lejano de la fila",
+        "origen": "directo",
+        "camara": "fija baja",
+        "zoom_velocidad": "—",
+        "texto": "crono 0:02–0:04",
+        "motion_graphic": "cronómetro",
+        "sfx": "—",
+        "musica": "sigue",
+        "voz": "directo: «No quiero ver culos arriba, eh»"
+      },
+      {
+        "f0": 419,
+        "f1": 440,
+        "t": "0:17.45–0:18.33",
+        "que_se_ve": "Fezz de espaldas vigilando",
+        "origen": "directo",
+        "camara": "en mano",
+        "zoom_velocidad": "—",
+        "texto": "crono 0:14–0:15",
+        "motion_graphic": "cronómetro (salta 10 s)",
+        "sfx": "—",
+        "musica": "sigue",
+        "voz": "directo: «15 segundos»"
+      },
+      {
+        "f0": 441,
+        "f1": 462,
+        "t": "0:18.37–0:19.25",
+        "que_se_ve": "fila en plancha",
+        "origen": "directo",
+        "camara": "fija",
+        "zoom_velocidad": "—",
+        "texto": "crono 0:22–0:23",
+        "motion_graphic": "cronómetro",
+        "sfx": "—",
+        "musica": "sigue",
+        "voz": "directo: «Nadie ha palmado, eh, aún»"
+      },
+      {
+        "f0": 463,
+        "f1": 470,
+        "t": "0:19.29–0:19.58",
+        "que_se_ve": "detalle de un participante",
+        "origen": "directo",
+        "camara": "fija",
+        "zoom_velocidad": "—",
+        "texto": "crono 0:23–0:24",
+        "motion_graphic": "cronómetro",
+        "sfx": "—",
+        "musica": "sigue",
+        "voz": "—"
+      },
+      {
+        "f0": 471,
+        "f1": 479,
+        "t": "0:19.62–0:19.96",
+        "que_se_ve": "otro participante",
+        "origen": "directo",
+        "camara": "fija",
+        "zoom_velocidad": "—",
+        "texto": "crono 0:24",
+        "motion_graphic": "cronómetro",
+        "sfx": "—",
+        "musica": "sigue",
+        "voz": "—"
+      },
+      {
+        "f0": 480,
+        "f1": 485,
+        "t": "0:20.00–0:20.21",
+        "que_se_ve": "otro participante (6 f)",
+        "origen": "directo",
+        "camara": "fija",
+        "zoom_velocidad": "—",
+        "texto": "crono 0:24",
+        "motion_graphic": "cronómetro",
+        "sfx": "—",
+        "musica": "sigue",
+        "voz": "—"
+      },
+      {
+        "f0": 486,
+        "f1": 506,
+        "t": "0:20.25–0:21.08",
+        "que_se_ve": "piernas de Fezz pasando entre ellos",
+        "origen": "directo",
+        "camara": "baja",
+        "zoom_velocidad": "—",
+        "texto": "crono 0:30",
+        "motion_graphic": "cronómetro",
+        "sfx": "—",
+        "musica": "sigue",
+        "voz": "—"
+      },
+      {
+        "f0": 507,
+        "f1": 530,
+        "t": "0:21.12–0:22.12",
+        "que_se_ve": "chica de frente aguantando",
+        "origen": "directo",
+        "camara": "fija",
+        "zoom_velocidad": "—",
+        "texto": "crono 0:32–0:33",
+        "motion_graphic": "cronómetro",
+        "sfx": "—",
+        "musica": "sigue",
+        "voz": "—"
+      },
+      {
+        "f0": 531,
+        "f1": 550,
+        "t": "0:22.16–0:22.96",
+        "que_se_ve": "fila, otro ángulo",
+        "origen": "directo",
+        "camara": "fija",
+        "zoom_velocidad": "—",
+        "texto": "crono 0:35–0:36",
+        "motion_graphic": "cronómetro",
+        "sfx": "—",
+        "musica": "sigue",
+        "voz": "directo: «Voy, eh»"
+      },
+      {
+        "f0": 551,
+        "f1": 572,
+        "t": "0:23.00–0:23.87",
+        "que_se_ve": "chico con gorra",
+        "origen": "directo",
+        "camara": "fija",
+        "zoom_velocidad": "—",
+        "texto": "crono 0:37–0:38",
+        "motion_graphic": "cronómetro",
+        "sfx": "—",
+        "musica": "sigue",
+        "voz": "—"
+      },
+      {
+        "f0": 573,
+        "f1": 594,
+        "t": "0:23.91–0:24.79",
+        "que_se_ve": "fila",
+        "origen": "directo",
+        "camara": "fija",
+        "zoom_velocidad": "—",
+        "texto": "crono 0:40–0:41",
+        "motion_graphic": "cronómetro",
+        "sfx": "—",
+        "musica": "sigue",
+        "voz": "—"
+      },
+      {
+        "f0": 595,
+        "f1": 616,
+        "t": "0:24.83–0:25.71",
+        "que_se_ve": "general de la plancha",
+        "origen": "directo",
+        "camara": "fija",
+        "zoom_velocidad": "—",
+        "texto": "subs «PERO ESTA» / «ES SOLO UNA»; crono 0:44",
+        "motion_graphic": "cronómetro",
+        "sfx": "—",
+        "musica": "sigue",
+        "voz": "off: «Pero esta es solo una»"
+      },
+      {
+        "f0": 617,
+        "f1": 628,
+        "t": "0:25.75–0:26.20",
+        "que_se_ve": "flexiones (chica de naranja)",
+        "origen": "propio vídeo (2:26)",
+        "camara": "fija lateral",
+        "zoom_velocidad": "—",
+        "texto": "sub «DE LAS 6»",
+        "motion_graphic": "—",
+        "sfx": "—",
+        "musica": "sigue",
+        "voz": "off: «de las 6»"
+      },
+      {
+        "f0": 629,
+        "f1": 638,
+        "t": "0:26.25–0:26.62",
+        "que_se_ve": "soga",
+        "origen": "propio vídeo (13:12)",
+        "camara": "fija",
+        "zoom_velocidad": "—",
+        "texto": "sub «PRUEBAS»",
+        "motion_graphic": "—",
+        "sfx": "—",
+        "musica": "sigue",
+        "voz": "off: «pruebas»"
+      },
+      {
+        "f0": 639,
+        "f1": 657,
+        "t": "0:26.66–0:27.41",
+        "que_se_ve": "soga, el otro equipo",
+        "origen": "propio vídeo (13:12)",
+        "camara": "fija",
+        "zoom_velocidad": "—",
+        "texto": "sub «QUE TENGO PREPARADAS»",
+        "motion_graphic": "—",
+        "sfx": "—",
+        "musica": "sigue",
+        "voz": "off: «que tengo preparadas»"
+      },
+      {
+        "f0": 658,
+        "f1": 698,
+        "t": "0:27.45–0:29.12",
+        "que_se_ve": "Fezz de espaldas ante la fila",
+        "origen": "propio vídeo",
+        "camara": "en mano",
+        "zoom_velocidad": "—",
+        "texto": "subs «PARA ESTOS» / «CREADORES» / «DE CONTENIDO»",
+        "motion_graphic": "—",
+        "sfx": "—",
+        "musica": "sigue",
+        "voz": "off: «para estos creadores de contenido»"
+      },
+      {
+        "f0": 699,
+        "f1": 748,
+        "t": "0:29.16–0:31.20",
+        "que_se_ve": "Fezz de perfil",
+        "origen": "propio vídeo",
+        "camara": "en mano con paneo",
+        "zoom_velocidad": "sin zoom digital (deriva de la mano ×0,88)",
+        "texto": "subs «PARA PODER RESPONDER» / «A LA PREGUNTA DE»",
+        "motion_graphic": "—",
+        "sfx": "—",
+        "musica": "sigue",
+        "voz": "off: «Para poder responder a la pregunta de»"
+      },
+      {
+        "f0": 749,
+        "f1": 792,
+        "t": "0:31.25–0:33.04",
+        "que_se_ve": "fila de creadores de frente",
+        "origen": "propio vídeo",
+        "camara": "fija",
+        "zoom_velocidad": "—",
+        "texto": "sub «QUIEN ES EL MAS FITNESS?»",
+        "motion_graphic": "—",
+        "sfx": "riser tonal 0:32.28–0:32.95",
+        "musica": "se va en 0:32.95",
+        "voz": "off: «¿Quién es el más fitness?»"
+      },
+      {
+        "f0": 793,
+        "f1": 843,
+        "t": "0:33.08–0:35.16",
+        "que_se_ve": "Fezz y el ganador con el trofeo (ganador pixelado y en gris)",
+        "origen": "propio vídeo (17:09–17:20)",
+        "camara": "fija",
+        "zoom_velocidad": "zoom-in ×1,0 → ×1,53 en 1,1 s y afloja a ×1,43",
+        "texto": "subs «LA RESPUESTA» / «PODRA SORPRENDERTE»",
+        "motion_graphic": "máscara pixelada con seguimiento",
+        "sfx": "—",
+        "musica": "casi silencio 0:32.95–0:34.84",
+        "voz": "off: «La respuesta podrá sorprenderte»"
+      },
+      {
+        "f0": 844,
+        "f1": 863,
+        "t": "0:35.20–0:36.00",
+        "que_se_ve": "destello blanco (2–3 f) y plancha ya avanzada",
+        "origen": "directo",
+        "camara": "fija",
+        "zoom_velocidad": "—",
+        "texto": "crono 2:09; columna de 6 siluetas desde f861",
+        "motion_graphic": "destello blanco; columna de eliminados",
+        "sfx": "golpe grave 0:35.32",
+        "musica": "vuelve con el golpe",
+        "voz": "directo: «Primero que cae»"
+      }
+    ],
+    "titulo_cabecera": {
+      "como_se_construye": "No hay título ni cabecera del vídeo, ni logo del canal. Hace de «título» la cartela de la primera prueba, «PLANCHA» (0:07.87–0:08.75, 22 f): el plano se desenfoca y oscurece ≈ 35 %, la palabra sube desde abajo con desenfoque de movimiento vertical y se asienta en ≈ 8 f. En las cartelas posteriores (vistas a 1 fotograma en 2:10.68) se ve el patrón completo: fondo desenfocado en 5 f, la palabra se pasa un poco hacia arriba y vuelve (6 f) y después encoge despacio del 100 % al ≈ 85 % del ancho durante 16 f, de modo que nunca está quieta. Plantilla propia repetida 5 veces; tipografía simple con dos claves (posición y escala), sin máscaras, partículas ni 3D.",
+      "fuente": "Montserrat ExtraBold en mayúsculas. fuente_rotulo.py --color #FFFFFF: 1) Montserrat 800 (0,899), 2) Archivo 800 (0,754), 3) Outfit 900 (0,718).",
+      "color": "#FFFFFF sin borde ni caja, sobre el plano oscurecido",
+      "duracion_f": 22,
+      "sonido": "En «PLANCHA» no se distingue de la música. En «FLEXIONES» (2:10.68) y «TIRAR DE LA CUERDA» (12:25.65) la cartela cae sobre un golpe grave que arranca desde casi silencio (+9,1 y +11,5 dB sobre la voz)."
+    },
+    "primer_plano_hablando_s": 7.04,
+    "primer_plano_hablando_frase": "«Empezando por la plancha» (f169, Fezz a cámara con el micro; es el primer plano con voz en directo)",
+    "piezas": {
+      "cold_open": "no como bloque aparte: el arranque real de la prueba 1 va DENTRO de la intro (0:07.04–0:24.79, 17,8 s, voz en directo)",
+      "trailer": "no hay tráiler separado; 5 adelantos del cuerpo repartidos (0:02.16, 0:03.29 y 0:25.75–0:27.41), 4,5 s en total",
+      "rafaga": "0:00.50–0:02.12 (1,67 s, 20 retratos)",
+      "pregunta": "0:29.16–0:33.04 («¿quién es el más fitness?»), 3,9 s",
+      "promesa_final_tapado": "0:33.08–0:35.16 (2,1 s)",
+      "titulo": "no hay",
+      "cabecera_animada": "no hay",
+      "logo": "no hay",
+      "saludo": "no hay: la primera palabra es «He traído» en el fotograma 0"
+    }
+  },
+  "motion_graphics": [
+    {
+      "tipo": "tarjeta-retrato de participante (pieza base del sistema)",
+      "que_es": "Foto de estudio de cada creador (busto, camiseta blanca) sobre fondo degradado del color de su equipo, con su @ arriba en blanco. Es la ficha de juego: con ella se construyen la columna de eliminados, los montones del sorteo, las tiras de equipo, las tarjetas de la baja y las de los finalistas. Color = sigue dentro; gris (blanco y negro) = fuera.",
+      "entrada_salida": "Salta en 3 f (de pequeña a tamaño completo, sin rebote); sale encogiendo a cero en 3 f o por corte.",
+      "curva": "golpe (3 f), sin rebote",
+      "posicion": "según el uso: columna izquierda (x 24–156), montones abajo (y 875–1.057), tira abajo-centro (x 636–1.364, y 838–1.025), a los lados del sujeto (y 14–37 %)",
+      "tamano": "132×175 px en columna (16 % del alto), 140×182 px en montones y tiras (17 %), ≈ 22 % del alto en la baja y en los finalistas",
+      "color": "azul ≈ #1E78D8 / #1F7BF2, verde ≈ #19E020, rojo ≈ #F01018; @ en blanco",
+      "fuente": "@ en sans redonda negrita de ≈ 14 px (1,3 % del alto); fuente_rotulo.py no fiable (0,099) por tamaño. A ojo, Montserrat Bold.",
+      "sonido": "sin firma propia confirmada (el salto de 0:42.5 no se distingue de la música)",
+      "disparador": "que alguien caiga, sea asignado a un equipo, hable su equipo o se le nombre",
+      "por_minuto": "en pantalla ≈ 2 min 05 s del vídeo (12 %): columna 28,8 s, sorteo 25,6 s, tiras ≈ 60 s, baja 3,6 s, finalistas 2,5 s",
+      "total": "≈ 21 tarjetas distintas; 6 saltos en la plancha + 15 en el sorteo + 9 tiras + 2 pares",
+      "duracion_f": "3 f de entrada; permanencia de 60 f (finalistas) a 690 f (columna)",
+      "ejemplos": [
+        "0:42.48–0:42.56 primera eliminada salta al hueco de arriba (0,4 s después de rendirse)",
+        "1:13.60–1:13.68 primera tarjeta azul al montón, 7–9 f después del corte con destello",
+        "16:19.6–16:22.1 dos tarjetas grandes, roja a la izquierda y azul a la derecha, junto a cada finalista"
+      ],
+      "cuando_si": "siempre que hay que decir QUIÉN sin parar el montaje: con 21 personas nadie se presenta hablando",
+      "cuando_no": "nunca en la final ni en el cierre; nunca para el ganador (ni tarjeta ni rótulo «GANADOR»)"
+    },
+    {
+      "tipo": "columna de eliminados",
+      "que_es": "Columna de 6 huecos pegada al borde izquierdo: cada hueco empieza como silueta gris sobre negro con «??????» y se rellena, de arriba abajo, con la tarjeta del que cae.",
+      "entrada_salida": "Entra de golpe en 0:35.91 (17 f después del destello blanco); se queda sin quitarse en ningún corte hasta 1:04.7; sale por corte.",
+      "curva": "golpe",
+      "posicion": "x 24–156 px (6,9 % del ancho), y 10–1.070 (todo el alto)",
+      "tamano": "6 huecos de 132×175 px (16 % del alto cada uno)",
+      "color": "silueta gris sobre negro; tarjetas con fondo azul",
+      "fuente": "@ sans negrita ≈ 14 px",
+      "sonido": "no confirmado",
+      "disparador": "cada caída: plano del que cae (1,0–2,3 s) → tarjeta 0,3–0,5 s después → plano de Fezz cantándolo («segunda eliminada», «tercera ya», 1,3 s)",
+      "por_minuto": "una sola vez (28,8 s seguidos)",
+      "total": 1,
+      "duracion_f": 690,
+      "ejemplos": [
+        "0:42.5 primera tarjeta",
+        "0:44.4 segunda, en el mismo fotograma del corte",
+        "0:49.6 cuarta; ≈ 0:59.5 la sexta y última"
+      ],
+      "cuando_si": "prueba de aguante con muchos a la vez y eliminación uno a uno: los huecos vacíos dicen cuántos faltan por caer",
+      "cuando_no": "no se reutiliza en las demás pruebas (ahí se elimina por equipo o de uno en uno)"
+    },
+    {
+      "tipo": "cronómetro y contador de repeticiones (esquina superior derecha)",
+      "que_es": "Número blanco grande que mide lo que se compite: tiempo en la plancha («0:00» → «3:49») y repeticiones en las flexiones (se pone a «0» con cada participante). Va en una capa por encima del montaje: sigue visible sobre los insertos de Fezz y del equipo.",
+      "entrada_salida": "Entra con volteo vertical y desenfoque de movimiento en ≈ 4 f; sale por corte al acabar la serie.",
+      "curva": "golpe con volteo; cada cifra cambia en seco, en el fotograma en que el pecho baja",
+      "posicion": "cronómetro x 1.520–1.830, y 65–170; contador x 1.590–1.720, y 110–250",
+      "tamano": "cronómetro ≈ 10 % del alto (105 px); contador 12,5 % (135 px)",
+      "color": "#FFFFFF, sombra muy suave, sin borde ni caja",
+      "fuente": "Montserrat Black/ExtraBold a ojo (misma familia que el marcador «63», donde fuente_rotulo da Montserrat 800 con 0,894). El recorte del cronómetro sobre fondo claro no es fiable (mejor candidato Lilita One 0,297).",
+      "sonido": "ninguno confirmado (ni tic por repetición)",
+      "disparador": "empieza la prueba o la serie",
+      "por_minuto": "en pantalla ≈ 49 s (plancha) + ≈ 6 min 40 s de las flexiones: ≈ 42 % del vídeo",
+      "total": "1 cronómetro + 15 contadores",
+      "duracion_f": "de ≈ 380 f (serie de 20) a ≈ 800 f (serie de 86)",
+      "ejemplos": [
+        "0:13.50–1:02.60 cronómetro: de 0:00 a 3:49 en 49 s de pantalla",
+        "5:30.0–5:54.9 contador de 0 a 56 en 25 s: salta 3 → 21 en el corte de 5:32.5 y 36 → 43 en el de 5:40.5",
+        "2:58.15 salto 5 → 15 con la cámara en el mismo sitio (jump cut que el número explica)"
+      ],
+      "cuando_si": "siempre que la acción se comprime: el número que salta hace legible la elipsis sin cámara rápida ni rótulo de tiempo",
+      "cuando_no": "soga, agarre, tres en raya y carrera no llevan contador (ahí el resultado es un instante, no una acumulación)"
+    },
+    {
+      "tipo": "rótulo de ronda",
+      "que_es": "«RONDA n/5» fijo arriba a la izquierda durante toda la prueba de flexiones.",
+      "entrada_salida": "aparece y desaparece por corte, con la prueba",
+      "curva": "—",
+      "posicion": "x 68–272, y 62–95",
+      "tamano": "2,4 % del alto (26 px)",
+      "color": "#FFFFFF",
+      "fuente": "Montserrat Bold en mayúsculas a ojo; fuente_rotulo.py dio puntuaciones negativas (texto pequeño sobre fondo claro): no fiable",
+      "sonido": "ninguno",
+      "disparador": "cambia de número al empezar cada vuelta de los tres equipos",
+      "por_minuto": "en pantalla casi toda la prueba (≈ 9 min)",
+      "total": "5 valores (1/5 a 5/5)",
+      "duracion_f": "≈ 2.600 f por ronda",
+      "ejemplos": [
+        "2:30 «RONDA 1/5»",
+        "3:50 «RONDA 2/5»",
+        "6:52 «RONDA 3/5», sigue incluso bajo el gag de los rayos"
+      ],
+      "cuando_si": "prueba larga y repetitiva (9 min 24 s): dice cuánto queda sin que nadie lo explique",
+      "cuando_no": "pruebas de menos de 2 min"
+    },
+    {
+      "tipo": "resultado de serie (cifra grande centrada)",
+      "que_es": "El total que acaba de hacer un participante, en blanco, al centro, cuando Fezz lo lee.",
+      "entrada_salida": "aparece de golpe y sale de golpe; puede cruzar un corte (5:55.1–5:55.7 pasa de las piernas de Fezz a su perfil)",
+      "curva": "golpe",
+      "posicion": "centro (x 795–1.115, y 450–635)",
+      "tamano": "17,6 % del alto (190 px)",
+      "color": "#FFFFFF",
+      "fuente": "fuente_rotulo.py --color #FFFFFF sobre «28»: 1) Montserrat 800 (0,960), 2) Inter 900 (0,845), 3) Rubik 700 (0,825)",
+      "sonido": "ninguno propio; cae sobre aplausos reales",
+      "disparador": "la cifra dicha por Fezz",
+      "por_minuto": "≈ 1,6 durante las flexiones",
+      "total": "8 vistos (28, 25, 43, 21, 56, 71, 71, 75) de 15 series",
+      "duracion_f": "17–22 f (0,7–0,9 s)",
+      "ejemplos": [
+        "3:10.5 «28» sobre Fezz de espaldas y el público aplaudiendo",
+        "5:16.4–5:17.2 «21»",
+        "5:55.1–5:55.7 «56», cruza un corte"
+      ],
+      "cuando_si": "cada final de serie",
+      "cuando_no": "no lleva color de equipo (el color se reserva para el total del equipo)"
+    },
+    {
+      "tipo": "marcador parcial por equipo",
+      "que_es": "Patrón de 3 pasos que se repite por equipo: (1) la tira de 5 tarjetas del equipo sube desde abajo sobre el plano de Fezz; (2) 0,2 s después, corte al plano de ese equipo con su total en grande y en su color; (3) corte de vuelta a Fezz y la tira baja y sale.",
+      "entrada_salida": "tira: sube en ≈ 5 f y baja en 3–5 f; cifra: de golpe con el corte, sale con el corte",
+      "curva": "frenada corta en la tira; golpe en la cifra",
+      "posicion": "tira abajo-centro (x 636–1.364, y 838–1.025) con lavado de color hacia abajo; cifra al centro (x 800–1.115, y 455–650)",
+      "tamano": "cifra 17,6 % del alto; tarjetas 17 %",
+      "color": "azul #1F7BF2, rojo ≈ #F01018, verde ≈ #19E020",
+      "fuente": "fuente_rotulo.py --color #1F7BF2 sobre «63»: 1) Montserrat 800 (0,894), 2) Bricolage Grotesque 800 (0,703), 3) Work Sans 800 (0,653)",
+      "sonido": "la música entra de golpe 1,6 s antes (5:18.4), tras 1,6 s de casi silencio; ninguna firma por cifra",
+      "disparador": "la cifra dicha: «63» en 5:20.08, «49» en 5:23.04, «46» en 5:25.68; el gráfico cae 0,03–0,12 s después de la palabra",
+      "por_minuto": "3 veces en 9 min 24 s (tras las rondas 2 y 4 y a mitad de la 5)",
+      "total": "3 parciales (8 cifras de equipo)",
+      "duracion_f": "cifra 19–29 f (0,8–1,2 s); cada equipo 2,0–2,3 s; los tres en 6,6 s",
+      "ejemplos": [
+        "5:20.0–5:26.6 azul 63 / rojo 49 / verde 46",
+        "9:12–9:21 rojo 179 / verde 164 / azul 189",
+        "10:55–11:02 azul 248 / rojo 264 (y a continuación la cuenta de lo que necesita el verde)"
+      ],
+      "cuando_si": "cada 2–4 min de prueba larga, para reabrir la pregunta de quién va a caer",
+      "cuando_no": "no se deja fijo en pantalla: aparece, informa y se va"
+    },
+    {
+      "tipo": "pantalla «Resultado final»",
+      "que_es": "Cuadro de cierre de la prueba por equipos: título pequeño en cursiva y los tres totales en fila, cada uno en su color con resplandor, sobre el plano del grupo desenfocado y oscurecido; debajo sigue la tira azul del equipo eliminado.",
+      "entrada_salida": "12:09.75 corte; el fondo se desenfoca y oscurece en ≈ 12 f; el título baja desde arriba en 9 f (12:09.83–12:10.20); las cifras entran escalonadas 2–4 f de izquierda a derecha («250» 12:09.83, «248» 12:10.00, «264» 12:10.08) con fundido y un pequeño desplazamiento; sale por corte en 12:11.41. La tira azul sobrevive al corte y baja en 3 f en 12:12.58.",
+      "curva": "frenada",
+      "posicion": "centro",
+      "tamano": "cifras ≈ 10 % del alto; título ≈ 4 %",
+      "color": "verde / azul / rojo de equipo; título blanco",
+      "fuente": "cifras Montserrat ExtraBold; título Montserrat en cursiva fina (a ojo, no medido con herramienta)",
+      "sonido": "un colchón grave arranca en 12:09.84 (sin confirmar como efecto); encima, aplausos reales desde 12:10.45",
+      "disparador": "la frase «con 248 ha perdido por dos»",
+      "por_minuto": "—",
+      "total": 1,
+      "duracion_f": 40,
+      "ejemplos": [
+        "12:09.75–12:11.37"
+      ],
+      "cuando_si": "una vez, al cerrar la única prueba con marcador acumulado",
+      "cuando_no": "dura 1,66 s: no es una tabla para estudiar, es la confirmación de lo que ya se dijo 15 s antes"
+    },
+    {
+      "tipo": "revelación de equipo: destello de color a pantalla completa",
+      "que_es": "Cada vez que alguien saca carta: corte + la pantalla entera teñida del color del equipo en el primer fotograma (≈ 70 %) que se apaga en ≈ 10 f + toque de sonido + su tarjeta salta al montón de ese color 7–9 f después. El suelo de la pista lleva un lavado fijo en tres zonas (azul, verde, rojo) durante todo el sorteo, y los montones crecen en pirámide (3 abajo, 2 encima).",
+      "entrada_salida": "tinte al 70 % en el fotograma del corte; baja lineal hasta cero en ≈ 10 f (0,4–0,6 s)",
+      "curva": "lineal descendente",
+      "posicion": "pantalla completa; montones abajo: azul x 100–530, verde x 745–885, rojo x 1.333–1.473",
+      "tamano": "100 %",
+      "color": "azul, verde, rojo de equipo",
+      "fuente": "—",
+      "sonido": "toque tonal (acorde corto de ≈ 1 s) que arranca en seco con el destello: visto en el espectro en 13 de 15; de −0,5 a −11,6 dB respecto a la voz",
+      "disparador": "la carta que se enseña",
+      "por_minuto": "15 en 24,4 s (1 cada 1,6 s)",
+      "total": "15 en el sorteo (azul 1:13.3, 1:16.6, 1:18.1, 1:19.7, 1:36.2; verde 1:14.4, 1:21.9, 1:24.9, 1:34.9, 1:37.7; rojo 1:15.5, 1:26.0, 1:27.5, 1:29.0, 1:30.6) + 1 reutilizado como «punto» en la soga (rojo, 13:26.3) + franjas verticales de los tres colores sobre el grupo en 1:06.9–1:07.6",
+      "duracion_f": 10,
+      "ejemplos": [
+        "1:13.30 azul (f1757) y tarjeta en 1:13.60",
+        "1:14.39 verde y tarjeta en 1:14.76",
+        "13:26.31 rojo sobre el equipo que acaba de ganar la primera ronda de soga"
+      ],
+      "cuando_si": "una revelación que se repite muchas veces seguidas y sería monótona solo con cortes",
+      "cuando_no": "no se usa en eliminaciones (esas llevan gris o X)"
+    },
+    {
+      "tipo": "tira de equipo",
+      "que_es": "Las 5 tarjetas de un equipo en fila, con resplandor de su color, abajo al centro, mientras habla ese equipo o se habla de él.",
+      "entrada_salida": "sube desde fuera por abajo en ≈ 5 f; sale bajando en 3–5 f",
+      "curva": "frenada corta",
+      "posicion": "x 636–1.370, y 838–1.030",
+      "tamano": "17 % del alto; 38 % del ancho",
+      "color": "el del equipo",
+      "fuente": "@ sans negrita pequeña",
+      "sonido": "ninguno confirmado",
+      "disparador": "empieza a hablar un equipo, o se canta su total o su eliminación",
+      "por_minuto": "≈ 0,5",
+      "total": "9 vistas: verde 1:51.6–≈ 2:00, roja 2:02–2:08, azul/roja/verde en 5:20–5:26.6, azul 12:04–12:12.6 (eliminados, 8,6 s), roja 12:28.0–12:30.5, verde 12:44–12:46",
+      "duracion_f": "50–200 f",
+      "ejemplos": [
+        "1:51.6 verde, 8+ s sobre una toma única de entrevista",
+        "12:04–12:12.6 azul: cruza 3 cortes y la pantalla de resultado",
+        "12:28.0–12:30.5 roja sobre el corro de estrategia"
+      ],
+      "cuando_si": "plano de grupo donde no se sabe qué equipo es",
+      "cuando_no": "durante la acción (taparía los pies y el suelo)"
+    },
+    {
+      "tipo": "barra de progreso de iconos",
+      "que_es": "6 siluetas blancas en fila arriba (plancha, flexión, soga, mano con dinamómetro, tres en raya, trofeo). Las pruebas ya presentadas se ven nítidas; las que faltan, en mosaico grueso (≈ 12 px). Es a la vez índice y promesa.",
+      "entrada_salida": "los iconos aparecen uno a uno de izquierda a derecha en 6–7 f (1 f por icono); se queda 2,5–3,6 s; sale icono a icono en ≈ 7 f. Entra unos fotogramas ANTES del corte, sobre el final de la escena anterior, y cruza la cartela.",
+      "curva": "golpe escalonado",
+      "posicion": "y 55–170 px, x 110–1.700 (83 % del ancho)",
+      "tamano": "iconos 7–10 % del alto",
+      "color": "#FFFFFF con sombra suave",
+      "fuente": "—",
+      "sonido": "rayas finas en el espectro en 2 de 6 (0:09.52, 15:36.0): sin confirmar",
+      "disparador": "se presenta una prueba",
+      "por_minuto": "0,33",
+      "total": "6 (una por prueba): 0:09.37, 2:10.30, 12:23.89, 14:09.5, 15:35.5, 16:22.8",
+      "duracion_f": "60–86",
+      "ejemplos": [
+        "2:10.30–2:13.9 (3,6 s): entra sobre el último subtítulo rojo de la entrevista y cruza la cartela «FLEXIONES»",
+        "14:09.5–14:13.1: cruza el corte de 14:09.85",
+        "16:22.8–16:26.3: fila completa; el trofeo es el último en aclararse"
+      ],
+      "cuando_si": "en cada cambio de prueba, siempre antes de la cartela",
+      "cuando_no": "nunca fija: 19 s en total en un vídeo de 18 min"
+    },
+    {
+      "tipo": "cartela de prueba",
+      "que_es": "Nombre de la prueba en blanco, muy grande, sobre un plano desenfocado y oscurecido (el plano de Fezz que la anuncia o un adelanto de la propia prueba).",
+      "entrada_salida": "el fondo se desenfoca y oscurece ≈ 35 % en 5 f; el texto sube desde abajo con desenfoque vertical, se pasa un poco y se asienta en 6–8 f; después encoge despacio del 100 % al ≈ 85 % del ancho en 16 f; sale por corte (o fundido de 4 f en «FUERZA DE AGARRE»)",
+      "curva": "frenada con ligero rebase + deriva de escala",
+      "posicion": "centro",
+      "tamano": "1 línea: 19 % del alto y 79 % del ancho («PLANCHA»); 2 líneas: ≈ 9 % por línea y ≈ 70 % del ancho",
+      "color": "#FFFFFF sin borde",
+      "fuente": "fuente_rotulo.py --color #FFFFFF sobre «PLANCHA»: 1) Montserrat 800 (0,899), 2) Archivo 800 (0,754), 3) Outfit 900 (0,718)",
+      "sonido": "golpe grave que arranca desde casi silencio en 2 de 5 (2:10.68, +9,1 dB sobre la voz; 12:25.65, +11,5 dB): cae en el compás de la música, no se puede separar de ella. Sin golpe en «FUERZA DE AGARRE» (14:10.8).",
+      "disparador": "el nombre de la prueba dicho por Fezz («plancha» en 0:08.18)",
+      "por_minuto": "0,28",
+      "total": "5: «PLANCHA» 0:07.87–0:08.75 (0,9 s), «FLEXIONES» 2:10.68–2:11.97 (1,3 s), «TIRAR DE LA CUERDA» 12:25.56–12:27.1 (1,55 s), «FUERZA DE AGARRE» 14:10.8–14:11.8 (1,0 s), «3 EN RALLA» con icono de tablero 15:33.4–15:34.4 (1,0 s). La final NO lleva cartela.",
+      "duracion_f": "22–37",
+      "ejemplos": [
+        "0:07.87 «PLANCHA»",
+        "2:10.68 «FLEXIONES»",
+        "12:25.56 «TIRAR DE LA CUERDA» sobre un adelanto desenfocado de la propia soga"
+      ],
+      "cuando_si": "al presentar cada prueba eliminatoria",
+      "cuando_no": "en la final: ahí se quita todo el gráfico. Ojo: la quinta lleva una errata («RALLA» por «RAYA»)"
+    },
+    {
+      "tipo": "explicador de reglas",
+      "que_es": "Bloque de 8,6 s (2:10.7–2:19.3) con voz en off de Fezz: cartela → 6 planos (2 de ellos, adelantos de la propia prueba) → 9 subtítulos blancos de 2–3 palabras → «REPS TOTALES» con las tres cifras de equipo pixeladas (2:15.1–2:16.15) → X roja a pantalla completa con «ELIMINADO» (2:18.55–2:19.34).",
+      "entrada_salida": "«REPS TOTALES»: entra y sale por corte sobre plano oscurecido y desenfocado (25 f). X: aparece de golpe con 2 f de destello rojo, el plano queda teñido de rojo oscuro y desenfocado, y la X encoge del ≈ 80 % al ≈ 62 % del alto en 18 f; sale por corte (19 f).",
+      "curva": "golpe + asentamiento",
+      "posicion": "«REPS TOTALES» arriba-centro con las 3 cifras en fila debajo; X centrada",
+      "tamano": "X ≈ 75 % del alto; cifras pixeladas ≈ 10 %",
+      "color": "X roja con borde oscuro; cifras verde, azul y roja en mosaico",
+      "fuente": "Montserrat ExtraBold a ojo (misma familia que cartelas)",
+      "sonido": "la X cae en un golpe grave de +16,2 dB sobre la voz (2:18.6), el pico más alto medido en el vídeo; coincide con el compás de la música (golpes cada 2,65 s desde 2:10.68)",
+      "disparador": "las palabras «se suman» (cifras pixeladas) y «eliminado» (X)",
+      "por_minuto": "—",
+      "total": "1 completo (flexiones); las otras pruebas se explican a cámara en 1 frase (agarre) o en una toma de 14,3 s (tres en raya)",
+      "duracion_f": 206,
+      "ejemplos": [
+        "2:15.1–2:16.15 marcador final tapado: se enseña que habrá tres totales sin dejar leerlos",
+        "2:18.55–2:19.34 X + «ELIMINADO»"
+      ],
+      "cuando_si": "la prueba con regla menos evidente (suma por equipos)",
+      "cuando_no": "pruebas que se entienden viéndolas (soga, carrera)"
+    },
+    {
+      "tipo": "cuenta atrás de videojuego",
+      "que_es": "«3», «2», «1», «GO!» con degradado amarillo–rojo, doble borde y rayos; la única pieza con estética distinta al resto (plantilla).",
+      "entrada_salida": "cada cifra entra con su corte y se desvanece en ≈ 20 f; «GO!» 13 f",
+      "curva": "golpe + fundido de salida",
+      "posicion": "centro",
+      "tamano": "≈ 35 % del alto",
+      "color": "degradado #FFE000 → #FF2A00 aprox., borde blanco y negro",
+      "fuente": "rotulación de plantilla (no medida)",
+      "sonido": "pitido por cifra + pitido agudo en «GO!»",
+      "disparador": "la cuenta dicha por Fezz («3» 0:09.70, «2» 0:10.38, «1» 0:11.56, «ya» 0:12.50); el gráfico se permite ir 0,05–0,7 s detrás de la voz para caer en su corte",
+      "por_minuto": "—",
+      "total": "1 (solo en la primera prueba; las demás cuentas atrás son solo voz)",
+      "duracion_f": 85,
+      "ejemplos": [
+        "0:09.75 «3»",
+        "0:11.04 «2»",
+        "0:12.75–0:13.29 «GO!»"
+      ],
+      "cuando_si": "el primer arranque del vídeo, dentro de la intro",
+      "cuando_no": "no se repite: 15 series y 5 pruebas más empiezan sin ella"
+    },
+    {
+      "tipo": "dato grande detrás del sujeto",
+      "que_es": "«10 PARTICIPANTES» en blanco que pasa por DETRÁS de Fezz (recorte del sujeto) y se mantiene a través de un corte; y «4 MIN» sobre su pecho.",
+      "entrada_salida": "fundido de 3 f (12:22.40–12:22.49); fijo; cruza el corte de 12:23.20 (también detrás de él en el plano nuevo); sale por corte en 12:23.80",
+      "curva": "fundido corto",
+      "posicion": "centro (x 225–1.690, y 520–625)",
+      "tamano": "9,7 % del alto; 76 % del ancho",
+      "color": "#FFFFFF",
+      "fuente": "Montserrat ExtraBold a ojo",
+      "sonido": "sin golpe propio (los bombos de 12:20.5, 12:21.8 y 12:23.15 son de la música)",
+      "disparador": "la frase «quedan un total de 10 participantes» (12:22.07)",
+      "por_minuto": "—",
+      "total": 2,
+      "duracion_f": "33 («10 PARTICIPANTES»); 24 («4 MIN», 1:03.7–1:04.7)",
+      "ejemplos": [
+        "12:22.40–12:23.80",
+        "1:03.7–1:04.7 «4 MIN»"
+      ],
+      "cuando_si": "recuento tras una eliminación grande",
+      "cuando_no": "no hay recuento gráfico tras la soga, el agarre ni el tres en raya"
+    },
+    {
+      "tipo": "tarjetas de baja y revivido",
+      "que_es": "Dos tarjetas a los lados de la pareja: la del lesionado en color y la del eliminado en gris; se cruzan por fundido (el que entra pasa a color, el que sale a gris).",
+      "entrada_salida": "aparecen de golpe en 13:32.9; fundido cruzado de ≈ 14 f en 13:34.3–13:35.0; la del revivido crece un poco al salir (13:36.4); corte en 13:36.6",
+      "curva": "golpe + fundido",
+      "posicion": "a izquierda y derecha, y 14–37 % del alto",
+      "tamano": "≈ 22 % del alto",
+      "color": "azul de equipo / escala de grises",
+      "fuente": "@ sans negrita",
+      "sonido": "la escena va SIN música desde 13:29.2; un colchón tonal entra en 13:34.3, justo con el cambio de color",
+      "disparador": "«bro, revives»",
+      "por_minuto": "—",
+      "total": 1,
+      "duracion_f": 86,
+      "ejemplos": [
+        "13:32.9–13:36.5 @campos_gym ↔ @tonigimenex"
+      ],
+      "cuando_si": "cambio de estado de un jugador concreto",
+      "cuando_no": "la eliminación del agarre (15:05) no lleva ni tarjeta ni X: solo «Eliminada. Hola.» en silencio"
+    },
+    {
+      "tipo": "casillas pintadas sobre el suelo (tres en raya)",
+      "que_es": "Cada casilla del tablero pintado en la pista se rellena de color semitransparente pegado a la perspectiva del suelo cuando cae el disco; la línea ganadora se enciende entera.",
+      "entrada_salida": "aparece en el fotograma en que el disco toca; se mantiene mientras dura el plano cenital",
+      "curva": "golpe",
+      "posicion": "anclada al suelo (seguimiento en perspectiva)",
+      "tamano": "una casilla ≈ 8–10 % del alto en el plano corto",
+      "color": "turquesa ≈ #3FD9C4 y rojo ≈ #D8262E",
+      "fuente": "—",
+      "sonido": "ninguno (sonido directo)",
+      "disparador": "disco colocado",
+      "por_minuto": "—",
+      "total": "≥ 5 casillas en 16:04–16:10.4",
+      "duracion_f": "7–25",
+      "ejemplos": [
+        "16:06.6 turquesa",
+        "16:06.7 roja",
+        "16:10.1–16:10.4 las 3 rojas de la columna ganadora"
+      ],
+      "cuando_si": "juego cuyo estado no se lee a 17 cortes en 10 s sin ayuda",
+      "cuando_no": "—"
+    },
+    {
+      "tipo": "gag con efecto de archivo",
+      "que_es": "Rayos eléctricos azul cian saliendo del centro sobre la cara de un participante, plano oscurecido y azulado, con el subtítulo «carrusel» en naranja: remate de un chiste («la vida es un carrusel»).",
+      "entrada_salida": "por corte, ≈ 1 s",
+      "curva": "—",
+      "posicion": "pantalla completa; subtítulo abajo-centro (y 960–1.035)",
+      "tamano": "subtítulo 5 % del alto",
+      "color": "rayos cian; texto ≈ #FFA41C con borde negro grueso y sombra dura",
+      "fuente": "fuente_rotulo.py --color #FFA41C: 1) Montserrat 600 (0,836), 2) Space Grotesk 700 (0,712), 3) DM Sans 700 (0,679); a ojo Montserrat ExtraBold (el borde engaña al peso)",
+      "sonido": "no confirmado",
+      "disparador": "la frase-chiste",
+      "por_minuto": "—",
+      "total": 1,
+      "duracion_f": "≈ 24",
+      "ejemplos": [
+        "6:52.5"
+      ],
+      "cuando_si": "un solo chiste visual en 18 min, en la zona más repetitiva (minuto 6 de flexiones)",
+      "cuando_no": "no hay memes ni insertos de archivo en el resto"
+    },
+    {
+      "tipo": "ganador tapado (pixelado con seguimiento)",
+      "que_es": "En la intro, la persona que gana aparece en gris y en mosaico; lo mismo se hace con los totales («REPS TOTALES») y con los iconos de las pruebas futuras: pixelar = «esto se sabrá».",
+      "entrada_salida": "con el plano (0:33.08–0:35.16)",
+      "curva": "—",
+      "posicion": "sobre el cuerpo de la persona",
+      "tamano": "≈ 60 % del alto",
+      "color": "escala de grises",
+      "fuente": "—",
+      "sonido": "subida previa + 1,9 s de casi silencio + golpe",
+      "disparador": "«la respuesta podrá sorprenderte»",
+      "por_minuto": "—",
+      "total": "3 usos del pixelado (ganador, totales, iconos)",
+      "duracion_f": 51,
+      "ejemplos": [
+        "0:33.08 ganador",
+        "2:15.1 totales",
+        "0:09.4 iconos"
+      ],
+      "cuando_si": "para enseñar el final sin gastarlo",
+      "cuando_no": "—"
+    }
+  ],
+  "motion_graphics_resumen": "18 tipos, todos construidos con 4 ingredientes: la tarjeta-retrato, el color del equipo, la familia Montserrat ExtraBold en blanco y el fondo desenfocado y oscurecido. Densidad muy desigual: la intro lleva 9 gráficos en 35 s y el sorteo 15 destellos en 24 s; las flexiones viven del contador y de un parcial cada 2–4 min; la final y el cierre (1 min 40 s) no llevan NINGUNO. Regla que se repite: el gráfico entra en la palabra (0,03–0,12 s después) y se va en 0,7–1,7 s; lo único que se queda son los contadores.",
+  "cortes": {
+    "total_cortes_json": 461,
+    "cortes_por_minuto_cortes_json": 25.6,
+    "total_estimado": 520,
+    "margen": "± 25 (495–545)",
+    "cortes_por_minuto_estimado": 28.9,
+    "nota_correccion": "Contado a ojo a 0,1 s: 1:00–2:00 = 35 cortes (detector 22, ×1,59: no ve los cortes tapados por el destello de color, ni los contraplanos de entrevista sobre el mismo fondo, ni los 3 barridos); 5:00–6:00 = 35 (detector 34, ×1,03); 16:00–17:00 = 37 (detector 38, ×0,97); 13:11–13:39 = 14 (detector 14). Suma 121 frente a 108 (×1,12), pero el minuto 1 es un caso aparte, así que no se aplica el factor a todo. Se suma por partes: 461 + 19 de la ráfaga de retratos (20 planos de 2 f que el detector deja en 1 «transición») + 13 del minuto 1 + ≈ 25 jump cuts al mismo encuadre repartidos por las flexiones (comprobados 3: 2:58.0, 3:01.6 y 5:35.4; los candidatos por debajo del umbral son 68 en todo el vídeo) ≈ 518.",
+    "global": {
+      "planos": 462,
+      "media_s": 2.34,
+      "mediana_s": 1.5,
+      "p10_s": 0.71,
+      "p90_s": 4.3,
+      "max_s": 36.12,
+      "menos_de_1s_pct": 26,
+      "mas_de_5s_pct": 9
+    },
+    "global_estimado": {
+      "planos": 521,
+      "media_s": 2.07,
+      "nota": "con la ráfaga de retratos, ≈ 29 % de los planos por debajo de 1 s"
+    },
+    "por_parte": [
+      {
+        "parte": "intro (0:00–0:35.2)",
+        "planos_detectados": 31,
+        "planos_reales": 52,
+        "media_s": 0.68,
+        "mediana_s": "0,08 con la ráfaga; 0,92 sin ella",
+        "menos_de_1s_pct": 77,
+        "nota": "contada plano a plano; sin la ráfaga, 32 planos de 1,05 s de media"
+      },
+      {
+        "parte": "plancha (0:35.2–1:02.7)",
+        "planos": 18,
+        "media_s": 1.53,
+        "mediana_s": 1.36,
+        "nota": "el reloj avanza 100 s en 27,5 s de pantalla"
+      },
+      {
+        "parte": "sorteo y entrevistas (1:02.7–2:10.6)",
+        "planos_detectados": 25,
+        "planos_reales": "≈ 40",
+        "media_s": "2,72 detectado; ≈ 1,7 real",
+        "nota": "sorteo 1,0–1,6 s por plano; entrevistas 8–12 s por toma"
+      },
+      {
+        "parte": "flexiones (2:10.6–12:20.4)",
+        "planos": 259,
+        "media_s": 2.35,
+        "mediana_s": 1.58,
+        "menos_de_1s_pct": 20,
+        "max_s": 20.3,
+        "nota": "patrón lateral fijo 1,2–2,5 s ↔ inserto 0,9–1,2 s; las tomas «de 18–20 s» del detector esconden jump cuts"
+      },
+      {
+        "parte": "soga (12:20.4–14:09.9)",
+        "planos": 38,
+        "media_s": 2.88,
+        "mediana_s": 1.31,
+        "max_s": 36.1,
+        "nota": "bimodal: un plano secuencia de estrategia y la tirada en planos de 0,5–3,4 s"
+      },
+      {
+        "parte": "agarre (14:09.9–15:09.4)",
+        "planos": 24,
+        "media_s": 2.48,
+        "mediana_s": 2.23
+      },
+      {
+        "parte": "parejas y tres en raya (15:09.4–16:18.4)",
+        "planos": 41,
+        "media_s": 1.84,
+        "mediana_s": 0.96,
+        "menos_de_1s_pct": 51,
+        "nota": "el juego: 17 cortes en 10 s, planos de 0,3–1,1 s"
+      },
+      {
+        "parte": "final (16:18.4–17:12)",
+        "planos": 22,
+        "media_s": 2.31,
+        "mediana_s": 2.13
+      },
+      {
+        "parte": "cierre (17:12–17:58.9)",
+        "planos": 4,
+        "media_s": 10.84
+      }
+    ],
+    "por_minuto": [
+      48,
+      22,
+      23,
+      18,
+      18,
+      34,
+      38,
+      28,
+      26,
+      24,
+      28,
+      21,
+      12,
+      29,
+      21,
+      26,
+      38,
+      7
+    ],
+    "por_minuto_estimado": [
+      67,
+      35,
+      25,
+      21,
+      20,
+      35,
+      39,
+      29,
+      27,
+      25,
+      29,
+      22,
+      12,
+      29,
+      22,
+      27,
+      37,
+      7
+    ],
+    "por_minuto_nota": "detector y, debajo, estimación (minutos 0, 1, 5 y 16 contados a ojo; el resto, detector más los jump cuts repartidos). El último minuto son 59 s.",
+    "rafagas": {
+      "definicion": "3 o más cortes en 2 s",
+      "total": "15: la de retratos (a mano) + 14 grupos del detector",
+      "por_minuto": 0.83,
+      "donde": "0:00.50–0:02.12 retratos (20 planos, 12 por segundo); 0:19.3–0:20.3 detalles de la plancha (4); 0:25.7–0:27.4 adelantos (4); 5:28.4, 5:57.9, 6:05.3, 6:11.2, 6:53.1 y 8:47.7 arranques y remates de serie (3 cada uno); 13:12.5–13:14.3 arranque de la soga (4); 13:53.9 (3); 16:00.0–16:10.5 tres en raya (4 grupos encadenados, 18 cortes)",
+      "con_que_material": "retratos posados (intro), y en el cuerpo SIEMPRE acción en directo con 2–3 cámaras: nunca archivo ni memes",
+      "nota_detector": "detectar_cortes.py --rafagas --hasta 36 no marcó ningún corte de ráfaga en la intro (solo 1 «transición» en 1,877 s): la ráfaga de 2 fotogramas se contó a mano en detalle/rafaga_f09_f56.jpg"
+    },
+    "jump_cuts_al_hablar": "Casi no hay busto hablando: Fezz habla andando, con micro, y se le corta cambiando de cámara. Jump cuts al mismo encuadre vistos: 5:18.6 (Fezz leyendo el móvil, se quita una pausa) y 1:32.3 (una chica avanza). Donde sí hay jump cut sistemático es en la ACCIÓN: el lateral fijo de las flexiones se corta sobre sí mismo y el contador explica el salto (2:58.0, 5 → 15; 3:01.6, 20 → 24; 5:35.4, 24 → 29).",
+    "j_l_cuts": "La voz en off de la intro y de las reglas corre por encima de 2–6 planos por frase. En directo, la voz de Fezz contando («46, 47…») sigue debajo de los insertos del equipo. No medidos uno a uno.",
+    "match_cuts": "Ninguno construido. Lo más cercano: la tira de equipo que sube sobre Fezz y 0,2 s después corte al equipo (5:20.0 → 5:20.2), y el resultado «56» que cruza un corte (5:55.4).",
+    "insertos_cortos": "Insertos de 0,6–1,3 s dentro de cada serie: Fezz agachado contando (0,8–1,3 s) o el equipo animando con subtítulo de su color (1,2 s); ≈ 1 cada 2–3 s de lateral. Cada inserto esconde una elipsis (el contador salta 5–18 repeticiones). En la plancha, planos de 6–9 f (0:19.29–0:20.21). Ningún meme ni repetición.",
+    "planos_largos": "Se reservan para: (1) las últimas repeticiones de una serie (5:08.8–5:15.4, 6,6 s; 5:46.0–5:54.9, 8,9 s; tripode, escala ×1,000); (2) el clímax de las flexiones (11:33.2–11:43.6, 10,4 s; 11:48.8–12:01.0, 12,2 s, con el 86 y la sentencia dentro); (3) la estrategia de la soga (12:30.3–13:06.4, 36,1 s, el plano más largo); (4) las reglas a cámara del tres en raya (15:34.5–15:48.9, 14,3 s); (5) el anuncio tras cada prueba (16:10.5–16:18.4, 7,9 s) y (6) el cierre (4 tomas de 8–18 s).",
+    "velocidad": "Ni cámara rápida, ni cámara lenta, ni congelados, ni rebobinados, ni rampas de velocidad en todo el vídeo. La carrera final va en tiempo real (8 s) y sin repetición.",
+    "cortes_a_ritmo_de_musica": "32 % de los cortes detectados caen en pulso y 23 % en acento (audio.json): no se monta a compás. Sí se cortan a golpe de música tres gráficos: cartela «FLEXIONES» (2:10.68), X de «ELIMINADO» (2:18.6; es el cuarto golpe de una pista que marca cada 2,65 s: 2:10.68, 2:13.32, 2:16.00, 2:18.64) y cartela de la soga (12:25.65)."
+  },
+  "zooms": [
+    {
+      "tipo": "zoom-out de entrada (primer plano del vídeo)",
+      "medido": "medir_zoom.py 0,00–0,46",
+      "escala_inicial_final": "×1,42 → ×1,00",
+      "duracion_f": 10,
+      "curva": "frenada (1,42 · 1,31 · 1,17 · 1,05 · 1,00)",
+      "centro": "Fezz, en el centro del grupo",
+      "disparador": "fotograma 0",
+      "extras": "desenfoque de movimiento; sin sonido propio",
+      "por_minuto": "—",
+      "total": 1,
+      "ejemplos": [
+        "0:00.00–0:00.42"
+      ]
+    },
+    {
+      "tipo": "zoom-in con frenada sobre plano de la intro",
+      "medido": "medir_zoom.py 2,2–3,2 y 33,12–35,1",
+      "escala_inicial_final": "×1,00 → ×1,25 (28 %/s) y ×1,00 → ×1,53 que afloja a ×1,43",
+      "duracion_f": "22 y 26",
+      "curva": "frenada",
+      "centro": "centro del grupo; el ganador pixelado",
+      "disparador": "arranque del plano en la voz en off",
+      "extras": "el segundo va con 1,9 s de casi silencio debajo",
+      "por_minuto": "solo en la intro",
+      "total": 2,
+      "ejemplos": [
+        "0:02.16–0:03.1",
+        "0:33.08–0:34.2"
+      ]
+    },
+    {
+      "tipo": "golpe de zoom a un objeto",
+      "medido": "medir_zoom.py 4,33–5,85",
+      "escala_inicial_final": "×1,0 → ×2,87 y deriva hasta ×2,94",
+      "duracion_f": "4 de golpe + 29 de deriva (2 %/s)",
+      "curva": "golpe y deriva lineal",
+      "centro": "el trofeo en la mano de Fezz",
+      "disparador": "«y ganar» (0:04.4), para llegar al objeto antes de la palabra «trofeo» (0:05.36)",
+      "extras": "brillo dorado sobre el trofeo desde 0:05.08; subida tonal 0:05.12–0:05.79",
+      "por_minuto": "—",
+      "total": 1,
+      "ejemplos": [
+        "0:04.43–0:04.63"
+      ]
+    },
+    {
+      "tipo": "zoom lineal continuo sobre plano lejano",
+      "medido": "medir_zoom.py 1.008,7–1.011,2",
+      "escala_inicial_final": "×1,00 → ×1,17",
+      "duracion_f": 58,
+      "curva": "lineal (7,2 %/s)",
+      "centro": "los dos corredores, diminutos, al fondo de la pista",
+      "disparador": "plano general lejano de la carrera final",
+      "extras": "ninguno",
+      "por_minuto": "—",
+      "total": 1,
+      "ejemplos": [
+        "16:48.7–16:51.2"
+      ]
+    },
+    {
+      "tipo": "plano más cerrado por corte (énfasis sin animar)",
+      "medido": "a ojo sobre hojas a 0,1–0,25 s; no se sabe si es recorte digital u otra cámara",
+      "escala_inicial_final": "×1,6–2,0 respecto al plano anterior",
+      "duracion_f": "50–77 de permanencia; se vuelve por corte",
+      "curva": "corte",
+      "centro": "la cara de esfuerzo, el dinamómetro, el ganador",
+      "disparador": "el momento de apretar («3, 2, 1») o el nombre del ganador",
+      "extras": "sin sonido añadido; en «¡Toni!» coincide con vítores y música",
+      "por_minuto": "≈ 0,4",
+      "total": "≈ 8: 5 en el agarre (uno por participante), 1 en el ganador, 2 en entrevistas (1:43.0, 1:59.1)",
+      "ejemplos": [
+        "14:22.1–14:24.4 dinamómetro (×≈ 1,9)",
+        "17:04.02–17:07.19 «¡Toni!» (×≈ 1,6, 3,2 s)",
+        "1:43.0 entrevista del azul"
+      ]
+    },
+    {
+      "tipo": "asentamiento de escala en gráficos",
+      "medido": "fotograma a fotograma (detalle/f1_129.6 y f1_137.8)",
+      "escala_inicial_final": "cartela 100 % → ≈ 85 % del ancho; X ≈ 80 % → ≈ 62 % del alto",
+      "duracion_f": "16–18",
+      "curva": "frenada lenta",
+      "centro": "centro",
+      "disparador": "tras la entrada del gráfico",
+      "extras": "es lo que evita que un texto de 1 s parezca una diapositiva",
+      "por_minuto": "—",
+      "total": "≥ 3 comprobados (FLEXIONES, X, tarjetas de finalistas ≈ −10 % en 0,2 s)",
+      "ejemplos": [
+        "2:10.93–2:11.60",
+        "2:18.55–2:19.30",
+        "16:19.6–16:19.8"
+      ]
+    },
+    {
+      "tipo": "zoom digital sobre el busto al hablar",
+      "medido": "medir_zoom.py en 7,1–7,8 (×1,00), 110,7–119,0 (0,97–1,01, pulso de la mano), 308,9–315,3 y 346,1–354,8 (×1,000)",
+      "escala_inicial_final": "×1,00 → ×1,00",
+      "duracion_f": "—",
+      "curva": "—",
+      "centro": "—",
+      "disparador": "—",
+      "extras": "—",
+      "por_minuto": 0,
+      "total": 0,
+      "ejemplos": [
+        "0:07.04–0:07.83 primer plano hablando: fijo",
+        "1:50.6–1:59.1 entrevista de 8,5 s: fijo",
+        "5:08.8–5:15.4 lateral de flexiones: fijo"
+      ]
+    }
+  ],
+  "zooms_resumen": "5 zooms digitales animados en 18 min (0,28 por minuto) y 4 de ellos en los primeros 35 s. En el cuerpo el énfasis se hace cambiando de cámara o cortando a un plano más cerrado; el trípode se deja en ×1,000 incluso en tomas de 9 s.",
+  "textos": [
+    {
+      "tipo": "texto cinético de premisa (intro)",
+      "texto_ejemplos": [
+        "21 CREADORES / DE CONTENIDO"
+      ],
+      "fuente": "fuente_rotulo.py --color #FFFF14: 1) Montserrat 600 (0,789), 2) Outfit 700 (0,620), 3) Plus Jakarta Sans 800 (0,613). A ojo Montserrat ExtraBold (el resplandor engaña al peso).",
+      "peso": "800",
+      "mayusculas": "sí",
+      "color": "≈ #FFFF14",
+      "borde_sombra_caja": "resplandor amarillo; sin borde ni caja",
+      "tamano": "≈ 10 % del alto por línea",
+      "posicion": "franja inferior (y 830–1.080)",
+      "entrada": "sube desde fuera por abajo en 10–12 f con frenada",
+      "salida": "por corte",
+      "duracion": "37 f (1,54 s)",
+      "por_minuto": "—",
+      "total": 1,
+      "disparador": "«21» (0:00.60) y «creadores» (0:00.84)",
+      "sonido": "subida tonal 0:01.55–0:02.21",
+      "ejemplos_con_tiempo": [
+        "0:00.62–0:02.12"
+      ],
+      "recorte": "rotulos/r_21creadores.png"
+    },
+    {
+      "tipo": "cifra de premio",
+      "texto_ejemplos": [
+        "200€"
+      ],
+      "fuente": "fuente_rotulo.py --color #35FF14: 1) Archivo Black (0,459), 2) Inter 900 (0,431), 3) Unbounded 900 (0,421): no fiable (por debajo de 0,5; la extrusión 3D deforma la letra). A ojo, grotesca ultranegra.",
+      "peso": "900",
+      "mayusculas": "—",
+      "color": "≈ #35FF14 (verde neón)",
+      "borde_sombra_caja": "extrusión 3D lateral + resplandor",
+      "tamano": "28 % del alto; 55 % del ancho",
+      "posicion": "centro, sobre plano desenfocado (≈ 40 px) y oscurecido ≈ 50 %",
+      "entrada": "gira desde abajo en 11 f",
+      "salida": "por corte",
+      "duracion": "27 f (1,1 s)",
+      "por_minuto": "—",
+      "total": 1,
+      "disparador": "«200» (0:06.02)",
+      "sonido": "golpe + campanilla",
+      "ejemplos_con_tiempo": [
+        "0:05.91–0:07.00"
+      ],
+      "recorte": "rotulos/r_200e.png"
+    },
+    {
+      "tipo": "cartela de prueba",
+      "texto_ejemplos": [
+        "PLANCHA",
+        "FLEXIONES",
+        "TIRAR DE / LA CUERDA",
+        "FUERZA DE / AGARRE",
+        "3 EN RALLA"
+      ],
+      "fuente": "fuente_rotulo.py --color #FFFFFF: 1) Montserrat 800 (0,899), 2) Archivo 800 (0,754), 3) Outfit 900 (0,718)",
+      "peso": "800",
+      "mayusculas": "sí",
+      "color": "#FFFFFF",
+      "borde_sombra_caja": "nada; el contraste lo da el fondo oscurecido ≈ 35 % y desenfocado",
+      "tamano": "19 % del alto (1 línea) o ≈ 9 % por línea (2 líneas); 70–79 % del ancho",
+      "posicion": "centro",
+      "entrada": "sube con desenfoque vertical, 6–8 f, ligero rebase",
+      "salida": "corte (4 de 5) o fundido de 4 f",
+      "duracion": "22–37 f (0,9–1,55 s)",
+      "por_minuto": 0.28,
+      "total": 5,
+      "disparador": "el nombre de la prueba dicho",
+      "sonido": "golpe grave de la música en 2 de 5",
+      "ejemplos_con_tiempo": [
+        "0:07.87–0:08.75",
+        "2:10.68–2:11.97",
+        "12:25.56–12:27.1"
+      ],
+      "recorte": "rotulos/r_plancha.png"
+    },
+    {
+      "tipo": "cuenta atrás",
+      "texto_ejemplos": [
+        "3",
+        "2",
+        "1",
+        "GO!"
+      ],
+      "fuente": "rotulación de plantilla de videojuego (no medida con fuente_rotulo.py)",
+      "peso": "—",
+      "mayusculas": "sí",
+      "color": "degradado amarillo–naranja–rojo",
+      "borde_sombra_caja": "doble borde blanco y negro; rayos en «GO!»",
+      "tamano": "≈ 35 % del alto",
+      "posicion": "centro",
+      "entrada": "con el corte",
+      "salida": "fundido de ≈ 20 f",
+      "duracion": "≈ 21 f por cifra; «GO!» 13 f",
+      "por_minuto": "—",
+      "total": 1,
+      "disparador": "la cuenta de Fezz",
+      "sonido": "pitido por cifra",
+      "ejemplos_con_tiempo": [
+        "0:09.75",
+        "0:11.04",
+        "0:12.00",
+        "0:12.75–0:13.29"
+      ],
+      "recorte": "—"
+    },
+    {
+      "tipo": "cronómetro / contador",
+      "texto_ejemplos": [
+        "0:00 … 3:49",
+        "0 … 86"
+      ],
+      "fuente": "Montserrat Black a ojo; recorte del cronómetro no fiable (Lilita One 0,297 como mejor candidato)",
+      "peso": "800–900",
+      "mayusculas": "—",
+      "color": "#FFFFFF",
+      "borde_sombra_caja": "sombra muy suave",
+      "tamano": "10–12,5 % del alto",
+      "posicion": "arriba a la derecha",
+      "entrada": "volteo vertical de ≈ 4 f",
+      "salida": "por corte",
+      "duracion": "toda la serie o la prueba",
+      "por_minuto": "—",
+      "total": 16,
+      "disparador": "empieza la acción que se mide",
+      "sonido": "ninguno",
+      "ejemplos_con_tiempo": [
+        "0:13.50–1:02.60",
+        "2:26–2:44 (0 → 20)",
+        "11:10–11:50 (0 → 86)"
+      ],
+      "recorte": "rotulos/r_crono.png"
+    },
+    {
+      "tipo": "rótulo de ronda",
+      "texto_ejemplos": [
+        "RONDA 1/5",
+        "RONDA 3/5"
+      ],
+      "fuente": "Montserrat Bold a ojo; fuente_rotulo.py con puntuaciones negativas en dos recortes (r_ronda.png, r_ronda2.png): no fiable",
+      "peso": "700",
+      "mayusculas": "sí",
+      "color": "#FFFFFF",
+      "borde_sombra_caja": "sombra suave",
+      "tamano": "2,4 % del alto",
+      "posicion": "arriba a la izquierda (x 68–272, y 62–95)",
+      "entrada": "con el corte",
+      "salida": "con el corte",
+      "duracion": "≈ 9 min en 5 valores",
+      "por_minuto": "—",
+      "total": 5,
+      "disparador": "empieza la ronda",
+      "sonido": "ninguno",
+      "ejemplos_con_tiempo": [
+        "2:26",
+        "3:50",
+        "6:52"
+      ],
+      "recorte": "rotulos/r_ronda.png"
+    },
+    {
+      "tipo": "resultado (cifra grande)",
+      "texto_ejemplos": [
+        "28",
+        "56",
+        "71",
+        "39,2",
+        "57,6"
+      ],
+      "fuente": "fuente_rotulo.py --color #FFFFFF: 1) Montserrat 800 (0,960), 2) Inter 900 (0,845), 3) Rubik 700 (0,825)",
+      "peso": "800",
+      "mayusculas": "—",
+      "color": "#FFFFFF (individual); color de equipo (total)",
+      "borde_sombra_caja": "sombra suave",
+      "tamano": "17,6 % del alto (flexiones); ≈ 12 % (agarre)",
+      "posicion": "centro",
+      "entrada": "de golpe (flexiones) o fundido de 2–3 f (agarre)",
+      "salida": "de golpe o por corte; puede cruzar 1 corte",
+      "duracion": "0,7–0,9 s (flexiones); 1,5–2,0 s (agarre; la más larga, la mejor marca: «57,6», 15:03.1–15:05.1)",
+      "por_minuto": "≈ 1,6 en flexiones; 5 en 1 min en el agarre",
+      "total": "8 vistos en flexiones + 5 en agarre + 8 totales de equipo + 3 en «Resultado final»",
+      "disparador": "la cifra leída por Fezz",
+      "sonido": "ninguno propio",
+      "ejemplos_con_tiempo": [
+        "3:10.5 «28»",
+        "5:20.2–5:21.3 «63» azul",
+        "14:54.6–14:56.1 «48,3»"
+      ],
+      "recorte": "rotulos/r_res28.png, rotulos/r_marcador63.png"
+    },
+    {
+      "tipo": "dato",
+      "texto_ejemplos": [
+        "10 PARTICIPANTES",
+        "4 MIN",
+        "REPS TOTALES",
+        "ELIMINADO",
+        "Resultado final"
+      ],
+      "fuente": "Montserrat ExtraBold a ojo (misma familia que las cartelas); «Resultado final» en cursiva fina",
+      "peso": "800 (300–400 en cursiva)",
+      "mayusculas": "sí, salvo «Resultado final»",
+      "color": "#FFFFFF",
+      "borde_sombra_caja": "ninguna; «10 PARTICIPANTES» va por detrás del sujeto",
+      "tamano": "9,7 % («10 PARTICIPANTES»); ≈ 4 % («Resultado final»)",
+      "posicion": "centro o arriba-centro",
+      "entrada": "fundido de 3 f o con el corte",
+      "salida": "por corte",
+      "duracion": "1,0–1,7 s",
+      "por_minuto": "—",
+      "total": 5,
+      "disparador": "la frase que lo dice",
+      "sonido": "ninguno confirmado",
+      "ejemplos_con_tiempo": [
+        "12:22.40–12:23.80",
+        "1:03.7–1:04.7",
+        "2:15.1–2:16.15"
+      ],
+      "recorte": "—"
+    },
+    {
+      "tipo": "bocadillo de participante (pegado a quien habla)",
+      "texto_ejemplos": [
+        "YO?",
+        "39 TAMBIEN",
+        "ME DEJAS REPETIR",
+        "O QUE?"
+      ],
+      "fuente": "Montserrat Black a ojo (no medido)",
+      "peso": "900",
+      "mayusculas": "sí",
+      "color": "#FFFFFF",
+      "borde_sombra_caja": "borde negro grueso + sombra dura desplazada abajo-derecha (aspecto de pegatina)",
+      "tamano": "4,2 % del alto",
+      "posicion": "junto a la boca o el hombro de quien lo dice (p. ej. x 1.150–1.320, y 680–745), no abajo",
+      "entrada": "de golpe",
+      "salida": "de golpe",
+      "duracion": "0,3–1,1 s",
+      "por_minuto": "4 en 1 min (solo en el agarre)",
+      "total": 4,
+      "disparador": "frase-chiste de un participante sin color de equipo que valga (ya compiten de uno en uno)",
+      "sonido": "ninguno",
+      "ejemplos_con_tiempo": [
+        "14:29 «YO?»",
+        "14:47.4–14:48.5 «39 TAMBIEN»",
+        "14:59.2–15:00.1 «ME DEJAS REPETIR» / «O QUE?»"
+      ],
+      "recorte": "—"
+    },
+    {
+      "tipo": "texto-chiste",
+      "texto_ejemplos": [
+        "carrusel",
+        "LOCURAAA",
+        "hjdpt*"
+      ],
+      "fuente": "«carrusel»: 1) Montserrat 600 (0,836), 2) Space Grotesk 700 (0,712), 3) DM Sans 700 (0,679). «LOCURAAA»: 1) Work Sans 600 (0,621), 2) Lexend 600 (0,612), 3) Manrope 800 (0,567)",
+      "peso": "700–800",
+      "mayusculas": "mezcla",
+      "color": "naranja ≈ #FFA41C; rojo de equipo",
+      "borde_sombra_caja": "borde negro grueso + sombra dura",
+      "tamano": "5 % del alto",
+      "posicion": "abajo-centro",
+      "entrada": "de golpe",
+      "salida": "de golpe",
+      "duracion": "0,5–1 s",
+      "por_minuto": "—",
+      "total": "≈ 3",
+      "disparador": "el remate; se alargan las vocales o se censura con asterisco",
+      "sonido": "no confirmado",
+      "ejemplos_con_tiempo": [
+        "6:52.5",
+        "3:12.6",
+        "0:58.0–0:58.5"
+      ],
+      "recorte": "rotulos/r_carrusel.png, rotulos/r_sub_locura.png"
+    }
+  ],
+  "textos_resumen": "Dos familias y nada más: Montserrat ExtraBold/Black para todo lo que es JUEGO (cartelas, cifras, contadores, datos) y una grotesca neutra tipo Helvetica/Arial Bold con borde para todo lo que es HABLA (subtítulos). Tres tamaños de juego: 17–19 % (cartela y resultado), 10–12,5 % (contador, dato) y 2,4 % (ronda). El blanco es neutro; el color siempre significa equipo; el amarillo y el verde neón solo salen una vez, en la intro.",
+  "subtitulos": {
+    "hay": "sí, puntuales (no continuos)",
+    "cuando": "(1) Toda la voz en off de Fezz: intro (0:00–0:07.0 y 0:24.8–0:35.2) y reglas de las flexiones (2:12.0–2:19.3). (2) Frases sueltas de participantes: piques, ánimos y chistes. (3) Alguna pregunta de Fezz en entrevista («NO TIENEN NI IDEA?», 12:50). El directo de Fezz NO se subtitula (comprobado en 0:16.5, «No quiero ver culos arriba»).",
+    "color_por_hablante": "blanco = Fezz; azul, rojo o verde = participante de ese equipo (el color dice de qué equipo es quien habla sin enseñar su tarjeta); blanco con aspecto de pegatina = participantes cuando ya no hay equipos (agarre).",
+    "formato": "1–3 palabras por vez, una línea, mayúsculas casi siempre (minúsculas en algunos de equipo: «me parece», «un abuso», «de equipo»), abajo-centro (base a 5–7 % del borde), alto de letra 4,3–5 % (46–55 px), borde negro ≈ 3 px + sombra dura abajo-derecha. Cambian con la voz cada 0,4–1,0 s.",
+    "fuente": "grotesca neutra tipo Helvetica/Arial Bold (no está entre las candidatas de la herramienta). fuente_rotulo.py: «QUEDARA» blanco: 1) Inter 600 (0,753), 2) Inter Tight 600 (0,646), 3) Figtree 600 (0,638). «NO TIENEN NI IDEA?» blanco: 1) DM Sans 700 (0,706), 2) Work Sans 600 (0,695), 3) Montserrat 600 (0,687). «TIRAOS PARA ATRAS» rojo: 1) Archivo 600 (0,594), 2) Manrope 600 (0,552), 3) Work Sans 600 (0,536). Equivalente libre: Inter 600–700.",
+    "enfasis": "por color de equipo y alargando letras («LOCURAAA»); no hay palabra resaltada dentro de la frase ni cambio de tamaño. En la intro, el dato fuerte sale del subtítulo y pasa a ser un gráfico grande («21 CREADORES», «200€», «PLANCHA»): el subtítulo se calla mientras está el gráfico.",
+    "entrada_salida": "de golpe, sin animación",
+    "ejemplos_con_tiempo": [
+      "0:02.2–0:03.2 «PARA QUE» / «SE ENFRENTEN» (blanco, voz en off)",
+      "1:43.1–1:44.9 «me parece» / «un abuso» / «de equipo» (azul)",
+      "5:05.1 «sigue, sigue, sigue» (verde, sobre el inserto del equipo)",
+      "12:34–12:42 «ES HOLDEAR» / «TIRAOS PARA ATRAS» (rojo)",
+      "0:38.0–0:38.5 «ME COMEIS» / «LOS HUEVOS» (blanco)"
+    ],
+    "cuantos": "≥ 55 frases de participante contadas en las hojas (muestreo cada 2 s: es un suelo) + ≈ 26 bloques de voz en off; en pantalla ≈ 10 % del vídeo"
+  },
+  "sfx": {
+    "confirmados": [
+      {
+        "t": "0:01.55–0:02.21",
+        "tipo": "subida tonal (riser)",
+        "acompaña_a": "ráfaga de retratos con «21 CREADORES»; muere en seco en el corte a la plancha (f52)",
+        "respecto_voz_db": 11.1
+      },
+      {
+        "t": "0:05.12–0:05.79",
+        "tipo": "subida tonal (riser)",
+        "acompaña_a": "brillo dorado del trofeo (0:05.08–0:05.87)",
+        "respecto_voz_db": 13.9
+      },
+      {
+        "t": "0:05.79–0:06.00",
+        "tipo": "impacto de banda ancha",
+        "acompaña_a": "entrada de «200€» (0:05.91)",
+        "respecto_voz_db": 13.9
+      },
+      {
+        "t": "0:06.08–0:06.90",
+        "tipo": "campanilla (ding sostenido)",
+        "acompaña_a": "«200€» ya asentado; cae en la palabra «200» (0:06.02)",
+        "respecto_voz_db": 3.8
+      },
+      {
+        "t": "0:09.76",
+        "tipo": "pitido de cuenta atrás",
+        "acompaña_a": "«3» (gráfico 0:09.75)",
+        "respecto_voz_db": 3.7
+      },
+      {
+        "t": "0:11.05",
+        "tipo": "pitido de cuenta atrás",
+        "acompaña_a": "«2» (gráfico 0:11.04)",
+        "respecto_voz_db": -0.5
+      },
+      {
+        "t": "0:12.00",
+        "tipo": "pitido de cuenta atrás",
+        "acompaña_a": "«1» (gráfico 0:12.00)",
+        "respecto_voz_db": 1.8
+      },
+      {
+        "t": "0:12.96–0:13.92",
+        "tipo": "pitido agudo de salida",
+        "acompaña_a": "«GO!» (0:12.75–0:13.29)",
+        "respecto_voz_db": 7.0
+      },
+      {
+        "t": "0:32.28–0:32.95",
+        "tipo": "subida tonal (riser)",
+        "acompaña_a": "fin de «¿quién es el más fitness?», antes del corte al ganador pixelado (0:33.08); después, 1,9 s de casi silencio",
+        "respecto_voz_db": 7.6
+      },
+      {
+        "t": "0:35.32",
+        "tipo": "impacto grave",
+        "acompaña_a": "destello blanco y corte de fin de intro (0:35.20)",
+        "respecto_voz_db": 8.7
+      },
+      {
+        "t": "1:04.85",
+        "tipo": "impacto + bombo grave (cola hasta 1:06.05)",
+        "acompaña_a": "corte de cambio de sección a «en la siguiente prueba se dividirán por equipos» (1:04.81)",
+        "respecto_voz_db": 3.7
+      },
+      {
+        "t": "1:13.31",
+        "tipo": "toque tonal (acorde corto, ≈ 1 s)",
+        "acompaña_a": "destello azul de equipo (1:13.30)",
+        "respecto_voz_db": -0.5
+      },
+      {
+        "t": "1:14.50",
+        "tipo": "toque tonal",
+        "acompaña_a": "destello verde (1:14.39)",
+        "respecto_voz_db": -9.1
+      },
+      {
+        "t": "1:15.65",
+        "tipo": "toque tonal",
+        "acompaña_a": "destello rojo (1:15.5)",
+        "respecto_voz_db": -4.1
+      },
+      {
+        "t": "1:16.68",
+        "tipo": "toque tonal",
+        "acompaña_a": "destello azul (1:16.6)",
+        "respecto_voz_db": -11.6
+      },
+      {
+        "t": "1:18.1",
+        "tipo": "toque tonal",
+        "acompaña_a": "destello azul (1:18.1)",
+        "respecto_voz_db": null
+      },
+      {
+        "t": "1:19.85",
+        "tipo": "toque tonal",
+        "acompaña_a": "destello azul (1:19.7)",
+        "respecto_voz_db": null
+      },
+      {
+        "t": "1:22.0",
+        "tipo": "toque tonal",
+        "acompaña_a": "destello verde (1:21.9)",
+        "respecto_voz_db": null
+      },
+      {
+        "t": "1:22.90–1:23.05",
+        "tipo": "soplido de barrido (whoosh)",
+        "acompaña_a": "transición de barrido con desenfoque (1:22.9–1:23.1)",
+        "respecto_voz_db": null
+      },
+      {
+        "t": "1:24.96",
+        "tipo": "toque tonal",
+        "acompaña_a": "destello verde (1:24.9)",
+        "respecto_voz_db": null
+      },
+      {
+        "t": "1:27.76",
+        "tipo": "toque tonal",
+        "acompaña_a": "destello rojo (1:27.5)",
+        "respecto_voz_db": null
+      },
+      {
+        "t": "1:28.9",
+        "tipo": "toque tonal",
+        "acompaña_a": "destello rojo (1:29.0)",
+        "respecto_voz_db": null
+      },
+      {
+        "t": "1:34.92",
+        "tipo": "toque tonal + vuelta de la música",
+        "acompaña_a": "destello verde (1:34.9) tras 2,2 s de silencio",
+        "respecto_voz_db": null
+      },
+      {
+        "t": "1:36.3",
+        "tipo": "toque tonal",
+        "acompaña_a": "destello azul (1:36.2)",
+        "respecto_voz_db": null
+      },
+      {
+        "t": "1:37.7",
+        "tipo": "toque tonal",
+        "acompaña_a": "destello verde (1:37.7), el último del sorteo",
+        "respecto_voz_db": null
+      },
+      {
+        "t": "16:18.4",
+        "tipo": "impacto de banda ancha + arranque de música",
+        "acompaña_a": "corte a la presentación de los dos finalistas",
+        "respecto_voz_db": 0.0
+      }
+    ],
+    "como_se_confirmo": "Mirando las 8 hojas sfx_hoja_00–07 (179 candidatos de sfx.json) y, para afinar al fotograma, 4 hojas propias de espectrograma de la pista sin voz a 187,5 px por segundo (spA–spD, en la subcarpeta temporal) cruzadas con los fotogramas a 1 f. Se da por confirmado solo lo que tiene firma propia en el espectro Y un evento visual en el mismo instante.",
+    "como_se_midio_el_nivel": "Pico de energía en ventanas de 50 ms de stems/no_vocals.wav entre −0,05 y +0,45 s del instante, menos el nivel mediano de la voz hablando (−22,3 dB en stems/vocals.wav). Son cotas superiores: la pista sin voz incluye música y público. null = visto en el espectro pero no medido.",
+    "por_minuto": "26 confirmados en 17,98 min = 1,45 por minuto (suelo). Reparto: minuto 0 → 10; minuto 1 → 15; minuto 16 → 1; los otros 15 minutos → 0.",
+    "total_confirmados": 26,
+    "golpes_de_musica_con_grafico": [
+      {
+        "t": "2:10.68",
+        "que": "golpe grave que arranca desde casi silencio con la cartela «FLEXIONES»",
+        "respecto_voz_db": 9.1
+      },
+      {
+        "t": "2:18.6",
+        "que": "golpe con la X de «ELIMINADO»; el pico más alto medido",
+        "respecto_voz_db": 16.2
+      },
+      {
+        "t": "12:25.65",
+        "que": "golpe + arranque de música con la cartela «TIRAR DE LA CUERDA»",
+        "respecto_voz_db": 11.5
+      }
+    ],
+    "golpes_de_musica_nota": "No se cuentan como efectos: caen en el compás de la pista (golpes cada 2,65 s: 2:10.68, 2:13.32, 2:16.00, 2:18.64). Lo copiable es la decisión de montaje: colocar el gráfico en el golpe.",
+    "reglas": [
+      "El efecto es de la INTRO y de la mecánica repetida, no del cuerpo: 25 de los 26 confirmados están en los primeros 98 s.",
+      "Subida tonal de 0,65 s que muere en seco en el corte, 3 veces en 35 s (0:01.55, 0:05.12, 0:32.28): siempre antes de enseñar algo (la prueba, el premio, el ganador).",
+      "Cada cifra de la cuenta atrás, su pitido; «GO!», un pitido más agudo y 3–5 dB más fuerte.",
+      "Mecánica repetida = sonido repetido: 13 de 15 revelaciones de equipo llevan su toque tonal, arrancando en seco con el destello. Son bajos (de −0,5 a −11,6 dB respecto a la voz): marcan, no tapan.",
+      "Cambio de sección = impacto en el fotograma del corte (0:35.32, 1:04.85, 16:18.4), mejor tras un hueco de música.",
+      "De los 3 barridos, solo 1 lleva soplido (1:22.9); el de 1:33.6 va a propósito en silencio.",
+      "Las tarjetas, los contadores, los resultados, los subtítulos y la barra de iconos NO llevan efecto confirmado: en las pruebas manda el sonido directo (palmas, conteo, gritos)."
+    ],
+    "candidatos_descartados": [
+      "Casi todos los candidatos de sfx.json entre 2:20 y 12:00 (tipos «notificacion», «error», «redoble»): rayas verticales repetidas = palmas, choques de manos y gritos reales (p. ej. 7:25.6, 7:51.66 aplausos que se ven en imagen; 11:48.6 y 12:00.6 choque de manos).",
+      "0:14.4–0:20.0, golpes periódicos cada ≈ 0,4 s: bombo de la música (o tic-tac; ver dudas).",
+      "1:40–2:06 («notificacion» ×13): voz y ambiente de las entrevistas.",
+      "13:17–13:22: gritos de esfuerzo de la soga.",
+      "13:38.1 y 17:21.9: choques de manos.",
+      "17:05.35: aplausos tras levantar el brazo al ganador."
+    ]
+  },
+  "musica": {
+    "proporcion_audio_json": 0.82,
+    "proporcion_corregida": "≈ 0,75–0,82: la pista sin voz incluye al público (15–20 personas jaleando), que audio.json puede contar como música en las flexiones.",
+    "primera_musica_s": 0,
+    "tramos_total": 22,
+    "voz_db_media": -23.6,
+    "voz_menos_musica_db_mediana": 5.8,
+    "voz_menos_musica_por_parte": "medido en audio.json por segundo (voz − resto, mediana): intro 1,2 dB (la música va casi al nivel de la voz en off); plancha 8,9; sorteo 8,7; entrevistas 12,2 (sin música); flexiones 3,8 (el «resto» es sobre todo público); soga 6,4; agarre 8,0; tres en raya 7,4; final 6,8; cierre 13,0.",
+    "cambios_de_pista_detectados": "4 automáticos (3:18, 6:32, 7:18, 15:32). Por espectro hay además arranques en 1:11.3 (base del sorteo), 2:10.68 (reglas), 5:18.4 (marcador), 12:25.65 (soga), 13:34.3 (colchón del revivido), 16:18.4 (finalistas) y 17:03.8 (ganador): ≈ 10–11 pistas o entradas, casi una por prueba.",
+    "tramos_clave": [
+      "0:00–0:32.95 pista de arranque, arriba, casi al nivel de la voz (1,2 dB por debajo)",
+      "1:11.3–1:38 base rítmica del sorteo con un toque tonal por revelación",
+      "1:40–2:10 entrevistas SIN música (30 s)",
+      "2:28–2:41 primera serie de flexiones sin música: se oye el conteo",
+      "5:16.8–5:18.4 casi silencio (1,6 s) y la música entra de golpe con el primer marcador",
+      "7:52–8:22 sin música (30 s de flexiones a pelo)",
+      "11:48–12:00 sin música: el 86 de Samu y la sentencia «el equipo eliminado es el equipo azul» se dicen sobre el ambiente",
+      "14:08–15:05 agarre: solo una línea de bajo con un golpe cada ≈ 2,8 s, a −33 dB",
+      "16:18.4–17:00 música rítmica de la final",
+      "17:26–17:52 charla final sin música"
+    ],
+    "silencios_a_proposito": [
+      "0:32.95–0:34.84 (1,9 s): bajo «la respuesta podrá sorprenderte», entre la subida y el golpe.",
+      "1:32.56–1:34.8 (2,2 s): aparte de Fezz («te lo juro que los he mezclado»); vuelve de golpe con el destello verde.",
+      "5:16.8–5:18.4 (1,6 s): antes del marcador parcial.",
+      "13:29.2–13:34.3 (5,1 s): corte seco de la soga a «Tenemos una baja»; el colchón entra con el cambio de color de las tarjetas.",
+      "15:06–15:10 (4 s): «Eliminada. Hola.»",
+      "16:24.9–16:25.4 (0,5 s): inserto «de hecho tengo a un revivido».",
+      "17:00.2–17:03.8 (3,6 s): la espera antes de «¡Toni!»; vítores y música entran en 17:03.8."
+    ],
+    "a_ritmo_de_cortes": "No: 32 % de los cortes en pulso y 23 % con acento. Sí van al golpe 3 gráficos (2:10.68, 2:18.6, 12:25.65).",
+    "lufs": -15.8,
+    "lra": 11.4,
+    "pico_dbtp": 0.7,
+    "lufs_nota": "LRA de 11,4 LU: mezcla poco comprimida, con diferencia real entre los gritos y las entrevistas; el pico pasa de 0 dBTP (+0,7), es decir, hay recorte.",
+    "sonido_directo_vs_musica": "En las pruebas manda el directo: conteo de Fezz, palmas, gritos del equipo. La música es cama (6–9 dB bajo la voz) y se retira en al menos 4 tramos de 12–30 s. Solo en la intro la música va al nivel de la voz."
+  },
+  "broll": {
+    "proporcion": "≈ 2,5 % del vídeo: solo se cubre la voz en off (0:00–0:07.0, 0:24.8–0:35.2 y 2:12.0–2:19.3 ≈ 25 s). El resto es acción en directo con 2–3 cámaras; cuando Fezz habla en directo se le ve a él o a quien mira.",
+    "de_donde_sale": "100 % del mismo rodaje. Dos clases: (a) grabado aparte para la intro (20 retratos contra el muro, grupo con trofeo); (b) ADELANTOS de la propia prueba que se está explicando (2:13.2–2:14.2 y 2:16.2–2:17.9 son flexiones que se verán después). Ningún archivo, ninguna captura, ningún stock (salvo los rayos del gag de 6:52).",
+    "duracion_tipica": "0,4–1,8 s por plano en la intro; 1,0–1,8 s en las reglas",
+    "vuelta_a_camara": "No hay «vuelta a cámara»: tras la voz en off se corta directamente a la acción (0:35.2 plancha; 2:19.3 Fezz de espaldas señalando).",
+    "sobre_voz": "Un plano por idea de la frase: «para que se enfrenten» → todos en plancha; «en los juegos fitness» → soga; «de las 6» → flexiones; «pruebas» → soga; «cada flexión cuenta» → una flexión."
+  },
+  "voz_en_off": "Sí, pero mínima: ≈ 25 s (2,3 %). Guionada y grabada aparte, en presente y futuro («he traído», «quedará eliminado», «podrá sorprenderte»), con todas sus frases subtituladas en blanco. Se usa solo para dos cosas: plantear el vídeo (0:00–0:07.0 y 0:24.7–0:35.2) y explicar la regla menos evidente (2:11.8–2:19.3). Todo lo demás es Fezz en directo con micro de mano: presenta, cuenta repeticiones en voz alta, lee resultados y entrevista. La voz en off de la intro va con la música a solo 1,2 dB por debajo; el directo, 6–9 dB por encima de la cama.",
+  "transiciones": [
+    {
+      "tipo": "corte seco",
+      "cuanto": "≈ 96 % de los ≈ 520 cambios de plano"
+    },
+    {
+      "tipo": "destello de color de equipo sobre el corte",
+      "cuanto": "16 (15 en el sorteo + 1 en la soga)",
+      "duracion_f": 10,
+      "donde": "1:13.3–1:37.7 y 13:26.3",
+      "como": "tinte al ≈ 70 % en el primer fotograma del plano nuevo, baja lineal a cero"
+    },
+    {
+      "tipo": "barrido con desenfoque horizontal (latigazo)",
+      "cuanto": 3,
+      "duracion_f": "8–14",
+      "donde": "1:05.9–1:06.2 (8 f, de Fezz al grupo), 1:22.9–1:23.1 (con soplido, a un plano de «cómo se hizo» con la cámara en trípode), 1:33.6–1:34.2 (14 f, en silencio)",
+      "como": "desenfoque de movimiento horizontal con franjas entre dos planos"
+    },
+    {
+      "tipo": "destello blanco",
+      "cuanto": 1,
+      "duracion_f": "2–3",
+      "donde": "0:35.20, fin de la intro",
+      "como": "blanco a pantalla completa en el corte, con golpe grave"
+    },
+    {
+      "tipo": "destello rojo con X",
+      "cuanto": 1,
+      "duracion_f": 2,
+      "donde": "2:18.55",
+      "como": "2 f lavados en rojo y el plano queda teñido"
+    },
+    {
+      "tipo": "fundido",
+      "cuanto": "1 (salida de la cartela «FUERZA DE AGARRE», 4 f) + cruces internos de gráficos (tarjetas 13:34.3–13:35.0, 14 f)",
+      "duracion_f": "4–14",
+      "donde": "14:11.7; 13:34.3",
+      "como": "fundido simple"
+    }
+  ],
+  "transiciones_nota": "Las transiciones construidas se concentran en el minuto 1 (3 barridos + 15 destellos): es el único tramo sin acción física y se compensa con transición. En las pruebas, cero.",
+  "cierre": {
+    "como_acaba": "Carrera en tiempo real (16:47.0–16:55.0, 8 s, 9 cortes) → abrazo de los finalistas (16:55.3, 2,1 s) → plano medio fijo de 4 s con «Y el ganador de los… Fitness Games…» sin música (17:00.06–17:04.0) → corte a plano más cerrado en «¡Toni!» (17:04.02, ×≈ 1,6, sostenido 3,2 s; brazo en alto en 17:04.6) → entrega del trofeo (17:09–17:12) → charla con el ganador y el finalista (17:12–17:53.5: 4 tomas de 8–18 s) → Fezz solo a cámara (17:53.9, 4,9 s) → fin en seco.",
+    "duracion_tras_el_desenlace": "55 s (17:03.7–17:58.87): 5 % del vídeo",
+    "cta": "Solo hablado, en los últimos 5 s: «recordad que os tenéis que suscribir, darle like… Nos vemos en el siguiente vídeo» (17:53.9–17:58.8). Sin botón, sin gráfico, sin subtítulo. No hay ninguna petición de suscripción antes.",
+    "pantalla_final": "No hay: ni tarjetas, ni fondo, ni negro. El último fotograma es Fezz saludando con la mano.",
+    "musica": "Sin música en 17:08–17:16 y 17:26–17:52; un resto muy bajo (−36 dB) en los últimos 6 s.",
+    "ultima_frase": "«Nos vemos en el siguiente vídeo.»",
+    "graficos": "Ninguno desde 16:26.5 (salida de la barra de iconos): los últimos 92 s del vídeo, incluida la final, van limpios."
+  },
+  "para_el_estilo": [
+    "RETO DE COMPETICIÓN = SISTEMA DE CONCURSO. Antes de montar, definir 4 piezas y no salirse de ellas: (1) ficha de jugador (retrato de estudio + @ sobre el color de su equipo, 16–17 % del alto); (2) un color por bando, usado en TODO (destello, tira, subtítulo, cifra, lavado del suelo); (3) una sola familia para el juego (ExtraBold blanca) en 3 tamaños: 17–19 % cartela y resultado, 10–12,5 % contador, 2,4 % ronda; (4) fondo desenfocado y oscurecido 35–50 % para cualquier gráfico a pantalla completa. CONTEXTO.md describe rótulos sueltos «que aparecen de golpe»; aquí forman un sistema.",
+    "COLOR = DENTRO, GRIS = FUERA, PIXELADO = TODAVÍA NO SE SABE. Tres códigos fijos: silueta gris con «??????» para el hueco por llenar, tarjeta que pasa a blanco y negro al caer (fundido de 14 f) y mosaico de ≈ 12 px sobre lo que se promete (ganador en 0:33, totales en 2:15, iconos de pruebas futuras). SIN: nunca se pixela algo que no se vaya a resolver en el vídeo.",
+    "INTRO EXPLICATIVA COMPRIMIDA (35 s) EN VEZ DEL TRÁILER DE 22–27 s DE CONTEXTO.md: premisa con un gráfico por dato en los primeros 7 s (cuántos → qué hacen → qué se gana), después la PRIMERA PRUEBA ya en marcha dentro de la intro (cartela 0,9 s + cuenta atrás 3,5 s + 11 planos de 0,2–1,8 s con el cronómetro corriendo) y solo entonces la promesa («esta es solo una de las 6») con 3–5 adelantos de 0,4–0,75 s y el final tapado 2,1 s. Adelantos: solo 3 de las 6 pruebas, ninguna cifra, ninguna cara de ganador.",
+    "RÁFAGA DE REPARTO: cuando hay más de 10 personas, presentarlas con un retrato posado de 2 fotogramas cada una (12 por segundo; 20 retratos en 1,67 s), ordenados por grupos (aquí 9 chicas y luego 11 chicos), con el texto de la premisa encima subiendo en 10–12 f y una subida tonal que muere en el corte. SIN: no rotular nombres en la ráfaga; los nombres llegan con las tarjetas cuando cada uno hace algo (cae, es sorteado, habla su equipo).",
+    "CONTADOR SIEMPRE QUE SE COMPRIME: mientras dura una prueba medible, número blanco de 10–12,5 % del alto arriba a la derecha, en capa por encima de los insertos. Las repeticiones o el tiempo se quitan SOLO en los cortes y el número salta (5–18 de golpe; reloj ×3,4–×4,9 más rápido que la pantalla). SIN cámara rápida, SIN «x minutos después», SIN fundidos. Esto sustituye a la regla de CONTEXTO.md de sostener los momentos fuertes en plano largo de 20–85 s: aquí lo sostenido son solo las ÚLTIMAS repeticiones (6–12 s en plano fijo ×1,000).",
+    "PATRÓN DE SERIE: lateral fijo en trípode 1,2–2,5 s ↔ inserto 0,9–1,2 s (el árbitro contando o el equipo animando con subtítulo de su color), y al final toma larga de 6–9 s con el fallo real → corte → resultado en cifra de 17,6 % del alto durante 0,7–0,9 s. Una serie de 20–86 repeticiones ocupa 16–40 s.",
+    "MARCADOR QUE APARECE Y SE VA: parcial por equipos cada 2–4 min con el patrón tira (sube en 5 f) → 0,2 s → corte al equipo con la cifra en su color 0,8–1,2 s → vuelta; los tres equipos en 6,6 s. Pantalla de resultado final de 1,66 s con las cifras escalonadas 2–4 f. SIN marcador fijo en pantalla.",
+    "ÍNDICE CON MISTERIO: barra de iconos de las pruebas arriba (83 % del ancho, iconos de 7–10 % del alto), 2,5–3,6 s, SOLO al cambiar de prueba (6 veces en 18 min), entrando 7–10 f antes del corte y con lo pendiente pixelado. Sustituye a la lista de tareas o el mapa de niveles de Rubén Holgado, que salen cada ≈ 2,5 min.",
+    "CARTELA DE PRUEBA: 0,9–1,55 s, texto de 19 % del alto (1 línea) sobre el propio plano desenfocado, sube en 6–8 f y luego encoge del 100 al 85 % en 16 f (nunca quieto). Colocarla en un golpe de la música tras un hueco. Después, regla en 1 frase a cámara; solo la regla difícil merece explicador con voz en off (8,6 s, 6 planos, 9 subtítulos, 3 gráficos).",
+    "REVELACIÓN EN SERIE (sorteo, reparto): corte + destello del color al 70 % que se apaga en 10 f + toque tonal + ficha al montón 7–9 f después; 1 cada 1,6 s; el suelo lavado en los colores. Reutilizar el mismo destello como «punto» en otra prueba (13:26.3).",
+    "SUBTÍTULOS POR EQUIPO: blanco para la voz en off del presentador; el color del equipo para cada frase suelta de un participante (1–3 palabras, 4,3–5 % del alto, borde negro 3 px + sombra dura). El directo del presentador NO se subtitula. Sustituye al «amarillo para el otro» de CONTEXTO.md.",
+    "ÉNFASIS SIN ZOOM: en el cuerpo, 0 zooms animados sobre personas; el momento clave se marca cortando a un plano ×1,6–1,9 más cerrado que se sostiene 2–3,2 s (apretón del agarre, nombre del ganador). Los 4 zooms digitales animados van en la intro (×1,25 en 0,9 s; ×2,87 en 4 f al trofeo; ×1,53 en 1,1 s).",
+    "DESENLACE DESNUDO: en la final y el anuncio, cero gráficos, cero cámara lenta, cero repetición: 8 s de carrera en tiempo real con 9 cortes, 3,6 s de espera sin música en plano fijo y corte al plano cerrado en el nombre. El contraste con 16 min de gráficos es lo que le da peso.",
+    "RITMO OBJETIVO: ≈ 29 cortes por minuto (25,6 detectados), mediana 1,5 s, 26–29 % por debajo de 1 s; el doble que Rubén Holgado (14–17 por minuto) y cuatro veces Paul Cuffaro (7). Pico de corte en el juego más confuso (17 cortes en 10 s con 3 cámaras), no en la final.",
+    "MÚSICA: cama 6–9 dB bajo la voz en directo (CONTEXTO.md: 12–18 dB) y casi al nivel de la voz en la intro (1,2 dB); quitarla 0,5–5 s para un aparte, un veredicto o una espera (7 veces) y dejar tramos enteros de prueba solo con el directo (4 tramos de 12–30 s).",
+    "QUÉ NO SE HEREDA DE CONTEXTO.md: (a) el tráiler de 22–27 s con lo mejor del vídeo → intro explicativa con prueba dentro; (b) la cabecera dibujada tras el gancho → no hay cabecera; (c) la voz en off como hilo (13–34 % en Rubén Holgado) → 2,3 %, solo premisa y regla; (d) el b-roll sobre voz del 20–60 % → 2,5 %; (e) rótulo de día, mapas y capturas → no existen; (f) rótulos en minúsculas que aparecen de golpe → mayúsculas con entrada animada en cartelas (las cifras sí aparecen de golpe); (g) la pantalla final de 8–15 s → fin en seco; (h) la petición de suscripción a mitad de vídeo → solo al final, hablada; (i) el plano largo de 20–85 s para el momento fuerte → 6–12 s.",
+    "QUÉ SÍ SE HEREDA: corte seco en ≈ 96 %; sin zoom animado sobre quien habla y trípode en ×1,00; subtítulos puntuales, nunca continuos; efectos de sonido pegados a intro y gráficos; el silencio como recurso; siempre un marcador de progreso."
+  ],
+  "para_la_base": [
+    "El dato fuerte de una frase sale del subtítulo y se convierte en gráfico grande; mientras está el gráfico, el subtítulo se calla (0:00.6 «21 CREADORES», 0:05.9 «200€», 0:07.9 «PLANCHA»). Nunca los dos a la vez.",
+    "El gráfico entra en SU palabra: medido, 0,03–0,12 s después del inicio de la palabra («63» dicho en 5:20.08, en pantalla en 5:20.2; «200» en 0:06.02, asentado en 0:06.41). Y no se queda más de lo que tarda en leerse: 0,7–1,7 s.",
+    "Un texto de menos de 2 s no debe estar quieto: entrada de 6–8 f con ligero rebase y deriva de escala del 100 al 85 % en 16 f. Los números de resultado, en cambio, aparecen y desaparecen de golpe.",
+    "Entrar el gráfico 7–10 f ANTES del corte de sección (barra de iconos sobre el final de la escena anterior) cose dos bloques sin transición.",
+    "Un elemento en capa por encima del montaje (contador, tira, resultado) que cruza 1–3 cortes da continuidad a un tramo muy troceado.",
+    "Elipsis honesta: si se quita tiempo, que se vea en un número que salta; no hace falta cámara rápida.",
+    "Subida de 0,65 s que muere en seco + 1–2 s de casi silencio + golpe en el corte: la forma medida de preparar una revelación (0:32.28 → 0:35.32).",
+    "Cuando un tramo no tiene acción (sorteo, reparto, explicación), subir la densidad de recursos: 15 destellos y 3 barridos en 37 s; cuando hay acción, quitarlos todos.",
+    "Los silencios cortos de música (0,5–5 s) para un aparte, un veredicto o una espera valen más que un efecto: 7 en 18 min.",
+    "Recorte del sujeto para pasar un texto por detrás (12:22.4) solo en un dato importante y con el sujeto quieto; aguanta incluso un corte si el texto no se mueve.",
+    "Primer plano hablando a cámara no antes de haber enseñado premisa y premio: aquí a los 7,04 s, y dura 0,8 s."
+  ],
+  "para_el_motor": {
+    "ESCALAS": [
+      1.0
+    ],
+    "ESCALAS_nota": "En el cuerpo no hay cambio de escala por corte sobre la misma toma: cada corte es otra cámara y el trípode se queda en ×1,000 (medido en 5:08.8–5:15.4 y 5:46.0–5:54.9). Si solo hay una cámara, imitarlo con un único plano más cerrado ×1,6–1,9 en el momento clave (≈ 0,4 por minuto), sostenido 2–3,2 s y vuelta por corte.",
+    "CAMBIO_CADA": [
+      1.2,
+      2.5
+    ],
+    "CAMBIO_CADA_nota": "Duración medida del plano principal entre insertos en las series; insertos de 0,9–1,2 s. Mediana global 1,5 s (p10 0,71; p90 4,3). Por partes: intro 0,92 (sin ráfaga), plancha 1,36, flexiones 1,58, soga 1,31, agarre 2,23, tres en raya 0,96, final 2,13.",
+    "Z_FUERTE": 1.6,
+    "Z_FUERTE_nota": "Por corte, no animado: ×≈ 1,6 en el nombre del ganador (17:04.02), ×≈ 1,9 en el dinamómetro (14:22.1). El único golpe animado grande es ×2,87 en 4 f hacia un objeto (trofeo, 0:04.43), en la intro.",
+    "Z_FUERTE_duracion_f": "corte; permanencia 50–77 f",
+    "Z_FUERTE_por_minuto": 0.4,
+    "ZOOM_LENTO": "solo 1 en el cuerpo: lineal +7,2 %/s (×1,17 en 2,4 s) sobre un plano general lejano; en la intro, deriva de +2 %/s tras el golpe al trofeo",
+    "ZOOM_INTRO": "zoom-out de entrada ×1,42 → ×1,00 en 10 f; ×1,00 → ×1,25 en 22 f con frenada; ×1,00 → ×1,53 en 26 f con frenada",
+    "CARA_Y": null,
+    "CARA_Y_nota": "No medido. En los planos a cámara de Fezz la cara queda a ≈ 0,25–0,35 del alto (a ojo).",
+    "Z_SIN_CARA": 1.0,
+    "Z_SIN_CARA_nota": "En el cuerpo, los planos sin cara (laterales de flexiones, generales) van fijos. Excepciones medidas: trofeo ×2,87 (intro) y general lejano ×1,17 lineal (final).",
+    "SFX": {
+      "golpe": "impacto en corte de sección: +3,7 dB (1:04.85), +8,7 dB (0:35.32), 0,0 dB (16:18.4) respecto a la voz",
+      "aparte": "sin efecto: se corta la música 0,5–2,2 s (1:32.56, 16:24.9)",
+      "dato": "campanilla +3,8 dB con la cifra del premio (0:06.08); toque tonal de −0,5 a −11,6 dB por cada revelación de equipo; pitidos de cuenta atrás −0,5 a +3,7 dB y +7,0 dB el de salida",
+      "titulo": "no hay título; las cartelas de prueba caen en golpe de música (+9,1 y +11,5 dB) en 2 de 5",
+      "seccion": "subida tonal de 0,65 s que muere en el corte: +7,6 a +13,9 dB (cotas superiores)",
+      "trk": "soplido en 1 de 3 barridos (1:22.9), nivel no medido",
+      "mapa": "no hay mapas",
+      "suscribe": "no hay botón ni efecto: CTA hablado"
+    },
+    "SFX_nota": "Niveles = pico de 50 ms de la pista sin voz menos la voz mediana (−22,3 dB): cotas superiores. 1,45 por minuto de media pero 25 de 26 en los primeros 98 s.",
+    "MUSICA_NIVELES": {
+      "BASE": "6–9 dB bajo la voz en directo (plancha 8,9; sorteo 8,7; soga 6,4; tres en raya 7,4; final 6,8)",
+      "SINVOZ": "≈ −24 a −27 dB de pista en los huecos sin voz (apenas sube: los huecos son de 1–2 s)",
+      "CIERRE": "sin música (13 dB de diferencia medidos son ambiente); resto a −36 dB en los últimos 6 s",
+      "TRAILER": "1,2 dB bajo la voz en off en la intro",
+      "TITULO": "no hay título",
+      "SECCION": "entra de golpe con el gráfico tras 1,6–2,2 s de casi silencio (5:18.4, 1:34.8, 2:10.68)",
+      "MAPA": "no hay mapas"
+    },
+    "MUSICA_nota": "Medido sobre la pista sin voz, que aquí lleva mucho público: en las flexiones la diferencia de 3,8 dB es voz frente a gritos, no frente a música. Lo trasladable: cama claramente más alta que en CONTEXTO.md (6–9 frente a 12–18 dB) y tramos de prueba sin música.",
+    "LUFS": -15.8,
+    "LUFS_nota": "LRA 11,4 LU; pico real +0,7 dBTP (recorta). Para el motor conviene mantener el objetivo habitual y limitar el pico: este valor es descriptivo, no un ejemplo.",
+    "RITMO_OBJETIVO": {
+      "cortes_por_minuto": "25,6 detectados / ≈ 29 reales; 88 por minuto en la intro (52 planos en 35,2 s); 102 por minuto en el tres en raya (17 en 10 s)",
+      "plano_mediano_s": 1.5,
+      "pct_planos_menos_de_1s": 26,
+      "zooms_de_edicion_por_minuto": 0.28,
+      "contador_pct_tiempo": "≈ 42 (49 s de cronómetro + ≈ 6 min 40 s de contador de repeticiones, estimado)",
+      "subtitulos_pct_tiempo": "≈ 10",
+      "graficos_de_juego": "≈ 75 apariciones (6 tarjetas de eliminado + 15 revelaciones + 9 tiras + 6 barras de iconos + 5 cartelas + 21 cifras de resultado + 3 parciales + 1 resultado final + 2 datos + 2 pares de tarjetas + casillas) ≈ 4 por minuto, con 0 en los últimos 92 s",
+      "sfx_por_minuto": 1.45,
+      "silencios_de_musica": "7 cortos a propósito (0,5–5,1 s) + 4 tramos de prueba de 12–30 s; ≈ 18 % del vídeo sin música",
+      "palabras_por_minuto": 105
+    }
+  },
+  "comparacion_con_mrbeast_trap": {
+    "ficha_comparada": "base/refs/dinamicos/mrbeast/2025-11-08_100-people-vs-world-s-biggest-trap.json (leída, no modificada)",
+    "en_comun": [
+      "Mismo estilo (reto por eliminación) y la misma intro: explicativa y corta (35,2 s aquí, 39,2 s allí), con el premio en 3D, la primera prueba ya en marcha al acabar y la misma frase bisagra («esta es solo una de las 6 pruebas» / «esta es solo la primera de cinco trampas»).",
+      "Cero zoom animado sobre quien habla; el énfasis es cambiar de cámara.",
+      "Código de color a cuadro entero para el estado del juego (allí verde = no disparan, rojo = eliminación, blanco y negro = recuerdo; aquí el color del equipo = asignación o punto, gris = fuera, X roja = eliminado).",
+      "Subtítulos solo puntuales para concursantes; el presentador en directo no se subtitula.",
+      "El final se enseña tapado en la intro (allí la sorpresa del tráiler; aquí el ganador pixelado).",
+      "Efectos de sonido escasos y pegados a mecánicas (1,0 y 1,45 por minuto confirmados)."
+    ],
+    "diferencias": [
+      "Cuántos quedan: MrBeast lleva un contador persistente «N PLAYERS LEFT» el 87 % del vídeo; THE FEZZ no lleva recuento fijo: lo dice una vez con «10 PARTICIPANTES» (1,4 s) y lo demás se deduce de la barra de iconos y de las tarjetas. Con 21 personas se aguanta; con 100 no.",
+      "A quién se ve: MrBeast no presenta a los 100 (nombre y retrato solo desde que quedan 11, en 13:58); THE FEZZ da tarjeta con @ a los 21 desde la primera eliminación (0:42), porque el valor del vídeo son los creadores.",
+      "Ritmo: ≈ 34 cortes por minuto y 0 jump cuts al mismo encuadre allí (6–10 cámaras); ≈ 29 por minuto aquí con 2–3 cámaras, y la falta de cámaras se resuelve con jump cuts que el contador justifica.",
+      "Gráficos: allí 3D en escena (mapa de progreso, reglas con maniquíes de hasta 25,3 s, títulos dentro del decorado); aquí todo 2D de plantilla salvo «200€». El mapa 3D de progreso equivale a la barra de 6 iconos; la animación de reglas, al explicador de 8,6 s.",
+      "Música: 100 % de cobertura, voz − música 3,6 dB y −6,7 LUFS allí; aquí ≈ 82 %, 6–9 dB y −15,8 LUFS, con el silencio usado como recurso (7 cortes a propósito y 4 tramos de prueba a pelo).",
+      "Velocidad: MrBeast usa ralentí en 3 sitios; THE FEZZ en ninguno.",
+      "Desenlace: allí X sobre la última rival y «SUBSCRIBE» 5 s sobre negro; aquí ningún gráfico en la final, CTA hablado y fin en seco.",
+      "Patrocinios: 2 integrados allí; ninguno aquí."
+    ],
+    "que_copiar_de_cada_uno": "Del de THE FEZZ, lo alcanzable sin 3D ni 10 cámaras: tarjetas-retrato, color de equipo, contador que salta, barra de iconos pixelados y silencios. Del de MrBeast, lo que aquí falta: un recuento de participantes siempre visible y cerrar cada eliminación con su marca (la del agarre, 15:05, pasa sin gráfico)."
+  },
+  "dudas": [
+    "Total de cortes: 520 ± 25 sale de 4 tramos contados a ojo (121 frente a 108 del detector) más la ráfaga contada a mano; los jump cuts ocultos bajo el contador en las flexiones solo se comprobaron en 3 puntos (2:58.0, 3:01.6, 5:35.4) y se estiman en ≈ 25.",
+    "Columna de eliminados: se ven 6 huecos y las cuentas dan 6 (21 − 15), pero en una hoja a 0,1 s (1:00–1:02) anoté 7 tarjetas; no se repasó a tamaño completo en ese instante. Los tiempos de la tercera y la quinta tarjeta (≈ 0:47.3, ≈ 0:51.8) son aproximados.",
+    "Reparto de la ráfaga (9 chicas y 11 chicos = 20 retratos) y el «21»: o falta un retrato o el número 21 cuenta a alguien que no posa; no comprobado.",
+    "Efectos sin confirmar (no están en `confirmados`): pop al asomar «21 CREADORES» (0:00.72); rayas en 0:08.75, 0:08.96 y 0:09.52 (salida de la cartela y barra de iconos); posible tic-tac en 0:14.4–0:20 (puede ser el bombo); salto de las tarjetas de eliminado (0:42.5); soplido tapado en el barrido de 1:05.9; toques tonales de los destellos de 1:26.0 y 1:30.6 (no se ven claros); golpe en «10 PARTICIPANTES» (12:21.7, mancha ancha en la hoja pero bombos de música alrededor); colchón grave en «Resultado final» (12:09.84); destello rojo de la soga (13:26.31: +11,4 dB medidos pero sin firma separable de los gritos); campanilla suelta en 13:32.1 (0,8 s antes de las tarjetas); crecidas graves mientras aprietan el dinamómetro (14:21, 14:38.8, 14:50.6: efecto de tensión o la propia música); rayas en la barra de iconos de 15:36.0 y 15:37.5; ráfaga de banda ancha en el corte de 17:00.0 («Y el ganador»).",
+    "Los tres golpes que acompañan a «FLEXIONES», la X de «ELIMINADO» y la cartela de la soga caen a compás (2,65 s): no se puede decir si hay un efecto añadido encima del golpe de la música.",
+    "Niveles de efectos y de música: medidos sobre la pista sin voz, que incluye público y música a la vez; son cotas superiores. La diferencia voz − música de las flexiones (3,8 dB) no es fiable.",
+    "Fuentes: los subtítulos son a ojo Helvetica/Arial Bold, que no está entre las candidatas de fuente_rotulo.py (sale Inter 600 con 0,753 y, en otros recortes, DM Sans, Work Sans o Archivo con 0,59–0,71: sin acuerdo). «200€», «RONDA n/5», el cronómetro y los @ no dan lectura fiable (0,459, negativo, 0,297 y 0,099). La cuenta atrás y el título «Resultado final» no se midieron.",
+    "Los planos «más cerrados por corte» (agarre, «¡Toni!», entrevistas): no se sabe si son recorte digital de la misma cámara u otra cámara; la escala ×1,6–1,9 es a ojo.",
+    "Resultados de serie en cifra grande: vistos 8 de 15; no se comprobó uno a uno si las otras 7 series lo llevan.",
+    "Número de subtítulos de participante (≥ 55) y de tiras de equipo (9): contados en hojas cada 2 s, son suelos.",
+    "Origen exacto de 2 clips de la intro (Fezz de espaldas ante la fila, 0:27.45; fila de frente, 0:31.25): son del rodaje, pero no se localizó el minuto.",
+    "Cambios de pista: 4 automáticos; los demás arranques se dedujeron del espectro, no se oyó nada.",
+    "La cartela «3 EN RALLA» lleva una errata en el original (raya): se anota como dato, no como algo que copiar."
+  ]
+}
