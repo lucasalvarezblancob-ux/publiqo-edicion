@@ -270,7 +270,8 @@ def caja_texto(it, f=None):
     Con `f` (frame del montaje), la de ese instante (los rótulos con flecha se mueven con su sujeto)."""
     W, H = ANCHO, ALTO; t = it["t"]; cj = ajuste("CAJAS", {}).get(t)
     s = lambda k: str(it.get(k) or "")
-    if cj: return [tuple(cj[it.get("lado", "der")] if isinstance(cj, dict) else cj)]
+    # (un golpe GRANDE, con "alto", no usa la caja fija del creador: su tamaño es otro; banco de pruebas 2026-11-24)
+    if cj and not (t == "golpe" and it.get("alto")): return [tuple(cj[it.get("lado", "der")] if isinstance(cj, dict) else cj)]
     if t in ("titulo", "mapa", "cartela_dia") or (t == "maquina" and it.get("fondo") != "ninguno"): return [(0.0, 0.0, 1.0, 1.0)]
     if t in ("oscurecer", "destello"): return []
     if t in ("marcador", "lista", "vidas"):      # Juego.tsx: en una esquina (MARGEN 0,045 del alto)
@@ -307,8 +308,12 @@ def caja_texto(it, f=None):
         txt = max(len(s("titulo")) * fs * 0.75, len(s("sub")) * 0.034 * H * 0.5, de * 0.056 * H)
         y1 = H * 0.93; return [(x0 / W, (y1 - 0.23 * H * 0.9) / H, (x0 + numw + 0.03 * H + txt) / W, y1 / H)]
     if t == "golpe":
-        ls = s("txt").split("|"); n = max(len(l) for l in ls); fs = min(0.105 * H, 0.66 * W / (max(n, 2) * 0.82))
-        w, h = n * fs * 0.75 * 1.22, len(ls) * fs * 1.12 * 1.22; y1 = 1 - it.get("y", 0.1); return [((W - w) / 2 / W, y1 - h / H, (W + w) / 2 / W, y1)]
+        ls = s("txt").split("|"); n = max(len(l) for l in ls)
+        if it.get("alto"):      # grande y quieto (Graficos.tsx Golpe): ancho real de la letra ancha, sin crecimiento
+            fs = min(it["alto"] * H, 0.9 * W / (max(n, 2) * 0.92)); w, h = n * fs * 0.92, len(ls) * fs * 1.12
+        else:
+            fs = min(0.105 * H, 0.66 * W / (max(n, 2) * 0.82)); w, h = n * fs * 0.75 * 1.22, len(ls) * fs * 1.12 * 1.22
+        y1 = 1 - it.get("y", 0.1); return [((W - w) / 2 / W, y1 - h / H, (W + w) / 2 / W, y1)]
     if t in ("nota", "sub"):
         fs = (0.046 if t == "nota" else 0.05) * H; b = 0.075 if t == "nota" else 0.1; w = len(s("txt")) * fs * 0.52
         return [((W - w) / 2 / W, 1 - b - fs * 1.3 / H, (W + w) / 2 / W, 1 - b)]

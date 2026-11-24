@@ -370,8 +370,23 @@ for a, txt, *op in MAQUINA:
     o = dict(op[0]) if op else {}; f0 = L.ancla(a)
     n = int(np.ceil(len(txt) / float(o.get("cps", 1)))) + int(o.get("fijo", 25))
     items.append({"t": "maquina", "f0": f0, "f1": f0 + n, "txt": txt, **o})
+def _cara_en(fr):
+    """(x, y) de la cara en pantalla (0-1) en el frame `fr` del montaje, o None si ese plano no tiene cara."""
+    v = next((v for v in vid if v["o"] <= fr < v["o"] + v["n"] and not v.get("b")), None)
+    if not v or v.get("cx") is None: return None
+    w, h, cxr, cyr = encuadre(v["z1"], v["cx"], v["cy"], v.get("ax", 0.5), v.get("ay", 0.5))
+    return (v["cx"] * v["z1"] - cxr) / AW, (v["cy"] * v["z1"] - cyr) / AH
 for a, d, hasta, *op in CONTADORES:
-    f0 = L.ancla(a); items.append({"t": "contador", "f0": f0, "f1": f0 + F(d), "hasta": hasta, "idioma": IDIOMA, **(op[0] if op else {})})
+    f0 = L.ancla(a); o = dict(op[0]) if op else {}; cara = _cara_en(f0 + 2)
+    # Banco de pruebas (2026-11-24): un contador puesto a mano en x 0,72 le tapaba la cara a Reino. Sin x en el plan, va en
+    # el hueco al otro lado de la cara (como los DATOS); con x puesta, se avisa si cae encima de ella.
+    if cara and "x" not in o:
+        x = (cara[0] + 0.11 + 0.98) / 2 if cara[0] < 0.5 else (cara[0] - 0.11 + 0.02) / 2
+        cj = caja_texto({"t": "contador", "hasta": hasta, **o, "x": 0.5}); mw = (cj[0][2] - cj[0][0]) / 2 + 0.025 if cj else 0.23
+        o["x"], o["y"] = round(min(max(x, mw), 1 - mw), 3), o.get("y", 0.42)      # que quepa entero (nunca «SE SALE»)
+    elif cara and abs(o.get("x", 0.5) - cara[0]) < 0.2 and abs(o.get("y", 0.4) - cara[1]) < 0.22:
+        print(f"AVISO CARA: el contador {hasta} en {f0 / FPS:.1f} s cae encima de la cara ({cara[0]:.2f}, {cara[1]:.2f}): quita x/y del plan y se coloca solo")
+    items.append({"t": "contador", "f0": f0, "f1": f0 + F(d), "hasta": hasta, "idioma": IDIOMA, **o})
 for a, txt, *op in CARTELAS_DIA:
     o = dict(op[0]) if op else {}; f0 = L.ancla(a)
     items.append({"t": "cartela_dia", "f0": f0, "f1": f0 + int(o.get("flash_in", 6)) + int(o.get("negro", 41)) + int(o.get("flash_out", 5)), "txt": txt, **o})
@@ -386,8 +401,11 @@ for a, d, lis, *op in LISTAS:
     f0 = L.ancla(a); items.append({"t": "lista", "f0": f0, "f1": f0 + F(d), "items": lis, **(op[0] if op else {})})
 for a, d, *op in VIDAS:
     f0 = L.ancla(a); items.append({"t": "vidas", "f0": f0, "f1": f0 + F(d), **(op[0] if op else {})})
-for a, d, *op in ELIMINADOS:
-    f0 = L.ancla(a); items.append({"t": "eliminado", "f0": f0, "f1": f0 + F(d), **(op[0] if op else {})})
+for a, d, *op in ELIMINADOS:      # sin x/y en el plan, la X va sobre la persona (su cara y el pecho), no en el centro
+    f0 = L.ancla(a); o = dict(op[0]) if op else {}; cara = _cara_en(f0 + 2)
+    if cara and "x" not in o: o["x"], o["y"] = round(cara[0], 3), round(min(max(cara[1] + 0.12, 0.25), 0.75), 3)
+    elif not cara and "x" not in o: print(f"AVISO: X de eliminado en {f0 / FPS:.1f} s sin cara detectada: va al centro (pon x/y)")
+    items.append({"t": "eliminado", "f0": f0, "f1": f0 + F(d), **o})
 # ---- ningún texto se va antes de que se haya DICHO entero y se pueda leer (comun.texto_dicho) ----
 # Se alarga solo hasta medio segundo después de su última palabra (o hasta la pausa) y nunca menos que el tiempo de
 # leerlo; sin pisar el texto siguiente. Imprime lo que alarga: si un texto crece mucho, mira si el ancla está bien.

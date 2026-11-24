@@ -7,6 +7,7 @@ Qué hace: recorta a la persona fotograma a fotograma desde el bruto (rembg u2ne
 resolución y suavizada) y la guarda con alfa en trabajo/detras/p<o>_<f0>.mov + .json. paso4_render.py le aplica el MISMO
 zoom y encuadre que al plano y la pone encima de las capas solo en esos fotogramas: el texto queda detrás de ella.
   detras.py           -> recorta lo que falte (reanudable; ~0,3 s por fotograma en CPU)
+  (al acabar mide cuánto tapa la persona cada texto y avisa si es más de la mitad: «AVISO DETRÁS»)
   detras.py hoja      -> trabajo/detras/hoja_N.jpg: la máscara sobre el plano cada 3 fotogramas. MIRARLAS: pelo, manos.
 Sin DETRAS en plan.py no hace nada y el montaje sale como siempre. Si cambias el plan, borra trabajo/detras."""
 import json, os, subprocess, sys, tempfile
@@ -71,9 +72,38 @@ def hoja():
                 cv2.imwrite(f"{D}/hoja_{i}.jpg", np.vstack(filas)); print(f"{D}/hoja_{i}.jpg")
 
 
+def comprobar():
+    """¿Se lee el texto? Banco de pruebas (2026-11-24): un golpe normal centrado detrás de Reino solo dejaba ver «DET».
+    Mide qué parte de la caja de cada texto que coincide con un tramo DETRAS tapa la persona (en su fotograma central) y
+    avisa si pasa del 50 %: hazlo más grande ("alto": 0.3 en GOLPES) o muévelo para que asome por los lados."""
+    from comun import CAPAS_JSON, ANCHO as AW, ALTO as AH, caja_texto
+    from dinamica import encuadre
+    C = json.load(open(CAPAS_JSON, encoding="utf-8")); malos = 0
+    for v, f0, f1 in trozos():
+        base = f"{D}/p{v['o']}_{f0}.mov"
+        if not os.path.exists(base): continue
+        for it in C["items"]:
+            if it["t"] in ("oscurecer", "destello") or it["f1"] <= f0 or it["f0"] >= f1: continue
+            fr = (max(f0, it["f0"]) + min(f1, it["f1"])) // 2 - f0
+            with tempfile.TemporaryDirectory() as tmp:
+                subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", base, "-vf", f"select=eq(n\\,{fr})", "-frames:v", "1", "-pix_fmt", "rgba", f"{tmp}/m.png"], check=True)
+                m = cv2.imread(f"{tmp}/m.png", cv2.IMREAD_UNCHANGED)
+            if m is None: continue
+            a = m[:, :, 3]; bh, bw = a.shape; w, h, x, y = encuadre(v["z1"], v.get("cx"), v.get("cy"), v.get("ax", 0.5), v.get("ay", 0.5)) if v["z1"] != 1 else (bw * AW / bw, bh * AH / bh, 0, 0)
+            tap = tot = 0
+            for (x0, y0, x1, y1) in caja_texto(it):
+                X0, X1 = [int((sx * AW + x) * bw / w) for sx in (x0, x1)]; Y0, Y1 = [int((sy * AH + y) * bh / h) for sy in (y0, y1)]
+                r = a[max(0, Y0):max(0, Y1), max(0, X0):max(0, X1)]; tap += (r > 128).sum(); tot += max(1, r.size)
+            fr_tap = tap / max(tot, 1)
+            print(f"  «{it.get('txt') or it.get('hasta') or it['t']}» ({it['t']}): la persona tapa el {100 * fr_tap:.0f} % de su caja")
+            if fr_tap > 0.5: malos += 1; print(f"AVISO DETRÁS: se lee menos de la mitad: más grande (\"alto\": 0.3) o a un lado para que asome")
+    return malos
+
+
 if len(sys.argv) > 1 and sys.argv[1] == "hoja": hoja()
 else:
     for v, f0, f1 in trozos():
         if v.get("b"): print(f"AVISO: {f0}-{f1} cae en un recurso ({v['clip']}): se recorta igual; si no sale nadie, quítalo de DETRAS");
         recortar(v, f0, f1)
+    comprobar()
     print("Hecho. Mira las hojas: detras.py hoja")
