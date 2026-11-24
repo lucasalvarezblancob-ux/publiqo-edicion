@@ -14,6 +14,7 @@ La skill `edicion-horizontal` lee esto antes de cada edit de este creador.
 - **Cámaras**: Sony 4K 25 fps SDR (clips `C0xxx`).
 - **Música**: Shutterstock (la descarga quien edita, con su licencia) → `personal/reinoselva/recursos/musica/`.
 - **Voz en off**: su voz, grabada en el sitio. Sin voz IA.
+- **Estilo de edición**: el de siempre (Lucas, 2026-11-24): `CONTEXTO.md` de dinámicos + esta carpeta, sin estilo de `estilos/` por defecto. Solo cambia si se pide un estilo para un vídeo concreto.
 
 Color de acento, canal y @: `personal/reinoselva/marca.json`. Reglas de estilo: `preferencias.md`. Sus recursos fijos
 (intro, outro, logo, la tortuga): `recursos.md`. Números de la base a su gusto: `ajustes.py`.

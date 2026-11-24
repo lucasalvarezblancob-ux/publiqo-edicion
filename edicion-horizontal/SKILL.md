@@ -68,6 +68,9 @@ de este creador?». Los recursos y gustos de un creador **nunca** se apuntan en 
 2. `<skill>/base/refs/dinamicos/CONTEXTO.md` (números de ritmo, zooms, textos, mapas, música) y, si existe,
    `refs/dinamicos/CONTEXTO.md` de la carpeta (local, manda). Tipos: `dinamicos` (vlog, viaje, reto, visita: lo hecho
    hasta ahora) y `estudio` (a cámara en interior; aún sin referencias). Un tipo nuevo local = una carpeta en `refs/`.
+   **Estilos** (vlog, viaje, reto, visita, entreno): capa OPCIONAL en `<skill>/base/refs/dinamicos/estilos/`. Solo se
+   aplica si lo piden para ese vídeo o si el `perfil.md` del creador tiene `Estilo por defecto:`; si no, se edita
+   exactamente como hasta ahora, con `CONTEXTO.md` y nada más. Nunca se deduce del bruto. Ver `estilos/LEEME.md`.
 3. `<skill>/base/intros.md` (gancho, ráfaga, título, capítulos, cierre) y `<skill>/base/recursos.md` (registro visual,
    catálogo, música, mapas). Al entregar: `<skill>/base/titulos-miniaturas.md` y `<skill>/base/descripciones.md`.
 4. `personal/<creador>/recursos/INDICE.md` y `…/recursos/musica/CATALOGO.md` (su material) y `out/REGISTRO.md`.

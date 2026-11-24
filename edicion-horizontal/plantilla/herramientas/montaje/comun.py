@@ -33,7 +33,7 @@ F = lambda s: int(round(s * FPS))                                            # s
 os.makedirs(TRABAJO, exist_ok=True)
 
 # Personalización del CREADOR: personal/<creador>/ de la carpeta de edición (local, nunca en la skill).
-# Orden: estándar de la skill < personal/<creador>/ajustes.py < plan.py del vídeo.
+# Orden: estándar de la skill < estilo del vídeo (si lo pide) < personal/<creador>/ajustes.py < plan.py del vídeo.
 # El creador de un vídeo es CREADOR en su proyecto.py; si en personal/ solo hay uno, es ese.
 RAIZ = os.path.dirname(os.path.dirname(AQUI)).replace("\\", "/")
 _cre = sorted(d for d in (os.listdir(f"{RAIZ}/personal") if os.path.isdir(f"{RAIZ}/personal") else []) if os.path.isdir(f"{RAIZ}/personal/{d}") and not d.startswith(("_", ".")))
@@ -45,13 +45,28 @@ PERSONAL = f"{RAIZ}/personal/{CREADOR}" if CREADOR else None
 # archivo y b-roll), fotos/, mapas/, musica/, sonidos/.
 RECURSOS = f"{PERSONAL}/recursos" if PERSONAL else None
 MUSICA = _g("MUSICA") or (f"{RECURSOS}/musica" if RECURSOS else None)
+# ESTILO (opcional, en proyecto.py): capa de refs/dinamicos/estilos/ (vlog, viaje, reto…). Sin ESTILO no se carga nada
+# y todo queda como siempre. Sus números van en <estilo>.py: el de la skill y, encima, el local de refs/ de la carpeta.
+ESTILO = _g("ESTILO") or None
+_ESTILOS = [f"{RAIZ}/.claude/skills/edicion-horizontal/base/refs/dinamicos/estilos", f"{RAIZ}/refs/dinamicos/estilos"]
+if ESTILO and not any(os.path.exists(f"{d}/{ESTILO}.md") for d in _ESTILOS):
+    _hay = sorted({os.path.splitext(f)[0] for d in _ESTILOS if os.path.isdir(d) for f in os.listdir(d) if f.endswith(".md") and f != "LEEME.md"})
+    raise SystemExit(f"No existe el estilo '{ESTILO}' (hay: {', '.join(_hay) or 'ninguno'}). Quita ESTILO de proyecto.py o créalo en refs/dinamicos/estilos/.")
+
+
+def _cargar(ruta, en):
+    if ruta and os.path.exists(ruta): exec(compile(open(ruta, encoding="utf-8").read(), ruta, "exec"), en)
+    return {k: v for k, v in en.items() if not k.startswith("_")}
+
+
 _aj = {}
-_pa = f"{PERSONAL}/ajustes.py" if PERSONAL else ""
-if _pa and os.path.exists(_pa): exec(compile(open(_pa, encoding="utf-8").read(), _pa, "exec"), _aj)
+for _d in (_ESTILOS if ESTILO else []): _aj.update(_cargar(f"{_d}/{ESTILO}.py", {}))
+for _k, _v in _cargar(f"{PERSONAL}/ajustes.py" if PERSONAL else "", {}).items():   # el creador manda sobre el estilo;
+    _aj[_k] = {**_aj[_k], **_v} if isinstance(_v, dict) and isinstance(_aj.get(_k), dict) else _v   # SFX, MUSICA_NIVELES: se suman
 
 
 def ajuste(nombre, defecto):
-    """Valor que el creador ha puesto en personal/<creador>/ajustes.py o, si no lo define, el estándar."""
+    """Valor del creador (personal/<creador>/ajustes.py), si no del estilo del vídeo (ESTILO), si no el estándar."""
     return _aj.get(nombre, defecto)
 
 

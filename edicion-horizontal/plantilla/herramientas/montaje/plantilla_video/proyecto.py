@@ -10,3 +10,4 @@ NUMEROS = {}                         # cifras tal como se dicen, para alinear: {
 # SINCRO = {"C0132": ("IMG_2120", 2.82)}   # segunda cámara a la vez que la del micro: clip -> (clip de la voz, desfase en s).
 #                                          # Lo mide sincro.py; en BROLL, (ancla, "@sync:C0132", None | duración, zoom).
 CREADOR = "__CREADOR__"       # carpeta de personal/ con la personalización de quien firma el vídeo ("" = solo las bases)
+# ESTILO = "vlog"               # SOLO si lo piden para este vídeo (refs/dinamicos/estilos/). Sin ESTILO = como siempre.
