@@ -69,6 +69,13 @@ CANDIDATAS = {
     "Libre Baskerville": ("ofl/librebaskerville/LibreBaskerville%5Bwght%5D.ttf", [400, 700]),
     # a mano
     "Caveat": ("ofl/caveat/Caveat%5Bwght%5D.ttf", [600]),
+    # tecno / videojuego (MrBeast, retos con marcador)
+    "Russo One": ("ofl/russoone/RussoOne-Regular.ttf", None),
+    "Orbitron": ("ofl/orbitron/Orbitron%5Bwght%5D.ttf", [700, 900]),
+    "Chakra Petch": ("ofl/chakrapetch/ChakraPetch-Bold.ttf", None),
+    "Exo 2": ("ofl/exo2/Exo2%5Bwght%5D.ttf", [700, 900]),
+    "Saira": ("ofl/saira/Saira%5Bwdth%2Cwght%5D.ttf", [700, 900]),
+    "Black Ops One": ("ofl/blackopsone/BlackOpsOne-Regular.ttf", None),
 }
 
 ap = argparse.ArgumentParser()
