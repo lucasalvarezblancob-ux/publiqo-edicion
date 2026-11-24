@@ -20,6 +20,7 @@ Lee plan.py del vídeo (todo opcional; lo que no esté, no se pone):
   CONTADORES cifra que sube con frenada: [(ancla, segundos, hasta, {desde, sufijo, prefijo, dec, x, y, flecha, dur_f})]
   CARTELAS_DIA cambio de día: destello → negro con texto → destello: [(ancla, "Next day", {negro: 41, flash_in: 6, flash_out: 5})]
   OSCURECER fondo al 50 % bajo un rótulo o icono: [(ancla, segundos, {nivel: 0.5, fundido: 4})]
+  DETRAS    la PERSONA por encima de los gráficos (texto por detrás de ella): [(ancla, segundos)]; luego detras.py
   PROPIOS   gráficos PROPIOS del creador (su mascota, su logo…): [(ancla, segundos, "tipo", {datos})]; los pinta
             estudio/src/personal/<creador>/ y se documentan en personal/<creador>/recursos.md
 Los cortes de escala los pone dinamica.py. Al final imprime el ritmo (mediana de plano, cortes/min) y los avisos."""

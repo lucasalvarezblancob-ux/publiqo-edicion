@@ -10,7 +10,7 @@ Reanudable: lo que ya existe no se repite. Si cambias el plan, borra trabajo/tra
 gráficos o sus rangos). El color del bruto no se toca: sin filtros de color, salida bt709 limitada (la única excepción es
 un fail pedido en FALLOS, que va en blanco y negro).
 Brutos HDR (iPhone): `tramos` hace antes, solo, la copia SDR de los trozos que se usan (sdr.py)."""
-import json, os, shutil, subprocess, sys, time
+import glob, json, os, shutil, subprocess, sys, time
 from concurrent.futures import ThreadPoolExecutor
 from comun import COMP, ESTUDIO, FPS, SLUG, TRABAJO, fuente
 from dinamica import filtro_zoom
@@ -79,6 +79,14 @@ def tramo(i, enc):
             cmd += ["-i", f"{TRABAJO}/capas/c{a}.mov"]
             fc.append(f"[{n}:v]setpts=PTS-STARTPTS+{(a - T0) / FPS:.3f}/TB[g{k}];[b{k}][g{k}]overlay=enable='between(n,{a - T0},{b - T0 - 1})':eof_action=pass[b{k + 1}]"); n += 1; k += 1
         else: assert b <= T0 or a >= T1, f"gráfico {a}-{b} partido por el tramo {i}"
+    # persona por ENCIMA de los gráficos (detras.py, DETRAS en plan.py): el recorte con alfa lleva el mismo zoom y encuadre
+    # que su plano (filtro_zoom con el tiempo del plano) y se pone solo en sus fotogramas. Sin trabajo/detras, nada.
+    for v in tr:
+        for pj in sorted(glob.glob(f"{TRABAJO}/detras/p{v['o']}_*.json")):
+            P = json.load(open(pj)); cmd += ["-i", pj[:-5] + ".mov"]
+            fc.append(f"[{n}:v]setpts=PTS-STARTPTS+{(P['f0'] - v['o']) / FPS:.4f}/TB,format=rgba," + filtro_zoom(v) +
+                      f"setpts=PTS+{(v['o'] - T0) / FPS:.4f}/TB,format=yuva420p[d{k}];[b{k}][d{k}]overlay=enable='between(n,{P['f0'] - T0},{P['f1'] - T0 - 1})':eof_action=pass[b{k + 1}]")
+            n += 1; k += 1
     fc.append(f"[b{k}]format=yuv420p[out]")
     open(f"{TRABAJO}/tramos/t{i:03d}.fc", "w").write(";\n".join(fc))     # el filtro va en un archivo: en Windows no cabe en la línea de órdenes
     cmd += ["-/filter_complex", f"{TRABAJO}/tramos/t{i:03d}.fc", "-map", "[out]", "-frames:v", str(T1 - T0), *ENC[enc], *COLOR, "-an", o + ".tmp.mp4"]

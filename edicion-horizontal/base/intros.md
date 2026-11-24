@@ -19,8 +19,10 @@ momento de acción o de reacción, un sitio espectacular, una promesa (algo que 
 **Kit de intros** (`estudio/src/comun/Intro.tsx`; se piden en el `plan.py` del vídeo, ver la cabecera de `paso3_plan.py`):
 `PARTIDAS` (etiqueta partida «izq | der», 2.ª palabra a +11 f), `MAQUINA` (lema a máquina, 1 letra/f, sobre negro),
 `CONTADORES` (cifra que sube con frenada en ~28 f), `CARTELAS_DIA` (destello → negro con texto → destello) y `OSCURECER`
-(fondo al 50 % bajo un rótulo). Un vídeo que no los pide sale exactamente igual. Pendiente: estrobo desde el EDL,
-cortes del tráiler pegados al acento, texto por detrás de la persona, foto que encoge a tarjeta, zoom animado a cámara y
+(fondo al 50 % bajo un rótulo). **Texto por detrás de la persona**: `DETRAS = [(ancla, segundos)]` en el `plan.py` +
+`detras.py` (recorta a la persona desde el bruto y `paso4_render.py` la pone encima de los gráficos con el zoom de su
+plano; mirar `detras.py hoja`). Un vídeo que no los pide sale exactamente igual. Pendiente: estrobo desde el EDL,
+cortes del tráiler pegados al acento, foto que encoge a tarjeta, zoom animado a cámara y
 comprobador de sincronía (cada ilustración en su palabra).
 Los números y la receta de cada una salen de las fichas (`refs/dinamicos/alessio-pierucci/`, `refs/dinamicos/nil-ogt/`)
 y se escriben aquí cuando acabe el estudio. Mientras, la estructura de serie de abajo sigue siendo la de siempre.
