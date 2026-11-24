@@ -98,6 +98,8 @@
   {"desde": "21:23.7", "hasta": "22:14.2", "parte": "Salida", "que_pasa": "Maletas a mano bajo la lluvia («we saved 230 euros»), policía, taxi descapotable, «Bye bye Capri»."}
  ],
  "intro": {
+  "tipo": "corta",
+  "tipo_por_que": "Intro corta tipo Alessio: ráfaga → nombre partido → tráiler al compás → lema a máquina; no explica el plan del vídeo con animaciones.",
   "duracion_s": 31.13,
   "duracion_f": 934,
   "orden": [
