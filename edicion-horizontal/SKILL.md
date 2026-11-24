@@ -132,24 +132,27 @@ monta la imagen desde los brutos; Remotion solo dibuja los gráficos, que van en
    varios brutos a la vez según gráfica, núcleos y memoria (−35 % medido en Windows; `PASO0_WHISPER`/`PASO0_HILOS` lo fijan).
    Brutos HDR (iPhone): no se convierten enteros; tras el paso 4, `sdr.py` hace la copia SDR solo de los trozos que se
    usan y se comprueba el color (preferencias → COLOR).
-   **Ventana de arranque** (con `paso0_preparar.py` ya en segundo plano, para no esperar): si `personal/<creador>/perfil.md`
-   NO tiene línea `Arranque:` (o la tiene vacía), UNA `AskUserQuestion` con solo lo que no esté decidido (máx. 4 preguntas):
-   1) **Estilo**: solo si el perfil no tiene `Estilo por defecto:` ni `Estilo de edición:` y hay algún estilo con reglas
-   en `estilos/` (los «sin analizar» no se ofrecen; si no queda ninguno, no se pregunta). Primera opción: «Como siempre (sin estilo)».
+   **Ventana de arranque** (siempre, en cada vídeo, con `paso0_preparar.py` ya en segundo plano para no esperar): UNA
+   `AskUserQuestion` con hasta 3 preguntas. Lo que diga `personal/<creador>/perfil.md` va como primera opción,
+   marcada «(Recomendado)»; nada se da por decidido:
+   1) **Estilo**: primera opción, el del perfil (`Estilo por defecto:` o `Estilo de edición:`; si no tiene, «Como
+   siempre (sin estilo)»), con «(Recomendado)». Después, los demás estilos con reglas en `estilos/` (y «Como siempre» si
+   el recomendado es otro), hasta 4 opciones; el resto se puede escribir en «Otro». Los «sin analizar» no se ofrecen.
+   Si no hay ninguna alternativa con reglas, esta pregunta no sale. El estilo del perfil es solo el recomendado: se
+   puede usar otro en un vídeo concreto (un creador de viajes que graba un vlog de cocina).
    2) **Recursos que no salen en los brutos**, siempre en este orden: brutos del vídeo → su librería → stock
    (`base/recursos.md` § 5). Opciones según lo que haya: «Librería y stock» (stock solo si `personal/bancos.md` dice
-   Shutterstock SÍ; ese «sí» es el permiso de descarga para todo el vídeo, § 5 bis), «Solo su librería», «Solo los brutos».
-   Si su `recursos/` no se abre (disco sin conectar), se dice en la pregunta y se ofrece «Conecto el disco ahora»
-   (`conectar_disco.sh`). Sin librería ni stock, no se pregunta.
-   3) **Lo que el registro visual no puede saber** (multiSelect): segunda cámara o dron (→ `sincro.py`), partes leídas de
-   teleprompter o notas (→ se tapan con recursos), brutos grabados solo como recurso, nada de eso. No sustituye al
+   Shutterstock SÍ; ese «sí» es el permiso de descarga para todo el vídeo, § 5 bis), «Solo su librería», «Solo los
+   brutos»; la primera que exista, «(Recomendado)». Si su `recursos/` no se abre (disco sin conectar), se dice en la
+   pregunta y se ofrece «Conecto el disco ahora» (`conectar_disco.sh`). Sin librería ni stock, no sale.
+   3) **Lo que el registro visual no puede saber** (multiSelect): segunda cámara o dron (→ `sincro.py`), partes leídas
+   de teleprompter o notas (→ se tapan con recursos), brutos grabados solo como recurso, nada de eso. No sustituye al
    registro visual del paso 1: se hace igual, entero.
-   4) **¿Lo guardo como lo de siempre para este creador?** «Solo este vídeo» / «Siempre así»: con «Siempre así», 1) y 2) se
-   escriben en su `perfil.md` como `- **Arranque**: estilo <x|ninguno> · recursos: <…> (fecha)` y la ventana ya no sale.
-   Las respuestas van a `out/<slug>/proyecto.py`: `ESTILO` (si hay) y una línea `# Arranque (fecha): recursos … · brutos …`.
-   Con `Arranque:` en el perfil, sin respuesta o sin `AskUserQuestion` (modo no interactivo): no se pregunta y se edita
-   como hasta ahora (estilo solo el del perfil; brutos → librería → stock con confirmación por tanda). Por qué: Lucas,
-   2026-11-24, «basta con el sí, pero se prioriza si hay en recursos propios antes que stock».
+   Las respuestas van a `out/<slug>/proyecto.py`: `ESTILO` (si no es «como siempre») y una línea
+   `# Arranque (fecha): recursos … · brutos …`. Sin respuesta o sin `AskUserQuestion` (modo no interactivo): se edita
+   como hasta ahora (el estilo del perfil o ninguno; brutos → librería → stock con confirmación por tanda). Por qué:
+   Lucas, 2026-11-24: la ventana sale siempre, con lo del creador recomendado, y «basta con el sí [al stock], pero se
+   prioriza si hay en recursos propios antes que stock».
 1. **Estudiar los brutos a fondo (obligatorio)**:
    - Lee todas las transcripciones enteras.
    - **Registro visual**: un agente por bruto (los largos, por rangos de ~9 min) con

@@ -181,8 +181,7 @@ todos los creadores de esa carpeta). Si no existe, **la primera vez que haga fal
   para qué ventana o frase, y créditos que gasta si el plan los cuenta) y quien edita dice «sí» una vez para esa tanda;
   no hace falta pedir pista a pista. **Nunca** extras de pago (stems, licencias ampliadas, comprar créditos o cambiar
   de plan) ni aceptar condiciones nuevas: si la web los pide, se para y se pregunta.
-  Excepción: si en la ventana de arranque (SKILL.md § 2, paso 0) se eligió «Librería y stock», o el `Arranque:` del
-  perfil dice «stock sin confirmar», ese sí vale para todas las tandas del vídeo: no se vuelve a preguntar, pero solo
+  Excepción: si en la ventana de arranque (SKILL.md § 2, paso 0) se eligió «Librería y stock», ese sí vale para todas las tandas del vídeo: no se vuelve a preguntar, pero solo
   para lo que no hay en los brutos ni en su librería, y al entregar se lista cada descarga (id, para qué, créditos).
   Los extras de pago y las condiciones nuevas se siguen preguntando siempre (Lucas, 2026-11-24).
 - Lo descargado va a la carpeta del creador: música a `recursos/musica/` + `CATALOGO.md` (con banco e id); vídeo a
