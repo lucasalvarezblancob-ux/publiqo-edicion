@@ -294,7 +294,7 @@ def caja_texto(it, f=None):
         e = it.get("esquina", {"lista": "ii", "vidas": "ii"}[t]); m = 0.045
         if t == "lista" and it.get("estilo") != "panel":      # tarjeta de Notas (Juego.tsx Lista): 3 % izq., 4,9 % abajo
             k = it.get("escala", 1); its = it.get("items", [])
-            w = 0.197 * k; h = max(0.365 * k, 0.03 * k + (0.035 * k * 1.25 if it.get("titulo") else 0) + 0.044 * k * (len(its) + 0.6) + 0.074 * k)
+            w = 0.197 * k; h = 0.03 * k + (0.035 * k * 1.25 if it.get("titulo") else 0) + 0.044 * k * (len(its) + 0.6) + 0.074 * k
             n = max([len(str(x)) for x in its] + [1]); ocupa = (0.03 * 2 + 0.03 + 0.017) * k * H / W + n * 0.023 * k * 0.5 * H / W
             if ocupa > w: print(f"AVISO LISTA: la fila más larga ({n} letras) no cabe en la tarjeta: acórtala o baja «escala»")
             x0 = 0.03 if e[1] == "i" else 0.97 - w; y0 = 0.049 if e[0] == "s" else 0.951 - h
@@ -322,7 +322,8 @@ def caja_texto(it, f=None):
         return [((W - w) / 2 / W, 0.5 - fs / 2 / H, (W + w) / 2 / W, 0.5 + fs / 2 / H)]
     if t == "contador":
         txt = f"{it.get('prefijo', '')}{it.get('hasta', '')}{it.get('sufijo', '')}"; fl = 0.9 if it.get("flecha") else 0      # = Intro.tsx Contador
-        k = max(len(txt), 2) * 0.74 + fl; fs = min(H * it.get("alto", 0.14), W * 0.42 / k); w = k * fs; x, y = it.get("x", 0.5) * W, it.get("y", 0.4) * H
+        k = max(len(txt), 2) * (0.74 + max(0, 2 * 0.005 / it.get("alto", 0.14) - 0.03)) + fl      # + espaciado ≥ 2 veces el contorno (G007)
+        fs = min(H * it.get("alto", 0.14), W * 0.42 / k); w = k * fs; x, y = it.get("x", 0.5) * W, it.get("y", 0.4) * H
         return [((x - w / 2) / W, (y - fs / 2) / H, (x + w / 2) / W, (y + fs / 2) / H)]
     if t == "seccion":
         x0 = 0.07 * H; de = it.get("de") or 0

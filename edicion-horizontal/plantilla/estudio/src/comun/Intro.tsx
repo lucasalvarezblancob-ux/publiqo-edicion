@@ -58,14 +58,14 @@ export const Contador: React.FC<{ f: number; it: Item }> = ({ f, it }) => {
   const txt = `${it.prefijo ?? ""}${num}${it.sufijo ?? ""}`;
   // ancho real medido en el banco (letra ancha con +0,03 em): ~0,74 del cuerpo por carácter + 0,9 la flecha. El MISMO
   // cálculo está en comun.caja_texto: si no coinciden, la comprobación de «se sale» y la colocación fallan (banco 2026-11-24).
-  const fs = Math.min(H * (it.alto ?? 0.14), (W * 0.42) / (Math.max(txt.length, 2) * 0.74 + (it.flecha ? 0.9 : 0)));
+  const fs = Math.min(H * (it.alto ?? 0.14), (W * 0.42) / (Math.max(txt.length, 2) * 0.74 + (it.flecha ? 0.9 : 0) + Math.max(txt.length, 2) * Math.max(0, 2 * 0.005 / (it.alto ?? 0.14) - 0.03)));
   const ent = interpolate(f, [0, 4], [0, 1], { extrapolateRight: "clamp" });
   return (
     <AbsoluteFill>
       {/* letterSpacing +0,03 em: en la letra ancha la coma se pegaba al «2» y al «5» (revisión del banco, 2026-11-24).
           La flecha es un SVG del alto de las mayúsculas y alineado con ellas (el carácter «↑» salía más bajo y pequeño). */}
       <div style={{ position: "absolute", left: W * (it.x ?? 0.5), top: H * (it.y ?? 0.4), transform: `translate(-50%,-50%) rotate(${it.giro ?? 0}deg)`, opacity: ent,
-        fontFamily: F_ANCHA, fontWeight: 900, fontSize: fs, lineHeight: 1, color: it.color ?? ACENTO, ...contorno(H * 0.005), whiteSpace: "nowrap", letterSpacing: "0.03em", display: "flex", alignItems: "baseline" }}>
+        fontFamily: F_ANCHA, fontWeight: 900, fontSize: fs, lineHeight: 1, color: it.color ?? ACENTO, ...contorno(H * 0.005), whiteSpace: "nowrap", letterSpacing: Math.max(fs * 0.03, 2 * H * 0.005), display: "flex", alignItems: "baseline" }}>
         <span>{txt}</span>
         {it.flecha ? <Flecha alto={fs * 0.72} dir={it.flecha} color={it.color ?? ACENTO} grueso={H * 0.005} /> : null}
       </div>

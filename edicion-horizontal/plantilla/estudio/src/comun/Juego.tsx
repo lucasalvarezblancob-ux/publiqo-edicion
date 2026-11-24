@@ -108,7 +108,7 @@ export const Lista: React.FC<{ f: number; dur: number; it: Item }> = ({ f, dur, 
   const k = it.escala ?? 1, fam = fuente(it.fuente ?? "Inter", F_TXT), gris = "#3C3C3C";
   const items: string[] = it.items ?? [];
   const tit = H * 0.035 * k, fila = H * 0.023 * k, paso = H * 0.044 * k, circ = H * 0.03 * k, pad = H * 0.03 * k;
-  const ancho = W * 0.197 * k, alto = Math.max(H * 0.365 * k, pad + (it.titulo ? tit * 1.25 : 0) + paso * (items.length + 0.6) + H * 0.074 * k);
+  const ancho = W * 0.197 * k, alto = pad + (it.titulo ? tit * 1.25 : 0) + paso * (items.length + 0.6) + H * 0.074 * k;      // del contenido: con las 5 filas de JJW da su 36,5 %
   const fuera = interpolate(f, [dur - 4, dur], [0, 1], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });      // salida en 4 f
   const esq = it.esquina ?? "ii";
   const pos: React.CSSProperties = { position: "absolute", width: ancho, height: alto, background: "#FFFFFF", borderRadius: H * 0.026 * k, overflow: "hidden",
