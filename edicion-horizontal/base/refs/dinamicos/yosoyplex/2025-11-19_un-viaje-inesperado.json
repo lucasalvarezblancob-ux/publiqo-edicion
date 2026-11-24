@@ -1,0 +1,412 @@
+{
+ "video": {
+  "archivo": "refs/dinamicos/yosoyplex/2025-11-19_un-viaje-inesperado.mp4",
+  "creador": "yosoyplex",
+  "canal": "YoSoyPlex",
+  "url": "https://www.youtube.com/watch?v=wB0DI4y5iv0",
+  "titulo": "Un Viaje Inesperado",
+  "duracion": "33:00 (1980,3 s)",
+  "publicado": "2025-11-19",
+  "tramo_analizado": "completo (0:00–33:00)",
+  "fps": 30,
+  "resolucion": "1920x1080",
+  "idioma": "es (con tramos en inglés subtitulados al español)",
+  "modelo": "opus",
+  "estilo": "vlog",
+  "tipo": "viaje",
+  "estilo_por_que": "Estilo VLOG (la gramática es la del vlog de Plex: grupo de amigos a cámara en mano, sonido directo el 98 % del tiempo, sin voz en off, corte seco, punch-in y zoom de vaivén sobre quien remata, apartes de color con golpe, subtítulos solo para quien no se entiende). Tipo VIAJE, en su versión de escapada por carretera de un día: Las Vegas → Ash Springs → Rachel/Área 51 (en el vídeo «4 o 5 horas para llegar», 26:59). Qué lo hace viaje: (1) unos 14 de los 33 minutos (≈ 42 %) son trayecto dentro de un coche (Cybertruck 3:42–7:00, Tesla 8:13–10:51 y 11:58–14:20, furgoneta de Ryan 20:56–22:20 y 25:20–26:46, vuelta 30:00–33:00); (2) cada parada se presenta con su dato hablado: coche ilegal en Europa (4:20–4:36), barca en mitad del desierto (10:51–11:20), avioneta atada a una autocaravana (12:09–12:57), fisioterapeuta que abre solo los lunes de 1 a 5 (16:25–16:35), letrero de la Extraterrestrial Highway puesto muy alto por las pegatinas (23:30–23:55), autobús blanco de los trabajadores del Área 51 (24:11–25:16), el Área 51 «del tamaño de Madrid» (28:46–28:53); (3) una llegada como clímax (valla del Área 51, 26:46–28:45); (4) un problema de viaje que hace de hilo (batería del Tesla 95 % → 36 % previsto, 8:41–8:52; 16 %, 13:06–13:15; sin cargador, 14:39–15:21; 8 h 55 min de carga, 18:04). Lo que NO tiene de viaje: ningún mapa animado (los mapas que se ven son la pantalla real del coche: 9:10–9:20, 13:04–13:09, 13:42–13:45, 30:06–30:08; no hay satélite gráfico), ningún rótulo de lugar, de día ni de precio («100 dólares» va solo como subtítulo, 20:10), ninguna cabecera. Algo de reto: un reto hablado de 1 minuto («no hay huevos», 2:36–2:50, que acaba en el salto de Rubi, 2:50–3:42) y una misión implícita (llegar al Área 51 y volver con la batería), pero sin reglas, marcador ni cuenta atrás en pantalla: no es estilo reto."
+ },
+ "resumen": [
+  "Vlog de escapada de 33:00 a 30 fps: Plex y 4 amigos en Las Vegas (van por la nominación de su pareja a los Latin Grammy), un desconocido les dice que vayan al Área 51 y el «vlog de actividades» se convierte en un road trip nocturno con un Tesla sin batería, un conductor del pueblo (Ryan) y una valla que se cierra delante de ellos.",
+  "Cortes: el detector da 587 (17,8/min, mediana 1,90 s, 20 % de planos < 1 s), pero no ve los jump cuts al mismo encuadre ni los cortes de noche; contados a ojo a 0,1 s en 4 tramos (2:00–3:00, 5:00–5:30, 15:00–15:30, 30:00–30:30) salen 74 donde el detector da 48 (×1,54; rango ×1,33–1,82): ≈ 900 cortes (780–1.070), ≈ 27/min (24–32).",
+  "La intro no tiene tráiler, ni título, ni cabecera: es un saludo en grupo a cámara de 42,2 s delante del Stratosphere, con 6 planos largos (uno de 15,8 s) y todo el dinamismo puesto en zoom: 4 zooms de vaivén (×1,21–1,35) y un aparte en blanco y negro con snap zoom ×1,44–1,49. Lo que pasa después (el Área 51) no se anticipa: el título promete «inesperado» y el vídeo lo cumple a los 7:25.",
+  "Lo nuevo frente a Plex 2023 y frente a «gané» (2026): el zoom animado de vaivén (entra ×1,26 de mediana en 8 f con frenada, aguanta 1,4 s, sale en 8 f): 40 detectados (1,2/min), 10 en los 3 primeros minutos. Convive con el punch-in por corte (54 detectados, mediana ×1,60, 1,6 s).",
+  "Apartes de color como sello: 13 apartes (B/N, contraste extremo saturado, posterizado, tinte cálido) de 0,5–4 s, casi todos con efecto de sonido grave o rasposo; y un inserto-meme recurrente (clip de fiesta con máscara, con su propia música a tope) que vuelve 5 veces (2:13, 10:10, 14:36, 15:11, 23:00).",
+  "Casi sin motion graphics: una etiqueta de juego («HAMBURGUESA:» + «IMPOSTOR» en rojo, 5:40–5:52), una flecha meme «To Be Continued» sobre un flashback de 2023 (8:30.5–8:31.4) y una tarjeta de vídeo con fondo desenfocado (2:25.6–2:29.4). Ni mapas, ni rótulos de lugar, ni cartelas.",
+  "Subtítulos en una línea abajo al centro, minúsculas: amarillo #E6FB08 para los otros (casi todo inglés traducido: Anthony, las vecinas, el de la caravana, Ryan, la IA Grok) y blanco para el grupo; ≈ 170 s en amarillo y ≈ 165 s en blanco (≈ 17 % del vídeo, medido por color a 2 fps).",
+  "Música a ratos: 51 ventanas que suman el 54 % del tiempo, 11,0 dB bajo la voz de mediana; sube a −6 dB en los saltos sin voz y por encima de la voz en un montaje de 7 s (6:51–6:58) y en el atardecer (20:48–20:59). Se quita para que caiga un chiste (0:30–0:36).",
+  "Efectos de sonido confirmados: 13 en 33 min (0,39/min), todos pegados a un aparte de color; los zooms, los punch-in y los subtítulos van sin efecto.",
+  "Cierre en dos tiempos: despedida a cámara y CTA hablado (30:56–31:13: «un like y una suscripción se agradece») y luego 1:47 de coda tipo escena poscréditos (coqueteo con la IA del coche, subtitulado en amarillo) que acaba en B/N borroso entre risas (32:56–33:00). Sin pantalla final ni cartela."
+ ],
+ "contexto": {
+  "quien": "Plex (YoSoyPlex) con 4 amigos de su grupo: Adri (gafas amarillas, el blanco de las bromas), Rubi (el cámara que «nunca se ha tirado»), Borja y Crufi. Los graba un operador con gran angular y Plex lleva una cámara en selfie; GoPro en los saltos. Secundarios: Axel (skater, 1:20–1:42), Anthony (el que les manda al Área 51, 7:56–8:11), dos vecinas con el coche roto (15:24–16:00), el señor de la caravana (18:15–19:15) y Ryan, el conductor del pueblo que les lleva por 100 dólares (19:45–30:32).",
+  "donde": "Las Vegas (Stratosphere y su SkyJump, calles), Cybertruck y Tesla, carretera del desierto de Nevada, Ash Springs (gasolinera, cargadores, parque de caravanas), furgoneta de Ryan, tienda E.T. Fresh Jerky, Extraterrestrial Highway, autobús de los trabajadores y la valla del Área 51 de noche.",
+  "objetivo": "Al principio, un vlog de actividades en Las Vegas (saltos desde la torre, coche raro). Desde 7:25, llegar al Área 51 de noche y volver, con el Tesla quedándose sin batería en mitad del desierto.",
+  "tono": "Humor de grupo, con chistes internos y señales «místicas» (matrícula 333, alien en el retrovisor); suspense de broma en la noche (luces, cámara que se gira, «he visto un caza»); un momento serio corto (trasplante de corazón de Ryan, 30:32–30:55).",
+  "gancho_5s": "Ninguno visual: «Muy buenas chavales, bienvenidos a un nuevo vlog… estamos en Las Vegas» en plano a tres, con el Stratosphere detrás. El gancho es el sitio y el grupo.",
+  "gancho_30s": "0:16.6 «¿Ha empezado la vuelta al mundo cotri y no nos hemos enterado? No, pero casi» (promesa para el público de la serie), 0:20.3 por qué están aquí (Latin Grammy), 0:24.4 «un buen vlog guapo de actividades» y 0:38.7 «hay alguien que no está perdiendo el tiempo… está ahí arriba» → panorámica a la torre y salto de Borja a los 0:42.2.",
+  "preguntas_abiertas": [
+   "2:47 «No hay huevos»: ¿se tirará Rubi? → 2:50–3:42 se tira.",
+   "8:13 ¿Llegarán al Área 51 y podrán volver? (batería 36 % previsto a la llegada, 8:51) → se cierra en 26:46 (llegan) y 29:40 (vuelven gracias a Ryan).",
+   "8:21 «siempre nos ha pasado algo» en el Área 51: ¿qué pasará esta vez? → 27:06 se cierra la valla, 27:09 la cámara se gira, 27:38 «he visto un caza».",
+   "9:25 «hoy vamos a acabar en The Clown Motel durmiendo» / 10:17 «os prometo que no» → no se resuelve en imagen: duermen en el coche de vuelta.",
+   "13:06 batería al 16 %: ¿cómo cargan? → 17:00 el cable estaba en el maletero, 18:04 «8 horas y 55 minutos», 19:15 deciden alquilar coche."
+  ],
+  "giros": [
+   "7:25–8:13 Anthony (a la salida del restaurante) les habla del 3I/Atlas y del Área 51: el vlog cambia de destino.",
+   "13:06 la batería prevista baja al 16 %.",
+   "14:43 los cargadores de Ash Springs están apagados.",
+   "16:56–17:05 el cable del Tesla estaba en el maletero (giro feliz) pero tarda 8 h 55 min.",
+   "19:56 Ryan «tengo una van» y les lleva por 100 dólares.",
+   "27:06 se cierra la valla delante de ellos; 28:21 les apagan las luces."
+  ],
+  "recompensas": [
+   "0:42–1:12 salto de Borja desde la torre (GoPro).",
+   "2:50–3:42 salto de Rubi, gritos y reacción.",
+   "17:59 «Se carga» y celebración.",
+   "26:46–28:45 llegada a la valla del Área 51 de noche.",
+   "29:40–30:03 despedida de Ryan: «¡Hemos sobrevivido!».",
+   "31:28–32:52 remate de la IA del coche ligando con Plex."
+  ],
+  "personajes_secundarios": "Anthony (giro), Ryan (rescate y conductor; tiene subtítulo amarillo en todo lo que dice), la IA Grok del Tesla (coda), Axel y las vecinas (color local).",
+  "humor": "Bromas a Adri (gafas amarillas 6:37, «Adri toquetea todo» 21:23), apartes de color con golpe sobre la frase graciosa, inserto-meme repetido 5 veces, «To Be Continued» sobre la huida de 2023, coda de la IA ligando (31:28–32:52).",
+  "tension": "Baja y de broma: batería que baja, desierto sin cobertura (13:46–13:56), «5 chicos de España missing» (25:35), luz de colores en el desierto (25:40–25:54), valla que se cierra y cámara que se gira (27:06–27:15).",
+  "momentos_wow": ["0:42–1:12 SkyJump de Borja", "2:50–3:42 SkyJump de Rubi", "12:14–12:45 avioneta atada a una autocaravana", "27:06–27:15 la valla se cierra y la cámara se gira hacia ellos"]
+ },
+ "curva_energia": [
+  {"minuto": 0, "nivel": 3, "motivo": "Premisa en grupo con planos largos (uno de 15,8 s), 4 zooms de vaivén y 1 aparte B/N; acaba con la panorámica a la torre y el corte al salto (0:42.2)."},
+  {"minuto": 1, "nivel": 4, "motivo": "Salto de Borja con GoPro y música a −6 dB sin voz; Axel el skater; 19 planos detectados."},
+  {"minuto": 2, "nivel": 4, "motivo": "Llega Rubi, adivinanza de la altura, reto «no hay huevos», inserto-meme (2:13.40); 39 cortes contados a ojo."},
+  {"minuto": 3, "nivel": 5, "motivo": "Salto de Rubi con gritos y música casi a la altura de la voz (1,4 dB, 2:39–3:23); 30 planos detectados, el minuto con más del detector."},
+  {"minuto": 4, "nivel": 3, "motivo": "Presentación del Cybertruck (app, volante, espejo, ilegal en Europa): 17 planos, música 16 dB bajo la voz."},
+  {"minuto": 5, "nivel": 4, "motivo": "Autopilot, aparte de contraste extremo con tono (5:15.80), juego del impostor con etiqueta en pantalla (5:40–5:52)."},
+  {"minuto": 6, "nivel": 3, "motivo": "Final del juego, gafas amarillas de Adri, montaje de 7 s con música por encima (6:51–6:58)."},
+  {"minuto": 7, "nivel": 4, "motivo": "Giro: Anthony y el Área 51; 33,5 s de subtítulo amarillo; aparte posterizado con golpe (7:39.7)."},
+  {"minuto": 8, "nivel": 4, "motivo": "Segundo aparte posterizado (8:06.7), flashback de 2023 con «To Be Continued» (8:21–8:32), batería 95 % → 36 %."},
+  {"minuto": 9, "nivel": 3, "motivo": "Mapa en la pantalla real del Tesla (9:10–9:20), Clown Motel, «todos son señales»."},
+  {"minuto": 10, "nivel": 4, "motivo": "Cántico «los pibes en Las Vegas / los chavales al desierto» + inserto-meme (10:10.2), promesa de dormir en casa, matrícula 333 (10:39)."},
+  {"minuto": 11, "nivel": 3, "motivo": "Barca en mitad del desierto, carrera al coche; 11 planos detectados (uno de 25,7 s)."},
+  {"minuto": 12, "nivel": 3, "motivo": "Aparte B/N (11:56–12:01), avioneta atada a la autocaravana; música 5,7 dB bajo la voz durante 2 min de trayecto."},
+  {"minuto": 13, "nivel": 3, "motivo": "Batería al 16 %, sin datos en el móvil; charla en el coche."},
+  {"minuto": 14, "nivel": 3, "motivo": "Moto en el maletero, estatuas de aliens y ciervos, inserto-meme (14:36.2), llegada a los cargadores."},
+  {"minuto": 15, "nivel": 4, "motivo": "Cargadores apagados, salida del coche en B/N (15:07–15:11), inserto-meme (15:11.50), vecinas con subtítulos (15:24–16:00)."},
+  {"minuto": 16, "nivel": 3, "motivo": "Fisioterapeuta de los lunes, parque de caravanas; 11 planos detectados, sin música."},
+  {"minuto": 17, "nivel": 4, "motivo": "El cable estaba en el maletero (16:56–17:05), celebración, enchufe."},
+  {"minuto": 18, "nivel": 3, "motivo": "«8 horas y 55 minutos» (18:04) y charla subtitulada con el de la caravana (20 s de subtítulo blanco)."},
+  {"minuto": 19, "nivel": 3, "motivo": "Plan de alquilar un coche; Ryan y su van (19:56)."},
+  {"minuto": 20, "nivel": 4, "motivo": "100 dólares (20:10), aparte B/N con golpe (20:48.0), caminata al atardecer con música por encima de la voz (20:48–20:59)."},
+  {"minuto": 21, "nivel": 3, "motivo": "Van sin asientos, alien en el retrovisor, entrevista a Ryan conduciendo (subtítulos amarillos)."},
+  {"minuto": 22, "nivel": 3, "motivo": "Ryan y el 3I/Atlas, tienda E.T. Fresh Jerky, aparte B/N con acorde (22:31.0)."},
+  {"minuto": 23, "nivel": 4, "motivo": "Inserto-meme (23:00.6), flashback 2023, apartes saturados con efecto (23:12.0, 23:19.2), Extraterrestrial Highway y trepar el poste."},
+  {"minuto": 24, "nivel": 3, "motivo": "Autobús blanco explicado de noche: el detector solo ve 2 planos (49,5 s), hay jump cuts que no detecta."},
+  {"minuto": 25, "nivel": 4, "motivo": "«5 chicos de España missing», luz de colores en el desierto, camino de tierra a oscuras; aparte cálido con golpe (25:18.1)."},
+  {"minuto": 26, "nivel": 4, "motivo": "Faros por el camino de tierra, llegada a la valla iluminada (26:38–26:46); música de suspense sin voz a −14 dB."},
+  {"minuto": 27, "nivel": 5, "motivo": "Pico: la valla se cierra (27:06), la cámara se gira (27:09), «he visto un caza» (27:38); 7 planos detectados, tomas largas de reacción."},
+  {"minuto": 28, "nivel": 4, "motivo": "Les apagan las luces (28:21), apartes cálidos con ruido rasposo (28:05.6, 28:46.9); plano de 56,5 s."},
+  {"minuto": 29, "nivel": 3, "motivo": "Frío y bromas; despedida de Ryan (29:40)."},
+  {"minuto": 30, "nivel": 2, "motivo": "«Hemos sobrevivido», reflexión y trasplante de Ryan, cierre a cámara en el coche; 9 planos detectados."},
+  {"minuto": 31, "nivel": 3, "motivo": "CTA hablado (31:10) y arranque de la coda con la IA; música romántica 17 dB bajo la voz y subtítulo amarillo continuo (20,5 s)."},
+  {"minuto": 32, "nivel": 4, "motivo": "Remate de la coda (31 s de subtítulo amarillo), aparte cálido (32:17.2) y final en B/N borroso entre risas (32:56–33:00)."}
+ ],
+ "picos_y_preparacion": [
+  {"pico": "0:42.2 salto de Borja", "preparacion": "«hay alguien que no está perdiendo el tiempo… está ahí arriba» (0:38.7) + panorámica vertical real a la torre (0:41.3–0:42.2) + J-cut del «3, 2, 1, go» (0:41.9)."},
+  {"pico": "2:50 salto de Rubi", "preparacion": "Reto hablado de 14 s («el Rubi habla mucho, pero nunca se ha tirado» 2:36 → «no hay huevos» 2:47) y música que sube a 1,4 dB de la voz desde 2:39."},
+  {"pico": "27:06 la valla se cierra", "preparacion": "1 minuto de oscuridad casi sin cortes: «5 chicos de España missing» (25:35), luz en el desierto (25:40), 20 s de camino de tierra con faros (26:00–26:40) y la valla iluminada al fondo, música de suspense sin voz."}
+ ],
+ "ritmo_informacion": {
+  "cada_cuanto_algo_nuevo": "35 bloques (sitio, persona, problema o parada) en 33 min → uno cada 57 s; en los 10 primeros minutos, 14 bloques (uno cada 43 s); el bloque más largo es la valla del Área 51 (≈ 2 min).",
+  "palabras_por_minuto": 125,
+  "habla_proporcion": 0.98,
+  "que_se_recorta": "Los trayectos no se resumen con cámara rápida ni con rótulo: se quedan en tiempo real como conversación en el coche (≈ 42 % del vídeo) y se cortan a jump cut cada 1–3 s. Se quitan las esperas (8 h de carga → se salta con el plan de alquilar coche) y la llegada a Rachel.",
+  "como_se_resume": "Con la palabra: «4 horas, vale, hemos encontrado un sitio» (16:36), «llevamos 4 o 5 horas para llegar» (27:01). No hay «3 HORAS DESPUÉS» ni mapa de ruta: el paso del tiempo se ve en la luz (día → atardecer 20:48 → noche 22:00)."
+ },
+ "estructura": [
+  {"desde": "0:00.00", "hasta": "0:42.23", "parte": "Intro: saludo y premisa en grupo", "que_pasa": "Delante del Stratosphere: Las Vegas, Latin Grammy de Itana, vlog de actividades, «falta alguien… está ahí arriba»."},
+  {"desde": "0:42.23", "hasta": "1:12.9", "parte": "Salto de Borja", "que_pasa": "SkyJump con GoPro y planos desde abajo; música a −6 dB sin voz."},
+  {"desde": "1:12.9", "hasta": "1:56.8", "parte": "Axel y el skate", "que_pasa": "El «suplente» de Borja, guardia en skate, foto NFT."},
+  {"desde": "1:56.8", "hasta": "2:50", "parte": "Rubi y el reto", "que_pasa": "Altura de la torre frente al Burj Khalifa, «no hay huevos»; inserto-meme 2:13.40."},
+  {"desde": "2:50", "hasta": "3:42", "parte": "Salto de Rubi", "que_pasa": "GoPro, gritos, reacción («no lo repito»)."},
+  {"desde": "3:42", "hasta": "5:13", "parte": "El Cybertruck", "que_pasa": "Presentación del coche: app en vez de llave, volante, espejo, ilegal en Europa, asientos de fichas de póker."},
+  {"desde": "5:13", "hasta": "7:25", "parte": "Autopilot y juego", "que_pasa": "Confianza en la IA, aparte 5:15.80, juego del impostor con etiqueta (5:40–5:52), gafas amarillas, montaje 6:51–6:58."},
+  {"desde": "7:25", "hasta": "8:13", "parte": "Giro: Anthony", "que_pasa": "A la salida del restaurante les manda al Área 51; subtítulos amarillos; 2 apartes posterizados."},
+  {"desde": "8:13", "hasta": "10:51", "parte": "El plan", "que_pasa": "Flashback de 2023 (8:21–8:32), batería, Clown Motel, señales, promesa de dormir en casa, matrícula 333."},
+  {"desde": "10:51", "hasta": "14:20", "parte": "Carretera: cosas raras", "que_pasa": "Barca en el desierto, aparte B/N, avioneta, batería al 16 %, sin datos, moto en el maletero."},
+  {"desde": "14:20", "hasta": "19:15", "parte": "Ash Springs: sin cargador", "que_pasa": "Estatuas de aliens, cargadores apagados, vecinas, fisioterapeuta, caravanas, cable en el maletero, 8 h 55 min, charla con el de la caravana."},
+  {"desde": "19:15", "hasta": "22:20", "parte": "Ryan", "que_pasa": "Alquilar coche, la van por 100 dólares, atardecer, van sin asientos, alien en el retrovisor, entrevista a Ryan."},
+  {"desde": "22:20", "hasta": "25:39", "parte": "Paradas de noche", "que_pasa": "E.T. Fresh Jerky (Alien Trump), Extraterrestrial Highway, autobús blanco de los trabajadores."},
+  {"desde": "25:39", "hasta": "26:46", "parte": "Aproximación", "que_pasa": "Luz de colores en el desierto, caramelo, camino de tierra con faros."},
+  {"desde": "26:46", "hasta": "29:40", "parte": "La valla del Área 51", "que_pasa": "La valla se cierra, la cámara se gira, «un caza», luces apagadas, frío."},
+  {"desde": "29:40", "hasta": "31:13", "parte": "Despedida y cierre", "que_pasa": "Ryan, «hemos sobrevivido», trasplante, «esto ha sido el vlog», like y suscripción (31:10)."},
+  {"desde": "31:13", "hasta": "33:00", "parte": "Coda poscréditos", "que_pasa": "«Ya no somos lo que éramos», coqueteo con la IA del coche subtitulado, final en B/N."}
+ ],
+ "intro": {
+  "tipo": "otra: saludo y premisa en grupo a cámara, en directo, de 42,2 s, sin tráiler ni título; el dinamismo lo ponen 4 zooms de vaivén, 1 aparte B/N con snap zoom y 1 inserto de contraste extremo de 17 f",
+  "por_que_ese_tipo": "No es «corta»: no hay ráfaga, ni nombre, ni tráiler a la música (cortes_rafagas.json con --hasta 42,3: 0 cortes en ráfaga; el primer corte que ve el detector está en 0:14.43). No es «explicativa»: explica a qué han venido, pero solo hablando y sin una sola animación. La premisa del principio es mínima (estamos en Las Vegas por los Latin Grammy, vamos a hacer actividades) y la de verdad, el viaje al Área 51, se guarda como sorpresa para el minuto 7:25: un tráiler la habría destripado y el título («Un Viaje Inesperado») depende de que no se sepa. La intro se sostiene por el grupo (3 personas en plano, chistes entre ellos) y por un gancho inmediato: a los 42 s ya hay alguien saltando de una torre.",
+  "clips_rafaga_trailer": [],
+  "clips_rafaga_trailer_nota": "No hay ráfaga ni tráiler. Todo lo que se ve de 0:00 a 0:42.2 es una sola situación grabada en directo (3 personas delante del Stratosphere); el único plano de otro momento es el inserto de 17 f (0:14.43–0:14.97), primer plano de Plex con el cartel de Las Vegas detrás en contraste extremo, que funciona como chiste («llamativo») y no anticipa nada. Lo que no se mete nunca en la intro: ni el Área 51, ni el coche, ni Ryan.",
+  "duracion_s": 42.23,
+  "duracion_f": 1267,
+  "orden": ["saludo y dónde estamos (f0–f354)", "aparte B/N «del vicio y del fornicio» (f355–f432)", "inserto de contraste extremo (f433–f449)", "pregunta «¿qué hacemos aquí?» y guiño a la vuelta al mundo (f450–f610)", "por qué estamos aquí y qué vídeo es (f611–f1084)", "«¿falta alguien?» → «está ahí arriba» y panorámica a la torre (f1085–f1266)", "corte al salto de Borja (f1267)"],
+  "sin": ["tráiler", "ráfaga", "título del vídeo", "cabecera o logo", "rótulos", "mapa", "música alta"],
+  "primera_frase": "«Muy buenas chavales, bienvenidos a un nuevo vlog» (0:00.0, desde el f0)",
+  "animaciones_explicativas": [],
+  "animaciones_explicativas_nota": "Ninguna: no hay gráficos en la intro. Los únicos efectos de posproducción son zooms digitales y el paso a B/N.",
+  "linea_de_tiempo": [
+   {"f0": 0, "f1": 280, "t": "0:00.00–0:09.33", "que_se_ve": "Plano a tres de cintura para arriba: Adri (camiseta rosa) a la izquierda, Plex en el centro, Crufi (sudadera negra) a la derecha; detrás, el Stratosphere y los arcos de Las Vegas.", "origen": "rodaje propio (operador)", "camara": "en mano, gran angular", "zoom_velocidad": "zoom de vaivén digital: entra ×1,21 en 6 f (f229–f234, 0:07.63), sale ×0,79 en 7 f (f241–f247); medir_zoom 7,5–8,4 s → máx 1,233", "texto": "", "motion_graphic": "", "sfx": "ninguno (candidato 0:00.41 = voz)", "musica": "desde el f0, −28,1 dB, 7,1 dB bajo la voz", "voz": "«Muy buenas chavales… Las Vegas, también conocida como la ciudad del pecado»"},
+   {"f0": 281, "f1": 432, "t": "0:09.37–0:14.40", "que_se_ve": "Jump cut al mismo encuadre (el detector no lo ve). Snap zoom sobre Adri, que remata; el plano pasa a blanco y negro y vuelve a abrirse.", "origen": "rodaje propio", "camara": "en mano", "zoom_velocidad": "snap zoom ×1,44 en 8 f (f355–f362, 0:11.83–0:12.07; medir_zoom 11,8–12,4 → 1,488), quieto; paso a B/N en 3 f (f379–f381, 0:12.63–0:12.70); zoom-out ×0,78 en 14 f (f397–f410, 0:13.23–0:13.70); B/N hasta el corte", "texto": "", "motion_graphic": "", "sfx": "ninguno confirmado", "musica": "cama", "voz": "«Del vicio» (0:10.6, Plex) → «Del vicio y del fornicio» (0:11.2, Adri)"},
+   {"f0": 433, "f1": 449, "t": "0:14.43–0:14.97", "que_se_ve": "Inserto de 17 f: primer plano frontal de Plex con el cartel «Las Vegas» y un arco detrás, contraste y saturación extremos (blancos quemados, rojos y amarillos).", "origen": "rodaje propio de otro momento (selfie)", "camara": "fija", "zoom_velocidad": "", "texto": "", "motion_graphic": "", "sfx": "golpe de ruido ancho que empieza en el corte (0:14.47, +10,8 dB sobre la voz; sfx_hoja_00 #2)", "musica": "cama", "voz": "«Bueno, ok» (0:14.5)"},
+   {"f0": 450, "f1": 460, "t": "0:15.00–0:15.33", "que_se_ve": "Vuelve al plano a tres, en color.", "origen": "rodaje propio", "camara": "en mano", "zoom_velocidad": "", "texto": "", "motion_graphic": "", "sfx": "", "musica": "cama", "voz": "«¿qué hacemos aquí chavales?»"},
+   {"f0": 461, "f1": 610, "t": "0:15.37–0:20.33", "que_se_ve": "Jump cut, mismo encuadre.", "origen": "rodaje propio", "camara": "en mano", "zoom_velocidad": "zoom de entrada ×1,24 en 5 f (0:19.37)", "texto": "", "motion_graphic": "", "sfx": "", "musica": "cama", "voz": "«¿Ha empezado la vuelta al mundo cotri y no nos hemos enterado? No, pero casi»"},
+   {"f0": 611, "f1": 1084, "t": "0:20.37–0:36.13", "que_se_ve": "Plano a tres de 15,8 s (el más largo de la intro). Adri se lleva las manos al pecho; Plex le gira la cara al público.", "origen": "rodaje propio", "camara": "en mano", "zoom_velocidad": "3 movimientos digitales: zoom-out ×0,86 (0:23.57, 8 f); vaivén ×1,24 en 5 f (0:29.77, f893–f897) aguanta 1,07 s y sale ×0,77 en 9 f (0:30.97); vaivén ×1,35 en 9 f (0:33.03; medir_zoom 33,0–33,6 → 1,345) y sale ×0,83 (0:33.83)", "texto": "", "motion_graphic": "", "sfx": "", "musica": "la cama acaba en 0:30 y no hay música de 0:30 a 0:36 (el chiste «Algún día, eh» va en seco)", "voz": "«a Itana la han nominado a los Latin Grammys… un buen vlog guapo de actividades» · «Algún día, eh» (0:29.2, Adri) · «Adrián se ha perdido en su película» (0:34.6)"},
+   {"f0": 1085, "f1": 1157, "t": "0:36.17–0:38.57", "que_se_ve": "Corte a otra toma del mismo plano.", "origen": "rodaje propio", "camara": "en mano", "zoom_velocidad": "", "texto": "", "motion_graphic": "", "sfx": "", "musica": "entra la segunda pista en 0:36 (−24,5 dB, 4,8 dB bajo la voz)", "voz": "«Bueno, estoy preguntando. ¿Falta alguien?»"},
+   {"f0": 1158, "f1": 1266, "t": "0:38.60–0:42.20", "que_se_ve": "Jump cut; Plex señala hacia arriba y el operador sube la cámara hasta la punta de la torre.", "origen": "rodaje propio", "camara": "panorámica vertical real de 0:41.3 a 0:42.2 (f1238–f1266)", "zoom_velocidad": "", "texto": "", "motion_graphic": "", "sfx": "", "musica": "cama", "voz": "«hay alguien que no está perdiendo el tiempo… está ahí arriba» · «3, 2, 1, go» entra en 0:41.9, antes del corte (J-cut)"},
+   {"f0": 1267, "f1": 1400, "t": "0:42.23–0:46.7", "que_se_ve": "Corte a la GoPro de Borja en la plataforma del SkyJump, Las Vegas a vista de pájaro.", "origen": "GoPro propia", "camara": "en el arnés", "zoom_velocidad": "", "texto": "", "motion_graphic": "", "sfx": "", "musica": "sube a −6 dB sin voz en el salto", "voz": "«¡Opción de chavones!» (0:44.8)"}
+  ],
+  "titulo_cabecera": {
+   "como_se_construye": "No hay título ni cabecera en todo el vídeo.",
+   "fuente": "—",
+   "color": "—",
+   "duracion_f": 0,
+   "sonido": "—"
+  },
+  "primer_plano_hablando_s": 0.0,
+  "primer_plano_hablando_f": 0,
+  "musica_intro": "Cama desde el f0 a −28,1 dB (7,1 dB bajo la voz) hasta 0:30; 6 s sin música para el chiste; segunda pista desde 0:36 a −24,5 dB que sube a −6 dB en el salto; cambio de pista detectado en 1:16."
+ },
+ "motion_graphics": [
+  {"tipo": "inserto-meme recurrente con audio propio", "que_es": "Clip de una fiesta con luces rojas y alguien con máscara de Kaonashi (Sin Cara) luminosa, colores saturados; entra con su música a tope y corta la voz.", "entrada_salida": "por corte: 2:13.40–2:14.87 (44 f), 10:10.2, 14:36.2, 15:11.50–15:12.07 (17 f), 23:00.6", "curva": "sin animación", "posicion": "pantalla completa", "tamano": "100 %", "color": "rojos y verde neón saturados", "fuente": "", "sonido": "música del propio clip, que entra en seco en el corte (sfx_hoja_01 #29, 04 #111, 05 #131, 09 #220: silencio y bloque rítmico ancho)", "disparador": "frase de fiesta o de «flow» del grupo: 2:13 tras la broma de Rubi, 10:10 tras «los pibes en Las Vegas: casino, fiesta», 15:11 al bajar del coche en Ash Springs", "por_minuto": 0.15, "ejemplos": ["2:13.40–2:14.87", "10:10.2", "15:11.50–15:12.07"], "cuando_si": "Como chiste interno repetido (callback) cada 3–8 min.", "cuando_no": "No en la noche del Área 51 (después de 23:00 ya no sale)."},
+  {"tipo": "etiqueta de juego", "que_es": "Durante el juego del impostor: «HAMBURGUESA:» en blanco grande abajo al centro (la palabra secreta) y «IMPOSTOR» en rojo pequeño encima de la cabeza de Adri.", "entrada_salida": "≈ 5:40–5:52 (presente en 5:40.69, 5:41.21 y 5:42.0; ya no en 5:52.54); entra y sale por corte", "curva": "sin animación", "posicion": "«HAMBURGUESA:» x 463–1452, y 974–1045; «IMPOSTOR» x 252–569, y 262–295 (pegado sobre la cabeza)", "tamano": "6,6 % y 3,1 % del alto (mayúsculas)", "color": "#FFFFFF con borde negro fino / #EE0106 sin borde", "fuente": "«HAMBURGUESA:» Unbounded 700 (+0,669), Montserrat 800 (+0,621), Bricolage Grotesque 700 (+0,613); «IMPOSTOR» Archivo 800 (+0,618), Unbounded 700 (+0,611), Bricolage Grotesque 700 (+0,581)", "sonido": "ninguno confirmado", "disparador": "para que el espectador juegue: se le dice quién es el impostor", "por_minuto": 0.03, "ejemplos": ["5:42.0"], "cuando_si": "Juego en el coche: dar al público la información que los jugadores no tienen.", "cuando_no": ""},
+  {"tipo": "flecha meme «To Be Continued»", "que_es": "Flecha negra con «To Be Continued» manuscrito (meme de JoJo) abajo a la izquierda sobre el último plano del flashback de 2023 (Plex gritando mientras huye de la valla).", "entrada_salida": "8:30.5–8:31.4 aprox. (visible en 8:30.50 y 8:31.00; no en 8:30.00 ni en 8:31.50)", "curva": "sin animación apreciable a 0,5 s", "posicion": "abajo, x ≈ 1080–1880 de 1920, y ≈ 85–95 %", "tamano": "≈ 10 % del alto la flecha", "color": "negro con letras blancas", "fuente": "manuscrita (no medida)", "sonido": "el del archivo", "disparador": "«tuvimos que irnos corriendo de allí» (8:21–8:32)", "por_minuto": 0.03, "ejemplos": ["8:30.5"], "cuando_si": "Para cerrar un flashback con chiste.", "cuando_no": ""},
+  {"tipo": "tarjeta de vídeo con fondo desenfocado", "que_es": "Clip encajado en el centro con una copia desenfocada a pantalla completa detrás.", "entrada_salida": "por corte, 2:25.60–2:29.40 (3,8 s)", "curva": "sin animación", "posicion": "centro", "tamano": "≈ 45 % del ancho", "color": "", "fuente": "", "sonido": "", "disparador": "conversación sobre la altura de la torre / el Burj Khalifa", "por_minuto": 0.03, "ejemplos": ["2:25.60–2:29.40"], "cuando_si": "Material de otro formato dentro del 16:9.", "cuando_no": ""},
+  {"tipo": "flashback de archivo propio", "que_es": "Planos de la Vuelta al Mundo de 2023 (huida de la valla del Área 51 de noche y la valla de día en B/N).", "entrada_salida": "por corte: 8:21–8:32 (≈ 11 s, cierra con «To Be Continued») y 23:03–23:07", "curva": "", "posicion": "pantalla completa", "tamano": "", "color": "", "fuente": "", "sonido": "audio original del archivo (gritos)", "disparador": "«la última vez que vinimos en la Vuelta al Mundo… nos dieron los focos» (8:21) / «a mí me pasó donde Fran» (23:01)", "por_minuto": 0.06, "ejemplos": ["8:21–8:32", "23:03–23:07"], "cuando_si": "Archivo sobre la mención del pasado, en la palabra.", "cuando_no": ""},
+  {"tipo": "pantalla real del coche como mapa", "que_es": "No es gráfico: plano del navegador del Tesla con la ruta (satélite del propio coche) y el dedo de Plex señalando.", "entrada_salida": "por corte: 9:10–9:20, 13:04–13:09, 13:42–13:45, 30:06–30:08", "curva": "", "posicion": "", "tamano": "", "color": "", "fuente": "", "sonido": "voz encima", "disparador": "«aquí está el área 51… aquí en Tonopah… hay un cargador» (9:10), «mirad a cuánto pone que llegamos ahora: 16 %» (13:06)", "por_minuto": 0.12, "ejemplos": ["9:10–9:20", "13:04–13:09", "13:42–13:45"], "cuando_si": "Sustituye al mapa animado: sitúa y da el dato de batería con material del propio rodaje.", "cuando_no": ""}
+ ],
+ "motion_graphics_ausentes": ["título o cabecera", "mapa animado (satélite o plano)", "rótulo de lugar con chincheta", "rótulo de día u hora", "precio o cifra en pantalla", "cartelas de giro sobre negro", "flechas o círculos de resalte", "foco (B/N menos el sujeto)", "botón de suscribir", "pantalla final"],
+ "cortes": {
+  "total_detectados": 587,
+  "cortes_por_minuto_detectados": 17.8,
+  "global_detector": {"planos": 588, "media_s": 3.37, "mediana_s": 1.9, "p10_s": 0.8, "p90_s": 7.07, "max_s": 56.53, "max_donde": "minuto 28 (valla, de noche; el detector no ve los jump cuts a oscuras)", "menos_de_1s_pct": 20, "mas_de_5s_pct": 18},
+  "por_minuto_detector": [14, 19, 25, 30, 17, 26, 25, 24, 25, 21, 26, 11, 19, 17, 17, 25, 11, 16, 25, 25, 14, 24, 18, 20, 2, 27, 10, 7, 5, 14, 9, 10, 10],
+  "mediana_por_minuto_s": [1.77, 2.17, 1.6, 1.63, 2.27, 1.63, 1.7, 1.3, 1.47, 1.97, 1.3, 2.6, 1.4, 2.9, 3.07, 1.5, 4.37, 3.07, 1.8, 1.73, 2.97, 1.97, 2.03, 1.63, 49.5, 1.5, 5.0, 8.47, 7.3, 1.47, 2.73, 4.07, 3.3],
+  "contados_a_ojo": {
+   "metodo": "hojas a 0,1 s en detalle/c_mMM_*.jpg; se cuentan cortes al mismo encuadre y cambios de cámara, no barridos dentro del plano",
+   "tramos": [
+    {"tramo": "2:00–2:30", "a_ojo": 19, "detector": 14},
+    {"tramo": "2:30–3:00", "a_ojo": 20, "detector": 11},
+    {"tramo": "5:00–5:30", "a_ojo": 12, "detector": 9},
+    {"tramo": "15:00–15:30", "a_ojo": 13, "detector": 8},
+    {"tramo": "30:00–30:30", "a_ojo": 10, "detector": 6}
+   ],
+   "factor": 1.54,
+   "factor_rango": [1.33, 1.82],
+   "total_estimado": 905,
+   "total_rango": [780, 1070],
+   "por_minuto_estimado": 27.4,
+   "por_minuto_rango": [24, 32],
+   "nota": "Extrapolación lineal; de noche (24–29 min) el detector pierde más, así que el total real puede estar en la parte alta del rango."
+  },
+  "por_parte": [
+   {"parte": "intro 0:00–0:42", "planos_a_ojo": 9, "mediana_s": 4.4, "nota": "planos largos: 9,4 / 5,0 / 0,57 / 0,37 / 5,0 / 15,8 / 2,4 / 3,6 s"},
+   {"parte": "Las Vegas 0:42–3:42", "cortes_min_detector": 25, "cortes_min_a_ojo": 39},
+   {"parte": "Cybertruck y juego 3:42–7:25", "cortes_min_detector": 23},
+   {"parte": "carretera 10:51–14:20", "cortes_min_detector": 16},
+   {"parte": "Ash Springs 14:20–19:15", "cortes_min_detector": 19},
+   {"parte": "noche, aproximación y valla 24:00–29:40", "cortes_min_detector": 10, "nota": "tomas largas de reacción + oscuridad que esconde cortes"},
+   {"parte": "cierre y coda 29:40–33:00", "cortes_min_detector": 11}
+  ],
+  "rafagas": {"total": 0, "por_minuto": 0, "nota": "cortes_rafagas.json (--rafagas --hasta 42,3): 0 cortes en ráfaga; no se ha visto ninguna ráfaga de ≥ 3 planos < 0,5 s en las hojas a 0,1 s."},
+  "jump_cuts_al_hablar": "Sí, base del vídeo: en la intro cada 4–9 s (0:09.37, 0:15.37, 0:38.60), en Las Vegas y en el coche cada 1–2 s (2:00–3:00: 39 cortes a ojo). Mezcla jump cut al mismo encuadre, cambio de cámara (operador ↔ selfie de Plex) y punch-in.",
+  "j_l_cuts": "J-cut en la intro: «3, 2, 1, go» entra en 0:41.9, 0,3 s antes del corte al salto (0:42.23). La voz sigue sobre las pantallas del Tesla y los flashbacks.",
+  "match_cuts": "Ninguno construido; la transición de 0:41.3–0:42.2 es una panorámica real a la torre seguida de corte al punto de vista desde ella.",
+  "insertos_cortos": "Contraste extremo de Plex 17 f (0:14.43–0:14.97); inserto-meme 44 f (2:13.40–2:14.87) y 17 f (15:11.50–15:12.07); aparte de contraste extremo 44 f (5:15.80–5:17.27).",
+  "velocidad": "No se ha visto cámara rápida, lenta ni rebobinado en los tramos a 0,1 s; los trayectos van en tiempo real.",
+  "corte_seco_pct": 99,
+  "corte_y_musica": "100 de 587 cortes (17 %) caen en un acento de la música (16,8 acentos/min): no se monta a ritmo."
+ },
+ "zooms": [
+  {"tipo": "zoom animado de vaivén (entra, aguanta, sale)", "medido": "escaneo ORB fotograma a fotograma de todo el vídeo (pares entrada ≥ ×1,15 + salida simétrica en ≤ 3 s) + medir_zoom en 0:07.5, 0:29.7, 0:30.9 y 0:33.0 + hoja detalle/f03 a 1 fotograma", "escala_inicial_final": "×1,00 → ×1,26 de mediana (p25–p75 ×1,21–1,34; extremos ×1,17–1,39) → vuelve a ×1,00 dentro del mismo plano", "duracion_f": "entrada 8 f de mediana (5–14 f), aguante 1,38 s (0,87–1,98 s), salida 8 f (5–14 f)", "curva": "rápida con frenada al llegar (0:29.69–0:29.89: 1,00 → 1,03 → 1,10 → 1,17 → 1,22 → 1,25) y salida simétrica; sin rebote, sin desenfoque, sin temblor", "centro": "quien remata o reacciona (Adri en 0:29.77 «Algún día, eh»), no siempre quien habla", "disparador": "la frase graciosa del otro o la reacción", "extras": "ninguno; sin sonido", "por_minuto": 1.2, "por_minuto_detalle": [3, 3, 4, 0, 2, 3, 0, 2, 0, 0, 0, 4, 0, 0, 0, 0, 2, 1, 0, 0, 3, 0, 5, 0, 0, 0, 1, 3, 0, 3, 0, 1, 0], "total": 40, "total_nota": "mínimo: con cámara en mano y de noche el detector descarta muchos", "ejemplos": ["0:07.63 ×1,21 en 6 f, aguanta 0,23 s, sale en 7 f", "0:29.77 ×1,24 en 5 f, aguanta 1,07 s, sale en 9 f", "1:34.00 ×1,26 en 7 f, aguanta 1,97 s", "4:11.93 ×1,34 en 5 f, aguanta 1,87 s", "11:41.93 ×1,39 en 14 f, aguanta 1,40 s", "27:22.23 ×1,19 en 12 f, aguanta 0,87 s"]},
+  {"tipo": "punch-in por corte", "medido": "saltos de escala ORB en el corte con ≥ 60 puntos emparejados + medir_zoom 1:33.95 (×1,27), 11:41.85 (×1,40), 16:58.8 (×1,37), 20:11.1 (×1,20)", "escala_inicial_final": "×1,00 → ×1,60 de mediana (p25–p75 ×1,46–1,84; ×1,12–2,26)", "duracion_f": "1,6 s de mediana (1,0–2,1 s; n = 29 con vuelta medida) = 48 f", "curva": "corte, escala quieta dentro y vuelta por corte", "centro": "cara", "disparador": "remate o reacción", "por_minuto": 1.6, "por_minuto_detalle": [1, 1, 2, 2, 0, 2, 1, 3, 0, 2, 4, 1, 3, 2, 0, 0, 1, 1, 2, 5, 1, 1, 4, 0, 0, 4, 1, 1, 4, 0, 2, 0, 3], "total": 54, "total_nota": "mínimo (de noche y con desenfoque no empareja)", "ejemplos": ["0:53.50 ×1,51", "1:35.17 ×1,97", "3:33.43 ×2,13", "11:11.23 ×1,84", "17:53.37 ×1,91", "25:26.30 ×2,04"]},
+  {"tipo": "snap zoom + blanco y negro (aparte)", "medido": "detalle/f01 a 1 fotograma + medir_zoom 11,8–12,4", "escala_inicial_final": "×1,00 → ×1,44–1,49, y zoom-out ×0,78 antes del corte", "duracion_f": "entrada 8 f (0:11.83–0:12.07), B/N a los 18 f, salida 14 f (0:13.23–0:13.70)", "curva": "entrada rápida con frenada, salida más lenta", "centro": "Adri", "disparador": "su réplica «del vicio y del fornicio»", "por_minuto": 0.03, "ejemplos": ["0:11.83–0:14.40"]},
+  {"tipo": "zoom-out rápido", "medido": "medir_zoom 4:11.85–4:12.2", "escala_inicial_final": "×1,00 → ×0,68 (vuelta desde cerrado)", "duracion_f": "≈ 10 f", "curva": "rápida", "centro": "Plex junto al Cybertruck", "disparador": "salida de un vaivén", "por_minuto": 0.03, "ejemplos": ["4:11.85"]},
+  {"tipo": "zoom lento", "medido": "no aparece en ningún plano medido", "escala_inicial_final": "—", "duracion_f": "—", "curva": "—", "centro": "—", "disparador": "—", "por_minuto": 0, "ejemplos": []}
+ ],
+ "zooms_resumen": "Dos zooms de uso continuo, ninguno lento: el vaivén animado (×1,26, 8 f de entrada, 1,4 s arriba, 8 f de salida; 1,2/min) y el punch-in por corte (×1,60, 1,6 s; 1,6/min). Juntos ≈ 2,8/min, gastados sobre todo en los 3 primeros minutos y en los momentos de chiste; en los trayectos largos y en la valla casi desaparecen.",
+ "textos": [
+  {"tipo": "subtítulo de quien no se entiende o habla en inglés", "texto_ejemplos": ["necesitamos un tubo más largo", "no tengo ni idea...", "100 pavos", "fue un placer chicos!", "diciendote tonterías", "un beso que te dejara temblando"], "fuente": "amarillo (--color #E6FB08): Archivo 600 +0,593 · Inter 800 +0,558 · Inter Tight 700 +0,556; amarillo de la coda (--color #E5FB07): Exo 2 700 +0,603 · Rubik 700 +0,592 · Bricolage Grotesque 700 +0,588; blanco (--color #FFFFFF): Chakra Petch +0,485 · Unbounded 700 +0,463 · Bricolage Grotesque 700 +0,460 (< 0,5, poco fiable). A ojo: grotesca ancha negrita, la misma familia en los dos colores.", "peso": "negrita", "mayusculas": "minúsculas, con «?» y «...» pero sin punto final, a veces sin tildes", "color": "#E6FB08 para los demás (Anthony, vecinas, el de la caravana, Ryan, la IA); #FAFDFE (blanco) para Plex y el grupo cuando hablan en inglés o se oyen mal", "borde_sombra_caja": "borde negro fino + sombra corta; sin caja", "tamano": "6,2–7,7 % del alto con ascendentes y descendentes (y 976–1059)", "posicion": "abajo al centro, una línea", "entrada": "de golpe con la frase", "salida": "de golpe; cada línea sustituye a la anterior", "duracion": "1–2 s por línea de 2–6 palabras", "por_minuto": "≈ 10 s/min de media; 33,5 s en el minuto 7 y 31 s en el 32", "total": "≈ 170 s amarillo + ≈ 165 s blanco (medido por color a 2 fps; el blanco incluye algún falso positivo)", "disparador": "inglés o voz tapada", "sonido": "ninguno", "recorte": "rotulos/r03_subtitulo_amarillo.png, r04_subtitulo_blanco.png, r05_subtitulo_amarillo_grok.png"},
+  {"tipo": "palabra del juego", "texto_ejemplos": ["HAMBURGUESA:"], "fuente": "Unbounded 700 +0,669 · Montserrat 800 +0,621 · Bricolage Grotesque 700 +0,613", "peso": "muy negra, ancha", "mayusculas": "mayúsculas", "color": "#FFFFFF", "borde_sombra_caja": "borde negro fino", "tamano": "6,6 % del alto (71 px de mayúscula)", "posicion": "abajo al centro (x 463–1452)", "entrada": "por corte", "salida": "por corte", "duracion": "≈ 12 s (5:40–5:52)", "por_minuto": 0.03, "total": 1, "disparador": "juego del impostor", "sonido": "ninguno", "recorte": "rotulos/r01_juego_hamburguesa.png"},
+  {"tipo": "etiqueta sobre persona", "texto_ejemplos": ["IMPOSTOR"], "fuente": "Archivo 800 +0,618 · Unbounded 700 +0,611 · Bricolage Grotesque 700 +0,581", "peso": "negra", "mayusculas": "mayúsculas", "color": "#EE0106", "borde_sombra_caja": "sin borde", "tamano": "3,1 % del alto", "posicion": "encima de la cabeza de Adri (x 252–569, y 262–295), fija a pantalla", "entrada": "por corte", "salida": "por corte", "duracion": "≈ 12 s", "por_minuto": 0.03, "total": 1, "disparador": "señalar al impostor al público", "sonido": "ninguno", "recorte": "rotulos/r02_etiqueta_impostor.png"}
+ ],
+ "textos_ausentes": ["título", "capítulos", "lugar", "persona (nombre de Ryan, Anthony…)", "precio o cifra", "comentario del editor entre asteriscos", "«día N» u hora", "palabra de énfasis sobre la voz de Plex"],
+ "texto_en_pantalla": {"segundos": 350, "proporcion": 0.18, "nota": "subtítulos ≈ 335 s + juego ≈ 12 s + «To Be Continued» ≈ 1 s"},
+ "enfasis": "El énfasis no se hace con texto: se hace con el zoom de vaivén, el punch-in y los apartes de color con golpe.",
+ "subtitulos": {
+  "hay": "solo puntuales, pero muchos porque hay mucho inglés",
+  "cuando": "Anthony (7:00–8:11), vecinas (15:24–16:00), el de la caravana (18:16–19:16), Ryan (19:44–20:14, 21:34–22:18, 25:22–25:54, 29:40–29:46), la IA del coche (31:34–32:50), y frases sueltas del grupo que no se oyen.",
+  "total_s": 335,
+  "color_por_hablante": "amarillo #E6FB08 = la otra persona (o la IA); blanco = Plex y el grupo",
+  "formato": "una línea, minúsculas, 2–6 palabras, abajo al centro, de golpe",
+  "ejemplo_medido": "«necesitamos un tubo más largo» 15:23.9–15:27.4 · «hemos puesto demasiado» 15:27.5–15:28.9 · «en el coche» 15:28.9–15:29.4 (detalle/c_m15_0s)"
+ },
+ "sfx": {
+  "confirmados": [
+   {"t": "0:14.47", "tipo": "golpe de ruido ancho que arranca en el corte", "acompaña_a": "inserto de contraste extremo de Plex (0:14.43–0:14.97)", "respecto_voz_db": 10.8, "hoja": "sfx_hoja_00 #2"},
+   {"t": "5:15.87", "tipo": "tono grave sostenido (bandas horizontales) que arranca en el corte", "acompaña_a": "aparte de contraste extremo, cara iluminada sobre negro (5:15.80–5:17.27)", "respecto_voz_db": 18.2, "hoja": "sfx_hoja_02 #59"},
+   {"t": "7:39.77", "tipo": "bloque de ruido ancho sostenido tras silencio", "acompaña_a": "aparte posterizado (alto contraste, rojo y blanco) de Anthony y el grupo", "respecto_voz_db": -0.2, "hoja": "sfx_hoja_03 #86/#87"},
+   {"t": "8:06.77", "tipo": "bloque de ruido ancho sostenido tras silencio (mismo sonido)", "acompaña_a": "aparte posterizado en rojo «Hey, fuck you»", "respecto_voz_db": -9.3, "hoja": "sfx_hoja_03 #90/#91"},
+   {"t": "15:47.25", "tipo": "ruido rasposo (glitch) que arranca tras silencio", "acompaña_a": "primer plano con tinte cálido del chico de la sudadera gris", "respecto_voz_db": 5.2, "hoja": "sfx_hoja_06 #153"},
+   {"t": "20:48.03", "tipo": "bloque ancho tras silencio", "acompaña_a": "primer plano en B/N sobreexpuesto del encapuchado", "respecto_voz_db": 11.8, "hoja": "sfx_hoja_08 #202/#203"},
+   {"t": "22:31.03", "tipo": "acorde/tono (rayas horizontales) que arranca en la marca", "acompaña_a": "aparte en B/N del chico señalando", "respecto_voz_db": 10.4, "hoja": "sfx_hoja_09 #217"},
+   {"t": "23:12.02", "tipo": "zumbido ancho sostenido tras silencio", "acompaña_a": "primer plano saturado entre peluches alien", "respecto_voz_db": 5.2, "hoja": "sfx_hoja_09 #224"},
+   {"t": "23:19.15", "tipo": "redoble (barras regulares) tras silencio", "acompaña_a": "«Alien Trump» saturado y cara en negro y rojo (23:19–23:21)", "respecto_voz_db": 10.4, "hoja": "sfx_hoja_09 #225"},
+   {"t": "25:18.13", "tipo": "ruido rasposo ancho tras silencio", "acompaña_a": "primer plano cálido de uno riéndose", "respecto_voz_db": 8.9, "hoja": "sfx_hoja_09 #237–#239"},
+   {"t": "28:05.58", "tipo": "ruido rasposo (glitch) tras silencio", "acompaña_a": "primer plano cálido y desenfocado del encapuchado", "respecto_voz_db": 6.4, "hoja": "sfx_hoja_11 #266"},
+   {"t": "28:46.90", "tipo": "ruido rasposo (mismo sonido)", "acompaña_a": "primer plano con tinte cálido del encapuchado de perfil", "respecto_voz_db": 0.5, "hoja": "sfx_hoja_11 #281/#282"},
+   {"t": "32:17.21", "tipo": "ruido rasposo (mismo sonido)", "acompaña_a": "primer plano cálido de Plex riéndose durante la coda", "respecto_voz_db": 5.9, "hoja": "sfx_hoja_13 #318/#319"}
+  ],
+  "por_minuto": 0.39,
+  "nota_por_minuto": "13 confirmados en 33 min: minuto 0: 1; 5: 1; 7: 1; 8: 1; 15: 1; 20: 1; 22: 1; 23: 2; 25: 1; 28: 2; 32: 1.",
+  "reglas": [
+   "El efecto va SOLO con un aparte de color (B/N, contraste extremo, posterizado o tinte cálido): 13 de 13.",
+   "Siempre sobre silencio: la pista sin voz está en negro justo antes en todas las hojas; el efecto arranca en el corte o 0,0–0,3 s después.",
+   "Tres sonidos reutilizados: ruido rasposo/glitch (15:47, 25:18, 28:05, 28:46, 32:17), bloque ancho sostenido (7:39, 8:06, 20:48, 23:12) y tono/acorde (5:15, 22:31).",
+   "Zooms de vaivén, punch-in, subtítulos, etiqueta del juego y pantallas del coche: sin efecto.",
+   "El inserto-meme no lleva efecto: lleva su propia música a tope, que corta la voz (2:13.43, 10:10.22, 14:36.23, 23:00.64)."
+  ],
+  "candidatos_descartados": [
+   "Pops en 1:00.86–1:49.37, 2:11.62–2:22.91, 5:28.27–5:40.25, 13:23.57–13:24.23, 19:58.23–19:59.45, 22:58.32–22:59.51, 31:15.03–31:17.74: rayas verticales a intervalos regulares = palmas o golpes de la música.",
+   "1:02.12, 1:02.43, 2:47.94–2:48.43, 3:04–3:41: viento y gritos de los saltos (directo de la GoPro).",
+   "2:13.43, 10:10.22, 14:36.23, 23:00.64: música propia del inserto-meme.",
+   "8:23.83–8:32.27: audio del archivo de 2023 (carrera y gritos).",
+   "31:27.21–31:27.86: entrada de la música romántica de la coda.",
+   "Resto de «error», «silbido» y «whoosh» de baja energía: voz residual o ambiente del coche."
+  ]
+ },
+ "musica": {
+  "proporcion": 0.54,
+  "primera_musica_s": 0,
+  "tramos_total": 51,
+  "voz_db_media": -19.3,
+  "voz_menos_musica_db_mediana": 11.0,
+  "cambios_de_pista_detectados": ["1:16", "10:42", "12:44", "25:54"],
+  "como_entra_y_sale": "Ventanas que entran y salen en un corte; huecos de 5–40 s sin música entre ellas (0:30–0:36, 15:58–16:54, 19:15–20:48 casi entero).",
+  "tramos_clave": [
+   {"desde": "0:00", "hasta": "0:30", "nivel_db": -28.1, "voz_menos_musica_db": 7.1, "nota": "intro"},
+   {"desde": "0:36", "hasta": "1:28", "nivel_db": -24.5, "voz_menos_musica_db": 4.8, "nota": "salto de Borja; −6,0 dB cuando no hay voz"},
+   {"desde": "2:39", "hasta": "3:23", "nivel_db": -21.3, "voz_menos_musica_db": 1.4, "nota": "reto y salto de Rubi, casi a la altura de la voz"},
+   {"desde": "3:49", "hasta": "4:40", "nivel_db": -37.4, "voz_menos_musica_db": 16.4, "nota": "presentación del Cybertruck, muy baja"},
+   {"desde": "6:51", "hasta": "6:58", "nivel_db": -12.3, "voz_menos_musica_db": -10.5, "nota": "montaje corto con música por encima"},
+   {"desde": "12:17", "hasta": "14:26", "nivel_db": -25.9, "voz_menos_musica_db": 5.7, "nota": "2 min de carretera con cama"},
+   {"desde": "20:48", "hasta": "20:59", "nivel_db": -18.0, "voz_menos_musica_db": -4.1, "nota": "caminata al atardecer hacia la van"},
+   {"desde": "25:40", "hasta": "26:59", "nivel_db": -25.2, "voz_menos_musica_db": 6.9, "nota": "aproximación al Área 51; −14,2 dB sin voz"},
+   {"desde": "31:28", "hasta": "31:57", "nivel_db": -34.4, "voz_menos_musica_db": 17.3, "nota": "música romántica bajo la coda de la IA"},
+   {"desde": "32:40", "hasta": "33:00", "nivel_db": -25.8, "voz_menos_musica_db": 9.0, "nota": "final"}
+  ],
+  "silencios_a_proposito": ["0:30–0:36: sin música para el chiste «Algún día, eh»", "antes de cada aparte con efecto, silencio total en la pista sin voz", "15:58–16:54 y casi todo 19:15–20:48: conversaciones de problema sin música"],
+  "a_ritmo_de_cortes": "No: 17 % de los cortes en acento.",
+  "lufs": {"integrado": -12.6, "lra": 7.2, "pico_dbtp": 1.6, "nota": "1,4 LU por encima de −14 y pico por encima de 0 dBTP: no copiar"},
+  "directo_vs_musica_en_accion": "En los saltos manda la música (−6 dB) con el viento y los gritos debajo; en la valla manda el directo con música de suspense en ventanas cortas."
+ },
+ "broll": {
+  "proporcion_estimada": 0.05,
+  "desglose": "Pantallas del Tesla ≈ 22 s, flashbacks de 2023 ≈ 15 s, inserto-meme ≈ 6 s, planos de la carretera y de detalle (moto, avioneta, letreros) ≈ 60 s sobre la voz.",
+  "de_donde_sale": "Casi todo del propio rodaje; archivo propio de 2023 y un clip de fiesta repetido.",
+  "duracion_tipica": "1,5–4 s",
+  "vuelta_a_camara": "Por corte seco a la cara de quien habla o a la reacción del grupo.",
+  "regla_de_mencion": "El archivo entra en la palabra que lo nombra: «la última vez que vinimos en la Vuelta al Mundo» (8:21); la pantalla del coche en «mirad a cuánto pone que llegamos» (13:06)."
+ },
+ "voz_en_off": {"hay": false, "nota": "Todo es directo. Lo más parecido: la voz que sigue sobre el archivo y las pantallas del coche, y el J-cut de 0:41.9."},
+ "transiciones": [
+  {"tipo": "corte seco", "cuanto": "≈ 99 %"},
+  {"tipo": "panorámica real hacia lo que se nombra + corte al punto de vista", "donde": "0:41.3–0:42.23", "como": "«está ahí arriba» → el operador sube a la punta de la torre en 28 f y se corta a la GoPro del saltador", "duracion_f": 29},
+  {"tipo": "paso a blanco y negro dentro del plano o en el corte", "donde": "0:12.63, 11:56–12:01, 15:07–15:11.4, 20:48, 22:31, 32:56–33:00", "como": "el color cae en ≈ 3 f y vuelve por corte"},
+  {"tipo": "aparte de contraste extremo / posterizado / tinte cálido", "donde": "0:14.43, 5:15.80, 7:39.7, 8:06.7, 15:38.9, 15:47.2, 23:12, 23:19, 25:18, 28:05.6, 28:46.9, 32:17.2", "como": "inserto de 0,5–2 s con golpe de sonido"},
+  {"tipo": "flecha meme sobre el último plano de un flashback", "donde": "8:30.5–8:31.4", "como": "«To Be Continued» y corte de vuelta al coche"}
+ ],
+ "transiciones_ausentes": ["fundidos", "cortinillas", "barridos añadidos", "transición con mapa", "fundido a negro entre bloques"],
+ "cierre": {
+  "como_acaba": "Despedida a cámara en el coche (30:56 «esto ha sido el vlog») y coda de 1:47 (31:13–33:00): «ya no somos lo que éramos», Plex habla con la IA del coche, que acaba ligando con él (subtítulo amarillo continuo); remate «Adiós, Grok, apágate» (32:40) y final en B/N borroso entre risas (32:56–33:00).",
+  "cta": "Hablado a los 31:10: «un like y una suscripción se agradece un montón», sin botón ni gráfico.",
+  "pantalla_final": "No hay; el vídeo acaba en el último plano de la coda.",
+  "musica": "romántica muy baja bajo la coda (−34,4 dB) y −25,8 dB en los últimos 20 s"
+ },
+ "para_el_estilo": [
+  "VLOG · Zoom de vaivén animado sobre quien remata o reacciona: ×1,2–1,35 (mediana ×1,26) en 6–10 f con frenada, quieto 0,9–2 s, salida simétrica en 6–10 f; ≈ 1,2/min y el triple en los 3 primeros minutos. Sin sonido.",
+  "VLOG · Punch-in por corte ×1,45–1,85 (mediana ×1,60) de ≈ 1,6 s, conviviendo con el vaivén: los dos juntos ≈ 2,8 golpes de zoom por minuto.",
+  "VLOG · Aparte de color (B/N, contraste extremo, posterizado o tinte cálido) de 0,5–2 s con un golpe grave o rasposo que entra sobre silencio en el corte: 13 en 33 min (1 cada 2,5 min), repetidos con 3 sonidos.",
+  "VLOG · Callback visual: un mismo inserto-meme de 0,6–1,5 s con su música a tope, 5 veces en el vídeo (cada 3–8 min).",
+  "VLOG · Intro de grupo hablada sin tráiler cuando la sorpresa es el giro: 42 s, planos largos (hasta 15,8 s) sostenidos con zooms de vaivén, música 7 dB bajo la voz, y la primera acción fuerte antes de los 45 s.",
+  "VLOG · Subtítulos en dos colores (amarillo #E6FB08 los demás, blanco el grupo), minúsculas, una línea abajo; todo el inglés traducido.",
+  "VLOG · Coda poscréditos de 1–2 min después del CTA con el mejor chiste suelto del día.",
+  "EN VIAJES · El viaje se cuenta con el propio rodaje: pantalla real del navegador con el dato (batería, ruta) en vez de mapa animado; cada parada con un dato curioso hablado (≈ 1 parada cada 1,5 min entre 10:51 y 25:39); el paso del tiempo por la luz (día → atardecer → noche), sin «X HORAS DESPUÉS».",
+  "EN VIAJES · Un problema de viaje como hilo (batería): se cifra 3 veces con la pantalla del coche (95 %→36 %, 16 %, 8 h 55 min) y se resuelve con un personaje del sitio.",
+  "EN VIAJES · El trayecto se queda en tiempo real como conversación en el coche (≈ 42 % del vídeo) cortado cada 1–3 s, con cama de música 5–16 dB bajo la voz."
+ ],
+ "para_la_base": [
+  "Un zoom animado de entrada y salida dentro del mismo plano (vaivén) da el golpe del punch-in sin cortar la toma: sirve en planos largos de grupo donde no hay otra toma a la que cortar.",
+  "El efecto de sonido se reserva para el cambio de color del aparte: los zooms van siempre en silencio.",
+  "Quitar la música 5–6 s para que caiga un chiste (0:30–0:36) y volver con otra pista en el siguiente corte.",
+  "El archivo de un viaje anterior entra en la palabra que lo nombra y se cierra con un chiste gráfico (flecha «To Be Continued»).",
+  "Para un juego en el coche, dar al espectador la información secreta en pantalla (palabra abajo + etiqueta roja sobre el impostor).",
+  "Antes de dar una cifra de cortes de un vlog de noche, contar a ojo: el detector pierde ≈ 1 de cada 3 cortes (×1,54 aquí)."
+ ],
+ "que_no_se_hereda": [
+  "Cero mapas, cero rótulos de lugar y cero cabecera en un vídeo de viaje: a Lucas le gustan los mapas de satélite; aquí funciona porque el destino es una sorpresa y la serie es conocida.",
+  "LUFS −12,6 y pico de +1,6 dBTP (la base sigue en −14).",
+  "Subtítulo amarillo #E6FB08 como color de marca de Plex, no de la base.",
+  "Sin pantalla final: decisión del creador."
+ ],
+ "para_el_motor": {
+  "ESCALAS": [1.0, 1.6, 1.0, 1.26, 1.0, 1.85, 1.0, 1.45, 1.0, 1.3],
+  "ESCALAS_nota": "Alterna punch-in grande (mediana ×1,60) y vaivén animado (×1,26), siempre volviendo a 1,0. El motor solo tiene cortes de escala: el vaivén necesitaría su propio tipo (entra 8 f, aguanta 1,4 s, sale 8 f).",
+  "CAMBIO_CADA": [1.3, 4.5],
+  "CAMBIO_CADA_nota": "Mediana del detector 1,90 s y p90 7,07 s; con los cortes contados a ojo (×1,54) la mediana real baja a ≈ 1,3 s. En la intro, planos de 2,4–15,8 s sostenidos con zoom.",
+  "Z_FUERTE": 1.6,
+  "Z_FUERTE_nota": "Mediana de 54 punch-in (p25–p75 ×1,46–1,84); estándar 1,65.",
+  "Z_FUERTE_duracion_f": {"mediana": 48, "p25": 30, "p75": 63, "fps": 30},
+  "ZOOM_VAIVEN": {"escala": 1.26, "entrada_f": 8, "aguante_s": 1.38, "salida_f": 8, "por_min": 1.2, "curva": "frenada al llegar, salida simétrica"},
+  "CARA_Y": 0.38,
+  "CARA_Y_nota": "No medido con detector; a ojo la cara queda en el tercio superior en los vaivenes (0:29.89).",
+  "Z_SIN_CARA": 1.0,
+  "SFX": {"golpe": ["ruido rasposo/glitch, bloque ancho o tono grave", "solo con aparte de color; en el corte o 0–0,3 s después; −9 a +18 dB respecto a la voz, sobre silencio"], "titulo": null, "seccion": null, "dato": null, "mapa": null, "trk": null, "suscribe": null},
+  "SFX_nota": "0,39 efectos/min, 13 de 13 en apartes.",
+  "MUSICA_NIVELES": {"BASE_voz_menos_musica_db": 11.0, "INTRO_voz_menos_musica_db": 7.1, "SINVOZ_db": [-6.0, -14.2], "ENCIMA_DE_LA_VOZ_db": [-12.3, -18.0], "CIERRE_db": -25.8},
+  "MUSICA_NIVELES_nota": "Niveles medidos en la mezcla (dB), no sobre pista normalizada como en ajustes.py; sirven por la diferencia con la voz (−19,3 dB de media).",
+  "MUSICA_ventanas": {"proporcion": 0.54, "ventanas": 51, "entrada_salida": "en corte"},
+  "LUFS": -12.6,
+  "LUFS_nota": "Medido; no copiar (la base usa −14)."
+ },
+ "comparacion_plex": {
+  "frente_a_gane_2026_dia_a_dia": [
+   "IGUAL: corte seco ≈ 99 %, sin voz en off, sin ráfagas, punch-in por corte grande (gané ×1,70; aquí ×1,60), apartes de color con golpe grave como único sitio de los efectos (gané 0,33/min; aquí 0,39/min), subtítulos amarillos en minúscula solo para el otro, música por ventanas (57 % y 54 %), sin pantalla final, LUFS por encima de −14.",
+   "DISTINTO: aquí hay zoom animado de vaivén (1,2/min) que en gané no existe fuera de los apartes; gané abre con cartela de lugar «SEVILLA / 24 HORAS ANTES» y tiene cartela de capítulo «DÍA DEL COMBATE»; este viaje no tiene ni una cartela: el lugar lo dice la voz y el paso del tiempo la luz.",
+   "DISTINTO: más cortes (≈ 27/min a ojo frente a 22,1 con débiles en gané) y mucho más subtítulo (≈ 17 % del vídeo frente a 3 %), porque el viaje mete a desconocidos que hablan inglés.",
+   "DISTINTO: en gané el punch-in se gasta al principio y desaparece en el clímax; aquí el zoom se reparte por chistes y vuelve a subir en la noche (5 vaivenes en el minuto 22, 4 punch-in en el 25 y en el 28).",
+   "DISTINTO: estructura. Gané tiene un evento fijo (combate) y va hacia él; aquí el destino cambia a los 7:25 y el vídeo vive de un problema de viaje (batería) y de paradas con dato; el clímax es una llegada (valla) y no una acción."
+  ],
+  "frente_a_vuelta_al_mundo_2023": [
+   "2023 tenía intro cinematográfica con barras 2,35:1 (0:00–0:21) y cabecera «LA VUELTA AL MUNDO 2 / DÍA 01/80» con mapamundi y avión (1,7 s); 2025 abre hablando a cámara desde el f0 y no tiene cabecera.",
+   "2023 situaba con mapa animado de ruta (3,8–3,9 s, 2 veces) y pin rojo + país; 2025 no tiene ningún gráfico de lugar: usa la pantalla real del Tesla.",
+   "2023: precio en rojo («-380€») y cartelas negras de giro («TODO IBA BIEN… CUANDO DE REPENTE»); 2025: ni cifras ni cartelas, el giro (Anthony) se cuenta en directo con subtítulos.",
+   "Zooms: 2023 tenía punch-in extremo ×2–3 y 2–3 snap zooms en el primer minuto; 2025 baja el punch-in a ×1,6 y convierte el snap zoom en un recurso continuo y suave (vaivén ×1,26, 1,2/min).",
+   "Se mantiene: mediana de plano ≈ 1,8–1,9 s, subtítulo amarillo para el otro (11 % en 2023, ≈ 9 % de amarillo aquí), apartes de color B/N o teñido (2–3 en 2023, 13 aquí), inserto-chiste repetido (coche animado ×3 en 2023, meme de fiesta ×5 en 2025).",
+   "Tendencia 2023 → 2025: menos motion graphics y menos texto gráfico, más edición «de cámara» (zoom digital, color, sonido) y más directo; el viaje se cuenta como un vlog."
+  ]
+ },
+ "dudas": [
+  "Cortes: el total de ≈ 900 es una extrapolación de 2,5 min contados a ojo (×1,54, rango ×1,33–1,82); de noche puede ser más.",
+  "Zooms: los 40 vaivenes y los 54 punch-in salen de un escaneo ORB con umbrales; con cámara en mano parte de los vaivenes podría ser movimiento real (los medidos con medir_zoom y a 1 fotograma sí son digitales: 0:07.63, 0:11.83, 0:29.77, 0:33.03).",
+  "Subtítulos: el tiempo en blanco (≈ 165 s) está medido por color y puede incluir falsos positivos (cielos, camisetas); el amarillo (≈ 170 s) es más fiable.",
+  "Fuente de los subtítulos: las tres lecturas dan familias distintas (Archivo 600, Exo 2 700, Chakra Petch) con puntuación 0,49–0,60; a ojo es una sola grotesca ancha negrita, probablemente la misma que «HAMBURGUESA:» (Unbounded 700 +0,669).",
+  "Efectos sin confirmar (fuera de la lista): 12:02.29 (B/N de Plex en la carretera), 14:39.57 (espiga fina en el coche), 20:03.61–20:03.87 (rayas tonales que decaen sin efecto de imagen), 21:31.47 (pop sobre primer plano de Plex con mancha roja), 25:06.28–25:07.04 (tonos tardíos junto al autobús), 15:38.86 (primer plano cálido sin firma clara).",
+  "No se ha podido ver si «To Be Continued» lleva congelado de imagen o su canción característica (no se oye).",
+  "La tarjeta de 2:25.60–2:29.40 no se ha identificado (qué clip es y de dónde sale).",
+  "Duración exacta de la etiqueta del juego (≈ 5:40–5:52): medida a 0,5–3 s, no a fotograma.",
+  "Los tiempos de los insertos-meme de 10:10, 14:36 y 23:00 salen de la marca de sfx_hoja (inicio) y no de una hoja a 0,1 s.",
+  "Pistas de música sin identificar."
+ ],
+ "archivos_de_apoyo": {
+  "carpeta": "refs/dinamicos/_analisis/2025-11-19_un-viaje-inesperado/",
+  "cortes_rafagas": "cortes_rafagas.json (--rafagas --hasta 42,3)",
+  "hojas_intro_fotograma": "hojas/intro_fot_00…14.jpg (0–30 s) + detalle/intro_fot_15…21.jpg (30–43 s)",
+  "detalle": [
+   "detalle/d01_inicio_0.00-0.45_cada0.5.jpg",
+   "detalle/f01_1fot_aparte_bn_lasvegas_11.9-15.5.jpg",
+   "detalle/f02_cajas_8.27-8.35.jpg",
+   "detalle/f03_1fot_zoom_animado_29.6-31.4.jpg",
+   "detalle/c_m02_0s_0.1.jpg", "detalle/c_m02_30s_0.1.jpg", "detalle/c_m05_0s_0.1.jpg", "detalle/c_m05_30s_0.1.jpg",
+   "detalle/c_m15_0s_0.1.jpg", "detalle/c_m15_30s_0.1.jpg", "detalle/c_m30_0s_0.1.jpg", "detalle/c_m30_30s_0.1.jpg",
+   "detalle/v01_repaso_0-10min_cada3s.jpg"
+  ],
+  "rotulos": ["rotulos/r01_juego_hamburguesa.png", "rotulos/r02_etiqueta_impostor.png", "rotulos/r03_subtitulo_amarillo.png", "rotulos/r04_subtitulo_blanco.png", "rotulos/r05_subtitulo_amarillo_grok.png", "rotulos/full_*.png (fotogramas completos)"]
+ }
+}
