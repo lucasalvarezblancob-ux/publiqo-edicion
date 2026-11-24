@@ -6,6 +6,8 @@ Uso (desde la raíz de la carpeta de edición):
   PY herramientas/fuente_rotulo.py VIDEO.mp4 --t 72.6 --caja x,y,ancho,alto [--texto ...]   (saca el fotograma él)
 
 - El recorte: SOLO el texto (una línea o un bloque), lo más ajustado posible, a resolución completa (1080p).
+- Texto sobre vídeo (sin caja ni fondo liso): pasa --color con el color de las letras (p. ej. "#FFFFFF"); si no,
+  el fondo se mezcla con las letras y las puntuaciones salen bajas (< 0,5 = no fiable: decide a ojo).
 - Texto: lo lee con tesseract si está instalado (brew install tesseract / winget install UB-Mannheim.TesseractOCR);
   si no, o si lo lee mal, pásalo con --texto (exacto, con sus mayúsculas).
 - Método: separa las letras del fondo, escribe el mismo texto con cada candidata (pesos 400–900), lo encaja en la
@@ -47,11 +49,32 @@ CANDIDATAS = {
     "Permanent Marker": ("apache/permanentmarker/PermanentMarker-Regular.ttf", None),
     "Playfair Display": ("ofl/playfairdisplay/PlayfairDisplay%5Bwght%5D.ttf", [700, 900]),
     "DM Serif Display": ("ofl/dmserifdisplay/DMSerifDisplay-Regular.ttf", None),
+    # grotescas «de sistema» (lo más parecido a SF Pro / Helvetica que hay en Google Fonts)
+    "Inter Tight": ("ofl/intertight/InterTight%5Bwght%5D.ttf", [600, 700, 800]),
+    "Manrope": ("ofl/manrope/Manrope%5Bwght%5D.ttf", [600, 800]),
+    "Work Sans": ("ofl/worksans/WorkSans%5Bwght%5D.ttf", [600, 800]),
+    "Archivo": ("ofl/archivo/Archivo%5Bwdth%2Cwght%5D.ttf", [600, 800]),
+    "Figtree": ("ofl/figtree/Figtree%5Bwght%5D.ttf", [600, 800]),
+    "Plus Jakarta Sans": ("ofl/plusjakartasans/PlusJakartaSans%5Bwght%5D.ttf", [600, 800]),
+    "Roboto": ("ofl/roboto/Roboto%5Bwdth%2Cwght%5D.ttf", [500, 700, 900]),
+    # máquina de escribir / mono
+    "Courier Prime": ("ofl/courierprime/CourierPrime-Regular.ttf", None),
+    "Special Elite": ("apache/specialelite/SpecialElite-Regular.ttf", None),
+    "IBM Plex Mono": ("ofl/ibmplexmono/IBMPlexMono-Medium.ttf", None),
+    "Space Mono": ("ofl/spacemono/SpaceMono-Bold.ttf", None),
+    # serifas elegantes (vlog de lujo, viaje)
+    "Cormorant Garamond": ("ofl/cormorantgaramond/CormorantGaramond%5Bwght%5D.ttf", [500, 700]),
+    "Bodoni Moda": ("ofl/bodonimoda/BodoniModa%5Bopsz%2Cwght%5D.ttf", [500, 800]),
+    "Cinzel": ("ofl/cinzel/Cinzel%5Bwght%5D.ttf", [500, 800]),
+    "Libre Baskerville": ("ofl/librebaskerville/LibreBaskerville-Regular.ttf", None),
+    # a mano
+    "Caveat": ("ofl/caveat/Caveat%5Bwght%5D.ttf", [600]),
 }
 
 ap = argparse.ArgumentParser()
 ap.add_argument("entrada"); ap.add_argument("--t", type=float); ap.add_argument("--caja")
 ap.add_argument("--texto"); ap.add_argument("--mayus", action="store_true"); ap.add_argument("--json")
+ap.add_argument("--color", help="color de las letras, p. ej. \"#FFFFFF\": mucho mejor con texto sobre vídeo (el fondo no es liso)")
 a = ap.parse_args()
 
 
@@ -76,11 +99,18 @@ else:
     img = cv2.imread(a.entrada)
 if img is None or img.size == 0: raise SystemExit("No he podido leer el recorte")
 
-# máscara de las letras: el color de las letras es el más saturado o más claro/oscuro respecto al borde del recorte
+# máscara de las letras. Con --color: los píxeles cerca de ese color (lo fiable con texto sobre vídeo). Sin él: lo que
+# más se separa del color del borde del recorte (vale con fondo liso: caja, negro, cartela).
 lab = cv2.cvtColor(img, cv2.COLOR_BGR2LAB).astype(np.float32)
-borde = np.concatenate([lab[0], lab[-1], lab[:, 0], lab[:, -1]]); fondo = np.median(borde, axis=0)
-dist = np.linalg.norm(lab - fondo, axis=2)
-_, m = cv2.threshold(cv2.normalize(dist, None, 0, 255, cv2.NORM_MINMAX).astype(np.uint8), 0, 255, cv2.THRESH_BINARY + cv2.THRESH_OTSU)
+if a.color:
+    hx = a.color.lstrip("#"); rgb = np.uint8([[[int(hx[4:6], 16), int(hx[2:4], 16), int(hx[0:2], 16)]]])
+    obj = cv2.cvtColor(rgb, cv2.COLOR_BGR2LAB).astype(np.float32)[0, 0]
+    dist = np.linalg.norm(lab - obj, axis=2)
+    m = ((dist < max(18.0, np.percentile(dist, 8))) * 255).astype(np.uint8)
+else:
+    borde = np.concatenate([lab[0], lab[-1], lab[:, 0], lab[:, -1]]); fondo = np.median(borde, axis=0)
+    dist = np.linalg.norm(lab - fondo, axis=2)
+    _, m = cv2.threshold(cv2.normalize(dist, None, 0, 255, cv2.NORM_MINMAX).astype(np.uint8), 0, 255, cv2.THRESH_BINARY + cv2.THRESH_OTSU)
 m = cv2.morphologyEx(m, cv2.MORPH_OPEN, np.ones((2, 2), np.uint8))
 ys, xs = np.where(m > 0)
 if len(xs) < 30: raise SystemExit("No distingo letras en el recorte (¿muy pequeño o sin contraste?)")
