@@ -1,0 +1,2313 @@
+{
+ "video": {
+  "archivo": "refs/dinamicos/jesse-james-west/2026-02-15_training-at-the-world-s-most-dangerous-gym-diamond.mp4",
+  "creador": "Jesse James West",
+  "canal": "Jesse James West",
+  "url": "https://www.youtube.com/watch?v=aSV2zd-qch0",
+  "titulo": "Training at the World’s Most Dangerous Gym (Diamond Gym)",
+  "duracion": "21:17 (1276,71 s; 38.263 fotogramas)",
+  "publicado": "2026-02-15",
+  "fps": 29.97,
+  "resolucion": "1920x1080",
+  "idioma": "inglés",
+  "tramo_analizado": "entero (0:00–21:16.7)",
+  "estilo": "reto",
+  "estilo_por_que": "Es un reto con forma de entreno, no un día de entreno. Lo que lo hace reto, con números: (1) OBJETIVO CON DESENLACE: 3 objetivos enunciados en la intro con cartela propia (GOAL 1 en 1:25.03, GOAL 2 en 1:34.60, GOAL 3 en 1:42.27) y resueltos en pantalla en una lista de tareas que sale 4 veces (2:56.6 vacía, 4:34 con el 1.º cumplido, 11:03.5 con cruz roja en el 2.º, 19:56 con los tres resueltos). (2) REGLAS: 6 reglas numeradas, explicadas en bloque en 3:59.75–4:15 con texto grande y recordadas 8 veces con una píldora abajo a la izquierda cada vez que se rompe una. (3) MARCADOR DE VIDAS: «RULES BROKEN» con 3 corazones de 8 bits que sale 3 veces (4:36.4, 7:08, 11:00.6) y pierde un corazón en cada una; al tercero el objetivo 2 queda fallado (11:05.9). (4) CONTADOR DE PROGRESO: «TOTAL REPS» arriba a la izquierda, de 162 (3:12) a 3.472 (19:28), en pantalla el 31 % del vídeo. (5) PENALIZACIONES: 200 burpees por llevar joyas, +100 por tardar en quitárselas, +20 flexiones por cada pausa o caída de discos, 50 burpees + 50 flexiones por volcar la barra. (6) FALSO FINAL y prórroga («Or so I thought», 18:43). De «entreno» solo tiene el contenido (polea de tríceps, banca de 65 a 365 lb, flexiones): no hay rótulos de ejercicio, ni de peso, ni de series, ni cronómetro; los pesos solo se dicen. «vlog» y «viaje» no encajan: no hay desplazamiento ni día contado, todo ocurre en un gimnasio y la tensión es si cumple o no.",
+  "modelo": "fable"
+ },
+ "resumen": [
+  "Reto de 21:17 a 29,97 fps grabado en un solo gimnasio con varias cámaras en mano: 447 cortes detectados (21,0/min, plano mediano 2,17 s) y unos 575 ± 30 contando barridos, fundidos y cortes bajo gráficos que el detector no ve (≈ 27/min).",
+  "La intro es explicativa y larga (0:00–1:47.81, 107,8 s, 59 planos): 11,3 s de gancho en frío en una sola toma, una ráfaga de 19 planos en 20,2 s hecha sobre todo con archivo de OTRA gente sufriendo en el mismo sitio, y después 76 s de voz en off que presentan a los dos personajes y los 3 objetivos con rótulos, tarjetas de Instagram, cartelas y adelantos etiquetados «COMING UP:».",
+  "Todo el vídeo va sostenido por un sistema de juego dibujado: contador TOTAL REPS (31 % del tiempo), 3 corazones de vidas (3 apariciones), lista de objetivos (4 apariciones) y píldora de regla rota (8 apariciones). Son gráficos pequeños, siempre en la misma esquina y casi siempre mudos.",
+  "El humor de edición sale de cuatro recursos baratos: comentario del editor entre asteriscos en el subtítulo (10 veces: *SHOOK*, *UNC NOISES*, *DEHYDRATION*…), silencio de música justo antes o después de la frase (24 silencios de 2 s o más, 100 s en total), zoom de golpe con frenada a la cara que reacciona (≈ 1,3/min) y dos memes pegados encima (fórmulas flotando sobre Unc en 11:08.3, cabeza de Jimmy Neutron sobre la de Jesse en 13:05.6).",
+  "Subtítulos solo para el sonido directo del gimnasio, nunca para la voz en off: unas 175–190 líneas, ≈ 4 min en pantalla (≈ 19 % del vídeo), en mayúsculas y una línea; amarillo lo que dicen los demás (≈ 80 % de las líneas), blanco lo que dice Jesse.",
+  "Efectos de sonido escasos y con función: 18 confirmados (0,85/min). Casi todos son un golpe que entra tras un silencio en un cambio de bloque o en una cartela; los gráficos de juego usan sonido tonal de videojuego (corazón perdido, cruz roja de la lista) y el botón de suscribir, clics.",
+  "La música va por ventanas: 28 tramos, 82 % del audio, 7,9 dB por debajo de la voz de mediana; sube a 3,9 dB bajo la voz en el primer minuto y al nivel de la voz en los montajes de repeticiones sin diálogo.",
+  "Los zooms son de edición y de tres tipos medidos: golpe con frenada y meseta (×1,18–1,65, rampa de 6–15 f), empuje lineal sobre planos de recurso con voz en off (hasta +12,5 %/s) y asentamiento tras un destello blanco (entra a ×1,13–1,53 y vuelve a ×1,0 en 9–15 f).",
+  "Patrocinio de 38 s en el minuto 9:36 enlazado con la frase anterior, y petición de suscripción en 16:49–17:13.8 con botón animado abajo al centro y un inserto de estudio sin música.",
+  "Cierre con clímax sin subtítulos ni gráficos nuevos, solo el contador (serie final 19:08–19:39.6 con voz en off reflexiva), discurso del entrenador, 2 s de negro y pantalla final de 13 s con comentario destacado."
+ ],
+ "contexto": {
+  "quien": "Jesse James West (creador de fitness, sudadera azul y gorra blanca hacia atrás). Unc (entrenador del gimnasio, el «poli malo»: durag naranja, camiseta blanca TTD). Haddy (su mano derecha, el «poli bueno»: gorro negro, sudadera gris). El cámara de Jesse, al que también castigan. Los socios del gimnasio, que cuentan repeticiones y le quitan la gorra.",
+  "donde": "Diamond Gym, Maywood (Nueva Jersey). Un único interior, más la puerta de ladrillo (0:31.5–0:45) y una vuelta corriendo por la calle (4:32–4:55).",
+  "objetivo": "Sobrevivir al entreno más duro del gimnasio cumpliendo 3 objetivos: (1) aguantar la «cuota de entrada» (200 burpees que acaban siendo 300), (2) no romper más de 3 reglas distintas, (3) ganarse la aprobación de Unc.",
+  "tono": "Comedia de víctima: Jesse se ríe de sí mismo y el montaje se ríe con él (asteriscos, silencios, memes), sin ridiculizar al gimnasio. Acaba en serio, con respeto mutuo.",
+  "gancho_5s": "0:00.00–0:05.00: voz en off «Today, I'm trying the most controversial workout at Diamond Gym» sobre un grupo de culturistas gritando ante una pancarta; en 0:05.00 uno le rasga la camiseta («Sham, rip his shirt»). Sin texto, sin logotipo, sin saludo.",
+  "gancho_30s": "0:11.30–0:31.50: ráfaga de 19 planos con otros creadores destrozados, vídeos de reacción de gente conocida del sector, un calcetín con sangre y un entrenador gritando; la voz dice que lo han llamado «psychotic, dangerous, and borderline impossible» y presenta a Unc como «my coach for the day».",
+  "preguntas_abiertas": [
+   "¿Aguantará el entreno entero? (abierta en 0:00, se cierra en 19:39.6)",
+   "¿Cuántas reglas romperá? (abierta en 0:45–0:54 y 1:34.60; se cierra en 11:05.9 con la cruz roja)",
+   "¿Le dará Unc su aprobación? (abierta en 1:42.27; se cierra en 19:41–20:02)",
+   "¿Qué pasa en el fallo de banca que se adelanta en 0:50.25? (se paga en 11:33.4)"
+  ],
+  "giros": [
+   "2:16–2:37.9: lleva cadenas, regla rota antes de empezar: 200 burpees para todos, cámara incluido.",
+   "3:29: tarda en quitárselas: 100 más.",
+   "11:02.5–11:05.9: tercera regla rota a mitad de vídeo: objetivo 2 fallado.",
+   "11:33.4–11:35.5: la barra se vuelca y caen los discos.",
+   "18:43: «Or so I thought»: cuando parecía acabado, falta una serie hasta el fallo.",
+   "19:03.7–19:17: cambia el objetivo 3: «my own approval is the only one that truly matters»."
+  ],
+  "recompensas": [
+   "4:34: primer objetivo cumplido (marca amarilla en la lista flotando en la calle).",
+   "11:08.3: chiste de las fórmulas sobre Unc calculando el castigo.",
+   "14:28–14:30.4: mirada muda a cámara mientras otro le quita la gorra.",
+   "19:41–20:02: Unc para el gimnasio y le elogia delante de todos; la lista vuelve con los tres puntos resueltos (19:56–20:02).",
+   "21:00.5–21:03: foto de grupo."
+  ],
+  "personajes_secundarios": "Cada uno entra con rótulo de nombre y flecha amarilla que le sigue la cabeza (HADDY 0:33.56, UNC 1:55.25, CAMERAMAN 2:43.2) y Haddy y Unc además con su tarjeta de Instagram (0:45.21). Después no se les vuelve a rotular."
+ },
+ "curva_energia": [
+  {
+   "minuto": 0,
+   "nivel": 9,
+   "motivo": "Gancho en frío con camiseta rasgada, destello blanco en 0:11.30 y ráfaga de 19 planos en 20 s; música a solo 3,2 dB bajo la voz; 33 cortes."
+  },
+  {
+   "minuto": 1,
+   "nivel": 7,
+   "motivo": "Voces de socios, 3 cartelas GOAL y 3 bloques COMING UP; 31 cortes; la música baja a 10 dB bajo la voz."
+  },
+  {
+   "minuto": 2,
+   "nivel": 7,
+   "motivo": "Presentación de Unc con silencio y colchón grave (1:55.25), escena de las cadenas, castigo de 200 burpees y *SHOOK* con golpe y corte de música (2:38.05)."
+  },
+  {
+   "minuto": 3,
+   "nivel": 6,
+   "motivo": "Montaje de burpees con fundidos; silencio de 4 s en «IT'S TOO LATE, YOU MESSED UP» (3:25–3:29); impacto de entrada a las reglas en 3:59.75."
+  },
+  {
+   "minuto": 4,
+   "nivel": 6,
+   "motivo": "Reglas con texto grande, carrera por la calle, lista flotando con el primer objetivo cumplido (4:34) y primeros corazones (4:36.4)."
+  },
+  {
+   "minuto": 5,
+   "nivel": 5,
+   "motivo": "Empieza la polea; montaje de repeticiones sin voz 5:36–5:58 con el contador saltando de 735 a 1.152. Solo 1 subtítulo en el minuto."
+  },
+  {
+   "minuto": 6,
+   "nivel": 7,
+   "motivo": "Reglas 5 y 6 rotas (píldoras 6:16.8 y 6:40.8), recuerdo EARLIER con vuelta a golpe (6:52.45)."
+  },
+  {
+   "minuto": 7,
+   "nivel": 7,
+   "motivo": "Corazón perdido con sonido sobre silencio (7:10.5), regla 3, *DEHYDRATION* y zoom de golpe ×1,65 (7:42.86)."
+  },
+  {
+   "minuto": 8,
+   "nivel": 6,
+   "motivo": "Banca ligera a 100 repeticiones y flexiones; minuto con menos habla (48 palabras) y más subtítulo (19 s); el contador pasa de 2.048 a 3.015."
+  },
+  {
+   "minuto": 9,
+   "nivel": 5,
+   "motivo": "Chiste de la gorra (*TAKES MY HAT* ×2) y, desde 9:36, patrocinio: baja el ritmo a planos de 4 s."
+  },
+  {
+   "minuto": 10,
+   "nivel": 5,
+   "motivo": "Patrocinio hasta 10:14; vuelve la banca con 135 lb y píldora de regla 2 (10:40)."
+  },
+  {
+   "minuto": 11,
+   "nivel": 9,
+   "motivo": "Tercer corazón (11:02.5), cruz roja con zumbador (11:06.2), meme de las fórmulas (11:08.3), la barra se vuelca (11:33.4) y serie de banca a 4 ángulos: 9 planos en 14 s; 17 s con la música por encima de −20 dB."
+  },
+  {
+   "minuto": 12,
+   "nivel": 7,
+   "motivo": "Castigos (50 burpees + 50 flexiones), *UNC NOISES*, barrido en 12:18.4, zooms de golpe en 12:10.0 y 12:46.8."
+  },
+  {
+   "minuto": 13,
+   "nivel": 6,
+   "motivo": "Cabeza de Jimmy Neutron (13:05.6) y banca con 225 lb; minuto con la música más baja (−35 dB de mediana) y 12 s de silencio; píldora de regla 2 sobre silencio (13:54)."
+  },
+  {
+   "minuto": 14,
+   "nivel": 8,
+   "motivo": "Tres zooms en 10 s (14:18.8, 14:21.6, 14:28.83), mirada muda a cámara con golpe musical (14:29.9), *ANOTHER GUY TAKES MY HAT*; 26 cortes."
+  },
+  {
+   "minuto": 15,
+   "nivel": 7,
+   "motivo": "Píldora de regla 6 (15:04), 55 flexiones y paso a 315 lb; 26 cortes."
+  },
+  {
+   "minuto": 16,
+   "nivel": 6,
+   "motivo": "Pelea con 315 lb con la música de las más altas del vídeo (3,1 dB bajo la voz); en 16:49.6 entra el botón de suscribir."
+  },
+  {
+   "minuto": 17,
+   "nivel": 6,
+   "motivo": "Inserto de estudio sin música (16:53.7–17:13.8), vuelta de golpe a la sala y series con 405/365 lb."
+  },
+  {
+   "minuto": 18,
+   "nivel": 7,
+   "motivo": "*EXCUSES* (18:07.8), falso final con 2 s de silencio y golpe (18:42.1–18:44.15) y arranque de la serie final."
+  },
+  {
+   "minuto": 19,
+   "nivel": 9,
+   "motivo": "Clímax: serie hasta el fallo 19:08–19:39.6, 9 planos sin subtítulos con voz en off reflexiva; aplauso en 19:42.8; lista resuelta en 19:56."
+  },
+  {
+   "minuto": 20,
+   "nivel": 5,
+   "motivo": "Discursos con la música casi apagada (−36 dB de mediana, 11 s de silencio), 2 s de negro (20:36–20:38), maqueta de YouTube y abrazos."
+  },
+  {
+   "minuto": 21,
+   "nivel": 4,
+   "motivo": "Foto de grupo (21:00.5–21:03) y pantalla final de 13 s."
+  }
+ ],
+ "picos_y_preparacion": [
+  "Pico 1 (11:00.6–11:12.0): 3 gráficos encadenados en 11 s (corazones 11:00.6, lista con cruz roja 11:03.5–11:08.2, fórmulas 11:08.3). Se prepara con el contador parado en 3.090–3.104 y dos sonidos tonales seguidos (11:02.8 y 11:06.2).",
+  "Pico 2 (14:18–14:31): tres zooms de golpe seguidos y 5 s de silencio (14:25–14:30) que acaban en la mirada a cámara; el golpe de música entra en 14:29.9, 0,9 s después de que aterrice el zoom.",
+  "Pico 3 (19:08–19:39.6): la serie final se prepara con el falso final de 18:43 y se monta sin subtítulos ni gráficos nuevos (solo queda el contador): lo único que cambia respecto al resto del vídeo es eso y que la música sube a −17,8 dB (19:18–19:23)."
+ ],
+ "ritmo_informacion": "148 palabras/min de media (3.155 palabras), muy desigual: 238 y 228 en los dos primeros minutos (voz en off de la intro), 232 en el minuto 20 (discursos) y solo 48 en el minuto 8 y 69–78 en los minutos 14–16 (montaje de series). En la intro hay una pieza nueva cada 5–9 s (gancho, ráfaga, Unc, Haddy, tarjetas, adelanto, aviso legal, socios, objetivo 1, 2, 3). En el cuerpo pasa algo de juego cada 60–90 s: 8 píldoras de regla, 3 pérdidas de corazón, 4 listas y 5 etiquetas COMING UP/EARLIER en 19 min. El contador TOTAL REPS da información continua sin hablar: sube 3.310 repeticiones en 16 min y salta en las elipsis (735 → 912 → 1.152 en 16 s, 5:36–5:52; 2.063 → 3.000 entre 8:08 y 8:16). Cada bloque de ejercicio repite la misma frase de montaje: orden de Unc subtitulada en amarillo → repeticiones con contador y música alta → regla rota (píldora) → castigo → reacción de Jesse con zoom o asterisco.",
+ "estructura": [
+  {
+   "desde": "0:00.00",
+   "hasta": "0:11.30",
+   "parte": "gancho en frío",
+   "que_pasa": "Una sola toma en mano de 11,3 s: el grupo grita, le rasgan la camiseta. Voz en off con la premisa."
+  },
+  {
+   "desde": "0:11.30",
+   "hasta": "0:31.50",
+   "parte": "ráfaga / tráiler",
+   "que_pasa": "19 planos en 20,2 s: otros creadores hundidos, vídeos de reacción, calcetín con sangre, un entrenador gritando; termina presentando a Unc con 3 destellos de 8–10 f."
+  },
+  {
+   "desde": "0:31.50",
+   "hasta": "0:54.25",
+   "parte": "personajes y promesa",
+   "que_pasa": "Haddy con rótulo y flecha, tarjetas de Instagram de Haddy y Unc, primer COMING UP con el fallo de banca."
+  },
+  {
+   "desde": "0:54.25",
+   "hasta": "1:22.50",
+   "parte": "entrada y voces",
+   "que_pasa": "Aviso legal en pequeño, firma del descargo y tres socios que le dicen que va a morir."
+  },
+  {
+   "desde": "1:22.50",
+   "hasta": "1:47.81",
+   "parte": "los 3 objetivos",
+   "que_pasa": "Jesse a cámara en el gimnasio vacío; 3 cartelas GOAL alternadas con testimonio y adelantos. Fin de la intro en 1:47.81."
+  },
+  {
+   "desde": "1:47.81",
+   "hasta": "2:28.12",
+   "parte": "presentación de Unc",
+   "que_pasa": "Unc ni le saluda; recuerdo EARLIER de las cadenas (2:09.2–2:15.8); Unc ve las joyas."
+  },
+  {
+   "desde": "2:28.12",
+   "hasta": "3:59.75",
+   "parte": "cuota de entrada",
+   "que_pasa": "Píldora RULE 4, 200 burpees para todos, *SHOOK*, rótulo CAMERAMAN, lista de objetivos, 100 burpees más."
+  },
+  {
+   "desde": "3:59.75",
+   "hasta": "4:32.00",
+   "parte": "las reglas",
+   "que_pasa": "Unc explica las 6 reglas con texto grande pegado al plano; adelanto 4:16–4:19."
+  },
+  {
+   "desde": "4:32.00",
+   "hasta": "4:55.00",
+   "parte": "carrera",
+   "que_pasa": "Vuelta a la calle; lista con el objetivo 1 cumplido (4:34–4:37) y corazones (4:36.4); Jesse a cámara 4:48–4:54."
+  },
+  {
+   "desde": "4:55.00",
+   "hasta": "7:48.00",
+   "parte": "polea de tríceps",
+   "que_pasa": "≈ 1.000 repeticiones; contador de 690 a 1.960; reglas 5, 6 y 3; segundo corazón perdido (7:10.5); *DEHYDRATION*."
+  },
+  {
+   "desde": "7:48.00",
+   "hasta": "9:36.00",
+   "parte": "banca 65 lb y flexiones",
+   "que_pasa": "100 repeticiones, contador de 2.048 a 3.060; chiste de la gorra."
+  },
+  {
+   "desde": "9:36.00",
+   "hasta": "10:14.00",
+   "parte": "patrocinio",
+   "que_pasa": "Macrofactor: logotipo que se escribe, móviles en 3D sobre el plano oscurecido, código en amarillo."
+  },
+  {
+   "desde": "10:14.00",
+   "hasta": "11:57.50",
+   "parte": "banca 135 lb",
+   "que_pasa": "Regla 2 rota, tercer corazón, cruz roja, fórmulas, la barra se vuelca."
+  },
+  {
+   "desde": "11:57.50",
+   "hasta": "13:19.00",
+   "parte": "castigos",
+   "que_pasa": "50 burpees + 50 flexiones; cabeza de Jimmy Neutron en 13:05.6."
+  },
+  {
+   "desde": "13:19.00",
+   "hasta": "15:35.00",
+   "parte": "banca 225 lb",
+   "que_pasa": "Regla 2 sobre silencio, gorra otra vez, mirada a cámara, regla 6."
+  },
+  {
+   "desde": "15:35.00",
+   "hasta": "16:49.60",
+   "parte": "banca 315 lb",
+   "que_pasa": "Serie larga con música alta."
+  },
+  {
+   "desde": "16:49.60",
+   "hasta": "17:13.80",
+   "parte": "suscripción",
+   "que_pasa": "Botón animado, inserto de estudio, contador del canal, foto con un suscriptor, botón otra vez con clic."
+  },
+  {
+   "desde": "17:13.80",
+   "hasta": "18:21.00",
+   "parte": "405/365 lb",
+   "que_pasa": "Últimas series pesadas; se salta las flexiones (*EXCUSES*)."
+  },
+  {
+   "desde": "18:21.00",
+   "hasta": "18:44.20",
+   "parte": "falso final",
+   "que_pasa": "«the workout was finally complete» + 2 s de silencio + «Or so I thought»."
+  },
+  {
+   "desde": "18:44.20",
+   "hasta": "19:39.60",
+   "parte": "serie final",
+   "que_pasa": "Hasta el fallo; voz en off reflexiva; sin subtítulos."
+  },
+  {
+   "desde": "19:39.60",
+   "hasta": "20:36.00",
+   "parte": "aprobación",
+   "que_pasa": "Discurso de Unc, socios, lista resuelta (19:56–20:02)."
+  },
+  {
+   "desde": "20:36.00",
+   "hasta": "21:03.65",
+   "parte": "despedida",
+   "que_pasa": "2 s de negro, maqueta de YouTube con vídeos anteriores, abrazos, regalo, foto de grupo."
+  },
+  {
+   "desde": "21:03.65",
+   "hasta": "21:16.71",
+   "parte": "pantalla final",
+   "que_pasa": "Fondo negro, «WATCH THIS NEXT», comentario destacado, «STAY RELENTLESS»."
+  }
+ ],
+ "intro": {
+  "tipo": "explicativa",
+  "por_que_ese_tipo": "Dura 107,8 s y casi toda va con voz en off del creador que explica la premisa, quién es quién y qué 3 objetivos hay, apoyada en gráficos: rótulos de nombre con flecha, tarjetas de Instagram, cartelas GOAL y adelantos etiquetados. No es corta (no cabe en 30 s) ni es solo tráiler: la ráfaga ocupa 20,2 s (19 %) y el resto es explicación. Tampoco tiene título ni cabecera.",
+  "duracion_s": 107.81,
+  "duracion_f": 3231,
+  "orden": "gancho en frío 11,3 s → destello blanco → ráfaga/tráiler 20,2 s → personaje 1 con rótulo (Haddy) → tarjetas de Instagram → adelanto COMING UP → aviso legal + voces de socios 28 s → creador a cámara «I have three goals» → cartela GOAL 1 → testimonio → cartela GOAL 2 → adelanto → cartela GOAL 3 → adelanto → impacto y corte al cuerpo (1:47.81)",
+  "sin": "Sin título ni cabecera, sin logotipo, sin saludo, sin pedir suscripción (eso llega en 16:49).",
+  "numeros": "59 planos detectados en 107,8 s (media 1,83 s, mediana 1,47 s, 32 % por debajo de 1 s). Ráfaga: 19 planos en 20,2 s (media 1,06 s, mediana 0,70 s, 13 de 19 por debajo de 1 s; 21 planos si se cuentan los dos saltos escondidos en desenfoque de 23.53 y 29.43). Destellos blancos: 3 (0:11.30, 0:25.66, 0:33.56), siempre para cambiar de bloque. Adelantos COMING UP: 3 bloques, 7 planos, 11,7 s. Cartelas: 3 (65, 95 y 70 f).",
+  "clips_rafaga_trailer": [
+   {
+    "t": "0:11.30",
+    "sale_de": "rodaje del día (minuto no localizado)",
+    "funcion": "llamativo",
+    "que_se_ve": "Jesse en contrapicado tras el destello blanco."
+   },
+   {
+    "t": "0:12.28",
+    "sale_de": "rodaje del día, 7:16",
+    "funcion": "anticipa",
+    "que_se_ve": "Jesse con la lengua fuera: el momento de la sed."
+   },
+   {
+    "t": "0:12.98",
+    "sale_de": "rodaje del día (no localizado)",
+    "funcion": "anticipa",
+    "que_se_ve": "Jesse en el banco con la gorra."
+   },
+   {
+    "t": "0:13.51",
+    "sale_de": "archivo ajeno",
+    "funcion": "promesa",
+    "que_se_ve": "Otro creador hundido en la polea: «a otros les pasó»."
+   },
+   {
+    "t": "0:14.31",
+    "sale_de": "archivo ajeno",
+    "funcion": "promesa",
+    "que_se_ve": "Otro creador sufriendo."
+   },
+   {
+    "t": "0:14.85",
+    "sale_de": "archivo ajeno",
+    "funcion": "llamativo",
+    "que_se_ve": "Cara de un hombre enorme, 9 f."
+   },
+   {
+    "t": "0:15.15",
+    "sale_de": "archivo ajeno",
+    "funcion": "llamativo",
+    "que_se_ve": "Cara con capucha, 9 f."
+   },
+   {
+    "t": "0:15.45",
+    "sale_de": "archivo ajeno",
+    "funcion": "llamativo",
+    "que_se_ve": "Cara con gafas, 9 f."
+   },
+   {
+    "t": "0:15.75",
+    "sale_de": "archivo ajeno",
+    "funcion": "llamativo",
+    "que_se_ve": "Hombre tumbado agotado, 10 f."
+   },
+   {
+    "t": "0:16.08",
+    "sale_de": "archivo ajeno",
+    "funcion": "llamativo",
+    "que_se_ve": "Perfil con bandana."
+   },
+   {
+    "t": "0:16.88",
+    "sale_de": "archivo ajeno (vídeo de reacción)",
+    "funcion": "promesa",
+    "que_se_ve": "Un divulgador conocido reaccionando: prueba de que el sitio es famoso."
+   },
+   {
+    "t": "0:18.02",
+    "sale_de": "archivo ajeno (vídeo de reacción) + maqueta de YouTube",
+    "funcion": "promesa",
+    "que_se_ve": "Otro vídeo de reacción que encoge hasta su página de YouTube."
+   },
+   {
+    "t": "0:20.15",
+    "sale_de": "archivo ajeno",
+    "funcion": "llamativo",
+    "que_se_ve": "Calcetín con sangre, con empuje de +36 %/s."
+   },
+   {
+    "t": "0:21.39",
+    "sale_de": "archivo ajeno",
+    "funcion": "promesa",
+    "que_se_ve": "Un entrenador con camisa de cuadros gritando «IT'S BROKEN? YOU WANNA GO HOME?» (único subtítulo de la ráfaga)."
+   },
+   {
+    "t": "0:25.66",
+    "sale_de": "rodaje del día",
+    "funcion": "anticipa",
+    "que_se_ve": "Unc sentado, tras el segundo destello blanco."
+   },
+   {
+    "t": "0:27.93",
+    "sale_de": "archivo de Unc",
+    "funcion": "llamativo",
+    "que_se_ve": "Unc de negro, 10 f."
+   },
+   {
+    "t": "0:28.26",
+    "sale_de": "archivo de Unc",
+    "funcion": "llamativo",
+    "que_se_ve": "Unc con gorra, 9 f."
+   },
+   {
+    "t": "0:28.56",
+    "sale_de": "archivo de Unc",
+    "funcion": "llamativo",
+    "que_se_ve": "Unc con durag, 8 f."
+   },
+   {
+    "t": "0:28.83",
+    "sale_de": "rodaje del día",
+    "funcion": "anticipa",
+    "que_se_ve": "Unc flexionando ante la pancarta."
+   }
+  ],
+  "clips_rafaga_trailer_proporciones": "De 19 planos: 9 de archivo ajeno de otra gente (47 %: 7 de creadores y socios hundidos, 1 calcetín, 1 de un entrenador gritando), 2 vídeos de reacción con interfaz de YouTube (11 %), 5 de Unc (26 %, tres de ellos destellos de 8–10 f) y solo 3 del propio Jesse en el rodaje del día (16 %). Por función: 10 llamativos, 5 de promesa, 4 que anticipan. Dos micro-ráfagas a ritmo de música: 14.31–16.08 (planos de 9–10 f) y 27.93–28.83 (8–10 f).",
+  "clips_rafaga_trailer_nunca": "No se enseña el resultado de ningún objetivo, ni el contador, ni la serie final, ni el discurso de Unc. No hay gráficos de juego ni texto propio. El mejor momento propio (la barra que se vuelca, 11:33.4) NO va en la ráfaga: se guarda para el primer COMING UP (0:50.25), ya con etiqueta. Los adelantos propios van siempre aparte y marcados; la ráfaga se hace con prueba social ajena.",
+  "animaciones_explicativas": [
+   {
+    "t": "0:16.88–0:20.15",
+    "frase": "«even some of the biggest names in the fitness industry have called them psychotic, dangerous, and borderline impossible»",
+    "que_es": "dos vídeos de reacción ajenos; el segundo encoge hasta su página de YouTube",
+    "f0": 506,
+    "f1": 604,
+    "como_esta_hecha": "captura de vídeo ajeno a pantalla completa; el segundo, dentro de una maqueta de página de YouTube con escala ×1,00 → ×0,85 lineal en 2,0 s",
+    "sfx": "ninguno"
+   },
+   {
+    "t": "0:33.56–0:37.60 y 0:43.01–0:45.21",
+    "frase": "«we've got to meet his right-hand man» / «And by right-hand man, I mean Haddy»",
+    "que_es": "rótulo «HADDY» con flecha amarilla",
+    "f0": 1006,
+    "f1": 1127,
+    "como_esta_hecha": "texto blanco ultranegro con borde y sombra negros + flecha amarilla con borde negro; seguimiento de la cabeza fotograma a fotograma; entra dentro del destello blanco (ya puesto), sale por corte. Segunda aparición f1289–f1355.",
+    "sfx": "golpe/soplido del destello en 0:33.56 (la segunda vez entra muda)"
+   },
+   {
+    "t": "0:45.21–0:50.25",
+    "frase": "«Haddy and Unc are the two main guys at Diamond Gym that reinforce the super strict rules»",
+    "que_es": "dos tarjetas de perfil de Instagram (foto, usuario verificado, publicaciones, seguidores, seguidos) sobre cada cabeza",
+    "f0": 1355,
+    "f1": 1506,
+    "como_esta_hecha": "píldora blanca redondeada de ≈ 340 × 100 px (18 % × 9 %), en y ≈ 85–185 px; puestas desde el primer fotograma del plano, sin animación de entrada; salen por corte. Plano con empuje lento de +1,2 %/s.",
+    "sfx": "ninguno confirmado (coincide con el bombo de la música)"
+   },
+   {
+    "t": "0:50.25–0:54.25",
+    "frase": "«And it's these rules that I'm going to do my best not to break»",
+    "que_es": "adelanto con etiqueta «COMING UP:» y viñeta",
+    "f0": 1506,
+    "f1": 1626,
+    "como_esta_hecha": "3 planos del propio rodaje con viñeta negra fuerte y etiqueta blanca fija arriba a la izquierda (x 55–605, y 60–135 px); entra y sale por corte",
+    "sfx": "ninguno (medido −1,4 dB); cambia la pista"
+   },
+   {
+    "t": "0:54.26–≈1:01",
+    "frase": "«But before we learn what those rules are…»",
+    "que_es": "aviso legal en pequeño",
+    "f0": 1626,
+    "f1": 1828,
+    "como_esta_hecha": "título + 4 líneas blancas al 70 % de opacidad, letra del 2 % del alto, abajo al centro (y 77–90 %); fundido de entrada de 10 f",
+    "sfx": "ninguno"
+   },
+   {
+    "t": "1:25.03–1:27.19",
+    "frase": "«One, to survive the entrance fee»",
+    "que_es": "cartela GOAL 1",
+    "f0": 2548,
+    "f1": 2613,
+    "como_esta_hecha": "dos líneas blancas con resplandor suave centradas (y 42–60 %) sobre un plano de recurso propio oscurecido ≈ 60 %; aparece entera en el corte, sin animar; 65 f",
+    "sfx": "ninguno (medido −4,3 dB)"
+   },
+   {
+    "t": "1:34.60–1:37.76",
+    "frase": "«Two, try not to break more than three different rules»",
+    "que_es": "cartela GOAL 2",
+    "f0": 2835,
+    "f1": 2930,
+    "como_esta_hecha": "igual; fondo: plano de la carrera oscurecido y con viñeta; 95 f",
+    "sfx": "golpe 0,15 s antes, tras 2 s de silencio (+8,5 dB, pico −7,4 dBFS)"
+   },
+   {
+    "t": "1:37.76–1:42.27",
+    "frase": "«I am so freaking thirsty»",
+    "que_es": "adelanto COMING UP (2 planos)",
+    "f0": 2930,
+    "f1": 3065,
+    "como_esta_hecha": "igual que el primero",
+    "sfx": "ninguno"
+   },
+   {
+    "t": "1:42.27–1:44.61",
+    "frase": "«And three, to win the approval of Unc»",
+    "que_es": "cartela GOAL 3",
+    "f0": 3065,
+    "f1": 3135,
+    "como_esta_hecha": "igual; 70 f",
+    "sfx": "golpe en el corte (+4,6 dB, pico −8,3 dBFS)"
+   },
+   {
+    "t": "1:44.61–1:47.81",
+    "frase": "«And speaking of Unc, it was time to get introduced»",
+    "que_es": "adelanto COMING UP (2 planos de Unc)",
+    "f0": 3135,
+    "f1": 3231,
+    "como_esta_hecha": "igual",
+    "sfx": "impacto de cambio de sección en 1:47.7 (pico −9,3 dBFS)"
+   }
+  ],
+  "animaciones_explicativas_nota": "10 apoyos gráficos en 107,8 s: uno cada 10,8 s. Ninguno se anima letra a letra: aparecen enteros en un corte o dentro de un destello. Lo único que se mueve es el seguimiento de la cabeza y el fondo.",
+  "linea_de_tiempo": [
+   {
+    "f0": 0,
+    "f1": 339,
+    "t": "0:00.00–0:11.30",
+    "que_se_ve": "Grupo de culturistas gritando ante una pancarta; en 5.00 uno le rasga la camiseta a Jesse; 9.66–11.26 Jesse sin camiseta con las manos arriba.",
+    "origen": "rodaje del día (final de la sesión)",
+    "camara": "en mano, una toma; entra con 3 f de desenfoque de zoom (f0–2) y lleva dos barridos borrosos (3.70–3.83 y 4.76–4.96) que pueden esconder cortes",
+    "zoom_velocidad": "sin zoom de edición",
+    "texto": "ninguno",
+    "motion_graphic": "ninguno",
+    "sfx": "ninguno confirmado",
+    "musica": "pista de tensión desde 0:00 a 3–4 dB bajo la voz",
+    "voz": "off: «Today, I'm trying the most controversial workout at Diamond Gym» (0.0–3.0); directo: «Sham, rip his shirt» (5.0)"
+   },
+   {
+    "f0": 339,
+    "f1": 368,
+    "t": "0:11.30–0:12.28",
+    "que_se_ve": "DESTELLO BLANCO que se apaga en ≈ 10 f y Jesse en contrapicado con sudadera azul.",
+    "origen": "rodaje del día (no localizado el minuto)",
+    "camara": "contrapicado en mano",
+    "zoom_velocidad": "ninguno",
+    "texto": "ninguno",
+    "motion_graphic": "destello blanco a pantalla completa, 10 f",
+    "sfx": "impacto en el destello (pico −7,7 dBFS)",
+    "musica": "entra la pista de la ráfaga (+5,3 dB)",
+    "voz": "off: «And when I say this gym is controversial, I'm not exaggerating»"
+   },
+   {
+    "f0": 368,
+    "f1": 389,
+    "t": "0:12.28–0:12.98",
+    "que_se_ve": "Jesse con la lengua fuera, exhausto.",
+    "origen": "rodaje del día, 7:16",
+    "camara": "primer plano en mano",
+    "zoom_velocidad": "ninguno",
+    "texto": "ninguno",
+    "motion_graphic": "ninguno",
+    "sfx": "ninguno",
+    "musica": "sigue",
+    "voz": "off (sigue)"
+   },
+   {
+    "f0": 389,
+    "f1": 405,
+    "t": "0:12.98–0:13.51",
+    "que_se_ve": "Jesse en el banco con la gorra.",
+    "origen": "rodaje del día (no localizado)",
+    "camara": "plano medio",
+    "zoom_velocidad": "ninguno",
+    "texto": "ninguno",
+    "motion_graphic": "ninguno",
+    "sfx": "ninguno",
+    "musica": "sigue",
+    "voz": "off"
+   },
+   {
+    "f0": 405,
+    "f1": 429,
+    "t": "0:13.51–0:14.31",
+    "que_se_ve": "Otro creador con sudadera negra sufriendo en la polea.",
+    "origen": "archivo ajeno (vídeo de otro creador en el mismo gimnasio)",
+    "camara": "en mano",
+    "zoom_velocidad": "ninguno",
+    "texto": "ninguno",
+    "motion_graphic": "ninguno",
+    "sfx": "ninguno",
+    "musica": "sigue",
+    "voz": "off: «the workouts here is so intense…»"
+   },
+   {
+    "f0": 429,
+    "f1": 445,
+    "t": "0:14.31–0:14.85",
+    "que_se_ve": "Otro creador de pelo rizado.",
+    "origen": "archivo ajeno",
+    "camara": "en mano",
+    "zoom_velocidad": "ninguno",
+    "texto": "ninguno",
+    "motion_graphic": "ninguno",
+    "sfx": "ninguno",
+    "musica": "sigue",
+    "voz": "off"
+   },
+   {
+    "f0": 445,
+    "f1": 454,
+    "t": "0:14.85–0:15.15",
+    "que_se_ve": "Hombre enorme con camiseta azul marino (9 f).",
+    "origen": "archivo ajeno",
+    "camara": "primer plano",
+    "zoom_velocidad": "ninguno",
+    "texto": "ninguno",
+    "motion_graphic": "ninguno",
+    "sfx": "ninguno; el corte cae en acento de la música",
+    "musica": "sigue",
+    "voz": "off"
+   },
+   {
+    "f0": 454,
+    "f1": 463,
+    "t": "0:15.15–0:15.45",
+    "que_se_ve": "Hombre con capucha (9 f).",
+    "origen": "archivo ajeno",
+    "camara": "primer plano",
+    "zoom_velocidad": "ninguno",
+    "texto": "ninguno",
+    "motion_graphic": "ninguno",
+    "sfx": "ninguno; corte en acento",
+    "musica": "sigue",
+    "voz": "off"
+   },
+   {
+    "f0": 463,
+    "f1": 472,
+    "t": "0:15.45–0:15.75",
+    "que_se_ve": "Hombre con gafas (9 f).",
+    "origen": "archivo ajeno",
+    "camara": "primer plano",
+    "zoom_velocidad": "ninguno",
+    "texto": "ninguno",
+    "motion_graphic": "ninguno",
+    "sfx": "ninguno; corte en acento",
+    "musica": "sigue",
+    "voz": "off"
+   },
+   {
+    "f0": 472,
+    "f1": 482,
+    "t": "0:15.75–0:16.08",
+    "que_se_ve": "Hombre tumbado, agotado (10 f).",
+    "origen": "archivo ajeno",
+    "camara": "picado",
+    "zoom_velocidad": "ninguno",
+    "texto": "ninguno",
+    "motion_graphic": "ninguno",
+    "sfx": "ninguno; corte en acento",
+    "musica": "sigue",
+    "voz": "off"
+   },
+   {
+    "f0": 482,
+    "f1": 506,
+    "t": "0:16.08–0:16.88",
+    "que_se_ve": "Hombre con bandana, de perfil.",
+    "origen": "archivo ajeno",
+    "camara": "primer plano",
+    "zoom_velocidad": "ninguno",
+    "texto": "ninguno",
+    "motion_graphic": "ninguno",
+    "sfx": "ninguno; corte en acento",
+    "musica": "sigue",
+    "voz": "off: «…even some of the biggest names in the fitness industry»"
+   },
+   {
+    "f0": 506,
+    "f1": 540,
+    "t": "0:16.88–0:18.02",
+    "que_se_ve": "Vídeo de reacción de un divulgador conocido con el vídeo del gimnasio en una ventana arriba a la izquierda (borde de rayas rojas y blancas).",
+    "origen": "archivo ajeno (vídeo de reacción)",
+    "camara": "fijo (pantalla)",
+    "zoom_velocidad": "ninguno",
+    "texto": "ninguno",
+    "motion_graphic": "el propio vídeo ajeno a pantalla completa",
+    "sfx": "ninguno",
+    "musica": "sigue",
+    "voz": "off: «have called them psychotic»"
+   },
+   {
+    "f0": 540,
+    "f1": 604,
+    "t": "0:18.02–0:20.15",
+    "que_se_ve": "Otro vídeo de reacción que se va encogiendo hasta dejar ver la página de YouTube donde está.",
+    "origen": "archivo ajeno + maqueta de página de YouTube",
+    "camara": "fijo (pantalla)",
+    "zoom_velocidad": "zoom hacia fuera continuo ×1,00 → ×0,85 en 2,0 s (−8 %/s)",
+    "texto": "ninguno propio (se lee la interfaz)",
+    "motion_graphic": "maqueta de página de YouTube",
+    "sfx": "ninguno",
+    "musica": "sigue",
+    "voz": "off: «dangerous, and borderline impossible»"
+   },
+   {
+    "f0": 604,
+    "f1": 641,
+    "t": "0:20.15–0:21.39",
+    "que_se_ve": "Pies con un calcetín ensangrentado.",
+    "origen": "archivo ajeno",
+    "camara": "plano detalle",
+    "zoom_velocidad": "empuje ×1,00 → ×1,36 en 1,0 s (+36 %/s)",
+    "texto": "ninguno",
+    "motion_graphic": "ninguno",
+    "sfx": "ninguno",
+    "musica": "sigue",
+    "voz": "silencio de voz"
+   },
+   {
+    "f0": 641,
+    "f1": 769,
+    "t": "0:21.39–0:25.66",
+    "que_se_ve": "Peso muerto de archivo; entrenador con camisa de cuadros rojos; en 23.53–23.66 desenfoque de zoom a un plano más cerrado.",
+    "origen": "archivo ajeno",
+    "camara": "en mano",
+    "zoom_velocidad": "salto con desenfoque de 4 f en 23.53",
+    "texto": "subtítulo amarillo «IT'S BROKEN? YOU WANNA GO HOME?» (21.40–23.5)",
+    "motion_graphic": "ninguno",
+    "sfx": "barrido ascendente desde 24.5 que culmina en el destello siguiente",
+    "musica": "sigue",
+    "voz": "directo de archivo: «It's broken, you wanna go home?»"
+   },
+   {
+    "f0": 769,
+    "f1": 837,
+    "t": "0:25.66–0:27.93",
+    "que_se_ve": "DESTELLO BLANCO (≈ 8 f) y Unc sentado.",
+    "origen": "rodaje del día",
+    "camara": "plano medio",
+    "zoom_velocidad": "entra a ×1,53 y se asienta en ×1,00 en 15 f (26.03–26.50), después quieto",
+    "texto": "ninguno",
+    "motion_graphic": "destello blanco, 8 f",
+    "sfx": "golpe en el destello (pico −10,7 dBFS)",
+    "musica": "sigue",
+    "voz": "off: «And at the center of it all is a guy named Unc»"
+   },
+   {
+    "f0": 837,
+    "f1": 847,
+    "t": "0:27.93–0:28.26",
+    "que_se_ve": "Unc de negro en contrapicado (10 f).",
+    "origen": "archivo de Unc",
+    "camara": "contrapicado",
+    "zoom_velocidad": "ninguno",
+    "texto": "ninguno",
+    "motion_graphic": "ninguno",
+    "sfx": "ninguno; corte en acento",
+    "musica": "sigue",
+    "voz": "directo: «Fight!»"
+   },
+   {
+    "f0": 847,
+    "f1": 856,
+    "t": "0:28.26–0:28.56",
+    "que_se_ve": "Unc con gorra blanca (9 f).",
+    "origen": "archivo de Unc",
+    "camara": "primer plano",
+    "zoom_velocidad": "ninguno",
+    "texto": "ninguno",
+    "motion_graphic": "ninguno",
+    "sfx": "ninguno",
+    "musica": "sigue",
+    "voz": "directo"
+   },
+   {
+    "f0": 856,
+    "f1": 864,
+    "t": "0:28.56–0:28.83",
+    "que_se_ve": "Unc con durag naranja y grupo detrás (8 f).",
+    "origen": "archivo de Unc",
+    "camara": "plano medio",
+    "zoom_velocidad": "ninguno",
+    "texto": "ninguno",
+    "motion_graphic": "ninguno",
+    "sfx": "ninguno",
+    "musica": "sigue",
+    "voz": "directo"
+   },
+   {
+    "f0": 864,
+    "f1": 944,
+    "t": "0:28.83–0:31.50",
+    "que_se_ve": "Unc en contrapicado; en 29.43–29.76 zoom hacia fuera con desenfoque a plano general flexionando ante la pancarta.",
+    "origen": "rodaje del día",
+    "camara": "contrapicado → general",
+    "zoom_velocidad": "zoom hacia fuera con desenfoque de movimiento, 10 f",
+    "texto": "ninguno",
+    "motion_graphic": "ninguno",
+    "sfx": "ninguno",
+    "musica": "sigue",
+    "voz": "directo: «Don't disappoint me…»; off: «Who, unfortunately for me, is going to be my coach for the day»"
+   },
+   {
+    "f0": 944,
+    "f1": 1006,
+    "t": "0:31.50–0:33.56",
+    "que_se_ve": "Haddy y Jesse ante la pared de ladrillo.",
+    "origen": "rodaje del día (exterior, antes de entrar)",
+    "camara": "plano medio",
+    "zoom_velocidad": "empuje acelerado ×0,91 → ×1,57 en 1,3 s (39 f) que remata en el destello",
+    "texto": "ninguno",
+    "motion_graphic": "ninguno",
+    "sfx": "ninguno",
+    "musica": "sigue",
+    "voz": "off: «But before we can meet him, we've got to meet his right-hand man»"
+   },
+   {
+    "f0": 1006,
+    "f1": 1127,
+    "t": "0:33.56–0:37.60",
+    "que_se_ve": "DESTELLO BLANCO + 4–5 f de desenfoque de zoom; Jesse abraza a Haddy.",
+    "origen": "rodaje del día",
+    "camara": "plano medio en mano",
+    "zoom_velocidad": "ninguno",
+    "texto": "rótulo «HADDY» + flecha amarilla, ya puesto en el destello, nítido en 33.80; sigue la cabeza",
+    "motion_graphic": "rótulo de nombre con seguimiento",
+    "sfx": "golpe/soplido en el destello (pico −7,2 dBFS)",
+    "musica": "sigue",
+    "voz": "directo: «I'm a good cop, and Unc's a bad cop. I want you to make it through. He doesn't.»"
+   },
+   {
+    "f0": 1127,
+    "f1": 1193,
+    "t": "0:37.60–0:39.81",
+    "que_se_ve": "Jesse solo a cámara.",
+    "origen": "rodaje del día",
+    "camara": "primer plano",
+    "zoom_velocidad": "ninguno",
+    "texto": "ninguno",
+    "motion_graphic": "ninguno",
+    "sfx": "ninguno; corte en acento",
+    "musica": "sigue",
+    "voz": "directo: «If you can tell, I'm a little nervous»"
+   },
+   {
+    "f0": 1193,
+    "f1": 1228,
+    "t": "0:39.81–0:40.97",
+    "que_se_ve": "Jesse y Haddy.",
+    "origen": "rodaje del día",
+    "camara": "plano medio",
+    "zoom_velocidad": "ninguno",
+    "texto": "ninguno",
+    "motion_graphic": "ninguno",
+    "sfx": "ninguno",
+    "musica": "sigue",
+    "voz": "directo: «Everybody told me I'm going to die»"
+   },
+   {
+    "f0": 1228,
+    "f1": 1289,
+    "t": "0:40.97–0:43.01",
+    "que_se_ve": "Haddy en primer plano.",
+    "origen": "rodaje del día",
+    "camara": "primer plano",
+    "zoom_velocidad": "ninguno",
+    "texto": "ninguno",
+    "motion_graphic": "ninguno",
+    "sfx": "ninguno",
+    "musica": "sigue",
+    "voz": "directo: «He's going to be all right»"
+   },
+   {
+    "f0": 1289,
+    "f1": 1355,
+    "t": "0:43.01–0:45.21",
+    "que_se_ve": "Haddy en plano medio.",
+    "origen": "rodaje del día",
+    "camara": "plano medio",
+    "zoom_velocidad": "ninguno",
+    "texto": "rótulo «HADDY» + flecha otra vez",
+    "motion_graphic": "rótulo de nombre con seguimiento",
+    "sfx": "ninguno; corte en acento",
+    "musica": "sigue",
+    "voz": "off: «And by right-hand man, I mean Haddy»"
+   },
+   {
+    "f0": 1355,
+    "f1": 1506,
+    "t": "0:45.21–0:50.25",
+    "que_se_ve": "Haddy y Unc con los brazos cruzados en contrapicado.",
+    "origen": "rodaje del día",
+    "camara": "contrapicado",
+    "zoom_velocidad": "empuje lento ×1,00 → ×1,07 en 4 s (+1,2 %/s)",
+    "texto": "ninguno aparte de las tarjetas",
+    "motion_graphic": "dos tarjetas de perfil de Instagram sobre las cabezas, puestas desde el primer fotograma",
+    "sfx": "ninguno confirmado",
+    "musica": "sigue",
+    "voz": "off: «Haddy and Unc are the two main guys at Diamond Gym that reinforce the super strict rules»"
+   },
+   {
+    "f0": 1506,
+    "f1": 1548,
+    "t": "0:50.25–0:51.65",
+    "que_se_ve": "ADELANTO: la barra se vuelca en el banco.",
+    "origen": "rodaje del día, 11:33.4–11:35.5",
+    "camara": "general",
+    "zoom_velocidad": "ninguno",
+    "texto": "etiqueta «COMING UP:» arriba a la izquierda",
+    "motion_graphic": "viñeta negra fuerte en todo el cuadro",
+    "sfx": "ninguno (medido: −1,4 dB)",
+    "musica": "cambia a otra pista más tonal",
+    "voz": "off: «And it's these rules that I'm going to do my best not to break»"
+   },
+   {
+    "f0": 1548,
+    "f1": 1576,
+    "t": "0:51.65–0:52.59",
+    "que_se_ve": "ADELANTO: Jesse con las manos en la cadera.",
+    "origen": "rodaje del día (no localizado)",
+    "camara": "plano medio",
+    "zoom_velocidad": "ninguno",
+    "texto": "«COMING UP:»",
+    "motion_graphic": "viñeta",
+    "sfx": "ninguno",
+    "musica": "sigue",
+    "voz": "off"
+   },
+   {
+    "f0": 1576,
+    "f1": 1626,
+    "t": "0:52.59–0:54.25",
+    "que_se_ve": "ADELANTO: flexiones.",
+    "origen": "rodaje del día (no localizado)",
+    "camara": "picado",
+    "zoom_velocidad": "ninguno",
+    "texto": "«COMING UP:»",
+    "motion_graphic": "viñeta",
+    "sfx": "ninguno",
+    "musica": "sigue",
+    "voz": "off: «during my time here at Diamond Gym»"
+   },
+   {
+    "f0": 1626,
+    "f1": 1782,
+    "t": "0:54.25–0:59.46",
+    "que_se_ve": "Entra al gimnasio y firma el descargo (corte interno en 55.72).",
+    "origen": "rodaje del día",
+    "camara": "en mano",
+    "zoom_velocidad": "ninguno",
+    "texto": "AVISO LEGAL: título + 4 líneas en blanco al 70 % de opacidad, abajo al centro; entra por fundido de 10 f (54.26–54.60) y dura hasta ≈ 1:01",
+    "motion_graphic": "ninguno",
+    "sfx": "ninguno (lo que sube es el ambiente de la sala)",
+    "musica": "baja",
+    "voz": "off: «But before we learn what those rules are…»"
+   },
+   {
+    "f0": 1782,
+    "f1": 2473,
+    "t": "0:59.46–1:22.50",
+    "que_se_ve": "Tres socios opinan (13 planos; cortes en 60.86, 61.70, 63.70, 64.97, 67.73, 68.53, 70.37, 71.47, 72.84, 74.84, 76.38, 78.05).",
+    "origen": "rodaje del día",
+    "camara": "primeros planos en mano",
+    "zoom_velocidad": "ninguno",
+    "texto": "subtítulos: «HOW DO YOU THINK I'M GOING TO DO» (blanco, 1:00.8), «HAVE YOUR OBITUARY READY» (amarillo, 1:06.0–1:08.4), «WHY YOU NERVOUS?» (amarillo, 1:10.4–1:11.2)",
+    "motion_graphic": "ninguno",
+    "sfx": "ninguno",
+    "musica": "silencio de 3 s en 1:11–1:14; vuelve a −30 dB en 1:14",
+    "voz": "directo"
+   },
+   {
+    "f0": 2473,
+    "f1": 2501,
+    "t": "1:22.50–1:23.45",
+    "que_se_ve": "Corte a más cerca: la cara de Jesse con una mueca.",
+    "origen": "rodaje del día",
+    "camara": "primer plano",
+    "zoom_velocidad": "salto de escala por corte",
+    "texto": "ninguno",
+    "motion_graphic": "ninguno",
+    "sfx": "ninguno confirmado",
+    "musica": "sigue baja",
+    "voz": "directo: «it's next level»"
+   },
+   {
+    "f0": 2501,
+    "f1": 2548,
+    "t": "1:23.45–1:25.03",
+    "que_se_ve": "Jesse de pie con los brazos cruzados en el gimnasio vacío.",
+    "origen": "grabado aparte (otra ropa, sala vacía)",
+    "camara": "general fijo",
+    "zoom_velocidad": "ninguno",
+    "texto": "ninguno",
+    "motion_graphic": "ninguno",
+    "sfx": "ninguno",
+    "musica": "sigue",
+    "voz": "a cámara: «That reminds me. I have three goals while I'm here»"
+   },
+   {
+    "f0": 2548,
+    "f1": 2613,
+    "t": "1:25.03–1:27.19",
+    "que_se_ve": "CARTELA sobre el letrero exterior del gimnasio oscurecido ≈ 60 %.",
+    "origen": "plano de recurso propio",
+    "camara": "fijo (medido ×1,000)",
+    "zoom_velocidad": "ninguno",
+    "texto": "«GOAL 1 / TO SURVIVE THE ENTRANCE FEE»",
+    "motion_graphic": "cartela; aparece entera en el corte y sale por corte (65 f)",
+    "sfx": "ninguno (medido: −4,3 dB)",
+    "musica": "sigue",
+    "voz": "off: «One, to survive the entrance fee»"
+   },
+   {
+    "f0": 2613,
+    "f1": 2835,
+    "t": "1:27.19–1:34.60",
+    "que_se_ve": "Testimonio de un socio (cortes en 88.02, 89.36, 90.89).",
+    "origen": "rodaje del día",
+    "camara": "primer plano",
+    "zoom_velocidad": "ninguno",
+    "texto": "subtítulos amarillos",
+    "motion_graphic": "ninguno",
+    "sfx": "ninguno",
+    "musica": "silencio de 2 s en 1:32–1:34",
+    "voz": "directo: «…they're going to hit you with an entrance fee that could humble you»"
+   },
+   {
+    "f0": 2835,
+    "f1": 2930,
+    "t": "1:34.60–1:37.76",
+    "que_se_ve": "CARTELA sobre el plano de la carrera oscurecido y con viñeta.",
+    "origen": "plano de recurso propio (4:32)",
+    "camara": "en mano",
+    "zoom_velocidad": "ninguno",
+    "texto": "«GOAL 2 / TRY NOT TO BREAK MORE THAN 3 DIFFERENT RULES»",
+    "motion_graphic": "cartela; entera en el corte, sale por corte (95 f)",
+    "sfx": "golpe 0,15 s antes de la cartela, tras el silencio (pico −7,4 dBFS)",
+    "musica": "vuelve con el golpe",
+    "voz": "off: «Two, try not to break more than three different rules»"
+   },
+   {
+    "f0": 2930,
+    "f1": 3065,
+    "t": "1:37.76–1:42.27",
+    "que_se_ve": "ADELANTO en 2 planos (corte en 99.33): Jesse sediento.",
+    "origen": "rodaje del día (minuto 7, no localizado el plano exacto)",
+    "camara": "en mano",
+    "zoom_velocidad": "ninguno",
+    "texto": "«COMING UP:»",
+    "motion_graphic": "viñeta",
+    "sfx": "ninguno",
+    "musica": "sigue",
+    "voz": "directo: «I am so freaking thirsty»"
+   },
+   {
+    "f0": 3065,
+    "f1": 3135,
+    "t": "1:42.27–1:44.61",
+    "que_se_ve": "CARTELA sobre plano del gimnasio oscurecido.",
+    "origen": "plano de recurso propio",
+    "camara": "en mano",
+    "zoom_velocidad": "ninguno",
+    "texto": "«GOAL 3 / WIN THE APPROVAL OF UNC»",
+    "motion_graphic": "cartela; entera en el corte, sale por corte (70 f)",
+    "sfx": "golpe en el corte (pico −8,3 dBFS)",
+    "musica": "sigue",
+    "voz": "off: «And three, to win the approval of Unc»"
+   },
+   {
+    "f0": 3135,
+    "f1": 3231,
+    "t": "1:44.61–1:47.81",
+    "que_se_ve": "ADELANTO en 2 planos (corte en 105.87): Unc.",
+    "origen": "rodaje del día (no localizado)",
+    "camara": "en mano",
+    "zoom_velocidad": "ninguno",
+    "texto": "«COMING UP:»",
+    "motion_graphic": "viñeta",
+    "sfx": "impacto 0,1 s antes del corte de salida (1:47.7, pico −9,3 dBFS)",
+    "musica": "sigue",
+    "voz": "off: «And speaking of Unc, it was time to get introduced»"
+   }
+  ],
+  "titulo_cabecera": {
+   "como_se_construye": "No hay título ni cabecera en todo el vídeo.",
+   "fuente": "no aplica",
+   "color": "no aplica",
+   "duracion_f": 0,
+   "sonido": "no aplica"
+  },
+  "primer_plano_hablando_s": 37.6,
+  "primer_plano_hablando_nota": "La voz en off suena desde 0:00.0 y el vídeo arranca con imagen de acción, no con busto. El primer plano del creador hablando a cámara es 0:37.60 («If you can tell, I'm a little nervous», 2,2 s) y el primero largo, 1:23.45.",
+  "musica_intro": "Suena desde 0:00 a −23,8 dB (3,9 dB bajo la voz) hasta 1:11; silencio de 3 s (1:11–1:14) en la frase del socio; vuelve a −30,1 dB (11,1 dB bajo la voz) hasta 1:51. Cambia de pista en el destello de 0:11.30 y en el primer COMING UP (0:50.25).",
+  "hojas": "detalle/intro_fot_15.jpg … intro_fot_53.jpg (fotograma a fotograma, 0:30–1:48; el archivo N cubre de 2N a 2N+2 s), intro_fot_* de 0–30 s en la carpeta de análisis, cortes_rafagas.json (447 cortes; ninguna ráfaga de estrobo nueva en 0–108 s)."
+ },
+ "motion_graphics": [
+  {
+   "tipo": "contador de progreso «TOTAL REPS»",
+   "que_es": "Píldora negra redondeada con resplandor y dos líneas: «TOTAL REPS» pequeño y la cifra acumulada grande con separador de miles. Es el marcador del reto.",
+   "entrada_salida": "Aparece y desaparece con el corte, sin animación; la cifra cambia de golpe, repetición a repetición.",
+   "curva": "ninguna (escalón)",
+   "posicion": "arriba a la izquierda: x 12–272 px, y 18–115 px a 1080p",
+   "tamano": "13,5 % del ancho × 9 % del alto; rótulo 1,8 % del alto, cifra 3,5 %",
+   "color": "blanco sobre negro translúcido",
+   "fuente": "Una sola familia geométrica ultranegra para todo (aspecto Gotham Black / Montserrat ExtraBold–Black).",
+   "sonido": "mudo (ningún tic por repetición)",
+   "disparador": "Solo cuando hay repeticiones en pantalla (burpees, polea, banca, flexiones). Se quita en diálogos, gráficos, patrocinio, adelantos y recuerdos.",
+   "por_minuto": "presente en 50 de 160 muestras tomadas cada 8 s: 31 % del vídeo (41 % entre 3:12 y 19:28)",
+   "total": "de 162 (3:12, primera vez visto) a 3.472 (19:28, última)",
+   "duracion_f": "tramos de 2 a 20 s",
+   "ejemplos": [
+    "3:12 → 162",
+    "3:20 → 200",
+    "3:52 → 300",
+    "5:12 → 690",
+    "5:36 → 735",
+    "5:44 → 912",
+    "5:52 → 1.152",
+    "6:40 → 1.343",
+    "7:28 → 1.960",
+    "8:08 → 2.063",
+    "8:16 → 3.000",
+    "9:28 → 3.060",
+    "11:44 → 3.104",
+    "12:48 → 3.203",
+    "14:00 → 3.300",
+    "16:08 → 3.402",
+    "18:32 → 3.433",
+    "19:28 → 3.472"
+   ],
+   "cuando_si": "En cada plano donde se ve a alguien contando repeticiones; salta en las elipsis para enseñar cuánto se ha quitado (735 → 1.152 en 16 s; 2.063 → 3.000 en 8 s).",
+   "cuando_no": "Nunca a la vez que una cartela, la lista, los corazones o el patrocinio. Sí convive con subtítulos y con la píldora de regla."
+  },
+  {
+   "tipo": "marcador de vidas «RULES BROKEN»",
+   "que_es": "Texto blanco con sombra y debajo 3 corazones de 8 bits con borde negro: rojo = regla que aún puede romper, gris = regla rota.",
+   "entrada_salida": "Entra por fundido corto (11:00.6) o con el corte; el corazón pasa de rojo a gris de golpe, en 1 f; sale con el corte.",
+   "curva": "ninguna",
+   "posicion": "abajo a la izquierda: x ≈ 20–480 px, y ≈ 890–1050 px",
+   "tamano": "≈ 24 % × 15 %",
+   "color": "blanco; corazones rojo puro y gris",
+   "fuente": "Una sola familia geométrica ultranegra para todo (aspecto Gotham Black / Montserrat ExtraBold–Black).",
+   "sonido": "tono corto de videojuego al perder el corazón, sobre silencio de música: 7:09.9–7:10.5 y 11:02.8 (confirmados). En 4:36.3 hay un tono parecido sin confirmar.",
+   "disparador": "La voz en off dice que ha roto una regla («I think I broke my third rule», 11:02).",
+   "por_minuto": "3 apariciones en 21 min",
+   "total": 3,
+   "duracion_f": "≈ 90–120 f (3–4 s)",
+   "ejemplos": [
+    "4:36.4–4:38: 2 rojos + 1 gris",
+    "7:08–7:12: pasa de 2 rojos a 1 en 7:10.5",
+    "11:00.6–11:03.5: pasa de 1 rojo a 0 en 11:02.5"
+   ],
+   "cuando_si": "Una vez por regla nueva rota (3 de 3).",
+   "cuando_no": "No cuando se repite una regla ya rota: ahí va solo la píldora."
+  },
+  {
+   "tipo": "píldora de regla rota",
+   "que_es": "Cápsula negra translúcida con resplandor: emoji a cada lado (anillo en la 4, pausa en la 6…), «RULE N» en amarillo arriba y el nombre de la regla en blanco abajo.",
+   "entrada_salida": "Entra deslizando desde la izquierda con desenfoque de movimiento en 5 f, sin rebote, 6 f después del corte (medido en 2:28.31–2:28.48, f4445–4450). Sale con el corte, sin animación; una vez sale con efecto de interferencia (8:34).",
+   "curva": "deslizamiento con frenada, 5 f",
+   "posicion": "abajo a la izquierda: x ≈ 30–560 px, y ≈ 910–1060 px",
+   "tamano": "≈ 28 % × 13 %",
+   "color": "«RULE N» amarillo #F8F000, nombre blanco, fondo negro ≈ 70 %",
+   "fuente": "Una sola familia geométrica ultranegra para todo (aspecto Gotham Black / Montserrat ExtraBold–Black). fuente_rotulo (#FFFFFF) sobre «NO JEWELRY»: Montserrat 800 +0,831 · Outfit 900 +0,772 · DM Sans 900 +0,730.",
+   "sonido": "muda: medido en la 4, la 5, la 6 y la 3 sin subida aislable; la de 13:54 cae además sobre un silencio de música.",
+   "disparador": "El momento exacto en que rompe la regla o en que Unc se la echa en cara.",
+   "por_minuto": "0,4/min (8 en 21 min)",
+   "total": 8,
+   "duracion_f": "de 60 a 250 f: 2:28.3–2:31.6 (3,4 s), 6:16.8–6:25.2 (8,4 s), 6:40.8–6:44.7 (3,9 s), ≈ 7:14.3–7:16 (1,7 s), 8:32–8:34, 10:40–10:43, 13:54–13:56.4, 15:04–15:06",
+   "ejemplos": [
+    "2:28.3 RULE 4 NO JEWELRY",
+    "6:16.8 RULE 5 DON'T TALK BACK",
+    "6:40.8 RULE 6 NO PAUSING MID-SET",
+    "7:14.3 RULE 3 NO DRINKING WATER",
+    "8:32 RULE 6",
+    "10:40 RULE 2 DON'T CUT SETS SHORT",
+    "13:54 RULE 2",
+    "15:04 RULE 6"
+   ],
+   "cuando_si": "Cada vez que se rompe una regla, también las repetidas (la 6 sale 3 veces y la 2, dos).",
+   "cuando_no": "No en la explicación de las reglas (ahí van en grande) ni en la intro."
+  },
+  {
+   "tipo": "lista de objetivos «Diamond Gym Goals»",
+   "que_es": "Tarjeta blanca redondeada con aspecto de nota de móvil: título gris oscuro con emoji y 3 líneas con círculo y emoji («Survive the entrance fee», «Don't break more than 3 different rules», «Win the approval of Unc»).",
+   "entrada_salida": "Sube desde abajo con desenfoque vertical en 7 f (2:56.47–2:56.70, f5289–5296), se pasa ≈ 8 px y asienta 3 f después. Cruza cortes. En 4:34–4:37 no es una tarjeta plana: flota en la calle con seguimiento de cámara en 3D y sombra en el asfalto.",
+   "curva": "entrada con frenada y rebote mínimo",
+   "posicion": "abajo a la izquierda (2:56.6 y 19:56), arriba a la izquierda (11:03.5), en el centro del plano con perspectiva (4:34)",
+   "tamano": "≈ 34 % × 32 %",
+   "color": "blanco; marca amarilla = cumplido, cruz roja = fallado",
+   "fuente": "sans redondeada de interfaz (aspecto SF/Poppins seminegra), distinta de la del resto; no medida",
+   "sonido": "entrada muda. La cruz roja lleva zumbador de error en 11:06.2 (confirmado, pico −7,7 dBFS, cola de 1,2 s).",
+   "disparador": "Cuando un objetivo se enuncia, se cumple o se falla.",
+   "por_minuto": "4 apariciones",
+   "total": 4,
+   "duracion_f": "3–6 s",
+   "ejemplos": [
+    "2:56.6–≈3:02: los tres vacíos",
+    "4:34–4:37: el 1.º marcado en amarillo, flotando en la calle",
+    "11:03.5–11:08.2: cruz roja en el 2.º en 11:05.9",
+    "19:56–20:02: destello blanco de la tarjeta en 19:58 y los tres resueltos"
+   ],
+   "cuando_si": "Uno por hito del reto: planteamiento, primer logro, primer fallo, desenlace.",
+   "cuando_no": "No se deja fija en pantalla: 4 apariciones cortas en 21 min."
+  },
+  {
+   "tipo": "adelanto «COMING UP:» y recuerdo «EARLIER...»",
+   "que_es": "Tratamiento de plano + etiqueta fija arriba a la izquierda. Adelanto: viñeta negra fuerte y etiqueta blanca. Recuerdo: imagen más oscura y desaturada y etiqueta amarilla.",
+   "entrada_salida": "Por corte, sin animación. En los recuerdos la música se corta al entrar (6:50.80: −4 dB y casi silencio) y la vuelta lleva golpe (6:52.45, confirmado).",
+   "curva": "ninguna",
+   "posicion": "etiqueta en x 55–605 px, y 60–135 px",
+   "tamano": "letra ≈ 7 % del alto",
+   "color": "blanco (adelanto) / amarillo (recuerdo), sombra negra dura abajo a la derecha",
+   "fuente": "Una sola familia geométrica ultranegra para todo (aspecto Gotham Black / Montserrat ExtraBold–Black). fuente_rotulo (#FFFFFF) sobre «COMING UP:»: Outfit 900 +0,719 · Montserrat 800 +0,712 · Archivo 800 +0,700.",
+   "sonido": "adelanto: mudo (−1,4 dB medido). Recuerdo: silencio dentro y golpe al volver.",
+   "disparador": "Adelanto: la voz en off nombra algo que pasará. Recuerdo: alguien incumple algo que ya se explicó o se cuenta lo que pasó antes.",
+   "por_minuto": "8 bloques en 21 min (5 adelantos, 3 recuerdos)",
+   "total": 8,
+   "duracion_f": "adelantos 1,6–4,5 s (1–3 planos); recuerdos 1,6–6,6 s",
+   "ejemplos": [
+    "COMING UP 0:50.25–0:54.25 (3 planos)",
+    "COMING UP 1:37.76–1:42.27 (2 planos)",
+    "COMING UP 1:44.61–1:47.81 (2 planos)",
+    "COMING UP 4:16–4:19",
+    "COMING UP ≈ 5:28–5:30",
+    "EARLIER 2:09.2–2:15.8 (las cadenas)",
+    "EARLIER 6:50.8–6:52.4 (la regla 6, con el texto grande)",
+    "EARLIER 9:50–9:52.2 (dentro del patrocinio)"
+   ],
+   "cuando_si": "3 de los 5 adelantos van en la intro; los otros 2, antes de empezar un bloque de ejercicio.",
+   "cuando_no": "Ningún adelanto después del minuto 5:30."
+  },
+  {
+   "tipo": "tarjetas de perfil de Instagram",
+   "que_es": "Píldora blanca con foto de perfil con anillo degradado, usuario verificado y tres cifras (publicaciones, seguidores, seguidos) encima de la cabeza de cada personaje.",
+   "entrada_salida": "Puestas desde el primer fotograma del plano; salen por corte.",
+   "curva": "ninguna",
+   "posicion": "sobre cada cabeza, y ≈ 85–185 px",
+   "tamano": "≈ 340 × 100 px (18 % × 9 %)",
+   "color": "blanco con texto negro",
+   "fuente": "la de la interfaz de Instagram",
+   "sonido": "ninguno confirmado",
+   "disparador": "La voz en off presenta a los dos a la vez.",
+   "por_minuto": "1 vez",
+   "total": 1,
+   "duracion_f": 151,
+   "ejemplos": [
+    "0:45.21–0:50.25: 1,4 M de seguidores sobre Haddy y 580 K sobre Unc"
+   ],
+   "cuando_si": "Para dar peso a un personaje con un dato real, una sola vez.",
+   "cuando_no": "No se repite."
+  },
+  {
+   "tipo": "maqueta de página de YouTube",
+   "que_es": "Un vídeo ajeno o propio anterior enseñado dentro de la página de YouTube (reproductor, título y canal debajo), como cita.",
+   "entrada_salida": "Por corte; en 0:18.02 el vídeo encoge de pantalla completa a su sitio en la página (−8 %/s).",
+   "curva": "lineal",
+   "posicion": "pantalla completa",
+   "tamano": "100 %",
+   "color": "blanco de la interfaz",
+   "fuente": "la de la interfaz",
+   "sonido": "ninguno; la de 20:38.5 entra tras 2 s de negro y silencio",
+   "disparador": "La voz cita a otra persona u otro vídeo.",
+   "por_minuto": "3 veces",
+   "total": 3,
+   "duracion_f": "60–120 f",
+   "ejemplos": [
+    "0:18.02–0:20.15 vídeo de reacción",
+    "2:31.8–2:33.8 otro creador rompiendo la misma regla",
+    "20:38.5–20:42.5 dos vídeos anteriores del canal"
+   ],
+   "cuando_si": "Para citar la fuente sin salir del montaje.",
+   "cuando_no": "—"
+  },
+  {
+   "tipo": "meme pegado sobre el plano",
+   "que_es": "Dos casos: fórmulas matemáticas blancas flotando alrededor de Unc mientras calcula el castigo, y la cabeza de Jimmy Neutron (recorte 3D) tapando la de Jesse cuando no le sale una palabra.",
+   "entrada_salida": "Fórmulas: con el corte a más cerca de 11:08.3. Cabeza: fundido de ≈ 6 f (13:05.6–13:05.8), sigue la cabeza y sale con el corte (≈ 13:08).",
+   "curva": "fundido corto",
+   "posicion": "sobre el sujeto",
+   "tamano": "cabeza ≈ 35 % del alto",
+   "color": "—",
+   "fuente": "—",
+   "sonido": "sin efecto confirmado en ninguno de los dos (en 13:06.35 hay un tono muy bajo, −22 dB respecto a la voz: a dudas)",
+   "disparador": "La acción: Unc piensa; Jesse dice «disassociated».",
+   "por_minuto": "2 en 21 min",
+   "total": 2,
+   "duracion_f": "≈ 110 f (11:08.3–11:12.0) y ≈ 70 f (13:05.6–13:08)",
+   "ejemplos": [
+    "11:08.3–11:12.0 fórmulas + «*UNC DOES QUICK MATHS*»",
+    "13:05.6–13:08 cabeza de Jimmy Neutron"
+   ],
+   "cuando_si": "Solo dos veces, y las dos sobre una pausa real de la persona.",
+   "cuando_no": "No hay imágenes de reacción a pantalla completa, ni vídeos de memes insertados, ni emojis sueltos."
+  },
+  {
+   "tipo": "gráficos del patrocinio",
+   "que_es": "Logotipo que se escribe en mitad del cuadro (9:36–9:39), móvil en 3D con la aplicación sobre el plano oscurecido (9:40–9:48), tres móviles (9:52–9:55), un móvil (9:56–9:58), logotipo abajo a la izquierda (10:04–10:06) y tres líneas de llamada a la acción con el código en amarillo y más grande (10:08–10:13).",
+   "entrada_salida": "Logotipo por trazo; móviles con giro 3D y salida con desenfoque; barrido horizontal con desenfoque de ≈ 5 f en 9:52.3–9:52.5.",
+   "curva": "con frenada",
+   "posicion": "centro; logotipo final abajo a la izquierda",
+   "tamano": "móvil ≈ 70 % del alto",
+   "color": "blanco; código en amarillo",
+   "fuente": "Una sola familia geométrica ultranegra para todo (aspecto Gotham Black / Montserrat ExtraBold–Black).",
+   "sonido": "soplido confirmado en el barrido (9:52.4, +13,9 dB, pico −9,4 dBFS); el resto, sin efecto aislable",
+   "disparador": "Frase puente desde el contenido: «Almost like how Macrofactor helps you complete your health and fitness goals» (9:36).",
+   "por_minuto": "un bloque de 38 s",
+   "total": 1,
+   "duracion_f": 1139,
+   "ejemplos": [
+    "9:36–10:14"
+   ],
+   "cuando_si": "A mitad de vídeo (45 % de la duración), después de un chiste y antes del bloque más fuerte (minuto 11).",
+   "cuando_no": "El contador y los subtítulos se quitan durante el bloque; dentro va un recuerdo EARLIER de 2,2 s para no perder el hilo."
+  },
+  {
+   "tipo": "botón de suscribir animado y contador del canal",
+   "que_es": "Tarjeta oscura con nombre del canal, lema y botón rojo «Subscribe» que pasa a «Subscribed» con campana; después, pantalla oscura con el contador de suscriptores subiendo (8,5 M → 8,75 M) y foto con un seguidor rotulada «SUBSCRIBER» con flecha.",
+   "entrada_salida": "El botón entra deslizando desde abajo en ≈ 10 f (16:50.0–16:50.3) y sale igual.",
+   "curva": "con frenada",
+   "posicion": "abajo al centro",
+   "tamano": "≈ 30 % del ancho",
+   "color": "tarjeta oscura, botón rojo",
+   "fuente": "la de la interfaz",
+   "sonido": "dos clics agudos en 16:50.8 y 16:50.9 (confirmados) y clic seco aislado en 17:12.15 sobre silencio (confirmado, pico −12,8 dBFS)",
+   "disparador": "Frase puente: «I'm pushing, I'm relentless, and you're subscribing. And speaking of subscribing…» (16:49).",
+   "por_minuto": "2 apariciones del botón",
+   "total": 2,
+   "duracion_f": "≈ 60 f cada una (16:50–16:52 y 17:10–17:12.3)",
+   "ejemplos": [
+    "16:50.0–16:52",
+    "16:58–17:02 contador del canal",
+    "17:03–17:05 foto con «SUBSCRIBER»",
+    "17:10–17:12.3 botón con clic en 17:12.15"
+   ],
+   "cuando_si": "Una vez, en el 79 % del vídeo, con un motivo concreto (por cada 250.000 suscriptores invita a uno a entrenar).",
+   "cuando_no": "Ningún otro texto a la vez que el botón; el contador TOTAL REPS no está."
+  }
+ ],
+ "cortes": {
+  "total_cortes_json": 447,
+  "cortes_por_minuto_cortes_json": 21.0,
+  "total_estimado": "575 ± 30",
+  "cortes_por_minuto_estimado": 27.0,
+  "nota_correccion": "Contado a ojo en hojas a 0,1 s en 3 minutos enteros: 2:00–3:00 ≈ 25 frente a 17 detectados (×1,47), 6:00–7:00 26 frente a 22 (×1,18), 11:00–12:00 ≈ 29 frente a 23 (×1,28); suma 80/62 = ×1,29 → 447 × 1,29 ≈ 577. Otra vía: 99 grupos de candidatos débiles (puntuación 3–10) fuera de los cortes → 546. En 18:40–19:00, 8 a ojo frente a 6. Lo que el detector NO ve aquí no son saltos al mismo encuadre (casi no hay: no es un busto hablando) sino: barridos de cámara usados como transición, fundidos encadenados de 8–10 f dentro de los montajes de repeticiones, cortes a un primer plano oscuro del mismo color y cortes debajo de una tarjeta gráfica.",
+  "global": {
+   "planos": 448,
+   "media_s": 2.85,
+   "mediana_s": 2.17,
+   "p10_s": 1.07,
+   "p90_s": 5.44,
+   "max_s": 20.02,
+   "max_donde": "2:52.3–3:12.3 (burpees; por dentro lleva 2 fundidos y 2 cortes bajo la lista)",
+   "menos_de_1s_pct": 8,
+   "mas_de_5s_pct": 12
+  },
+  "global_estimado": {
+   "media_s": 2.22,
+   "nota": "1276,7 s / 575"
+  },
+  "por_parte": [
+   {
+    "parte": "gancho 0:00–0:11.3",
+    "planos": 1,
+    "media_s": 11.3,
+    "mediana_s": 11.3,
+    "menos_de_1s_pct": 0
+   },
+   {
+    "parte": "ráfaga 0:11.3–0:31.5",
+    "planos": 19,
+    "media_s": 1.06,
+    "mediana_s": 0.7,
+    "menos_de_1s_pct": 68
+   },
+   {
+    "parte": "intro entera 0:00–1:47.8",
+    "planos": 59,
+    "media_s": 1.83,
+    "mediana_s": 1.47,
+    "menos_de_1s_pct": 32
+   },
+   {
+    "parte": "presentación y cuota 1:47.8–3:59",
+    "planos": 40,
+    "media_s": 3.3,
+    "mediana_s": 2.4,
+    "menos_de_1s_pct": 2
+   },
+   {
+    "parte": "reglas y carrera 3:59–4:55",
+    "planos": 18,
+    "media_s": 3.09,
+    "mediana_s": 1.72,
+    "menos_de_1s_pct": 11
+   },
+   {
+    "parte": "polea 4:55–7:48",
+    "planos": 53,
+    "media_s": 3.26,
+    "mediana_s": 2.44,
+    "menos_de_1s_pct": 4
+   },
+   {
+    "parte": "banca 65 lb 7:48–9:36",
+    "planos": 32,
+    "media_s": 3.49,
+    "mediana_s": 2.94,
+    "menos_de_1s_pct": 3
+   },
+   {
+    "parte": "patrocinio 9:36–10:14",
+    "planos": 9,
+    "media_s": 3.89,
+    "mediana_s": 4.17,
+    "menos_de_1s_pct": 0
+   },
+   {
+    "parte": "banca 135–225 lb y castigos 10:14–16:00",
+    "planos": 144,
+    "media_s": 2.4,
+    "mediana_s": 2.09,
+    "menos_de_1s_pct": 8
+   },
+   {
+    "parte": "315–365 lb y suscripción 16:00–18:21",
+    "planos": 42,
+    "media_s": 3.39,
+    "mediana_s": 2.35,
+    "menos_de_1s_pct": 2
+   },
+   {
+    "parte": "serie final y cierre 18:21–21:03",
+    "planos": 50,
+    "media_s": 3.21,
+    "mediana_s": 2.62,
+    "menos_de_1s_pct": 2
+   }
+  ],
+  "por_minuto": [
+   33,
+   31,
+   17,
+   18,
+   20,
+   15,
+   22,
+   19,
+   16,
+   15,
+   22,
+   23,
+   25,
+   26,
+   26,
+   26,
+   19,
+   16,
+   19,
+   20,
+   18,
+   1
+  ],
+  "por_minuto_estimado": [
+   43,
+   40,
+   22,
+   23,
+   26,
+   19,
+   28,
+   25,
+   21,
+   19,
+   28,
+   30,
+   32,
+   34,
+   34,
+   34,
+   25,
+   21,
+   25,
+   26,
+   23,
+   1
+  ],
+  "por_minuto_nota": "El ritmo no decae hacia el final: los minutos 12–15 (25–26 cortes detectados) son más rápidos que los 2–9 (15–22). El más lento es el del patrocinio.",
+  "rafagas": {
+   "total": 2,
+   "donde": [
+    "0:14.31–0:16.08: 6 cortes, planos de 9–10 f, cada corte en un acento de la música",
+    "0:27.93–0:28.83: 4 cortes, planos de 8–10 f"
+   ],
+   "nota": "Solo en la intro. cortes_rafagas.json no encuentra ninguna ráfaga de estrobo y da los mismos 447 cortes. En el cuerpo no hay ninguna."
+  },
+  "jump_cuts_al_hablar": "Prácticamente ninguno: el creador casi no habla a cámara (37,6–39,8 s; 1:23.45–1:25.0; 4:48–4:54; inserto de estudio 16:53.7–17:13.8). La narración va en voz en off sobre planos de acción.",
+  "j_l_cuts": "La voz en off cabalga sobre todos los cortes. Los subtítulos del directo cruzan cortes (p. ej. «GIVE THAT CAMERA TO THE STREAMER» 2:40.3–2:43.1 cruza uno): la frase de Unc sigue sonando sobre la reacción de Jesse.",
+  "match_cuts": "Series a varios ángulos: la banca de 11:43–11:57 son 9 planos en 14 s alternando 4 posiciones de cámara (frontal bajo, lateral, cenital sobre la cara, general) sin perder la repetición.",
+  "insertos_cortos": "9 planos de menos de 0,5 s y 16 de menos de 0,7 s en todo el vídeo; casi todos en la ráfaga. En el cuerpo, insertos de detalle de 1–1,5 s (las placas de la polea 6:39.4–6:40.9 y 6:42.2–6:43.3; Unc mirando 19:15.2–19:17.1).",
+  "planos_largos": "11 planos de más de 10 s, todos de repeticiones con contador o la pantalla final: 0:00 (11,3), 2:52.3 (20,0), 3:37.3 (10,9), 3:59.7 (10,4), 5:12.0 (14,7), 6:11.3 (10,5), 7:22.5 (14,9), 8:44.3 (12,6), 16:26.4 (14,7), 19:03.7 (11,5), 21:03.7 (13,0).",
+  "velocidad": "Sin cámara lenta ni rápida detectadas. La elipsis se hace con fundidos encadenados y con el salto del contador.",
+  "cortes_a_ritmo_de_musica": "Poco: 86 de 447 cortes caen en un acento (19 %) y 0,39 de los cortes en música caen en pulso. Solo se monta a ritmo en las dos micro-ráfagas de la intro (0:14.85, 0:15.15, 0:15.45, 0:15.75, 0:16.08 caen todos en acento). En el cuerpo manda la acción y la frase."
+ },
+ "zooms": [
+  {
+   "tipo": "golpe de zoom con frenada y meseta (dentro del plano)",
+   "medido": "medir_zoom.py a paso de 0,1 s en los 95 planos de más de 1,3 s de 5 tramos (1:47–3:00, 7:00–8:00, 12:00–13:00, 14:00–15:00, 18:00–19:00 = 5,2 min; detalle/zoom_muestra.json) y dos de ellos a fotograma (detalle/z03_snaps.jpg)",
+   "escala_inicial_final": "×1,00 → ×1,18 / 1,20 / 1,22 / 1,29 / 1,37 / 1,52 / 1,65 (7 claros; mediana ×1,29; rango 1,18–1,65)",
+   "duracion_f": "rampa de 6–15 f (7 f en 14:28.83–14:29.03; 13 f en 7:42.86–7:43.30; 24 f en 14:50.7–14:51.5); meseta quieta de 1–2 s; sale por corte",
+   "curva": "arranque brusco y frenada (los últimos fotogramas avanzan menos): curva medida 1,00 · 1,05 · 1,17 · 1,34 · 1,51 · 1,64 · 1,65",
+   "centro": "la cara que responde o reacciona; el subtítulo no se escala",
+   "disparador": "El cambio de quién habla dentro del plano o la frase de remate: en 7:42.86 el zoom aterriza justo cuando el subtítulo pasa de «THE FRICK WAS THAT?» (amarillo, Haddy) a «SEEING IF I CAN GET SOME LIQUIDS» (blanco, Jesse); 12:10.0 «You want to give me 50 burpees»; 14:21.6 «(do you like the) hat?»; 14:28.83 silencio y mirada a cámara. 3 de los 7 caen sobre una reacción sin palabras (7:46.1, 12:46.8, 14:50.7).",
+   "extras": "sin sacudida ni destello; en 14:28.83 va con 5 s de silencio y el golpe de música 0,9 s después",
+   "por_minuto": 1.3,
+   "por_minuto_nota": "7 claros en 5,2 min de muestra → ≈ 30 ± 10 en el vídeo (extrapolado). Otros 2 dudosos (18:33.8, ×1,18 y vuelta a ×1,0 en 1,3 s; 18:44.8, ×1,22 dentro de un plano con barrido) pueden ser movimiento de cámara y no se cuentan.",
+   "por_tramos": "0 en 1:47–3:00; 2 en el minuto 7; 2 en el 12; 3 en el 14; 0 claros en el 18",
+   "total": "≈ 30 (estimado)",
+   "ejemplos": [
+    "7:42.86 ×1,65 en 13 f, meseta 2,0 s",
+    "7:46.1 ×1,18 en 12 f",
+    "12:10.0 ×1,22 en 6 f",
+    "12:46.8 ×1,20 en 9 f",
+    "14:21.6 ×1,29 en 12 f y segundo escalón a ×1,39",
+    "14:28.83 ×1,37 en 7 f, meseta 1,1 s",
+    "14:50.7 ×1,52 en 24 f tras 1,5 s quieto, meseta 1,4 s"
+   ]
+  },
+  {
+   "tipo": "empuje que acaba en el corte",
+   "medido": "medir_zoom.py, misma muestra",
+   "escala_inicial_final": "×0,96 → ×1,69 en 0,7 s (14:18.8–14:19.4); ×1,00 → ×1,44 en 1,5 s (18:37.9–18:39.4); → ×1,20 (18:57.6–18:58.1)",
+   "duracion_f": "20–45 f, los últimos del plano",
+   "curva": "acelerada, sin meseta: el corte llega en el punto de máxima velocidad",
+   "centro": "la cara",
+   "disparador": "La última palabra de la frase antes de cambiar de persona",
+   "extras": "en la intro, la misma idea rematada con destello blanco: Haddy 0:31.6–0:33.45, ×0,91 → ×1,57 en 39 f",
+   "por_minuto": 0.6,
+   "por_minuto_nota": "3 en 5,2 min de muestra",
+   "por_tramos": "—",
+   "total": "≈ 12 (estimado)",
+   "ejemplos": [
+    "0:31.6–0:33.45 (curva 0,91 · 0,93 · 0,96 · 0,99 · 1,03 · 1,08 · 1,13 · 1,20 · 1,28 · 1,42 · 1,57)",
+    "14:18.8–14:19.4",
+    "18:37.9–18:39.4"
+   ]
+  },
+  {
+   "tipo": "empuje lento lineal sobre plano de recurso con voz en off",
+   "medido": "medir_zoom.py",
+   "escala_inicial_final": "×1,00 → ×1,34 en 2,7 s (2:06.4–2:09.1: +12,5 %/s, lineal exacto: 1,00 · 1,01 · 1,03 · 1,04 · 1,06…); ×1,00 → ×1,33 con frenada (2:28.2–2:31.6, el plano de la píldora RULE 4); ×1,00 → ×1,31 (2:34.0–2:36.2); ×1,00 → ×1,23 (14:42.8–14:44.2); → ×1,28 (18:52–18:54)",
+   "duracion_f": "40–100 f, todo el plano",
+   "curva": "lineal o con frenada suave",
+   "centro": "el sujeto del plano",
+   "disparador": "Empieza una frase de voz en off sobre un plano que si no estaría quieto («Okay, so as expected…» 2:06.4; «Okay, so apparently the rumors are true» 2:28.2)",
+   "extras": "ninguno",
+   "por_minuto": 1.0,
+   "por_minuto_nota": "5 en 5,2 min",
+   "por_tramos": "—",
+   "total": "≈ 20 (estimado)",
+   "ejemplos": [
+    "2:06.4–2:09.1 +12,5 %/s",
+    "0:20.25–0:21.3 calcetín +36 %/s",
+    "0:45.3–0:50.2 tarjetas de Instagram +1,2 %/s",
+    "18:41.5–18:44 «Or so I thought» +0,8 %/s",
+    "2:16.0–2:18.3 la cadena ×0,87 → ×1,18"
+   ]
+  },
+  {
+   "tipo": "asentamiento tras destello o golpe (entra ampliado y vuelve a ×1)",
+   "medido": "medir_zoom.py",
+   "escala_inicial_final": "×1,53 → ×1,00 en 15 f (0:26.03–0:26.50, Unc tras el destello blanco); ×1,13 → ×1,00 en 9 f (2:38.3–2:38.6, *SHOOK*)",
+   "duracion_f": "9–15 f al principio del plano",
+   "curva": "frenada fuerte y quieto",
+   "centro": "el sujeto",
+   "disparador": "El corte de entrada a un personaje o a una reacción",
+   "extras": "va con golpe de sonido (0:25.66; 2:38.05)",
+   "por_minuto": "no extrapolable (2 medidos)",
+   "por_minuto_nota": "—",
+   "por_tramos": "—",
+   "total": "2 medidos",
+   "ejemplos": [
+    "0:26.03",
+    "2:38.3"
+   ]
+  },
+  {
+   "tipo": "corte a más cerca en la reacción (salto de escala por corte)",
+   "medido": "visto en hojas a 0,1 s; escala no medida",
+   "escala_inicial_final": "no medida",
+   "duracion_f": "planos de 1–2,5 s",
+   "curva": "ninguna (corte)",
+   "centro": "la cara",
+   "disparador": "La reacción a la frase del otro",
+   "extras": "puede ser otra cámara y no un recorte: sin comprobar",
+   "por_minuto": "no medido",
+   "por_minuto_nota": "—",
+   "por_tramos": "—",
+   "total": "7 vistos",
+   "ejemplos": [
+    "1:22.50",
+    "2:18.4",
+    "2:36.3 («200 BURPEES STRAIGHT»)",
+    "6:00.2",
+    "6:03.6",
+    "11:08.3",
+    "17:13.8"
+   ]
+  },
+  {
+   "tipo": "zoom hacia fuera sobre material ajeno",
+   "medido": "medir_zoom.py",
+   "escala_inicial_final": "×1,00 → ×0,85 en 2,0 s (−8 %/s)",
+   "duracion_f": 60,
+   "curva": "lineal",
+   "centro": "centro del cuadro",
+   "disparador": "Enseñar que el clip es de otro canal",
+   "extras": "deja ver la página de YouTube",
+   "por_minuto": "1 vez",
+   "por_minuto_nota": "—",
+   "por_tramos": "—",
+   "total": 1,
+   "ejemplos": [
+    "0:18.1–0:20.1"
+   ]
+  }
+ ],
+ "zooms_resumen": "En la muestra de 95 planos: 16 con zoom de edición claro (17 %: 7 golpes, 3 empujes al corte, 5 lineales, 1 asentamiento) y solo 7 fijos de trípode; el resto se mueve porque la cámara va en mano (derivas de ±3–10 % que NO son zoom). ≈ 3 zooms de edición por minuto, concentrados en diálogos y reacciones; en los montajes de repeticiones no hay ninguno.",
+ "textos": [
+  {
+   "tipo": "rótulo de nombre con flecha",
+   "texto_ejemplos": [
+    "HADDY",
+    "UNC",
+    "CAMERAMAN",
+    "SUBSCRIBER"
+   ],
+   "fuente": "Una sola familia geométrica ultranegra para todo (aspecto Gotham Black / Montserrat ExtraBold–Black). fuente_rotulo sobre «HADDY» (#FFFFFF): Roboto 700 +0,496 · Bricolage Grotesque 800 +0,479 · DM Sans 900 +0,476 (no fiable: el borde grueso confunde); sobre «CAMERAMAN»: IBM Plex Mono +0,216 (no fiable).",
+   "peso": "ultranegra",
+   "mayusculas": true,
+   "color": "blanco; flecha amarilla con borde negro",
+   "borde_sombra_caja": "borde negro grueso + sombra dura; sin caja",
+   "tamano": "letra ≈ 12 % del alto (HADDY: 130 px); «SUBSCRIBER» pequeño, ≈ 3 %",
+   "posicion": "junto a la cabeza, con seguimiento",
+   "entrada": "con el corte o dentro del destello blanco; sin animar",
+   "salida": "con el corte",
+   "duracion": "HADDY 121 f y 66 f; CAMERAMAN 72 f (2:43.2–2:45.6)",
+   "por_minuto": 0.2,
+   "total": 5,
+   "disparador": "La primera vez que se nombra a la persona",
+   "sonido": "HADDY: golpe del destello (0:33.56). UNC: colchón grave sostenido de más de 1,8 s tras silencio (1:55.25). CAMERAMAN: mudo, sobre silencio de música (−41 dB).",
+   "ejemplos_con_tiempo": [
+    "0:33.56–0:37.60 HADDY",
+    "0:43.01–0:45.21 HADDY",
+    "1:55.25 UNC",
+    "2:43.2–2:45.6 CAMERAMAN",
+    "17:03–17:05 SUBSCRIBER"
+   ],
+   "recorte": "rotulos/haddy.png, rotulos/cameraman.png, rotulos/unc_flecha_full.png"
+  },
+  {
+   "tipo": "cartela de objetivo",
+   "texto_ejemplos": [
+    "GOAL 1 / TO SURVIVE THE ENTRANCE FEE",
+    "GOAL 2 / TRY NOT TO BREAK MORE THAN 3 DIFFERENT RULES",
+    "GOAL 3 / WIN THE APPROVAL OF UNC"
+   ],
+   "fuente": "Una sola familia geométrica ultranegra para todo (aspecto Gotham Black / Montserrat ExtraBold–Black). fuente_rotulo (#FFFFFF) sobre «GOAL 1»: Montserrat 800 +0,805 · Inter 900 +0,765 · Unbounded 700 +0,671; sobre la línea: Rubik 700 +0,782 · Archivo 800 +0,740 · Montserrat 800 +0,738.",
+   "peso": "ultranegra",
+   "mayusculas": true,
+   "color": "blanco",
+   "borde_sombra_caja": "resplandor suave; sin borde ni caja; el plano de fondo oscurecido ≈ 60 %",
+   "tamano": "«GOAL N» ≈ 8 % del alto; línea ≈ 5,5 %",
+   "posicion": "centrado, y 42–60 %",
+   "entrada": "entera en el corte",
+   "salida": "por corte",
+   "duracion": "65, 95 y 70 f (2,2–3,2 s)",
+   "por_minuto": "3 en la intro",
+   "total": 3,
+   "disparador": "La voz en off dice «One…», «Two…», «And three…»",
+   "sonido": "la 1 muda; la 2 y la 3 con golpe (1:34.60 y 1:42.27)",
+   "ejemplos_con_tiempo": [
+    "1:25.03–1:27.19",
+    "1:34.60–1:37.76",
+    "1:42.27–1:44.61"
+   ],
+   "recorte": "rotulos/goal1_titulo.png, rotulos/goal1_linea.png"
+  },
+  {
+   "tipo": "regla en grande pegada al plano",
+   "texto_ejemplos": [
+    "RULE 1 / NO SITTING DOWN",
+    "RULE 2 / DON'T CUT YOUR SETS SHORT",
+    "RULE 4 / NO JEWELRY",
+    "RULE 5 / DON'T TALK BACK",
+    "RULE 6 / NO PAUSING MID-SET"
+   ],
+   "fuente": "Una sola familia geométrica ultranegra para todo (aspecto Gotham Black / Montserrat ExtraBold–Black). fuente_rotulo sobre «RULE 1» (#F8F008): Inter 900 +0,807 · Montserrat 800 +0,778 · Inter Tight 800 +0,765; sobre «NO SITTING DOWN» (#FFFFFF): Inter Tight 800 +0,623 · Figtree 800 +0,601 · Bricolage Grotesque 700 +0,556.",
+   "peso": "ultranegra",
+   "mayusculas": true,
+   "color": "«RULE N» amarillo #F8F000; nombre blanco",
+   "borde_sombra_caja": "sombra; sin caja",
+   "tamano": "letra ≈ 9–10 % del alto",
+   "posicion": "centro-abajo, inclinada y en perspectiva siguiendo el movimiento del plano",
+   "entrada": "fundido rápido de 4–6 f, 0,1 s después del corte",
+   "salida": "con el corte",
+   "duracion": "2–3,5 s cada una",
+   "por_minuto": "6 en 15 s",
+   "total": "6 (5 vistas + la 3, que se dice en 4:07 y no se vio en las hojas) + 1 repetida en el recuerdo de 6:50.8",
+   "disparador": "Unc enumera cada regla",
+   "sonido": "solo la primera: impacto con cola de 0,3 s tras silencio total (3:59.75, +31,9 dB, pico −7,4 dBFS). Las demás, mudas (medido en la 2).",
+   "ejemplos_con_tiempo": [
+    "3:59.9 RULE 1",
+    "4:03.6 RULE 2",
+    "4:12–4:14 RULE 6"
+   ],
+   "recorte": "rotulos/regla1_nombre.png, rotulos/regla1_num.png"
+  },
+  {
+   "tipo": "comentario del editor entre asteriscos",
+   "texto_ejemplos": [
+    "*SHOOK*",
+    "*UNC NOISES*",
+    "*DEHYDRATION*",
+    "*TAKES MY HAT*",
+    "*UNC DOES QUICK MATHS*",
+    "*HE'S ABOUT TO DIE*",
+    "*ANOTHER GUY TAKES MY HAT*",
+    "*EXCUSES*"
+   ],
+   "fuente": "Una sola familia geométrica ultranegra para todo (aspecto Gotham Black / Montserrat ExtraBold–Black). fuente_rotulo sobre «*SHOOK*» (#FFFFFF): Archivo 800 +0,780 · Montserrat 800 +0,704 · Lexend 600 +0,686.",
+   "peso": "ultranegra",
+   "mayusculas": true,
+   "color": "el del subtítulo de la persona a la que se refiere: blanco si es Jesse (*SHOOK*, *DEHYDRATION*, *EXCUSES*), amarillo si es otro (*UNC NOISES*, *UNC DOES QUICK MATHS*, *HE'S ABOUT TO DIE*, *ANOTHER GUY TAKES MY HAT*)",
+   "borde_sombra_caja": "igual que el subtítulo: sombra negra dura, sin caja",
+   "tamano": "igual que el subtítulo (3,5–4,2 % del alto)",
+   "posicion": "la del subtítulo: abajo al centro, y ≈ 93 %",
+   "entrada": "de golpe, con el corte al plano de reacción",
+   "salida": "de golpe",
+   "duracion": "0,8–3,7 s (*DEHYDRATION* 7:39.8–7:40.8; *UNC DOES QUICK MATHS* 11:08.3–11:12.0; *HE'S ABOUT TO DIE* 11:39.0–11:40.7)",
+   "por_minuto": 0.5,
+   "total": 10,
+   "disparador": "Un plano de reacción SIN frase: alguien hace algo o pone una cara y nadie habla. El asterisco pone la acotación.",
+   "sonido": "casi siempre sobre silencio de música. *SHOOK*: golpe seco y corte de música (2:38.05). El resto, sin efecto confirmado.",
+   "ejemplos_con_tiempo": [
+    "2:37.9–2:40.2 *SHOOK*",
+    "7:39.8 *DEHYDRATION*",
+    "8:20 *UNC NOISES*",
+    "9:04 y 9:08 *TAKES MY HAT*",
+    "11:08.3 *UNC DOES QUICK MATHS*",
+    "11:39.0 *HE'S ABOUT TO DIE*",
+    "12:08 *UNC NOISES*",
+    "14:30.2 *ANOTHER GUY TAKES MY HAT*",
+    "18:07.8 *EXCUSES*"
+   ],
+   "recorte": "rotulos/shook.png"
+  },
+  {
+   "tipo": "aviso legal",
+   "texto_ejemplos": [
+    "DISCLAIMER + 4 líneas"
+   ],
+   "fuente": "misma familia en peso menor; no medida",
+   "peso": "seminegra",
+   "mayusculas": true,
+   "color": "blanco al 70 % de opacidad",
+   "borde_sombra_caja": "sin borde ni caja",
+   "tamano": "letra ≈ 2 % del alto",
+   "posicion": "abajo al centro, y 77–90 %",
+   "entrada": "fundido de 10 f",
+   "salida": "fundido",
+   "duracion": "≈ 6,7 s (0:54.26–≈1:01)",
+   "por_minuto": "1 vez",
+   "total": 1,
+   "disparador": "Entrada al gimnasio",
+   "sonido": "ninguno",
+   "ejemplos_con_tiempo": [
+    "0:54.26"
+   ],
+   "recorte": "rotulos/disclaimer_full.png"
+  },
+  {
+   "tipo": "llamada a la acción del patrocinio",
+   "texto_ejemplos": [
+    "CLICK THE FIRST LINK IN THE DESCRIPTION! / USE CODE «JESSE» / FOR A 14 DAY FREE-TRIAL"
+   ],
+   "fuente": "Una sola familia geométrica ultranegra para todo (aspecto Gotham Black / Montserrat ExtraBold–Black).",
+   "peso": "ultranegra",
+   "mayusculas": true,
+   "color": "blanco; la línea del código en amarillo y más grande",
+   "borde_sombra_caja": "sombra dura",
+   "tamano": "línea del código ≈ 9 % del alto; las otras ≈ 5 %",
+   "posicion": "tres líneas centradas en la mitad inferior",
+   "entrada": "de golpe",
+   "salida": "con el corte",
+   "duracion": "≈ 5 s (10:08–10:13)",
+   "por_minuto": "1 vez",
+   "total": 1,
+   "disparador": "Última frase del patrocinio",
+   "sonido": "ninguno confirmado",
+   "ejemplos_con_tiempo": [
+    "10:08–10:13"
+   ],
+   "recorte": "—"
+  }
+ ],
+ "textos_resumen": "Textos que no son subtítulo: 5 rótulos de nombre, 3 cartelas, 6–7 reglas en grande, 8 píldoras, 8 etiquetas de adelanto/recuerdo, 10 asteriscos, 1 aviso y 1 llamada del patrocinio = unos 42 en 21,3 min (2/min). Ninguno se anima letra a letra ni rebota: entran enteros en un corte, por fundido de 4–10 f o deslizando 5–7 f. Dos colores en todo el vídeo: blanco y amarillo #F8F000. El texto nunca cuenta lo que ya dice la voz en off palabra por palabra: nombra (personas, reglas, objetivos) o acota (asteriscos).",
+ "subtitulos": {
+  "hay": true,
+  "cuando": "Solo para el sonido directo dentro del gimnasio (órdenes de Unc, frases de Haddy y los socios, respuestas de Jesse en escena). La voz en off no se subtitula nunca, ni el inserto de estudio, ni el patrocinio.",
+  "total_s": "≈ 240–255 s (≈ 19–20 % del vídeo). Censo automático de la franja inferior a 5 muestras/s (detalle/subs_censo.json): 193,8 s en amarillo y 30,2 s en blanco detectados; el blanco está contado por debajo (se pierden los que caen sobre fondo claro).",
+  "lineas": "≈ 175–190 (142 tramos amarillos y 25 blancos detectados, estos últimos con 6 falsos del patrocinio y al menos 5 no detectados). Siempre UNA línea; duración mediana 1,2 s (p10 0,6 s, p90 2,2 s).",
+  "por_minuto_lineas_detectadas": [
+   1,
+   10,
+   11,
+   9,
+   9,
+   1,
+   7,
+   12,
+   15,
+   16,
+   9,
+   10,
+   10,
+   9,
+   10,
+   9,
+   2,
+   1,
+   12,
+   2,
+   2,
+   0
+  ],
+  "por_minuto_segundos": [
+   2,
+   10,
+   17,
+   17,
+   10,
+   1,
+   13,
+   19,
+   19,
+   18,
+   15,
+   12,
+   12,
+   12,
+   15,
+   12,
+   5,
+   1,
+   11,
+   2,
+   2,
+   0
+  ],
+  "color_por_hablante": "AMARILLO #F8F000 = lo que dicen los demás (Unc, Haddy, socios): ≈ 80 % de las líneas. BLANCO = lo que dice Jesse en escena. Los comentarios del editor van *ENTRE ASTERISCOS* con el color de la persona a la que se refieren.",
+  "formato": "Mayúsculas, una línea, abajo al centro (centro en y ≈ 1008 px, 93 % del alto), altura de mayúscula 38–45 px (3,5–4,2 % del alto), sombra negra dura abajo a la derecha, sin caja ni borde. Una sola familia geométrica ultranegra para todo (aspecto Gotham Black / Montserrat ExtraBold–Black). fuente_rotulo sobre «HAVE YOUR OBITUARY READY» (#FFF200): Archivo 800 +0,716 · Work Sans 800 +0,694 · Archivo Black +0,682.",
+  "enfasis": "Ninguna palabra resaltada, ni cambio de tamaño, ni emoji, ni animación palabra a palabra. El énfasis lo dan la ortografía («GET UPP!», «UPPP,», «LET'S GOOO», «WHAT THE FRICK IS THIS?!») y las palabrotas suavizadas o censuradas con asteriscos («NOT EVEN NO BULLSH**T», «GET TF UP»).",
+  "entrada_salida": "De golpe, en 1 f, con la primera palabra de la frase; cambia de golpe a la siguiente. Puede cruzar cortes.",
+  "relacion_con_el_impacto": "En los minutos de diálogo hay 9–16 líneas por minuto; en los montajes de repeticiones (minuto 5, 16, 17) y en el clímax (19:08–19:39.6) no hay ninguna: quitar el subtítulo es la forma de subir la intensidad.",
+  "ejemplos_con_tiempo": [
+   "1:06.0–1:08.4 HAVE YOUR OBITUARY READY (amarillo)",
+   "2:16 WHAT THE FRICK IS THIS?! (amarillo)",
+   "2:34–2:37 BECAUSE JESSE DECIDED TO WEAR JEWELRY / 200 BURPEES STRAIGHT (amarillo)",
+   "3:15.2–3:18.6 I FEEL LIKE I'M GONNA PUKE (blanco)",
+   "6:44.8–6:46.3 OVERHAND 150? (blanco)",
+   "6:46.4–6:48.0 NICE TRY. NICE PAUSE TOO (amarillo)",
+   "7:42.0–7:43.0 THE FRICK WAS THAT? (amarillo)",
+   "7:43.2–7:45.2 SEEING IF I CAN GET SOME LIQUIDS (blanco)",
+   "11:16.4–11:18.9 YOU GONNA GO TO JAIL FOR THAT (amarillo)",
+   "18:54.2–18:56.2 AM I ALLOWED TO TAKE THE HOODIE OFF? (blanco)",
+   "18:56.4–18:57.6 YO MUD, HE CAN PEEL OFF? (amarillo)",
+   "18:57.8–18:58.0 NO (amarillo)"
+  ]
+ },
+ "sfx": {
+  "confirmados": [
+   {
+    "t": "0:11.30",
+    "tipo": "impacto",
+    "acompaña_a": "destello blanco que abre la ráfaga; entra a la vez la pista nueva (+5,3 dB)",
+    "respecto_voz_db": -0.7
+   },
+   {
+    "t": "0:24.5–0:25.66",
+    "tipo": "barrido ascendente + golpe",
+    "acompaña_a": "segundo destello blanco, entrada a Unc (pico −10,7 dBFS)",
+    "respecto_voz_db": -0.3
+   },
+   {
+    "t": "0:33.56",
+    "tipo": "soplido/golpe",
+    "acompaña_a": "tercer destello blanco con el rótulo HADDY ya puesto (pico −7,2 dBFS)",
+    "respecto_voz_db": 5.9
+   },
+   {
+    "t": "1:34.45",
+    "tipo": "golpe",
+    "acompaña_a": "cartela GOAL 2, tras 2 s de silencio; la música vuelve con él (pico −7,4 dBFS)",
+    "respecto_voz_db": 1.6
+   },
+   {
+    "t": "1:42.27",
+    "tipo": "golpe",
+    "acompaña_a": "cartela GOAL 3 (pico −8,3 dBFS)",
+    "respecto_voz_db": 1.2
+   },
+   {
+    "t": "1:47.70",
+    "tipo": "impacto",
+    "acompaña_a": "cambio de sección: fin de la intro, 0,1 s antes del corte (pico −9,3 dBFS)",
+    "respecto_voz_db": -2.1
+   },
+   {
+    "t": "1:55.25",
+    "tipo": "colchón grave sostenido (> 1,8 s)",
+    "acompaña_a": "rótulo UNC con flecha, tras silencio de −41 dB (+15,7 dB)",
+    "respecto_voz_db": -8.7
+   },
+   {
+    "t": "2:38.05",
+    "tipo": "golpe seco + corte de música",
+    "acompaña_a": "*SHOOK*: reacción de Jesse al castigo (pico −8,3 dBFS); después 4 s de silencio",
+    "respecto_voz_db": -4.9
+   },
+   {
+    "t": "3:59.75",
+    "tipo": "impacto con cola de 0,3 s",
+    "acompaña_a": "corte a la explicación de las reglas, tras silencio total de 3 s (+31,9 dB, pico −7,4 dBFS)",
+    "respecto_voz_db": 1.7
+   },
+   {
+    "t": "6:52.45",
+    "tipo": "golpe/soplido",
+    "acompaña_a": "vuelta del recuerdo EARLIER; la música vuelve con él (+27,3 dB, pico −7,6 dBFS)",
+    "respecto_voz_db": 2.5
+   },
+   {
+    "t": "7:09.9–7:10.5",
+    "tipo": "tono corto de videojuego",
+    "acompaña_a": "segundo corazón perdido en RULES BROKEN, sobre 1,3 s de silencio de música",
+    "respecto_voz_db": null
+   },
+   {
+    "t": "9:52.40",
+    "tipo": "soplido",
+    "acompaña_a": "barrido horizontal del recuerdo a los tres móviles del patrocinio (+13,9 dB, pico −9,4 dBFS; se apaga en 0,6 s)",
+    "respecto_voz_db": -3.4
+   },
+   {
+    "t": "11:02.80",
+    "tipo": "tono de videojuego (≈ 0,6 s)",
+    "acompaña_a": "tercer corazón perdido",
+    "respecto_voz_db": -10.7
+   },
+   {
+    "t": "11:06.20",
+    "tipo": "zumbador de error con cola de 1,2 s",
+    "acompaña_a": "cruz roja en el objetivo 2 de la lista (pico −7,7 dBFS)",
+    "respecto_voz_db": 2.3
+   },
+   {
+    "t": "14:29.90",
+    "tipo": "golpe musical que entra sobre silencio",
+    "acompaña_a": "mirada muda a cámara tras el zoom de golpe (+18,3 dB, pico −16,5 dBFS)",
+    "respecto_voz_db": -9.2
+   },
+   {
+    "t": "16:50.8 y 16:50.9",
+    "tipo": "dos clics agudos",
+    "acompaña_a": "botón Subscribe → Subscribed y campana",
+    "respecto_voz_db": null
+   },
+   {
+    "t": "17:12.15",
+    "tipo": "clic seco con cola corta",
+    "acompaña_a": "botón «Subscribed» al final del inserto de estudio, sobre 0,5 s de silencio (+10,1 dB, pico −12,8 dBFS)",
+    "respecto_voz_db": -5.0
+   },
+   {
+    "t": "18:44.15",
+    "tipo": "golpe + vuelve la música",
+    "acompaña_a": "corte tras «Or so I thought» y 2 s de silencio (la pista sin voz pasa de −42 dB a −15,8 dB)",
+    "respecto_voz_db": 3.2
+   }
+  ],
+  "como_se_confirmo": "Candidatos de sfx.json (212) mirados en las 8 hojas sfx_hoja_00–07.jpg y, para cada evento gráfico visto en imagen, espectrograma propio de la pista sin voz (−1,2/+1,8 s alrededor del evento) junto a 9 fotogramas a 0,1 s (detalle/e01_eventos.jpg … e05_eventos.jpg). Solo se da por confirmado lo que tiene firma clara (ataque vertical, barrido, rayas tonales sobre silencio) Y coincide con algo que se ve.",
+  "como_se_midio_el_nivel": "RMS de la pista sin voz en los 0,4 s posteriores al evento menos el nivel medio de la voz en ese tramo (−19 a −20 dB). Vacío (null) cuando el efecto no se puede separar de la música o del silencio de alrededor.",
+  "por_minuto": [
+   3,
+   4,
+   1,
+   1,
+   0,
+   0,
+   1,
+   1,
+   0,
+   1,
+   0,
+   2,
+   0,
+   0,
+   1,
+   0,
+   1,
+   1,
+   1,
+   0,
+   0,
+   0
+  ],
+  "total_confirmados": 18,
+  "por_minuto_media": 0.85,
+  "reglas": [
+   "El efecto principal es el SILENCIO seguido de golpe: 9 de los 18 entran después de 0,5–4 s de música cortada (1:34.45, 1:55.25, 3:59.75, 6:52.45, 7:10, 9:52.40, 14:29.90, 17:12.15, 18:44.15).",
+   "Golpe en cambio de bloque, no en cada gráfico: lo llevan los 3 destellos blancos, 2 de las 3 cartelas, el fin de la intro y la entrada a las reglas. Nivel: entre −2 y +2,5 dB respecto a la voz.",
+   "Los gráficos de juego suenan a videojuego y solo cuando hay consecuencia: corazón perdido (2 de 2 medidos) y cruz roja. Entrar, no suena: píldoras, lista y contador entran mudos.",
+   "La reacción cómica lleva un golpe seco y después nada (2:38.05) o nada y después un golpe musical (14:29.90). Nunca risas enlatadas ni efectos de dibujos confirmados.",
+   "El botón de suscribir es el único gráfico con clic literal.",
+   "6 de los 18 están en los primeros 108 s (intro): 3,3/min frente a 0,6/min en el resto."
+  ],
+  "candidatos_descartados": [
+   "#3 0:54.31: es el ambiente del gimnasio entrando con el corte, no un efecto.",
+   "#4–7 (1:03–1:15): risas y voz.",
+   "#66–69 (7:46–7:57) y #116–119 (12:00–12:01): notas de la música.",
+   "#97–103 (10:29–10:34), #105–108 (10:48.9–10:49.6), #113–114 (11:19.4–11:19.8): discos y ruido de sala.",
+   "#74–78 (8:41–8:49): música alta, nada separable.",
+   "Sin efecto al medirlo: cartela GOAL 1 (−4,3 dB), etiquetas COMING UP (−1,4 dB), texto RULE 2 (4:03.6), píldoras de las reglas 3, 4, 5 y 6, rótulo CAMERAMAN (silencio), entrada de la lista (2:56.6), maqueta de YouTube (2:31.8), móvil 3D (9:39.8), llamada del patrocinio (10:07.5).",
+   "El resto de los 212 candidatos son golpes de discos, gritos de la sala y pulsos de la música: en este vídeo sfx.json no vale sin mirar la imagen."
+  ]
+ },
+ "musica": {
+  "proporcion_audio_json": 0.82,
+  "proporcion_corregida": "≈ 0,80–0,85: la pista sin voz incluye el ambiente de la sala, que audio.json puede contar como música; los silencios reales de esa pista (por debajo de −45 dB) suman 100 s (7,8 %).",
+  "primera_musica_s": 0,
+  "tramos_total": 28,
+  "voz_db_media": -20.1,
+  "voz_menos_musica_db_mediana": 7.9,
+  "cambios_de_pista_detectados": "4 automáticos (5:14, 5:34, 7:22, 19:36); a oído por espectro hay además cambio en 0:11.30, 0:50.25 y en cada vuelta tras un silencio. El inserto de estudio (16:57–17:12) lleva una pista percusiva propia.",
+  "como_entra_y_sale": "Entra con golpe en el fotograma del corte tras un silencio (1:34.45, 3:59.75, 6:52.45, 18:44.15) o de golpe con el plano (14:13.9). Sale cortada en seco, sin fundido, justo antes de la frase que importa.",
+  "tramos_clave": [
+   {
+    "desde": "0:00",
+    "hasta": "1:11",
+    "nivel_db": -23.8,
+    "voz_menos_musica_db": 3.9,
+    "nota": "intro: la música más pegada a la voz de todo el vídeo"
+   },
+   {
+    "desde": "1:14",
+    "hasta": "1:51",
+    "nivel_db": -30.1,
+    "voz_menos_musica_db": 11.1,
+    "nota": "objetivos: baja 6 dB para que se entienda la explicación"
+   },
+   {
+    "desde": "2:44",
+    "hasta": "3:19",
+    "nivel_db": -23.4,
+    "voz_menos_musica_db": 0.6,
+    "nota": "200 burpees: música al nivel de la voz"
+   },
+   {
+    "desde": "3:29",
+    "hasta": "4:25",
+    "nivel_db": -28.2,
+    "voz_menos_musica_db": 9.1,
+    "nota": "100 más y reglas"
+   },
+   {
+    "desde": "5:01",
+    "hasta": "7:38",
+    "nivel_db": -26.2,
+    "voz_menos_musica_db": 5.3,
+    "nota": "polea; sin voz −27,3 dB"
+   },
+   {
+    "desde": "9:30",
+    "hasta": "10:16",
+    "nivel_db": -29.7,
+    "voz_menos_musica_db": 10.4,
+    "nota": "patrocinio; sin voz −19,6 dB"
+   },
+   {
+    "desde": "11:12",
+    "hasta": "11:58",
+    "nivel_db": -25.8,
+    "voz_menos_musica_db": 4.5,
+    "nota": "banca 135 lb y la barra volcada"
+   },
+   {
+    "desde": "12:07",
+    "hasta": "13:02",
+    "nivel_db": -29.8,
+    "voz_menos_musica_db": 10.7,
+    "nota": "castigos"
+   },
+   {
+    "desde": "13:36",
+    "hasta": "14:24",
+    "nivel_db": -26.5,
+    "voz_menos_musica_db": 4.1,
+    "nota": "banca 225 lb"
+   },
+   {
+    "desde": "15:47",
+    "hasta": "17:17",
+    "nivel_db": -22.7,
+    "voz_menos_musica_db": 2.4,
+    "nota": "315 lb y suscripción: el tramo más alto; sin voz −20,9 dB"
+   },
+   {
+    "desde": "17:43",
+    "hasta": "20:06",
+    "nivel_db": -26.0,
+    "voz_menos_musica_db": 5.2,
+    "nota": "365 lb, serie final y discurso; sin voz −18,0 dB; picos de −15,8 dB en 18:44–18:47 y −17,8 dB en 19:18–19:23"
+   },
+   {
+    "desde": "20:52",
+    "hasta": "21:16",
+    "nivel_db": -26.9,
+    "voz_menos_musica_db": 7.6,
+    "nota": "despedida y pantalla final"
+   }
+  ],
+  "silencios_a_proposito": "24 silencios de 2 s o más en la pista sin voz (por debajo de −45 dB), 100 s en total. Los que hacen chiste o peso: 1:11–1:14 («WHY YOU NERVOUS?»), 1:51–1:54 (antes de presentar a Unc), 2:39–2:43 (tras *SHOOK* y bajo CAMERAMAN), 3:25–3:29 («IT'S TOO LATE, YOU MESSED UP»), 3:56–3:59 (antes de las reglas), 4:51–4:54 (Jesse a cámara), 6:50.8–6:52.4 (recuerdo), 7:10.5–7:11.2 (corazón perdido), 7:39–7:43 (alrededor de *DEHYDRATION*), 11:58–12:01, 12:03–12:07 y 12:16–12:18 (bronca), 13:01–13:05 y 13:07–13:11 (alrededor de Jimmy Neutron), 13:33–13:36, 13:55.8–13:56.4 (píldora de la regla 2), 14:25–14:30 (mirada a cámara), 15:06–15:11, 17:40–17:44, 18:39–18:44.15 (toda la frase del falso final sin música; ≈ 2 s sin voz ni música antes de «Or so I thought»), 20:34–20:42 (negro y maqueta de YouTube).",
+  "a_ritmo_de_cortes": "No: 19 % de los cortes en acento. Solo las dos micro-ráfagas de la intro.",
+  "lufs": {
+   "integrado": -15.0,
+   "lra": 3.0,
+   "pico_dbtp": -4.6
+  },
+  "sonido_directo_vs_musica": "El directo de la sala (discos, gritos, cuentas a coro) es parte de la mezcla y se oye siempre que hay acción; la música va debajo y se quita para dejar el directo solo en las broncas y en los chistes. El inserto de estudio (16:53.7–17:13.8) corta el ambiente del gimnasio de golpe y lo devuelve de golpe: el contraste hace de transición."
+ },
+ "broll": {
+  "proporcion": "No hay busto con recursos encima: todo el vídeo es acción en directo con voz en off. Material que NO es el rodaje del día en continuidad: ≈ 75 s (6 %): archivo ajeno y vídeos de reacción en la ráfaga (≈ 14 s), 5 bloques de adelanto (≈ 17 s), 3 de recuerdo (≈ 10 s), 3 maquetas de YouTube (≈ 8 s), fondos de las 3 cartelas (≈ 7,6 s), gráficos de la aplicación del patrocinio (≈ 16 s), foto con el suscriptor (≈ 2 s).",
+  "de_donde_sale": "Vídeos de otros creadores en el mismo gimnasio, vídeos de reacción, planos del propio rodaje reutilizados antes o después de su sitio, capturas de la aplicación patrocinada, una foto de archivo.",
+  "duracion_tipica": "0,3–2 s en la ráfaga; 1,4–4,5 s en adelantos y recuerdos; 2–3 s las cartelas.",
+  "vuelta_a_camara": "No aplica: se vuelve a la acción. Los insertos de detalle dentro de una serie duran 1–1,5 s (placas de la polea 6:39.4–6:40.9; Unc mirando 19:15.2–19:17.1).",
+  "sobre_voz": "Todo material fuera de sitio va marcado: etiqueta «COMING UP:» + viñeta, etiqueta «EARLIER...» + desaturado, o interfaz de YouTube. Nunca se cuela un plano de otro momento sin decirlo."
+ },
+ "voz_en_off": "Sí, y es el hilo del vídeo: narración grabada aparte en pasado («And so with that, the workout was finally complete») que abre (0:00.0), explica la intro entera, hace de puente entre bloques, cuenta las reglas rotas («I think I broke my third rule», 11:02), mete el patrocinio y la suscripción con frase puente, y da la reflexión del clímax (19:03.7–19:17). No se subtitula nunca. Va a −19/−20 dB con la música 4–11 dB por debajo. Proporción exacta entre off y directo sin medir; como referencia, el directo subtitulado ocupa ≈ 19 % del vídeo y la intro lleva ≈ 76 s de off sobre 108. Tres veces el creador habla a cámara en lugar de en off: 0:37.6, 1:23.45 (gimnasio vacío, grabado aparte) y 4:48–4:54; más el inserto de estudio de 16:53.7–17:13.8.",
+ "transiciones": [
+  {
+   "tipo": "corte seco",
+   "cuanto": "≈ 95 % de los cambios de plano"
+  },
+  {
+   "tipo": "destello blanco a pantalla completa que se apaga en 8–10 f, con golpe",
+   "cuanto": "3, solo en la intro (0:11.30, 0:25.66, 0:33.56); el tercero con 4–5 f de desenfoque de zoom"
+  },
+  {
+   "tipo": "barrido de cámara (latigazo) con 3–8 f de desenfoque, usado para pasar de una persona a otra",
+   "cuanto": "6 vistos en 4 minutos mirados a 0,1 s (2:00.5, 2:02.2, 2:20.3, 11:37.7, 11:40.8, 12:18.4) + 18:44.2; ≈ 1–1,5/min en diálogos"
+  },
+  {
+   "tipo": "fundido encadenado de 8–10 f como elipsis dentro de un montaje de repeticiones",
+   "cuanto": "10 vistos (2:53.6, 2:55.2, 3:38, 6:17.7, 6:19.3, 7:26, 8:46, 12:38, 14:00, 19:11.3)"
+  },
+  {
+   "tipo": "desenfoque de zoom de 4 f entre dos planos",
+   "cuanto": "3 (f0–2 del vídeo, 0:23.53, 0:29.43)"
+  },
+  {
+   "tipo": "barrido horizontal con desenfoque de movimiento (≈ 5 f) y soplido",
+   "cuanto": "1 (9:52.3–9:52.5), más un barrido blanco de entrada al patrocinio en 9:34"
+  },
+  {
+   "tipo": "salida con interferencia (glitch)",
+   "cuanto": "1 (píldora en 8:34)"
+  },
+  {
+   "tipo": "negro de 2 s en silencio",
+   "cuanto": "1 (20:36–20:38), más un negro corto en 20:57.5"
+  },
+  {
+   "tipo": "cortinilla natural: un cuerpo pasa por delante del objetivo y tapa el cuadro",
+   "cuanto": "1 vista (18:47.7–18:48.1)"
+  }
+ ],
+ "cierre": {
+  "como_acaba": "Clímax sin subtítulos (19:08–19:39.6) → Unc para el gimnasio y habla (19:41–20:02) → lista con los tres objetivos resueltos (19:56–20:02) → más testimonios hasta 20:36 → 2 s de negro y silencio → maqueta de YouTube con dos vídeos anteriores (20:38.5–20:42.5) → abrazos y regalo → foto de grupo (21:00.5–21:03) → pantalla final.",
+  "cta": "En la pantalla final, de voz: saludo al autor del comentario más votado del vídeo anterior, «drop a comment on this one for a chance to be shouted out in the next» y «me and YouTube would really love if you clicked this video on screen». La petición de suscripción va antes, en 16:49–17:13.8.",
+  "pantalla_final": "21:03.65–21:16.71 (13,0 s, un solo plano): fondo negro, «WATCH THIS NEXT» arriba a la izquierda con flecha hacia el hueco del vídeo recomendado, tarjeta del comentario destacado (usuario, texto y 1,4 K «me gusta») de 21:03.5 a 21:14, y lema «STAY RELENTLESS» abajo a la izquierda desde ≈ 21:07.",
+  "musica": "−26,9 dB (7,6 dB bajo la voz) de 20:52 al final; sin subida final.",
+  "ultima_frase": "«I love you. Goodbye.»"
+ },
+ "para_el_estilo": [
+  "RETO = SISTEMA DE JUEGO DIBUJADO. Tres piezas fijas, cada una en su esquina y siempre igual: contador de progreso arriba a la izquierda (13,5 % × 9 %, 31 % del tiempo, solo mientras se ve la acción que cuenta), vidas abajo a la izquierda (3 corazones de 8 bits, 1 aparición por vida perdida, 3–4 s) y lista de objetivos (tarjeta blanca, 4 apariciones de 3–6 s: planteamiento, primer logro, primer fallo, desenlace). CON: el contador salta en las elipsis (735 → 1.152 en 16 s). SIN: nunca dos piezas de juego a la vez; ninguna se queda fija todo el vídeo.",
+  "Los objetivos se enuncian UNO A UNO con cartela propia en la intro (3 cartelas de 65–95 f en 20 s, texto blanco en dos líneas sobre un plano propio oscurecido ≈ 60 %) y entre cartela y cartela va un testimonio o un adelanto de 2–7 s. CON: golpe de sonido en 2 de 3. SIN: animación de letras.",
+  "Cada regla rota = píldora abajo a la izquierda (28 % × 13 %, «RULE N» en amarillo + nombre en blanco, emoji a cada lado), que entra deslizando 5 f desde la izquierda 6 f después del corte, dura 2–8 s y sale con el corte. MUDA. 8 en 21 min; se repite aunque la regla ya haya salido.",
+  "Las reglas se explican una sola vez, en bloque (15 s, minuto 3:59, después del primer castigo y no antes), con el texto grande pegado al plano (9–10 % del alto, con perspectiva y seguimiento) y un único impacto de entrada tras 3 s de silencio.",
+  "Penalización = frase del que manda subtitulada en amarillo + corte a más cerca o zoom de golpe a la cara del castigado + silencio de música. La reacción sin frase lleva acotación entre asteriscos (10 en 21 min), del color de la persona a la que se refiere.",
+  "Intro explicativa de reto (107,8 s): gancho en frío de 11 s en una toma → destello blanco → ráfaga de 20 s con 19 planos → personajes con rótulo de nombre y flecha → objetivos. La ráfaga se hace con PRUEBA AJENA (47 % archivo de otra gente, 11 % vídeos de reacción, solo 16 % del propio creador); los adelantos propios van aparte, etiquetados «COMING UP:» y con viñeta, en 3 bloques de 1,6–4,5 s. SIN: título, cabecera ni saludo; SIN enseñar el resultado.",
+  "Subtítulos SOLO para el directo ruidoso, nunca para la voz en off: una línea, mayúsculas, 3,5–4,2 % del alto, y 93 %, sombra dura sin caja; amarillo los demás, blanco el creador; entran y salen de golpe; 1,2 s de mediana. 9–16 líneas/min en diálogos y cero en los montajes de repeticiones y en el clímax.",
+  "Silencio antes del golpe: 24 cortes de música de 2 s o más (100 s). La música no se funde: se corta en seco antes de la frase y vuelve con un golpe en el corte siguiente. Falso final sin música durante toda la frase y ≈ 2 s de silencio total antes del remate (18:39–18:44.15).",
+  "Zoom de golpe con frenada: ×1,18–1,65 (mediana ×1,29) en 6–15 f, meseta de 1–2 s, sale por corte; ≈ 1,3/min y solo en diálogos. Aterriza en el cambio de quién habla. Empuje lineal de hasta +12,5 %/s en los planos quietos con voz en off (≈ 1/min).",
+  "Material fuera de su sitio siempre marcado: adelanto = viñeta negra + etiqueta blanca arriba a la izquierda; recuerdo = imagen desaturada + etiqueta amarilla + música cortada y golpe al volver (8 bloques en total; ningún adelanto después del 5:30).",
+  "Dos memes pegados sobre la persona en 21 min (fórmulas, cabeza de dibujo animado), los dos sobre una pausa real y de 2–4 s. SIN imágenes de reacción a pantalla completa ni efectos de dibujos.",
+  "Clímax limpio: la serie decisiva (31 s, 9 planos, 1 fundido) va sin subtítulos ni gráficos nuevos (solo el contador), con voz en off reflexiva y la música 2–3 dB por encima del resto.",
+  "Patrocinio (38 s en el 45 % del vídeo) y suscripción (24 s en el 79 %) entran con frase puente que sale de lo que acaba de pasar; el inserto de estudio va sin música y sin ambiente."
+ ],
+ "para_la_base": [
+  "En vídeos de acción con varias cámaras el detector se deja ≈ 22 % de los cortes, pero no por saltos al mismo encuadre: por barridos usados como transición, fundidos encadenados de 8–10 f y cortes debajo de tarjetas gráficas. Para comparar un montaje propio con esta referencia, contar los fundidos y barridos como cortes.",
+  "sfx.json en un sitio ruidoso (gimnasio, taller, calle) da casi todo falsos: de 212 candidatos salen 18 efectos. Hay que partir de la imagen (¿qué gráfico o corte hay?) y mirar ahí la pista sin voz, no al revés.",
+  "Una hoja de contactos con la hora impresa arriba a la izquierda tapa justo la esquina donde van el contador y las etiquetas «COMING UP:» / «EARLIER...». Al estudiar, recortar esa esquina a resolución completa cada 8–10 s.",
+  "medir_zoom.py marca como «punch-in/out (salto)» los reencuadres de cámara en mano. Para separar zoom de edición de movimiento de cámara vale la forma de la curva: rampa de menos de 15 f seguida de meseta exacta (±0,01) = edición; deriva continua irregular = mano. Las curvas de planos de más de 2,5 s salen a paso mayor de 0,1 s.",
+  "El censo de subtítulos por color en la franja inferior (5 muestras/s, máscara de amarillo o blanco centrada y con sombra negra) funciona bien para el amarillo y se queda corto con el blanco sobre fondos claros. Sirve para sacar segundos subtitulados por minuto sin leer nada.",
+  "Un mismo color puede codificar hablante también en las acotaciones del editor: comprobarlo antes de dar por hecho que el asterisco es siempre de un color.",
+  "Silencio de música medible sin oído: segundos con la pista sin voz por debajo de −45 dB. Aquí 100 s en 44 tramos; es el dato que mejor explica el humor del vídeo.",
+  "El estilo «reto» necesita en el estudio una tabla de sistema de juego (pieza, esquina, tamaño, cuántas veces, cuánto dura, si suena): es lo que distingue un reto de un vlog con objetivo."
+ ],
+ "para_el_motor": {
+  "ESCALAS": [
+   1.0,
+   1.2,
+   1.0,
+   1.3,
+   1.0,
+   1.22,
+   1.0,
+   1.37,
+   1.0,
+   1.5
+  ],
+  "ESCALAS_nota": "Aquí la escala no cambia por corte (cada corte es otra cámara) sino DENTRO del plano, con rampa. Valores medidos de los golpes: 1,18 · 1,20 · 1,22 · 1,29 · 1,37 · 1,52 · 1,65. Se vuelve siempre a ×1,0 por corte.",
+  "CAMBIO_CADA": [
+   1.8,
+   3.3
+  ],
+  "CAMBIO_CADA_nota": "Plano mediano detectado 2,17 s (p10 1,07; p90 5,44); media real estimada 2,22 s con 575 cortes. Por partes la mediana va de 0,70 s (ráfaga) a 2,94 s (banca ligera) y 4,17 s (patrocinio).",
+  "Z_FUERTE": 1.65,
+  "Z_FUERTE_nota": "Máximo medido (7:42.86). Por encima de ×1,5 solo 2 de 7 golpes.",
+  "Z_FUERTE_duracion_f": "rampa 6–15 f con frenada + meseta 30–60 f; sale por corte",
+  "Z_FUERTE_por_minuto": "1,3 (todos los golpes); 0,4 los de ×1,5 o más",
+  "ZOOM_LENTO": "+12,5 %/s lineal (×1,34 en 2,7 s) en planos quietos con voz en off; +1,2 %/s bajo gráficos (tarjetas de Instagram); +0,8 %/s en una sonrisa larga (18:41.5–18:44)",
+  "CARA_Y": null,
+  "CARA_Y_nota": "No medido. A ojo en las hojas, la cara queda en el tercio superior (≈ 0,30–0,40 del alto) en los planos con zoom.",
+  "Z_SIN_CARA": 1.36,
+  "Z_SIN_CARA_nota": "Hay empujes sobre objetos (calcetín ×1,36 en 1,0 s; cadena ×0,87 → ×1,18 en 1,5 s), siempre lentos; ningún golpe de zoom sin cara.",
+  "SFX": {
+   "golpe": "impacto en destello o cartela: −2 a +2,5 dB respecto a la voz (0:11.30 −0,7; 1:34.45 +1,6; 1:42.27 +1,2)",
+   "aparte": "golpe seco y corte de música: −4,9 dB (2:38.05); golpe musical sobre silencio: −9,2 dB (14:29.90)",
+   "dato": "tono de videojuego al perder vida: −10,7 dB (11:02.80); zumbador de fallo: +2,3 dB (11:06.20)",
+   "titulo": "no hay título",
+   "seccion": "impacto con cola tras silencio: +1,7 dB (3:59.75); −2,1 dB (1:47.70); +2,5 dB (6:52.45); +3,2 dB (18:44.15)",
+   "trk": "soplido de barrido: −3,4 dB (9:52.40)",
+   "mapa": "no hay mapas",
+   "suscribe": "dos clics al entrar (16:50.8/16:50.9) y clic final −5,0 dB (17:12.15)"
+  },
+  "SFX_nota": "Niveles respecto a la voz media del tramo (−19/−20 dB). 0,85 efectos por minuto: muy por debajo de lo habitual; el peso lo llevan los silencios.",
+  "MUSICA_NIVELES": {
+   "BASE": "8–11 dB bajo la voz en explicación y diálogo (−28 a −30 dB de pista con la voz a −19)",
+   "SINVOZ": "al nivel de la voz o 1–2 dB por encima en montajes sin diálogo (−18,0 a −20,9 dB)",
+   "CIERRE": "7,6 dB bajo la voz (−26,9 dB)",
+   "TRAILER": "3,9 dB bajo la voz en gancho y ráfaga (−23,8 dB)",
+   "TITULO": "no hay título",
+   "SECCION": "vuelve con golpe al nivel de la voz tras 2–4 s de silencio",
+   "MAPA": "no hay mapas"
+  },
+  "MUSICA_nota": "Medido sobre la pista sin voz (incluye el ambiente de la sala), no sobre la pista de música limpia: los valores absolutos pueden estar 1–3 dB altos. Lo trasladable al motor son las diferencias con la voz.",
+  "LUFS": -15.0,
+  "LUFS_nota": "LRA 3,0 LU (muy comprimido), pico real −4,6 dBTP.",
+  "RITMO_OBJETIVO": {
+   "cortes_por_minuto": "21 detectados / ≈ 27 reales; 56/min en la ráfaga",
+   "plano_mediano_s": 2.17,
+   "zooms_de_edicion_por_minuto": 3.0,
+   "subtitulos_pct_tiempo": "≈ 19–20",
+   "contador_pct_tiempo": 31,
+   "graficos_de_juego": "8 píldoras + 3 vidas + 4 listas + 8 etiquetas de adelanto/recuerdo = 23 (1,1/min)",
+   "sfx_por_minuto": 0.85,
+   "silencios_de_musica": "24 de 2 s o más; 7,8 % del vídeo",
+   "palabras_por_minuto": 148
+  }
+ },
+ "dudas": [
+  "Total de cortes: 575 ± 30 sale de 3 minutos contados a ojo (80 frente a 62) y un cuarto tramo de 20 s (8 frente a 6); no se contó plano a plano el vídeo entero.",
+  "Zooms: los totales (≈ 30 golpes, ≈ 12 empujes al corte, ≈ 20 lineales) son extrapolación de 5,2 min de muestra. No se puede descartar que alguno de los golpes sea zoom óptico del cámara y no de edición; solo 2 se miraron a fotograma (7:42.86 y 14:28.83). La escala de los 7 cortes a más cerca no se midió ni se sabe si son recorte u otra cámara.",
+  "Origen de los planos de la ráfaga: solo están localizados 2 (0:12.28 = 7:16; 0:50.25 = 11:33.4). El resto de los propios y todos los de archivo ajeno no se han rastreado a su minuto o a su vídeo.",
+  "Sonidos probables sin confirmar: 4:36.3 tono con la primera aparición de los corazones; 7:40.2 y 7:40.85 dos bloques armónicos con *DEHYDRATION* (pueden ser fuga de voz); 13:06.35 tono muy bajo con la cabeza de Jimmy Neutron; 12:18.4 soplido con el barrido; 3:38.5 soplido con un fundido; 8:33.5 salida con interferencia de la píldora; 9:02.5–9:03 sonido agudo antes de «THAT'S 20 MORE»; 12:07.8 golpe en un corte de reacción; 11:00.7 entrada de los corazones; 11:08.3 fórmulas; 0:45.21 tarjetas de Instagram.",
+  "Nivel de los efectos de 7:10 y 16:50.8: confirmados en el espectrograma pero sin nivel fiable.",
+  "Subtítulos: el total (175–190 líneas, 240–255 s) es un censo automático por color; el blanco está contado por debajo y no se leyeron todas las líneas una a una. El reparto 80/20 entre amarillo y blanco es aproximado.",
+  "Regla 3 en grande: Unc la dice en 4:07 pero en las hojas cada 2 s solo se vieron las reglas 1, 2, 4, 5 y 6 escritas; no se comprobó a fotograma.",
+  "Tipografía: fuente_rotulo da Montserrat 800, Inter 900, Archivo 800 y Outfit 900 con 0,70–0,83 según el recorte; es una geométrica ultranegra pero no se puede fijar cuál. Los rótulos con borde grueso (HADDY 0,496; CAMERAMAN 0,216) no son medibles. La fuente de la lista de objetivos no se midió.",
+  "Contador TOTAL REPS: muestreado cada 8 s; no se sabe el fotograma exacto en que aparece por primera vez (entre 3:04 y 3:12) ni si en algún momento se anima.",
+  "Proporción de voz en off frente a directo sin medir.",
+  "CARA_Y sin medir.",
+  "Música: los niveles salen de la pista sin voz, que arrastra el ruido de la sala; el número de pistas distintas no se ha contado.",
+  "Hojas intro_fot_17–21, 23–24, 26, 28–40, 44–46 y 49–53 (tramos de la intro entre 0:34 y 1:48) no se miraron a fotograma: esos planos están descritos desde las hojas a 0,25 s y desde cortes.json."
+ ]
+}
