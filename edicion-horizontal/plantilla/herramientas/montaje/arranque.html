@@ -1,0 +1,231 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>__TITULO__</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:wght@500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--ac:#E6EC52;--bg:#0e0e0f;--tx:#ecebe8;--dim:#a3a19c;--dim2:#8f8d88;--line:#2a2a2d;--card:#141415;--ok:#8fdc9a;--okbg:#1f3524;--warn:#f5b94a;--warnbg:#3a2c0c}
+*{box-sizing:border-box}
+html,body{margin:0;background:var(--bg);color:var(--tx);font-family:Montserrat,system-ui,-apple-system,"Segoe UI",sans-serif}
+.anton{font-family:Anton,Impact,"Arial Narrow Bold",sans-serif;font-weight:400;letter-spacing:.3px}
+button{font:inherit;color:inherit;background:none;border:0;cursor:pointer}
+button:focus-visible,input:focus-visible{outline:2px solid var(--ac);outline-offset:3px}
+.app{min-height:100vh;display:flex;flex-wrap:wrap}
+.foto{flex:1 1 420px;min-height:420px;position:relative;overflow:hidden;background:#1a1a1c}
+.foto>img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:30% 40%}
+.mosaico{position:absolute;inset:0;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));grid-auto-rows:1fr;gap:3px}
+.mosaico img{width:100%;height:100%;object-fit:cover;display:block}
+.foto .velo{position:absolute;inset:0;background:linear-gradient(to right,rgba(14,14,15,.1),rgba(14,14,15,.88) 92%)}
+.foto .pie{position:absolute;left:40px;right:40px;bottom:40px;display:flex;flex-direction:column;gap:8px}
+.kicker{font-size:13px;font-weight:800;letter-spacing:1px}
+main{flex:999 1 560px;min-width:0;padding:56px 56px 40px;display:flex;flex-direction:column;gap:30px;justify-content:center}
+h1{margin:0;font-size:clamp(48px,6vw,72px);line-height:.95}
+.filas{display:flex;flex-direction:column;border-top:1px solid var(--line)}
+.fila{display:flex;flex-wrap:wrap;gap:16px;align-items:flex-start;padding:22px 0;border-bottom:1px solid var(--line)}
+.fila .et{width:110px;font-size:13px;font-weight:700;color:var(--dim);letter-spacing:.5px;padding-top:8px}
+.fila .cu{flex:1 1 320px;min-width:0;display:flex;flex-direction:column;gap:8px}
+.valor{font-size:30px;line-height:1.1}
+.sub{font-size:13px;color:var(--dim)}
+.btn2{padding:10px 16px;border-radius:10px;border:1px solid #3a3a3d;font-weight:700;font-size:14px;min-height:44px}
+.btn2:hover{border-color:#5a5a5e}
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.chip{padding:10px 14px;border-radius:999px;border:1px solid #3a3a3d;font-weight:700;font-size:13px;min-height:40px}
+.chip[aria-pressed=true]{background:var(--ac);border-color:var(--ac);color:#141414;font-weight:800}
+.chip.dash{border-style:dashed;color:var(--dim)}
+.estado{display:inline-flex;padding:4px 10px;border-radius:999px;font-size:12px;font-weight:700}
+.estado.ok{background:var(--okbg);color:var(--ok)}.estado.warn{background:var(--warnbg);color:var(--warn)}
+.opc[hidden],[hidden]{display:none!important}
+.opc{display:flex;flex-wrap:wrap;gap:8px;margin-top:4px}
+.opc button{padding:12px 16px;border-radius:10px;border:1px solid #3a3a3d;font-weight:700;font-size:14px;text-align:left;display:flex;flex-direction:column;gap:2px;min-height:44px}
+.opc button[aria-pressed=true]{border:2px solid var(--ac)}
+.opc button:disabled{opacity:.45;cursor:not-allowed}
+.opc small{font-size:11px;font-weight:600;color:var(--dim)}
+.link{font-size:13px;font-weight:700;color:var(--ac);text-decoration:underline;padding:4px 0}
+input.otra{background:#1a1a1c;border:1px solid #3a3a3d;border-radius:10px;color:var(--tx);padding:10px 12px;font:inherit;font-size:14px;width:100%;max-width:420px}
+.pie2{display:flex;flex-wrap:wrap;gap:18px;align-items:center}
+.go{padding:22px 48px;border-radius:16px;background:var(--ac);color:#141414;font-size:32px;min-height:44px}
+.go:hover{filter:brightness(1.06)}
+.cuenta b{font-size:14px;font-weight:700;display:block}.cuenta span{font-size:13px;color:var(--dim)}
+/* estilos */
+.capa{position:fixed;inset:0;background:var(--bg);overflow:auto;display:none}
+.capa.si{display:block}
+.capa .in{max-width:1320px;margin:0 auto;padding:40px;display:flex;flex-direction:column;gap:28px}
+.rej{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:18px}
+.tarj{border-radius:14px;overflow:hidden;border:3px solid #232325;background:var(--card);display:flex;flex-direction:column;text-align:left;padding:0}
+.tarj[aria-pressed=true]{border-color:var(--ac)}
+.tarj:disabled{cursor:not-allowed}
+.tarj:disabled .im,.tarj:disabled .tx{opacity:.38;filter:grayscale(1)}
+.tarj .im{position:relative;display:block;aspect-ratio:16/9;background:#222}
+.tarj .im img{width:100%;height:100%;object-fit:cover;display:block}
+.tarj .tx{padding:14px 16px;display:flex;flex-direction:column;gap:4px}
+.tarj .nom{font-size:22px}
+.badge{position:absolute;left:14px;top:12px;font-size:10px;font-weight:800;letter-spacing:1px;padding:4px 8px;border-radius:999px;background:var(--ac);color:#141414}
+.badge.gris{background:#2a2a2d;color:#d5d3ce}
+.rot{position:absolute;color:#fff;text-shadow:0 2px 12px rgba(0,0,0,.6)}
+.listo{position:fixed;inset:0;background:var(--bg);display:none;align-items:center;justify-content:center;text-align:center;padding:40px}
+.listo.si{display:flex}
+@media (max-width:700px){main{padding:32px 22px}.fila .et{width:100%;padding:0}}
+</style>
+</head>
+<body>
+<div class="app">
+  <div class="foto" id="foto"><div class="velo"></div>
+    <div class="pie"><span class="kicker" id="canal" style="color:var(--ac)"></span><span class="anton" id="slug" style="font-size:44px;line-height:1"></span><span id="info" style="font-size:14px;font-weight:600;color:#d5d3ce"></span></div>
+  </div>
+  <main>
+    <div style="display:flex;flex-direction:column;gap:10px">
+      <span class="kicker" style="color:var(--dim)">ANTES DE EMPEZAR</span>
+      <h1 class="anton">CONFIGURACIÓN<br>DE EDICIÓN</h1>
+    </div>
+    <div class="filas">
+      <div class="fila"><span class="et">ESTILO</span>
+        <span class="cu"><span class="valor anton" id="vEstilo"></span><span class="sub" id="sEstilo"></span></span>
+        <button class="btn2" id="bEstilo" type="button">Cambiar</button>
+      </div>
+      <div class="fila"><span class="et">RECURSOS</span>
+        <span class="cu"><span class="valor anton" id="vRec"></span><span class="chips" id="estRec"></span>
+          <span class="opc" id="opcRec" hidden></span></span>
+        <button class="btn2" id="bRec" type="button">Cambiar</button>
+      </div>
+      <div class="fila"><span class="et">BRUTOS</span>
+        <span class="cu"><span class="valor anton">EN LOS BRUTOS HAY…</span><span class="chips" id="chBrutos"></span>
+          <input class="otra" id="otra" placeholder="Cuéntame qué más hay en los brutos" hidden>
+          <span class="sub" style="color:var(--dim2);font-weight:600">Marca todas las que haya.</span></span>
+      </div>
+    </div>
+    <div class="pie2">
+      <button class="go anton" id="go" type="button">EMPEZAR</button>
+      <span class="cuenta"><b id="cuenta"></b><span>con esta configuración, para no dejar el edit parado</span></span>
+    </div>
+  </main>
+</div>
+
+<div class="capa" id="capa" role="dialog" aria-modal="true" aria-labelledby="tEst">
+  <div class="in">
+    <div style="display:flex;flex-wrap:wrap;gap:16px;align-items:flex-end;justify-content:space-between">
+      <div style="display:flex;flex-direction:column;gap:8px">
+        <button type="button" id="volver" style="align-self:flex-start;font-size:14px;font-weight:700;color:var(--dim)">← Configuración de edición</button>
+        <h2 class="anton" id="tEst" style="margin:0;font-size:56px;line-height:1">ESTILO DE ESTE VÍDEO</h2>
+        <p style="margin:0;font-size:15px;color:#b9b7b2;font-weight:500">Todos los estilos que hay. El recomendado va marcado; elige otro solo para este vídeo.</p>
+      </div>
+      <span id="nEst" style="font-size:14px;font-weight:700;padding:8px 14px;border-radius:999px;background:#1a1a1c;border:1px solid var(--line)"></span>
+    </div>
+    <div class="rej" id="rej"></div>
+    <div style="display:flex;flex-wrap:wrap;gap:12px;justify-content:flex-end">
+      <button type="button" class="btn2" id="cancelar">Cancelar</button>
+      <button type="button" id="usar" style="padding:14px 28px;border-radius:12px;background:var(--ac);color:#141414;font-weight:800;font-size:15px;min-height:44px">Usar este estilo</button>
+    </div>
+  </div>
+</div>
+
+<div class="listo" id="listo"><div style="display:flex;flex-direction:column;gap:14px;align-items:center">
+  <span class="anton" style="font-size:64px;color:var(--ac)">EDITANDO</span>
+  <span id="listoTx" style="font-size:17px;font-weight:600;color:#d5d3ce">Ya está: puedes cerrar esta pestaña.</span>
+</div></div>
+
+<script>
+const D = /*DATOS*/null;
+document.documentElement.style.setProperty('--ac', D.acento);
+const $ = id => document.getElementById(id);
+const S = { estilo: D.estilo_recomendado, rec: D.recursos.recomendado, brutos: new Set(D.brutos.detectado), otra: '', enviado: false };
+let tmpEstilo = S.estilo, quedan = D.espera;
+
+if (D.cara) { const im = new Image(); im.alt = ''; im.src = D.cara; $('foto').prepend(im); }
+else if (D.fotos.length) { const m = document.createElement('div'); m.className = 'mosaico'; m.setAttribute('aria-hidden', 'true'); D.fotos.slice(0, 8).forEach(f => { const im = new Image(); im.alt = ''; im.src = f.url; m.append(im); }); $('foto').prepend(m); }
+$('canal').textContent = (D.canal || '').toUpperCase();
+$('slug').textContent = D.slug.toUpperCase();
+const cams = Object.entries(D.brutos.camaras).map(([c, n]) => c + ' ×' + n).join(' + ');
+$('info').textContent = D.brutos.n + ' brutos · ' + String(D.brutos.min).replace('.', ',') + ' min' + (cams ? ' · ' + cams : '') + (D.brutos.hdr ? ' · HDR' : '');
+
+const ROT = {
+  '': n => '<span class="rot anton" style="right:18px;bottom:22px;font-size:20px;color:var(--ac)">' + esc(D.canal.toUpperCase()) + ' ↙</span>',
+  vlog: () => '<span class="rot" style="left:16px;bottom:14px;padding:6px 10px;background:#fff;color:#141414;font-size:14px;font-weight:800;text-shadow:none">un día cualquiera</span>',
+  viaje: () => '<span class="rot anton" style="inset:0;display:flex;align-items:center;justify-content:center;font-size:46px">DÍA 1</span>',
+  reto: () => '<span class="rot anton" style="left:16px;bottom:14px;font-size:54px;line-height:1">2 / 5</span>',
+  entreno: () => '<span class="rot anton" style="right:16px;top:14px;font-size:30px">SERIE 3 × 12</span>',
+};
+function esc(s) { return String(s).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c])); }
+const est = id => D.estilos.find(e => e.id === id) || D.estilos[0];
+
+function pinta() {
+  const e = est(S.estilo);
+  $('vEstilo').textContent = e.nombre;
+  $('sEstilo').textContent = (S.estilo === D.estilo_recomendado ? 'recomendado · ' : 'solo para este vídeo · ') + e.que;
+  const R = D.recursos, L = R.libreria, K = R.stock;
+  const orden = { libreria_stock: 'BRUTOS → LIBRERÍA → STOCK', libreria: 'BRUTOS → LIBRERÍA', stock: 'BRUTOS → STOCK', brutos: 'SOLO LOS BRUTOS' };
+  $('vRec').textContent = orden[S.rec];
+  let h = '<span class="estado ok">brutos listos</span>';
+  if (S.rec.includes('libreria')) h += L.ok ? '<span class="estado ok">librería: ' + esc(L.texto) + '</span>' : '<span class="estado warn">librería: ' + esc(L.texto) + '</span> <button type="button" class="link" id="reco">Ya lo he conectado</button>';
+  if (S.rec.includes('stock')) h += '<span class="estado ' + (K.ok ? 'ok' : 'warn') + '">' + esc(K.texto) + '</span>';
+  $('estRec').innerHTML = h;
+  if ($('reco')) $('reco').onclick = recomprobar;
+  const op = [
+    ['libreria_stock', 'Librería y stock', L.hay && K.ok, !L.hay ? 'sin librería' : K.texto, L.hay],
+    ['libreria', 'Solo su librería', L.hay, 'sin librería', L.hay],
+    ['stock', 'Solo stock', K.ok, K.texto, !L.hay],
+    ['brutos', 'Solo los brutos', true, '', true],
+  ].filter(o => o[4]);
+  $('opcRec').innerHTML = op.map(([id, t, ok, porque]) => '<button type="button" data-r="' + id + '" aria-pressed="' + (S.rec === id) + '"' + (ok ? '' : ' disabled') + '>' + t + (id === R.recomendado ? '<small>RECOMENDADO</small>' : ok ? '' : '<small>' + esc(porque) + '</small>') + '</button>').join('');
+  $('opcRec').querySelectorAll('button').forEach(b => b.onclick = () => { S.rec = b.dataset.r; vivo(); pinta(); });
+  const CH = [['dos_camaras', 'Varias cámaras'], ['teleprompter', 'Teleprompter'], ['dictado', 'Alguien le dicta'], ['dron', 'Dron'], ['solo_recurso', 'Brutos solo de recurso']];
+  $('chBrutos').innerHTML = CH.map(([id, t]) => '<button type="button" class="chip" data-b="' + id + '" aria-pressed="' + S.brutos.has(id) + '">' + (S.brutos.has(id) ? '✓ ' : '') + t + (D.brutos.detectado.includes(id) ? ' <span style="font-weight:600">· detectado</span>' : '') + '</button>').join('') +
+    '<button type="button" class="chip dash" id="chOtra" aria-pressed="' + !$('otra').hidden + '">+ Otra cosa…</button>';
+  $('chBrutos').querySelectorAll('[data-b]').forEach(b => b.onclick = () => { const id = b.dataset.b; S.brutos.has(id) ? S.brutos.delete(id) : S.brutos.add(id); vivo(); pinta(); });
+  $('chOtra').onclick = () => { $('otra').hidden = !$('otra').hidden; if (!$('otra').hidden) $('otra').focus(); vivo(); pinta(); };
+}
+
+function tarjetas() {
+  const fotos = D.fotos.length ? D.fotos : [{ url: '' }];
+  $('nEst').textContent = D.estilos.length + ' estilos';
+  $('rej').innerHTML = D.estilos.map((e, i) => {
+    const f = fotos[i % fotos.length].url, rec = e.id === D.estilo_recomendado, rot = (ROT[e.id] || (() => '<span class="rot anton" style="left:16px;bottom:14px;font-size:34px">' + esc(e.nombre) + '</span>'))();
+    return '<button type="button" class="tarj" data-e="' + e.id + '" aria-pressed="' + (tmpEstilo === e.id) + '"' + (e.reglas ? '' : ' disabled') + '>' +
+      '<span class="im">' + (f ? '<img src="' + f + '" alt="">' : '') + (e.reglas ? rot : '') +
+      (rec ? '<span class="badge">RECOMENDADO</span>' : e.reglas ? '' : '<span class="badge gris">AÚN SIN REGLAS</span>') + '</span>' +
+      '<span class="tx"><span class="nom anton">' + esc(e.nombre) + '</span><span class="sub">' + esc(e.que || '') + '</span></span></button>';
+  }).join('');
+  $('rej').querySelectorAll('.tarj').forEach(b => b.onclick = () => { tmpEstilo = b.dataset.e; vivo(); tarjetas(); });
+}
+
+$('bEstilo').onclick = () => { tmpEstilo = S.estilo; tarjetas(); $('capa').classList.add('si'); vivo(); $('volver').focus(); };
+const cerrar = () => { $('capa').classList.remove('si'); $('bEstilo').focus(); };
+$('volver').onclick = cerrar; $('cancelar').onclick = cerrar;
+$('usar').onclick = () => { S.estilo = tmpEstilo; cerrar(); pinta(); };
+document.addEventListener('keydown', ev => { if (ev.key === 'Escape' && $('capa').classList.contains('si')) cerrar(); });
+$('bRec').onclick = () => { $('opcRec').hidden = !$('opcRec').hidden; $('bRec').textContent = $('opcRec').hidden ? 'Cambiar' : 'Listo'; vivo(); };
+$('otra').oninput = () => { S.otra = $('otra').value; vivo(); };
+
+async function recomprobar() {
+  $('reco').textContent = 'Comprobando…';
+  try { D.recursos = await (await fetch('/recomprobar', { method: 'POST', body: '{}' })).json(); } catch (e) { }
+  pinta();
+}
+let ultimoVivo = 0;
+function vivo() {
+  quedan = D.espera;
+  if (Date.now() - ultimoVivo > 20000) { ultimoVivo = Date.now(); fetch('/vivo', { method: 'POST', body: '{}' }).catch(() => { }); }
+}
+async function enviar(porTiempo) {
+  if (S.enviado) return; S.enviado = true;
+  const cuerpo = { estilo: S.estilo, recursos: S.rec, brutos: [...S.brutos], otra: $('otra').hidden ? '' : S.otra, por_tiempo: porTiempo };
+  try { await fetch('/enviar', { method: 'POST', body: JSON.stringify(cuerpo) }); }
+  catch (e) { $('listoTx').textContent = 'No he podido avisar a Claude: vuelve a la terminal.'; }
+  if (porTiempo) $('listoTx').textContent = 'Se acabó la cuenta atrás: empiezo con la configuración recomendada. Puedes cerrar esta pestaña.';
+  $('listo').classList.add('si');
+}
+$('go').onclick = () => enviar(false);
+function reloj() {
+  if (S.enviado) return;
+  const m = Math.floor(quedan / 60), s = String(quedan % 60).padStart(2, '0');
+  $('cuenta').textContent = 'Si no tocas nada, empiezo en ' + m + ':' + s;
+  if (quedan <= 0) return enviar(true);
+  quedan--; setTimeout(reloj, 1000);
+}
+pinta(); reloj();
+if (location.hash === '#estilos') $('bEstilo').click();
+</script>
+</body>
+</html>

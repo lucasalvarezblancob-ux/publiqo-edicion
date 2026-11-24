@@ -132,27 +132,22 @@ monta la imagen desde los brutos; Remotion solo dibuja los gráficos, que van en
    varios brutos a la vez según gráfica, núcleos y memoria (−35 % medido en Windows; `PASO0_WHISPER`/`PASO0_HILOS` lo fijan).
    Brutos HDR (iPhone): no se convierten enteros; tras el paso 4, `sdr.py` hace la copia SDR solo de los trozos que se
    usan y se comprueba el color (preferencias → COLOR).
-   **Ventana de arranque** (siempre, en cada vídeo, con `paso0_preparar.py` ya en segundo plano para no esperar): UNA
-   `AskUserQuestion` con hasta 3 preguntas. Lo que diga `personal/<creador>/perfil.md` va como primera opción,
-   marcada «(Recomendado)»; nada se da por decidido:
-   1) **Estilo**: primera opción, el del perfil (`Estilo por defecto:` o `Estilo de edición:`; si no tiene, «Como
-   siempre (sin estilo)»), con «(Recomendado)». Después, los demás estilos con reglas en `estilos/` (y «Como siempre» si
-   el recomendado es otro), hasta 4 opciones; el resto se puede escribir en «Otro». Los «sin analizar» no se ofrecen.
-   Si no hay ninguna alternativa con reglas, esta pregunta no sale. El estilo del perfil es solo el recomendado: se
-   puede usar otro en un vídeo concreto (un creador de viajes que graba un vlog de cocina).
-   2) **Recursos que no salen en los brutos**, siempre en este orden: brutos del vídeo → su librería → stock
-   (`base/recursos.md` § 5). Opciones según lo que haya: «Librería y stock» (stock solo si `personal/bancos.md` dice
-   Shutterstock SÍ; ese «sí» es el permiso de descarga para todo el vídeo, § 5 bis), «Solo su librería», «Solo los
-   brutos»; la primera que exista, «(Recomendado)». Si su `recursos/` no se abre (disco sin conectar), se dice en la
-   pregunta y se ofrece «Conecto el disco ahora» (`conectar_disco.sh`). Sin librería ni stock, no sale.
-   3) **Lo que el registro visual no puede saber** (multiSelect): segunda cámara o dron (→ `sincro.py`), partes leídas
-   de teleprompter o notas (→ se tapan con recursos), brutos grabados solo como recurso, nada de eso. No sustituye al
-   registro visual del paso 1: se hace igual, entero.
-   Las respuestas van a `out/<slug>/proyecto.py`: `ESTILO` (si no es «como siempre») y una línea
-   `# Arranque (fecha): recursos … · brutos …`. Sin respuesta o sin `AskUserQuestion` (modo no interactivo): se edita
-   como hasta ahora (el estilo del perfil o ninguno; brutos → librería → stock con confirmación por tanda). Por qué:
-   Lucas, 2026-11-24: la ventana sale siempre, con lo del creador recomendado, y «basta con el sí [al stock], pero se
-   prioriza si hay en recursos propios antes que stock».
+   **Ventana de arranque** (siempre, en cada vídeo): con `paso0_preparar.py` ya en segundo plano, desde `out/<slug>/`,
+   `PY ../../herramientas/montaje/arranque.py [--estilo <x>]` también EN SEGUNDO PLANO (`--estilo` si lo piden en el
+   mensaje). Abre en el navegador una página local, «Configuración de edición»: **estilo** (el del perfil, o el pedido,
+   como recomendado; «Cambiar» enseña TODOS los estilos y los que aún no tienen reglas salen apagados), **recursos**
+   (siempre brutos → su librería → stock; avisa si el disco de la librería no está conectado y lo reconecta con
+   `conectar_disco.sh`; «Librería y stock» = permiso de descarga para todo el vídeo, `base/recursos.md` § 5 bis) y
+   **qué hay en los brutos** (selección múltiple: varias cámaras —se detectan por el nombre de los archivos—,
+   teleprompter, alguien le dicta, dron, brutos solo de recurso, otra cosa). Al pulsar Empezar, o tras 10 min sin tocar
+   nada (la configuración recomendada, con el stock con confirmación por tanda), termina y deja `trabajo/arranque.json`,
+   `ESTILO` y `# Arranque (…)` en `proyecto.py` y una línea `ARRANQUE:` en la salida. Mientras tanto se sigue con lo que
+   no depende de eso (transcripciones); la elección de recursos y el plan (paso 4) esperan a la respuesta. Lo de los
+   brutos se usa así: varias cámaras o dron → `sincro.py`; teleprompter o alguien le dicta → se quitan las indicaciones
+   y lo leído se tapa con recursos (preferencias → Planos de recurso); brutos solo de recurso → no se buscan frases en
+   ellos. No sustituye al registro visual del paso 1. Sin navegador (sesión remota o no interactiva): las mismas
+   preguntas con `AskUserQuestion`; sin respuesta, la configuración recomendada. Por qué: Lucas, 2026-11-24 («una
+   ventana muy visual y bien diseñada»; la cuenta atrás y los estilos sin reglas apagados, decididos por él).
 1. **Estudiar los brutos a fondo (obligatorio)**:
    - Lee todas las transcripciones enteras.
    - **Registro visual**: un agente por bruto (los largos, por rangos de ~9 min) con

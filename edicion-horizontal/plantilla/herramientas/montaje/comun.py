@@ -72,11 +72,18 @@ def ajuste(nombre, defecto):
 
 def marca():
     """personal/<creador>/marca.json (color de acento, canal, @, código, logo): paso3 la mete en capas.json para Remotion.
+    Fuentes del creador: "fuentes": {"titulos": "<Google Font>", "textos": "<Google Font>"} (o {"familia", "pesos"}).
     Si el creador tiene una marca distinta por idioma (un canal en español y otro en inglés), marca.json lleva
     "idiomas": {"en": {"canal": "...", "handle": "...", "logo": "..."}}: los campos del IDIOMA del vídeo tapan a los generales."""
     f = f"{PERSONAL}/marca.json" if PERSONAL else ""
     m = json.load(open(f, encoding="utf-8")) if f and os.path.exists(f) else {}
-    return {**{k: v for k, v in m.items() if k != "idiomas"}, **m.get("idiomas", {}).get(IDIOMA or "", {})}
+    r = {**{k: v for k, v in m.items() if k != "idiomas"}, **m.get("idiomas", {}).get(IDIOMA or "", {})}
+    # MARCA en proyecto.py = cambio SOLO para este vídeo (ventana de arranque: «Solo este vídeo»), p. ej.
+    # MARCA = {"acento": "#E6EC52", "fuentes": {"titulos": "Anton", "textos": "Montserrat"}}. Manda sobre marca.json;
+    # "fuentes" se mezcla clave a clave (se puede cambiar solo la de títulos).
+    for k, v in (_g("MARCA") or {}).items():
+        r[k] = {**(r.get(k) or {}), **v} if isinstance(v, dict) and isinstance(r.get(k), dict) else v
+    return r
 
 
 def sin_tildes(s):
