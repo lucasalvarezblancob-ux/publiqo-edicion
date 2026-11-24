@@ -1,0 +1,2112 @@
+{
+  "video": {
+    "archivo": "refs/dinamicos/nil-ogt/2026-02-22_probe-el-mejor-restaurante-del-mundo.mp4",
+    "creador": "Nil OGT (Nil Ojeda)",
+    "canal": "Nil OGT",
+    "url": "https://www.youtube.com/watch?v=269pfqKCG6E",
+    "titulo": "Probé el Mejor Restaurante del Mundo!",
+    "duracion": "30:42 (1842,3 s; 55.214 fotogramas)",
+    "publicado": "2026-02-22",
+    "fps": 29.97,
+    "resolucion": "1920×1080",
+    "idioma": "español (con invitados catalanes hablando en castellano)",
+    "tramo_analizado": "entero: intro fotograma a fotograma (f0–f1247), 30 hojas de minuto, 8 tramos de 15 s a 0,1 s, 13 hojas de candidatos de sonido y espectrogramas propios de la pista sin voz",
+    "estilo": "visita",
+    "estilo_por_que": "Se propuso «reto» y no lo es: no hay regla, ni marcador, ni cuenta atrás, ni riesgo de fallar (0 rótulos de progreso, 0 cronómetros). Es una VISITA a un sitio con anfitriones, recorrida por zonas y rematada con la experiencia: 6 min de historia y camino (calle de Can Roca, La Masia I+R, llegada), 5 min de cocina con Joan Roca (3 píldoras «ZONA DE…»), 2,5 min de bodega y sala y 14,5 min de menú (31 cartelas de plato, una cada 28 s). El hilo no es «¿lo conseguirá?» sino «¿qué hay dentro y está a la altura?». Los únicos contadores son implícitos y hablados («vamos a por 32 platos» 14:48, notas dichas «8,95» 25:50, «9,75» 26:27, «un sólido 8» 27:31). Dentro de «visita» es la variante gastronómica: la mitad del vídeo es probar y reaccionar plato a plato.",
+    "modelo": "fable"
+  },
+  "resumen": [
+    "Nil visita El Celler de Can Roca (Girona) con Soul de operador: primero cuenta la historia desde el bar de los padres, luego entra por La Masia (I+R), recorre la cocina con Joan Roca, la bodega con el sumiller y se sienta a comer el menú de 32 pases; cierra con Jordi Roca en la mesa y una fan en la calle.",
+    "La intro es EXPLICATIVA y hablada desde el fotograma 0: 35,97 s de Nil a cámara en los que cada afirmación lleva su ilustración (2 franjas de vídeo que pasan POR DETRÁS de él, ráfaga de 5 platos, texto palabra a palabra, 3 estrellas Michelin que se encienden contando, 3 fotos de archivo y 3 planos de documental) y 5,67 s de montaje sin voz con la música arriba. No hay saludo, ni título, ni cabecera, ni tráiler de reacciones.",
+    "El cuerpo es casi lo contrario de la intro: sonido directo, SIN música de fondo (solo 4 momentos con música en 30 min, ≈ 52 s = 2,8 %), 4 efectos de sonido en 29,6 min y cortes secos. El ritmo lo ponen los jump cuts (≈ 510–520 cortes reales, 16,7–17/min; el detector solo ve 343) y el cambio de pase.",
+    "El grafismo del cuerpo es poco y de un solo trazo: 31 cartelas de plato (caja blanca con el nombre en serif naranja + ingredientes en serif blanca, abajo a la izquierda, mudas, 6,4 s), 3 píldoras blancas de zona en la cocina con un «ding», un mapa en tarjeta, una captura de la web a pantalla completa, una rueda de conceptos y la píldora «nil ✓» cuando nombra su Instagram.",
+    "Los subtítulos NO son de énfasis: solo se subtitula a quien no se entiende bien (Joan en el ruido de la cocina, Jordi en la mesa, Soul fuera de plano), blanco, una línea, ≈ 60 s en total (3,3 % del vídeo). Nil no se subtitula a sí mismo salvo una frase censurada («¿Qué es esta m**rda?» 19:07.8).",
+    "Con los anfitriones el montaje se frena a propósito: en la cocina con Joan hay planos de 38,8, 30,3 y 25,4 s y 8,9 cortes/min; con Nil solo sube a 21 cortes/min y en el menú se queda en 17,9.",
+    "Los picos (la primera ostra 17:56–18:10, el cítrico 18:58–19:08, el gazpacho que no le gusta 20:23) se montan en un plano fijo sostenido y un punch-in por corte de 0,7 s sobre el remate, sin música, sin texto y sin efecto.",
+    "Acaba sin pantalla final: charla con Jordi subtitulada (29:30–30:17), corte al aparcamiento con música, una fan (Laia) y un botón de suscripción de plantilla que nace en la palabra «Vale» (30:33.0); último fotograma 30:42.3."
+  ],
+  "contexto": {
+    "quien": "Nil Ojeda (jersey gris en el recorrido, camiseta gris en la mesa), que habla a cámara y en selfie; Soul (Saúl), operador y amigo, aparece 8–9 veces probando o comentando (15:56, 18:55, 19:14, 24:16, 27:08, 28:27); anfitriones: Jordi Roca (6:52–7:14, 11:50–11:58, 29:30–30:17), Joan Roca (cocina 7:16–11:48), el sumiller (bodega 12:08–13:10), la camarera que canta cada pase (voz en off sobre el plano del plato) y Laia, una fan, en el cierre (30:18.7–30:42).",
+    "donde": "Girona: la calle del bar de los padres (Can Roca), La Masia (I+R), el Celler (cocina, bodega, sala). Lo sitúa un mapa de 4,47 s (3:34.8–3:39.3) cuando dice «estamos en Girona… no es un sitio muy céntrico».",
+    "objetivo": "No es «comer en el mejor restaurante» sino «conocer toda la historia de este imperio que hay detrás del Celler de Can Roca» (0:29.3–0:35.9). Lo dice él y la intro lo construye: primero los premios (texto + estrellas), después «no son los premios, sino toda la historia» (5,9 s sin un solo gráfico) y entonces las fotos de familia.",
+    "tono": "Cercano y de admiración, con humor propio y sin burla: chiste del anillo y «Vito Corleone» (0:57–1:03), «trufa al fallo» (23:41), «el cigala» (25:38), «comérculos» (22:41). El montaje deja respirar a los hermanos Roca (planos largos, subtítulos) y acelera cuando Nil está solo.",
+    "gancho_5s": "f0–f166 (0:00.00–0:05.54): Nil ya hablando, sin saludo, con un zoom-out animado de ×1,337 a ×1,0 en 34 f y dos franjas de vídeo de otros vídeos del canal que suben por detrás de él en «hemos visitado muchos restaurantes premiados» (f35) y «hemos conocido algunos de los chefs más importantes del mundo» (f113). Es credencial, no promesa: «sé de qué hablo».",
+    "gancho_30s": "0:06.97 ráfaga de 5 platos del menú (14–31 f cada uno) sobre «lo que vais a ver hoy creo que es diferente»; 0:11.34 punch-in animado ×1,33 + texto «EL MEJOR RESTAURANTE DEL MUNDO» palabra a palabra; 0:12.95 tres estrellas Michelin por detrás de él que se encienden 1-2-3 con un «ding» (0:14.14); 0:16.75–0:22.6 giro sin gráficos («no son los premios, sino toda la historia»); 0:22.66–0:29.3 tres fotos de archivo y tres planos de documental, uno por idea; 0:29.33 «agarren palomitas».",
+    "preguntas_abiertas": [
+      "0:06.97 «lo que vais a ver hoy creo que es diferente» → ¿en qué? (se contesta en 0:16.75–0:22.6: la historia)",
+      "0:22.66 «tres hermanos que en el mismo barrio de siempre…» → ¿quiénes son y cómo lo han hecho? (se contesta a trozos hasta el 4:50 y vuelve con cada hermano en persona: 6:52, 7:16, 29:30)",
+      "14:21 «no he querido ver ningún vídeo» + 14:48 «vamos a por 32 platos, a ver qué pasa… no voy a leerlo para no spoilear» → la pregunta que sostiene los 14,5 min de menú",
+      "El precio no se dice en ningún momento del vídeo (la única cifra de dinero es «un menú por 14 euros» del bar de los padres, 1:09.2)"
+    ],
+    "giros": [
+      "0:16.75 «Pero lo que más me emociona… no son los premios, sino toda la historia que hay detrás»: el vídeo pasa de «el mejor» a «la familia»",
+      "3:58 Soul abre La Masia: de contar desde fuera a estar dentro",
+      "7:16 aparece Joan Roca: el ritmo cae de 21 a 8,9 cortes/min",
+      "14:28 se sienta: del recorrido a la reacción plato a plato",
+      "20:25 «es el primer plato que no me gusta» (gazpacho): rompe la racha de elogios y le da crédito a los siguientes"
+    ],
+    "recompensas": [
+      "1:01.2 el anillo a cámara («casi le beso el anillo»)",
+      "6:52 Jordi Roca recibe en persona",
+      "7:35 nota del editor en el subtítulo: «17 aperitivos» corregido a «16* aperitivos»",
+      "12:48–12:52 travelling por el pasillo de botellas con música",
+      "17:56–18:10 la primera ostra de su vida («y seguramente la última») → «Es una locura»",
+      "18:58–19:08 la cuchara de cítrico: primerísimo plano de muecas y «¿Qué es esta m**rda?»",
+      "26:27 «Increíble, 9,75»; 27:31 «un sólido 8 de té negro con leche»",
+      "28:58–29:28 la experiencia de realidad virtual y la noria de bombones",
+      "29:30–30:17 Jordi sentado a su lado comentando los postres"
+    ]
+  },
+  "curva_energia": [
+    {
+      "minuto": 0,
+      "nivel": 5,
+      "motivo": "intro: 18 ilustraciones en 36 s, 37,5 cortes/min, 13 efectos de sonido y montaje final con música a nivel de voz"
+    },
+    {
+      "minuto": 1,
+      "nivel": 4,
+      "motivo": "historia del bar de los padres con 7 planos de recurso de 1,0–1,8 s, chiste del anillo (0:57–1:03) y 19–20 cortes/min con jump cuts"
+    },
+    {
+      "minuto": 2,
+      "nivel": 3,
+      "motivo": "selfie andando por el barrio; sube en 2:30.6 con el montaje de «LA MASIA» y la música de golpe (3,9 s)"
+    },
+    {
+      "minuto": 3,
+      "nivel": 3,
+      "motivo": "Nil agachado explica el equipo; píldora «nil ✓» (3:31) y mapa de Girona (3:34.8) con «ding»"
+    },
+    {
+      "minuto": 4,
+      "nivel": 3,
+      "motivo": "Soul abre, pizarra «Benvinguts», los tres hermanos; plano general sin voz 4:50–4:55"
+    },
+    {
+      "minuto": 5,
+      "nivel": 3,
+      "motivo": "I+D y destilería en selfie, 237 palabras/min; píldora «nil ✓» (5:44) e inserto de vídeo de Jordi (5:48)"
+    },
+    {
+      "minuto": 6,
+      "nivel": 4,
+      "motivo": "llegada al Celler, captura de la web a pantalla completa (6:23.6) y Jordi Roca recibe (6:52) con subtítulos"
+    },
+    {
+      "minuto": 7,
+      "nivel": 3,
+      "motivo": "cocina con Joan: subtítulos-dato («16* aperitivos», «12 platos», «3 postres»), plano de 38,8 s"
+    },
+    {
+      "minuto": 8,
+      "nivel": 2,
+      "motivo": "Joan explica: plano de 30,3 s (8:34.8), 4 cortes del detector en el minuto"
+    },
+    {
+      "minuto": 9,
+      "nivel": 3,
+      "motivo": "píldoras «ZONA DE ACABADOS» (9:06) y «ZONA DE PASTELERIA» (9:36) con ding; «estás haciendo spoiler del menú» (9:47)"
+    },
+    {
+      "minuto": 10,
+      "nivel": 2,
+      "motivo": "«ZONA DE PRODUCCION» (10:14); planos de 15,6 y 14,4 s"
+    },
+    {
+      "minuto": 11,
+      "nivel": 3,
+      "motivo": "fin de la cocina (plano de 25,4 s) y selfie con Jordi que se va (11:50)"
+    },
+    {
+      "minuto": 12,
+      "nivel": 3,
+      "motivo": "bodega: foto de archivo (12:28) y travelling de botellas con música sin voz (12:48–12:52)"
+    },
+    {
+      "minuto": 13,
+      "nivel": 3,
+      "motivo": "bodega y paso a la sala; 9 jump cuts en el minuto"
+    },
+    {
+      "minuto": 14,
+      "nivel": 4,
+      "motivo": "la mesa: plato grabado de 25 kg, rueda de conceptos (14:38.6) y punch-in a los ojos en «vamos a por 32 platos» (14:48.7)"
+    },
+    {
+      "minuto": 15,
+      "nivel": 3,
+      "motivo": "primer pase («MAGIA Y TRANSVERSALIDAD», 15:14) y Soul: «No me sabe a seta.» (15:59)"
+    },
+    {
+      "minuto": 16,
+      "nivel": 3,
+      "motivo": "4 cartelas en 20 s (Tradición 16:02, Memoria 16:10, Academicismo 16:16, Producto 16:22); «es una locura» (16:41)"
+    },
+    {
+      "minuto": 17,
+      "nivel": 4,
+      "motivo": "Paisaje, Poesía, Vino; en 17:56 anuncia la primera ostra de su vida"
+    },
+    {
+      "minuto": 18,
+      "nivel": 5,
+      "motivo": "pico: se come la ostra (18:02.7) en un plano fijo de 10,2 s y punch-in de 0,7 s en «Es una locura» (18:06.5); cítrico y muecas en primerísimo plano (18:58)"
+    },
+    {
+      "minuto": 19,
+      "nivel": 4,
+      "motivo": "remate del cítrico («¿Qué es esta m**rda?» 19:07.8) y 3 cartelas (Libertad, Atrevimiento, Perfume)"
+    },
+    {
+      "minuto": 20,
+      "nivel": 4,
+      "motivo": "Sentido de humor, Cromatismo, Dulce; «es el primer plato que no me gusta» (20:25–20:36); 19 cortes del detector, el minuto más cortado del cuerpo"
+    },
+    {
+      "minuto": 21,
+      "nivel": 2,
+      "motivo": "pan y «Fresco y maduro»; valle: «no ha sido mi favorito» (21:52)"
+    },
+    {
+      "minuto": 22,
+      "nivel": 3,
+      "motivo": "Guisantes, Pétalos; broma «comérculos» (22:41) con inserto de primerísimo plano (22:54.5)"
+    },
+    {
+      "minuto": 23,
+      "nivel": 3,
+      "motivo": "la trufa se corta en la mesa (3 ángulos, 5 s sin voz 23:25–23:30); «trufa al fallo» (23:41)"
+    },
+    {
+      "minuto": 24,
+      "nivel": 3,
+      "motivo": "Gnoqui, Cococha, Gamba; plano de Soul (24:16)"
+    },
+    {
+      "minuto": 25,
+      "nivel": 3,
+      "motivo": "Lenguado, Cigala; chiste «el cigala» (25:38) y nota «8,95» (25:50)"
+    },
+    {
+      "minuto": 26,
+      "nivel": 4,
+      "motivo": "Raviolis, Tatín, Torrija; «Increíble, 9,75» (26:27); sorbete de lápiz (26:50)"
+    },
+    {
+      "minuto": 27,
+      "nivel": 3,
+      "motivo": "«Sabe a madera.» (Soul, 27:07); té negro con leche y píldora «nil ✓» (27:14); «un sólido 8» (27:31)"
+    },
+    {
+      "minuto": 28,
+      "nivel": 3,
+      "motivo": "Manzana verde, Coliflor, Perfume trinitario; en 28:58 empieza la realidad virtual"
+    },
+    {
+      "minuto": 29,
+      "nivel": 4,
+      "motivo": "noria de bombones y Jordi Roca en la mesa, subtitulado entero (29:30–30:17)"
+    },
+    {
+      "minuto": 30,
+      "nivel": 3,
+      "motivo": "despedida de Jordi, corte al exterior con música (30:18.7), Laia y botón de suscripción (30:33.0)"
+    }
+  ],
+  "picos_y_preparacion": [
+    "Pico 1 (0:11.34–0:16.4): se prepara con 10 s de credenciales; el punch-in animado ×1,33 cae en «el MEJOR» (f340–350), el texto se escribe 0–7 f antes de cada palabra y las estrellas se encienden en «tres» (f421) con el ding de 0:14.14. Después, 5,9 s sin nada.",
+    "Pico 2 (17:56.2–18:07.2, la ostra): 6,5 s de anuncio en el mismo plano fijo («primera vez en mi vida… y seguramente la última»), se la come en 18:02.7, 3 s de silencio masticando (voz < −40 dB 18:03–18:06, sin música) y el remate «Es una locura» con punch-in por corte ×1,5–1,6 de 0,7 s (18:06.5–18:07.1). Ni texto ni efecto.",
+    "Pico 3 (18:58–19:08, el cítrico): el plano ya es un primerísimo plano (≈ ×1,6–1,8 respecto al plano medio de mesa) y dura 10 s de muecas; el único añadido es el subtítulo censurado «¿Qué es esta m**rda?» (19:07.8).",
+    "Valle con función (20:25–20:36): «es el primer plato que no me gusta» va en plano medio sin punch-in ni gráfico: el montaje no lo subraya, lo deja pasar.",
+    "Regla que se repite: el pico se sostiene en un plano y se remata con UN corte de escala; la preparación es hablada y sin música."
+  ],
+  "ritmo_informacion": "178 palabras/min de media (225–260 en los 4 primeros minutos; 102–160 en el menú, donde la camarera y el masticar ocupan sitio). Algo nuevo cada 28 s en el menú (31 cartelas en 14,5 min), cada 30–100 s en la cocina (3 zonas rotuladas en 4,5 min) y cada 6–8 s en la historia inicial (un plano de recurso por idea: 7 en 9,8 s en 0:47.8–0:57.6). Sin voz solo 60 s (3,3 %): 15 huecos de 2–5 s, de los que 3 llevan música (0:36–0:40, 2:31–2:34, 12:49–12:52) y el resto son masticar o mirar. Solo habla 1 persona a la vez; cuando habla un Roca, Nil no interrumpe y el plano no se corta.",
+  "estructura": [
+    {
+      "desde": "0:00.00",
+      "hasta": "0:35.97",
+      "parte": "intro explicativa hablada",
+      "que_pasa": "credenciales → «hoy es diferente» → «el mejor restaurante del mundo» + 3 estrellas → giro a la historia → fotos y documental → «agarren palomitas… el Celler de Can Roca»"
+    },
+    {
+      "desde": "0:35.97",
+      "hasta": "0:41.64",
+      "parte": "montaje sin voz",
+      "que_pasa": "5 planos de sitio (26–44 f) cortados sobre los acentos de la música, que sube a nivel de voz; la voz del cuerpo entra 1,07 s antes del corte (J-cut)"
+    },
+    {
+      "desde": "0:41.64",
+      "hasta": "1:56",
+      "parte": "historia: el bar de los padres",
+      "que_pasa": "Nil en la calle; recursos sobre la voz (terraza, fachada, foto de hace 70 años, comedores), saludo al padre y chiste del anillo, menú de 14 €, foto de familia (1:24) y retrato de los 3 hermanos (1:28)"
+    },
+    {
+      "desde": "1:56",
+      "hasta": "2:30.6",
+      "parte": "selfie andando",
+      "que_pasa": "el barrio y cómo conocen a Jordi; 6 jump cuts en 15 s"
+    },
+    {
+      "desde": "2:30.6",
+      "hasta": "2:34.4",
+      "parte": "montaje de transición",
+      "que_pasa": "cartel «LA MASIA (I+R)» y camino, 3,9 s sin voz con música que arranca de golpe en el corte"
+    },
+    {
+      "desde": "2:34.4",
+      "hasta": "3:57",
+      "parte": "La Masia desde fuera",
+      "que_pasa": "100 personas, turnos, huerto; píldora «nil ✓» (3:31) y mapa de Girona (3:34.8–3:39.3)"
+    },
+    {
+      "desde": "3:58",
+      "hasta": "6:02",
+      "parte": "dentro de La Masia",
+      "que_pasa": "Soul abre; los tres hermanos; plano general sin voz (4:50–4:55); I+D y destilería en selfie; píldora «nil ✓» (5:44)"
+    },
+    {
+      "desde": "6:02",
+      "hasta": "6:52",
+      "parte": "llegada al Celler",
+      "que_pasa": "«el castillito»; captura de la web «Universo Roca» a pantalla completa (6:23.6–6:27.2)"
+    },
+    {
+      "desde": "6:52",
+      "hasta": "7:16",
+      "parte": "Jordi recibe",
+      "que_pasa": "pasillo; subtítulos a Jordi"
+    },
+    {
+      "desde": "7:16",
+      "hasta": "11:49",
+      "parte": "cocina con Joan Roca",
+      "que_pasa": "estructura del menú (subtítulos-dato), 3 zonas con píldora y ding, planos de 25–39 s"
+    },
+    {
+      "desde": "11:49",
+      "hasta": "14:28",
+      "parte": "bodega y sala",
+      "que_pasa": "selfie con Jordi, sumiller, foto de archivo (12:28), travelling de botellas con música (12:48–12:52), la mesa"
+    },
+    {
+      "desde": "14:28",
+      "hasta": "28:58",
+      "parte": "el menú",
+      "que_pasa": "32 pases: plato en primer plano con la voz de la camarera → cartela → Nil escucha → prueba → reacción; rueda de conceptos (14:38.6); 31 cartelas; ostra (17:56), cítrico (18:58), gazpacho (20:25), trufa en mesa (23:25), notas habladas"
+    },
+    {
+      "desde": "28:58",
+      "hasta": "29:30",
+      "parte": "experiencia final",
+      "que_pasa": "realidad virtual y noria de bombones"
+    },
+    {
+      "desde": "29:30",
+      "hasta": "30:18.7",
+      "parte": "Jordi en la mesa",
+      "que_pasa": "charla sobre los postres, subtitulada entera a Jordi"
+    },
+    {
+      "desde": "30:18.7",
+      "hasta": "30:42.3",
+      "parte": "cierre",
+      "que_pasa": "corte al aparcamiento con música, Laia (fan), despedida y botón de suscripción; sin pantalla final"
+    }
+  ],
+  "intro": {
+    "tipo": "explicativa",
+    "por_que_ese_tipo": "No enseña lo que va a pasar (0 reacciones, 0 momentos del cuerpo salvo 5 platos sin cara) sino que EXPLICA por qué importa el sitio y qué se viene a hacer: 35,97 s de Nil a cámara, 135 palabras en 5 frases, cada afirmación con su prueba visual. Funciona porque el interés aquí no es un momento espectacular (comer no lo es) sino un contexto: el «mejor restaurante del mundo» necesita credenciales, premios e historia antes de que nadie pruebe nada. Un tráiler de caras comiendo no retendría; una explicación con 6 bloques de ilustración en 28,2 s (uno cada 4,7 s) sí. Es la plantilla de Nil OGT: hablar desde el fotograma 0, ilustrar al milímetro, callar los gráficos en la frase que da el giro y cerrar con un montaje sin voz.",
+    "duracion_s": 41.64,
+    "duracion_f": 1248,
+    "duracion_hablada_s": 35.97,
+    "primer_plano_hablando_s": 0.0,
+    "orden": "0) habla desde f0 con zoom-out animado → 1) credencial 1 (franja de vídeo por detrás) → 2) credencial 2 (franja) → 3) frase puente a cámara → 4) promesa «hoy es diferente» con ráfaga de 5 platos y cortinilla → 5) premisa «el mejor restaurante del mundo» (punch-in animado + texto + 3 estrellas con ding) → 6) GIRO a cámara sin gráficos, 5,9 s («no son los premios, sino la historia») → 7) la historia en 3 fotos + 3 planos de documental, entra la música → 8) invitación a cámara («agarren palomitas») y nombre del sitio con punch-in → 9) montaje sin voz de 5 planos con música arriba → J-cut al cuerpo («Bueno, voy…»).",
+    "sin": "sin saludo, sin título ni cabecera, sin logo, sin tráiler de reacciones, sin estrobo ni micro-flashes (cortes_rafagas.json: 0 cortes en ráfaga hasta 0:42), sin cifras, sin mapa, sin subtítulos, sin chiste, sin música durante los primeros 22,4 s",
+    "medidas": {
+      "planos": "24 planos contados fotograma a fotograma (21 según el detector, que no ve f83 ni f237); con 3–4 jump cuts probables dentro de las tomas largas, 27",
+      "cortes_por_minuto": "28,8 (detector) · 37,5 con jump cuts",
+      "plano_mediana_s": 1.13,
+      "menos_de_1s_pct": 33,
+      "ilustraciones": "6 bloques de ilustración en los 28,2 s que van de f35 a f878 (uno cada 4,7 s), con 13 clips o imágenes ajenas al plano de Nil dentro de ellos (2 franjas, 5 platos, 3 fotos, 3 de documental) y 5 planos más en el montaje final",
+      "tiempo_a_camara_sin_nada": "≈ 17,6 s de los 35,97 hablados (49 %): f0–34, f83–112, f167–208, f305–339, f494–678, f879–1077",
+      "tiempo_con_grafico_o_inserto": "≈ 18,4 s (51 %): franjas 102 f, platos y cortinilla 96 f, texto y estrellas 154 f, fotos y documental 200 f",
+      "sincronia": "el texto se escribe 0–7 f ANTES de cada palabra; el destello de las estrellas cae en el mismo fotograma de «tres» (f421); las fotos entran entre 3 f antes y 3 f después de su palabra (f679/«tres» f682, f711/«mismo» f708, f744/«después» f744) y los clips de documental 5–14 f antes (f781/«siguen» f786, f803/«nivel» f811, f828/«gastronomía» f842); las franjas, ≈ 12 f después del verbo («visitado» f23 → franja f35) porque acompañan al sustantivo",
+      "musica": "silencio 0:00–0:22.4; fundido −42 → −30 dB bajo la voz (voz −20 dB) entre 0:22.4 y 0:35.9; −22 dB (= voz) en el montaje 0:36–0:40; fuera en 0:40.7",
+      "efectos": "13 confirmados en 41,6 s (18,7/min): 4 whoosh, 2 ding, 7 clicks"
+    },
+    "animaciones_explicativas": [
+      {
+        "n": 1,
+        "t": "0:01.17–0:02.77",
+        "frase": "«hemos VISITADO (f23) muchos RESTAURANTES (f47) PREMIADOS (f68)»",
+        "que_es": "FRANJA DE VÍDEO 1: una banda horizontal a todo el ancho con un clip de otro vídeo del canal (un plato rosa y Nil con jersey verde comiendo) que pasa POR DETRÁS de Nil",
+        "f0": 35,
+        "f1": 82,
+        "duracion_f": 48,
+        "entrada": "sube desde el borde inferior: aparece f35, en f38 su centro va por el 54 % de la altura, asentada f46 (≈ 12 f)",
+        "movimiento": "quieta una vez asentada; el clip de dentro se mueve",
+        "salida": "f72–82: desenfoque progresivo + opacidad a 0 (11 f)",
+        "curva": "frenada (ease-out), sin rebote",
+        "posicion": "banda de borde a borde, de y ≈ 27 % a y ≈ 77 % de la altura; la cabeza de Nil queda por encima y su cuerpo la tapa",
+        "tamano": "100 % del ancho × ≈ 50 % de la altura",
+        "color": "el del clip; sin marco ni sombra apreciable",
+        "fuente": "—",
+        "como_esta_hecha": "recorte de persona (máscara/rotoscopia de Nil sobre su propio plano) + capa de vídeo metida entre el fondo y él; el clip es archivo de otro vídeo del canal",
+        "sfx": "ninguno confirmado: energía grave 0:01.2–0:01.6 en el espectrograma (ver dudas)"
+      },
+      {
+        "n": 2,
+        "t": "0:03.77–0:05.57",
+        "frase": "«hemos CONOCIDO (f91) algunos de los CHEFS (f120) más importantes del mundo»",
+        "que_es": "FRANJA DE VÍDEO 2: el mismo recurso, con Nil (camisa azul claro) entre 3–4 cocineros en una cocina profesional",
+        "f0": 113,
+        "f1": 166,
+        "duracion_f": 54,
+        "entrada": "aparece f113, asentada f123 (10–11 f), subiendo desde abajo",
+        "movimiento": "quieta; el plano base se reencuadra ≈ ×1,1→×1,0",
+        "salida": "f158–166 desenfoque + fundido (9 f); termina en el corte f167",
+        "curva": "frenada (ease-out)",
+        "posicion": "y ≈ 27–75 %",
+        "tamano": "100 % × ≈ 48 %",
+        "color": "el del clip",
+        "fuente": "—",
+        "como_esta_hecha": "igual que la 1: máscara de persona + clip de archivo del canal por detrás",
+        "sfx": "ninguno confirmado (candidatos #1 y #2, 0:03.62 y 0:03.88, demasiado flojos)"
+      },
+      {
+        "n": 3,
+        "t": "0:06.97–0:10.18",
+        "frase": "«lo que vais a ver hoy creo que es DIFERENTE (f249)»",
+        "que_es": "RÁFAGA DE 5 PLATOS del menú a pantalla completa y cortinilla de vuelta",
+        "f0": 209,
+        "f1": 304,
+        "duracion_f": 96,
+        "entrada": "por corte seco en f209 (1 f después de «pero», f210 «lo»)",
+        "movimiento": "5 planos de 14 · 14 · 14 · 17 · 31 f; el primero con zoom-out −15 %/s y el último con +4,3 %/s",
+        "salida": "f299–304 cortinilla de empuje hacia abajo de 6 f: el último plato se inclina ≈ 5° y cae; Nil entra desde arriba; limpio en f305",
+        "curva": "cortes secos; la cortinilla acelera",
+        "posicion": "pantalla completa",
+        "tamano": "100 %",
+        "color": "platos sobre fondo oscuro o mantel blanco, sin tratamiento",
+        "fuente": "—",
+        "como_esta_hecha": "planos del propio rodaje (los pases de 23:40–25:15, en el mismo orden en que salen después) montados a ≈ 2 planos por segundo; cortinilla de plantilla (push/slide con giro)",
+        "sfx": "WHOOSH 0:06.70–0:07.10 en el corte de entrada (−19 dB respecto a la voz; visto en espectrograma propio, el detector no lo propone)"
+      },
+      {
+        "n": 4,
+        "t": "0:11.34–0:16.45",
+        "frase": "«el MEJOR (f346) RESTAURANTE (f353) DEL (f370) MUNDO (f376)»",
+        "que_es": "PUNCH-IN ANIMADO + TEXTO CINÉTICO «EL MEJOR RESTAURANTE DEL MUNDO»: lo más parecido a un título que tiene el vídeo",
+        "f0": 340,
+        "f1": 493,
+        "duracion_f": 154,
+        "entrada": "punch-in ×1,0→×1,33 en f340–350; el texto se escribe palabra a palabra, cada una pasa de gris translúcido a blanco en 4–5 f sin moverse ni escalar: EL f343→347 · MEJOR f346→351 · RESTAURANTE f353→358 · DEL f365→370 · MUNDO f369→374. Cada palabra escrita empieza 0–7 f ANTES de oírse",
+        "movimiento": "ninguno: el texto se queda quieto 107 f mientras detrás cambia el plano (punch-out por corte en f386) y suben las estrellas",
+        "salida": "f481–493 desenfoque + fundido (≈ 12 f), a la vez que bajan las estrellas",
+        "curva": "fundido lineal por palabra; punch-in con frenada",
+        "posicion": "una línea abajo al centro, de x 125 a x 1795 (87 % del ancho), centro en y ≈ 89 %",
+        "tamano": "altura de mayúscula ≈ 55 px = 5,1 % de la altura",
+        "color": "blanco #FFFFFF con sombra suave, sin borde ni caja",
+        "fuente": "grotesca negrita en mayúsculas. fuente_rotulo.py --color #FFFFFF: Figtree 800 (+0,582) · Inter Tight 600 (+0,573) · Outfit 700 (+0,572)",
+        "como_esta_hecha": "tipografía cinética simple: revelado por palabra con opacidad; el punch-in es un fotograma clave de escala sobre el plano",
+        "sfx": "ninguno en el texto"
+      },
+      {
+        "n": 5,
+        "t": "0:12.95–0:16.35",
+        "frase": "«un restaurante premiado (f405) con TRES (f421) ESTRELLAS (f427) MICHELIN (f439)»",
+        "que_es": "3 ESTRELLAS MICHELIN (la flor de 6 pétalos) en contorno rojo que suben POR DETRÁS de Nil y se encienden contando 1-2-3",
+        "f0": 388,
+        "f1": 490,
+        "duracion_f": 103,
+        "entrada": "suben desde el borde inferior: estrella 1 aparece f388 y se asienta f397–399 (10–11 f); estrella 2 f401→f408 (8 f); estrella 3 f405→f418 (≈ 14 f). El fondo (no Nil) se oscurece al ≈ 45–50 % con algo de desenfoque en f403–411 (8 f). Las 3 están en su sitio 2 f antes de «tres»",
+        "movimiento": "DESTELLO DE CUENTA: la estrella 1 salta a BLANCO en f421 (= «tres»), 4 f blanca y vuelve al rojo pasando por rosa en ≈ 12 f (f437); la 2 en f425 (vuelve ≈ f441); la 3 en f430 (≈ f447). Intervalos de 4 y 5 f, con halo suave",
+        "salida": "f479–490 bajan y salen por abajo (≈ 10 f, acelerando); el fondo se aclara f479–488; limpio en f494",
+        "curva": "entrada con frenada, salida acelerando; sin rebote",
+        "posicion": "izquierda x 55–600, y 245–835 · centro x 690–1235, y 20–520 (detrás de la cabeza) · derecha x 1305–1850, y 245–835: triángulo alrededor de la cabeza",
+        "tamano": "545×590 px cada una = 28 % del ancho × 55 % de la altura; trazo ≈ 40 px (3,7 % de la altura), interior transparente",
+        "color": "rojo ≈ #D4002F; blanco en el destello",
+        "fuente": "— (icono)",
+        "como_esta_hecha": "icono vectorial en contorno + máscara de persona (las estrellas detrás de Nil, el texto por delante) + capa de oscurecido del fondo; el destello es un cambio de color con 4 f de espera entre estrellas",
+        "sfx": "DING/destello agudo 0:14.14–0:14.70 (parciales en 2732 y 8189 Hz), −13 dB respecto a la voz; confirmado en sfx_hoja_00 #3. La misma muestra se reutiliza en las 3 píldoras de zona del cuerpo"
+      },
+      {
+        "n": 6,
+        "t": "0:22.66–0:29.33",
+        "frase": "«TRES HERMANOS (f682–686) que en el MISMO BARRIO (f708–716) de siempre, DESPUÉS (f744) de muchos años, SIGUEN (f786) manteniendo el NIVEL (f811) más alto de la GASTRONOMÍA (f842) MUNDIAL (f860)»",
+        "que_es": "3 FOTOS DE ARCHIVO en blanco y negro + 3 PLANOS DE DOCUMENTAL, a pantalla completa, uno por idea",
+        "f0": 679,
+        "f1": 878,
+        "duracion_f": 200,
+        "entrada": "por corte seco; las fotos entran entre 3 f antes y 3 f después de su palabra (foto 1 f679 / «tres» f682; foto 2 f711 / «mismo» f708; foto 3 f744 / «después» f744) y los clips de documental 5–14 f antes (f781 / «siguen» f786; f803 / «nivel» f811; f828 / «gastronomía» f842)",
+        "movimiento": "ninguno: las fotos van FIJAS (medir_zoom 0,0 %/s), sin Ken Burns",
+        "salida": "por corte seco a Nil en f879",
+        "curva": "—",
+        "posicion": "pantalla completa",
+        "tamano": "100 %",
+        "color": "fotos en blanco y negro; documental en color con su logo «R» dorado arriba a la derecha",
+        "fuente": "—",
+        "como_esta_hecha": "insertos ajenos: fotos del archivo familiar (32 · 33 · 37 f) y clips de un documental externo (22 · 25 · 51 f)",
+        "sfx": "DING de 3 parciales (≈ 2,3 / 4,4 / 7 kHz) 0:22.40–0:22.85, justo antes de la primera foto (−19 dB); WHOOSH 0:25.85–0:26.20 al pasar de fotos a documental; CLICK seco en 0:26.10, 0:26.85 y 0:27.68, 1–2 f después de cada corte de documental (−13 / −20 / −16 dB; sfx_hoja_00 #7–#8). La música entra en fundido bajo la primera foto"
+      },
+      {
+        "n": 7,
+        "t": "0:35.97–0:41.64",
+        "frase": "(sin voz; viene de «…del Celler de Can Roca», f1068)",
+        "que_es": "MONTAJE SIN VOZ de 5 planos del sitio con la música arriba: enseña lo que acaba de nombrar y hace de cabecera",
+        "f0": 1078,
+        "f1": 1247,
+        "duracion_f": 170,
+        "entrada": "por corte en f1078, 10 f después de «Roca»",
+        "movimiento": "5 planos de 34 · 26 · 33 · 33 · 44 f; empujes digitales +12 %/s, 0, 0, +4,4 %/s y +2,1 %/s. Los cortes caen 0,09–0,10 s ANTES de cada acento de la música (cortes 0:35.97 · 0:37.10 · 0:37.97 · 0:39.07 · 0:40.17; acentos 0:36.06 · 0:37.20 · 0:38.06 · 0:39.17)",
+        "salida": "por corte en f1248 al primer plano del cuerpo; la voz ya ha entrado en f1216 (J-cut de 32 f)",
+        "curva": "empujes lineales",
+        "posicion": "pantalla completa",
+        "tamano": "100 %",
+        "color": "sin tratamiento",
+        "fuente": "— (el nombre del sitio se LEE en los planos 2 y 5: el cartel «Restaurant Can Roca» y la pared «EL CELLER DE CAN ROCA»)",
+        "como_esta_hecha": "planos fijos del sitio del propio rodaje + zoom digital lineal; música subida a −22 dB (= nivel de la voz)",
+        "sfx": "WHOOSH 0:35.85–0:36.20 + click 0:36.03; doble click fino tipo obturador en 0:37.17, 0:38.03 y 0:39.13 (uno por corte); WHOOSH 0:39.90–0:40.60 con el que se va la música (todos vistos en espectrograma propio, detalle/spec_intro_21-42.jpg)"
+      }
+    ],
+    "clips_rafaga_trailer": [
+      {
+        "t": "0:01.17–0:02.77 (f35–82)",
+        "sale_de": "otro vídeo del canal (archivo)",
+        "funcion": "promesa (credencial: «ya he estado en sitios así»)",
+        "que_se_ve": "dentro de la franja: plato rosa y Nil con jersey verde comiendo"
+      },
+      {
+        "t": "0:03.77–0:05.57 (f113–166)",
+        "sale_de": "otro vídeo del canal (archivo)",
+        "funcion": "promesa (credencial)",
+        "que_se_ve": "dentro de la franja: Nil con camisa azul entre cocineros"
+      },
+      {
+        "t": "0:06.97 (f209–222)",
+        "sale_de": "≈ 23:40 de este vídeo",
+        "funcion": "bonito",
+        "que_se_ve": "trufa sobre plato negro, cenital"
+      },
+      {
+        "t": "0:07.44 (f223–236)",
+        "sale_de": "≈ 24:02",
+        "funcion": "bonito",
+        "que_se_ve": "gnoqui de zanahoria"
+      },
+      {
+        "t": "0:07.91 (f237–250)",
+        "sale_de": "≈ 24:22",
+        "funcion": "bonito",
+        "que_se_ve": "cococha de merluza"
+      },
+      {
+        "t": "0:08.37 (f251–267)",
+        "sale_de": "≈ 24:44",
+        "funcion": "bonito",
+        "que_se_ve": "gamba de Palamós"
+      },
+      {
+        "t": "0:08.94 (f268–298)",
+        "sale_de": "25:10–25:15",
+        "funcion": "bonito + anticipa (una mano sirve: «vas a ver el servicio»)",
+        "que_se_ve": "lenguado, una mano coloca la copa"
+      },
+      {
+        "t": "0:22.66 (f679–710)",
+        "sale_de": "archivo familiar",
+        "funcion": "anticipa (los protagonistas)",
+        "que_se_ve": "foto en blanco y negro de los tres hermanos jóvenes"
+      },
+      {
+        "t": "0:23.72 (f711–743)",
+        "sale_de": "archivo familiar",
+        "funcion": "anticipa (el barrio)",
+        "que_se_ve": "niño en bici delante de «BAR RESTAURANT»"
+      },
+      {
+        "t": "0:24.82 (f744–780)",
+        "sale_de": "archivo familiar",
+        "funcion": "anticipa (el bar de los padres)",
+        "que_se_ve": "dos niños detrás de la barra"
+      },
+      {
+        "t": "0:26.06 (f781–802)",
+        "sale_de": "documental externo (logo «R»)",
+        "funcion": "anticipa (Joan, al que se verá en 7:16)",
+        "que_se_ve": "primer plano de Joan Roca en cocina"
+      },
+      {
+        "t": "0:26.79 (f803–827)",
+        "sale_de": "documental externo",
+        "funcion": "bonito",
+        "que_se_ve": "primerísimo plano a través de un cristal"
+      },
+      {
+        "t": "0:27.63 (f828–878)",
+        "sale_de": "documental externo",
+        "funcion": "bonito",
+        "que_se_ve": "pan de oro sobre una esfera de chocolate"
+      },
+      {
+        "t": "0:35.97 (f1078–1111)",
+        "sale_de": "≈ 6:02–6:06",
+        "funcion": "bonito",
+        "que_se_ve": "la casa del Celler en contrapicado"
+      },
+      {
+        "t": "0:37.10 (f1112–1137)",
+        "sale_de": "≈ 0:47–0:50",
+        "funcion": "anticipa (el origen)",
+        "que_se_ve": "cartel «Restaurant Can Roca»"
+      },
+      {
+        "t": "0:37.97 (f1138–1170)",
+        "sale_de": "la terraza de la propia intro",
+        "funcion": "bonito",
+        "que_se_ve": "la terraza vacía"
+      },
+      {
+        "t": "0:39.07 (f1171–1203)",
+        "sale_de": "cocina, 7:16–11:48",
+        "funcion": "anticipa (la cocina)",
+        "que_se_ve": "cocineros emplatando bajo las lámparas"
+      },
+      {
+        "t": "0:40.17 (f1204–1247)",
+        "sale_de": "≈ 6:02 / 30:18",
+        "funcion": "promesa (nombra el sitio: hace de título)",
+        "que_se_ve": "pared de madera con «EL CELLER DE CAN ROCA»"
+      }
+    ],
+    "clips_rafaga_trailer_resumen": {
+      "total": 18,
+      "de_donde": "8 de este rodaje (5 platos + 3 sitios; 44 %), 2 del mismo sitio sin momento concreto (terraza, pared), 2 de otros vídeos del canal (11 %), 3 fotos de archivo (17 %), 3 de un documental externo (17 %)",
+      "funcion": "bonito 9 (50 %) · anticipa 6 (33 %) · promesa/credencial 3 (17 %) · llamativo 0",
+      "duraciones_f": "platos 14–31 (mediana 14) · fotos 32–37 · documental 22–51 · montaje final 26–44 (mediana 33)",
+      "que_nunca_entra": "ninguna cara comiendo ni reaccionando de este vídeo, ningún plano hablado del cuerpo, ningún hermano Roca en persona (solo en foto antigua y en documental), ningún paseo ni desplazamiento, ningún chiste. Del menú solo salen PLATOS (comida sin persona), y de los 5 últimos pases salados, no los postres ni la ostra: se guarda todos los picos.",
+      "orden": "los 5 platos salen en el mismo orden en que se sirven (23:40 → 25:15)"
+    },
+    "linea_de_tiempo": [
+      {
+        "f0": 0,
+        "f1": 82,
+        "dur_f": 83,
+        "t": "0:00.00–0:02.77",
+        "que_se_ve": "Nil en plano medio en la terraza del Celler (sombrillas, hiedra), gran angular del operador. f0–34 zoom-out animado; f35–82 FRANJA 1 por detrás de él",
+        "origen": "toma a cámara del rodaje + clip de otro vídeo del canal dentro de la franja",
+        "camara": "trípode/operador fijo",
+        "zoom_velocidad": "zoom-out digital ×1,337→×1,0 en 34 f, con frenada (ease-out): 1,0 · 0,982 · 0,96 · 0,938 · 0,921 · 0,904 · 0,887 · 0,872 · 0,86 · 0,847 · 0,838 · 0,827 … 0,748 de la escala inicial",
+        "texto": "—",
+        "motion_graphic": "franja 1 (ver animaciones_explicativas #1)",
+        "sfx": "ninguno confirmado (energía grave 0:00.06–0:01.45, ver dudas)",
+        "musica": "sin música",
+        "voz": "«En este canal hemos visitado (f23) muchos restaurantes (f47) premiados (f68),»"
+      },
+      {
+        "f0": 83,
+        "f1": 166,
+        "dur_f": 84,
+        "t": "0:02.77–0:05.57",
+        "que_se_ve": "JUMP CUT a la toma 2 (manos juntas), mismo encuadre; el plano base se recoloca ≈ ×1,1→×1,0; f113–166 FRANJA 2",
+        "origen": "toma a cámara + clip de otro vídeo del canal",
+        "camara": "fijo",
+        "zoom_velocidad": "reencuadre ≈ ×1,1→×1,0",
+        "texto": "—",
+        "motion_graphic": "franja 2 (#2)",
+        "sfx": "ninguno confirmado (candidatos #1/#2 flojos)",
+        "musica": "sin música",
+        "voz": "«hemos conocido (f91) algunos de los chefs (f120) más importantes del mundo (f158),»"
+      },
+      {
+        "f0": 167,
+        "f1": 208,
+        "dur_f": 42,
+        "t": "0:05.57–0:06.97",
+        "que_se_ve": "corte a plano más cerrado de Nil (punch-in por corte), fijo",
+        "origen": "toma a cámara",
+        "camara": "fijo",
+        "zoom_velocidad": "ninguno",
+        "texto": "—",
+        "motion_graphic": "—",
+        "sfx": "—",
+        "musica": "sin música",
+        "voz": "«sabéis que nos gusta comer bien (f200), pero (f210)»"
+      },
+      {
+        "f0": 209,
+        "f1": 222,
+        "dur_f": 14,
+        "t": "0:06.97–0:07.44",
+        "que_se_ve": "plato 1: trufa en plato negro, cenital (14 f)",
+        "origen": "del menú de este vídeo, ≈ 23:40",
+        "camara": "a mano",
+        "zoom_velocidad": "zoom-out −15 %/s",
+        "texto": "—",
+        "motion_graphic": "ráfaga de platos (#3)",
+        "sfx": "WHOOSH 0:06.70–0:07.10 (máximo en el corte f209), −19 dB respecto a la voz",
+        "musica": "sin música",
+        "voz": "«lo (f213) que (f216) vais (f219)»"
+      },
+      {
+        "f0": 223,
+        "f1": 236,
+        "dur_f": 14,
+        "t": "0:07.44–0:07.91",
+        "que_se_ve": "plato 2: gnoqui de zanahoria (14 f)",
+        "origen": "≈ 24:02",
+        "camara": "a mano",
+        "zoom_velocidad": "leve",
+        "texto": "—",
+        "motion_graphic": "#3",
+        "sfx": "—",
+        "musica": "sin música",
+        "voz": "«a (f223) ver (f226) hoy (f230) creo (f234)»"
+      },
+      {
+        "f0": 237,
+        "f1": 250,
+        "dur_f": 14,
+        "t": "0:07.91–0:08.38",
+        "que_se_ve": "plato 3: cococha de merluza (14 f); el detector normal no ve este corte",
+        "origen": "≈ 24:22",
+        "camara": "a mano",
+        "zoom_velocidad": "leve",
+        "texto": "—",
+        "motion_graphic": "#3",
+        "sfx": "—",
+        "musica": "sin música",
+        "voz": "«que (f242) es (f245) diferente (f249)»"
+      },
+      {
+        "f0": 251,
+        "f1": 267,
+        "dur_f": 17,
+        "t": "0:08.38–0:08.94",
+        "que_se_ve": "plato 4: gamba de Palamós (17 f)",
+        "origen": "≈ 24:44",
+        "camara": "a mano",
+        "zoom_velocidad": "leve",
+        "texto": "—",
+        "motion_graphic": "#3",
+        "sfx": "—",
+        "musica": "sin música",
+        "voz": "(cola de «diferente»)"
+      },
+      {
+        "f0": 268,
+        "f1": 298,
+        "dur_f": 31,
+        "t": "0:08.94–0:09.98",
+        "que_se_ve": "plato 5: lenguado, una mano coloca la copa (31 f)",
+        "origen": "25:10–25:15 (comprobado: mismo plano con la cartela «Lenguado a la brasa» en 25:13.9)",
+        "camara": "a mano",
+        "zoom_velocidad": "+4,3 %/s",
+        "texto": "—",
+        "motion_graphic": "#3",
+        "sfx": "click fino 0:09.02 (la copa; directo o añadido, ver dudas)",
+        "musica": "sin música",
+        "voz": "«Este (f271) restaurante (f278) ha sido (f296)» — la voz de la frase siguiente entra sobre el último plato"
+      },
+      {
+        "f0": 299,
+        "f1": 304,
+        "dur_f": 6,
+        "t": "0:09.98–0:10.18",
+        "que_se_ve": "CORTINILLA de empuje hacia abajo (6 f): el plano del lenguado se inclina ≈ 5° y cae por abajo mientras Nil entra desde arriba",
+        "origen": "transición",
+        "camara": "—",
+        "zoom_velocidad": "—",
+        "texto": "—",
+        "motion_graphic": "cortinilla (#3, salida)",
+        "sfx": "golpe grave 0:10.05–0:10.20 (−10 dB; ver dudas)",
+        "musica": "sin música",
+        "voz": "«considerado (f304)»"
+      },
+      {
+        "f0": 305,
+        "f1": 339,
+        "dur_f": 35,
+        "t": "0:10.18–0:11.34",
+        "que_se_ve": "Nil plano medio abierto, fijo",
+        "origen": "toma a cámara",
+        "camara": "fijo",
+        "zoom_velocidad": "ninguno",
+        "texto": "—",
+        "motion_graphic": "—",
+        "sfx": "—",
+        "musica": "sin música",
+        "voz": "«varias (f321) veces (f330)»"
+      },
+      {
+        "f0": 340,
+        "f1": 385,
+        "dur_f": 46,
+        "t": "0:11.34–0:12.88",
+        "que_se_ve": "MISMO plano con PUNCH-IN ANIMADO f340–350 y sostenido hasta f385; desde f343 entra el texto",
+        "origen": "toma a cámara",
+        "camara": "fijo",
+        "zoom_velocidad": "zoom-in digital ×1,0→×1,33 en 10 f con frenada: 1,0 · 1,001 · 1,036 · 1,117 · 1,215 · 1,297 · 1,331",
+        "texto": "«EL MEJOR RESTAURANTE DEL MUNDO» palabra a palabra",
+        "motion_graphic": "texto cinético (#4)",
+        "sfx": "—",
+        "musica": "sin música",
+        "voz": "«el (f340) mejor (f346) restaurante (f353) del (f370) mundo (f376),»"
+      },
+      {
+        "f0": 386,
+        "f1": 501,
+        "dur_f": 116,
+        "t": "0:12.88–0:16.75",
+        "que_se_ve": "PUNCH-OUT por corte al plano abierto; el texto sigue; f388–490 las 3 estrellas por detrás de Nil; el fondo se oscurece f403–411",
+        "origen": "toma a cámara + iconos + máscara de persona",
+        "camara": "fijo",
+        "zoom_velocidad": "ninguno",
+        "texto": "el mismo texto hasta f493",
+        "motion_graphic": "estrellas Michelin (#5)",
+        "sfx": "DING/destello 0:14.14–0:14.70 (−13 dB respecto a la voz), confirmado en sfx_hoja_00 #3",
+        "musica": "sin música",
+        "voz": "«un (f390) restaurante premiado (f405) con (f415) tres (f421) estrellas (f427) Michelin (f439) y con muchos años detrás (f490).»"
+      },
+      {
+        "f0": 502,
+        "f1": 678,
+        "dur_f": 177,
+        "t": "0:16.75–0:22.66",
+        "que_se_ve": "jump cut a plano más cerrado (≈ ×1,35) con zoom-out lento; 5,9 s SIN gráficos",
+        "origen": "toma a cámara",
+        "camara": "fijo",
+        "zoom_velocidad": "zoom-out digital lento ×1,0→×0,942 (−1,0 %/s), lineal",
+        "texto": "—",
+        "motion_graphic": "ninguno (a propósito)",
+        "sfx": "—",
+        "musica": "sin música",
+        "voz": "«Pero (f505) lo que más me emociona (f521) de este restaurante y del vídeo que vamos a hacer hoy no son los premios (f611), sino toda la historia (f649) que hay detrás (f667).»"
+      },
+      {
+        "f0": 679,
+        "f1": 710,
+        "dur_f": 32,
+        "t": "0:22.66–0:23.72",
+        "que_se_ve": "FOTO 1 en blanco y negro: los tres hermanos jóvenes con chaquetilla (32 f), fija",
+        "origen": "archivo de la familia",
+        "camara": "—",
+        "zoom_velocidad": "ninguno (0,0 %/s)",
+        "texto": "—",
+        "motion_graphic": "fotos de archivo (#6)",
+        "sfx": "DING de 3 parciales 0:22.40–0:22.85 justo antes del corte (−19 dB)",
+        "musica": "la música entra en fundido desde ≈ 0:22.4 (−42 dB)",
+        "voz": "«Tres (f682) hermanos (f686) que»"
+      },
+      {
+        "f0": 711,
+        "f1": 743,
+        "dur_f": 33,
+        "t": "0:23.72–0:24.82",
+        "que_se_ve": "FOTO 2: un niño en bici delante de «BAR RESTAURANT» (33 f), fija",
+        "origen": "archivo",
+        "camara": "—",
+        "zoom_velocidad": "ninguno",
+        "texto": "—",
+        "motion_graphic": "#6",
+        "sfx": "—",
+        "musica": "música −41 dB",
+        "voz": "«en el mismo (f708) barrio (f716) de siempre (f730),»"
+      },
+      {
+        "f0": 744,
+        "f1": 780,
+        "dur_f": 37,
+        "t": "0:24.82–0:26.06",
+        "que_se_ve": "FOTO 3: dos niños detrás de la barra (37 f), fija",
+        "origen": "archivo",
+        "camara": "—",
+        "zoom_velocidad": "ninguno",
+        "texto": "—",
+        "motion_graphic": "#6",
+        "sfx": "—",
+        "musica": "música −40 dB",
+        "voz": "«después (f744) de muchos años (f767),»"
+      },
+      {
+        "f0": 781,
+        "f1": 802,
+        "dur_f": 22,
+        "t": "0:26.06–0:26.79",
+        "que_se_ve": "DOCUMENTAL 1: primer plano de Joan Roca en cocina (22 f); logo «R» dorado arriba a la derecha = metraje ajeno",
+        "origen": "documental externo",
+        "camara": "cámara de cine, fija",
+        "zoom_velocidad": "ninguno",
+        "texto": "—",
+        "motion_graphic": "#6",
+        "sfx": "WHOOSH 0:25.85–0:26.20 + CLICK 0:26.10 (1 f después del corte), −13 dB; sfx_hoja_00 #7",
+        "musica": "música −39 dB",
+        "voz": "«siguen (f786) manteniendo (f792)»"
+      },
+      {
+        "f0": 803,
+        "f1": 827,
+        "dur_f": 25,
+        "t": "0:26.79–0:27.63",
+        "que_se_ve": "DOCUMENTAL 2: primerísimo plano a través de un cristal (25 f)",
+        "origen": "documental externo",
+        "camara": "fija",
+        "zoom_velocidad": "ninguno",
+        "texto": "—",
+        "motion_graphic": "#6",
+        "sfx": "CLICK 0:26.85 (2 f después del corte), −20 dB; sfx_hoja_00 #8",
+        "musica": "música −36 dB",
+        "voz": "«el nivel (f811) más alto (f825)»"
+      },
+      {
+        "f0": 828,
+        "f1": 878,
+        "dur_f": 51,
+        "t": "0:27.63–0:29.33",
+        "que_se_ve": "DOCUMENTAL 3: una mano pone pan de oro sobre una esfera de chocolate (51 f)",
+        "origen": "documental externo",
+        "camara": "fija",
+        "zoom_velocidad": "ninguno",
+        "texto": "—",
+        "motion_graphic": "#6",
+        "sfx": "CLICK 0:27.68 (1–2 f después del corte), −16 dB; sfx_hoja_00 #8",
+        "musica": "música −36…−40 dB",
+        "voz": "«de la gastronomía (f842) mundial (f860).»"
+      },
+      {
+        "f0": 879,
+        "f1": 1037,
+        "dur_f": 159,
+        "t": "0:29.33–0:34.63",
+        "que_se_ve": "Nil plano americano abierto y centrado, zoom-in lento (5,3 s)",
+        "origen": "toma a cámara",
+        "camara": "fijo",
+        "zoom_velocidad": "zoom-in digital lento ×1,0→×1,043 (+0,84 %/s), lineal",
+        "texto": "—",
+        "motion_graphic": "—",
+        "sfx": "—",
+        "musica": "música bajo la voz: −36 → −30 dB (voz −20 dB: 16 → 10 dB por debajo)",
+        "voz": "«Así que agarren (f890) palomitas (f899) porque hoy no solo hemos venido a comer (f948), sino a conocer toda la historia de este imperio (f1008) que hay detrás (f1027)»"
+      },
+      {
+        "f0": 1038,
+        "f1": 1077,
+        "dur_f": 40,
+        "t": "0:34.63–0:35.97",
+        "que_se_ve": "punch-in POR CORTE a plano cerrado con zoom lento",
+        "origen": "toma a cámara",
+        "camara": "fijo",
+        "zoom_velocidad": "+0,76 %/s",
+        "texto": "—",
+        "motion_graphic": "—",
+        "sfx": "—",
+        "musica": "música −30 dB",
+        "voz": "«del Celler (f1044) de Can (f1062) Roca (f1068).»"
+      },
+      {
+        "f0": 1078,
+        "f1": 1111,
+        "dur_f": 34,
+        "t": "0:35.97–0:37.10",
+        "que_se_ve": "MONTAJE 1: la casa del Celler en contrapicado (34 f)",
+        "origen": "≈ 6:02–6:06 del cuerpo",
+        "camara": "fija",
+        "zoom_velocidad": "empuje digital +12 %/s lineal (×1,12)",
+        "texto": "—",
+        "motion_graphic": "montaje sin voz (#7)",
+        "sfx": "WHOOSH 0:35.85–0:36.20 + click 0:36.03",
+        "musica": "música ARRIBA: −22 dB = nivel de la voz",
+        "voz": "(sin voz)"
+      },
+      {
+        "f0": 1112,
+        "f1": 1137,
+        "dur_f": 26,
+        "t": "0:37.10–0:37.97",
+        "que_se_ve": "MONTAJE 2: cartel ovalado «Restaurant Can Roca» (26 f)",
+        "origen": "≈ 0:47–0:50",
+        "camara": "fija",
+        "zoom_velocidad": "ninguno",
+        "texto": "—",
+        "motion_graphic": "#7",
+        "sfx": "doble click fino 0:37.17 (tipo obturador, segundo a ≈ 0,13 s)",
+        "musica": "−21…−24 dB; acento de la música 0:37.20, corte 0:37.10",
+        "voz": "(sin voz)"
+      },
+      {
+        "f0": 1138,
+        "f1": 1170,
+        "dur_f": 33,
+        "t": "0:37.97–0:39.07",
+        "que_se_ve": "MONTAJE 3: la terraza vacía (33 f)",
+        "origen": "el mismo sitio de la intro",
+        "camara": "fija",
+        "zoom_velocidad": "ninguno",
+        "texto": "—",
+        "motion_graphic": "#7",
+        "sfx": "doble click 0:38.03",
+        "musica": "acento 0:38.06, corte 0:37.97",
+        "voz": "(sin voz)"
+      },
+      {
+        "f0": 1171,
+        "f1": 1203,
+        "dur_f": 33,
+        "t": "0:39.07–0:40.17",
+        "que_se_ve": "MONTAJE 4: cocineros emplatando bajo las lámparas (33 f)",
+        "origen": "cocina, 7:16–11:48",
+        "camara": "a mano",
+        "zoom_velocidad": "+4,4 %/s",
+        "texto": "—",
+        "motion_graphic": "#7",
+        "sfx": "doble click 0:39.13",
+        "musica": "acento 0:39.17, corte 0:39.07",
+        "voz": "(sin voz)"
+      },
+      {
+        "f0": 1204,
+        "f1": 1247,
+        "dur_f": 44,
+        "t": "0:40.17–0:41.64",
+        "que_se_ve": "MONTAJE 5: pared de madera con «EL CELLER DE CAN ROCA» (44 f)",
+        "origen": "≈ 6:02 / 30:18",
+        "camara": "fija",
+        "zoom_velocidad": "+2,1 %/s",
+        "texto": "—",
+        "motion_graphic": "#7",
+        "sfx": "WHOOSH 0:39.90–0:40.60 (máximo 0:40.2–0:40.3)",
+        "musica": "la música sale ≈ 0:40.7–0:40.8",
+        "voz": "J-cut: «Bueno (f1216), voy (f1224)…» entra 32 f (1,07 s) antes del corte de imagen f1248"
+      }
+    ],
+    "titulo_cabecera": {
+      "como_se_construye": "No hay título ni cabecera. Hacen su papel dos cosas: (a) el texto «EL MEJOR RESTAURANTE DEL MUNDO» escrito palabra a palabra abajo al centro (f343–493), que es la premisa dicha, no un título; (b) el último plano del montaje sin voz, donde el nombre del sitio se LEE en una pared (f1204–1247).",
+      "fuente": "texto: grotesca negrita en mayúsculas — Figtree 800 (+0,582) · Inter Tight 600 (+0,573) · Outfit 700 (+0,572)",
+      "color": "#FFFFFF con sombra suave",
+      "duracion_f": 151,
+      "sonido": "ninguno propio; el ding de 0:14.14 es de las estrellas"
+    },
+    "otros_textos_de_la_intro": "ninguno: 1 solo texto en 41,6 s",
+    "comparacion_con_f1": {
+      "ficha_comparada": "2026-09-06_visite-el-circuito-imposible-de-formula-1.json (intro explicativa de 39,71 s)",
+      "se_repite": [
+        "Habla a cámara desde el fotograma 0, sin saludo ni cabecera, ni título, ni logo, ni tráiler de reacciones, ni estrobo (aquí 0 ráfagas; allí 2 ráfagas-índice de sitios)",
+        "Duración casi calcada: 41,64 s aquí (35,97 hablados + 5,67 de montaje) frente a 39,71 s allí (34,37 + 5,34)",
+        "Cada afirmación lleva su ilustración a pocos fotogramas de la palabra (aquí de 14 f antes a 3 f después, casi siempre adelantada; allí ±2 f)",
+        "Máscara de persona para meter el gráfico DETRÁS de Nil: allí el «24%» y los «200.000.000€»; aquí las 2 franjas de vídeo y las 3 estrellas",
+        "Zoom digital sobre el que habla: lentos (−1,0 y +0,84 %/s aquí; +6,7 y −4,7 %/s allí) y saltos de escala ×1,30–1,35",
+        "Acaba con un montaje SIN VOZ de 5–6 planos de sitio (26–44 f aquí; 15–40 f allí) con la música arriba y cortes en sus acentos, y entra al cuerpo con J-cut",
+        "En el montaje final solo salen SITIOS, nunca personas ni momentos",
+        "Una frase a cámara sin ningún gráfico justo donde está la idea central (aquí f502–678; allí el chiste en silencio)"
+      ],
+      "cambia": [
+        "MÚSICA: allí hay colchón desde 0,2 s (19–20 dB bajo la voz) con un silencio para el chiste; aquí NO hay música los primeros 22,4 s y entra en fundido cuando empieza la historia (la emoción la trae la música, no la abre)",
+        "MATERIA: allí son cifras y geografía (24 %, 200.000.000 €, vuelo 3D, render, mapa 3D, trazado); aquí son credenciales, premios e historia (franjas de vídeo, platos, texto, estrellas, fotos de archivo, documental). Ninguna cifra en pantalla, ningún 3D, ningún mapa en la intro",
+        "DENSIDAD: allí 9 ilustraciones en 34,4 s (una cada 3,8 s); aquí 6 bloques en 28,2 s (uno cada 4,7 s) pero con 13 clips ajenos dentro",
+        "TRANSICIONES: allí fugas de luz cálidas (≈ 7 f); aquí una cortinilla de empuje hacia abajo con giro (6 f) y salidas por desenfoque + fundido (9–12 f)",
+        "PUNCH-IN: allí por corte; aquí ANIMADO (×1,0→×1,33 en 10 f) sobre «el mejor» y un zoom-out animado ×1,337→×1,0 en los primeros 34 f",
+        "HUMOR Y SUBTÍTULOS: allí un chiste subtitulado en silencio (0:16.8–0:21.4); aquí ni chiste ni subtítulos: el tono es de respeto",
+        "EFECTOS: allí 8 en 39,7 s (pops, caja registradora); aquí 13 en 41,6 s y de otra familia (whoosh, ding, click por corte)",
+        "RECURSO NUEVO: el fondo se oscurece al 45–50 % detrás de Nil mientras están las estrellas, y el destello de cuenta 1-2-3"
+      ],
+      "receta_comun": "hablar desde f0 → 2 credenciales o datos con el gráfico por detrás de él → promesa → dato fuerte con el gráfico más grande y su sonido → frase limpia a cámara → 4–6 planos ilustrando la última frase → nombre del sitio → 5–6 s de montaje sin voz con música → J-cut al cuerpo. Total 40–42 s."
+    }
+  },
+  "motion_graphics": [
+    {
+      "tipo": "cartela de plato",
+      "que_es": "nombre del pase en una caja blanca + 1–4 líneas de ingredientes debajo; es EL gráfico del vídeo",
+      "total": 31,
+      "por_minuto": "2,1/min en los 14,5 min de menú (una cada 28 s); 0 fuera del menú",
+      "ejemplos": "15:14 «MAGIA Y TRANSVERSALIDAD» (la única en mayúsculas) · 16:02 Tradición · 16:10 Memoria («Canelón de Montse») · 16:16 Academicismo · 16:22 Producto · 17:20 Paisaje · 17:28 Poesía · 17:32 Vino · 18:16 Innovación («Langostino al vapor de Manzanilla, jugo de su cabeza al aroma de Manzanilla y gota de Manzanilla») · 19:16 Libertad · 19:20 Atrevimiento · 19:24 Perfume · 20:06 Sentido de humor · 20:10 Cromatismo · 20:14 Dulce · 21:28 Fresco y maduro · 22:04 Guisantes con ortiguilla y algarroba · 22:36.6 Pétalos («Tupinambo, zanahorilla amarilla, chirivía, cremoso de tubérculos encurtidos y demi-glace de tubérculos.») · 23:40 Trufa · 24:02 Gnoqui de zanahoria · 24:22 Cococha de merluza con calçot · 24:44 Gamba de Palamós · 25:10 Lenguado a la brasa · 25:30 Cigala con parfait de pularda (4 líneas) · 25:58 Raviolis de pintada · 26:22 Tatín de cochinillo («Compota y apionabo») · 26:36 Torrija de liebre · 26:50 Granizado y sorbete de lápiz · 27:38 Manzana verde · 28:02 Coliflor con mantequilla y avellana · 28:36 Perfume trinitario (4 líneas)",
+      "entrada_salida": "medida a 1 f en «Pétalos»: corte al plato f40647; la cartela empieza a entrar f40656 (9 f después), deslizando desde el borde izquierdo; título entero f40672; asentada f40686 (30 f). Sale deslizando a la izquierda f40824–f40847 (24 f). Título y descripción se mueven como un solo bloque. Sin fundido ni rebote",
+      "curva": "entrada con frenada fuerte (80 % del recorrido en los primeros 12 f); salida acelerando",
+      "posicion": "abajo a la izquierda: caja del título x 33–1170 (según el largo), y 802–922; descripción y 940–1030; margen izquierdo ≈ 1,7 %",
+      "tamano": "caja 11 % de la altura; título con altura de mayúscula ≈ 60 px (5,6 %); descripción ≈ 30 px (2,8 %)",
+      "color": "caja blanca con radio ≈ 8 px; título naranja ≈ #C8801C; descripción blanca con sombra, sin caja",
+      "fuente": "serif de alto contraste con el espaciado apretado (a ojo, tipo Instrument Serif / Playfair Display). fuente_rotulo.py no es fiable aquí: título (--color #C8801C) Cormorant Garamond 500 (+0,023) · Caveat 600 (−0,074) · Bodoni Moda 500 (−0,149); descripción (--color #FFFFFF) Caveat 600 (−0,010) · Cormorant Garamond 500 (−0,012) · Bodoni Moda 500 (−0,106)",
+      "sonido": "ninguno: muda (pista sin voz en silencio al entrar, comprobado en 15:16, 16:02, 22:36.9 y 24:22)",
+      "disparador": "la camarera empieza a cantar el plato: entra 0,3–0,6 s después del corte al primer plano del plato y AGUANTA 1–2 cortes (plato → Nil escuchando → jump cut)",
+      "duracion_f": "192 f = 6,4 s en «Pétalos» (138 f quieta); 4–6,4 s en las demás",
+      "como_esta_hecho": "plantilla de rótulo (caja + texto) con fotogramas clave de posición en x; el texto es el nombre y la descripción oficiales del pase",
+      "cuando_si": "cada vez que llega un pase con nombre",
+      "cuando_no": "nunca sobre la reacción ni sobre un chiste: a los ≈ 5 s ya se ha ido; nunca dos a la vez"
+    },
+    {
+      "tipo": "píldora de zona",
+      "que_es": "rótulo blanco en píldora que nombra la parte de la cocina que se está viendo",
+      "total": 3,
+      "por_minuto": "0,7/min en los 4,5 min de cocina",
+      "ejemplos": "9:06.15 «ZONA DE ACABADOS» · 9:36.5 «ZONA DE PASTELERIA» · 10:14.6 «ZONA DE PRODUCCION» (sin tildes en pantalla)",
+      "entrada_salida": "a 1 f en «ZONA DE ACABADOS»: entra deslizando desde el borde izquierdo f16368, texto entero f16385, asentada f16392–16398 (24–30 f); aguanta un corte (≈ f16413, a un plano de cocineros) y sale deslizando a la izquierda f16494–16510 (16 f)",
+      "curva": "frenada al entrar, aceleración al salir",
+      "posicion": "arriba a la izquierda: x ≈ 20–598, y 50–133",
+      "tamano": "7,7 % de la altura; texto con altura de mayúscula ≈ 40 px (3,7 %)",
+      "color": "píldora blanca (radio ≈ 25 px), texto negro",
+      "fuente": "grotesca seminegra en mayúsculas — fuente_rotulo.py --color #000000: Inter Tight 600 (+0,647) · Manrope 600 (+0,637) · Plus Jakarta Sans 600 (+0,600)",
+      "sonido": "DING (la misma muestra del destello de las estrellas de la intro: parciales en 2732 y 8189 Hz) 3 f después de empezar a entrar: 9:06.25 (−14 dB respecto a la voz), 9:36.55 (−18 dB), 10:14.65 (−11 dB)",
+      "disparador": "la palabra que nombra la zona: «acabamos» (f16369), «la pastelería» (f17300; el ding en f17279, con «la parte de Jordi»), «producción» (f18421, mismo fotograma)",
+      "duracion_f": "142 f = 4,74 s",
+      "como_esta_hecho": "plantilla de píldora con texto; fotogramas clave de posición",
+      "cuando_si": "al cambiar de zona dentro de un recorrido guiado por otro",
+      "cuando_no": "no hay píldora en la bodega ni en la sala: ahí lo dice Nil a cámara"
+    },
+    {
+      "tipo": "píldora «nil ✓»",
+      "que_es": "su usuario de Instagram con la insignia azul de verificado, sobre el pecho, cuando nombra su Instagram",
+      "total": 3,
+      "por_minuto": "0,1/min",
+      "ejemplos": "3:30.9–3:33.5 («que podéis ver ahí en mi Instagram… sígueme por si acaso») · 5:44 · 27:14 («Si me seguís en Instagram sabréis que…»)",
+      "entrada_salida": "aparece f≈6322 creciendo (≈ 50 → 100 % en 5–6 f), a tamaño completo en f6328 = el fotograma de la palabra «Instagram»; sale f≈6394–6398 cayendo hacia abajo (≈ 5 f), justo antes del jump cut f6400",
+      "curva": "pop de escala corto, sin rebote visible",
+      "posicion": "centro del cuadro sobre el jersey: x 790–895, y 560–600",
+      "tamano": "texto con altura de x ≈ 24 px (2,2 %)",
+      "color": "texto blanco sobre píldora oscura translúcida; insignia azul",
+      "fuente": "sans redondeada en minúsculas (sin medir: recorte demasiado pequeño)",
+      "sonido": "ninguno",
+      "disparador": "la palabra «Instagram»",
+      "duracion_f": "≈ 76 f = 2,5 s",
+      "como_esta_hecho": "imagen de la etiqueta de la red social; fija en pantalla (no se aprecia seguimiento)",
+      "cuando_si": "solo cuando nombra su red",
+      "cuando_no": "no lleva @ ni flecha ni llamada a la acción escrita"
+    },
+    {
+      "tipo": "mapa en tarjeta",
+      "que_es": "captura de un mapa de la península en una tarjeta redondeada, con chincheta, flecha roja y rótulo «Girona»",
+      "total": 1,
+      "por_minuto": "0,03/min",
+      "ejemplos": "3:34.81–3:39.29 (f6438–6572)",
+      "entrada_salida": "la tarjeta entra desde el borde derecho: asoma f6438, asentada f6456 (18 f); la chincheta se ve desde f6446; la FLECHA y «Girona» aparecen f6466–6468. El rótulo y la flecha se funden f6538–6552 (14 f) y la tarjeta sale a la derecha f6556–6572 (16 f)",
+      "curva": "frenada fuerte al entrar (borde izquierdo de la tarjeta: 86 → 78 → 72 → 69 → 66 → 64 → 62,5 → 61,5 → 61 % del ancho cada 2 f); aceleración al salir",
+      "posicion": "arriba a la derecha: x 1167–1895, y 27–792",
+      "tamano": "38 % del ancho × 71 % de la altura; radio ≈ 40 px; flecha ≈ 110 px; rótulo ≈ 45 px (4 %)",
+      "color": "mapa claro; chincheta y flecha rojas; rótulo blanco en negrita con contorno negro; sombra bajo la tarjeta",
+      "fuente": "rótulo «Girona»: sans negrita (sin medir)",
+      "sonido": "DING con cola larga (raya en ≈ 2,45 kHz durante ≈ 2 s) en 3:35.70 = el fotograma en que aparecen flecha y rótulo (−17 dB respecto a la voz)",
+      "disparador": "«estamos en (f6440) Girona (f6448)»: la tarjeta asoma 2 f antes de «en»; la flecha, 18 f después de la palabra",
+      "duracion_f": "134 f = 4,47 s",
+      "como_esta_hecho": "captura de mapa web en tarjeta + máscara de persona: la MANO de Nil pasa por delante de la tarjeta (f6450–6454 y f6530–6546)",
+      "cuando_si": "cuando sitúa el lugar respecto a algo conocido («no es un sitio muy céntrico»)",
+      "cuando_no": "no es un mapa animado ni de satélite; no hay ruta"
+    },
+    {
+      "tipo": "captura de web a pantalla completa",
+      "que_es": "esquema «Universo Roca / Más allá y detrás del restaurante» de la web del Celler (círculos con fotos en blanco y negro y flechas naranjas: Can Roca, El Celler, Rocambolesc, Mas Marroch, Normal, Casa Cacao, La Masia)",
+      "total": 1,
+      "por_minuto": "0,03/min",
+      "ejemplos": "6:23.6–6:27.2 (f11498–f11603)",
+      "entrada_salida": "entra por CORTE seco (f11497–11499); sale f11589–11603 (≈ 14 f) deslizando hacia abajo y descubriendo a Nil desde arriba",
+      "curva": "la salida acelera",
+      "posicion": "pantalla completa",
+      "tamano": "100 %",
+      "color": "blanco con naranja (el de la web)",
+      "fuente": "la de la web",
+      "sonido": "ninguno confirmado (golpe grave en la salida, ver dudas)",
+      "disparador": "«Tienen hoteles (f11508), tienen negocios (f11535), tienen heladerías (f11558)»: entra 4–10 f antes de «Tienen»",
+      "duracion_f": "≈ 105 f = 3,5 s",
+      "como_esta_hecho": "captura de pantalla casi quieta (deriva vertical mínima)",
+      "cuando_si": "cuando enumera cosas que no puede enseñar",
+      "cuando_no": "no se anima cada círculo ni se resalta lo que va nombrando"
+    },
+    {
+      "tipo": "rueda de conceptos",
+      "que_es": "grabación de pantalla de la rueda interactiva de la web (16 conceptos: dulce, perfume, poesía, libertad, atrevimiento, magia, humor, tradición, paisaje, memoria…) recortada en círculo, con el cursor encendiendo segmentos en naranja",
+      "total": 1,
+      "por_minuto": "0,03/min",
+      "ejemplos": "14:38.6–14:42.9 (f26332–f26461)",
+      "entrada_salida": "entra deslizando desde la izquierda 14:38.6–14:39.0 (≈ 12–14 f); sale por fundido 14:42.4–14:42.9 (≈ 15 f)",
+      "curva": "frenada al entrar",
+      "posicion": "medio fuera por la izquierda: x −260…560, y 150–965",
+      "tamano": "círculo de ≈ 810 px = 75 % de la altura",
+      "color": "blanco roto con segmento resaltado en naranja",
+      "fuente": "la de la web",
+      "sonido": "ninguno confirmado (los transitorios de 14:37.3, 14:39.1 y 14:39.6 son golpes de mesa)",
+      "disparador": "«tiene un montón de referencias (f26330) del restaurante»: entra 2 f después de la palabra",
+      "duracion_f": "≈ 130 f = 4,3 s",
+      "como_esta_hecho": "grabación de pantalla con máscara circular sobre el plano de la mesa (no tapa a Nil)",
+      "cuando_si": "para enseñar de dónde salen los nombres de las cartelas que vienen",
+      "cuando_no": "—"
+    },
+    {
+      "tipo": "botón de suscripción",
+      "que_es": "plantilla en inglés: tarjeta blanca con me gusta, no me gusta, «Subscribe» rojo y campana; un cursor los pulsa",
+      "total": 1,
+      "por_minuto": "0,03/min",
+      "ejemplos": "30:33.0–30:40.6",
+      "entrada_salida": "nace f54939–54941 como una barrita blanca, crece a tarjeta f54950–54953 (≈ 12 f); «Subscribe» f54953–54959; iconos f54962–54977; completa f54980 (40 f = 1,3 s). El cursor entra f54998, pulsa el me gusta (azul en f55025 = 30:36.0), «Subscribed» ≈ 30:37.4, campana 30:38.6; se encoge y sale 30:40.1–30:40.6",
+      "curva": "crecimiento con frenada",
+      "posicion": "abajo al centro: x 660–1245, y 854–995",
+      "tamano": "31 % del ancho × 13 % de la altura",
+      "color": "blanco, rojo y azul de la plataforma, con bordes de aberración cromática",
+      "fuente": "la de la plantilla",
+      "sonido": "los de la plantilla: doble click 30:36.00 y 30:37.42, campanita 30:38.6–30:39.0, click 30:39.7",
+      "disparador": "la palabra «Vale» (f54941) con la que empieza la despedida",
+      "duracion_f": "≈ 224 f = 7,5 s",
+      "como_esta_hecho": "plantilla de stock",
+      "cuando_si": "una vez, en la despedida",
+      "cuando_no": "no hay ningún texto a la vez; no hay llamada a mitad de vídeo"
+    },
+    {
+      "tipo": "foto de archivo en el cuerpo",
+      "que_es": "fotos antiguas de la familia a pantalla completa sobre la voz",
+      "total": "≈ 5 (0:50.7, 1:24, 1:28, 12:28 y el menú en papel 1:09.7)",
+      "por_minuto": "≈ 0,2/min",
+      "ejemplos": "0:50.75–0:52.5 foto de grupo en blanco y negro («hace 70 años»), FIJA (0,0 %/s) · 1:24–1:26 foto de familia · 1:28 retrato de los 3 hermanos · 12:28 Josep de joven · 1:09.7–1:11.9 el papel del menú del día («14 euros»)",
+      "entrada_salida": "por corte seco",
+      "curva": "—",
+      "posicion": "pantalla completa",
+      "tamano": "100 %",
+      "color": "blanco y negro o el original",
+      "fuente": "—",
+      "sonido": "ninguno",
+      "disparador": "la palabra que nombra a la persona o la época",
+      "duracion_f": "30–65 f (1,0–2,2 s)",
+      "como_esta_hecho": "foto sin movimiento añadido",
+      "cuando_si": "cuando nombra el pasado o a alguien que no está",
+      "cuando_no": "no llevan pie de foto ni año"
+    },
+    {
+      "tipo": "nota del editor en el subtítulo",
+      "que_es": "corrección de un dato dicho mal: el subtítulo «17 aperitivos» se sustituye por «16* aperitivos»",
+      "total": 1,
+      "por_minuto": "—",
+      "ejemplos": "7:34.2–7:35.0 «17 aperitivos» → 7:35.1–7:36.5 «16* aperitivos» → 7:36.6 «12 platos» → 7:37.8 «3 postres»",
+      "entrada_salida": "de golpe, como cualquier subtítulo",
+      "curva": "—",
+      "posicion": "la del subtítulo (centro, y ≈ 89 %)",
+      "tamano": "el del subtítulo",
+      "color": "blanco",
+      "fuente": "la del subtítulo",
+      "sonido": "ninguno",
+      "disparador": "un dato equivocado de un invitado",
+      "duracion_f": "≈ 42 f",
+      "como_esta_hecho": "texto",
+      "cuando_si": "para corregir sin cortar al invitado",
+      "cuando_no": "—"
+    }
+  ],
+  "cortes": {
+    "total_visibles": 343,
+    "total_real_estimado": "≈ 510–520 (±30) contando los jump cuts de mismo encuadre que el detector no ve: el detector acierta ≈ 66 %",
+    "cortes_por_minuto": 11.2,
+    "cortes_por_minuto_real": "16,7–17,0",
+    "plano_media_s": 5.36,
+    "plano_mediana_s": 3.27,
+    "p10_s": 1.03,
+    "p90_s": 11.85,
+    "con_jump_cuts": {
+      "planos": 541,
+      "cortes_por_minuto": 17.6,
+      "media_s": 3.41,
+      "mediana_s": 2.47,
+      "p10_s": 0.87,
+      "p90_s": 6.67,
+      "menos_de_1s": "11 %",
+      "mas_de_5s": "19 %",
+      "nota": "sumando al detector los 195 candidatos por pico débil + f83 + f237; con la precisión comprobada (85–90 %) quedan ≈ 165–175 jump cuts reales"
+    },
+    "plano_mas_largo": "63,2 s según el detector (7:32.4, Joan explicando la estructura del menú); con los jump cuts que lleva dentro, 38,8 s. Después 30,3 s (8:34.8) y 25,4 s (11:20.5), los tres de Joan; 16,9 s (29:11.8, noria de bombones); 15,6 s (10:01.7); 14,4 s (10:37.3); 14,1 s (30:28.0, despedida); 13,9 s (15:41.1)",
+    "menos_de_1s": "9 % (detector) · 11 % con jump cuts",
+    "mas_de_5s": "35 % (detector) · 19 % con jump cuts",
+    "con_rafagas": "cortes_rafagas.json (--rafagas --hasta 42): 343 cortes y 0 cortes en ráfaga. Comprobado en las hojas fotograma a fotograma: no hay estrobo ni micro-flashes; lo más rápido es la ráfaga de platos (14 · 14 · 14 · 17 · 31 f)",
+    "como_se_contaron_los_jump_cuts": "picos aislados en la puntuación por fotograma (2 ≤ puntuación < 10, > 4× la mediana vecina y > 1,8× el máximo vecino) = 195 candidatos. Comprobados con parejas antes/después: minuto 1 → 12 candidatos, 8 claros (f1942, 2367, 2778, 2874, 2900, 2929, 2956, 3148), 3 probables (f2999, 3188, 3380), 1 falso (f1897) → 9 del detector + 10–11 = 19–20 cortes reales/min. Minuto 16 → 9 candidatos, 7 claros (f29149, 29189, 29496, 30076, 30094, 30232, 30502), 2 dudosos → 13 + 7–9 = 20–22/min. Tramo 1:30–1:45 a ojo a 0,1 s: detector 0, jump cuts 6 (1:32.69, 1:35.90, 1:36.76, 1:37.73, 1:38.63, 1:40.07), los 6 entre los candidatos",
+    "por_minuto": [
+      29,
+      9,
+      16,
+      5,
+      9,
+      15,
+      15,
+      5,
+      4,
+      8,
+      8,
+      6,
+      11,
+      11,
+      10,
+      10,
+      13,
+      10,
+      11,
+      6,
+      19,
+      9,
+      13,
+      11,
+      14,
+      15,
+      14,
+      12,
+      13,
+      9,
+      3
+    ],
+    "por_minuto_con_jump_cuts": [
+      33,
+      20,
+      25,
+      14,
+      16,
+      22,
+      21,
+      6,
+      8,
+      12,
+      11,
+      9,
+      19,
+      19,
+      18,
+      13,
+      21,
+      13,
+      13,
+      10,
+      21,
+      20,
+      22,
+      16,
+      18,
+      19,
+      21,
+      16,
+      20,
+      16,
+      7
+    ],
+    "por_parte": [
+      {
+        "parte": "intro 0:00–0:41.64",
+        "cortes_min": 28.8,
+        "mediana_s": 1.13,
+        "con_jump_cuts": "37,5/min"
+      },
+      {
+        "parte": "historia y camino 0:41–6:52",
+        "cortes_min": 12.5,
+        "mediana_s": 2.24,
+        "con_jump_cuts": "21,4/min, mediana 2,0 s, máximo 11,9 s"
+      },
+      {
+        "parte": "cocina con Joan 6:52–11:49",
+        "cortes_min": 5.7,
+        "mediana_s": 6.14,
+        "con_jump_cuts": "8,9/min, mediana 3,9 s, máximo 38,8 s, 38 % de planos > 5 s"
+      },
+      {
+        "parte": "bodega y sala 11:49–14:28",
+        "cortes_min": 10.9,
+        "mediana_s": 2.57,
+        "con_jump_cuts": "20,4/min"
+      },
+      {
+        "parte": "menú 14:28–28:58",
+        "cortes_min": 12.1,
+        "mediana_s": 2.7,
+        "con_jump_cuts": "17,9/min, media 3,35 s, p90 6,24 s, máximo 13,9 s"
+      },
+      {
+        "parte": "final y Jordi 28:58–30:18",
+        "cortes_min": 7.4,
+        "mediana_s": 1.75,
+        "con_jump_cuts": "15,6/min"
+      },
+      {
+        "parte": "cierre 30:18–30:42",
+        "cortes_min": 11.0,
+        "mediana_s": null,
+        "con_jump_cuts": "4–5 planos en 24 s (uno de 14,1 s); sin mediana útil"
+      }
+    ],
+    "rafagas": "1 sola en todo el vídeo: los 5 platos de la intro (f209–298). En el cuerpo, lo más parecido son 7 recursos seguidos de 1,0–1,8 s sobre la voz (0:47.8–0:57.6)",
+    "montajes_sin_voz": "3 con música: 0:35.97–0:41.64 (5 planos), 2:30.6–2:34.4 (2 planos: cartel «LA MASIA (I+R)» y camino) y 12:48–12:52 (travelling por las botellas). Uno cada ≈ 10 min: muy pocos. Los otros 12 huecos sin voz (2–5 s) son masticar o mirar, sin música",
+    "jump_cuts": "≈ 165–175 (5,4–5,7/min): uno cada ≈ 2,5 s cuando Nil habla solo (1:30–1:45: 6 en 15 s, uno cada 8–9 palabras) y casi ninguno con los Roca (minuto 7: 1 candidato)",
+    "j_l_cuts": "1 claro: la voz del cuerpo («Bueno, voy…», f1216) entra 32 f (1,07 s) antes del corte de imagen f1248. En el menú, la voz de la camarera hace de L-cut continuo: sigue describiendo sobre el plano del plato y sobre Nil escuchando",
+    "match_cuts": "ninguno construido",
+    "insertos_cortos": "5 planos de 14–31 f en la intro. En el cuerpo, punch-ins por corte de ≈ 20 f sobre el remate (18:06.5–18:07.1) y un inserto de primerísimo plano de < 1 s (22:54.5)",
+    "velocidad": "todo a 100 %: 0 cámaras rápidas, 0 ralentís, 0 congelados",
+    "cortes_con_acento_de_sonido": "14 % (audio.json)",
+    "cortes_en_pulso": "0,29 (≈ azar): no se monta a ritmo salvo en los 3 montajes con música, donde el corte cae 0,09–0,10 s antes del acento"
+  },
+  "zooms": [
+    {
+      "tipo": "zoom-out animado de arranque",
+      "medido": "medir_zoom.py f0–34",
+      "escala_inicial_final": "×1,337 → ×1,0",
+      "duracion_f": 34,
+      "curva": "frenada (ease-out)",
+      "centro": "la cara de Nil",
+      "disparador": "el primer fotograma del vídeo: se abre mientras dice «En este canal»",
+      "extras": "sin sonido confirmado; deja sitio para la franja que sube en f35",
+      "total": 1,
+      "por_minuto": "solo en la intro",
+      "ejemplos": "0:00.00–0:01.13"
+    },
+    {
+      "tipo": "punch-in ANIMADO",
+      "medido": "medir_zoom.py f340–350",
+      "escala_inicial_final": "×1,0 → ×1,33",
+      "duracion_f": 10,
+      "curva": "frenada: 1,0 · 1,001 · 1,036 · 1,117 · 1,215 · 1,297 · 1,331",
+      "centro": "la cara",
+      "disparador": "«el MEJOR» (f340/f346)",
+      "extras": "sin efecto de sonido; vuelve por CORTE a plano abierto en f386",
+      "total": 1,
+      "por_minuto": "solo en la intro",
+      "ejemplos": "0:11.34–0:11.68"
+    },
+    {
+      "tipo": "zoom digital lento sobre el que habla",
+      "medido": "medir_zoom.py",
+      "escala_inicial_final": "×1,0 → ×0,942 en 5,9 s (−1,0 %/s) · ×1,0 → ×1,043 en 5,3 s (+0,84 %/s) · +0,76 %/s en 1,3 s",
+      "duracion_f": "40–177",
+      "curva": "lineal",
+      "centro": "centro del cuadro",
+      "disparador": "las frases a cámara sin gráfico de la intro",
+      "extras": "en el cuerpo NO existe: el plano de mesa mide −0,09 %/s en 9,8 s (trípode) y el de Nil agachado +0,16 %/s",
+      "total": 3,
+      "por_minuto": "solo en la intro",
+      "ejemplos": "f502–678, f879–1037, f1038–1077"
+    },
+    {
+      "tipo": "empuje digital en planos de sitio sin voz",
+      "medido": "medir_zoom.py",
+      "escala_inicial_final": "+12 %/s (×1,12 en 34 f) · +4,4 %/s · +2,1 %/s; en la ráfaga de platos −15 %/s y +4,3 %/s",
+      "duracion_f": "14–44",
+      "curva": "lineal",
+      "centro": "centro",
+      "disparador": "montaje con música",
+      "extras": "2 de los 5 planos del montaje final van fijos",
+      "total": 5,
+      "por_minuto": "solo en la intro",
+      "ejemplos": "f1078–1111, f1171–1203, f1204–1247, f209–222, f268–298"
+    },
+    {
+      "tipo": "punch-in por corte en la reacción",
+      "medido": "a ojo sobre hojas a 0,1 s (no con medir_zoom)",
+      "escala_inicial_final": "≈ ×1,5–1,6 (18:06.5) · ≈ ×1,6–1,8 (18:58–19:08) · ≈ ×3 (22:54.5, boca y barbilla)",
+      "duracion_f": "≈ 20 (0,7 s) el remate corto; hasta 10 s el primerísimo plano del cítrico",
+      "curva": "corte seco, sin animar",
+      "centro": "la cara",
+      "disparador": "el remate de una reacción («Es una locura», «vamos a por 32 platos», «Increíble»)",
+      "extras": "vuelve por corte al mismo plano medio; nunca con texto ni efecto",
+      "total": "≥ 9 vistos (14:48.7, 18:06.5, 18:58, 22:41, 22:54.5, 25:30, 25:55.8, 26:23.9, 26:30.5); la cifra real es mayor",
+      "por_minuto": "≈ 0,6–1/min en el menú",
+      "ejemplos": "18:06.5–18:07.1"
+    },
+    {
+      "tipo": "movimiento real de cámara",
+      "medido": "medir_zoom.py",
+      "escala_inicial_final": "plato «Pétalos» +7,3 %/s (22:36.4–22:38.4) · lenguado +3,1 %/s (25:13.9–25:17) · cartel «LA MASIA» −7,5 %/s y camino +21 %/s (2:30.7–2:34.3)",
+      "duracion_f": "50–90",
+      "curva": "a mano",
+      "centro": "el plato",
+      "disparador": "el operador se acerca al plato mientras la camarera lo describe",
+      "extras": "el «zoom» del chiste del anillo (1:01.2–1:03.0) es Nil andando hacia el objetivo, no un zoom digital",
+      "total": "≈ 31 (uno por plato)",
+      "por_minuto": "2,1/min en el menú",
+      "ejemplos": "22:36.3–22:38.4"
+    }
+  ],
+  "textos": [
+    {
+      "tipo": "texto cinético de premisa (intro)",
+      "texto_ejemplos": "«EL MEJOR RESTAURANTE DEL MUNDO»",
+      "fuente": "Figtree 800 (+0,582) · Inter Tight 600 (+0,573) · Outfit 700 (+0,572) [fuente_rotulo.py --color #FFFFFF, recorte rotulos/rec_intro_texto.png]",
+      "peso": "extranegra",
+      "mayusculas": "sí",
+      "color": "#FFFFFF",
+      "borde_sombra_caja": "sombra suave, sin borde ni caja",
+      "tamano": "altura de mayúscula ≈ 55 px = 5,1 %; 87 % del ancho",
+      "posicion": "una línea, abajo al centro, y ≈ 89 %",
+      "entrada": "palabra a palabra, de gris translúcido a blanco en 4–5 f, 0–7 f antes de la voz",
+      "salida": "desenfoque + fundido, 12 f",
+      "duracion": "151 f = 5,04 s",
+      "por_minuto": "—",
+      "total": 1,
+      "disparador": "la premisa del vídeo",
+      "sonido": "ninguno",
+      "ejemplos_con_tiempo": "0:11.44–0:16.45",
+      "recorte": "rotulos/intro_texto_f380.jpg"
+    },
+    {
+      "tipo": "cartela de plato",
+      "texto_ejemplos": "«Pétalos» / «Tupinambo, zanahorilla amarilla, chirivía, cremoso de tubérculos encurtidos y demi-glace de tubérculos.»",
+      "fuente": "serif de alto contraste (a ojo, tipo Instrument Serif / Playfair Display); fuente_rotulo.py no fiable: Cormorant Garamond 500 (+0,023) · Caveat 600 (−0,074) · Bodoni Moda 500 (−0,149) con --color #C8801C",
+      "peso": "regular",
+      "mayusculas": "no (tipo frase), salvo la primera: «MAGIA Y TRANSVERSALIDAD»",
+      "color": "título ≈ #C8801C sobre caja blanca; descripción #FFFFFF",
+      "borde_sombra_caja": "caja blanca de radio ≈ 8 px para el título; sombra en la descripción",
+      "tamano": "título 5,6 %; descripción 2,8 %",
+      "posicion": "abajo a la izquierda",
+      "entrada": "desliza desde la izquierda, 30 f con frenada",
+      "salida": "desliza a la izquierda, 24 f",
+      "duracion": "4–6,4 s",
+      "por_minuto": "2,1 en el menú",
+      "total": 31,
+      "disparador": "la camarera canta el plato",
+      "sonido": "ninguno",
+      "ejemplos_con_tiempo": "22:36.56–22:42.89 (f40656–f40847)",
+      "recorte": "rotulos/plato_cartela_2206.jpg, detalle/c1_cartela_petalos_entrada.jpg"
+    },
+    {
+      "tipo": "píldora de zona",
+      "texto_ejemplos": "«ZONA DE ACABADOS», «ZONA DE PASTELERIA», «ZONA DE PRODUCCION»",
+      "fuente": "Inter Tight 600 (+0,647) · Manrope 600 (+0,637) · Plus Jakarta Sans 600 (+0,600) [--color #000000]",
+      "peso": "seminegra",
+      "mayusculas": "sí",
+      "color": "#000000 sobre blanco",
+      "borde_sombra_caja": "píldora blanca, radio ≈ 25 px",
+      "tamano": "3,7 %",
+      "posicion": "arriba a la izquierda",
+      "entrada": "desliza desde la izquierda, 24–30 f",
+      "salida": "desliza a la izquierda, 16 f",
+      "duracion": "4,74 s",
+      "por_minuto": "0,7 en la cocina",
+      "total": 3,
+      "disparador": "el nombre de la zona",
+      "sonido": "ding",
+      "ejemplos_con_tiempo": "9:06.15–9:10.9",
+      "recorte": "rotulos/zona_pill_0937.jpg, detalle/p1_pildora_acabados_entrada.jpg"
+    },
+    {
+      "tipo": "subtítulo",
+      "texto_ejemplos": "«Aquí recibimos a nuestros clientes», «16* aperitivos», «No me sabe a seta.», «Es como un ferrero rocher.»",
+      "fuente": "Archivo 600 (+0,606) · Roboto 500 (+0,521) · Inter Tight 600 (+0,381) [--color #FFFFFF]",
+      "peso": "seminegra",
+      "mayusculas": "no (frase con punto final)",
+      "color": "#FFFFFF para todos los que hablan",
+      "borde_sombra_caja": "sombra suave, sin borde ni caja",
+      "tamano": "altura de mayúscula ≈ 50 px = 4,6 %",
+      "posicion": "una línea centrada, y ≈ 89 %",
+      "entrada": "de golpe",
+      "salida": "de golpe",
+      "duracion": "0,8–2,3 s por trozo (2–6 palabras)",
+      "por_minuto": "ver subtitulos",
+      "total": "≈ 45–50 trozos",
+      "disparador": "habla alguien que no es Nil y no se entiende bien",
+      "sonido": "ninguno",
+      "ejemplos_con_tiempo": "7:25.5–7:39.0",
+      "recorte": "rotulos/subtitulo_2940.jpg"
+    },
+    {
+      "tipo": "rótulo del mapa",
+      "texto_ejemplos": "«Girona»",
+      "fuente": "sans negrita (sin medir)",
+      "peso": "negrita",
+      "mayusculas": "no",
+      "color": "blanco con contorno negro",
+      "borde_sombra_caja": "contorno negro",
+      "tamano": "≈ 4 %",
+      "posicion": "dentro de la tarjeta del mapa, junto a la flecha",
+      "entrada": "aparece con la flecha (2 f)",
+      "salida": "fundido 14 f",
+      "duracion": "≈ 85 f",
+      "por_minuto": "—",
+      "total": 1,
+      "disparador": "«Girona»",
+      "sonido": "ding",
+      "ejemplos_con_tiempo": "3:35.75–3:38.6",
+      "recorte": "rotulos/mapa_0336.jpg"
+    }
+  ],
+  "subtitulos": {
+    "cobertura": "≈ 60 s de 1842 s = 3,3 % del vídeo, en ≈ 24 tramos (medido buscando texto blanco fino en la banda de subtítulos a 2 muestras por segundo; quita el texto de la intro y el botón final). Es puntual, no continuo",
+    "por_minuto_s": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      19,
+      4,
+      0,
+      0,
+      2,
+      0,
+      1,
+      0,
+      1,
+      0,
+      0,
+      4,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      16,
+      10
+    ],
+    "que_se_subtitula": [
+      "A Jordi Roca siempre (habla bajo y deprisa): 6:55–7:11 («Aquí recibimos a nuestros clientes», «y vamos a pasar a la cocina.», «Exacto, sí.»), 11:58 («Pues disfrutarlo y escuchar mucho.») y la charla final entera 29:30–30:17 (≈ 26 s de texto)",
+      "A Joan Roca solo cuando da datos con ruido de cocina: 7:25.5–7:39.0 («Esto es una estructura», «organizada para poder», «dar el servicio a unos 50 clientes», «de media…», «17 aperitivos» → «16* aperitivos», «12 platos», «3 postres») y 8:15.5–8:20 («las cocciones de los / platos principales (carnes y pescados)»)",
+      "A Soul fuera de plano o lejos del micro: 15:58.5 «No me sabe a seta.», 18:53 «Es como mazo cabezas de gamba», 19:09 «No me asustes...», 27:07 «Sabe a madera.»",
+      "A la camarera cuando contesta una sola palabra: 28:55.6 «Aire.»",
+      "A Nil una sola vez, y censurado: 19:07.8 «¿Qué es esta m**rda?»"
+    ],
+    "que_no": "Nil no se subtitula (en el vídeo de F1 sí, en el 31 % del metraje). Tampoco la camarera cuando canta el plato: eso lo cubre la cartela. Ni Joan en sus planos largos sin ruido",
+    "formato": "blanco para todos, una línea centrada, frase con mayúscula inicial y punto final, 2–6 palabras, de golpe, 0,8–2,3 s; sin color por persona, sin resaltar palabras, sin caja",
+    "enfasis": "no son de énfasis sino de inteligibilidad; el único uso expresivo es la censura con asteriscos («m**rda», «De p*ta madre.») y la nota «16*»",
+    "ejemplos": "detalle/t3_0724-0739_cocina.jpg; sfx_hoja_02 (#53–55), sfx_hoja_05 (#137), sfx_hoja_06 (#161, #168), sfx_hoja_12"
+  },
+  "sfx": {
+    "como_se_confirmo": "Claude no oye. Cada efecto está confirmado por su firma en el espectrograma de la pista sin voz (stems/no_vocals.wav) y por coincidir en el fotograma con un corte o un gráfico. Se miraron las 13 hojas sfx_hoja_00…12 (307 candidatos): solo 8 de los 21 efectos aparecen entre los candidatos. Los otros 13 se vieron en espectrogramas propios (detalle/spec_*.jpg) porque el detector no los propuso; cada uno dice dónde se confirmó",
+    "confirmados": [
+      {
+        "t": "0:06.70–0:07.10",
+        "tipo": "whoosh",
+        "acompaña_a": "corte a la ráfaga de platos (f209)",
+        "respecto_voz_db": -19,
+        "confirmado_en": "espectrograma propio detalle/spec_intro_00-21.jpg"
+      },
+      {
+        "t": "0:14.14–0:14.70",
+        "tipo": "ding/destello (parciales 2732 y 8189 Hz)",
+        "acompaña_a": "la estrella 1 se pone blanca (f421, «tres»)",
+        "respecto_voz_db": -13,
+        "confirmado_en": "sfx_hoja_00 #3"
+      },
+      {
+        "t": "0:22.40–0:22.85",
+        "tipo": "ding de 3 parciales (≈ 2,3 / 4,4 / 7 kHz)",
+        "acompaña_a": "justo antes del corte a la primera foto de archivo (f679)",
+        "respecto_voz_db": -19,
+        "confirmado_en": "espectrograma propio detalle/spec_intro_21-42.jpg (candidato #6 de sfx_hoja_00 en 0:22.28)"
+      },
+      {
+        "t": "0:25.85–0:26.20",
+        "tipo": "whoosh",
+        "acompaña_a": "paso de fotos a documental (corte f781)",
+        "respecto_voz_db": -13,
+        "confirmado_en": "sfx_hoja_00 #7"
+      },
+      {
+        "t": "0:26.10",
+        "tipo": "click seco",
+        "acompaña_a": "corte f781 (+1 f)",
+        "respecto_voz_db": -13,
+        "confirmado_en": "sfx_hoja_00 #7"
+      },
+      {
+        "t": "0:26.85",
+        "tipo": "click seco",
+        "acompaña_a": "corte f803 (+2 f)",
+        "respecto_voz_db": -20,
+        "confirmado_en": "sfx_hoja_00 #8"
+      },
+      {
+        "t": "0:27.68",
+        "tipo": "click seco",
+        "acompaña_a": "corte f828 (+1–2 f)",
+        "respecto_voz_db": -16,
+        "confirmado_en": "sfx_hoja_00 #8"
+      },
+      {
+        "t": "0:35.85–0:36.20",
+        "tipo": "whoosh",
+        "acompaña_a": "corte f1078 al montaje sin voz",
+        "respecto_voz_db": "≈ +1 (medido junto con la música, que sube ahí)",
+        "confirmado_en": "espectrograma propio detalle/spec_intro_21-42.jpg"
+      },
+      {
+        "t": "0:36.03",
+        "tipo": "click seco",
+        "acompaña_a": "corte f1078 (+2 f)",
+        "respecto_voz_db": "≈ +1 (con música)",
+        "confirmado_en": "espectrograma propio detalle/spec_intro_21-42.jpg"
+      },
+      {
+        "t": "0:37.17",
+        "tipo": "doble click fino (tipo obturador; el segundo a ≈ 0,13 s)",
+        "acompaña_a": "corte f1112",
+        "respecto_voz_db": "≈ −3 (con música)",
+        "confirmado_en": "espectrograma propio"
+      },
+      {
+        "t": "0:38.03",
+        "tipo": "doble click fino",
+        "acompaña_a": "corte f1138",
+        "respecto_voz_db": "≈ +1 (con música)",
+        "confirmado_en": "espectrograma propio"
+      },
+      {
+        "t": "0:39.13",
+        "tipo": "doble click fino",
+        "acompaña_a": "corte f1171",
+        "respecto_voz_db": "≈ +2 (con música)",
+        "confirmado_en": "espectrograma propio"
+      },
+      {
+        "t": "0:39.90–0:40.60",
+        "tipo": "whoosh largo",
+        "acompaña_a": "corte f1204 y salida de la música",
+        "respecto_voz_db": "≈ +4 (con música)",
+        "confirmado_en": "espectrograma propio"
+      },
+      {
+        "t": "3:35.70",
+        "tipo": "ding con cola de ≈ 2 s (2452 Hz)",
+        "acompaña_a": "aparecen la flecha y «Girona» en el mapa (f6466)",
+        "respecto_voz_db": -17,
+        "confirmado_en": "espectrograma propio detalle/spec_pildoras_y_mapa.jpg"
+      },
+      {
+        "t": "9:06.25",
+        "tipo": "ding (la muestra de las estrellas)",
+        "acompaña_a": "píldora «ZONA DE ACABADOS» (entra f16368)",
+        "respecto_voz_db": -14,
+        "confirmado_en": "sfx_hoja_02 #72 + espectrograma propio"
+      },
+      {
+        "t": "9:36.55",
+        "tipo": "ding (misma muestra)",
+        "acompaña_a": "píldora «ZONA DE PASTELERIA»",
+        "respecto_voz_db": -18,
+        "confirmado_en": "espectrograma propio detalle/spec_pildoras_y_mapa.jpg y búsqueda de la firma 2732 + 8189 Hz en toda la pista"
+      },
+      {
+        "t": "10:14.65",
+        "tipo": "ding (misma muestra)",
+        "acompaña_a": "píldora «ZONA DE PRODUCCION»",
+        "respecto_voz_db": -11,
+        "confirmado_en": "sfx_hoja_03 #84 + espectrograma propio"
+      },
+      {
+        "t": "30:36.00",
+        "tipo": "doble click de ratón (plantilla)",
+        "acompaña_a": "el cursor pulsa el me gusta del botón (azul en f55025)",
+        "respecto_voz_db": "≈ +2 (con música de cierre)",
+        "confirmado_en": "espectrograma propio detalle/spec_cartelas_rueda_boton_infografia.jpg"
+      },
+      {
+        "t": "30:37.42",
+        "tipo": "doble click de ratón (plantilla)",
+        "acompaña_a": "el cursor pulsa «Subscribe»",
+        "respecto_voz_db": "≈ +5 (con música)",
+        "confirmado_en": "espectrograma propio"
+      },
+      {
+        "t": "30:38.60–30:39.00",
+        "tipo": "campanita (plantilla)",
+        "acompaña_a": "la campana del botón",
+        "respecto_voz_db": -6,
+        "confirmado_en": "espectrograma propio detalle/spec_musica_cuerpo.jpg"
+      },
+      {
+        "t": "30:39.70",
+        "tipo": "click (plantilla)",
+        "acompaña_a": "último gesto del botón antes de encogerse",
+        "respecto_voz_db": "≈ +2 (con música)",
+        "confirmado_en": "sfx_hoja_12 #303–305"
+      }
+    ],
+    "por_minuto": {
+      "confirmados_por_minuto": [
+        13,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        4
+      ],
+      "total": 21,
+      "media": 0.68,
+      "intro": "13 en 41,6 s (18,7/min): 4 whoosh, 2 ding, 7 clicks",
+      "cuerpo": "4 en 29,6 min = 0,14/min: los 3 ding de las píldoras de zona y el del mapa. Entre 0:41 y 30:33 no hay ni un whoosh, ni un pop, ni un golpe confirmado",
+      "cierre": "4 sonidos que vienen con la plantilla del botón (30:36–30:40)"
+    },
+    "reglas": [
+      "El efecto va con el GRÁFICO o con el CORTE A METRAJE AJENO, nunca con un corte normal ni con un chiste: de 510–520 cortes, 10 llevan sonido (≈ 2 %) y los 10 están en la intro (f209, f679, f781, f803, f828, f1078, f1112, f1138, f1171, f1204)",
+      "Un ding = «mira este dato»: estrellas (0:14.14), primera foto (0:22.40), mapa (3:35.70) y las 3 píldoras de zona. La misma muestra (2732 + 8189 Hz) se usa 4 veces en el vídeo",
+      "El ding cae en el fotograma del cambio visual (el destello f421; la flecha f6466), no en la entrada del gráfico: la tarjeta del mapa entra 28 f antes de su ding",
+      "Click seco 1–2 f DESPUÉS de cada corte cuando se encadenan clips ajenos (documental 0:26.10 / 0:26.85 / 0:27.68) y doble click en cada corte del montaje sin voz",
+      "Whoosh solo en los 4 cambios de bloque de la intro (a platos, a documental, al montaje, salida del montaje)",
+      "Nivel: 11–20 dB por debajo de la voz cuando hay voz (mediana −16 dB); los del montaje sin voz van al nivel de la música",
+      "Las cartelas de plato (31), la rueda, la captura de la web, la píldora «nil ✓», los subtítulos y los punch-ins van MUDOS",
+      "Las reacciones no llevan efecto: el sonido del pico es el directo (masticar, la cuchara, la risa)"
+    ],
+    "candidatos_descartados": [
+      "sfx.json propone 307 candidatos (silbido 74, whoosh 64, caja 30, boing 28, pop 28…) y solo el 9,4 % cae en un corte: casi todos son vajilla, cubiertos, cuchillo sobre tabla (23:24), cucharilla en taza (27:22), pan crujiente (21:08–21:11), roces de la carta (14:53–15:03), campanas y menaje de cocina (7:16–11:49) y voz",
+      "hojas 01, 04, 05, 06, 07, 08, 09, 10 y 11: 0 efectos confirmados en ≈ 215 candidatos",
+      "4:55.68 dos rayas tonales = pitido de una puerta (directo)",
+      "0:44–0:56 ruido de calle; 2:30.6 es música, no efecto",
+      "14:37.3, 14:39.1, 14:39.6 golpes de la mesa bajo la rueda"
+    ]
+  },
+  "musica": {
+    "presencia": "Música montada en ≈ 52 s de 1842 s = 2,8 % del vídeo (4 momentos). audio.json da 19 % porque cuenta como música el ambiente de cocina y sala (tramos a −37…−49 dB con voz); en el espectrograma de 15:30–16:03 solo hay tintineo de vajilla y ningún colchón",
+    "voz_menos_musica_db": "intro bajo la voz: 22 → 10 dB por debajo (fundido); montajes sin voz: al nivel de la voz (−21…−25 dB con la voz a −20/−22); cierre: 5,7 dB por debajo. La mediana de 18,9 dB de audio.json no describe música sino ambiente",
+    "tramos": [
+      {
+        "desde": "0:00.0",
+        "hasta": "0:22.4",
+        "nivel_db": "silencio (−47…−60)",
+        "voz_menos_musica_db": "—",
+        "nota": "los primeros 22,4 s de la intro van SIN música: solo voz y 2 efectos"
+      },
+      {
+        "desde": "0:22.4",
+        "hasta": "0:35.9",
+        "nivel_db": "−42 → −36 (0:27) → −30 (0:33–0:35)",
+        "voz_menos_musica_db": "22 → 10",
+        "nota": "entra en fundido con la primera foto de archivo («Tres hermanos…»): colchón que crece 13,5 s"
+      },
+      {
+        "desde": "0:35.97",
+        "hasta": "0:40.75",
+        "nivel_db": "−21…−22",
+        "voz_menos_musica_db": "≈ 0 (sin voz)",
+        "nota": "sube 8 dB en el corte al montaje; cortes 0,09–0,10 s antes de cada acento; se va con un whoosh"
+      },
+      {
+        "desde": "0:40.8",
+        "hasta": "2:30.6",
+        "nivel_db": "sin música",
+        "voz_menos_musica_db": "—",
+        "nota": "sonido directo de calle"
+      },
+      {
+        "desde": "2:30.6",
+        "hasta": "2:34.5",
+        "nivel_db": "−23…−25",
+        "voz_menos_musica_db": "sin voz",
+        "nota": "arranca DE GOLPE en el corte al cartel «LA MASIA (I+R)» (f4514), con voces/coro; 3,9 s"
+      },
+      {
+        "desde": "2:34.5",
+        "hasta": "12:48.0",
+        "nivel_db": "sin música",
+        "voz_menos_musica_db": "—",
+        "nota": "10 min 13 s de directo, incluida toda la cocina"
+      },
+      {
+        "desde": "12:48.0",
+        "hasta": "12:52.0",
+        "nivel_db": "−21…−25",
+        "voz_menos_musica_db": "sin voz",
+        "nota": "travelling por el pasillo de botellas"
+      },
+      {
+        "desde": "12:52.0",
+        "hasta": "30:18.7",
+        "nivel_db": "sin música",
+        "voz_menos_musica_db": "—",
+        "nota": "17 min 27 s: todo el menú va con el sonido de la sala"
+      },
+      {
+        "desde": "30:18.7",
+        "hasta": "30:42.3",
+        "nivel_db": "−18 al entrar, −22…−33 bajo la voz (media −29,5)",
+        "voz_menos_musica_db": "5,7",
+        "nota": "entra en el corte al exterior y se corta con el vídeo"
+      }
+    ],
+    "cambios_de_pista": "4 piezas (o 4 entradas): intro, 2:30.6, 12:48 y cierre. El «cambio de pista en 952 s» de audio.json es falso (vajilla)",
+    "silencios_a_proposito": [
+      {
+        "t": "0:00–0:22.4",
+        "para_que": "que la intro empiece como una conversación y la música llegue con la emoción (la familia)"
+      },
+      {
+        "t": "7:16–11:49",
+        "para_que": "Joan Roca explicando: nada compite con su voz"
+      },
+      {
+        "t": "14:28–28:58",
+        "para_que": "el menú: el sonido es la sala, la camarera y masticar; la ostra (18:03–18:06) son 3 s de silencio real"
+      }
+    ],
+    "silencios_resumen": "97,2 % del vídeo sin música. Es la decisión más rara frente a las referencias de la base (67–80 % con música)",
+    "musica_a_ritmo_de_cortes": "solo en los 3 montajes sin voz (corte 0,09–0,10 s antes del acento en la intro). En el habla, cortes en pulso 0,29 = azar",
+    "sin_voz": "de los 15 huecos sin voz ≥ 2 s (60 s), solo 3 llevan música (0:36–0:40, 2:31–2:34, 12:49–12:52) a −21…−25 dB; los otros 12 se dejan con el directo",
+    "sonido_directo": "manda todo el vídeo: calle, cocina, sala. No se limpia el ruido de la cocina: se subtitula a quien habla",
+    "lufs": "−17,8 LUFS integrados, LRA 7,2 LU, pico real −6,3 dBTP: máster bajo y con dinámica (3,8 LU por debajo de −14)",
+    "acentos_por_minuto": 18.8
+  },
+  "broll": {
+    "proporcion": "≈ 170–190 s de planos que no son alguien hablando ≈ 10 % del vídeo (estimación sobre hojas): ≈ 31 primeros planos de plato de 2–4 s (≈ 85 s), ≈ 25 recursos sobre la voz en la historia y el camino (≈ 40 s), recursos de cocina y bodega (≈ 20 s), 3 montajes sin voz (≈ 13 s), fotos y documental de la intro (9,6 s)",
+    "de_donde_sale": "del mismo rodaje (el operador graba el plato antes de que Nil lo toque, y planos fijos del sitio), del archivo de la familia (fotos), de un documental externo (3 planos en la intro, 2 insertos de vídeo de Jordi en 5:48 y 6:34) y de otros vídeos del canal (las 2 franjas de la intro)",
+    "duracion_tipica": "sobre la voz 1,0–1,8 s (0:47.8–0:57.6: 7 seguidos, uno por idea: terraza, fachada, foto, gente mirando fotos, tres comedores); plato en primer plano 2–4 s; inserto con sonido propio hasta 3,5 s (0:57.7–1:01.1, Nil saluda al padre)",
+    "disparador": "se nombra algo que no está delante («hace 70 años» → foto; «menú del día» → el papel; «75.000 vinos» → la bodega 4:44) o llega un plato",
+    "vuelta_a_camara": "al mismo plano del que salió, por corte seco; en el menú, del plato se vuelve a Nil ESCUCHANDO con la camarera detrás, no hablando",
+    "que_no": "no se tapa una reacción ni un chiste: la ostra (10,2 s) y el cítrico (10 s) van enteros en la cara. No hay recursos de relleno sobre Joan: sus 38,8 s van en un plano"
+  },
+  "voz_en_off": "No hay voz en off grabada aparte. La única voz sin cara es la de la camarera cantando cada pase sobre el primer plano del plato (≈ 31 veces, 2–6 s), que es sonido directo usado como off, y la de Soul detrás de la cámara (subtitulada). Habla el 96 % del tiempo (audio.json).",
+  "transiciones": [
+    {
+      "tipo": "corte seco",
+      "duracion_f": 0,
+      "total": "≈ 99,5 % de los ≈ 515 cortes",
+      "donde": "todo el vídeo",
+      "regla": "por defecto, también para entrar y salir de recursos y fotos",
+      "sonido": "ninguno (salvo los 10 cortes de la intro con click, ding o whoosh)"
+    },
+    {
+      "tipo": "cortinilla de empuje hacia abajo",
+      "duracion_f": "6 (intro) y ≈ 14 (cuerpo)",
+      "total": 2,
+      "donde": "0:09.98–0:10.18 (f299–304: del último plato a Nil, con giro de ≈ 5°) y 6:26.7–6:27.2 (f11589–11603: de la captura de la web a Nil)",
+      "regla": "solo para VOLVER de un inserto a pantalla completa a Nil; nunca para entrar",
+      "sonido": "golpe grave probable (ver dudas)"
+    },
+    {
+      "tipo": "desenfoque + fundido de un gráfico",
+      "duracion_f": "9–12",
+      "total": 3,
+      "donde": "salida de las 2 franjas (f72–82, f158–166) y del texto (f481–493)",
+      "regla": "los gráficos de la intro no se cortan: se deshacen",
+      "sonido": "ninguno"
+    },
+    {
+      "tipo": "deslizamiento lateral de rótulo",
+      "duracion_f": "entrada 18–30, salida 16–24",
+      "total": "≈ 36 (31 cartelas, 3 píldoras, mapa, rueda)",
+      "donde": "cuerpo",
+      "regla": "entra y sale por el borde más cercano; entrada con frenada, salida acelerando",
+      "sonido": "ding solo en píldoras y mapa"
+    }
+  ],
+  "cierre": {
+    "como_acaba": "29:30–30:17 Jordi Roca sentado junto a Nil comentando los postres (subtitulado); 30:16.1 «Una experiencia increíble»; 30:18.7 corte al aparcamiento con música; Nil va hacia Laia, una fan («parece que venga actor pagado» 30:26.6), plano de 14,1 s; 30:33.0 «Vale, pues nada, amigos», gracias al equipo y a los hermanos; 30:40.6 «Voy a hacer una foto con Laia»; último fotograma 30:42.3",
+    "duracion_s": 24,
+    "cta": "ninguna llamada hablada; solo el botón de suscripción de plantilla (30:33.0–30:40.6), que nace en la palabra «Vale» y va sin ningún texto a la vez. A mitad de vídeo, 2 menciones a su Instagram con la píldora «nil ✓» (3:31, 27:14) y una hablada (5:44)",
+    "pantalla_final": "no hay: 0 s. Ni tarjetas, ni fondo, ni música que se alargue",
+    "musica": "entra de golpe en el corte de 30:18.7 (−18 dB), queda 5,7 dB bajo la voz y se corta con el vídeo"
+  },
+  "para_el_estilo": [
+    "VISITA con anfitrión = intro EXPLICATIVA, no tráiler: 36 s hablando a cámara desde el fotograma 0 + 5–6 s de montaje sin voz. Sin saludo ni cabecera",
+    "Receta de la intro: 2 credenciales (≈ 2,7 s cada una) → promesa con ráfaga de 5 planos de 14–31 f → premisa con el gráfico grande y su ding → giro a cámara SIN gráficos (5–6 s) → 6 imágenes de 22–51 f, una por idea → invitación y nombre del sitio → 5 planos de 26–44 f con música",
+    "En la intro, un bloque de ilustración cada 4,7 s y la mitad del tiempo hablado (49 %) a cámara sin nada: el gráfico no se pone en todas las frases",
+    "El gráfico grande va DETRÁS de la persona (máscara) y el texto delante: franjas de vídeo de ≈ 50 % de la altura, iconos de 28 % × 55 %",
+    "El texto de la intro se escribe palabra a palabra 0–7 f antes de la voz, una línea, 5,1 % de altura, abajo al centro, y se queda 5 s mientras cambia el plano detrás",
+    "Del cuerpo solo se adelantan COSAS (platos, sitios), nunca caras ni reacciones: los picos se guardan",
+    "Las fotos de archivo van fijas (0,0 %/s), a pantalla completa, 32–37 f en la intro y 1,0–2,2 s en el cuerpo, por corte seco",
+    "Con el anfitrión hablando, bajar el ritmo: planos de 25–39 s, 8,9 cortes/min, sin recursos encima y subtítulos si hay ruido. Con el creador solo, 20–21 cortes/min con jump cuts cada ≈ 2,5 s",
+    "Cada zona del recorrido guiado, una píldora arriba a la izquierda (7,7 % de alto, 4,7 s) con ding en la palabra que la nombra",
+    "Cada pase, la misma secuencia: plato en primer plano 2–4 s con la voz de quien lo sirve → cartela a los 9 f → el creador escucha → prueba en plano medio fijo → punch-in por corte de ≈ 0,7 s en el remate",
+    "Cartela de pase: caja blanca con el nombre en serif naranja (5,6 %) + ingredientes en serif blanca (2,8 %), abajo a la izquierda, 30 f de entrada, 6,4 s, muda, aguanta 1–2 cortes y se va antes de la reacción",
+    "El pico de la visita (probar algo por primera vez) va en UN plano fijo de ≈ 10 s, con el anuncio dentro, sin música, sin texto y sin efecto; solo un punch-in ×1,5–1,6 en la frase de remate",
+    "Subtítulos solo para quien no se entiende (invitados, operador fuera de plano): blanco, una línea, 2–6 palabras, 3,3 % del vídeo. Corregir un dato del invitado con un asterisco en el subtítulo («16*») en vez de cortarle",
+    "Música solo en 4 sitios: fundido bajo la segunda mitad de la intro, 2 montajes de transición de 4 s sin voz (arranca de golpe en el corte) y el cierre. El recorrido y la comida van con sonido directo",
+    "Mapa en tarjeta arriba a la derecha (38 % × 71 %), 4,5 s, cuando se dice dónde está el sitio; el ding va con la flecha, no con la tarjeta",
+    "Cierre en la calle, sin pantalla final: botón de suscripción solo, naciendo en la primera palabra de la despedida, 7,5 s"
+  ],
+  "para_la_base": [
+    "El detector de cortes ve ≈ 66 % de los cortes de un vídeo hablado: hay que sumar los jump cuts de mismo encuadre (picos débiles de 2–10 aislados) antes de comparar ritmos. Aquí 343 → ≈ 515",
+    "Una intro puede no llevar música en su primera mitad: la música que entra a los 22 s marca el paso de «datos» a «emoción» mejor que un colchón desde el segundo 0",
+    "Dejar una frase a cámara sin gráficos justo en la idea central; rodearla de gráficos la hace destacar",
+    "El efecto de sonido pertenece al gráfico-dato, no al corte: ≈ 2 % de los cortes con sonido y todos en la intro; fuera de la intro, 0,14 efectos/min",
+    "Reutilizar UNA muestra de ding para todo lo que sea «dato en pantalla» (4 usos aquí) da unidad",
+    "El ding se coloca en el fotograma del cambio que hay que mirar (destello, flecha), no al entrar el soporte",
+    "Los rótulos entran con frenada (18–30 f) y salen acelerando (16–24 f) por el borde más cercano; sin rebote, sin fundido",
+    "Un rótulo informativo puede cruzar 1–2 cortes si los planos son de la misma escena; no hay que cortarlo con el plano",
+    "La máscara de persona (gráfico detrás, mano por delante) se reserva para 3–4 momentos por vídeo: 2 franjas, estrellas y mapa",
+    "Subtitular es una decisión de inteligibilidad por persona, no un estilo global: en este mismo canal un vídeo va al 31 % y otro al 3,3 %",
+    "Punch-in por corte y vuelta por corte en ≈ 20 f para rematar una reacción: más seco que un zoom animado y sin sonido",
+    "Máster a −17,8 LUFS con LRA 7,2: cuando casi todo es voz y directo no se comprime hasta −14"
+  ],
+  "para_el_motor": {
+    "ESCALAS": [
+      1.0,
+      1.33,
+      1.0,
+      1.55,
+      1.0,
+      1.35,
+      1.0,
+      1.7
+    ],
+    "ESCALAS_nota": "medidos: ×1,33 (punch-in animado de la intro) y ×1,35 (salto de la intro); a ojo en el cuerpo ×1,5–1,6 y ×1,6–1,8 en reacciones. Siempre se vuelve a ×1,0 entre dos saltos",
+    "CAMBIO_CADA": [
+      2.5,
+      6.7
+    ],
+    "CAMBIO_CADA_nota": "mediana y p90 de plano contando jump cuts (2,47 y 6,67 s); sin contarlos 3,27 y 11,85 s. Con un invitado explicando, no aplicar: planos de 25–39 s",
+    "Z_FUERTE": 1.6,
+    "Z_FUERTE_nota": "punch-in de remate ≈ ×1,5–1,6 durante ≈ 0,7 s (18:06.5); un extremo ≈ ×3 de < 1 s (22:54.5) como chiste",
+    "Z_SIN_CARA": 1.0,
+    "CARA_Y": null,
+    "CARA_Y_nota": "no medido con detector; a ojo la cara queda entre el 30 y el 40 % de la altura en los planos de mesa",
+    "ZOOM_LENTO": {
+      "activo": true,
+      "solo_en": "intro",
+      "sobre_el_que_habla_pct_por_s": [
+        -1.0,
+        0.84
+      ],
+      "planos_de_sitio_pct_por_s": [
+        2.1,
+        12.0
+      ],
+      "curva": "lineal",
+      "cuerpo": "0 (trípode: −0,09 %/s medido)"
+    },
+    "PUNCH_ANIMADO_INTRO": {
+      "de": 1.0,
+      "a": 1.33,
+      "duracion_f": 10,
+      "curva": "ease-out",
+      "zoom_out_de_arranque": {
+        "de": 1.337,
+        "a": 1.0,
+        "duracion_f": 34,
+        "curva": "ease-out"
+      }
+    },
+    "TEXTO_ENTRADA_F": 5,
+    "TEXTO_ENTRADA_nota": "texto de intro: 4–5 f por palabra, de gris translúcido a blanco, sin escala ni rebote; rótulos del cuerpo: deslizamiento de 18–30 f con frenada",
+    "ROTULO_PASE": {
+      "entrada_f": 30,
+      "salida_f": 24,
+      "duracion_s": 6.4,
+      "retraso_tras_corte_f": 9,
+      "posicion": "abajo izquierda",
+      "titulo_pct": 5.6,
+      "descripcion_pct": 2.8,
+      "sonido": null
+    },
+    "PILDORA_SECCION": {
+      "entrada_f": 27,
+      "salida_f": 16,
+      "duracion_s": 4.7,
+      "posicion": "arriba izquierda",
+      "alto_pct": 7.7,
+      "sonido": "ding"
+    },
+    "SUBTITULOS": {
+      "cobertura": 0.033,
+      "color_creador": null,
+      "color_otro": "#FFFFFF",
+      "fuente": "Archivo 600 (+0,606) · Roboto 500 (+0,521) · Inter Tight 600 (+0,381)",
+      "alto_linea_pct": 4.6,
+      "y_base_pct": 89,
+      "palabras": [
+        2,
+        6
+      ],
+      "duracion_s": [
+        0.8,
+        2.3
+      ],
+      "solo": "invitados y operador"
+    },
+    "TRANSICION_INSERTO": {
+      "tipo": "empuje hacia abajo",
+      "duracion_f": [
+        6,
+        14
+      ],
+      "solo_a_la_salida": true,
+      "usos": 2
+    },
+    "SFX": {
+      "titulo": null,
+      "seccion": {
+        "sonido": "ding",
+        "respecto_voz_db": [
+          -18,
+          -11
+        ],
+        "cuando": "3 f después de empezar a entrar la píldora"
+      },
+      "trk": null,
+      "mapa": {
+        "sonido": "ding con cola",
+        "respecto_voz_db": -17,
+        "cuando": "al aparecer flecha y rótulo, 28 f después de la tarjeta"
+      },
+      "suscribe": {
+        "sonido": "clicks y campana de la plantilla"
+      },
+      "dato": {
+        "sonido": "ding",
+        "respecto_voz_db": -13,
+        "cuando": "en el fotograma del destello"
+      },
+      "golpe": null
+    },
+    "SFX_nota": "titulo, trk y golpe a null: no hay título, ni rótulos con seguimiento, ni golpes en cortes. Tope fuera de la intro: 0,14/min. En la intro 18,7/min",
+    "MUSICA_NIVELES": {
+      "BASE": null,
+      "TRAILER": -30,
+      "TITULO": null,
+      "SECCION": -23,
+      "MAPA": null,
+      "SINVOZ": -22,
+      "CIERRE": -29.5
+    },
+    "MUSICA_NIVELES_nota": "valores absolutos del máster (voz a −20 dB en la intro, −22 de media y −25 en el cierre); al pasarlos al motor hay que conservar la distancia a la voz: TRAILER = colchón de la intro, de 22 a 10 dB bajo la voz (fundido de 13,5 s); SECCION y SINVOZ = montajes sin voz al nivel de la voz (0…−3 dB); CIERRE 5,7 dB bajo la voz. BASE null: no hay música bajo la voz en el cuerpo. MAPA null: el mapa va sin música. TITULO null: no hay título",
+    "MUSICA_FUERA": "97,2 % del vídeo; ventanas con música: 0:22.4–0:40.8, 2:30.6–2:34.5, 12:48–12:52, 30:18.7–fin",
+    "LUFS": -17.8,
+    "LUFS_nota": "LRA 7,2 LU, pico real −6,3 dBTP; la base usa −14",
+    "RITMO_OBJETIVO": {
+      "mediana_plano_s": [
+        2.0,
+        2.7
+      ],
+      "cortes_por_minuto": [
+        17,
+        21
+      ],
+      "con_anfitrion_cortes_por_minuto": 9,
+      "menos_de_1s_pct": 11,
+      "intro_cortes_por_minuto": 37,
+      "intro_mediana_s": 1.13,
+      "montaje_sin_voz_cada_s": 600,
+      "rotulos_por_minuto_en_recorrido": 0.7,
+      "cartelas_por_minuto_en_degustacion": 2.1
+    }
+  },
+  "dudas": [
+    "EFECTOS: 13 de los 21 confirmados no salen en las hojas sfx_hoja_*.jpg porque el detector no los propuso; se confirmaron en espectrogramas propios de la misma pista (detalle/spec_intro_00-21.jpg, spec_intro_21-42.jpg, spec_pildoras_y_mapa.jpg, spec_cartelas_rueda_boton_infografia.jpg, spec_musica_cuerpo.jpg). Conviene que alguien los escuche: sobre todo el whoosh de 0:06.7 y el ding de 0:22.4, que son flojos (−19 dB)",
+    "GOLPES GRAVES sin confirmar (energía por debajo de ≈ 60 Hz, vista en detalle/spec_graves_mapa_infografia_intro.jpg): 0:00.06–0:01.45 (zoom-out y franja 1), 0:03.9–0:04.2 (franja 2), 0:10.05–0:10.20 (cortinilla), 0:12.2–0:13.9 (subida de las estrellas), 0:16.2–0:16.7 (salida de las estrellas), 3:34.84–3:35.58 y 3:38.92–3:39.53 (entrada y salida del mapa, +2…+5 dB sobre la voz), 6:26.85–6:27.5 (salida de la captura de web). Coinciden las 8 veces con un gráfico que entra o sale, lo que apunta a un whoosh grave añadido; pero en el mismo plano de exterior hay rumor grave sin gráfico (3:25.4–3:29.7), así que puede ser viento o manejo del micro. No se cuentan como efectos",
+    "Click fino en 0:09.02 (la copa sobre la mesa en el plano del lenguado): directo o añadido, no se distingue",
+    "MÚSICA: los tramos de audio.json a −37…−49 dB con voz (p. ej. 5:31–5:44, 15:32–16:01) se han tomado por ambiente porque el espectrograma de 15:30–16:03 solo muestra vajilla; no se ha mirado el espectrograma de todos. 29:30–29:36.5 hay un rumor grave (−21 dB) con Jordi en la mesa, sin identificar",
+    "ORIGEN de los clips de la intro: solo el lenguado está comprobado contra el cuerpo (25:13.9); trufa, gnoqui, cococha y gamba se han situado por la hora de su cartela (≈ 23:40–24:44) y los planos de sitio del montaje final por parecido (≈ 6:02, ≈ 0:47, cocina)",
+    "JUMP CUTS: la cifra ≈ 510–520 (±30) sale de comprobar 2 minutos enteros y 1 tramo de 15 s; en la intro, los 3–4 jump cuts dentro de las tomas largas (f502–678, f879–1037) son candidatos por pico, no vistos uno a uno",
+    "PUNCH-INS del cuerpo: escalas a ojo (×1,5–1,8) y recuento parcial (≥ 9 vistos); no se han medido con medir_zoom ni contado en todo el menú",
+    "FUENTE de las cartelas: fuente_rotulo.py da puntuaciones ≈ 0 (Cormorant Garamond +0,023); la descripción «serif de alto contraste tipo Instrument Serif / Playfair Display» es a ojo",
+    "Píldora «nil ✓»: no se distingue si la mano pasa por delante (máscara) o por detrás; tipografía sin medir; los usos de 5:44 y 27:14 vistos solo en hojas de minuto",
+    "CARTELAS: 31 contadas en hojas de 2 s para 32 pases; puede faltar alguna de las que duran poco o haber algún pase sin cartela. Tiempos al segundo salvo «Pétalos» (al fotograma); la primera («MAGIA Y TRANSVERSALIDAD») es la única en mayúsculas",
+    "SUBTÍTULOS: los ≈ 60 s salen de un detector de texto en la mitad derecha de la banda; los subtítulos de 1 palabra muy cortos (< 0,5 s) pueden faltar. Total probable 60–70 s. Tres tramos detectados sin mirarlos uno a uno: 13:10, 17:50 y 18:47",
+    "B-ROLL: el ≈ 10 % es una estimación sobre hojas de minuto, no una medida",
+    "Las fotos de 1:24 y 1:28 se describieron en las hojas con «zoom lento» y «fuga de luz cálida» respectivamente; solo se midió la de 0:50.75 (fija). Sin comprobar a 1 f",
+    "No se ha leído la ficha de la Sagrada Familia (la escribe otro agente); la comparación de la intro es solo con la de F1"
+  ]
+}
