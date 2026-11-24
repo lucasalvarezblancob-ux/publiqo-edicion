@@ -10,7 +10,9 @@ y número**, nunca opiniones sueltas. Une y amplía `ENCARGO.md` y `ENCARGO_DINA
 Trabaja desde la raíz de la carpeta de edición (en Windows, con Git Bash). Python: `herramientas/.venv/Scripts/python.exe`
 (macOS: `herramientas/.venv/bin/python`). Mira las imágenes con Read. No descargues, no uses git, no lances demucs ni
 whisper (ya está hecho): solo herramientas ligeras (`hoja_contactos.sh`, `ffmpeg -ss T -frames:v 1`, `medir_zoom.py`,
-`fuente_rotulo.py`). No modifiques nada fuera de la carpeta de análisis del vídeo y de la ficha.
+`fuente_rotulo.py`). No modifiques nada fuera de la carpeta de análisis del vídeo y de la ficha. **Temporales (scripts,
+JSON intermedios, recortes) SIEMPRE en una subcarpeta propia con el nombre del vídeo** (`<carpeta del vídeo>/tmp/` o
+`<scratchpad>/<slug>/`), nunca con nombres genéricos en una carpeta compartida: con dos agentes a la vez se pisan.
 
 ## Lo que ya está calculado (carpeta `refs/dinamicos/_analisis/<video>/`)
 - `cortes.json` (cortes, s/plano, tramos), `transcripcion.json/.txt` (idioma detectado), `sonoridad.json` (LUFS).
