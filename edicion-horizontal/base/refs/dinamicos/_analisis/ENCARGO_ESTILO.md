@@ -29,7 +29,8 @@ whisper (ya está hecho): solo herramientas ligeras (`hoja_contactos.sh`, `ffmpe
    `rotulos/`. Pásale `fuente_rotulo.py <recorte> [--texto "…"] --color "#FFFFFF"` (el color de las letras: sin él, con
    texto sobre vídeo el fondo se mezcla y la puntuación baja) y apunta el top-3 con su puntuación (< 0,5 = no fiable).
    Si la intro tiene micro-flash o estroboscopio (planos de 2–5 f), cuenta sus cortes con
-   `detectar_cortes.py VIDEO <carpeta>/cortes_rafagas.json --rafagas` (el `cortes.json` normal los junta en uno).
+   `detectar_cortes.py VIDEO <carpeta>/cortes_rafagas.json --rafagas --hasta <fin de la intro en s>` (el `cortes.json` normal
+   los junta en uno; sin `--hasta`, la cámara rápida muy brusca de más adelante puede salir como «ráfaga»: compruébalo a la vista).
 5. `medir_zoom.py VIDEO INI FIN` en ≥ 8 planos; en cámara en mano, a ojo por el tamaño de la cara (final ÷ inicial).
 6. Cruza siempre imagen + transcripción + audio: qué palabra dispara cada zoom, texto, efecto o corte.
 

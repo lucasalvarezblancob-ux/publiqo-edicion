@@ -9,7 +9,9 @@ Uso: detectar_cortes.py VIDEO SALIDA.json [--umbral 10] [--tramo 60]
 Los fundidos y whips salen como varios picos seguidos: se agrupan (<0,2 s) y se marcan "transicion".
 --rafagas: para intros con micro-flash o estroboscopio (planos de 2-5 fotogramas). El vecindario se mide con el
   percentil 25 en vez de la mediana (si no, una ráfaga entera se descarta como «flash sostenido») y un grupo de >= 3
-  picos separados >= 2 fotogramas se cuenta como otros tantos cortes ("rafaga"), no como una transición.
+  picos separados >= 2 fotogramas, con la imagen quieta entre ellos, se cuenta como otros tantos cortes ("rafaga"), no
+  como una transición (la cámara rápida, que cambia en todos los fotogramas, no cuenta). Con --hasta S, solo en los
+  primeros S segundos (la intro): una cámara rápida muy brusca más adelante también daría picos seguidos.
   Sin --rafagas, el resultado es el de siempre (comparable con las fichas antiguas).
 """
 import argparse, json, re, statistics as st, subprocess, sys
@@ -20,6 +22,7 @@ ap.add_argument("video"); ap.add_argument("salida")
 ap.add_argument("--umbral", type=float, default=10.0)
 ap.add_argument("--tramo", type=float, default=60.0)
 ap.add_argument("--rafagas", action="store_true")
+ap.add_argument("--hasta", type=float, help="con --rafagas: solo hasta este segundo (la intro); después, como siempre")
 a = ap.parse_args()
 
 sal = Path(a.salida); scd = sal.with_suffix(".scd.txt")
@@ -42,7 +45,8 @@ picos = []
 for i in range(1, n - 1):
     if s[i] < a.umbral or s[i] < s[i - 1] or s[i] < s[i + 1]: continue
     vec = s[max(0, i - 12):i - 1] + s[i + 2:i + 13]
-    base = (sorted(vec)[len(vec) // 4] if a.rafagas else st.median(vec)) if vec else 0
+    raf = a.rafagas and (a.hasta is None or t[i] <= a.hasta + 1)
+    base = (sorted(vec)[len(vec) // 4] if raf else st.median(vec)) if vec else 0
     if s[i] >= 3 * max(base, 0.5):
         picos.append((t[i], s[i]))
 # agrupar picos pegados (transición con duración: fundido, whip, flash)
@@ -57,7 +61,15 @@ if a.rafagas:      # un grupo de >= 3 picos separados >= 2 fotogramas = una ráf
     nuevos = []
     for c in cortes:
         ps = c["_p"]
-        if len(ps) >= 3 and min(b_[0] - a_[0] for a_, b_ in zip(ps, ps[1:])) >= 1.5 * paso:
+        # y entre pico y pico la imagen tiene que estar QUIETA (cada micro-plano es estable). En cámara rápida o un
+        # trayecto acelerado todos los fotogramas cambian: eso no es una ráfaga de cortes.
+        i0 = min(range(n), key=lambda k: abs(t[k] - ps[0][0])); i1 = min(range(n), key=lambda k: abs(t[k] - ps[-1][0]))
+        pk = {min(range(i0, i1 + 1), key=lambda k: abs(t[k] - pt)) for pt, _ in ps}
+        entre = [s[k] for k in range(i0, i1 + 1) if k not in pk and k - 1 not in pk and k + 1 not in pk] or \
+                [s[k] for k in range(i0, i1 + 1) if k not in pk]
+        quieto = (st.median(entre) if entre else 0) < 0.25 * st.median([x for _, x in ps])
+        dentro = a.hasta is None or ps[0][0] <= a.hasta
+        if dentro and len(ps) >= 3 and quieto and min(b_[0] - a_[0] for a_, b_ in zip(ps, ps[1:])) >= 1.5 * paso:
             nuevos += [{"t": round(pt, 3), "fin": pt, "score": round(ps_, 1), "tipo": "rafaga", "_p": []} for pt, ps_ in ps]
         else: nuevos.append(c)
     cortes = nuevos

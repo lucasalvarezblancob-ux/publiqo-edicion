@@ -18,7 +18,10 @@ En Windows, antes: `powershell -ExecutionPolicy Bypass -File herramientas\window
 - Fuentes: `herramientas/fuente_rotulo.py <recorte>` da el top-3 de Google Fonts (acierta familia; el peso, a veces).
 - `cortes.json`: cada corte (`t`, `score`, `tipo` seco|transicion), duración de planos y resumen por minuto.
   Fiable en cortes secos (comprobado contra fotogramas). NO ve transiciones encadenadas (whip/zoom a mapa) ni
-  jump cuts con encuadre casi idéntico: esos se cuentan a ojo en las hojas.
+  jump cuts con encuadre casi idéntico: esos se cuentan a ojo en las hojas. Medido el 2026-11-24 con 20 jump cuts
+  conocidos en un plano fijo a cámara: scdet 0/20, y la diferencia de píxeles entre fotogramas tampoco los separa del
+  movimiento normal (6/20 con 6 falsos). Método: contarlos a ojo en 3–4 tramos de 1 min a 0,1 s, extrapolar y dar
+  el total con su margen («≈ 700, ±10 %»). En Alessio y Plex, el detector se queda en el 55–80 % del real.
 - `audio.json`: tramos de música (batería+bajo aislados con demucs), nivel de voz y de música, diferencia
   voz−música en dB, cambios de pista, acentos de sonido (posibles SFX) y cuántos caen sobre un corte.
   `por_segundo.voz_db / resto_db / ritmo_db` = curva segundo a segundo.
