@@ -1,0 +1,2010 @@
+{
+  "video": {
+    "archivo": "refs/dinamicos/nil-ogt/2022-08-04_pov-vas-a-tomorrowland.mp4",
+    "creador": "nil-ojeda",
+    "canal": "Nil Ojeda (Nil OGT)",
+    "url": "https://www.youtube.com/watch?v=MyTjvaQLz60",
+    "titulo": "Pov: Vas a Tomorrowland",
+    "duracion": "16:45",
+    "publicado": "2022-08-04",
+    "tramo_analizado": "completo (0:00–16:45.03; 60.302 fotogramas)",
+    "fps": 60,
+    "fps_nota": "Contenedor a 60 fps; el metraje de la cámara pequeña va a 50 fps (1 fotograma duplicado cada 6) y el del móvil a 30 fps (1 de cada 2 duplicado). Todos los fotogramas de la ficha son a 60 fps.",
+    "resolucion": "1920x1080",
+    "idioma": "es",
+    "estilo": "viaje",
+    "estilo_propuesto": "vlog (provisional)",
+    "estilo_por_que": "Encaja en «viaje» (llegar a un sitio, moverse, descubrirlo) y no en «vlog» (día a día): el vídeo es un desplazamiento de dos días a Bélgica contado por lugares. De 16:45, 0:52–1:14 es el traslado (taxi, aeropuerto, avión), 1:14–5:59 es la llegada y el paseo por la ciudad (hotel, terraza, gofre, museo del chocolate, plaza, comida) y 7:22–16:38 es llegar al recinto y recorrerlo sitio a sitio: unos 55 bloques de lugar o actividad en 1.005 s (uno cada 18 s), tres carteles de escenario numerados (①, ②, ⑫), un plano del mapa del recinto (9:15.4) y una tarjeta de datos del sitio (14 escenarios, 400.000 personas). No es «reto»: no hay objetivo con desenlace ni marcador que recorra el vídeo; el único juego con contador (choques de manos, 15:59.6–16:13.3) dura 13,7 s. No es «entreno». Matiz: la intro lleva un sketch de producto patrocinado que es más de vídeo de «pruebo esta cámara» que de viaje, pero ocupa 26 s."
+  },
+  "resumen": [
+    "Vídeo de viaje de 16:45 a 60 fps grabado casi entero en primera persona con una cámara diminuta sujeta a la gorra (las manos de Nil están en cuadro en casi todos los planos): 493 cortes (29,4/min), plano mediano 1,32 s, 38 % de planos de menos de 1 s.",
+    "La intro dura 52,5 s y tiene tres piezas: gancho en frío de 19,4 s sacado tal cual del minuto 8:20–9:06, cabecera-tráiler de 6,8 s cortada a un plano por golpe de música (13 planos de 0,38–0,83 s, con el título «TOMORROWLAND / 2022 / NIL OJEDA» en degradado de color) y un sketch de 26,3 s grabado en casa con voz en off que explica la premisa y presenta la cámara patrocinada.",
+    "Es de 2022 y NO es todavía la intro «explicativa» de motion graphics de Nil: en 26,3 s de explicación hay 3 textos animados (texto de partículas, etiqueta «INSTA 360 GO 2», aviso «Link a la cámara en la descripción») y 0 mapas, 0 cifras, 0 recortes; lo que ilustra cada frase son planos actuados (tropezón, caja que entra deslizando, palmada que hace de corte).",
+    "Alrededor del 97 % de los cortes es corte seco. Las transiciones construidas son físicas: tapar el objetivo con la mano (10 veces, 5 de ellas rematadas con un destello blanco de 3–11 f) y 2 veces con el cuerpo de otra persona; hay además 1 barrido y 1 desenfoque con fuga de luz.",
+    "No hay ni un zoom animado sobre quien habla ni punch-in al hablar: el único golpe de zoom del vídeo es al precio de la entrada (×1,85 de golpe, 87 f, con caja registradora) en 8:45.0. El dinamismo sale del corte, de 36 tramos de cámara rápida de 0,3–2,1 s para los trayectos andando y de las manos entrando en cuadro.",
+    "Los subtítulos tienen formato de diálogo de videojuego: «Nombre:» en una línea y la frase debajo, un color por hablante (Nil blanco, amigos verde menta o amarillo, desconocidos «NPC», «NPC 2», «NPC 3» en verde lima). Solo se subtitula donde el ruido tapa la voz: 72,6 s (7,2 % del vídeo), unas 52 tarjetas.",
+    "Motion graphics contados: tarjeta «Informaciones Nil» (4,97 s), 3 carteles de escenario colgantes (1,4–2,5 s), contador de choques de manos con flash verde/rojo (13,7 s), 2 insertos-meme pequeños (1–1,5 s) y 1 foto de archivo (1,7 s). Suman unos 30 s de 1.005.",
+    "Música añadida solo a ratos y corta (título, sketch, montajes sin voz, remate de un golpe); 1:48–4:44 (176 s) va sin música, en directo. Dentro del recinto manda el sonido del propio festival. Efectos de sonido confirmados: 8 en todo el vídeo (0,48/min), 7 de ellos en los primeros 1:40.",
+    "Cierre sin pantalla final ni despedida: plano del escenario principal al atardecer (9,2 s) → negro con «Like por Carlos conociendo a Martin Garrix» (1,6 s) → escena extra de 3,4 s → foto enmarcada «Carlos feliz» (1,6 s)."
+  ],
+  "contexto": {
+    "quien": "Nil Ojeda, creador español. Viaja con un grupo de amigos; los subtítulos nombran a Calitos (Carlos), Telmo y Benji. Los desconocidos que hablan aparecen rotulados como «NPC», «NPC 2» y «NPC 3». Cameo: el DJ Martin Garrix (0:25.0–0:25.9 en el título y 15:19–15:38).",
+    "donde": "Casa de Nil (sofá rosa con neones; solo en la intro, 0:26.18–0:52.52), taxi y aeropuerto, avión, hotel, una ciudad belga el día 1 (él dice «Bruselas» en 1:39: terraza, gofre, tienda de un museo del chocolate, plaza con gente, restaurante) y el recinto del festival Tomorrowland el día 2 (cola, entrada, taquillas, escenarios, lago y puente, zona Comfort, puestos de comida, escenario principal, zona de fotos con el artista).",
+    "objetivo": "Enseñar el festival «como lo veía yo» (0:14.2–0:16.4): todo en primera persona con una cámara de gorra porque, según dice en 6:03, no dejan pasar cámaras grandes sin permiso. Segundo objetivo declarado: demostrar que esa cámara se puede montar donde se quiera (0:47.9–0:51.5, patrocinio).",
+    "en_juego": "Poco: no hay riesgo ni prueba. Lo que sostiene el interés es ver el sitio por dentro, el grupo de amigos y si llega el encuentro con Martin Garrix que se enseña 0,9 s en el título.",
+    "tono": "Humor de grupo de amigos, coloquial y malhablado, sin épica hablada. La épica la pone la imagen (multitudes, escenario al atardecer) con música. El montaje añade bromas propias: desconocidos rotulados como «NPC», subtítulo «???» cuando no se entiende a alguien (12:59.6–13:02.4), tarjeta «Informaciones Nil», contador de choques de manos.",
+    "personajes_secundarios": "Calitos/Carlos (compañero de habitación, 1:14–1:24; es quien se hace la foto final con Garrix), Telmo (chiste del tranvía, 4:44–4:55), Benji (pregunta a los del puesto de comida, 13:16), el empleado del puesto y dos clientes («NPC» 12:57–13:35), Martin Garrix (15:19–15:38).",
+    "gancho_5s": "Habla a cámara desde el fotograma 0, sin saludo, metido en la cola del festival: «Preparados, porque para hacer cualquier tipo de cosa, ya sea mear, comprar comida, conseguir unos brazaletes…» (0:00.00–0:05.53, un solo plano de 332 f con palo selfie). Promete agobio y gentío; todo subtitulado desde 0:00.0.",
+    "gancho_30s": "0:10.95 «Entramos por aquí, os pongo en modo POV» → 0:14.97 «Disfruten, espero que podáis vivirlo como lo veía yo» → 0:16.37 tapa el objetivo, destello blanco y ya está dentro en primera persona (0:16.95) → 0:19.37 cabecera con 13 planos de lo mejor (multitud, escenario, Spiderman, cabina, apretón de manos con Martin Garrix en 0:25.0) → 0:26.18 vuelta atrás: «Estaba tranquilo en mi setup…». En 30 s ha prometido tres cosas: verlo desde dentro, el formato POV y a Garrix.",
+    "preguntas_abiertas": [
+      "0:25.0–0:25.9 ¿Llega a conocer a Martin Garrix? → se recuerda en 14:28.1 («Con Martin Garrix ahora») y 15:13 («estamos esperando que venga Martin»), se cierra en 15:19–15:38 (apretón en POV en 15:25.3) y se remata tras los créditos (16:39.9–16:45.0).",
+      "0:14.2–0:19.3 ¿Cómo es por dentro? → se cierra en 9:03.5, cuando se repite el mismo tapado de objetivo y continúa el recorrido.",
+      "0:49.8 «en este vídeo os lo voy a demostrar» (que la cámara se monta donde quieras) → se va cerrando a trozos: gorra 1:54–1:58, soporte adhesivo 6:10–6:28, cámara pegada en el pasillo 6:30–6:47, palo largo y lanzamiento al aire 7:33–7:45.6.",
+      "9:10.9 «hay 14 escenarios» → no se cierra: solo se rotulan 3 (① 9:52.7, ② 10:31.2, ⑫ 12:09.4).",
+      "14:34.5 «han comentado que hay escenarios ocultos, como si fuera un videojuego» → no se cierra."
+    ],
+    "giros": [
+      "0:26.18 vuelta atrás tras la cabecera: del festival a «estaba tranquilo en mi setup» (cambio de lugar, de cámara y de voz en directo a voz en off).",
+      "6:42.2–6:44.0 golpe accidental a un amigo en el pasillo del hotel; la música entra en la caída (6:44.1).",
+      "13:50.2 «Me he perdido» → 14:01.4 «Están ahí»: se separa del grupo y lo encuentra en 11 s.",
+      "15:59.6 juego improvisado de choques de manos con contador (acaba en 3)."
+    ],
+    "recompensas": [
+      "9:03.5 entra al recinto (lo prometido en 0:11).",
+      "9:52.7, 10:31.2 y 12:09.4 llegada a cada escenario con su cartel.",
+      "14:01.9–14:28.1 montaje de 26 s dentro del escenario principal, sin voz.",
+      "15:19–15:38 encuentro con Martin Garrix.",
+      "16:29.0–16:38.3 plano general del escenario principal al atardecer.",
+      "16:43.4–16:45.0 foto de Carlos con Garrix («Carlos feliz»)."
+    ],
+    "humor": "Frases del grupo sin retocar (4:45.4 «Ojalá me atropelle un tranvía de estos, como a Gaudí»), 2 insertos-meme pegados encima de la imagen (4:04.2 y 5:57.0), subtítulos con el nombre del que habla y desconocidos llamados «NPC», erratas dejadas en los subtítulos («le atropoelló un tranvia», 4:50.0).",
+    "tension": "Casi nula. La única espera es la de Garrix (15:09.2–15:19.2, 10 s hablados) y dura lo justo.",
+    "momentos_wow": [
+      "0:16.37–0:16.95 el tapado con destello que lleva de la cola al interior",
+      "7:44.0–7:45.6 la cámara lanzada al aire (cielo y edificios girando)",
+      "14:21.3–14:25.6 el cañón de humo del escenario con un tipo vestido de Spiderman delante",
+      "16:29.0–16:38.3 la multitud y el escenario al atardecer"
+    ]
+  },
+  "curva_energia": [
+    {
+      "minuto": 0,
+      "nivel": 5,
+      "motivo": "Gancho hablado en la cola (12 planos), tapado con destello en 0:16.37, cabecera a 114 cortes/min con música a −8 dB sin voz (0:19.37–0:26.18) y sketch explicativo con 3 textos; 49 cortes en el minuto."
+    },
+    {
+      "minuto": 1,
+      "nivel": 4,
+      "motivo": "Montaje del traslado (25 planos, mediana 0,63 s, música −9/−12 dB), vuelo saltado con dos tapados en 1,4 s (1:09.5 y 1:10.6), reseña de la habitación en un plano de 12,2 s y montaje del outfit (9 planos en 4,7 s con música); 34 cortes."
+    },
+    {
+      "minuto": 2,
+      "nivel": 3,
+      "motivo": "Primer paseo en POV: terraza, gofre, caminata; sin música (resto a −60 dB), 26 cortes y 7 tramos de cámara rápida."
+    },
+    {
+      "minuto": 3,
+      "nivel": 2,
+      "motivo": "Tienda del museo del chocolate: 13 cortes, planos de 12,9 y 15,4 s, solo conversación, sin música ni gráficos. Es el valle del vídeo."
+    },
+    {
+      "minuto": 4,
+      "nivel": 3,
+      "motivo": "Meme de Los Simpson en 4:04.2, cata de bombones en la calle y chiste del tranvía; la música vuelve en 4:44; 20 cortes."
+    },
+    {
+      "minuto": 5,
+      "nivel": 3,
+      "motivo": "Plaza llena con 6 tramos de cámara rápida, casi atropella a una ciclista (5:12.8), comida y postre; 27 cortes; corte seco al día 2 en 5:59.2."
+    },
+    {
+      "minuto": 6,
+      "nivel": 4,
+      "motivo": "Día 2: presentación del soporte adhesivo (37 cortes, mediana 0,81 s), pasillo con la cámara pegada a la pared y golpe accidental en plano fijo de 8,0 s con la música entrando en la caída (6:44.1)."
+    },
+    {
+      "minuto": 7,
+      "nivel": 3,
+      "motivo": "Desayuno en un plano de 16,2 s (el más largo del vídeo), truco del palo largo y lanzamiento de la cámara al aire (7:44.0–7:45.6), autobús; 23 cortes."
+    },
+    {
+      "minuto": 8,
+      "nivel": 3,
+      "motivo": "Llegada andando y cola (el material del gancho, aquí sin subtítulos), golpe de zoom al precio con caja registradora en 8:45.0, pulseras; 25 cortes."
+    },
+    {
+      "minuto": 9,
+      "nivel": 5,
+      "motivo": "Entra al recinto (tapado con destello en 9:02.9–9:03.5), tarjeta «Informaciones Nil», mapa, vista desde las escaleras, taquillas y primer escenario con su cartel; 47 cortes, el segundo minuto con más cortes."
+    },
+    {
+      "minuto": 10,
+      "nivel": 4,
+      "motivo": "Del escenario ① al ②, cartel colgante en 10:31.2, 27 s sin voz entre el público (10:45–11:12) con el sonido del festival a −21/−28 dB; 35 cortes."
+    },
+    {
+      "minuto": 11,
+      "nivel": 3,
+      "motivo": "Paseo por el lago y el puente, vista lejana del escenario principal, explicación de la zona Comfort; 22 cortes, mediana 2,85 s."
+    },
+    {
+      "minuto": 12,
+      "nivel": 3,
+      "motivo": "Cartel ⑫ MAINSTAGE en 12:09.4, zona Comfort (sauna y bañeras, plano de 11,1 s) y puestos de comida; 20 cortes."
+    },
+    {
+      "minuto": 13,
+      "nivel": 3,
+      "motivo": "Conversación con los del puesto subtitulada como «NPC» (8 tarjetas verdes), kebab picante, se pierde y encuentra al grupo; 21 cortes; el sonido del festival sube a −21 dB desde 13:45."
+    },
+    {
+      "minuto": 14,
+      "nivel": 5,
+      "motivo": "Montaje sin voz dentro del escenario principal (14:01.9–14:28.1, 26 s), aviso de Garrix en 14:28.1, escenarios ocultos; 43 cortes."
+    },
+    {
+      "minuto": 15,
+      "nivel": 4,
+      "motivo": "Espera y encuentro con Martin Garrix (apretón en POV en 15:25.3, negro de 38 f), montaje sin voz 15:40–15:58 con el sonido a −17/−19 dB; 30 cortes."
+    },
+    {
+      "minuto": 16,
+      "nivel": 4,
+      "motivo": "Juego de choques de manos con contador y 5 flashes de color (15:59.6–16:13.3), público con los brazos arriba, plano final al atardecer de 9,2 s y cartela con música a −8 dB; 21 cortes en 45 s."
+    }
+  ],
+  "picos_y_preparacion": [
+    {
+      "pico": "0:19.37 cabecera",
+      "preparacion": "Frase «espero que podáis vivirlo como lo veía yo» (0:14.97–0:16.37), tapado del objetivo con destello (0:16.37–0:16.95), 1,3 s de cámara rápida entre la gente con los pulgares arriba (0:18.08–0:19.37) y la música entra de golpe a −8 dB en el corte."
+    },
+    {
+      "pico": "9:03.5 entra al recinto",
+      "preparacion": "El espectador ya lo ha visto en el gancho; aquí llega tras 43 s de cola y trámites (8:20–9:03) y con la misma frase y el mismo tapado con destello."
+    },
+    {
+      "pico": "14:01.9–14:28.1 escenario principal",
+      "preparacion": "Frase «No les veo. Ahí están» (13:54.7–14:01.4) y se calla 26 s: 9 planos de 0,8–4 s unidos por sus manos dando palmas."
+    },
+    {
+      "pico": "15:25.3 apretón con Martin Garrix",
+      "preparacion": "Anunciado en la cabecera (0:25.0), recordado en 14:28.1 y 15:13.0; 10 s de espera hablada; el cuerpo de Garrix tapa el objetivo y deja 38 f de negro (15:25.85–15:26.47)."
+    },
+    {
+      "pico": "16:29.0–16:38.3 atardecer",
+      "preparacion": "Juego de choques de manos (13,7 s) y 6 s con los brazos arriba entre el público; plano de 9,2 s, el único largo del final."
+    }
+  ],
+  "ritmo_informacion": {
+    "cada_cuanto_algo_nuevo": "Unos 55 bloques (lugar, persona o actividad nueva, contados a ojo sobre las hojas) en 1.005 s → uno cada 18 s de media. En el recinto (9:03–16:38), unos 27 en 455 s: uno cada 17 s.",
+    "palabras_por_minuto": 118,
+    "palabras_por_minuto_por_parte": "gancho 170; sketch en off 230; hotel 162; ciudad día 1 161; día 2 hotel 106; traslado y cola 97; primera vuelta al recinto 111; comida 132; escenario principal y Garrix 75",
+    "habla_proporcion": 0.93,
+    "habla_nota": "0,93 es voz presente según audio.json (incluye a los amigos y al público). Tramos sin habla de más de 20 s: 10:45.0–11:12.3, 14:01.9–14:28.1 y 15:34.3–15:58.2 (montajes sin voz). El hueco 8:12.4–8:38.3 de la transcripción no es silencio: ahí habla (es el texto del gancho) y whisper no lo recogió.",
+    "palabras_por_corte": {
+      "global": 4.0,
+      "gancho": 5.0,
+      "sketch_en_off": 7.2,
+      "ciudad_dia_1": 7.7,
+      "dia_2_hotel": 3.4,
+      "primera_vuelta_recinto": 3.3,
+      "escenario_principal_y_garrix": 2.2
+    },
+    "que_se_recorta": "El vuelo entero (dos tapados de objetivo en 1,4 s, 1:09.40–1:10.9), la noche (corte seco de la comida al pasillo del hotel en 5:59.2, sin cartela), el autobús (11 s, 7:47.2–7:58) y casi todos los trayectos a pie.",
+    "como_se_resume": "Los trayectos andando se resumen con cámara rápida: 36 tramos de 0,3–2,1 s (mediana 0,6 s) repartidos por todo el vídeo (2,1/min). El traslado al aeropuerto es un montaje de 13 planos en 8,3 s (0:52.52–1:00.83). No hay ningún texto del tipo «3 horas después» ni «día 2»."
+  },
+  "estructura": [
+    {
+      "desde": "0:00.00",
+      "hasta": "0:19.37",
+      "parte": "Gancho en frío",
+      "que_pasa": "Nil en la cola habla a cámara con palo selfie, gira a POV, anuncia el «modo POV», tapa el objetivo y aparece dentro. Material de 8:20–9:06 condensado; todo subtitulado."
+    },
+    {
+      "desde": "0:19.37",
+      "hasta": "0:26.18",
+      "parte": "Cabecera-tráiler con título",
+      "que_pasa": "13 planos con bandas negras a un corte por golpe de música; título en 3 golpes y 27 f sobre negro; acaba en el apretón con Garrix y negro."
+    },
+    {
+      "desde": "0:26.18",
+      "hasta": "0:52.52",
+      "parte": "Sketch explicativo y patrocinio (voz en off)",
+      "que_pasa": "En casa: se acuerda de que el festival es mañana, tropieza con la caja de la cámara y la presenta con planos actuados y 3 textos."
+    },
+    {
+      "desde": "0:52.52",
+      "hasta": "1:14.25",
+      "parte": "Traslado",
+      "que_pasa": "Taxi, aeropuerto, embarque (6 s en directo con 3 subtítulos), avión y llegada (manos tocando un piano del aeropuerto); 5 tapados de objetivo."
+    },
+    {
+      "desde": "1:14.25",
+      "hasta": "1:58.0",
+      "parte": "Hotel y outfit",
+      "que_pasa": "Reseña de la habitación (plano de 12,2 s con el móvil), montaje del outfit con música, foto de archivo de un photocall (1:35.5–1:37.2) y se pone la gorra con la cámara."
+    },
+    {
+      "desde": "1:58.0",
+      "hasta": "5:59.2",
+      "parte": "Día 1 en la ciudad",
+      "que_pasa": "Terraza, gofre y café, tienda del museo del chocolate, cata en la calle, chiste del tranvía, plaza, comida y postre. En directo, POV de gorra; 176 s sin música."
+    },
+    {
+      "desde": "5:59.2",
+      "hasta": "7:22.0",
+      "parte": "Día 2: hotel",
+      "que_pasa": "«Hoy es el día», presenta el soporte adhesivo, pasillo con la cámara pegada, golpe accidental, ascensor y desayuno."
+    },
+    {
+      "desde": "7:22.0",
+      "hasta": "9:03.5",
+      "parte": "Traslado al festival y cola",
+      "que_pasa": "Último accesorio (palo largo, lanzamiento al aire), autobús, llegada andando, cola, entrada con su precio, pulseras y entrada al recinto."
+    },
+    {
+      "desde": "9:03.5",
+      "hasta": "12:23.8",
+      "parte": "Primera vuelta al recinto",
+      "que_pasa": "Datos del festival, mapa, escaleras con vista, taquillas, copa, escenario ①, bandera de España, escenario ②, lago y puente, vista del escenario principal ⑫."
+    },
+    {
+      "desde": "12:23.8",
+      "hasta": "13:50.2",
+      "parte": "Zona Comfort y comida",
+      "que_pasa": "Sauna y bañeras, puestos de comida, conversación con los del puesto («NPC»), kebab picante."
+    },
+    {
+      "desde": "13:50.2",
+      "hasta": "15:58.2",
+      "parte": "Escenario principal y Martin Garrix",
+      "que_pasa": "Se pierde, montaje sin voz en el escenario principal, anuncio de Garrix, escenarios ocultos, un seguidor, baño, espera, encuentro y foto, montaje sin voz."
+    },
+    {
+      "desde": "15:58.2",
+      "hasta": "16:38.33",
+      "parte": "Choques de manos y final",
+      "que_pasa": "Contador de choques (acaba en 3), público con los brazos arriba, plano general del escenario al atardecer."
+    },
+    {
+      "desde": "16:38.33",
+      "hasta": "16:45.03",
+      "parte": "Cierre",
+      "que_pasa": "Negro con «Like por Carlos conociendo a Martin Garrix», escena extra del fotógrafo y foto enmarcada «Carlos feliz»."
+    }
+  ],
+  "intro": {
+    "tipo": "otra: mixta de tres piezas — gancho en frío (19,4 s) + cabecera-tráiler a compás con título (6,8 s) + sketch explicativo con voz en off y patrocinio (26,3 s)",
+    "por_que_ese_tipo": "No es «corta»: dura 52,5 s (f0–f3150) y el título no llega hasta el f1264 (0:21.07). Tampoco es la «explicativa» de motion graphics por la que se conoce a Nil: la parte que explica (0:26.18–0:52.52) son 26,3 s con voz en off en pasado y solo 3 textos animados (2,53 s + 1,35 s + 4,53 s = 8,4 s con texto, el 32 % del tramo), sin mapas, sin cifras animadas, sin recortes ni flechas. Lo que hace de «animación» es rodaje actuado: él se levanta, tropieza con la caja, una caja entra deslizando en un plano cenital vacío, una palmada hace de corte. Dato para Lucas: en 2022 la explicación ya va con voz en off y un plano nuevo por frase (19 planos en 26,3 s, uno cada 1,4 s), pero se ilustra con objetos reales y no con gráficos. Lo que sí es de tráiler es la cabecera: 13 planos de lo mejor del vídeo en 6,8 s.",
+    "duracion_s": 52.52,
+    "duracion_f": 3151,
+    "orden": [
+      "1 · 0:00.00–0:16.35 (f0–f981) gancho en frío: Nil en la cola habla a cámara; material de 8:20–9:03 del propio vídeo, condensado y subtitulado",
+      "2 · 0:16.37–0:19.35 (f982–f1161) tapa el objetivo con la mano, destello y aparece dentro del recinto en primera persona; 1,3 s de cámara rápida",
+      "3 · 0:19.37–0:26.17 (f1162–f1570) cabecera: 13 planos con bandas negras, un corte por golpe de música, título en 3 golpes + 27 f sobre negro",
+      "4 · 0:26.18–0:52.50 (f1571–f3150) sketch en casa con voz en off: premisa («Tomorrowland es mañana») y presentación de la cámara patrocinada",
+      "5 · 0:52.52 (f3151) corte al taxi: empieza el viaje (montaje de traslado, fuera ya de la intro)"
+    ],
+    "sin": "Sin saludo, sin «bienvenidos», sin logo del canal, sin pedir suscripción, sin mapa del viaje.",
+    "primera_frase": "«Preparados, porque para hacer cualquier tipo de cosa, ya sea mear, comprar comida, conseguir unos brazaletes… colas de hora y media para cualquier cosa» (0:00.00–0:07.4)",
+    "animaciones_explicativas": [
+      {
+        "t": "0:29.87–0:32.38",
+        "frase": "«…y ahí me acordé: Tomorrowland [30.10] es [30.66] mañana [31.00]»",
+        "que_es": "Texto de partículas en 3 líneas «TOMORROWLAND / ES / MAÑANA» que se forma a partir de nubecillas blancas y se deshace igual, flotando hacia arriba cuando él se levanta.",
+        "f0": 1792,
+        "f1": 1943,
+        "como_esta_hecha": "Plantilla o preset de texto que se forma con partículas. Línea 1: primeras motas en f1792 y legible en f1820 (28 f); «ES» f1825 → f1839 (14 f); «MAÑANA» f1831 → f1851 (20 f). Quieto 35 f (f1851–f1885). Se deshace desde f1886, a la vez que él se levanta (salto de imagen en f1887, visto en la hoja); las partículas flotan sobre su cabeza f1900–f1939 y 3–4 motas sobreviven 4 f al corte de f1940. Total 152 f (2,53 s); legible entero 0,58 s. El texto empieza a formarse 0,24 s ANTES de la palabra y cada línea queda legible con la suya (30,33 / 30,65 / 30,85 s). Ocupa el lado izquierdo (x 30–1180 px, 60 % del ancho) dejando a Nil a la derecha.",
+        "sfx": "Entra en silencio (la música está cortada de 0:27.0 a 0:31.3). La salida lleva un riser/whoosh de 0,7 s (0:31.3–0:32.0) que se corta en seco.",
+        "hoja": "hojas/intro_fot_14–16.jpg, rotulos/f_30.95.jpg"
+      },
+      {
+        "t": "0:32.33–0:33.65",
+        "frase": "«Pero al levantarme me tropecé [32.22] con algo [32.68] que era totalmente imprescindible para el viaje»",
+        "que_es": "Animación práctica (rodaje): plano a ras de suelo en el que su pie golpea una caja.",
+        "f0": 1940,
+        "f1": 2019,
+        "como_esta_hecha": "Cámara en el suelo, fija. El pie entra y da a la caja en f1968–f1975 (0:32.80–0:32.92), 0,58 s después de la palabra «tropecé». Sin gráficos.",
+        "sfx": "Golpe en 0:32.82 con dos rebotes (0:33.1 y 0:33.3) audible bajo la voz en off (no se puede saber si es el sonido del rodaje o añadido).",
+        "hoja": "hojas/intro_fot_16.jpg"
+      },
+      {
+        "t": "0:34.90–0:36.33",
+        "frase": "«La [34.76] Insta360 [35.06] GO [35.80] 2 [36.24]»",
+        "que_es": "Etiqueta de producto «INSTA» + «360 GO 2» sobre un plano cenital de suelo de mármol vacío; la caja real entra deslizando y se para justo debajo del texto.",
+        "f0": 2094,
+        "f1": 2180,
+        "como_esta_hecha": "«INSTA» aparece de golpe en f2100 (0:35.00, 0,06 s antes de la palabra) en pequeño (≈ 140 px de ancho), aguanta 13 f, pasa por un tamaño intermedio en f2113 (1 f) y queda grande desde f2114 (≈ 270 px de ancho, mayúscula de ≈ 80 px = 7,4 % del alto): escalón ×1 → ×1,9 en 2 f, sin curva. La caja entra desde la izquierda en f2122–f2137 (15 f) empujada por una mano (entra en f2128). «360 GO 2» (≈ 30 px de alto) aparece de golpe en f2154 (0:35.90, con «GO»). Todo sale por corte en f2181. Fallo que no se copia: texto blanco sin borde sobre caja blanca, casi ilegible desde f2134.",
+        "sfx": "Sin efecto confirmado (hay dos tics en 0:34.98 y 0:35.28 en la pista sin voz que pueden ser del rodaje: ver dudas).",
+        "hoja": "detalle/f07_texto_insta_1f_0.34.9.jpg"
+      },
+      {
+        "t": "0:39.32–0:42.47",
+        "frase": "«Esta es una cámara pequeña [39.64–40.7]. Resistente al agua hasta 4 metros [40.76–42.3]»",
+        "que_es": "Animación práctica: cenital sobre el mármol; una mano entra con la cámara en la palma, la otra con el estuche, da una palmada y, en el corte, las manos ya están abriendo el estuche.",
+        "f0": 2359,
+        "f1": 2548,
+        "como_esta_hecha": "Tres planos cenitales con el mismo encuadre: f2359 entra la mano con la cámara (49 f), f2408 entra la segunda mano con el estuche (49 f), palmada en 0:40.85 y corte por coincidencia de gesto en f2457 (0:40.95): las manos se abren con el estuche ya abierto (92 f).",
+        "sfx": "La palmada (0:40.85) suena y hace de golpe del corte.",
+        "hoja": "hojas/intro_fot_19–21.jpg"
+      },
+      {
+        "t": "0:42.48–0:47.43",
+        "frase": "«Con una resolución de 1440 a 50 FPS [42.34–44.9]. Y aparte, que me han enviado todo esto [45.06–46.7]»",
+        "que_es": "Animación práctica: desfile de cajas. En el mismo cenital de mármol cada caja entra deslizando o aparece por corte, una por frase.",
+        "f0": 2549,
+        "f1": 2846,
+        "como_esta_hecha": "f2549: mármol vacío, la caja entra desde la izquierda (0:42.6–0:43.0) y las manos la giran con 3 saltos de imagen (f2610, f2632, f2659). Después un plano por caja: f2684 (43 f), f2727 (73 f), f2800 (47 f). No hay ningún rótulo con la cifra «1440 a 50 FPS»: se dice y no se escribe.",
+        "sfx": "Ninguno confirmado.",
+        "hoja": "hojas/intro_fot_21–23.jpg"
+      },
+      {
+        "t": "0:47.96–0:52.50",
+        "frase": "«Básicamente la puedes montar donde quieras [47.86]. Y en este vídeo os lo voy a demostrar [49.78]. Espero que os guste [51.46]»",
+        "que_es": "Aviso de patrocinio «Link a la cámara / en la descripción», en dos líneas, abajo.",
+        "f0": 2878,
+        "f1": 3150,
+        "como_esta_hecha": "Texto blanco en cursiva negrita con sombra negra suave; fundido de entrada de ≈ 4 f y de salida de ≈ 6 f; quieto 272 f (4,53 s); se mantiene a través del corte a la pila de cajas (≈ 0:51.1). Posición x 550–1410, y 860–1040 (abajo, centrado un poco a la izquierda); mayúscula de ≈ 72 px (6,7 %).",
+        "sfx": "Ninguno.",
+        "hoja": "rotulos/f_48.50.jpg, rotulos/r06_link_camara.png"
+      }
+    ],
+    "animaciones_explicativas_nota": "6 momentos «explicados» en 26,3 s: 3 con texto animado y 3 con objeto real. Media: una ilustración cada 4,4 s y un plano nuevo cada 1,4 s. Todas entran con la palabra (de 0,24 s antes a 0,58 s después) y ninguna dura más de 4,6 s.",
+    "linea_de_tiempo": [
+      {
+        "f0": 0,
+        "f1": 331,
+        "t": "0:00.00–0:05.52",
+        "que_se_ve": "Nil con palo selfie y gran angular en la cola, gente detrás. Habla a cámara.",
+        "origen": "rodaje del día 2 (≈ 8:20–8:31 del vídeo)",
+        "camara": "en mano con palo (medir_zoom 0:00.1–0:05.4: escala 1,06 → 0,50 por el movimiento del brazo; no es zoom de edición)",
+        "zoom_velocidad": "ninguno de edición",
+        "texto": "Subtítulos blancos de una línea, sin nombre: «Preparados» 0:00.0–0:00.6 · «porque para hacer cualquier tipo de cosa» 0:00.75–0:02.5 · «ya sea mear» 0:02.75–0:03.0 · «comprar comida» 0:03.25–0:04.0 · «conseguir unos brazaletes» 0:04.25–0:05.25",
+        "motion_graphic": "ninguno",
+        "sfx": "ninguno",
+        "musica": "sin música: ambiente de la cola a −28/−30 dB",
+        "voz": "directo, −21 dB. Dentro del plano hay 3 saltos de un fotograma en f44, f196 y f253 (0:00.73, 0:03.27, 0:04.22), entre frases: probables cortes de pausas que el detector no marca."
+      },
+      {
+        "f0": 332,
+        "f1": 392,
+        "t": "0:05.53–0:06.53",
+        "que_se_ve": "Mismo selfie, otro momento (salto de imagen).",
+        "origen": "rodaje",
+        "camara": "en mano",
+        "zoom_velocidad": "ninguno",
+        "texto": "«colas de hora y media» 0:05.5–0:06.25",
+        "motion_graphic": "ninguno",
+        "sfx": "ninguno",
+        "musica": "no",
+        "voz": "directo"
+      },
+      {
+        "f0": 393,
+        "f1": 466,
+        "t": "0:06.55–0:07.77",
+        "que_se_ve": "Selfie; desde f449 (0:07.48) gira la cámara con barrido para enseñar lo que tiene delante.",
+        "origen": "rodaje",
+        "camara": "en mano; barrido de 18 f (f449–f466)",
+        "zoom_velocidad": "ninguno",
+        "texto": "«para cualquier cosa» 0:06.75–0:07.25",
+        "motion_graphic": "ninguno",
+        "sfx": "ninguno",
+        "musica": "no",
+        "voz": "directo"
+      },
+      {
+        "f0": 467,
+        "f1": 656,
+        "t": "0:07.78–0:10.93",
+        "que_se_ve": "POV: las verjas y las filas de gente.",
+        "origen": "rodaje",
+        "camara": "en mano, panea",
+        "zoom_velocidad": "ninguno",
+        "texto": "«Todo esto son...» 0:07.75–0:08.25 · «son colas» 0:09.25–0:09.5 · «vamos a ver qué conseguimos» 0:09.75–0:10.75",
+        "motion_graphic": "ninguno",
+        "sfx": "ninguno",
+        "musica": "no",
+        "voz": "directo"
+      },
+      {
+        "f0": 657,
+        "f1": 708,
+        "t": "0:10.95–0:11.80",
+        "que_se_ve": "POV: el arco de entrada.",
+        "origen": "rodaje (≈ 8:58 del vídeo)",
+        "camara": "en mano",
+        "zoom_velocidad": "ninguno",
+        "texto": "«Entramos por aquí» 0:11.0–0:11.5",
+        "motion_graphic": "ninguno",
+        "sfx": "ninguno",
+        "musica": "no",
+        "voz": "directo"
+      },
+      {
+        "f0": 709,
+        "f1": 726,
+        "t": "0:11.82–0:12.10",
+        "que_se_ve": "18 f de cámara rápida: la cámara vuelve del arco a su cara.",
+        "origen": "rodaje acelerado",
+        "camara": "en mano",
+        "zoom_velocidad": "acelerado",
+        "texto": "ninguno",
+        "motion_graphic": "ninguno",
+        "sfx": "ninguno",
+        "musica": "no",
+        "voz": "pausa"
+      },
+      {
+        "f0": 727,
+        "f1": 897,
+        "t": "0:12.12–0:14.95",
+        "que_se_ve": "Selfie con la entrada detrás.",
+        "origen": "rodaje",
+        "camara": "en mano",
+        "zoom_velocidad": "ninguno",
+        "texto": "«os pongo en modo POV» 0:12.25–0:13.0 · «Vale?» 0:13.25–0:13.5 · «Disfruten!» 0:14.25–0:14.75",
+        "motion_graphic": "ninguno",
+        "sfx": "ninguno",
+        "musica": "no",
+        "voz": "directo"
+      },
+      {
+        "f0": 898,
+        "f1": 981,
+        "t": "0:14.97–0:16.35",
+        "que_se_ve": "Selfie, otro momento.",
+        "origen": "rodaje",
+        "camara": "en mano",
+        "zoom_velocidad": "ninguno",
+        "texto": "«Espero que podáis vivirlo como lo veía yo» (≈ 0:15.0–0:16.4)",
+        "motion_graphic": "ninguno",
+        "sfx": "ninguno",
+        "musica": "no",
+        "voz": "directo"
+      },
+      {
+        "f0": 982,
+        "f1": 1017,
+        "t": "0:16.37–0:16.95",
+        "que_se_ve": "TRANSICIÓN: plano algo más abierto, la mano va al objetivo y crece (f982–f996, 15 f), lo tapa (f997), 4 f de rojo saturado (f998–f1001, luz a través de la piel), destello (f1002), blanco pleno (f1003–f1007, 5 f) y fundido desde blanco (f1008–f1017, 10 f) al POV con el brazo estirado.",
+        "origen": "rodaje + destello blanco de edición",
+        "camara": "en mano",
+        "zoom_velocidad": "ninguno",
+        "texto": "ninguno",
+        "motion_graphic": "destello blanco a pantalla completa (16 f contando el fundido)",
+        "sfx": "ninguno (comprobado en el espectrograma de la pista sin voz)",
+        "musica": "no",
+        "voz": "silencio 0:16.4–0:17.1"
+      },
+      {
+        "f0": 1018,
+        "f1": 1084,
+        "t": "0:16.97–0:18.07",
+        "que_se_ve": "POV andando entre la gente con el brazo estirado; salto de imagen en f1062.",
+        "origen": "rodaje (≈ 9:03.5 del vídeo)",
+        "camara": "cámara de gorra",
+        "zoom_velocidad": "ninguno",
+        "texto": "«Nos vamos» 0:17.3–0:18.05",
+        "motion_graphic": "ninguno",
+        "sfx": "ninguno",
+        "musica": "no",
+        "voz": "directo «Nos vamos»"
+      },
+      {
+        "f0": 1085,
+        "f1": 1161,
+        "t": "0:18.08–0:19.35",
+        "que_se_ve": "POV en cámara rápida (77 f) avanzando; pulgares arriba delante del objetivo 0:18.6–0:19.35.",
+        "origen": "rodaje acelerado",
+        "camara": "cámara de gorra",
+        "zoom_velocidad": "acelerado (movimiento entre fotogramas ×2,9 el de alrededor)",
+        "texto": "«hemos entrado» (≈ 0:18.1–0:18.6)",
+        "motion_graphic": "ninguno",
+        "sfx": "ninguno",
+        "musica": "no; entra en el corte siguiente",
+        "voz": "directo «hemos entrado»"
+      },
+      {
+        "f0": 1162,
+        "f1": 1185,
+        "t": "0:19.37–0:19.75",
+        "que_se_ve": "CABECERA 1/13: multitud y escenario principal al atardecer. Bandas negras arriba y abajo (≈ 12 % cada una) en toda la cabecera.",
+        "origen": "rodaje (momentos de 9:03–16:38)",
+        "camara": "POV",
+        "zoom_velocidad": "ninguno",
+        "texto": "ninguno",
+        "motion_graphic": "bandas negras",
+        "sfx": "ninguno: solo los golpes de la música",
+        "musica": "entra de golpe en el corte, −8 a −10 dB, sin voz; golpe cada 0,43 s (acentos en 19,48 · 19,90 · 20,34)",
+        "voz": "ninguna (−68/−75 dB)"
+      },
+      {
+        "f0": 1186,
+        "f1": 1213,
+        "t": "0:19.77–0:20.22",
+        "que_se_ve": "2/13: POV con un brazo en alto frente al escenario.",
+        "origen": "rodaje",
+        "camara": "POV",
+        "zoom_velocidad": "ninguno",
+        "texto": "ninguno",
+        "motion_graphic": "bandas",
+        "sfx": "ninguno",
+        "musica": "sigue",
+        "voz": "ninguna"
+      },
+      {
+        "f0": 1214,
+        "f1": 1263,
+        "t": "0:20.23–0:21.05",
+        "que_se_ve": "3/13: espalda de alguien con camiseta morada y chicas bailando (dura 2 golpes: 50 f).",
+        "origen": "rodaje",
+        "camara": "POV",
+        "zoom_velocidad": "ninguno",
+        "texto": "ninguno",
+        "motion_graphic": "bandas",
+        "sfx": "ninguno",
+        "musica": "sigue",
+        "voz": "ninguna"
+      },
+      {
+        "f0": 1264,
+        "f1": 1292,
+        "t": "0:21.07–0:21.53",
+        "que_se_ve": "4/13: POV dando palmas.",
+        "origen": "rodaje",
+        "camara": "POV",
+        "zoom_velocidad": "ninguno",
+        "texto": "«TOMORROWLAND» aparece entero y a tamaño final en el fotograma del corte (f1264)",
+        "motion_graphic": "título: relleno en degradado de color que rota (magenta en f1264 → rojo f1280 → amarillo f1290) + resplandor",
+        "sfx": "ninguno",
+        "musica": "sigue",
+        "voz": "ninguna"
+      },
+      {
+        "f0": 1293,
+        "f1": 1318,
+        "t": "0:21.55–0:21.97",
+        "que_se_ve": "5/13: chicas bailando.",
+        "origen": "rodaje",
+        "camara": "POV",
+        "zoom_velocidad": "ninguno",
+        "texto": "se suma «2022» debajo a la izquierda, de golpe en el corte (f1293)",
+        "motion_graphic": "título (verde f1300 → cian f1310)",
+        "sfx": "ninguno",
+        "musica": "sigue",
+        "voz": "ninguna"
+      },
+      {
+        "f0": 1319,
+        "f1": 1344,
+        "t": "0:21.98–0:22.40",
+        "que_se_ve": "6/13: siluetas contra el cielo.",
+        "origen": "rodaje",
+        "camara": "POV",
+        "zoom_velocidad": "ninguno",
+        "texto": "se suma «NIL OJEDA» debajo a la derecha, de golpe en el corte (f1319)",
+        "motion_graphic": "título completo",
+        "sfx": "ninguno",
+        "musica": "sigue",
+        "voz": "ninguna"
+      },
+      {
+        "f0": 1345,
+        "f1": 1371,
+        "t": "0:22.42–0:22.85",
+        "que_se_ve": "7/13: negro con el título completo (27 f).",
+        "origen": "gráfico",
+        "camara": "—",
+        "zoom_velocidad": "ninguno",
+        "texto": "«TOMORROWLAND / 2022 · NIL OJEDA»; sale por corte en f1372",
+        "motion_graphic": "título sobre negro",
+        "sfx": "ninguno",
+        "musica": "sigue",
+        "voz": "ninguna"
+      },
+      {
+        "f0": 1372,
+        "f1": 1401,
+        "t": "0:22.87–0:23.35",
+        "que_se_ve": "8/13: un chico se graba entre el público.",
+        "origen": "rodaje",
+        "camara": "POV",
+        "zoom_velocidad": "ninguno",
+        "texto": "ninguno",
+        "motion_graphic": "bandas",
+        "sfx": "ninguno",
+        "musica": "sigue",
+        "voz": "ninguna"
+      },
+      {
+        "f0": 1402,
+        "f1": 1424,
+        "t": "0:23.37–0:23.73",
+        "que_se_ve": "9/13: POV con los dos brazos arriba frente al escenario.",
+        "origen": "rodaje",
+        "camara": "POV",
+        "zoom_velocidad": "ninguno",
+        "texto": "ninguno",
+        "motion_graphic": "bandas",
+        "sfx": "ninguno",
+        "musica": "sigue",
+        "voz": "ninguna"
+      },
+      {
+        "f0": 1425,
+        "f1": 1452,
+        "t": "0:23.75–0:24.20",
+        "que_se_ve": "10/13: el tipo vestido de Spiderman (14:21 del vídeo).",
+        "origen": "rodaje",
+        "camara": "POV",
+        "zoom_velocidad": "ninguno",
+        "texto": "ninguno",
+        "motion_graphic": "bandas",
+        "sfx": "ninguno",
+        "musica": "sigue",
+        "voz": "ninguna"
+      },
+      {
+        "f0": 1453,
+        "f1": 1475,
+        "t": "0:24.22–0:24.58",
+        "que_se_ve": "11/13: cabina del DJ.",
+        "origen": "rodaje",
+        "camara": "POV",
+        "zoom_velocidad": "ninguno",
+        "texto": "ninguno",
+        "motion_graphic": "bandas",
+        "sfx": "ninguno",
+        "musica": "sigue",
+        "voz": "ninguna"
+      },
+      {
+        "f0": 1476,
+        "f1": 1499,
+        "t": "0:24.60–0:24.98",
+        "que_se_ve": "12/13: césped de la zona de fotos.",
+        "origen": "rodaje",
+        "camara": "POV",
+        "zoom_velocidad": "ninguno",
+        "texto": "ninguno",
+        "motion_graphic": "bandas",
+        "sfx": "ninguno",
+        "musica": "sigue",
+        "voz": "ninguna"
+      },
+      {
+        "f0": 1500,
+        "f1": 1570,
+        "t": "0:25.00–0:26.17",
+        "que_se_ve": "13/13: Martin Garrix en el césped; apretón de manos en POV (0:25.3–0:25.7) y su cuerpo tapa el objetivo: negro natural, pleno en f1561–f1570 (10 f).",
+        "origen": "rodaje (15:25 del vídeo)",
+        "camara": "POV",
+        "zoom_velocidad": "ninguno",
+        "texto": "ninguno",
+        "motion_graphic": "bandas; transición por tapado",
+        "sfx": "ninguno",
+        "musica": "se corta al final del plano (−18 dB en el segundo 26)",
+        "voz": "la voz en off empieza en 0:25.90, 16 f ANTES del corte a casa: «Estaba…»"
+      },
+      {
+        "f0": 1571,
+        "f1": 1624,
+        "t": "0:26.18–0:27.07",
+        "que_se_ve": "CASA: plano general fijo, Nil en un sofá rosa con neones detrás, cuadro completo (sin bandas).",
+        "origen": "rodaje aparte, actuado (los labios no se mueven)",
+        "camara": "trípode; medir_zoom 1,000 → 1,038 en 0,75 s (+5,4 %/s): empuje leve",
+        "zoom_velocidad": "+5,4 %/s",
+        "texto": "ninguno",
+        "motion_graphic": "ninguno",
+        "sfx": "ninguno",
+        "musica": "silencio (pista sin voz a −39/−46 dB de 0:27 a 0:31)",
+        "voz": "EN OFF: «Estaba tranquilo en mi setup»"
+      },
+      {
+        "f0": 1625,
+        "f1": 1748,
+        "t": "0:27.08–0:29.13",
+        "que_se_ve": "Cenital por encima del hombro: mira el calendario en el móvil.",
+        "origen": "rodaje actuado",
+        "camara": "paneo lento (medir_zoom +2,4 %, +1,26 %/s)",
+        "zoom_velocidad": "+1,3 %/s",
+        "texto": "ninguno",
+        "motion_graphic": "ninguno",
+        "sfx": "blip tonal de notificación en 0:28.05 (−36,6 dB, 16,7 dB por debajo de la voz), con «el calendario me miró a mí»",
+        "musica": "silencio",
+        "voz": "EN OFF: «miré mi calendario, el calendario me miró a mí»"
+      },
+      {
+        "f0": 1749,
+        "f1": 1939,
+        "t": "0:29.15–0:32.32",
+        "que_se_ve": "Lateral más cerca en el sofá; levanta la cabeza (0:29.3), se levanta (salto de imagen en f1887).",
+        "origen": "rodaje actuado",
+        "camara": "trípode (medir_zoom 1,00 → 0,98)",
+        "zoom_velocidad": "−1,0 %/s",
+        "texto": "«TOMORROWLAND / ES / MAÑANA» f1792–f1943",
+        "motion_graphic": "texto de partículas (ver animaciones_explicativas)",
+        "sfx": "riser/whoosh 0:31.3–0:32.0 sobre la salida del texto; pico −21,2 dB, 1,1 dB bajo la voz",
+        "musica": "vuelve subiendo desde 0:31 (−32 → −26 → −20 dB)",
+        "voz": "EN OFF: «y ahí me acordé: Tomorrowland es mañana. Pero al levantarme…»"
+      },
+      {
+        "f0": 1940,
+        "f1": 2019,
+        "t": "0:32.33–0:33.65",
+        "que_se_ve": "A ras de suelo: sus pies; el pie golpea una caja (f1968–f1975).",
+        "origen": "rodaje actuado",
+        "camara": "en el suelo, fija",
+        "zoom_velocidad": "ninguno",
+        "texto": "3–4 motas del texto anterior sobreviven 4 f (f1940–f1943)",
+        "motion_graphic": "ninguno",
+        "sfx": "golpe en 0:32.82 (+ 0:33.1 y 0:33.3)",
+        "musica": "cama a −30/−36 dB",
+        "voz": "EN OFF: «…me tropecé con algo que era totalmente»"
+      },
+      {
+        "f0": 2020,
+        "f1": 2093,
+        "t": "0:33.67–0:34.88",
+        "que_se_ve": "Cenital: sentado en una alfombra verde con mochila y la caja.",
+        "origen": "rodaje actuado",
+        "camara": "cenital fija",
+        "zoom_velocidad": "ninguno",
+        "texto": "ninguno",
+        "motion_graphic": "ninguno",
+        "sfx": "ninguno",
+        "musica": "cama −32/−34 dB (voz −18: 14 dB por debajo)",
+        "voz": "EN OFF: «imprescindible para el viaje»"
+      },
+      {
+        "f0": 2094,
+        "f1": 2180,
+        "t": "0:34.90–0:36.33",
+        "que_se_ve": "Cenital de mármol vacío; entra la caja deslizando (f2122–f2137) con una mano.",
+        "origen": "rodaje actuado",
+        "camara": "cenital fija",
+        "zoom_velocidad": "ninguno",
+        "texto": "«INSTA» f2100 (pequeño) → f2114 (grande); «360 GO 2» f2154",
+        "motion_graphic": "etiqueta de producto (ver animaciones_explicativas)",
+        "sfx": "ninguno confirmado",
+        "musica": "cama",
+        "voz": "EN OFF: «La Insta360 GO 2»"
+      },
+      {
+        "f0": 2181,
+        "f1": 2358,
+        "t": "0:36.35–0:39.30",
+        "que_se_ve": "Lateral a través de una puerta: sentado en el suelo, saca la cámara.",
+        "origen": "rodaje actuado",
+        "camara": "fija (medir_zoom 0,997)",
+        "zoom_velocidad": "ninguno",
+        "texto": "ninguno",
+        "motion_graphic": "ninguno",
+        "sfx": "ninguno",
+        "musica": "cama −32 dB",
+        "voz": "EN OFF: «Ya que si quería grabar en Tomorrowland, mis otras cámaras no me servían»"
+      },
+      {
+        "f0": 2359,
+        "f1": 2407,
+        "t": "0:39.32–0:40.12",
+        "que_se_ve": "Cenital de mármol: una mano entra con la cámara en la palma.",
+        "origen": "rodaje actuado",
+        "camara": "cenital fija",
+        "zoom_velocidad": "ninguno",
+        "texto": "ninguno",
+        "motion_graphic": "ninguno",
+        "sfx": "ninguno",
+        "musica": "cama",
+        "voz": "EN OFF: «Esta es una cámara»"
+      },
+      {
+        "f0": 2408,
+        "f1": 2456,
+        "t": "0:40.13–0:40.93",
+        "que_se_ve": "Entra la segunda mano con el estuche; palmada en 0:40.85.",
+        "origen": "rodaje actuado",
+        "camara": "cenital fija",
+        "zoom_velocidad": "ninguno",
+        "texto": "ninguno",
+        "motion_graphic": "ninguno",
+        "sfx": "palmada 0:40.85",
+        "musica": "cama",
+        "voz": "EN OFF: «pequeña. Resistente»"
+      },
+      {
+        "f0": 2457,
+        "f1": 2548,
+        "t": "0:40.95–0:42.47",
+        "que_se_ve": "Corte por coincidencia de gesto: las manos se separan con el estuche abierto.",
+        "origen": "rodaje actuado",
+        "camara": "cenital fija",
+        "zoom_velocidad": "ninguno",
+        "texto": "ninguno",
+        "motion_graphic": "ninguno",
+        "sfx": "ninguno",
+        "musica": "cama",
+        "voz": "EN OFF: «al agua hasta 4 metros»"
+      },
+      {
+        "f0": 2549,
+        "f1": 2683,
+        "t": "0:42.48–0:44.72",
+        "que_se_ve": "Mármol vacío; la caja entra desde la izquierda (0:42.6–0:43.0); las manos la giran con saltos de imagen en f2610, f2632 y f2659.",
+        "origen": "rodaje actuado",
+        "camara": "cenital fija",
+        "zoom_velocidad": "ninguno",
+        "texto": "ninguno (la cifra no se rotula)",
+        "motion_graphic": "ninguno",
+        "sfx": "ninguno",
+        "musica": "cama −30/−31 dB",
+        "voz": "EN OFF: «Con una resolución de 1440 a 50 FPS»"
+      },
+      {
+        "f0": 2684,
+        "f1": 2726,
+        "t": "0:44.73–0:45.43",
+        "que_se_ve": "Caja blanca de pie y una mano.",
+        "origen": "rodaje actuado",
+        "camara": "fija",
+        "zoom_velocidad": "ninguno",
+        "texto": "ninguno",
+        "motion_graphic": "ninguno",
+        "sfx": "ninguno",
+        "musica": "cama",
+        "voz": "EN OFF: «Y aparte»"
+      },
+      {
+        "f0": 2727,
+        "f1": 2799,
+        "t": "0:45.45–0:46.65",
+        "que_se_ve": "Caja de la funda de transporte; la mano la acerca.",
+        "origen": "rodaje actuado",
+        "camara": "fija (la escala sube por el objeto, no por zoom)",
+        "zoom_velocidad": "ninguno",
+        "texto": "ninguno",
+        "motion_graphic": "ninguno",
+        "sfx": "ninguno",
+        "musica": "cama",
+        "voz": "EN OFF: «que me han enviado todo esto»"
+      },
+      {
+        "f0": 2800,
+        "f1": 2846,
+        "t": "0:46.67–0:47.43",
+        "que_se_ve": "Caja del adaptador de montaje.",
+        "origen": "rodaje actuado",
+        "camara": "fija",
+        "zoom_velocidad": "ninguno",
+        "texto": "ninguno",
+        "motion_graphic": "ninguno",
+        "sfx": "ninguno",
+        "musica": "cama",
+        "voz": "EN OFF: «Un montón de»"
+      },
+      {
+        "f0": 2847,
+        "f1": 3150,
+        "t": "0:47.45–0:52.50",
+        "que_se_ve": "Caja del palo y, desde ≈ 0:51.1, la pila de todas las cajas.",
+        "origen": "rodaje actuado",
+        "camara": "fija",
+        "zoom_velocidad": "ninguno",
+        "texto": "«Link a la cámara / en la descripción» f2878–f3150",
+        "motion_graphic": "aviso de patrocinio",
+        "sfx": "ninguno",
+        "musica": "cama −30/−32 dB; sube a −14 dB en el último segundo, anticipando el corte",
+        "voz": "EN OFF: «accesorios. Básicamente la puedes montar donde quieras. Y en este vídeo os lo voy a demostrar. Espero que os guste»"
+      },
+      {
+        "f0": 3151,
+        "f1": 3650,
+        "t": "0:52.52–1:00.83",
+        "que_se_ve": "FIN DE LA INTRO. Montaje del traslado: POV en el taxi y el aeropuerto, 13 planos de 0,25–1,75 s, cada uno con una acción de sus manos; tapados del objetivo en 0:54.85 (a negro), 0:56.15 (rosa), 0:57.85 (palma tras un choque de manos) y 0:59.55 (rojo → blanco f3583–f3591 → puerta de embarque).",
+        "origen": "rodaje",
+        "camara": "cámara de gorra",
+        "zoom_velocidad": "ninguno",
+        "texto": "ninguno",
+        "motion_graphic": "destello blanco en la última transición",
+        "sfx": "ninguno confirmado",
+        "musica": "entra con un golpe en el corte, −9/−12 dB, sin voz",
+        "voz": "ninguna hasta «Bueno» (1:02.5)"
+      }
+    ],
+    "titulo_cabecera": {
+      "como_se_construye": "En 3 golpes sobre 3 planos seguidos y un cuarto golpe a negro, todos en el corte y de golpe, sin animación de escala ni máscara: «TOMORROWLAND» en f1264, se suma «2022» en f1293, se suma «NIL OJEDA» en f1319, y en f1345 la imagen se va a negro y queda solo el título (27 f). Sale por corte en f1372. Lo único que se mueve es el color: el relleno es un degradado horizontal cuyo tono rota sin parar (una vuelta completa ≈ 1,3 s) con un resplandor del mismo color alrededor.",
+      "fuente": "top-3 fuente_rotulo sobre el fotograma en negro (sin --color porque el relleno es un degradado): Luckiest Guy +0,598 · Poppins Black +0,563 · Poppins ExtraBold +0,555. A ojo es una sans humanista extra-negrita en mayúsculas, tipo Open Sans ExtraBold; Luckiest Guy no se le parece. «NIL OJEDA» (--color #B4FFD2): Cinzel 500 +0,006 · Libre Baskerville −0,031 · Cormorant −0,046 (no fiable).",
+      "color": "degradado arcoíris animado (magenta → rojo → amarillo → verde → cian) con resplandor de ≈ 40 px y halo difuso; sin borde negro",
+      "tamano": "«TOMORROWLAND»: x 475–1410 (48,7 % del ancho), y 395–475 (mayúscula de 80 px = 7,4 % del alto). «2022» (x 620–795) y «NIL OJEDA» (x 930–1320): y 520–580 (60 px = 5,5 %).",
+      "posicion": "centrado; línea principal al 37–44 % de la altura",
+      "duracion_f": 108,
+      "duracion_s": 1.8,
+      "sonido": "Ningún efecto propio: cada aparición cae en un corte y cada corte en un golpe de la música (−8 dB, sin voz).",
+      "hoja": "detalle/f08_titulo_1f_0.21.0.jpg, rotulos/f_21.30.jpg, rotulos/f_22.60.jpg"
+    },
+    "cabecera_montaje": {
+      "f0": 1162,
+      "f1": 1570,
+      "duracion_f": 409,
+      "duracion_s": 6.82,
+      "planos": 13,
+      "duraciones_f": [
+        24,
+        28,
+        50,
+        29,
+        26,
+        26,
+        27,
+        30,
+        23,
+        28,
+        23,
+        24,
+        71
+      ],
+      "compas": "golpe cada 0,43 s (≈ 138 pulsos por minuto); un corte por golpe; cada corte cae ≈ 6 f antes del golpe; el plano 3 dura 2 golpes y el último 2,7",
+      "formato": "bandas negras arriba y abajo (≈ 12 % cada una) solo en este tramo; el resto del vídeo va a cuadro completo"
+    },
+    "primer_plano_hablando_s": 0.0,
+    "primer_plano_hablando_f": 0,
+    "musica_intro": "0:00–0:19.37 sin música (ambiente de la cola). 0:19.37–0:26.1 pista con ritmo a −8/−10 dB sin voz, entra de golpe en el corte. 0:27.0–0:31.3 silencio bajo la voz en off (la premisa se oye en seco). 0:31.3–0:32.0 riser. 0:33–0:51 cama a −30/−34 dB con la voz a −18 dB (12–14 dB por debajo). 0:52 sube a −14 dB y en 0:52.52 golpea con el corte al taxi (−9/−12 dB sin voz).",
+    "diferencia_con_la_intro_explicativa_actual": "Aquí la explicación va con rodaje actuado y 3 textos; no hay motion graphics de datos. Si se quiere estudiar la intro explicativa de Nil con mapas, cifras y recortes hay que ir a vídeos posteriores: este no sirve de modelo para eso, sí para el gancho en frío, la cabecera a compás y el patrón «un plano actuado por frase»."
+  },
+  "motion_graphics": [
+    {
+      "tipo": "cabecera con título en degradado",
+      "que_es": "Título «TOMORROWLAND / 2022 · NIL OJEDA» sobre 3 planos del montaje y 27 f de negro, con bandas negras de formato panorámico.",
+      "entrada_salida": "entra de golpe en el corte de f1264; suma líneas en f1293 y f1319; fondo a negro f1345; sale por corte f1372",
+      "curva": "ninguna (no hay escala ni desplazamiento); solo rota el tono del relleno",
+      "posicion": "centrado, 37–54 % de la altura",
+      "tamano": "7,4 % del alto la línea principal; 5,5 % la secundaria",
+      "color": "degradado animado con resplandor",
+      "duracion_f": 108,
+      "sonido": "ninguno propio; va en los golpes de la música",
+      "donde": "0:21.07–0:22.85",
+      "hoja": "detalle/f08_titulo_1f_0.21.0.jpg"
+    },
+    {
+      "tipo": "texto de partículas",
+      "que_es": "«TOMORROWLAND / ES / MAÑANA» en blanco con borde y sombra gris (aspecto de nube/burbuja con volumen), que se forma y se deshace en nubecillas.",
+      "entrada_salida": "se forma línea a línea (28 f, 14 f, 20 f); quieto 35 f; se deshace hacia arriba ≈ 58 f",
+      "curva": "propia de la plantilla de partículas; el bloque no cambia de tamaño",
+      "posicion": "mitad izquierda: x 30–1180, y 110–580; el sujeto queda a la derecha",
+      "tamano": "letra de ≈ 100 px (9,3 % del alto) por línea; bloque del 60 % del ancho",
+      "color": "#FFFFFF con borde gris y sombra gris de ≈ 6 px",
+      "duracion_f": 152,
+      "sonido": "entra en silencio; riser de 0,7 s en la salida (0:31.3–0:32.0)",
+      "donde": "0:29.87–0:32.38",
+      "hoja": "hojas/intro_fot_14–16.jpg, rotulos/r04_particulas_tomorrowland.png"
+    },
+    {
+      "tipo": "etiqueta de producto",
+      "que_es": "«INSTA» (grande) + «360 GO 2» (pequeño) sobre un cenital vacío en el que luego entra la caja real.",
+      "entrada_salida": "de golpe, con un escalón de tamaño a los 13 f (×1 → ×1,9 en 2 f); sale por corte",
+      "curva": "sin curva (escalón)",
+      "posicion": "izquierda del cuadro, a media altura, donde va a pararse la caja",
+      "tamano": "7,4 % del alto la línea grande; ≈ 2,8 % la pequeña",
+      "color": "#FFFFFF sin borde (poco legible sobre la caja blanca)",
+      "duracion_f": 81,
+      "sonido": "ninguno confirmado",
+      "donde": "0:35.00–0:36.33",
+      "hoja": "detalle/f07_texto_insta_1f_0.34.9.jpg"
+    },
+    {
+      "tipo": "tarjeta de datos",
+      "que_es": "Caja oscura semitransparente con icono (i) y tres líneas: «Informaciones Nil», «- 14 Escenarios», «- 400.000 Personas».",
+      "entrada_salida": "La caja nace de un punto y crece con desenfoque de movimiento: primer rastro f33054 (9:10.90), nítida en f33064–f33066 (≈ 12 f), asentada en f33070. Línea 2 en f33088 → nítida f33093 (6 f, barrido horizontal). Línea 3 en f33198 → f33203 (6 f). Salida f33342: encoge con desenfoque y desaparece en f33351 (≈ 10 f).",
+      "curva": "desaceleración al entrar (rápida al principio, sin rebote); aceleración al salir",
+      "posicion": "pegada al borde izquierdo: x 0–660 (34 % del ancho), y 410–810 (37 % del alto)",
+      "tamano": "mayúscula de ≈ 44 px (4,1 % del alto)",
+      "color": "caja negra al ≈ 55 % de opacidad con esquinas redondeadas; texto blanco en cursiva negrita; icono (i) en círculo blanco",
+      "duracion_f": 298,
+      "sonido": "ninguno (comprobado en el espectrograma)",
+      "donde": "9:10.90–9:15.85",
+      "disparador": "la caja en «hay» (550,80) / «14» (550,98); línea 2 en «escenarios» (551,56 → 551,47); línea 3 en «400 mil personas» (552,88–554,0 → 553,30)",
+      "nota": "Aguanta por encima de 3 cortes de imagen (9:13.0, 9:14.0, 9:15.4): es una capa superior independiente del montaje.",
+      "hoja": "detalle/f02_tarjeta_info_1f_9.10.8.jpg, rotulos/f_554.2.jpg"
+    },
+    {
+      "tipo": "cartel de escenario colgante",
+      "que_es": "Tarjeta blanca con textura de papel que cuelga de una cuerda desde el borde superior, con un marcador de mapa dorado con el número y el nombre del escenario en mayúsculas negras: «① FREEDOM STAGE», «② THE ROSE GARDEN», «⑫ MAINSTAGE».",
+      "entrada_salida": "Medido en el ②: baja desde arriba f37872 → f37892 (20 f), quieta f37892–f38002 (110 f = 1,83 s), sube y sale f38003 → f38023 (20 f).",
+      "curva": "desaceleración al bajar, sin rebote apreciable; aceleración al subir",
+      "posicion": "arriba a la izquierda: ① x 30–335, y 15–110; ② x 30–460, y 36–106; ⑫ x 90–395, y 185–265 (más abajo y ≈ 1,15× más grande)",
+      "tamano": "tarjeta del 6,5 % del alto; letra de ≈ 20 px (1,9 % del alto): pequeña",
+      "color": "tarjeta blanca, texto ≈ #1A1A1A, marcador dorado",
+      "duracion_f": 152,
+      "sonido": "ninguno (comprobado en el ②)",
+      "donde": "9:52.7–9:54.1 (①), 10:31.20–10:33.72 (②), 12:09.4–12:11.4 (⑫)",
+      "disparador": "① con «primer escenario» (592,78); ② 0,2 s después de «dos» (631,00); ⑫ con «Qué grande es esto» (729,5)",
+      "nota": "Solo 3 carteles aunque la tarjeta promete 14 escenarios. El ⑫ cruza un corte de imagen.",
+      "hoja": "detalle/f01_rotulo_escenario2_1f_10.31.2.jpg, detalle/m04_rotulos_escenario.jpg, detalle/m05_rotulos_escenario_otros.jpg"
+    },
+    {
+      "tipo": "contador con flash de acierto/fallo",
+      "que_es": "Arriba a la izquierda, número blanco en cursiva negrita + icono de dos puños chocando con una estrella amarilla. Cada intento de choque de manos tiñe toda la pantalla: verde si se lo dan, rojo si no.",
+      "entrada_salida": "El contador aparece de golpe con «0» en 15:59.6, pasa a «1» en 16:04.45, «2» en 16:08.5, «3» en 16:12.0 y desaparece ≈ 16:13.3 (cruza el corte de 16:12.4). El flash entra de golpe y pleno (f57867), dura 5 f y se desvanece en 2 f: 7 f (0,12 s). El número cambia en el mismo fotograma que el flash verde.",
+      "curva": "ninguna (de golpe); el flash con salida de 2 f",
+      "posicion": "contador: x 70–250, y 20–100 (esquina superior izquierda)",
+      "tamano": "número de ≈ 55 px (5,1 % del alto); icono de ≈ 125 px de ancho",
+      "color": "blanco con sombra oscura; tinte verde o rojo semitransparente a pantalla completa",
+      "duracion_f": 822,
+      "sonido": "no se ha podido confirmar ninguno (música a −18/−21 dB encima; sin candidatos en sfx.json)",
+      "donde": "15:59.6–16:13.3; flashes: rojo 16:02.2, verde 16:04.45, rojo 16:06.6, verde 16:08.4, verde 16:12.0",
+      "hoja": "detalle/f03_contador_choques_0.2s.jpg, detalle/f04_flash_verde_1f_16.04.2.jpg"
+    },
+    {
+      "tipo": "inserto-meme pequeño sobre la imagen",
+      "que_es": "Clip o imagen ajena pegada encima del plano, sin marco ni sombra, mientras sigue la conversación. (1) Fragmento de Los Simpson con su propio subtítulo. (2) Foto de un niño comiendo.",
+      "entrada_salida": "entra y sale de golpe, sin animación",
+      "curva": "ninguna",
+      "posicion": "(1) x 246–740, y 310–680: 26 % × 34 % del cuadro, centro-izquierda. (2) a la izquierda, ≈ 20 % del ancho.",
+      "tamano": "≈ un cuarto del cuadro",
+      "color": "—",
+      "duracion_f": 90,
+      "sonido": "(1) hay dos pops en 4:05.20 y 4:05.45, dentro del inserto: probablemente audio del propio clip (duda)",
+      "donde": "(1) 4:04.2–4:05.6 con «Homer [244,07] Simpson»; (2) 5:57.0–5:57.9 tras «Guarromán» (355,4 y 356,7)",
+      "hoja": "detalle/d03_meme_simpson_4.00-4.12.jpg, detalle/d10_varios_5.54_7.07_7.39_8.10.jpg"
+    },
+    {
+      "tipo": "foto de archivo a pantalla completa",
+      "que_es": "Foto de un photocall con 4 personas, para ilustrar «la presentación del documental».",
+      "entrada_salida": "desenfoque de ≈ 6 f + fuga de luz de colores (1:35.1–1:35.4) → foto quieta 1:35.5–1:37.2 (1,7 s) → la misma transición de vuelta (≈ 36 f, 1:37.2–1:37.8)",
+      "curva": "desenfoque que sube y baja; la foto no se mueve (medir_zoom 0,992: sin acercamiento lento)",
+      "posicion": "cuadro completo",
+      "tamano": "100 %",
+      "color": "fuga de luz morada, rosa y verde",
+      "duracion_f": 168,
+      "sonido": "click en la entrada (1:35.18, −35,9 dB, 9,6 dB bajo la voz) y en la salida (1:37.34, −36,2 dB, 7,2 dB bajo la voz)",
+      "donde": "1:35.0–1:37.8",
+      "hoja": "detalle/d02_hotel_outfit_1.24-1.39.jpg, detalle/sfx_zoom_02.jpg"
+    },
+    {
+      "tipo": "cartela final y foto enmarcada",
+      "que_es": "Negro con una línea blanca centrada («Like por Carlos conociendo a Martin Garrix») y, tras la escena extra, la foto reducida a un marco con borde blanco fino sobre negro y el pie «Carlos feliz».",
+      "entrada_salida": "cartela: corte seco a negro con el texto ya puesto (f59900), 94 f, y funde a la escena extra en ≈ 6 f. Foto: entra a cuadro completo por corte (16:43.4), aparece el pie en 16:43.8 y la foto encoge a su marco en ≈ 12 f (16:43.9–16:44.1); quieta 47 f hasta el final.",
+      "curva": "encogido corto con desaceleración (a ojo)",
+      "posicion": "texto centrado (y 499–582); foto al ≈ 82 % del cuadro (x 169–1750, y 44–930), pie debajo (y 940–1040)",
+      "tamano": "línea final: mayúscula ≈ 60 px (5,6 %), 94 % del ancho; pie ≈ 80 px (7,4 %)",
+      "color": "#FFFFFF sobre negro",
+      "duracion_f": 190,
+      "sonido": "la música de cierre entra de golpe en el corte a negro (−8 dB)",
+      "donde": "16:38.33–16:39.88 y 16:43.4–16:45.03",
+      "hoja": "detalle/d08_cierre_16.36-16.45.jpg, detalle/m06_final_pip.jpg"
+    }
+  ],
+  "motion_graphics_ausentes": [
+    "Mapa del viaje (Madrid → Bélgica) o del recinto: no hay ninguno animado. El único mapa es el cartel físico del recinto grabado en 9:15.4.",
+    "Cartela de «DÍA 1» / «DÍA 2» o de capítulo: no hay. El cambio de día es un corte seco (5:59.2) y la frase «Buenos días, hoy es el día» (6:00.2).",
+    "Rótulo de nombre de los amigos o de Martin Garrix (el nombre solo aparece en los subtítulos y en la cartela final).",
+    "Cifras animadas: el precio de la entrada (223 €) no se rotula, se enseña con un golpe de zoom al papel; «1440 a 50 FPS» tampoco.",
+    "Flechas, círculos, resaltes en blanco y negro, pantalla partida, barra de progreso, cuenta atrás.",
+    "Botón o animación de suscribirse.",
+    "Logo o cortinilla del canal."
+  ],
+  "cortes": {
+    "total_detectados": 493,
+    "cortes_por_minuto_detectados": 29.4,
+    "global": {
+      "planos": 494,
+      "media_s": 2.03,
+      "mediana_s": 1.32,
+      "p10_s": 0.42,
+      "p90_s": 4.45,
+      "max_s": 16.25,
+      "max_donde": "7:04.7–7:21.0 (desayuno, cámara pegada)",
+      "menos_de_1s_pct": 38,
+      "mas_de_5s_pct": 8
+    },
+    "con_cortes_debiles": {
+      "total": 647,
+      "por_minuto": 38.6,
+      "mediana_s": 0.9,
+      "p10_s": 0.1,
+      "p90_s": 3.98,
+      "menos_de_1s_pct": 53,
+      "nota": "cortes_rafagas.json (--rafagas): 397 secos + 57 transiciones + 193 «de ráfaga». AVISO: las 193 ráfagas NO son cortes. Son tramos de cámara rápida: el metraje a 50 fps metido en 60 duplica 1 fotograma de cada 6 y, acelerado, el detector ve un «corte» cada 0,10 s. Comprobado fotograma a fotograma en 5:02.6 (detalle/f05) y con la diferencia entre fotogramas (13–32 sobre 255 dentro del tramo frente a 0,0 en el duplicado). El dato bueno de ritmo es el de cortes.json."
+    },
+    "por_minuto": [
+      49,
+      34,
+      26,
+      13,
+      20,
+      27,
+      37,
+      23,
+      25,
+      47,
+      35,
+      22,
+      20,
+      21,
+      43,
+      30,
+      21
+    ],
+    "mediana_por_minuto_s": [
+      0.83,
+      0.67,
+      1.78,
+      3.07,
+      2.45,
+      1.8,
+      0.77,
+      1.58,
+      1.83,
+      1.0,
+      1.3,
+      2.85,
+      3.38,
+      2.63,
+      0.9,
+      1.6,
+      1.67
+    ],
+    "por_parte": [
+      {
+        "parte": "gancho en frío 0:00–0:19.37",
+        "planos": 12,
+        "mediana_s": 1.17,
+        "media_s": 1.61,
+        "menos_de_1s_pct": 33,
+        "cortes_min": 34.1
+      },
+      {
+        "parte": "cabecera 0:19.37–0:26.18",
+        "planos": 13,
+        "mediana_s": 0.44,
+        "media_s": 0.52,
+        "menos_de_1s_pct": 92,
+        "cortes_min": 114.5,
+        "nota": "13 planos contados fotograma a fotograma; el detector da 14 por un falso corte en f1306"
+      },
+      {
+        "parte": "sketch en casa 0:26.18–0:52.52",
+        "planos": 15,
+        "mediana_s": 1.33,
+        "media_s": 1.76,
+        "menos_de_1s_pct": 40,
+        "cortes_min": 31.9,
+        "nota": "contando los saltos de imagen que el detector no ve (f1887, f2610, f2632, f2659, f2800, f2847, ≈ f3066) son unos 19–22 planos: uno cada 1,2–1,4 s"
+      },
+      {
+        "parte": "traslado 0:52.52–1:14.25",
+        "planos": 25,
+        "mediana_s": 0.63,
+        "media_s": 0.87,
+        "menos_de_1s_pct": 80,
+        "cortes_min": 66.3
+      },
+      {
+        "parte": "hotel y outfit 1:14.25–1:58",
+        "planos": 22,
+        "mediana_s": 0.67,
+        "media_s": 1.99,
+        "menos_de_1s_pct": 64,
+        "cortes_min": 28.8
+      },
+      {
+        "parte": "ciudad día 1 1:58–5:59",
+        "planos": 85,
+        "mediana_s": 2.23,
+        "media_s": 2.84,
+        "menos_de_1s_pct": 18,
+        "cortes_min": 20.9
+      },
+      {
+        "parte": "día 2 hotel 5:59–7:22",
+        "planos": 44,
+        "mediana_s": 0.81,
+        "media_s": 1.89,
+        "menos_de_1s_pct": 57,
+        "cortes_min": 31.1
+      },
+      {
+        "parte": "traslado y cola 7:22–9:03",
+        "planos": 48,
+        "mediana_s": 1.46,
+        "media_s": 2.11,
+        "menos_de_1s_pct": 33,
+        "cortes_min": 27.8
+      },
+      {
+        "parte": "primera vuelta al recinto 9:03–12:23",
+        "planos": 114,
+        "mediana_s": 1.28,
+        "media_s": 1.75,
+        "menos_de_1s_pct": 38,
+        "cortes_min": 34.0
+      },
+      {
+        "parte": "Comfort y comida 12:23–13:50",
+        "planos": 26,
+        "mediana_s": 3.05,
+        "media_s": 3.35,
+        "menos_de_1s_pct": 12,
+        "cortes_min": 17.2
+      },
+      {
+        "parte": "escenario principal y Garrix 13:50–15:58",
+        "planos": 75,
+        "mediana_s": 1.15,
+        "media_s": 1.71,
+        "menos_de_1s_pct": 39,
+        "cortes_min": 34.7
+      },
+      {
+        "parte": "choques y final 15:58–16:38.3",
+        "planos": 23,
+        "mediana_s": 1.48,
+        "media_s": 1.75,
+        "menos_de_1s_pct": 43,
+        "cortes_min": 32.8
+      }
+    ],
+    "tipos": "≈ 97 % corte seco. De los 396 cortes secos, 117 (30 %) tienen la misma imagen a ambos lados (salto dentro de la misma toma: jump cut) con una diferencia de escala mediana del 2,9 %; el resto cambia de toma. Solo 2 son golpes de zoom digitales.",
+    "jump_cuts": "Sí, constantes y sin disimular: cuando habla a cámara (0:00–0:16, 6:00–6:30, 8:38–9:03) y dentro de las tomas en POV para quitar esperas. No se tapan con cambio de escala ni con plano de recurso.",
+    "rafagas": {
+      "total": 46,
+      "por_minuto_media": 2.7,
+      "por_minuto": [
+        5,
+        4,
+        2,
+        0,
+        1,
+        2,
+        5,
+        2,
+        2,
+        6,
+        5,
+        1,
+        2,
+        0,
+        5,
+        3,
+        1
+      ],
+      "definicion": "3 o más cortes en 2 s, sobre cortes.json",
+      "las_mas_largas": "0:17.7–0:25.0 (16 cortes: cabecera), 14:20.5–14:27.9 (14), 6:24.6–6:31.4 (12), 1:26.6–1:31.4 (11: outfit), 0:52.5–0:57.9 (10: traslado)"
+    },
+    "planos_largos": "Los 8 de más de 9 s son todos conversación o reacción con la cámara quieta: 16,2 s (7:04.7, desayuno), 15,4 s (3:13.4, tienda), 12,9 s (3:41.8, tienda), 12,2 s (1:14.4, reseña de la habitación), 11,1 s (12:28.6, sauna), 9,9 s (7:23.5), 9,4 s (5:39.7). El golpe accidental del pasillo va en un plano fijo de 8,0 s sin un solo corte (6:37.1–6:45.0).",
+    "corte_y_voz": "44 % de los cortes caen dentro de una palabra y 45 % con 0,1 s o menos de silencio; otro 45 % cae con más de 1 s sin voz. Es bimodal: saltos apretados cuando habla y cortes de acción cuando no. Silencio mediano en el corte: 0,54 s.",
+    "palabras_por_corte": "4,0 de media: 7,7 en la ciudad, 7,2 en el sketch, 3,3 en el recinto, 2,2 en el escenario principal.",
+    "corte_y_musica": "En el vídeo entero, 37 % de los cortes con música caen en un golpe y 17 % de todos los cortes coinciden con un acento: no se monta a compás. La excepción es la cabecera: 13 cortes, uno por golpe.",
+    "camara_rapida": {
+      "tramos": 36,
+      "por_minuto_media": 2.1,
+      "por_minuto": [
+        2,
+        1,
+        7,
+        0,
+        1,
+        6,
+        1,
+        0,
+        4,
+        2,
+        4,
+        2,
+        2,
+        1,
+        1,
+        2,
+        0
+      ],
+      "duracion_s": "0,3–2,1 (mediana ≈ 0,6)",
+      "cuanto_acelera": "el movimiento entre fotogramas es de 1,5 a 9,6 veces el de los segundos de alrededor (mediana ≈ ×2,7); no se puede dar el factor exacto",
+      "para_que": "Saltar un trayecto andando o un gesto largo (girar la cámara, atarse las zapatillas, abrirse paso) sin cortar: mantiene la continuidad del POV. Ejemplos: 0:18.08–0:19.35, 2:05.0, 2:06.8, 5:02.7–5:03.8, 5:06.5, 5:08.8, 8:04.9, 8:41.5, 9:04.6, 10:53.8, 11:34.8, 13:58.2, 14:03.8, 15:40.2.",
+      "como_se_ha_contado": "41 grupos de «ráfaga» de cortes_rafagas.json menos 5 que son transiciones (0:16.6, 1:10.6, 1:47.0, 9:03.1, 15:18.1). Por minuto es aproximado."
+    }
+  },
+  "zooms": [
+    {
+      "tipo": "golpe de zoom digital a un objeto (punch-in por corte)",
+      "medido": "escala entre los dos lados de los 396 cortes secos (puntos característicos) + hoja a 0,1 s",
+      "donde": "5:52.03–5:52.78 (plato de postre) y 8:44.97–8:46.48 (precio en la entrada impresa)",
+      "escala_inicial_final": "×1,00 → ×1,84 (plato) y ×1,00 → ×1,85 (entrada); vuelta ×0,53 y ×0,50 al mismo plano abierto",
+      "duracion_f": "45 f (0,75 s) el plato; ≈ 90 f (1,5 s) la entrada",
+      "curva": "ninguna: entra y sale por corte, escala fija dentro",
+      "hacia_donde": "al objeto: en la entrada, centro del recorte en (0,64; 0,85) del cuadro (el código de barras y el precio)",
+      "disparador": "plato: «Echa el cuenco» (351,69–352,3), justo cuando vierten el chocolate. Entrada: «223» (525,00) → corte en 524,97.",
+      "sonido": "plato: ninguno. Entrada: caja registradora + campanilla (8:45.11 y 8:45.39).",
+      "hoja": "detalle/f09_golpes_de_zoom_0.1s.jpg, detalle/d05_entrada_precio_8.38-8.50.jpg"
+    },
+    {
+      "tipo": "empuje lento de cámara en el sketch",
+      "medido": "medir_zoom",
+      "donde": "0:26.25–0:27.0 (general del sofá) y 0:27.15–0:29.1 (cenital sobre el hombro)",
+      "escala_inicial_final": "1,000 → 1,038 en 0,75 s (+5,4 %/s) y 0,998 → 1,024 en 1,95 s (+1,3 %/s)",
+      "duracion_f": "45 f y 117 f",
+      "curva": "lineal",
+      "hacia_donde": "al centro",
+      "disparador": "ninguno: acompaña a la voz en off",
+      "sonido": "ninguno",
+      "nota": "Son los únicos movimientos lentos del vídeo y solo están en los dos primeros planos del sketch; no se puede distinguir si es digital o de mano."
+    },
+    {
+      "tipo": "plano fijo (sin zoom)",
+      "medido": "medir_zoom en 7 planos",
+      "donde": "0:29.2–0:31.3 (0,98), 0:36.4–0:39.25 (0,997), 1:31.5–1:34.9 (1,001), 1:35.6–1:37.1 foto de archivo (0,992), 6:37.2–6:44.9 pasillo (0,98), 16:43.7–16:44.9 foto final (1,000), 0:45.5–0:46.6 (la escala sube a 1,53 porque la mano acerca la caja, no por zoom)",
+      "escala_inicial_final": "1,00 ± 0,02",
+      "duracion_f": "—",
+      "curva": "—",
+      "hacia_donde": "—",
+      "disparador": "—",
+      "sonido": "—"
+    },
+    {
+      "tipo": "movimiento de cámara en mano (no es zoom de edición)",
+      "medido": "medir_zoom",
+      "donde": "0:00.1–0:05.4 selfie con palo (1,06 → 0,50), 16:29.1–16:38.2 plano final (1,03 → 0,69), 16:40.4–16:43.2 escena extra (paneo)",
+      "escala_inicial_final": "variable",
+      "duracion_f": "—",
+      "curva": "—",
+      "hacia_donde": "—",
+      "disparador": "—",
+      "sonido": "—",
+      "nota": "Con gran angular y la cámara en la cabeza o en un palo, el encuadre cambia solo; no hace falta zoom de edición para que la imagen se mueva."
+    }
+  ],
+  "zooms_resumen": {
+    "medir_zoom_planos": 12,
+    "cortes_medidos": 396,
+    "golpes_de_zoom": 2,
+    "golpes_por_minuto": 0.12,
+    "zoom_animado_sobre_quien_habla": 0,
+    "cortes_de_escala_al_hablar": 0,
+    "nota": "De los 117 cortes con continuidad de imagen, 18 saltan de escala un 10 % o más; 16 son cambios de toma en POV con la cámara en otra posición y 2 son los golpes digitales. No existe el patrón de alternar ×1,0 y ×1,3 al hablar."
+  },
+  "textos": [
+    {
+      "tipo": "subtítulo de diálogo con nombre (cuerpo del vídeo)",
+      "texto_ejemplos": [
+        "Nil Ojeda:\\nNo quería darle",
+        "Calitos:\\nY tú te has duchado guarro??",
+        "Telmo:\\nle atropoelló un tranvia",
+        "NPC:\\n???",
+        "NPC 3:\\nes un poco picante"
+      ],
+      "fuente": "top-3 fuente_rotulo (--color #FFFFFF): «cartera la dejo» Bodoni Moda 500 −0,213 · Libre Baskerville 400 −0,221 · Cormorant Garamond 700 −0,288; «Escenario dos chavales» Cormorant Garamond −0,109 · Caveat −0,128 · Bodoni Moda −0,187. Todas negativas: la fuente no está en el catálogo. A ojo, sans humanista regular de sistema tipo Tahoma/Verdana.",
+      "peso": "regular",
+      "mayusculas": "frase en minúsculas con inicial mayúscula; sin punto final; interrogaciones solo de cierre y a veces dobles",
+      "color": "un color por hablante: Nil #FFFFFF; Calitos verde menta ≈ #3DFFB0; Telmo y Benji amarillo ≈ #F0FF2A; desconocidos («NPC») verde lima ≈ #B4FF30",
+      "borde_sombra_caja": "borde negro fino ≈ 2 px; sin caja ni sombra",
+      "tamano": "mayúscula de ≈ 34 px (3,1 % del alto)",
+      "posicion": "abajo al centro, 2 líneas centradas: y 930–1036 (línea de base al 96 %)",
+      "entrada": "de golpe con la frase",
+      "salida": "de golpe; una tarjeta sustituye a la anterior",
+      "duracion_tipica": "0,6–1,6 s (máximo 3 s)",
+      "funcion": "que se entienda lo que el ruido tapa y saber quién habla cuando no se le ve (todo es POV)",
+      "hoja": "detalle/m07_subs_otros_hablantes.jpg, rotulos/r10_sub_cartera.png, rotulos/r11_sub_escenario_dos.png"
+    },
+    {
+      "tipo": "subtítulo del gancho (sin nombre)",
+      "texto_ejemplos": [
+        "Preparados",
+        "porque para hacer cualquier tipo de cosa",
+        "colas de hora y media",
+        "os pongo en modo POV",
+        "Disfruten!"
+      ],
+      "fuente": "top-3 fuente_rotulo (--color #FFFFFF): Libre Baskerville 400 +0,191 · Inter 600 +0,175 · Manrope 600 +0,173 (no fiable). A ojo, la misma del resto de subtítulos.",
+      "peso": "regular",
+      "mayusculas": "minúsculas con inicial mayúscula",
+      "color": "#FFFFFF",
+      "borde_sombra_caja": "borde negro ≈ 2 px",
+      "tamano": "mayúscula de ≈ 34 px (3,1 %)",
+      "posicion": "abajo al centro, UNA línea: x 525–1395, y 990–1035",
+      "entrada": "de golpe",
+      "salida": "de golpe",
+      "duracion_tipica": "0,25–1,75 s; 17 tarjetas en 18,6 s, de 1 a 8 palabras",
+      "funcion": "que el gancho se entienda sin sonido y con el ruido de la cola",
+      "hoja": "rotulos/r01_subtitulo_cold_open.png, detalle/m01_textos_intro.jpg"
+    },
+    {
+      "tipo": "título de cabecera",
+      "texto_ejemplos": [
+        "TOMORROWLAND",
+        "2022",
+        "NIL OJEDA"
+      ],
+      "fuente": "top-3 fuente_rotulo (sin --color: relleno en degradado): Luckiest Guy +0,598 · Poppins Black +0,563 · Poppins ExtraBold +0,555. A ojo, sans humanista extra-negrita tipo Open Sans ExtraBold.",
+      "peso": "extra-negrita",
+      "mayusculas": "todo mayúsculas",
+      "color": "degradado arcoíris animado + resplandor",
+      "borde_sombra_caja": "sin borde; resplandor de ≈ 40 px",
+      "tamano": "7,4 % del alto (principal), 5,5 % (secundarias)",
+      "posicion": "centrado, 37–54 % de la altura",
+      "entrada": "de golpe en el corte, una línea por corte",
+      "salida": "por corte",
+      "duracion_tipica": "108 f (1,8 s)",
+      "funcion": "título del vídeo",
+      "hoja": "rotulos/r02_titulo_tomorrowland.png, rotulos/r03_titulo_nil_ojeda.png"
+    },
+    {
+      "tipo": "texto de partículas (premisa)",
+      "texto_ejemplos": [
+        "TOMORROWLAND / ES / MAÑANA"
+      ],
+      "fuente": "top-3 fuente_rotulo (--color #FFFFFF): «TOMORROWLAND» Archivo Black +0,718 · Archivo 800 +0,712 · Work Sans 800 +0,632; «MAÑANA» Archivo Black +0,634 · Poppins +0,586 · Poppins Black +0,582. Es la lectura más fiable del vídeo: grotesca ancha y negra, tipo Archivo Black.",
+      "peso": "negra",
+      "mayusculas": "todo mayúsculas",
+      "color": "#FFFFFF",
+      "borde_sombra_caja": "borde gris + sombra gris de ≈ 6 px que da volumen",
+      "tamano": "≈ 100 px por línea (9,3 % del alto)",
+      "posicion": "mitad izquierda, 3 líneas (y 110–580)",
+      "entrada": "se forma con partículas, línea a línea, cada una con su palabra",
+      "salida": "se deshace en partículas hacia arriba",
+      "duracion_tipica": "152 f (2,53 s)",
+      "funcion": "la premisa en 3 palabras",
+      "hoja": "rotulos/r04_particulas_tomorrowland.png, rotulos/r05_particulas_manana.png"
+    },
+    {
+      "tipo": "etiqueta de producto y aviso de patrocinio",
+      "texto_ejemplos": [
+        "INSTA / 360 GO 2",
+        "Link a la cámara / en la descripción"
+      ],
+      "fuente": "«Link a la cámara» top-3 (--color #FFFFFF): Bodoni Moda 500 +0,151 · Libre Baskerville +0,125 · Cinzel 800 +0,067 (no fiable: es cursiva). A ojo, Arial Bold Italic. «INSTA»: a ojo la misma extra-negrita del título (no medida: blanco sobre blanco).",
+      "peso": "negrita (cursiva en el aviso)",
+      "mayusculas": "«INSTA» en mayúsculas; el aviso en frase normal",
+      "color": "#FFFFFF",
+      "borde_sombra_caja": "«INSTA» sin nada; el aviso con sombra negra suave",
+      "tamano": "7,4 % («INSTA»), 6,7 % (aviso)",
+      "posicion": "«INSTA» a la izquierda a media altura; el aviso abajo (y 860–1040), centrado un poco a la izquierda",
+      "entrada": "«INSTA» de golpe con escalón de tamaño; el aviso con fundido de 4 f",
+      "salida": "por corte / fundido de 6 f",
+      "duracion_tipica": "81 f y 272 f",
+      "funcion": "nombrar el producto y cumplir con el patrocinador",
+      "hoja": "rotulos/r06_link_camara.png, detalle/f07_texto_insta_1f_0.34.9.jpg"
+    },
+    {
+      "tipo": "tarjeta de datos",
+      "texto_ejemplos": [
+        "Informaciones Nil",
+        "- 14 Escenarios",
+        "- 400.000 Personas"
+      ],
+      "fuente": "top-3 (--color #FFFFFF): «Informaciones Nil» Work Sans 600 +0,462 · Roboto 500 +0,312 · Inter 600 +0,293; «- 400.000 Personas» DM Serif Display +0,412 · Archivo 600 +0,399 · Manrope 600 +0,253 (ninguna llega a 0,5: es cursiva). A ojo, Arial/Helvetica Bold Italic.",
+      "peso": "negrita cursiva",
+      "mayusculas": "inicial mayúscula en cada palabra",
+      "color": "#FFFFFF sobre caja negra al ≈ 55 %",
+      "borde_sombra_caja": "caja redondeada semitransparente",
+      "tamano": "≈ 44 px (4,1 %)",
+      "posicion": "borde izquierdo, a media altura",
+      "entrada": "la caja crece desde un punto (12 f); cada línea entra en 6 f con su palabra",
+      "salida": "encoge en ≈ 10 f",
+      "duracion_tipica": "298 f (4,97 s)",
+      "funcion": "dato de contexto del sitio",
+      "hoja": "rotulos/r07_info_cabecera.png, rotulos/r08_info_400000.png"
+    },
+    {
+      "tipo": "cartel de escenario",
+      "texto_ejemplos": [
+        "① FREEDOM STAGE",
+        "② THE ROSE GARDEN",
+        "⑫ MAINSTAGE"
+      ],
+      "fuente": "top-3 (--color #1A1A1A): Cormorant Garamond 500 +0,176 · Cinzel 500 +0,103 · Bodoni Moda 500 +0,076 (no fiable: letras de 17–20 px). A ojo, sans geométrica negrita en mayúsculas con espaciado abierto.",
+      "peso": "negrita",
+      "mayusculas": "todo mayúsculas",
+      "color": "≈ #1A1A1A sobre tarjeta blanca; número sobre marcador dorado",
+      "borde_sombra_caja": "tarjeta con textura de papel y cuerda",
+      "tamano": "letra ≈ 1,9 % del alto (tarjeta 6,5 %)",
+      "posicion": "arriba a la izquierda",
+      "entrada": "baja colgada en 20 f",
+      "salida": "sube en 20 f",
+      "duracion_tipica": "152 f (2,53 s); el ① solo 1,4 s",
+      "funcion": "decir en qué sitio estamos",
+      "hoja": "rotulos/r09_escenario_rose_garden.png"
+    },
+    {
+      "tipo": "contador",
+      "texto_ejemplos": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "fuente": "no medida (un solo dígito); a ojo la misma negrita cursiva de la tarjeta de datos",
+      "peso": "negrita cursiva",
+      "mayusculas": "—",
+      "color": "#FFFFFF con sombra oscura + icono a color",
+      "borde_sombra_caja": "sombra",
+      "tamano": "≈ 55 px (5,1 %)",
+      "posicion": "esquina superior izquierda",
+      "entrada": "de golpe",
+      "salida": "de golpe",
+      "duracion_tipica": "13,7 s en total",
+      "funcion": "marcador de un mini-juego",
+      "hoja": "detalle/f03_contador_choques_0.2s.jpg"
+    },
+    {
+      "tipo": "cartela final",
+      "texto_ejemplos": [
+        "Like por Carlos conociendo a Martin Garrix",
+        "Carlos feliz"
+      ],
+      "fuente": "top-3 (--color #FFFFFF): línea final Lexend 600 +0,339 · DM Sans 700 +0,316 · Manrope 800 +0,284; «Carlos feliz» Manrope 800 +0,489 · Rubik 700 +0,467 · Work Sans 600 +0,454. A ojo, Open Sans Bold.",
+      "peso": "negrita",
+      "mayusculas": "frase normal",
+      "color": "#FFFFFF sobre negro",
+      "borde_sombra_caja": "ninguno",
+      "tamano": "5,6 % y 7,4 %",
+      "posicion": "centrado; el pie, debajo de la foto",
+      "entrada": "de golpe",
+      "salida": "por corte / fin del vídeo",
+      "duracion_tipica": "94 f y ≈ 74 f",
+      "funcion": "remate con humor y única petición del vídeo (un like)",
+      "hoja": "rotulos/r12_final_like_por_carlos.png, rotulos/r13_final_carlos_feliz.png"
+    }
+  ],
+  "textos_ausentes": [
+    "Palabras sueltas grandes que refuerzan lo que dice (texto de énfasis): ninguna en el cuerpo del vídeo.",
+    "Rótulos de lugar («Bruselas», «Hotel», «Día 2»): ninguno.",
+    "Cifras rotuladas: ni el precio (223 €), ni la hora («ocho y media de la noche»), ni la resolución de la cámara.",
+    "Subtítulos palabra a palabra o con palabra resaltada: no hay; son tarjetas de frase completa."
+  ],
+  "texto_en_pantalla": {
+    "subtitulos_s": 72.6,
+    "graficos_con_texto_s": 37.6,
+    "total_s": 110.2,
+    "proporcion": 0.11,
+    "nota": "Gráficos con texto: título 1,8 + partículas 2,5 + «INSTA» 1,35 + aviso 4,5 + tarjeta 5,0 + carteles 5,9 + contador 13,7 + cartelas finales 2,8 s. El 89 % del vídeo no lleva ningún texto. Tramos largos sin nada escrito: 1:05–4:48 (223 s) y 6:42–9:10 (148 s)."
+  },
+  "enfasis": {
+    "como_se_subraya": "Casi nunca con texto. Por orden de uso: (1) el gesto en cámara (manos en cuadro, tapado del objetivo); (2) cámara rápida para llegar antes al momento; (3) música que entra justo en la acción (6:44.1 la caída, 14:02 el escenario); (4) 2 golpes de zoom a un objeto; (5) flash de color verde/rojo en el mini-juego.",
+    "que_no_se_usa": "zoom a la cara, blanco y negro, congelado de imagen, repetición de la jugada, texto grande, efecto de sonido de impacto en los chistes"
+  },
+  "subtitulos": {
+    "hay": "solo puntuales (7,2 % del vídeo), salvo el gancho, que va subtitulado entero",
+    "total_s": 72.6,
+    "tarjetas": 52,
+    "tarjetas_nota": "≈ 52 tramos detectados por color en la banda inferior a 5 fotogramas por segundo; dos tarjetas seguidas sin hueco cuentan como una, así que el número real es algo mayor (solo en el gancho hay 17).",
+    "por_hablante_s": {
+      "Nil (blanco)": 50.8,
+      "Calitos (verde menta)": 3.4,
+      "Telmo y Benji (amarillo)": 7.0,
+      "NPC (verde lima)": 11.4
+    },
+    "cuando": "Donde el ruido tapa la voz o habla alguien fuera de cuadro: gancho 0:00.0–0:18.6; embarque 1:01.6–1:04.4; calle 4:48.4–4:51.2 y 5:03.2–5:12.4; pasillo 6:32.2–6:41.6; recinto 9:36.4–9:46.6 (taquillas, 6 tarjetas), 9:52.2–9:53.6, 10:30.6–10:34.2, 10:56.4–11:04.8 (5 tarjetas), 12:13.8, 12:25.4–12:28.4, 12:46–12:48, 12:57–13:35 (puesto de comida: 13 tramos en 38 s), 13:50.2–13:53, 14:56.2–14:57.4, 16:31–16:32.",
+    "cuando_no": "Casa (voz en off), habitación del hotel, tienda, comidas y todo el día 1 de 1:05 a 4:48: se oye bien y no se subtitula. El tramo de la cola va subtitulado en el gancho y SIN subtítulos cuando vuelve a salir en 8:20–8:38.",
+    "color_por_hablante": "blanco = Nil; verde menta ≈ #3DFFB0 = Calitos; amarillo ≈ #F0FF2A = Telmo y Benji; verde lima ≈ #B4FF30 = desconocidos («NPC», «NPC 2», «NPC 3»)",
+    "formato": "Dos líneas centradas abajo: «Nombre:» arriba y la frase debajo, mismo color las dos. Frase corta (1–7 palabras), sin punto final. En el gancho, una sola línea y sin nombre.",
+    "ejemplo_medido": "«Calitos: Y tú te has duchado guarro??» 6:32.2–6:33.2 · «Calitos: te has duchado ya?» 6:33.4–6:34.2 · «Nil Ojeda: No quería darle» 6:39.3–6:40.9 · «Nil Ojeda: Te lo juro que no» 6:41.0–6:41.9",
+    "detalles_de_editor": "El subtítulo también hace chistes: «NPC: ???» (12:59.6–13:02.4) cuando no se entiende al empleado; nombrar «NPC» a los desconocidos. Hay erratas sin corregir («atropoelló», tildes que faltan)."
+  },
+  "sfx": {
+    "confirmados": [
+      {
+        "t": "0:28.05",
+        "tipo": "blip tonal de notificación",
+        "acompaña_a": "mira el calendario en el móvil («el calendario me miró a mí»), cenital del sketch",
+        "respecto_voz_db": -16.7,
+        "hoja": "sfx_hoja_00 #3 + detalle/sfx_zoom_01.jpg"
+      },
+      {
+        "t": "0:31.3–0:32.0",
+        "tipo": "riser / whoosh ascendente de 0,7 s, cortado en seco",
+        "acompaña_a": "el texto de partículas se deshace y él se levanta; tapa la vuelta de la música",
+        "respecto_voz_db": -1.1,
+        "hoja": "sfx_hoja_00 #4 + detalle/sfx_zoom_01.jpg"
+      },
+      {
+        "t": "0:32.82",
+        "tipo": "golpe seco con dos rebotes (0:33.1 y 0:33.3)",
+        "acompaña_a": "el pie da a la caja (f1968–f1975)",
+        "respecto_voz_db": null,
+        "hoja": "detalle/sfx_zoom_01.jpg",
+        "nota": "sonido de rodaje o añadido: no se distingue; suena bajo la voz en off"
+      },
+      {
+        "t": "0:40.85",
+        "tipo": "palmada",
+        "acompaña_a": "corte por coincidencia de gesto (f2457)",
+        "respecto_voz_db": null,
+        "hoja": "detalle/sfx_zoom_01.jpg",
+        "nota": "sonido de la acción conservado bajo la voz en off"
+      },
+      {
+        "t": "1:13.9–1:14.25",
+        "tipo": "whoosh de ruido blanco + pop final (1:14.27)",
+        "acompaña_a": "tapado del objetivo con la mano (rojo) que lleva del aeropuerto a la habitación del hotel",
+        "respecto_voz_db": -1.1,
+        "hoja": "sfx_hoja_00 #5 + detalle/sfx_zoom_02.jpg"
+      },
+      {
+        "t": "1:35.18",
+        "tipo": "click",
+        "acompaña_a": "entrada de la foto de archivo (desenfoque + fuga de luz)",
+        "respecto_voz_db": -9.6,
+        "hoja": "sfx_hoja_00 #13 + detalle/sfx_zoom_02.jpg"
+      },
+      {
+        "t": "1:37.34",
+        "tipo": "click",
+        "acompaña_a": "salida de la foto de archivo",
+        "respecto_voz_db": -7.2,
+        "hoja": "sfx_hoja_00 #14 + detalle/sfx_zoom_02.jpg"
+      },
+      {
+        "t": "8:45.11–8:46.9",
+        "tipo": "caja registradora + campanilla (8:45.39)",
+        "acompaña_a": "golpe de zoom ×1,85 al precio de la entrada; «223 euros»",
+        "respecto_voz_db": -6.6,
+        "hoja": "sfx_hoja_03 #92/#93 + detalle/sfx_zoom_03.jpg"
+      }
+    ],
+    "por_minuto": 0.48,
+    "por_minuto_nota": "8 confirmados en 16:45. Reparto: 4 en la intro (0:28–0:41), 3 en 1:13–1:38, 1 en 8:45 y ninguno confirmado en los 7:35 del recinto.",
+    "reglas": [
+      "Los efectos van donde el sonido lo ha construido el montaje (sketch con voz en off, transiciones, foto de archivo). Donde hay sonido directo fuerte (calle, festival) no se añade nada.",
+      "Nivel: de 1 a 17 dB por debajo de la voz. Ninguno por encima. Las transiciones (riser, whoosh) casi a la altura de la voz (−1 dB); los detalles (blip, clicks) entre −7 y −17 dB.",
+      "El único efecto «de dato» es la caja registradora en el precio, sincronizada con el golpe de zoom (corte en 8:44.97, sonido en 8:45.11: 8 f después).",
+      "Las transiciones por tapado con destello blanco van SIN sonido (0:16.6, 0:59.6, 1:10.7, 9:03.3 comprobadas); solo lleva whoosh la de 1:13.9, que no tiene destello.",
+      "Título, tarjeta de datos y carteles de escenario entran sin efecto (comprobado en 0:21.07, 9:10.9 y 10:31.2)."
+    ],
+    "candidatos_descartados": "De 167 candidatos de sfx.json: #1–#2 son golpes de la música del título; #6–#12, #15–#28 y #30 ambiente o música del traslado, hotel y calle; #31 es la música entrando (4:43.1); #34–#50 y #52–#55 ambiente y voces; #58–#72 música y risas (#62–#64 = la música que entra en la caída de 6:44.1); #74–#91 calle, autobús y cola; #94–#163 y #165–#167 graves y público del festival. Quedan como duda #29, #32/#33, #51, #56/#57, #73 y #164 (ver dudas)."
+  },
+  "musica": {
+    "proporcion": 0.48,
+    "proporcion_nota": "0,48 es lo que detecta audio.json, pero desde 9:03 incluye la música del propio festival, que no se puede separar de la añadida. Antes de entrar al recinto (0:00–9:03) la música añadida suma ≈ 142 s de 543 s (26 %).",
+    "primera_musica_s": 19.37,
+    "tramos_total": 28,
+    "segundos_con_musica_por_minuto": [
+      56,
+      16,
+      0,
+      0,
+      11,
+      18,
+      22,
+      23,
+      11,
+      33,
+      41,
+      25,
+      54,
+      52,
+      35,
+      26,
+      45
+    ],
+    "segundos_nota": "El minuto 0 cuenta como música el ambiente de la cola (0:00–0:19); la añadida empieza en 0:19.37.",
+    "voz_db_media": -22.8,
+    "voz_menos_musica_db_mediana": 6.1,
+    "tramo_mas_largo_sin_musica": "1:48–4:44 (176 s): todo el paseo del día 1 va en sonido directo",
+    "cambios_de_pista_detectados": [
+      "12:16",
+      "16:30"
+    ],
+    "como_entra_y_sale": "De golpe en un corte cuando abre un montaje (0:19.37, 0:52.52, 16:38.33). O encima de la acción, sin corte, cuando remata un momento: 6:44.1 entra en la caída del amigo, de −28 a −14 dB en 2 s, y se corta en seco en 6:51. Sale casi siempre cortada con el corte. Antes de un golpe de música hay silencio: 0:27.0–0:31.3 la pista sin voz baja a −39/−46 dB.",
+    "tramos_clave": [
+      {
+        "desde": "0:19.37",
+        "hasta": "0:26.1",
+        "nivel_db": -8.5,
+        "voz_menos_musica_db": null,
+        "nota": "cabecera, sin voz; un corte por golpe"
+      },
+      {
+        "desde": "0:27.0",
+        "hasta": "0:31.3",
+        "nivel_db": -42,
+        "voz_menos_musica_db": 24,
+        "nota": "silencio deliberado bajo la voz en off de la premisa"
+      },
+      {
+        "desde": "0:33",
+        "hasta": "0:51",
+        "nivel_db": -31,
+        "voz_menos_musica_db": 13,
+        "nota": "cama del sketch: voz a −18 dB"
+      },
+      {
+        "desde": "0:52.52",
+        "hasta": "1:00.8",
+        "nivel_db": -10.5,
+        "voz_menos_musica_db": null,
+        "nota": "montaje del traslado, sin voz"
+      },
+      {
+        "desde": "1:06",
+        "hasta": "1:10",
+        "nivel_db": -10,
+        "voz_menos_musica_db": null,
+        "nota": "avión; 1:11–1:13 es el piano del aeropuerto que toca él (sonido directo, −22 dB)"
+      },
+      {
+        "desde": "1:26.6",
+        "hasta": "1:31.4",
+        "nivel_db": -15,
+        "voz_menos_musica_db": 3,
+        "nota": "montaje del outfit: música casi a la altura de la voz (−13/−17 frente a −17/−20)"
+      },
+      {
+        "desde": "4:43.1",
+        "hasta": "5:14",
+        "nivel_db": -27,
+        "voz_menos_musica_db": 5,
+        "nota": "vuelve tras 176 s, con el chiste del tranvía"
+      },
+      {
+        "desde": "6:44.1",
+        "hasta": "6:51",
+        "nivel_db": -14,
+        "voz_menos_musica_db": null,
+        "nota": "entra en la caída y cubre el cambio al ascensor"
+      },
+      {
+        "desde": "9:35",
+        "hasta": "16:38",
+        "nivel_db": -24,
+        "voz_menos_musica_db": null,
+        "nota": "música del propio festival (de −17 a −30 dB según lo cerca que esté de un escenario); en los montajes sin voz (10:45–11:12, 14:02–14:28, 15:34–15:58) queda a −17/−21 dB"
+      },
+      {
+        "desde": "16:38.33",
+        "hasta": "16:45.03",
+        "nivel_db": -8,
+        "voz_menos_musica_db": null,
+        "nota": "cierre: entra de golpe en el corte a negro"
+      }
+    ],
+    "genero": "electrónica con ritmo marcado en cabecera, traslado y cierre; cama suave en el sketch",
+    "cortes_en_golpe_pct": 37,
+    "regla": "La música añadida abre y cierra montajes sin voz y remata momentos; nunca es una cama continua bajo la conversación. Cuando va con voz de directo, o está 12–14 dB por debajo (sketch) o se sube casi a su altura durante menos de 5 s (outfit)."
+  },
+  "broll": {
+    "proporcion_estimada": 0.03,
+    "desglose": "Planos sobre una voz que no sale de ellos: sketch en off 26,3 s + foto de archivo 1,7 s + 2 insertos-meme 2,3 s ≈ 30 s (3 %). Aparte hay ≈ 93 s (9 %) de montajes sin voz: cabecera 6,8 s, traslado 8,3 s, 10:45–11:12 (27 s), 14:02–14:28 (26 s), 15:34–15:58 (24 s).",
+    "de_donde_sale": "Todo es rodaje propio de la cámara de gorra y del móvil, salvo 1 foto de archivo (photocall) y 2 memes.",
+    "duracion_tipica": "0,4–1,5 s por plano en los montajes; 1,4 s por plano en el sketch",
+    "vuelta_a_camara": "No aplica: no hay un plano de «busto parlante» al que volver. Cuando habla a cámara se gira el palo o se pone delante de la cámara pegada.",
+    "regla_de_mencion": "En el sketch, un plano actuado por frase que entra con la palabra (tropezón 0,58 s después de «tropecé»; caja 0,3 s después de «Insta360»). En el cuerpo, lo que nombra ya está delante porque todo es POV; los dos memes entran con el nombre («Homer Simpson» → 0,13 s después)."
+  },
+  "voz_en_off": {
+    "hay": true,
+    "donde": "0:25.90–0:52.4 (26,5 s): todo el sketch de casa. Es el único tramo.",
+    "como": "Grabada aparte, en pasado y más rápida (230 palabras por minuto frente a 118 de media), a −18 dB y sin ambiente; los labios de Nil en imagen no se mueven. Empieza 16 f antes del corte a casa, sobre el negro del final de la cabecera.",
+    "resto": "El resto del vídeo es sonido directo de la cámara, con la voz de Nil a −20/−28 dB según el ruido."
+  },
+  "transiciones": [
+    {
+      "tipo": "corte seco",
+      "cuanto": "≈ 97 % de los 493 cortes (unas 17 transiciones construidas en todo el vídeo)"
+    },
+    {
+      "tipo": "tapado del objetivo con la mano + destello blanco",
+      "donde": "0:16.37–0:16.95, 0:59.55–1:00.0, 1:10.45–1:10.9, 9:02.9–9:03.5, 15:18.25–15:18.6",
+      "como": "Hecha en rodaje y rematada en edición. Medida en 0:16.37: la mano va al objetivo y crece 15 f (f982–f996), lo tapa en f997, 4 f de rojo saturado (f998–f1001, la luz a través de la piel), destello en f1002, blanco pleno 5 f (f1003–f1007) y fundido desde blanco 10 f (f1008–f1017). En el plano siguiente la mano ya está delante, estirada. Blanco pleno medido: 11 f, 9 f, 11 f, 11 f y 3 f (la de 15:18 es más corta y pasa antes por 10 f de negro).",
+      "duracion_f": 36,
+      "sonido": "ninguno",
+      "para_que": "cambiar de lugar o de modo de cámara (de selfie a POV; de la cola al recinto; del avión al destino)",
+      "hoja": "hojas/intro_fot_08.jpg, detalle/d06_entrada_festival_9.00-9.16.jpg, detalle/f06_transiciones_varias_0.05s.jpg"
+    },
+    {
+      "tipo": "tapado del objetivo con la mano sin destello",
+      "donde": "0:54.85, 0:56.15, 0:57.85 (traslado), 1:09.40–1:09.75 (dentro del avión), 1:13.9–1:14.25 (aeropuerto → hotel)",
+      "como": "La mano tapa, 2–6 f de negro o del color de la piel, y se destapa en otro sitio; el corte queda escondido. En 0:57.85 el tapado es la palma de un choque de manos.",
+      "duracion_f": 20,
+      "sonido": "solo la de 1:13.9 lleva whoosh de ruido blanco (−1 dB respecto a la voz) y pop",
+      "para_que": "encadenar el traslado: 7 tapados en 21,7 s (0:52.5–1:14.25), contando los dos con destello; el vuelo entero se salta con dos tapados en 1,4 s",
+      "hoja": "detalle/d01_viaje_0.52-1.07.jpg, detalle/f06_transiciones_varias_0.05s.jpg"
+    },
+    {
+      "tipo": "tapado por el cuerpo de otra persona",
+      "donde": "0:25.9–0:26.17 (10 f de negro) y 15:25.85–15:26.47 (38 f de negro)",
+      "como": "Martin Garrix da la mano en POV y su cuerpo, de negro, cubre el objetivo. En la cabecera ese negro sirve para volver a casa; en el cuerpo, para saltar a la foto.",
+      "duracion_f": 38,
+      "sonido": "ninguno",
+      "hoja": "detalle/f06_transiciones_varias_0.05s.jpg"
+    },
+    {
+      "tipo": "barrido de cámara",
+      "donde": "1:47.1–1:47.9",
+      "como": "De las zapatillas de Nil la cámara barre con desenfoque de movimiento ≈ 34 f (f6429–f6462) y aterriza en los pies de Carlos; el corte, si lo hay, va dentro del barrido.",
+      "duracion_f": 34,
+      "sonido": "ninguno confirmado",
+      "hoja": "detalle/f05_rafagas_1f_1.46.85_y_5.02.6.jpg"
+    },
+    {
+      "tipo": "desenfoque + fuga de luz",
+      "donde": "1:35.0–1:35.5 y 1:37.2–1:37.8",
+      "como": "Desenfoque de ≈ 6 f y fuga de luz de colores para entrar y salir de la foto de archivo.",
+      "duracion_f": 36,
+      "sonido": "click (1:35.18 y 1:37.34)",
+      "hoja": "detalle/d02_hotel_outfit_1.24-1.39.jpg"
+    },
+    {
+      "tipo": "corte por coincidencia de gesto",
+      "donde": "0:40.95 (f2457)",
+      "como": "Palmada en 0:40.85 y, en el corte, las manos se abren con el estuche ya abierto.",
+      "duracion_f": 0,
+      "sonido": "la propia palmada"
+    },
+    {
+      "tipo": "cámara rápida como elipsis",
+      "donde": "36 tramos (ver cortes.camara_rapida)",
+      "como": "0,3–2,1 s acelerados dentro de la misma toma para saltar un trayecto.",
+      "sonido": "ninguno propio"
+    },
+    {
+      "tipo": "corte a negro con texto y fundido desde negro",
+      "donde": "16:38.33 (corte seco a negro) y 16:39.88 (fundido de ≈ 6 f a la escena extra)",
+      "como": "única vez",
+      "sonido": "golpe de música en el corte"
+    }
+  ],
+  "transiciones_ausentes": [
+    "Fundidos encadenados entre planos, cortinillas, deslizamientos, zoom de transición, glitch.",
+    "Mapa animado entre ciudades.",
+    "Cartela de paso de tiempo."
+  ],
+  "cierre": {
+    "como_acaba": "16:29.0–16:38.32: plano general de la multitud y el escenario principal al atardecer (9,2 s, cámara en mano; última frase en 16:31). 16:38.33: corte seco a negro con «Like por Carlos conociendo a Martin Garrix» (94 f). 16:39.9–16:43.3: escena extra de 3,4 s en la zona de fotos (el fotógrafo). 16:43.4–16:45.03: la foto de Carlos con Garrix, que encoge a un marco con el pie «Carlos feliz» y se queda quieta 47 f.",
+    "cta": "Solo el like, escrito y en forma de chiste. No pide suscripción, no hay despedida hablada, no anuncia otro vídeo.",
+    "pantalla_final": "No hay pantalla final de YouTube ni hueco para ella: el vídeo acaba 1,6 s después de la foto.",
+    "remate": "Cierra la pregunta abierta en la cabecera (Garrix) con la foto, después de los «créditos».",
+    "musica": "entra de golpe en el corte a negro a −8 dB (sin voz) y sigue hasta el final",
+    "duracion_s": 6.7
+  },
+  "para_el_estilo": [
+    "VIAJE · Abrir con un gancho en frío sacado del momento de más tensión de llegada (aquí la cola y la entrada, 8:20–9:06 del bruto): 19,4 s, 12 planos, hablando a cámara desde el fotograma 0 y subtitulado entero. Termina con un gesto físico que «mete» al espectador dentro (tapado del objetivo, 0,6 s).",
+    "VIAJE · Cabecera-tráiler corta y a compás justo después del gancho: 13 planos en 6,8 s (0,38–0,83 s cada uno), un corte por golpe de música, música a −8 dB sin voz, título en 3 golpes sobre 3 planos + 27 f sobre negro (108 f en total). El último plano es la promesa mayor del vídeo.",
+    "VIAJE · La premisa se cuenta DESPUÉS de la cabecera, en 26 s, con voz en off y un plano actuado por frase (uno cada 1,4 s) que entra con la palabra (±0,6 s). Tres textos como máximo.",
+    "VIAJE · El traslado se monta, no se cuenta: 13 planos en 8,3 s con música y sin voz, cada plano con una acción de las manos, y los cambios de lugar por tapado del objetivo (7 tapados en 21,7 s). El vuelo: 1,4 s.",
+    "VIAJE · Sin cortes de escala al hablar y sin zoom a la cara: 0 en 16:45. Golpe de zoom solo a un objeto que es el dato (precio, plato): ×1,85 por corte, 45–90 f, 2 en todo el vídeo.",
+    "VIAJE · Los trayectos a pie se resumen con cámara rápida de 0,3–2,1 s dentro de la misma toma (2,1 por minuto), no con cortes ni con cartelas de tiempo.",
+    "VIAJE · Cada sitio nuevo lleva su cartel pequeño arriba a la izquierda, numerado, que baja colgado en 20 f, aguanta 1,8 s y sube en 20 f; entra con la frase que nombra el sitio y sin sonido.",
+    "VIAJE · Al llegar al sitio, una tarjeta de datos (2 datos, 5 s) en un lateral, que se construye línea a línea con la voz y aguanta por encima de los cortes.",
+    "VIAJE · Ritmo por partes: 30–35 cortes/min con mediana de 1,2–1,5 s en llegadas y recorrido; 17–21 cortes/min con mediana de 2,2–3 s en comidas y tiendas; planos de 8–16 s solo para conversación o un golpe gracioso que se ve entero.",
+    "VIAJE · Música añadida solo en montajes sin voz y remates (26 % del tiempo antes de entrar al recinto); el paseo y las comidas van en directo (176 s seguidos sin música). En el destino manda el sonido del sitio.",
+    "VIAJE · Tres montajes sin voz de 24–27 s en el destino (10:45, 14:02, 15:34), cada uno después de una frase corta que lo anuncia; 0,8–4 s por plano y las manos del creador en cuadro como hilo.",
+    "VIAJE · Subtítulos con nombre y color por hablante solo donde el ruido tapa la voz (7 % del vídeo); a los desconocidos se les da un nombre genérico.",
+    "VIAJE · Cierre con el plano más grande del sitio (9,2 s, sin voz), corte a negro con una línea de texto y una escena extra de 3–5 s que cierra la promesa de la cabecera."
+  ],
+  "para_la_base": [
+    "Un gráfico que acompaña una frase se construye línea a línea con la voz: cada línea entra en 6 f en su palabra (tarjeta de datos: «14 escenarios» 551,47 s, «400.000 personas» 553,30 s) y la caja nace 12 f antes.",
+    "Los gráficos de información van en una capa por encima del montaje y aguantan los cortes de imagen (la tarjeta cruza 3 cortes; el cartel ⑫ y el contador cruzan 1).",
+    "Antes de un golpe de música, silencio: 4,3 s con la pista sin voz a −39/−46 dB (0:27.0–0:31.3) hacen que la vuelta se note.",
+    "La música puede entrar encima de la acción y no en un corte cuando remata un golpe gracioso: 6:44.1, en el fotograma de la caída, y el plano fijo de 8,0 s se deja entero sin cortes.",
+    "El efecto de sonido de dato (caja registradora) va 6–8 f después del corte del golpe de zoom y 6–7 dB por debajo de la voz.",
+    "Un texto que marca dónde va a ir un objeto: el rótulo aparece primero en el sitio vacío y el objeto entra después y se para debajo (0:35.00 texto, 0:35.37–0:35.62 caja). Ojo con el contraste: aquí acaba blanco sobre blanco.",
+    "El material del gancho puede repetirse en su sitio dentro del vídeo si allí va sin subtítulos y sigue de largo (0:00–0:19 = 8:20–9:06): no se nota como repetición.",
+    "Con subtítulos solo puntuales, el formato «Nombre:» + frase con un color por persona resuelve quién habla cuando no se le ve."
+  ],
+  "que_no_se_hereda": [
+    "Texto blanco sin borde sobre fondo blanco («INSTA» sobre la caja, 0:35.6): fallo de legibilidad.",
+    "Carteles con letra del 1,9 % del alto: ilegibles en móvil. Copiar la idea y el movimiento, no el tamaño.",
+    "Subtítulos al 3,1 % del alto con erratas y sin tildes.",
+    "Prometer «14 escenarios» y rotular 3: el recurso del cartel numerado pide cumplir la cuenta o no numerar.",
+    "Nivel final de −16,0 LUFS con pico real de +1,4 dBTP (satura): la base sigue en −14 con techo.",
+    "Terminar sin pantalla final ni botón de suscripción: es decisión del creador.",
+    "El título en degradado arcoíris con resplandor y el texto de partículas son plantillas de 2022; lo copiable es cuándo entran, no su aspecto.",
+    "No marcar el cambio de día: aquí funciona porque lo dice («hoy es el día») 1 s después del corte.",
+    "La música casi a la altura de la voz (−13/−17 dB frente a −17/−20) solo vale para un montaje de menos de 5 s."
+  ],
+  "para_el_motor": {
+    "ESCALAS": [
+      1.0
+    ],
+    "ESCALAS_nota": "No hay cortes de escala al hablar: de 117 cortes dentro de la misma toma, la diferencia de escala mediana es del 2,9 % (movimiento de la cámara). El estándar [1.0, 1.3, 1.0, 1.45, …] no se parece a este vídeo.",
+    "CAMBIO_CADA": [
+      1.3,
+      4.5
+    ],
+    "CAMBIO_CADA_nota": "Plano mediano 1,32 s y p90 4,45 s en todo el vídeo (estándar 2,48–4,48). Aquí el cambio es un corte a otra toma o un salto dentro de la misma, nunca un cambio de escala. Por partes: 0,4–0,7 s en montajes; 1,2–1,5 s en recorrido; 2,2–3,1 s en conversación.",
+    "Z_FUERTE": 1.85,
+    "Z_FUERTE_nota": "Solo 2 golpes (×1,84 y ×1,85), los dos a un objeto y por corte; estándar 1,65. Duración 45 f y ≈ 90 f a 60 fps.",
+    "Z_FUERTE_duracion_f": {
+      "valores": [
+        45,
+        90
+      ],
+      "fps": 60
+    },
+    "CARA_Y": null,
+    "CARA_Y_nota": "No aplica: no hay zoom a la cara y casi todo es POV. En los selfies con gran angular la cara queda a ojo al 35–45 % de la altura (no medido con detector).",
+    "Z_SIN_CARA": 1.0,
+    "Z_SIN_CARA_nota": "Coincide con la base: sin cara no hay corte de escala. En este vídeo tampoco lo hay con cara.",
+    "SFX": {
+      "titulo": null,
+      "seccion": null,
+      "trk": null,
+      "mapa": null,
+      "suscribe": null,
+      "dato": [
+        "caja registradora + campanilla",
+        "6–8 f después del corte del golpe de zoom; 6,6 dB por debajo de la voz"
+      ],
+      "golpe": null
+    },
+    "SFX_nota": "0,48 efectos/min. Fuera de los nombres del motor: riser de 0,7 s en la salida de un texto (−1 dB respecto a la voz), whoosh de ruido blanco en 1 de 10 tapados (−1 dB), click en la entrada y salida de una foto de archivo (−7 a −10 dB), blip de notificación (−17 dB). Título, carteles y tarjeta de datos: sin sonido.",
+    "MUSICA_NIVELES": {
+      "BASE": -31.0,
+      "TRAILER": -8.5,
+      "TITULO": -8.5,
+      "SECCION": null,
+      "MAPA": null,
+      "SINVOZ": -10.5,
+      "CIERRE": -8.0
+    },
+    "MUSICA_NIVELES_nota": "Niveles medidos por segundo en la pista sin voz, con el programa a −16,0 LUFS (para llevarlos a un máster de −14, sumar 2 dB). BASE: cama del sketch con la voz a −18 dB (13 dB por debajo). TRAILER y TITULO son el mismo tramo (0:19.37–0:26.1). SINVOZ: traslado −9/−12 dB; los montajes sin voz del recinto quedan a −17/−21 dB porque es sonido del festival. No hay secciones ni mapas.",
+    "MUSICA_donde": "No es un número: música añadida solo en cabecera, sketch, montajes sin voz, remates y cierre (26 % antes de entrar al recinto).",
+    "LUFS": -16.0,
+    "LUFS_nota": "Medido: −16,0 LUFS integrado, rango 8,8, pico real +1,4 dBTP. Dato, no recomendación: la base usa −14.",
+    "sin_nombre_en_el_motor": [
+      "cámara rápida de 0,3–2,1 s dentro de una toma (36 tramos)",
+      "tapado del objetivo + 4 f de rojo + 5 f de blanco + fundido de 10 f (36 f en total)",
+      "cartel colgante: 20 f de bajada, 110 f quieto, 20 f de subida",
+      "tarjeta de datos por líneas: caja 12 f, cada línea 6 f, salida 10 f",
+      "flash de color a pantalla completa: 5 f pleno + 2 f de salida",
+      "subtítulo con nombre y color por hablante"
+    ]
+  },
+  "dudas": [
+    "Tipografías: solo el texto de partículas da una lectura fiable (Archivo Black +0,718). Subtítulos (todas negativas), aviso y tarjeta (cursivas), carteles (letra de 17–20 px) y título (relleno en degradado) no se identifican con fuente_rotulo; las familias «a ojo» (Tahoma, Arial Bold Italic, Open Sans ExtraBold) no están en su catálogo y no están confirmadas.",
+    "Efectos sin confirmar: 6:20.93 y 6:22.71 (dos clacs al pegar el soporte adhesivo, +3 y +7 dB sobre la voz: pueden ser el golpe real contra el azulejo); 7:10.37–7:11.3 (dos notas tipo timbre en el desayuno, sin nada visible que las dispare: puede ser un sonido del comedor); 4:05.20 y 4:05.45 (pops dentro del meme de Los Simpson: probablemente audio del clip); 4:44.7 (golpe grave junto a la entrada de la música); 0:34.98 y 0:35.28 (tics junto al texto «INSTA»); 15:36.4 (click a −46 dB).",
+    "Flashes verde y rojo del contador (16:02–16:12): no se ha podido ver si llevan sonido; la música del festival está a −18/−21 dB encima.",
+    "Música añadida frente a música del festival desde 9:03: no se pueden separar con la pista sin voz. Los cambios de pista de 12:16 y 16:30 pueden ser cambios de escenario y no de montaje.",
+    "Dónde acaba la intro: se ha puesto en 0:52.52 (corte al taxi, fin de la voz en off). Si se cuenta el montaje del traslado como parte de la intro, acaba en 1:00.83.",
+    "Los 3 saltos dentro del primer plano (f44, f196, f253) se deducen de un pico de diferencia de un solo fotograma entre frases; no se ven en las hojas a 256 px y el detector de cortes no los marca.",
+    "Cámara rápida: los 36 tramos salen del detector de ráfagas y de la diferencia entre fotogramas; se han comprobado a la vista 3 (0:18.1, 5:02.7, 9:04.6). El factor de aceleración no se puede medir.",
+    "Ciudad del día 1: él dice «Bruselas» (1:39.3) pero no se ha contrastado con la imagen; no afecta a la edición.",
+    "Segundo inserto-meme (5:57.0–5:57.9): se ve una foto pequeña de un niño a la izquierda; no se ha identificado qué es ni si lleva sonido.",
+    "Color de los subtítulos de Benji: sale en amarillo en 1:03.0–1:04.4 y 13:16.8; puede compartir color con Telmo o ser un amarillo distinto (no medido el valor exacto).",
+    "La transcripción (whisper) no recoge 8:12.4–8:38.3 aunque hay voz; las palabras por minuto de «traslado y cola» (97) están por debajo de lo real.",
+    "Los dos empujes lentos del sketch (0:26.25 y 0:27.15): no se distingue si son zoom digital o movimiento de la mano.",
+    "Este vídeo es de 2022. No se puede afirmar con él cómo son las intros explicativas actuales de Nil: aquí solo hay 3 textos animados en 26 s y ningún gráfico de datos. Hace falta un vídeo más reciente para estudiar eso."
+  ],
+  "archivos_de_apoyo": {
+    "carpeta": "refs/dinamicos/_analisis/2022-08-04_pov-vas-a-tomorrowland/",
+    "cortes_rafagas": "cortes_rafagas.json (las «ráfagas» son cámara rápida: ver cortes.con_cortes_debiles)",
+    "hojas_intro_fotograma": "hojas/intro_fot_00.jpg … intro_fot_26.jpg (0–54 s, fotograma a fotograma)",
+    "detalle": [
+      "detalle/d01_viaje_0.52-1.07.jpg (inicio)",
+      "detalle/d02_hotel_outfit_1.24-1.39.jpg (inicio)",
+      "detalle/d03_meme_simpson_4.00-4.12.jpg (chiste)",
+      "detalle/d04_pasillo_golpe_6.34-6.49.jpg (medio, golpe gracioso)",
+      "detalle/d05_entrada_precio_8.38-8.50.jpg (medio, golpe de zoom)",
+      "detalle/d06_entrada_festival_9.00-9.16.jpg (medio, transición y tarjeta)",
+      "detalle/d07_choques_manos_15.56-16.30.jpg (final, 0,2 s)",
+      "detalle/d08_cierre_16.36-16.45.jpg (final)",
+      "detalle/d09_montaje_mainstage_14.08-14.30.jpg (pico de acción)",
+      "detalle/d10_varios_5.54_7.07_7.39_8.10.jpg (cambio de día, desayuno, cámara al aire, cola)"
+    ],
+    "un_fotograma": [
+      "detalle/f01_rotulo_escenario2_1f_10.31.2.jpg",
+      "detalle/f02_tarjeta_info_1f_9.10.8.jpg",
+      "detalle/f03_contador_choques_0.2s.jpg",
+      "detalle/f04_flash_verde_1f_16.04.2.jpg",
+      "detalle/f05_rafagas_1f_1.46.85_y_5.02.6.jpg",
+      "detalle/f06_transiciones_varias_0.05s.jpg",
+      "detalle/f07_texto_insta_1f_0.34.9.jpg",
+      "detalle/f08_titulo_1f_0.21.0.jpg",
+      "detalle/f09_golpes_de_zoom_0.1s.jpg"
+    ],
+    "montajes_de_textos": [
+      "detalle/m01_textos_intro.jpg",
+      "detalle/m02_textos_cuerpo.jpg",
+      "detalle/m03_recortes.jpg",
+      "detalle/m04_rotulos_escenario.jpg",
+      "detalle/m05_rotulos_escenario_otros.jpg",
+      "detalle/m06_final_pip.jpg",
+      "detalle/m07_subs_otros_hablantes.jpg"
+    ],
+    "espectrogramas": [
+      "detalle/sfx_zoom_01.jpg",
+      "detalle/sfx_zoom_02.jpg",
+      "detalle/sfx_zoom_03.jpg"
+    ],
+    "rotulos": "rotulos/r01 … r13 (recortes para fuente_rotulo) y rotulos/f_*.jpg (fotogramas completos)"
+  }
+}
