@@ -6,6 +6,15 @@
 En YouTube el primer medio minuto decide si se quedan. Un vídeo horizontal no abre con un texto escrito encima (eso es
 el reel): abre **enseñando lo mejor del propio vídeo**.
 
+## Dos tipos de intro (Lucas, 2026-11-24; se miden en el estudio de estilos)
+Valen para cualquier estilo. Se elige por el vídeo, no por el estilo: ¿hay una premisa que explicar?
+- **Corta** (Alessio Pierucci): 30–55 s sin explicar nada. Ráfaga de planos de 2–5 f → nombre partido a los lados del
+  creador → tráiler sin voz cortado a la música → lema → al lío. Cuando el vídeo se entiende solo.
+- **Explicativa** (Nil OGT): el creador cuenta qué va a hacer y por qué, apoyado en animaciones que ilustran cada frase.
+  Cuando hay una premisa, un reto con reglas o un sitio que hay que situar.
+Los números y la receta de cada una salen de las fichas (`refs/dinamicos/alessio-pierucci/`, `refs/dinamicos/nil-ogt/`)
+y se escriben aquí cuando acabe el estudio. Mientras, la estructura de serie de abajo sigue siendo la de siempre.
+
 ## Estructura de serie (la que lleva `ramon`)
 
 | Bloque | Duración | Qué es | Marca en el EDL |

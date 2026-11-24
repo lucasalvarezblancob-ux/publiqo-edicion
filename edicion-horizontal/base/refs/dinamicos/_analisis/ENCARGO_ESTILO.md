@@ -1,7 +1,8 @@
 # Encargo: estudiar a fondo UN vídeo de referencia para un ESTILO (vlog, reto, viaje…) — 2026-11-24
 
 Eres editor de vídeo profesional y guionista de YouTube. Este vídeo es una referencia que Lucas ha elegido para el
-estilo **<ESTILO>** (`base/refs/dinamicos/estilos/<estilo>.md`). Hay que entender **cómo está editado y por qué
+estilo **<ESTILO>** (si el estilo viene como «provisional», decide tú tras verlo a cuál encaja mejor —vlog, viaje,
+reto o entreno— y explícalo en `video.estilo_por_que`) (`base/refs/dinamicos/estilos/<estilo>.md`). Hay que entender **cómo está editado y por qué
 funciona**, fijándose al milímetro: cada efecto, zoom, sonido, fuente, transición, motion graphic, la intro entera
 plano a plano, el ritmo, el contexto y lo que lo hace interesante. Salen **hechos con tiempo (mm:ss.cc o fotograma)
 y número**, nunca opiniones sueltas. Une y amplía `ENCARGO.md` y `ENCARGO_DINAMISMO.md`. No juzgues la calidad de imagen.
@@ -42,7 +43,18 @@ whisper (ya está hecho): solo herramientas ligeras (`hoja_contactos.sh`, `ffmpe
 - Ritmo de información: cada cuántos segundos pasa algo nuevo (lugar, persona, dato, giro). Qué se recorta (esperas,
   trayectos) y cómo se resume (montaje rápido, cámara rápida, texto «3 HORAS DESPUÉS»).
 
-**B. Intro, plano a plano** (lo más importante del estilo; las de Alessio Pierucci son la referencia estrella)
+**B. Intro, plano a plano** (lo más importante del estilo). Lucas distingue DOS TIPOS de intro, y las dos le parecen
+impecables; el tipo no depende del estilo (puede salir en un vlog, un viaje, un reto o un lifestyle):
+- **Corta** (referencia: Alessio Pierucci): 30–55 s, casi sin explicar nada. Ráfaga o estroboscopio → nombre o
+  cabecera mínima → tráiler sin voz cortado a la música → lema → al lío.
+- **Explicativa** (referencia: Nil OGT): el creador cuenta qué va a hacer y por qué, más larga, apoyada en
+  **animaciones y motion graphics** que ilustran cada cosa que dice (mapas, cifras, recortes, imágenes que entran,
+  textos cinéticos, lo que haya).
+Di cuál es (`intro.tipo`: «corta» | «explicativa» | «otra: …»), por qué (qué tiene el vídeo que la pide: una premisa
+que hay que explicar o no) y, si es explicativa, **cada animación** de la intro con su frase, entrada y salida en
+fotogramas, cómo está hecha y su sonido. Si la intro pasa de 30 s, saca más hojas fotograma a fotograma hasta su final
+(`hoja_contactos.sh VIDEO hojas/intro_fot_NN.jpg <1/fps> INICIO 2 10 256`).
+Además:
 - Línea de tiempo de 0 a donde acabe la intro: por cada plano, inicio–fin en **fotogramas**, qué se ve, de dónde sale
   (del propio vídeo, grabado aparte, archivo), movimiento de cámara, zoom/velocidad, texto, motion graphic, efecto de
   sonido, música (entra, cae, golpe) y qué se dice.
@@ -99,10 +111,10 @@ dónde) frente a corte seco.
 
 ## Entrega
 Ficha JSON (UTF-8, español) en `base/refs/dinamicos/<creador>/AAAA-MM-DD_<slug>.json` (en la rama de trabajo) con:
-`video` {archivo, creador, canal, url, titulo, duracion, publicado, estilo}, `resumen` (6–10 frases),
+`video` {archivo, creador, canal, url, titulo, duracion, publicado, estilo, estilo_por_que}, `resumen` (6–10 frases),
 `contexto` {quien, donde, objetivo, tono, gancho_5s, gancho_30s, preguntas_abiertas, giros, recompensas},
 `curva_energia` [{minuto, nivel, motivo}], `ritmo_informacion`, `estructura` [{desde, hasta, parte, que_pasa}],
-`intro` {duracion_s, orden, linea_de_tiempo [{f0, f1, t, que_se_ve, origen, camara, zoom_velocidad, texto,
+`intro` {tipo, por_que_ese_tipo, duracion_s, orden, animaciones_explicativas [{t, frase, que_es, f0, f1, como_esta_hecha, sfx}], linea_de_tiempo [{f0, f1, t, que_se_ve, origen, camara, zoom_velocidad, texto,
 motion_graphic, sfx, musica, voz}], titulo_cabecera {como_se_construye, fuente, color, duracion_f, sonido},
 primer_plano_hablando_s}, `motion_graphics` [...], `cortes` {...}, `zooms` [...], `textos` [...], `subtitulos`,
 `sfx` {confirmados [{t, tipo, acompaña_a, respecto_voz_db}], por_minuto, reglas, candidatos_descartados},
