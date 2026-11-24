@@ -213,7 +213,8 @@ def transcribir(clip, sal):
     if (h / "transcribir.py").exists() and py:
         subprocess.run([str(py), str(h / "transcribir.py"), str(clip), str(sal) + ".json"], capture_output=True); return Path(str(sal) + ".txt").exists()
     if (h / "transcribir.sh").exists():
-        r = subprocess.run(["bash", str(h / "transcribir.sh"), str(clip), str(sal)], capture_output=True, text=True)
+        from git_bash import BASH
+        r = subprocess.run([BASH, str(h / "transcribir.sh"), str(clip), str(sal)], capture_output=True, text=True)
         Path(str(sal) + ".txt").write_text(r.stdout, encoding="utf-8"); return bool(r.stdout.strip())
     return False
 

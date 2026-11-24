@@ -8,6 +8,7 @@ Desde la raíz de la carpeta de edición (PY = herramientas/.venv/Scripts/python
         si la RAM libre baja de --ram-min % o queda poco disco, y lo dice. Si algo falla, se reintenta (3 veces).
   PY herramientas/cola_refs.py hecho <id|archivo>      la ficha está escrita: borra el mp4 y lo pesado (stems)
   PY herramientas/cola_refs.py saltar <id> "motivo"    no se puede (privado, región…): queda apuntado
+  PY herramientas/cola_refs.py reintentar <id>         uno en «error» vuelve a «bajado» (o «pendiente») tras arreglarlo
   PY herramientas/cola_refs.py estado                  tabla de la cola
 
 Estado en refs/<tipo>/_analisis/cola.json. Mientras trabaja escribe un latido (refs/<tipo>/_analisis/latido.json: hora,
@@ -20,6 +21,8 @@ from datetime import datetime
 
 AQUI = os.path.dirname(os.path.abspath(__file__))
 PY = sys.executable
+sys.path.insert(0, AQUI)
+from git_bash import BASH          # en Windows, el de Git Bash (el «bash» de WSL no vale)
 ap = argparse.ArgumentParser(); sub = ap.add_subparsers(dest="orden", required=True)
 x = sub.add_parser("añadir"); x.add_argument("urls", nargs="+"); x.add_argument("--estilo", required=True)
 x.add_argument("--creador", default=""); x.add_argument("--tipo", default="dinamicos")
@@ -28,6 +31,7 @@ x.add_argument("--disco-min", type=float, default=20); x.add_argument("--ligero"
 x = sub.add_parser("hecho"); x.add_argument("cual"); x.add_argument("--tipo", default="dinamicos")
 x = sub.add_parser("saltar"); x.add_argument("cual"); x.add_argument("motivo"); x.add_argument("--tipo", default="dinamicos")
 x = sub.add_parser("estado"); x.add_argument("--tipo", default="dinamicos")
+x = sub.add_parser("reintentar"); x.add_argument("cual"); x.add_argument("--tipo", default="dinamicos")
 a = ap.parse_args()
 if not os.path.exists("personal/LEEME.md"): raise SystemExit("Lánzalo desde la raíz de la carpeta de edición (la que tiene personal/LEEME.md)")
 AN = f"refs/{a.tipo}/_analisis"; os.makedirs(AN, exist_ok=True)
@@ -111,6 +115,10 @@ elif a.orden == "estado":
     print(f"\n{sum(e['estado'] == 'hecho' for e in c)}/{len(c)} hechos · listos para ver: "
           f"{', '.join(e['id'] for e in c if e['estado'] == 'listo') or 'ninguno'} · RAM libre {ram_libre_pct():.0f} %")
 
+elif a.orden == "reintentar":
+    e = buscar(c, a.cual); e["estado"] = "bajado" if e.get("archivo") and os.path.exists(e["archivo"]) else "pendiente"
+    e["intentos"], e["error"], e["cambiado"] = 0, None, ahora(); guardar(c); print(f"↻ {e['id']} vuelve a «{e['estado']}»")
+
 elif a.orden in ("hecho", "saltar"):
     e = buscar(c, a.cual)
     if a.orden == "hecho":
@@ -160,11 +168,13 @@ elif a.orden == "avanzar":
                     sig["intentos"] += 1; sig["error"] = ((r.stderr or r.stdout)[-300:] if r else "tiempo agotado bajando")
                     if sig["intentos"] >= 3: sig["estado"] = "saltado"
             elif sig["estado"] == "bajado":
-                cmd = ["bash", f"{AQUI}/precalcular_ref.sh", sig["archivo"], sig["analisis"]] + (["--ligero"] if a.ligero else [])
+                cmd = [BASH, f"{AQUI}/precalcular_ref.sh", sig["archivo"], sig["analisis"]] + (["--ligero"] if a.ligero else [])
                 if correr(cmd, lat, "precalcular", sig["id"], 4 * 3600): sig["estado"], sig["error"] = "listo", None
                 else:
                     sig["intentos"] += 1; sig["error"] = "falló el precálculo (se repite desde el paso que faltaba)"
-                    if sig["intentos"] >= 4: sig["estado"] = "listo"; sig["error"] = "precálculo incompleto: mira qué falta en su carpeta"
+                    if sig["intentos"] >= 4:
+                        sig["estado"] = "error"; sig["error"] = "el precálculo ha fallado 4 veces: mira el error, arréglalo y devuélvelo a «bajado»"
+                        sig["cambiado"] = ahora(); guardar(c); print(f"✗ {sig['id']}: {sig['error']}"); break
             sig["cambiado"] = ahora(); guardar(c)
     finally:
         lat.vivo = False
