@@ -84,6 +84,11 @@ def marca():
     for k, v in (_g("MARCA") or {}).items():
         r[k] = {**(r.get(k) or {}), **v} if isinstance(v, dict) and isinstance(r.get(k), dict) else v
     r.setdefault("contorno", ajuste("CONTORNO", "trazo"))      # G007: "trazo" (contorno liso) o "sombras" (el de antes)
+    # G008 (Lucas, banco 2026-11-24: «la fuente predefinida, ¿podría ser la que usa Nil Ojeda tal cual?»): Nil usa SF Pro
+    # Display, que no es libre; Inter Tight es su equivalente libre (mismas proporciones, R de pata recta). Solo si el creador
+    # no trae "fuentes" en su marca.json. FUENTES_BASE = None en ajustes.py vuelve a las de marca.ts (Unbounded + Lexend).
+    fb = ajuste("FUENTES_BASE", {"titulos": "Inter Tight", "textos": "Inter Tight"})
+    if fb: r["fuentes"] = {**fb, **(r.get("fuentes") or {})}
     return r
 
 

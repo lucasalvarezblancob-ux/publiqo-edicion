@@ -112,7 +112,7 @@ export const Lista: React.FC<{ f: number; dur: number; it: Item }> = ({ f, dur, 
   const fuera = interpolate(f, [dur - 4, dur], [0, 1], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });      // salida en 4 f
   const esq = it.esquina ?? "ii";
   const pos: React.CSSProperties = { position: "absolute", width: ancho, height: alto, background: "#FFFFFF", borderRadius: H * 0.026 * k, overflow: "hidden",
-    boxShadow: `inset ${-H * 0.004 * k}px ${-H * 0.005 * k}px 0 rgba(0,0,0,.07), ${H * 0.006}px ${H * 0.01}px ${H * 0.03}px rgba(0,0,0,.35)`,
+    boxShadow: `inset ${-H * 0.006 * k}px ${-H * 0.008 * k}px 0 rgba(0,0,0,.10), ${H * 0.006}px ${H * 0.01}px ${H * 0.03}px rgba(0,0,0,.35)`,
     opacity: 1 - fuera, filter: fuera > 0 ? `blur(${fuera * H * 0.008}px)` : undefined, transform: `translateY(${fuera * alto * 0.4}px)` };
   if (esq[1] === "i") pos.left = W * 0.03; else pos.right = W * 0.03;
   if (esq[0] === "s") pos.top = H * 0.049; else pos.bottom = H * 0.049;

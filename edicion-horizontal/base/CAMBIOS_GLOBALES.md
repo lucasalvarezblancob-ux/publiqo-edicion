@@ -80,3 +80,13 @@ fuera: antes los contornos de E-S-O se fundían en una mancha.
 {"id": "G007", "fecha": "2026-11-24", "tipo": "ajuste", "nombre": "CONTORNO", "antes": "sombras",
  "regla_antes": "Borde negro hecho con 12 sombras en círculo (borde()), sin espaciado extra en las palabras-golpe."}
 ```
+
+## G008 — Letra de serie: la de Nil Ojeda (Inter Tight) (2026-11-24)
+Lucas: «la fuente predefinida en general, ¿podría ser la que usa Nil Ojeda tal cual?». Nil usa SF Pro Display (Bold y
+Semibold), que solo se puede usar en plataformas de Apple; Inter Tight es la equivalente libre (mismas proporciones, R de pata
+recta). Títulos, golpes y textos pasan a Inter Tight si el creador no tiene "fuentes" en su marca.json (las suyas mandan).
+Antes: Unbounded (títulos) y Lexend (textos).
+```json
+{"id": "G008", "fecha": "2026-11-24", "tipo": "ajuste", "nombre": "FUENTES_BASE", "antes": null,
+ "regla_antes": "Letra de serie Unbounded 900 (títulos, golpes, cifras) y Lexend (textos)."}
+```
