@@ -288,7 +288,7 @@ def caja_texto(it, f=None):
             fs = it.get("alto", 0.03); its = it.get("items", []); n = max([len(str(x)) for x in its] + [len(s("titulo")) * 1.6, 4])
             w = (n * fs * 0.55 + fs * 1.6 + fs * 1.6) * H / W; h = fs * (1.35 * len(its) + 1.2 + (1.3 if it.get("titulo") else 0))
         else:
-            fs = it.get("alto", 0.085); w = max(it.get("total", 3) * fs * 1.22, len(s("etiqueta")) * fs * 0.38 * 0.62) * H / W; h = fs * (1.1 + (0.5 if it.get("etiqueta") else 0))
+            px = it.get("alto", 0.085) / 9; w = max((it.get("total", 3) * 10 - 1) * px, len(s("etiqueta")) * px * 3.4 * 0.62) * H / W; h = px * (9 + (4.6 if it.get("etiqueta") else 0))
         x0 = m * 1.3 * H / W if e[1] == "i" else 1 - m * 1.3 * H / W - w; y0 = m if e[0] == "s" else 1 - m - h
         return [(x0, y0, x0 + w, y0 + h)]
     if t == "barra":
@@ -303,8 +303,8 @@ def caja_texto(it, f=None):
         fs = min(H * it.get("alto", 0.034) * 1.38, W * 0.84 / (max(len(s("txt")), 8) * 0.55)); w = len(s("txt")) * fs * 0.55
         return [((W - w) / 2 / W, 0.5 - fs / 2 / H, (W + w) / 2 / W, 0.5 + fs / 2 / H)]
     if t == "contador":
-        txt = f"{it.get('prefijo', '')}{it.get('hasta', '')}{it.get('sufijo', '')}" + ("  " if it.get("flecha") else "")
-        fs = min(H * it.get("alto", 0.14), W * 0.42 / (max(len(txt), 2) * 0.62)); w = len(txt) * fs * 0.62; x, y = it.get("x", 0.5) * W, it.get("y", 0.4) * H
+        txt = f"{it.get('prefijo', '')}{it.get('hasta', '')}{it.get('sufijo', '')}"; fl = 0.9 if it.get("flecha") else 0      # = Intro.tsx Contador
+        k = max(len(txt), 2) * 0.74 + fl; fs = min(H * it.get("alto", 0.14), W * 0.42 / k); w = k * fs; x, y = it.get("x", 0.5) * W, it.get("y", 0.4) * H
         return [((x - w / 2) / W, (y - fs / 2) / H, (x + w / 2) / W, (y + fs / 2) / H)]
     if t == "seccion":
         x0 = 0.07 * H; de = it.get("de") or 0

@@ -52,7 +52,9 @@ export const Contador: React.FC<{ f: number; it: Item }> = ({ f, it }) => {
   const dec = it.dec ?? (Number.isInteger(it.hasta) ? 0 : 1);
   const num = v.toLocaleString(it.idioma === "en" ? "en-US" : "es-ES", { minimumFractionDigits: dec, maximumFractionDigits: dec });
   const txt = `${it.prefijo ?? ""}${num}${it.sufijo ?? ""}`;
-  const fs = Math.min(H * (it.alto ?? 0.14), (W * 0.42) / (Math.max(txt.length, 2) * 0.62));
+  // ancho real medido en el banco (letra ancha con +0,03 em): ~0,74 del cuerpo por carácter + 0,9 la flecha. El MISMO
+  // cálculo está en comun.caja_texto: si no coinciden, la comprobación de «se sale» y la colocación fallan (banco 2026-11-24).
+  const fs = Math.min(H * (it.alto ?? 0.14), (W * 0.42) / (Math.max(txt.length, 2) * 0.74 + (it.flecha ? 0.9 : 0)));
   const ent = interpolate(f, [0, 4], [0, 1], { extrapolateRight: "clamp" });
   return (
     <AbsoluteFill>

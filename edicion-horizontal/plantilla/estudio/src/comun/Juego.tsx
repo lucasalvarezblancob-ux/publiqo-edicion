@@ -115,42 +115,49 @@ const CORAZON = [         // 9×9, calcado de la referencia de Lucas (banco 2026
   "001424100",
   "000141000",
   "000010000"];
-const COL: Record<string, string> = { "1": "#000000", "2": "#DD3321", "3": "#E2C1C1", "4": "#A32117" };
-const Corazon: React.FC<{ lado: number; lleno: number; blanco?: boolean }> = ({ lado, lleno, blanco }) => {
-  const px = lado / 9, r: React.ReactNode[] = [];
-  CORAZON.forEach((fila, y) => fila.split("").forEach((c, x) => {
-    if (c === "0") return;
-    const vivo = c !== "1" && (lleno >= 1 || (lleno >= 0.5 && x <= 3));      // medio corazón: la mitad izquierda
-    const fill = c === "1" ? (blanco ? "#ffffff" : COL["1"]) : vivo ? COL[c] : (c === "3" ? "#6a6a6a" : c === "4" ? "#2e2e2e" : "#3e3e3e");     // vacío: gris oscuro
-    r.push(<rect key={`${x}-${y}`} x={x * px} y={y * px} width={px + 0.6} height={px + 0.6} fill={fill} />);
-  }));
-  return <svg width={lado} height={lado} shapeRendering="crispEdges" style={{ display: "block" }}>{r}</svg>;
+// Colores exactos de la referencia (GIF de Minecraft que pasó Lucas): rojo, brillo, sombra; vacío #1F1F1F liso; borde negro.
+const COL: Record<string, string> = { "1": "#000000", "2": "#F20000", "3": "#E6BFBF", "4": "#B00303" };
+// Todos los corazones en UN svg con celdas de un número PAR de píxeles y origen en píxel par: al bajar de 4K a 1080 cada
+// celda queda un bloque limpio (con celdas fraccionarias salían «deformes»: Lucas, banco 2026-11-24).
+const Corazones: React.FC<{ px: number; total: number; quedan: number; golpe: number; blanco: boolean }> = ({ px, total, quedan, golpe, blanco }) => {
+  const r: React.ReactNode[] = [];
+  for (let h = 0; h < total; h++) {
+    const lleno = Math.max(0, Math.min(1, quedan - h)), ox = h * 10 * px;      // 9 celdas + 1 de hueco (como la referencia)
+    CORAZON.forEach((fila, y) => fila.split("").forEach((c, x) => {
+      if (c === "0") return;
+      const vivo = c !== "1" && (lleno >= 1 || (lleno >= 0.5 && x <= 4));      // medio corazón: rojo hasta la columna central
+      const fill = c === "1" ? (blanco && h === golpe ? "#ffffff" : COL["1"]) : vivo ? COL[c] : "#1F1F1F";
+      r.push(<rect key={`${h}-${x}-${y}`} x={ox + x * px} y={y * px} width={px} height={px} fill={fill} />);
+    }));
+  }
+  return <svg width={(total * 10 - 1) * px} height={9 * px} shapeRendering="crispEdges" style={{ display: "block" }}>{r}</svg>;
 };
 export const Vidas: React.FC<{ f: number; it: Item }> = ({ f, it }) => {
   const { height: H, width: W } = useVideoConfig();
   const total = it.total ?? 3, antes = it.quedan ?? total, pe = it.pierde_en, menos = it.pierde ?? 1;
   const perdida = pe != null && f >= pe + 8, enGolpe = pe != null && f >= pe && f < pe + 8;
   const quedan = perdida ? antes - menos : antes;
-  const fs = H * (it.alto ?? 0.085), e = it.esquina ?? "ii";      // JJW Diamond: abajo a la izquierda, corazón ~10 % del alto
-  const tiembla = enGolpe ? ((f - pe) % 2 === 0 ? 1 : -1) * H * 0.003 : 0;
+  const e = it.esquina ?? "ii";      // JJW Diamond: abajo a la izquierda
+  const px = Math.max(2, 2 * Math.round((H * (it.alto ?? 0.085)) / 9 / 2));      // celda: nº par de píxeles
+  const ancho = (total * 10 - 1) * px, alto = 9 * px, m = 2 * Math.round((H * MARGEN) / 2), mx = 2 * Math.round((H * MARGEN * 1.3) / 2);
+  const x = e[1] === "i" ? mx : W - mx - ancho, y = e[0] === "s" ? m + (it.etiqueta ? Math.round(px * 4.2) : 0) : H - m - alto;
+  const tiembla = enGolpe ? ((f - pe) % 2 === 0 ? 1 : -1) * px * 0.5 : 0;
   const parpadea = enGolpe && Math.floor((f - pe) / 1.4) % 2 === 0;
-  const idxGolpe = Math.ceil(antes) - 1;      // el corazón que pierde (el último con vida)
   if (it.estilo === "emoji") {
     return (
       <AbsoluteFill><div style={{ ...esquina(e, W, H), display: "flex", flexDirection: "column", alignItems: "center" }}>
-        {it.etiqueta ? <div style={{ fontFamily: F_TXT, fontWeight: 800, fontSize: fs * 0.38, color: "white", textShadow: borde(H * 0.003), textTransform: "uppercase", marginBottom: fs * 0.08 }}>{it.etiqueta}</div> : null}
-        <div style={{ display: "flex", gap: fs * 0.15 }}>{Array.from({ length: total }, (_, i) => <span key={i} style={{ fontSize: fs, lineHeight: 1, filter: i < quedan ? "none" : "grayscale(1) brightness(.45)" }}>❤️</span>)}</div>
+        {it.etiqueta ? <div style={{ fontFamily: F_TXT, fontWeight: 800, fontSize: px * 3.4, color: "white", textShadow: borde(H * 0.003), textTransform: "uppercase" }}>{it.etiqueta}</div> : null}
+        <div style={{ display: "flex", gap: px }}>{Array.from({ length: total }, (_, i) => <span key={i} style={{ fontSize: px * 9, lineHeight: 1, filter: i < quedan ? "none" : "grayscale(1) brightness(.45)" }}>❤️</span>)}</div>
       </div></AbsoluteFill>
     );
   }
   return (
     <AbsoluteFill>
-      {/* Etiqueta y corazones CENTRADOS entre sí (alinear a un borde no cuadraba: banco 2026-11-24) */}
-      <div style={{ ...esquina(e, W, H), display: "flex", flexDirection: "column", alignItems: "center", transform: `translateX(${tiembla}px)` }}>
-        {it.etiqueta ? <div style={{ fontFamily: F_TXT, fontWeight: 800, fontSize: fs * 0.38, color: "white", textShadow: borde(H * 0.003), textTransform: "uppercase", marginBottom: fs * 0.12 }}>{it.etiqueta}</div> : null}
-        <div style={{ display: "flex", gap: fs * 0.12, filter: `drop-shadow(0 0 ${H * 0.004}px rgba(0,0,0,.6))` }}>
-          {Array.from({ length: total }, (_, i) => <Corazon key={i} lado={fs * 1.1} lleno={Math.max(0, Math.min(1, quedan - i))} blanco={parpadea && i === idxGolpe} />)}
-        </div>
+      {/* los corazones anclados a la esquina en píxel par; la etiqueta centrada ENCIMA de ellos (no al revés) */}
+      <div style={{ position: "absolute", left: x + tiembla, top: y, width: ancho, height: alto, filter: `drop-shadow(0 0 ${px * 0.6}px rgba(0,0,0,.55))` }}>
+        {it.etiqueta ? <div style={{ position: "absolute", left: "50%", bottom: alto + px * 1.2, transform: "translateX(-50%)", whiteSpace: "nowrap", fontFamily: F_TXT, fontWeight: 800,
+          fontSize: px * 3.4, lineHeight: 1, color: "white", textShadow: borde(H * 0.003), textTransform: "uppercase" }}>{it.etiqueta}</div> : null}
+        <Corazones px={px} total={total} quedan={quedan} golpe={Math.ceil(antes) - 1} blanco={parpadea} />
       </div>
     </AbsoluteFill>
   );
@@ -173,7 +180,8 @@ export const Eliminado: React.FC<{ f: number; it: Item }> = ({ f, it }) => {
   return (
     <AbsoluteFill>
       <svg viewBox="0 0 100 100" width={t} height={t} style={{ position: "absolute", left: W * (it.x ?? 0.5) - t / 2, top: H * (it.y ?? 0.5) - t / 2, overflow: "visible",
-        transform: `scale(${s})`, opacity: interpolate(f, [0, 2], [0, 1], { extrapolateRight: "clamp" }), filter: `drop-shadow(0 0 ${H * 0.008}px rgba(0,0,0,.55))` }}>
+        transform: `scale(${s})`, filter: `drop-shadow(0 0 ${H * 0.008}px rgba(0,0,0,.55))` }}>
+        {/* entra de golpe, opaca: con fundido, el primer fotograma era una X gris fantasma (banco 2026-11-24) */}
         {/* UNA forma: el borde negro es el mismo trazo más grueso por debajo; nada se cruza a la vista */}
         <path d={d} stroke="#000" strokeWidth={g + 5} strokeLinecap="round" fill="none" />
         <path d={d} stroke={col} strokeWidth={g} strokeLinecap="round" fill="none" />

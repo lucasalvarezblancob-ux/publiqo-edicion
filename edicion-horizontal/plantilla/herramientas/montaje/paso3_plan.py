@@ -389,7 +389,7 @@ for a, d, hasta, *op in CONTADORES:
     # el hueco al otro lado de la cara (como los DATOS); con x puesta, se avisa si cae encima de ella.
     if cara and "x" not in o:
         x = (cara[0] + 0.11 + 0.98) / 2 if cara[0] < 0.5 else (cara[0] - 0.11 + 0.02) / 2
-        cj = caja_texto({"t": "contador", "hasta": hasta, **o, "x": 0.5}); mw = (cj[0][2] - cj[0][0]) / 2 + 0.025 if cj else 0.23
+        cj = caja_texto({"t": "contador", "hasta": hasta, **o, "x": 0.5}); mw = (cj[0][2] - cj[0][0]) / 2 + 0.04 if cj else 0.25      # margen al borde: el 4 % de todos los textos
         o["x"], o["y"] = round(min(max(x, mw), 1 - mw), 3), o.get("y", 0.42)      # que quepa entero (nunca «SE SALE»)
     elif cara and abs(o.get("x", 0.5) - cara[0]) < 0.2 and abs(o.get("y", 0.4) - cara[1]) < 0.22:
         print(f"AVISO CARA: el contador {hasta} en {f0 / FPS:.1f} s cae encima de la cara ({cara[0]:.2f}, {cara[1]:.2f}): quita x/y del plan y se coloca solo")
