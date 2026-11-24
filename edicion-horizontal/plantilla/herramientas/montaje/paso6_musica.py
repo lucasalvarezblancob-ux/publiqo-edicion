@@ -5,6 +5,8 @@ voz; explicación con mapas; la frase emotiva; el cierre. Orientación: 30-40 % 
 En plan.py:
   PISTAS = {"alegre": ("archivo-de-su-recursos-musica.wav", BPM), ...}     de personal/<creador>/recursos/musica/
   VENTANAS = [("alegre", ancla_inicio, ancla_fin), ...]     anclas como en el resto del plan; "inicio" y "fin" valen
+             (opcional 4.º elemento {"seco": True}: entra y sale sin fundido, en un corte — G005)
+  HUECOS_MUSICA = [(ancla_del_remate, segundos), ...]      la música se va en seco antes del remate y vuelve en el corte (G005)
   NIVELES = {...}                                            opcional: cambia los dB de abajo
 Ningún plano sin voz se queda sin música: si un respiro entre ventanas cae donde no se habla, la ventana de antes se
 alarga sola («puente», lo imprime). Cada ventana arranca en un compás entero de su pista (se va avanzando por la canción); la que llega al final del vídeo
@@ -69,10 +71,13 @@ def trozo(t, n, final=False):
 # vuelve la voz; si la siguiente empieza justo al acabar el hueco, es esa la que entra antes, con el plano sin voz. Lo que no tiene ventana antes, se avisa.
 HUECO_MAX = ajuste("MUSICA_HUECO_MAX", 1.0)
 W = []
-for k, a0, a1 in VENTANAS:
+SECAS = set()      # G005: ventanas con {"seco": True} entran y salen sin fundido (en un corte), como las referencias (12 de 15)
+for v in VENTANAS:
+    k, a0, a1 = v[:3]; op = v[3] if len(v) > 3 else {}
     f0, f1 = max(0, L.ancla(a0)), min(TOTAL, L.ancla(a1))
     if f1 - f0 < F(2): print(f"AVISO: ventana de {k} demasiado corta o al revés ({f0}-{f1}); se salta"); continue
     W.append([k, f0, f1])
+    if op.get("seco"): SECAS.add(len(W) - 1)
 voz = np.zeros(TOTAL + 1, bool)
 for w in L.palabras:
     if "o0" in w: voz[max(0, int(w["o0"]) - F(0.25)):int(w["o1"]) + F(0.25)] = True
@@ -104,11 +109,12 @@ for i, j in huecos():
 for i, j in huecos(): print(f"AVISO: sigue sin voz ni música {mmss(i)}-{mmss(j)}")
 
 N = TOTAL * SR // FPS; mus = np.zeros((N, 2), np.float32); cat = {}; cubierto = np.zeros(TOTAL + 1, bool)
-for k, f0, f1 in W:
+for iw, (k, f0, f1) in enumerate(W):
     if k not in cat: cat[k] = cargar(*PISTAS[k])
     s0, s1 = f0 * SR // FPS, f1 * SR // FPS
     seg = trozo(cat[k], s1 - s0, final=(f1 == TOTAL)); n = len(seg)
     e, s = min(ENT * SR // FPS, n // 4), min(SAL * SR // FPS, n // 2)
+    if iw in SECAS: e = s = min(SR // FPS, n // 4)          # seca: 1 fotograma de rampa, solo para que no chasque
     if f0 > 0: seg[:e] *= np.linspace(0, 1, e)[:, None] ** 2
     if f1 < TOTAL: seg[-s:] *= np.cos(np.linspace(0, np.pi / 2, s))[:, None] ** 2
     mus[s0:s0 + n] += seg; cubierto[f0:f1] = True
@@ -136,6 +142,16 @@ if "cierre" in M: g[M["cierre"]:] = np.maximum(g[M["cierre"]:], NV["CIERRE"])
 k = np.hanning(21); g = np.convolve(np.pad(g, 10, mode="edge"), k / k.sum(), "valid")
 env = 10 ** (np.interp(np.arange(N) / SR * FPS, np.arange(len(g)), g) / 20)
 env[-3 * SR:] *= np.linspace(1, 0, 3 * SR) ** 2
+# G005: SILENCIO COMO REMATE (8 de 15 vlogs, 7 de 7 retos). En plan.py: HUECOS_MUSICA = [(ancla_del_remate, segundos), ...]
+# La música se va EN SECO `segundos` antes del remate (0,7–6 s) y vuelve de golpe en el primer corte tras el remate.
+# Va después del suavizado, con 1 fotograma de rampa (sin chasquido). Sin HUECOS_MUSICA no cambia nada.
+_V = json.load(open(f"{TRABAJO}/video.json")); _cortes = sorted({v["o"] for tr in _V["tramos"] for v in tr} | {TOTAL})
+for anc, seg_ in getattr(plan, "HUECOS_MUSICA", []):
+    r = L.ancla(anc); a = max(0, r - F(seg_)); b = next((c for c in _cortes if c > r), TOTAL)
+    sa, sb, ram = a * SR // FPS, b * SR // FPS, SR // FPS
+    env[sa:sb] = 0; env[max(0, sa - ram):sa] *= np.linspace(1, 0, sa - max(0, sa - ram))
+    env[sb:sb + ram] *= np.linspace(0, 1, len(env[sb:sb + ram]))
+    print(f"hueco de música {mmss(a)}–{mmss(b)} (remate en {mmss(r)}, vuelve en el corte)")
 mus *= env[:, None].astype(np.float32); sf.write(f"{TRABAJO}/musica.wav", mus, SR)
 
 subprocess.run(["ffmpeg", "-nostdin", "-v", "error", "-y", "-i", f"{TRABAJO}/mezcla.wav", "-i", f"{TRABAJO}/musica.wav", "-filter_complex", "[0:a][1:a]amix=inputs=2:normalize=0[m]", "-map", "[m]", f"{TRABAJO}/mezcla_musica.wav"], check=True)

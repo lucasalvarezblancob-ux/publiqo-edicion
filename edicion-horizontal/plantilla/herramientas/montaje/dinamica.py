@@ -11,7 +11,8 @@ import numpy as np
 from comun import ALTO as AH, ANCHO as AW, F, FPS, ajuste, norm
 
 # Lo que lleva ajuste(...) se puede cambiar en personal/<creador>/ajustes.py (gusto del creador) sin tocar este archivo.
-NIVELES = ajuste("ESCALAS", [1.0, 1.3, 1.0, 1.45, 1.15, 1.0, 1.35, 1.12, 1.5, 1.0, 1.25])
+NIVELES = ajuste("ESCALAS", [1.0, 1.3, 1.0, 1.45, 1.0, 1.15, 1.0, 1.35, 1.0, 1.5, 1.0, 1.25])   # G002: vuelta a ×1,0 entre escalas (13 de 13 refs)
+VUELTA = ajuste("ESCALAS_VUELTA", True)
 Z_FUERTE = ajuste("Z_FUERTE", 1.65)
 SEG_MIN, SEG_MAX = (F(s) for s in ajuste("CAMBIO_CADA", (2.48, 4.48)))   # segundos entre cambios de escala
 CARA_Y = ajuste("CARA_Y", 0.38)                         # la cara queda al 38 % del alto
@@ -109,9 +110,16 @@ def planos_de_voz(P, W, caras, esp, secciones, sin_escala=()):
             else:
                 k += 1; z = min(NIVELES[k % len(NIVELES)], tope)
                 if vid and vid[-1]["clip"] == p["clip"] and abs(vid[-1]["z1"] - z) < 0.08: k += 1; z = min(NIVELES[k % len(NIVELES)], tope)
+                # G002: nunca dos escalas seguidas en la misma toma; tras un plano ampliado (rotación, golpe o detalle) se
+                # vuelve a ×1,0. Rollback con deshacer_cambio.py (escribe ESCALAS antiguas y ESCALAS_VUELTA = False).
+                if VUELTA and z > 1.0 and vid and vid[-1]["clip"] == p["clip"] and vid[-1]["z1"] > 1.01: z = 1.0
                 v.update(z0=z, z1=z)
             if cara and not dado: contener(v, cara)
             vid.append(v)
+    if VUELTA:      # G002: un plano de la rotación justo antes de un golpe o detalle del plan (misma toma) va a ×1,0
+        for x, y in zip(vid, vid[1:]):
+            if "esp" not in x and not x.get("t") and x["z1"] > 1.01 and x["clip"] == y["clip"] and y["z1"] > 1.01 and "esp" in y:
+                x.update(z0=1.0, z1=1.0)
     return vid
 
 

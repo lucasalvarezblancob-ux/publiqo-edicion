@@ -31,16 +31,20 @@ c = C[gid]; P = f"{RAIZ}/personal/{cre}"
 if not os.path.isdir(P): raise SystemExit(f"No existe personal/{cre}/")
 marca = f"# {gid} deshecho"
 
-if c["tipo"] == "ajuste":
+if c["tipo"] == "ajuste":      # uno ({"nombre", "antes"}) o varios ({"ajustes": {NOMBRE: antes, ...}})
+    pares = c.get("ajustes") or {c["nombre"]: c["antes"]}
     f = f"{P}/ajustes.py"; t = open(f, encoding="utf-8").read() if os.path.exists(f) else ""
     lineas = [l for l in t.splitlines() if marca not in l]
     if volver:
-        open(f, "w", encoding="utf-8").write("\n".join(lineas) + "\n"); print(f"✓ {cre}: quitado el rollback de {gid} ({c['nombre']} vuelve al de la base)")
+        open(f, "w", encoding="utf-8").write("\n".join(lineas) + "\n"); print(f"✓ {cre}: quitado el rollback de {gid} ({', '.join(pares)} vuelve(n) al de la base)")
     else:
-        if any(re.match(rf"\s*{re.escape(c['nombre'])}\s*=", l) for l in lineas):
-            print(f"⚠️  {cre} ya define {c['nombre']} en su ajustes.py: manda lo suyo, no hace falta deshacer {gid}."); sys.exit(0)
-        lineas.append(f"{c['nombre']} = {c['antes']!r}   {marca} para este creador ({c['fecha']}): {c['regla_antes']}")
-        open(f, "w", encoding="utf-8").write("\n".join(lineas) + "\n"); print(f"✓ {cre}: {gid} deshecho → {c['nombre']} = {c['antes']!r} en ajustes.py")
+        for nom, antes in pares.items():
+            if any(re.match(rf"\s*{re.escape(nom)}\s*=", l) for l in lineas):
+                print(f"⚠️  {cre} ya define {nom} en su ajustes.py: manda lo suyo, no se toca."); continue
+            if isinstance(antes, dict): antes = {k: tuple(v) if isinstance(v, list) else v for k, v in antes.items()}
+            lineas.append(f"{nom} = {antes!r}   {marca} para este creador ({c['fecha']}): {c['regla_antes']}")
+            print(f"✓ {cre}: {gid} deshecho → {nom} = {antes!r} en ajustes.py")
+        open(f, "w", encoding="utf-8").write("\n".join(lineas) + "\n")
 else:
     f = f"{P}/preferencias.md"; t = open(f, encoding="utf-8").read() if os.path.exists(f) else ""
     lineas = [l for l in t.splitlines() if f"**{gid} no aplica" not in l]

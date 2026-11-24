@@ -10,6 +10,9 @@ NO se han escuchado: están deducidos de picos de audio + imagen (cifra orientat
 
 ## 1. Números medidos
 
+> **Ojo (estudio de estilos, 2026-11-24)**: los cortes/min de esta tabla son del detector solo y son MÍNIMOS: con los
+> jump cuts contados a ojo salen un 15–35 % más (RH Titanic 16,9 → 19,9/min). Las fichas nuevas dan las dos cifras.
+
 | Vídeo | Dur. | Cortes/min | s/plano media | mediana | p10–p90 | <1 s | >5 s | Música | Voz−música |
 |---|---|---|---|---|---|---|---|---|---|
 | RH Yakutia | 26:12 | 14,5 | 4,1 | 2,6 | 1,0–9,2 | 8 % | 21 % | 75 % | 16,9 dB |
@@ -83,7 +86,8 @@ Segunda familia manuscrita fina para listas, flechas y rayas que se dibujan en 0
 
 **Motion graphics**: capturas en tarjeta redondeada (titular, Google, YouTube) 2,5–3 s; mapa de vuelo en 3 insertos
 de 1,1–1,3 s alternados con planos del viaje, sin voz; mapa 3D de 0,95 s tras un barrido a nubes; pantalla partida;
-infografía por pasos (10,7 s). **Ningún mapa con recorrido largo dibujado** en los 5 vídeos: el viaje se cuenta con
+infografía por pasos (10,7 s). **Ningún mapa con recorrido largo dibujado** en los 5 vídeos (corrección 2026-11-24: en «Fui al hotel más aislado del
+mundo», 2026-05, sí hay mapa dibujado con su cabeza recorriendo la ruta, 3 veces de 4–6 s): el viaje se cuenta con
 barra de progreso, rótulo de día y Google Maps real.
 
 **Música**: 4–6 pistas por vídeo, cambia por secciones. Patrocinio a mitad (52–92 s) con más gráficos.
@@ -247,3 +251,19 @@ ráfaga de 5 planos antes del título, 10 cifras, 6 palabras-golpe, 3 notas del 
   planos sin voz, explicación con mapas, frase emotiva y cierre. En `ramon` v2: 36 % del vídeo, 14–17 dB bajo la voz, salida
   de 3 s. (Rubén y Paul la llevan el 67–80 % del tiempo; Lucas la quiere menos.)
 - **El mapa de satélite animado gusta**: va a la skill como recurso estándar para cuando se nombren regiones o lugares.
+
+## Reglas del estudio de estilos (G006, 2026-11-24)
+Del estudio de 23 vídeos (estilos vlog y reto; detalle en `estilos/PROPUESTAS_BASE_*.md`). Valen para todo vídeo
+dinámico, con o sin estilo; un creador puede quitarlas con `deshacer_cambio.py <creador> G006`.
+- **Material fuera de su sitio, siempre marcado** (6 de 15 vlogs, 4 de 7 retos): un recuerdo, un flash-forward o un
+  vídeo pasado del canal se distinguen (look de recuerdo, desaturado, etiqueta, o tarjeta de reproductor de YouTube).
+- **Una plantilla por función, siempre igual** (8 de 15, 4 de 7): el mismo diseño y el mismo sonido para cada tipo de
+  pieza en todo el vídeo.
+- **El destello corto (2–8 f) y la mano que tapa el objetivo no cuentan como transición** construida (tope de 5).
+- **Elipsis con una cifra**: hora del día, «28 horas», barra que se llena. Nunca «X horas después» grande (0 de 22).
+- **Clímax preparado**: si hay un clímax claro, la música se quita 30–45 s antes con la voz encima y entra de golpe en
+  el pico (4 de 15). No choca con «nunca sin voz y sin música»: hay voz.
+- **La promesa vuelve en el desenlace con el mismo gráfico** (6 de 15): si la intro promete algo con un gráfico (precios,
+  maletas, misión), el desenlace lo cierra con ese mismo gráfico.
+- **Texto en el fotograma de su palabra, ±3 f** (11 de 15 lo miden): la regla de siempre, ahora con tolerancia fija.
+

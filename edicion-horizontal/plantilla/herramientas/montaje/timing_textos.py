@@ -20,7 +20,7 @@ Sin argumentos enseña solo los textos con aviso; `--todo`, todos; con tipos (`r
 En plan.py, `RETARDO_TEXTO = {"tipo": segundos}` dice cuánto tarda en poder LEERSE el texto de un gráfico desde que
 empieza (una mascota que asoma y luego saca la burbuja: 0,5)."""
 import json, re, sys
-from comun import CAPAS_JSON, FPS, TRABAJO, norm, texto_dicho
+from comun import CAPAS_JSON, FPS, TRABAJO, ajuste, norm, texto_dicho
 import plan as _plan
 
 RET = getattr(_plan, "RETARDO_TEXTO", {})
@@ -30,6 +30,9 @@ L = json.load(open(f"{TRABAJO}/linea.json", encoding="utf-8")); W = L["palabras"
 C = sorted(json.load(open(CAPAS_JSON, encoding="utf-8"))["items"], key=lambda i: i["f0"])
 V = [v for t in json.load(open(f"{TRABAJO}/video.json"))["tramos"] for v in t]
 cortes = sorted({v["o"] for v in V})
+# G004: los rótulos de SITUACIÓN y ESTADO (dato, etiqueta partida, contador, marcador, barra) pueden cruzar cortes si no
+# se mueven; los de énfasis (golpe, frases) siguen saliendo con el corte. Rollback: deshacer_cambio.py <creador> G004.
+INFO = tuple(ajuste("TIPOS_CRUZAN_CORTES", ["dato", "partida", "contador", "marcador", "barra", "mapa"]))
 s = lambda f: f / FPS
 mmss = lambda f: f"{int(s(f) // 60)}:{s(f) % 60:05.2f}"
 
@@ -83,9 +86,9 @@ for it in textos:
         if f1 < nec - 2: av.append(f"CORTO: se va {s(nec - f1):.1f} s antes de que se diga y se pueda leer" + (f" (su última palabra, «{ult['w']}», acaba en +{s(ult['o1'] - fe):.1f} s)" if ult else ""))
     # colas sobre un corte
     for c in cortes:
-        if 0 < f1 - c <= 0.3 * FPS and c - f0 > 0.3 * FPS: av.append(f"COLA: {f1 - c} fotogramas sobre el plano siguiente (corte en +{s(c - f0):.2f} s)")
-        if 0 < c - f0 <= 0.2 * FPS and f1 - c > 0.3 * FPS and it["t"] not in ("dato",): av.append(f"COLA: entra {c - f0} fotogramas antes de un corte")
-        if 0 < c - f1 <= 0.2 * FPS and it["t"] not in ("dato",): av.append(f"COLA: se va {c - f1} fotogramas antes del corte")
+        if 0 < f1 - c <= 0.3 * FPS and c - f0 > 0.3 * FPS and it["t"] not in INFO: av.append(f"COLA: {f1 - c} fotogramas sobre el plano siguiente (corte en +{s(c - f0):.2f} s)")
+        if 0 < c - f0 <= 0.2 * FPS and f1 - c > 0.3 * FPS and it["t"] not in INFO: av.append(f"COLA: entra {c - f0} fotogramas antes de un corte")
+        if 0 < c - f1 <= 0.2 * FPS and it["t"] not in INFO: av.append(f"COLA: se va {c - f1} fotogramas antes del corte")
     # lectura
     np_ = len([p for p in re.split(r"[\s|]+", f"{l1} {l2}".strip()) if p]); vis = s(f1 - fe)
     if np_ >= 4 and np_ / max(vis, 0.1) > 4.0: av.append(f"LECTURA: {np_} palabras en {vis:.1f} s")
