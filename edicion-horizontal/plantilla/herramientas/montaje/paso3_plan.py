@@ -154,7 +154,8 @@ orden = sorted(esp, key=lambda e: e["f0"])
 for x, y in zip(orden, orden[1:]):
     if y["f0"] < x["f1"]: print("AVISO: especiales solapados", x["tipo"], x["f0"], x["f1"], y["tipo"], y["f0"]); x["f1"] = y["f0"]
 
-vid = planos_de_voz(P, W, Caras(TRABAJO), esp, L.secciones)
+_CARAS = Caras(TRABAJO)
+vid = planos_de_voz(P, W, _CARAS, esp, L.secciones)
 # ---- zoom de vaivén y zoom lento hacia un remate (dinamica.filtro_zoom, "anim"): solo si el plan.py los pide ----
 def _plano(fr): return next((v for v in vid if v["o"] <= fr < v["o"] + v["n"]), None)
 for a, *op in VAIVENES:
@@ -373,9 +374,15 @@ for a, txt, *op in MAQUINA:
 def _cara_en(fr):
     """(x, y) de la cara en pantalla (0-1) en el frame `fr` del montaje, o None si ese plano no tiene cara."""
     v = next((v for v in vid if v["o"] <= fr < v["o"] + v["n"] and not v.get("b")), None)
-    if not v or v.get("cx") is None: return None
-    w, h, cxr, cyr = encuadre(v["z1"], v["cx"], v["cy"], v.get("ax", 0.5), v.get("ay", 0.5))
-    return (v["cx"] * v["z1"] - cxr) / AW, (v["cy"] * v["z1"] - cyr) / AH
+    if not v: return None
+    w, h, cxr, cyr = encuadre(v["z1"], v.get("cx"), v.get("cy"), v.get("ax", 0.5), v.get("ay", 0.5))
+    if v.get("cx") is not None: return (v["cx"] * v["z1"] - cxr) / AW, (v["cy"] * v["z1"] - cyr) / AH
+    # plano sin cara asignada (planos V de acción, sin zoom a una cara): se mira la cara detectada en ese trozo del bruto
+    # (Windows, banco D360: la X caía al centro aunque caras_<clip>.json tenía la cara de Oyer en ese segundo)
+    c = _CARAS.en(v["clip"], v["in"] + int((fr - v["o"]) * v.get("speed", 1)), 5)
+    if not c: return None
+    x, y = (c["cx"] * v["z1"] - cxr) / AW, (c["cy"] * v["z1"] - cyr) / AH
+    return (x, y) if 0 <= x <= 1 and 0 <= y <= 1 else None
 for a, d, hasta, *op in CONTADORES:
     f0 = L.ancla(a); o = dict(op[0]) if op else {}; cara = _cara_en(f0 + 2)
     # Banco de pruebas (2026-11-24): un contador puesto a mano en x 0,72 le tapaba la cara a Reino. Sin x en el plan, va en

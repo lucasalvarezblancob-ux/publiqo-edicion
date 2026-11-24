@@ -81,6 +81,19 @@ for v in VENTANAS:
 voz = np.zeros(TOTAL + 1, bool)
 for w in L.palabras:
     if "o0" in w: voz[max(0, int(w["o0"]) - F(0.25)):int(w["o1"]) + F(0.25)] = True
+# Planos V con gente hablando entre sí (Windows, banco D360: 27 s de charla en el grupo contaban como «no se habla» y
+# alargaban la música): sus palabras de la transcripción del bruto también son voz.
+from comun import palabras as _pal_bruto
+for p in P:
+    if p.get("k") != "V" or not p.get("vol", 1): continue
+    try: pb = _pal_bruto(p["clip"])
+    except SystemExit: continue
+    sp = p.get("speed", 1) or 1
+    for w in pb:
+        t0, t1 = w.get("t", 0) * FPS, w.get("fin", w.get("t", 0)) * FPS
+        if t1 < p["in"] or t0 > p["in"] + p["n"] * sp: continue
+        a_, b_ = p["o"] + int((max(t0, p["in"]) - p["in"]) / sp), p["o"] + int((min(t1, p["in"] + p["n"] * sp) - p["in"]) / sp)
+        voz[max(0, a_ - F(0.25)):min(TOTAL, b_ + F(0.25)) + 1] = True
 
 
 # VACÍOS ANTES DEL GOLPE (estilos reto y vlog, Lucas 2026-11-24): hasta 4 s sin voz ni música justo antes de un golpe,
@@ -115,7 +128,10 @@ for i, j in huecos():
         print(f"puente: {w[0]} entra antes, en {mmss(w[1])} (de {mmss(i)} a {mmss(j)} no se habla y no había música)"); continue
     antes = [w for w in W if w[2] <= i + SAL]
     if not antes: print(f"AVISO: {mmss(i)}-{mmss(j)} sin voz ni música y sin ventana antes ni después: añade una en VENTANAS"); continue
-    w = max(antes, key=lambda w: w[2]); w[2] = min(TOTAL, max(w[2], j + SAL))      # suena entera hasta que vuelve la voz
+    w = max(antes, key=lambda w: w[2])
+    if W.index(w) in SECAS:       # una ventana seca acaba en SU corte: no se alarga (se perdería la salida en seco)
+        print(f"AVISO: {mmss(i)}-{mmss(j)} sin voz ni música justo tras la ventana seca {w[0]}: no se alarga; pon otra ventana o un VACIO"); continue
+    w[2] = min(TOTAL, max(w[2], j + SAL))      # suena entera hasta que vuelve la voz
     print(f"puente: {w[0]} alargada hasta {mmss(w[2])} (de {mmss(i)} a {mmss(j)} no se habla y no había música)")
 for i, j in huecos(): print(f"AVISO: sigue sin voz ni música {mmss(i)}-{mmss(j)}")
 

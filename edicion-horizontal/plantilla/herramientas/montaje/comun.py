@@ -225,6 +225,10 @@ class Linea:
     def ancla(self, a):
         if a == "inicio": return 0
         if a == "fin": return self.total
+        if isinstance(a, str) and a.startswith("@"):        # "@marca" suelta (Windows, banco: daba «marca desconocida @»)
+            if a[1:] not in self.marcas: raise SystemExit(f"marca desconocida {a}; hay: {sorted(self.marcas)}")
+            return self.marcas[a[1:]]
+        if isinstance(a, str): raise SystemExit(f"ancla «{a}» no válida: usa \"inicio\", \"fin\", (\"@marca\", segundos) o (clip, \"frase\", n)")
         if isinstance(a[0], str) and a[0].startswith("@"):
             if a[0][1:] not in self.marcas: raise SystemExit(f"marca desconocida {a[0]}; hay: {sorted(self.marcas)}")
             return self.marcas[a[0][1:]] + F(a[1] if len(a) > 1 else 0)
