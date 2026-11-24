@@ -47,6 +47,35 @@ def guardar(c):
     tmp = COLA + ".tmp"; json.dump(c, open(tmp, "w", encoding="utf-8"), ensure_ascii=False, indent=1); os.replace(tmp, COLA)
 
 
+class Bloqueo:
+    """Una sola orden escribe cola.json a la vez (avanzar tarda minutos; hecho/añadir/saltar pueden ir mientras)."""
+    def __enter__(s):
+        s.f = COLA + ".lock"; t0 = time.time()
+        while True:
+            try: os.close(os.open(s.f, os.O_CREAT | os.O_EXCL | os.O_WRONLY)); return s
+            except FileExistsError:
+                try:
+                    if time.time() - os.path.getmtime(s.f) > 120: os.remove(s.f); continue     # bloqueo huérfano
+                except OSError: pass
+                if time.time() - t0 > 120: raise SystemExit("cola.json lleva 2 min bloqueada: borra refs/<tipo>/_analisis/cola.json.lock si no hay otra orden en marcha")
+                time.sleep(0.3)
+    def __exit__(s, *x):
+        try: os.remove(s.f)
+        except OSError: pass
+
+
+def guardar_entrada(sig):
+    """avanzar: relee la cola y cambia SOLO esta entrada. Si mientras tanto otra orden la marcó hecha o saltada, gana esa."""
+    with Bloqueo():
+        c2 = leer()
+        for k, e in enumerate(c2):
+            if e["id"] == sig["id"]:
+                if e["estado"] in ("hecho", "saltado") and sig["estado"] not in ("hecho", "saltado"): return
+                c2[k] = {**e, **sig}; break
+        else: c2.append(sig)
+        guardar(c2)
+
+
 def vid(u):
     m = re.search(r"(?:v=|youtu\.be/|shorts/)([A-Za-z0-9_-]{11})", u); return m.group(1) if m else None
 
@@ -94,6 +123,8 @@ def correr(cmd, lat, paso, video, limite):
         print(f"    ⚠️  {paso} pasó de {limite // 60} min: lo corto y se reintentará"); return False
 
 
+if a.orden in ("añadir", "reintentar", "hecho", "saltar"):
+    import atexit; _bl = Bloqueo().__enter__(); atexit.register(_bl.__exit__)     # se suelta aunque la orden falle
 c = leer()
 if a.orden == "añadir":
     for u in a.urls:
@@ -174,8 +205,8 @@ elif a.orden == "avanzar":
                     sig["intentos"] += 1; sig["error"] = "falló el precálculo (se repite desde el paso que faltaba)"
                     if sig["intentos"] >= 4:
                         sig["estado"] = "error"; sig["error"] = "el precálculo ha fallado 4 veces: mira el error, arréglalo y devuélvelo a «bajado»"
-                        sig["cambiado"] = ahora(); guardar(c); print(f"✗ {sig['id']}: {sig['error']}"); break
-            sig["cambiado"] = ahora(); guardar(c)
+                        sig["cambiado"] = ahora(); guardar_entrada(sig); print(f"✗ {sig['id']}: {sig['error']}"); break
+            sig["cambiado"] = ahora(); guardar_entrada(sig)
     finally:
         lat.vivo = False
         try: json.dump({"hora": ahora(), "epoch": time.time(), "pid": None, "paso": "parado", "video": ""}, open(LATIDO, "w", encoding="utf-8"))
