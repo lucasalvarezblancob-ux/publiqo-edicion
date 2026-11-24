@@ -48,7 +48,7 @@ export const Titulo: React.FC<{ f: number; dur: number; it: Item }> = ({ f, dur,
 };
 
 // Capítulo: número enorme en acento + título blanco, de golpe; debajo, las casillas del contador (marcador de progreso).
-// Con it.contador === false (CONTADOR_CAPITULOS = False en ajustes.py): solo título y subtítulo.
+// De serie SIN contador (Lucas, 2026-11-24: fuera el «1/7» y las casillas): solo título y subtítulo. CONTADOR_CAPITULOS = True en ajustes.py lo vuelve a poner.
 export const Seccion: React.FC<{ f: number; dur: number; it: Item }> = ({ f, it }) => {
   const { height: H, width: W } = useVideoConfig();
   // it.contador === false: sin número «n/total» ni casillas, solo título y subtítulo (Reino Selva, 2026-11-19: «saca el contador»)

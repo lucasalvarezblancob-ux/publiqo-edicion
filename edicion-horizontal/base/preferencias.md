@@ -374,7 +374,7 @@ Formato: `- AAAA-MM-DD — regla. Por qué. (vídeo)`. Si una regla nueva contra
 
 ## Textos y gráficos
 - 2026-11-11 — **Guía: Plex y Xokas.** Una familia ancha y negra para lo grande; entran de golpe (pop en 5–6 f) y salen
-  por corte; pocos y con función. Tipos de serie (`estudio/src/comun/Graficos.tsx`): título, capítulo (n/total, o solo título con `CONTADOR_CAPITULOS = False`), cifra
+  por corte; pocos y con función. Tipos de serie (`estudio/src/comun/Graficos.tsx`): título, capítulo (título y subtítulo, sin «n/total» ni casillas: Lucas, 2026-11-24; `CONTADOR_CAPITULOS = True` lo vuelve a poner), cifra
   junto a la cara, palabra-golpe, nota del editor, rótulo con seguimiento, subtítulo. La suscripción no es un rótulo:
   es un botón animado (abajo, «Clips y gráficos superpuestos»).
 - 2026-11-11 — **Texto que crece: zoom continuo y suave, nunca a escalones.** Pop de entrada y luego ×1 → ×1,22 con

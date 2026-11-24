@@ -47,8 +47,9 @@ Reglas:
   título: mejor 8 s buenos que 25 s de relleno.
 
 ## Capítulos
-Cada sección abre con su rótulo (`S("TÍTULO", …)` en el EDL → título (y, si el creador lo quiere, número/total con
-casillas: `CONTADOR_CAPITULOS` en su `ajustes.py`, sí de serie), ~3 s, con zoom-out de entrada y música ~10–14 s). Las
+Cada sección abre con su rótulo (`S("TÍTULO", …)` en el EDL → título y subtítulo, ~3 s, con zoom-out de entrada y
+música ~10–14 s). **Sin contador «1/7» ni casillas de progreso** (Lucas, 2026-11-24: «eso no me gusta»); solo vuelve si
+un creador lo pide, con `CONTADOR_CAPITULOS = True` en su `ajustes.py`. Las
 series numeradas DENTRO del vídeo (sospechosos, pasos, top 5) llevan su número siempre. Los tiempos de los capítulos de la descripción salen de esas mismas marcas (`base/descripciones.md`).
 
 ## Cierre

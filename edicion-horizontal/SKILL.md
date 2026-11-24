@@ -46,6 +46,10 @@ bases de la skill  →  personalización del creador (personal/)  →  lo que pi
   (clip de archivo, b-roll, foto, mapa, pista) es de un creador y va en su carpeta.
   Cada vídeo dice de quién es en `out/<slug>/proyecto.py`: `CREADOR = "<creador>"` (si solo hay uno, no hace falta).
 
+**Cambios globales con rollback**: todo cambio de la base que cambia cómo salen los vídeos lleva un id en
+`<skill>/base/CAMBIOS_GLOBALES.md` con lo que había antes. Si un creador dice «desde la actualización no me gusta X»,
+se busca ahí y se deshace solo eso para él: `PY herramientas/montaje/deshacer_cambio.py <creador> G00x`.
+
 **Base o personalización: decide antes de apuntar nada.** Vale para cualquier creador y cualquier vídeo (cómo se elige
 un recurso, cómo se ordena, un fallo técnico) → base. Es de ESTE creador (sus recursos, su marca, su cabecera, su
 gusto: «a mí los zooms más suaves») → `personal/`. Si no está claro, pregunta en una línea: «¿base para todos o solo
@@ -332,7 +336,13 @@ música habitual, sonidos, colores, vídeos suyos publicados:
 ## 5. Analizar referencias (cuando añaden vídeos o enlaces a refs/)
 
 Método completo y herramientas en `<skill>/base/refs/dinamicos/_analisis/METODO.md`; encargos para los agentes en
-`ENCARGO.md` (ficha general) y `ENCARGO_DINAMISMO.md` (cortes, zooms, textos). Por cada vídeo: cortes
+`ENCARGO_ESTILO.md` (el completo, para llenar un estilo: contexto e interés, intro fotograma a fotograma, motion
+graphics, efectos confirmados, fuentes; desde 2026-11-24), `ENCARGO.md` (ficha general) y `ENCARGO_DINAMISMO.md`.
+**Por tandas** (varios enlaces): `PY herramientas/cola_refs.py añadir --estilo <e> URL…` y `… avanzar` baja
+(`bajar_ref.py`, 1080p) y precalcula de uno en uno, deja como mucho 2 «listos para ver» y, con `… hecho <id>` tras
+escribir la ficha, **borra el vídeo**. En Windows, `herramientas/windows/instalar_vigilante.ps1` deja un vigilante
+cada 5 min (RAM y procesos colgados, solo los nuestros). Efectos de sonido: `escuchar_sfx.py` (candidatos + hoja de
+espectrogramas; se confirman mirando). Fuentes: `fuente_rotulo.py` (top-3 de Google Fonts). Por cada vídeo: cortes
 (`detectar_cortes.py`), intro fotograma a fotograma, transcripción, audio (voz y música, `analizar_audio.py`), zooms
 (`medir_zoom.py`), rótulos y gráficos → una **ficha JSON** en `refs/<tipo>/<creador>/` y los patrones, con números, en
 el `CONTEXTO.md` del tipo. Agentes de dos en dos. No se juzga la calidad de imagen, solo la edición. Las referencias

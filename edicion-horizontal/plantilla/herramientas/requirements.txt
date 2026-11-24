@@ -10,3 +10,6 @@ torchaudio
 torchcodec
 demucs
 rembg[cpu]
+transformers>=4.40
+psutil
+yt-dlp

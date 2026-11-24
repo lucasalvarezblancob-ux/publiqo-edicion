@@ -292,7 +292,7 @@ if TITULO and "titulo" in M:
     items.append({"t": "titulo", "f0": M["titulo"], "f1": M["titulo"] + F(TITULO.get("dur", 4.0)), "arriba": TITULO.get("arriba", ""), "grande": TITULO["grande"], "abajo": TITULO.get("abajo", "")})
 for s in L.secciones:
     items.append({"t": "seccion", "f0": s["o"] + F(0.12), "f1": s["o"] + F(3.12), "n": s["n"], "de": len(L.secciones), "titulo": s["titulo"], "sub": s["sub"],
-                  **({} if ajuste("CONTADOR_CAPITULOS", True) else {"contador": False})})
+                  **({} if ajuste("CONTADOR_CAPITULOS", False) else {"contador": False})})
 for a, d, reg, nueva in MAPAS:
     f0 = L.ancla(a); items.append({"t": "mapa", "f0": f0, "f1": f0 + F(d), "reg": reg, "nueva": nueva})
 for a, d, txt, *col in SUBS:

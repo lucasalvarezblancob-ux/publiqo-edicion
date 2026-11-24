@@ -4,7 +4,18 @@ Se analiza **solo la edición**, nunca la calidad de imagen (son copias a 720p/1
 Todo se lanza desde la raíz de la carpeta de edición con Git Bash. Python: `herramientas/.venv/Scripts/python`
 (macOS: `herramientas/.venv/bin/python`).
 
+## Flujo por tandas (desde 2026-11-24)
+`cola_refs.py añadir --estilo <e> URL…` → `cola_refs.py avanzar` (baja con `bajar_ref.py` a 1080p y lanza
+`precalcular_ref.sh`; como mucho 2 vídeos «listos para ver» a la vez; se para si falta RAM o disco) → un agente por
+vídeo con `ENCARGO_ESTILO.md` → `cola_refs.py hecho <id>` (borra el mp4 y los stems; quedan hojas y JSON).
+En Windows, antes: `powershell -ExecutionPolicy Bypass -File herramientas\windows\instalar_vigilante.ps1 -Carpeta <carpeta>`.
+
 ## Ya calculado por vídeo en `refs/dinamicos/_analisis/<video>/`
+- `hojas/intro_fot_NN.jpg`: los primeros 30 s FOTOGRAMA A FOTOGRAMA (una hoja cada 2 s, 10 columnas).
+- `sonoridad.json`: LUFS integrado, rango (LRA) y pico.
+- `sfx.json` + `sfx_hoja_NN.jpg` (`escuchar_sfx.py`): candidatos a efecto de sonido con una pista de tipo (CLAP) y su
+  espectrograma + fotograma. NO están confirmados: se confirman mirando (firmas en `ENCARGO_ESTILO.md` § G).
+- Fuentes: `herramientas/fuente_rotulo.py <recorte>` da el top-3 de Google Fonts (acierta familia; el peso, a veces).
 - `cortes.json`: cada corte (`t`, `score`, `tipo` seco|transicion), duración de planos y resumen por minuto.
   Fiable en cortes secos (comprobado contra fotogramas). NO ve transiciones encadenadas (whip/zoom a mapa) ni
   jump cuts con encuadre casi idéntico: esos se cuentan a ojo en las hojas.
@@ -40,7 +51,7 @@ Todo se lanza desde la raíz de la carpeta de edición con Git Bash. Python: `he
    entrada y salida y duración. Recorta ejemplos.
 8. Motion graphics: mapas, contadores, flechas, recortes, pantallas: cómo entran, cuánto duran, estilo.
 9. Música: entradas, cambios y cortes; nivel respecto a la voz; cambio por secciones; ¿a ritmo de los cortes?
-10. Efectos de sonido: cuáles, cuántos por minuto, dónde (no se oyen: dedúcelos de `acentos` + lo que se ve).
+10. Efectos de sonido: cuáles, cuántos por minuto, dónde. Candidatos en `sfx.json`/`sfx_hoja_*.jpg`; solo cuentan los confirmados mirando.
 11. Estructura: capítulos, tensión/clímax, cierre, CTA, pantalla final.
 12. Subtítulos: ¿subtitulan tramos con ruido / voz lejana / otro idioma? Estilo y posición.
 
