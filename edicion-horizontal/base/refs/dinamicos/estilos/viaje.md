@@ -1,6 +1,6 @@
 # Estilo: viaje
 
-**Qué es**: viaje: llegar a un sitio, moverse, descubrirlo.
+**Qué es**: viaje: llegar a un sitio, moverse, descubrirlo (también la visita a un sitio concreto: zoo, santuario, fábrica).
 **Estado**: sin analizar. Mientras esté así, pedir este estilo no cambia nada (se edita con `../CONTEXTO.md`).
 **Referencias candidatas**: Rubén Holgado (Yakutia, Titanic del Amazonas), YoSoyPlex ×4, TheGrefg (Tailandia).
 

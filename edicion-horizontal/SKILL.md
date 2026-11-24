@@ -1,6 +1,6 @@
 ---
 name: edicion-horizontal
-description: Edición de vídeo horizontal 16:9 para YouTube (vlogs, viajes, retos, visitas, días de entreno; 5–40 min) a partir de brutos largos — análisis y registro visual de los brutos, montaje por texto (EDL), dinamismo con cortes de escala y zooms, planos de recurso sobre la voz, intro con tráiler y título, capítulos, rótulos y cifras, mapas de satélite animados, música por ventanas, efectos, render 4K híbrido (ffmpeg + capas Remotion) y el paquete de YouTube al terminar: 5 parejas de título + miniatura para test A/B (con prompt para ChatGPT y fotograma de referencia), descripción, capítulos y etiquetas, en el idioma del vídeo. Úsala SIEMPRE que pidan editar un vídeo horizontal o largo de bruto/, hacer un vídeo de YouTube, corregir un edit, pedir títulos, miniaturas o la descripción de un vídeo, estudiar un canal de YouTube, añadir referencias, recursos o música, personalizar el estilo de un creador, o "que aprendas" de una corrección; también para instalarla o crear la carpeta de edición. No para reels verticales (esa es edicion-reels).
+description: Edición de vídeo horizontal 16:9 para YouTube (vlogs, viajes, retos, días de entreno; 5–40 min) a partir de brutos largos — análisis y registro visual de los brutos, montaje por texto (EDL), dinamismo con cortes de escala y zooms, planos de recurso sobre la voz, intro con tráiler y título, capítulos, rótulos y cifras, mapas de satélite animados, música por ventanas, efectos, render 4K híbrido (ffmpeg + capas Remotion) y el paquete de YouTube al terminar: 5 parejas de título + miniatura para test A/B (con prompt para ChatGPT y fotograma de referencia), descripción, capítulos y etiquetas, en el idioma del vídeo. Úsala SIEMPRE que pidan editar un vídeo horizontal o largo de bruto/, hacer un vídeo de YouTube, corregir un edit, pedir títulos, miniaturas o la descripción de un vídeo, estudiar un canal de YouTube, añadir referencias, recursos o música, personalizar el estilo de un creador, o "que aprendas" de una corrección; también para instalarla o crear la carpeta de edición. No para reels verticales (esa es edicion-reels).
 ---
 
 # Edición horizontal (YouTube 16:9)
@@ -70,9 +70,9 @@ de este creador?». Los recursos y gustos de un creador **nunca** se apuntan en 
    `personal/<creador>/ajustes.py` (lo del creador, manda).
    ⚠️ **Color: el del bruto, sin tocar.** ⚠️ **Idioma: el que se habla en el vídeo, detectado, nunca supuesto.**
 2. `<skill>/base/refs/dinamicos/CONTEXTO.md` (números de ritmo, zooms, textos, mapas, música) y, si existe,
-   `refs/dinamicos/CONTEXTO.md` de la carpeta (local, manda). Tipos: `dinamicos` (vlog, viaje, reto, visita: lo hecho
+   `refs/dinamicos/CONTEXTO.md` de la carpeta (local, manda). Tipos: `dinamicos` (vlog, viaje, reto: lo hecho
    hasta ahora) y `estudio` (a cámara en interior; aún sin referencias). Un tipo nuevo local = una carpeta en `refs/`.
-   **Estilos** (vlog, viaje, reto, visita, entreno): capa OPCIONAL en `<skill>/base/refs/dinamicos/estilos/`. Solo se
+   **Estilos** (vlog, viaje, reto, entreno): capa OPCIONAL en `<skill>/base/refs/dinamicos/estilos/`. Solo se
    aplica si lo piden para ese vídeo o si el `perfil.md` del creador tiene `Estilo por defecto:`; si no, se edita
    exactamente como hasta ahora, con `CONTEXTO.md` y nada más. Nunca se deduce del bruto. Ver `estilos/LEEME.md`.
 3. `<skill>/base/intros.md` (gancho, ráfaga, título, capítulos, cierre) y `<skill>/base/recursos.md` (registro visual,

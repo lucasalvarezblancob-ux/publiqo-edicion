@@ -25,9 +25,8 @@ edición, nunca su marca, sus recursos ni sus reglas.
 | Estilo | Estado | Referencias candidatas (ya en `../`) |
 |---|---|---|
 | [vlog](vlog.md) | sin analizar | Paul Cuffaro ×4 |
-| [viaje](viaje.md) | sin analizar | Rubén Holgado (Yakutia, Titanic del Amazonas), YoSoyPlex ×4, TheGrefg (Tailandia) |
+| [viaje](viaje.md) | sin analizar | Rubén Holgado (Yakutia, Titanic del Amazonas), YoSoyPlex ×4, TheGrefg (Tailandia); las visitas a un sitio (Lucas Valero, zoo de Fuerteventura; ElXokas, Santuario de Frank) van aquí o a vlog según cada vídeo |
 | [reto](reto.md) | sin analizar | Rubén Holgado (Avispas, Sumo, Mejor trabajo), ElXokas (Café de Colombia) |
-| [visita](visita.md) | sin analizar | Lucas Valero (zoo Fuerteventura), ElXokas (Santuario de Frank) |
 | [entreno](entreno.md) | sin analizar | ninguna: hacen falta referencias |
 
 Un estilo **sin analizar** todavía no cambia nada: si lo piden, se avisa en una línea («el estilo X aún no tiene
@@ -48,3 +47,6 @@ para el montaje con un aviso. Sin `<estilo>.py`, el estilo no cambia ningún nú
 Con 3–5 referencias del estilo, analizadas con `../_analisis/METODO.md`. En `<estilo>.md` solo va **lo que difiere de
 `../CONTEXTO.md`** (con números), nunca una copia de lo común, y la sección «Qué NO se hereda» repasada
 contra `../CONTEXTO.md`. Los números que lee el motor, en `<estilo>.py`. Un estilo nuevo = un archivo aquí y una fila en la tabla.
+
+
+No hay estilo «visita» (Lucas, 2026-11-24: «eso de visita yo lo dejaría en viaje o vlogs»): llegar a un sitio y descubrirlo → viaje; dentro del día a día → vlog.
