@@ -1,0 +1,2038 @@
+{
+  "video": {
+    "archivo": "refs/dinamicos/jesse-james-west/2026-06-07_trying-rhea-ripley-s-morning-routine-in-her-house.mp4",
+    "creador": "Jesse James West",
+    "canal": "Jesse James West",
+    "url": "https://www.youtube.com/watch?v=11WwqobM_RE",
+    "titulo": "Trying Rhea Ripley's Morning Routine in HER House!",
+    "duracion": "32:11 (1931,40 s; 57.884 fotogramas)",
+    "publicado": "2026-06-07",
+    "tramo_analizado": "entero (0:00–32:11.4)",
+    "fps": 29.97,
+    "resolucion": "1920x1080",
+    "idioma": "inglés",
+    "modelo": "fable",
+    "encargo": "ENCARGO_ESTILO.md (2026-11-24)",
+    "estilo": "reto",
+    "estilo_propuesto": "reto (provisional)",
+    "estilo_por_que": "Se queda en reto, en su variante «experiencia con marcador» («probé las mañanas de 6 famosos y las ordeno»), no en vlog ni en entreno. El vídeo son SEIS rutinas (Mark Wahlberg, Kane Brown, Jonathan Majors, Rhea Ripley, Rob Gronkowski y MrBeast) y la de Rhea ocupa 15:28.7–20:34 (5 min 5 s, el 16 %). Lo que lo hace reto, con números: (1) OBJETIVO CON DESENLACE dicho en 0:11.0–0:16.5 («I'll be ranking all six of them on a tier list from S tier superior to F tier the worst») y cerrado 6 veces, un veredicto por famoso (7:38.7 A, 12:18 B, 15:25.5 A, 20:30 S, 25:22 S, 31:44 S), con el tablero final completo en 31:44–31:47. (2) MARCADOR: el tier list S–F sale 7 veces (1 en la intro, construyéndose, y 6 veredictos de ≈ 3 s). (3) PROGRESO EN PANTALLA: lista de pasos por famoso con casillas que se marcan (36 apariciones, 111,6 s = 5,8 % del vídeo, 1 cada 54 s; 31 pasos en total), carrusel «Routine #N» (6 apariciones) y sello de hora (≥ 6). (4) CONTADOR: uno solo, de repeticiones (0 → 13 en 29:19.1–29:30.6) con objetivo 12 y número en amarillo al superarlo. (5) REGLAS Y PENALIZACIONES: no hay ninguna (0 reglas, 0 castigos); el único «precio» es el soborno cómico por la nota (camiseta de Gronk 25:05, 5.000 $ de MrBeast 31:30). (6) Mini-retos dentro: carrera hasta la bola (5:41–6:10, «I beat you»), lucha con Rhea (19:40–20:08), 12 repeticiones con 100 lb (29:17–29:30). No es entreno: entrenar es solo un paso de cada rutina (≈ 35 % del metraje) y no se prepara ninguna prueba. No es vlog: no hay día a día del creador, sino un formato cerrado de 6 bloques iguales con nota final."
+  },
+  "resumen": [
+    "Formato de 6 bloques iguales (uno por famoso) a 29,97 fps: 890 cortes detectados (27,6/min, plano mediano 1,77 s, 16 % por debajo de 1 s) y ≈ 1.020 (950–1.100) contando lo que el detector no ve (≈ 31,7/min). Casi no hay jump cuts al mismo encuadre (3–4 en 210 s mirados a 0,1 s): el ritmo sale de rodar con 3 cámaras y cortar de una a otra en cada réplica, más insertos.",
+    "La intro dura 21,29 s (638 f) y es explicativa exprés: 10,9 s de gancho en frío (saca a MrBeast de la cama) + 10,4 s de premisa con 6 animaciones (pastilla de suscriptores, rejilla de 6 caras, tier list que se construye fila a fila, flecha que baja de S a F, 5 planos de famoso posando con su tarjeta de Instagram y carrusel «Routine #1»). Sin título, sin cabecera, sin saludo y sin ráfaga.",
+    "Cada rutina se cuenta con el mismo sistema gráfico: carrusel de famosos sobre negro («Routine #N» + nombre, 3,0–4,1 s, sin voz y con golpe sonoro), sello de hora en una esquina («9AM»), tarjeta de Instagram con seguidores pegada a la cara, 1–3 clips de archivo dentro de una página de YouTube, lista de pasos tipo Recordatorios de iOS abajo a la izquierda que se va marcando (5–7 apariciones por famoso) y tier list inclinado en 3D con el avatar que cae en su fila.",
+    "El cambio de paso dentro de una rutina lleva casi siempre el mismo trío: destello blanco de 4–8 f + soplido + lista de pasos con la casilla nueva (≈ 30 destellos en todo el vídeo, 0,93/min). La casilla que se marca suena con un «ding».",
+    "El humor de edición sale de: comentario del editor entre asteriscos arriba («*WAYYY TOO LONG*», «*WHY IS HE STILL TALKING?*»), insertos-meme de 0,7–1,0 s con escenas de películas del propio invitado, congelado con icono de pausa (15:43.7), etiquetas con flecha amarilla («CADDY UNIFORM», «SMELLING SALTS», «RHEA'S BFF»), foco sobre la línea de la pizarra que se lee (3 veces en 28:20–28:41), una tarjeta-chiste con la misma plantilla de la lista («Big Words: Nitrates, Antibiotics», 21:24) y, sobre todo, cortar la música en seco durante el chiste y devolverla de golpe en el remate.",
+    "Subtítulos solo puntuales y solo del sonido directo: ≈ 53 líneas (≈ 85 s, 4 % del vídeo, 1,6/min), una línea en mayúsculas con etiqueta de hablante encima («MARK:», «ME:»); amarillo el invitado, blanco Jesse. La voz en off no se subtitula nunca.",
+    "Voz en off guionada en pasado ≈ 19 % del vídeo (≈ 49 bloques, mediana 5,5 s): presenta a cada famoso, hace de puente entre pasos («Next up in Kane's morning…»), mete el patrocinio en 4 menciones de 10–14 s pegadas a la comida y da cada veredicto.",
+    "Música por ventanas cortas: 56 tramos (mediana 20,5 s) que cubren el 78 % del audio, 11,9 dB bajo la voz de mediana; 10 huecos de más de 10 s en las conversaciones serias y en los chistes; sube 6–8 dB por encima del nivel de la voz en los carruseles sin locución.",
+    "Efectos de sonido escasos y con función: 26 confirmados (0,81/min), 12 de ellos el «ding» de casilla marcada; el resto, soplidos en destellos, obturador en las polaroids, caja registradora en el putt y clics del botón de suscribir.",
+    "Cierre: último veredicto con soborno (31:21–31:56), despedida de 8 s con chiste de vuelta (el dólar de la pizarra) y pantalla final de 6,4 s en negro con «WATCH THIS NEXT», lema y código QR del patrocinador."
+  ],
+  "contexto": {
+    "quien": "Jesse James West (creador de fitness, 9,36 M de suscriptores según la captura de 20:12.5) y seis invitados: Mark Wahlberg (actor), Kane Brown (cantante de country), Jonathan Majors (actor), Rhea Ripley (luchadora de WWE, con su amigo «Rhea's BFF», su marido y sus perros), Rob Gronkowski con sus hermanos (exjugador de la NFL) y MrBeast (youtuber, con el entrenador Alex y dos concursantes).",
+    "donde": "Seis casas y sus alrededores: baño de hielo, gimnasio privado y campo de golf de Wahlberg; cocina, estudio y garaje-gimnasio de Kane Brown; un gimnasio de barrio a las 5 de la mañana con Majors; el gimnasio con ring de Rhea y su casa; casa, jardín y gimnasio al aire libre de los Gronkowski; el dormitorio-oficina, el Beast Arena y los platós de MrBeast.",
+    "objetivo": "Hacer la mañana entera de cada uno y ponerle nota en un tier list de S a F. Objetivo personal añadido en 3:52.6–4:13: averiguar qué los hace tan buenos para aplicarlo cuando sea padre («I want to be the best dad that I can be»). En juego no hay nada material: la nota de cada famoso y cómo queda Jesse (derribado por Rhea, sin aliento con Wahlberg).",
+    "tono": "Humor de colegas con doble sentido constante, admiración sin solemnidad y dos o tres preguntas serias por invitado (éxito, paternidad, horas de trabajo) que se dejan sin música. Nada épico.",
+    "gancho_5s": "0:00.00–0:04.0: Jesse susurra a cámara en el cuarto de MrBeast dormido «I'm pulling celebrities out of bed to try their personal morning» con una pastilla blanca «Mr. Beast ✓ 490M subscribers» que nace junto al dormido (f10–f28) y se hace grande sobre él en el segundo plano. La premisa, el famoso más grande y la travesura, en 4 s.",
+    "gancho_30s": "0:04–0:10.9 lo despierta («Jimmy, Jimmy… it's the morning… — Oh my gosh, that's today?») con la música quitada 3 s; 0:10.9–0:18.3 promete ordenar a los seis en un tier list y enseña las seis caras; 0:18.3–0:21.3 carrusel «Routine #1 · Mark Wahlberg»; a los 21,3 s ya está con Wahlberg en el baño de hielo y a los 27,5 s cae el primer chiste de edición («*WAYYY TOO LONG*»).",
+    "preguntas_abiertas": [
+      "¿Qué nota saca cada uno? Se cierra seis veces: 7:38.7 (A), 12:18 (B), 15:25.5 (A), 20:30 (S), 25:22 (S), 31:44 (S).",
+      "¿Qué pasó con MrBeast, al que se despierta en el segundo 0? No se retoma hasta 25:55.2, con el rótulo «EARLIER…»: la intro abre un bucle de 25 minutos y pone al invitado más fuerte al final.",
+      "¿Aguanta Jesse la lucha con Rhea? Se anuncia con «COMING UP:» en 17:08.9 y se resuelve en 19:40–20:08.",
+      "¿Qué sacó de cada uno para ser padre? Se abre en 3:52.6 y se va contestando con una pregunta seria por invitado (3:30 Wahlberg, 6:32 Wahlberg, 10:25 Kane, 13:06 Majors, 16:55 Rhea, 29:11 MrBeast); se recoge en 25:34–25:42."
+    ],
+    "giros": [
+      "0:44.3: Wahlberg ya lleva hora y media despierto cuando llega Jesse (inserto de Jesse dormido con sus alarmas).",
+      "5:41–6:10: la partida de golf se convierte en carrera a pie contra el cochecito.",
+      "11:46–12:10: «sorpresa» de Kane, una camioneta gigante.",
+      "15:28.7: «our next three celebrities are everything but [straightforward]»: el vídeo cambia de entrenos sobrios a casas con juego.",
+      "16:00–16:28: la cafeína de Rhea resulta ser preentreno en seco.",
+      "19:18.6–20:08: el paso final de Rhea es lucha libre y Jesse acaba en la lona.",
+      "25:44–25:52: promesa de segunda parte con youtubers (caras pixeladas) si llega a 150.000 «me gusta».",
+      "28:13–28:42: la pizarra de tareas de MrBeast con «Give Jesse James West $1 billion» que acaba en «$1».",
+      "31:30–31:53: MrBeast paga 5.000 $ por la nota, recibe la S y se queda el dinero."
+    ],
+    "recompensas": [
+      "Un veredicto cada 3–5 minutos (seis en total) y un invitado nuevo con su casa nueva en cada uno.",
+      "Un paso de rutina marcado cada ≈ 54 s (36 apariciones de la lista).",
+      "Momentos «wow»: el putt que se queda en el hoyo con caja registradora (6:31), Majors y las dominadas con 90 lb (13:35), el derribo de Rhea desde 4 ángulos (19:54.9–20:04), las 13 repeticiones con 100 lb y contador (29:21–29:30).",
+      "Cameos y cruces: llamada al padre con Kane Brown (10:10), los concursantes del vídeo de MrBeast (30:17–31:09)."
+    ]
+  },
+  "curva_energia": [
+    {
+      "minuto": 0,
+      "nivel": 5,
+      "motivo": "Gancho en frío + premisa con 6 animaciones + primer famoso. 35 planos; música desde f0 al nivel de la voz, se quita 3 s en el diálogo de la cama."
+    },
+    {
+      "minuto": 1,
+      "nivel": 4,
+      "motivo": "Baño de hielo con Wahlberg: 39 planos (el minuto más cortado, 31 % por debajo de 1 s), 2 insertos-meme de película y 2 polaroids con obturador (1:34)."
+    },
+    {
+      "minuto": 2,
+      "nivel": 4,
+      "motivo": "Bici y prensa: cámara de acción en el manillar, 31 planos, música de batería a 8–10 dB bajo la voz."
+    },
+    {
+      "minuto": 3,
+      "nivel": 3,
+      "motivo": "Bromas de doble sentido en la prensa y pregunta seria sobre el éxito (3:28–4:04) sin música: 36 s de hueco, el más largo del vídeo."
+    },
+    {
+      "minuto": 4,
+      "nivel": 3,
+      "motivo": "Voz en off con el objetivo personal y 3 adelantos «COMING UP:»; chiste del nombre del bebé; rótulo grande «9:00 AM» (4:48)."
+    },
+    {
+      "minuto": 5,
+      "nivel": 4,
+      "motivo": "Golf: trazador amarillo de la bola (5:34–5:40), etiqueta «CADDY UNIFORM», carrera a pie con música que entra en 5:45.4."
+    },
+    {
+      "minuto": 6,
+      "nivel": 4,
+      "motivo": "Final de la carrera («I beat you»), putt con caja registradora (6:31), 32 planos."
+    },
+    {
+      "minuto": 7,
+      "nivel": 4,
+      "motivo": "Primer veredicto (tier list 7:37.3), destello y carrusel #2 con golpe sonoro sin voz (7:44.0–7:47.8), llegada a casa de Kane."
+    },
+    {
+      "minuto": 8,
+      "nivel": 2,
+      "motivo": "Avena, café y nevera: 24 planos, el minuto más tranquilo de la primera mitad; 19 s sin música (8:36–8:55)."
+    },
+    {
+      "minuto": 9,
+      "nivel": 3,
+      "motivo": "Silencio de chiste con la avena aguada (9:15–9:23), mención del patrocinio (9:23–9:37) y paso al estudio."
+    },
+    {
+      "minuto": 10,
+      "nivel": 3,
+      "motivo": "Estudio con archivo en página de YouTube, llamada al padre, dominadas; 31 planos."
+    },
+    {
+      "minuto": 11,
+      "nivel": 3,
+      "motivo": "Saltos al cajón y boxeo; la camioneta entra con golpe de música tras 1 s de silencio (11:52). Solo 20 planos."
+    },
+    {
+      "minuto": 12,
+      "nivel": 3,
+      "motivo": "Segundo veredicto con fundido de recuerdo (12:14), negro de 7 f y carrusel #3 (12:27.5); Majors a las 4:55."
+    },
+    {
+      "minuto": 13,
+      "nivel": 4,
+      "motivo": "Entreno duro con Majors: 34 planos, lista «Jonathan's Workout» marcando 4 veces en un minuto, archivo de la película en página de YouTube."
+    },
+    {
+      "minuto": 14,
+      "nivel": 3,
+      "motivo": "Amanecer («6:30 AM»), poses, 100 flexiones; 16 s sin música en la charla del amanecer (14:17–14:33)."
+    },
+    {
+      "minuto": 15,
+      "nivel": 5,
+      "motivo": "Tercer veredicto, adelanto de los 3 que faltan, carrusel #4 (música 7 dB por encima de la voz), zoom de golpe a Rhea con tarjeta de Instagram, congelado con pausa y archivo de WWE: 30 planos, 27 % por debajo de 1 s."
+    },
+    {
+      "minuto": 16,
+      "nivel": 4,
+      "motivo": "Preentreno en seco con dos encadenados, destello y zoom animado ×1,62 (16:26.75); diálogo en ping-pong de 6 planos en 4,9 s."
+    },
+    {
+      "minuto": 17,
+      "nivel": 4,
+      "motivo": "Adelanto de la lucha («COMING UP:» 17:08.9), se quita la camiseta, sales aromáticas con 2 etiquetas seguidas, derribo en el suelo."
+    },
+    {
+      "minuto": 18,
+      "nivel": 3,
+      "motivo": "Desayuno, patrocinio (18:30–18:44) y perros; plano de 9,9 s de los perros corriendo."
+    },
+    {
+      "minuto": 19,
+      "nivel": 5,
+      "motivo": "Lucha: destello con soplido (19:18.6), disfraz, 3 derribos enseñados desde 2–4 ángulos con cámara lenta y la música 6 dB por encima de la voz en los golpes (19:57–19:59). Pico del vídeo."
+    },
+    {
+      "minuto": 20,
+      "nivel": 4,
+      "motivo": "Remate («Where's John Cena»), petición de suscripción con página del canal y polaroids, veredicto S (20:30), carrusel #5 y Gronk dormido con «10AM»."
+    },
+    {
+      "minuto": 21,
+      "nivel": 3,
+      "motivo": "Huevos, salchichas y chupitos de jengibre; 25 s sin música en los chistes (21:18–21:43); tarjeta-chiste «Big Words»."
+    },
+    {
+      "minuto": 22,
+      "nivel": 3,
+      "motivo": "Rompecabezas y gag de «apunta las cámaras arriba»: plano de 10,7 s con la cámara mirando al techo, sin música, que vuelve de golpe en el abrazo (22:50.7)."
+    },
+    {
+      "minuto": 23,
+      "nivel": 3,
+      "motivo": "Sol y poses con encadenado; 28 s sin música (23:06–23:34); trayecto al gimnasio con barrido."
+    },
+    {
+      "minuto": 24,
+      "nivel": 4,
+      "motivo": "Press con el discurso motivador absurdo de Gronk y baño de hielo de los tres con chapuzón."
+    },
+    {
+      "minuto": 25,
+      "nivel": 4,
+      "motivo": "Soborno con camiseta, veredicto S, recapitulación con viñeta, petición de 150.000 «me gusta» con caras pixeladas y carrusel #6 que recorre a los seis."
+    },
+    {
+      "minuto": 26,
+      "nivel": 3,
+      "motivo": "Vuelta al gancho («EARLIER…» 25:55.2), baño de MrBeast: conversación a dos cámaras, lista que se marca en 26:01–26:05."
+    },
+    {
+      "minuto": 27,
+      "nivel": 3,
+      "motivo": "Vitaminas y patrocinio con llamada escrita (27:15–27:26); mapa en pantalla partida con línea roja (27:46–28:02) dentro de un plano de 16,1 s, el más largo."
+    },
+    {
+      "minuto": 28,
+      "nivel": 4,
+      "motivo": "Gag de la pizarra con foco en 3 líneas, destello al Beast Arena y etiqueta «TRAINER ALEX» con seguimiento."
+    },
+    {
+      "minuto": 29,
+      "nivel": 5,
+      "motivo": "Mancuernas de 100 lb con contador de repeticiones 0 → 13, objetivo superado en amarillo y botón de suscribir con clic (29:30.4–29:33). 30 planos, solo 3 % por debajo de 1 s: se ve entero."
+    },
+    {
+      "minuto": 30,
+      "nivel": 3,
+      "motivo": "Pregunta del contrato rechazado sin música (33 s de hueco, 29:48–30:21), archivo del vídeo de MrBeast y visita a los concursantes."
+    },
+    {
+      "minuto": 31,
+      "nivel": 4,
+      "motivo": "Corte cómico («this video isn't about you»), recuento con fundido de recuerdo, soborno de 5.000 $, S final con el tablero completo y despedida."
+    },
+    {
+      "minuto": 32,
+      "nivel": 1,
+      "motivo": "Coletilla del dólar y pantalla final en negro (6,4 s)."
+    }
+  ],
+  "picos_y_preparacion": [
+    {
+      "pico": "19:54.9–20:04.0 derribo de Rhea",
+      "como_se_prepara": "Anunciado 2 min 46 s antes con el adelanto «COMING UP:» (17:08.9), paso marcado en la lista (19:13.6), destello + soplido y voz en off («the only thing at risk of getting hurt was my feelings», 19:18.6–19:30), disfraz y piques en 4 planos de 0,6–0,9 s (19:38–19:41), dos derribos previos como calentamiento (19:43.6 y 19:50.6) y carrerilla de 1,9 s en plano general. El golpe se enseña desde 4 ángulos con cámara lenta, sin voz y con la música a −11 dB (6 dB por encima de la voz media)."
+    },
+    {
+      "pico": "29:21.0–29:29.9 serie de 13 con 100 lb",
+      "como_se_prepara": "Subtítulo «MR. BEAST: HITTING THE 100'S» (29:17.3), reto dicho y subtitulado («IF YOU HIT 12 REPS YOU'LL HIT 100M SUBSCRIBERS», 29:19.3–29:21.7), contador que entra a 0 con fundido de 6 f; elipsis de las repeticiones 2–9 con un destello de 2 f."
+    },
+    {
+      "pico": "15:42.2 presentación de Rhea",
+      "como_se_prepara": "Adelanto de 3 planos (15:30.7–15:34.3), carrusel #4 sin voz con el golpe sonoro más alto del vídeo (−9 dB), puerta con sonido directo de nudillos y sello «9AM», y solo entonces el zoom de golpe ×2,15 con soplido."
+    }
+  ],
+  "ritmo_informacion": "Intro: algo nuevo cada 3,5 s (6 animaciones en 21,3 s). Cuerpo: un famoso nuevo cada 3–7 min (bloques de 7:19, 4:47, 3:01, 5:05, 5:00 y 6:07), un paso de rutina nuevo cada ≈ 54 s (36 apariciones de la lista para 31 pasos), un gráfico o rótulo nuevo cada 15–20 s y un chiste de edición o de diálogo cada 20–30 s. Lo que se recorta: todos los trayectos (resueltos con voz en off «A few hours later, we made our way to the golf course», sello de hora y plano de situación de 1–2 s), las repeticiones (13 en 8,9 s con contador y elipsis de 2 a 10), cocinar (corte directo al plato), y casi todas las series de cada entreno (un ejercicio = 2–4 planos). Lo que se resume con texto: horas (sello de esquina), pasos (lista), quién es quién (tarjeta de Instagram, etiqueta con flecha).",
+  "estructura": [
+    {
+      "desde": "0:00.00",
+      "hasta": "0:10.91",
+      "parte": "gancho en frío",
+      "que_pasa": "Saca a MrBeast de la cama; premisa en una frase."
+    },
+    {
+      "desde": "0:10.91",
+      "hasta": "0:21.29",
+      "parte": "premisa animada",
+      "que_pasa": "Rejilla de 6 caras, tier list que se construye, 5 planos de famoso con tarjeta de Instagram, carrusel «Routine #1 · Mark Wahlberg»."
+    },
+    {
+      "desde": "0:21.29",
+      "hasta": "7:40.36",
+      "parte": "rutina 1: Mark Wahlberg (7:19)",
+      "que_pasa": "Baño de hielo (0:21–1:38), bici, prensa y preguntas (1:38–4:47), golf con carrera (4:47–7:34), veredicto A (7:37.3–7:40.4). Mención del patrocinio 5:47–5:57."
+    },
+    {
+      "desde": "7:40.36",
+      "hasta": "12:27.28",
+      "parte": "rutina 2: Kane Brown (4:47)",
+      "que_pasa": "Puente + carrusel #2 (7:44.0–7:47.8), avena y café, estudio, entreno y boxeo, camioneta, veredicto B (12:18). Patrocinio 9:23–9:37."
+    },
+    {
+      "desde": "12:27.28",
+      "hasta": "15:28.7",
+      "parte": "rutina 3: Jonathan Majors (3:01)",
+      "que_pasa": "Carrusel #3 (12:27.5), entreno a las 5:00 con lista de 6 ejercicios, amanecer «6:30 AM», 100 flexiones, veredicto A (15:24–15:26, decidido hablando con él delante)."
+    },
+    {
+      "desde": "15:28.7",
+      "hasta": "20:34.03",
+      "parte": "rutina 4: Rhea Ripley (5:05)",
+      "que_pasa": "Adelanto de los 3 que faltan, carrusel #4 (15:34.3–15:38.4), puerta «9AM», zoom + tarjeta + congelado, archivo; cafeína (15:53.8), entreno (16:34.2), desayuno (18:03.4, patrocinio 18:30–18:44), perros (18:50.0), lucha (19:13.6–20:08); petición de suscripción (20:09–20:20), veredicto S (20:30)."
+    },
+    {
+      "desde": "20:34.03",
+      "hasta": "25:34.13",
+      "parte": "rutina 5: Rob Gronkowski (5:00)",
+      "que_pasa": "Carrusel #5 (20:38), Gronk dormido «10AM», recuerdo «EARLIER…» (20:55.9), desayuno, rompecabezas, sol, gimnasio, baño de hielo, ensalada, soborno y veredicto S (25:22)."
+    },
+    {
+      "desde": "25:34.13",
+      "hasta": "25:49.4",
+      "parte": "recapitulación y petición de «me gusta»",
+      "que_pasa": "Voz en off sobre 5 planos de recuerdo con viñeta; pastilla «150K? Like» con youtubers pixelados."
+    },
+    {
+      "desde": "25:49.4",
+      "hasta": "31:56.3",
+      "parte": "rutina 6: MrBeast (6:07)",
+      "que_pasa": "Carrusel #6 que recorre a los seis, «EARLIER…» (25:55.2) con el gancho, aseo, vitaminas y patrocinio (27:15–27:26), mapa de viajes, pizarra, Beast Arena, serie con contador y suscripción (29:17–29:33), visita a los concursantes, soborno y veredicto S (31:44)."
+    },
+    {
+      "desde": "31:56.3",
+      "hasta": "32:04.86",
+      "parte": "despedida",
+      "que_pasa": "«Subscribe. I'll see you guys in the next one» + coletilla del dólar + lema «Stay relentless»."
+    },
+    {
+      "desde": "32:05.02",
+      "hasta": "32:11.40",
+      "parte": "pantalla final (6,4 s)",
+      "que_pasa": "Negro con «WATCH THIS NEXT», «STAY RELENTLESS» y código QR del patrocinador; la voz repite el código."
+    }
+  ],
+  "elementos_de_reto": {
+    "reglas": "Ninguna regla numerada ni explicada. La única norma implícita es «hago todo lo que haga el famoso, a su hora» y se apoya en los sellos de hora.",
+    "objetivo_y_desenlace": "Objetivo en 0:11.0–0:16.5 (ordenar a los seis de S a F). Desenlace repartido: 6 veredictos (7:38.7, 12:18, 15:25.5, 20:30, 25:22, 31:44) y tablero final en 31:44–31:47: S = Rhea Ripley, Rob Gronkowski, MrBeast; A = Mark Wahlberg, Jonathan Majors; B = Kane Brown; C–F vacías.",
+    "marcador": "Tier list de 7 filas (S, A, B, C, D, E, F) con avatares circulares; 7 apariciones de ≈ 3 s. El tablero conserva los avatares anteriores, así que cada veredicto enseña también la clasificación acumulada.",
+    "contador": "Uno: repeticiones 0 → 13 en un círculo negro arriba a la izquierda (29:19.1–29:30.6), con objetivo 12 y el 13 en amarillo.",
+    "penalizaciones": "Ninguna. En su lugar, sobornos cómicos por la nota: camiseta firmada (25:05–25:20) y 5.000 $ (31:30–31:53).",
+    "como_se_muestra_el_progreso": "Cuatro capas que no se pisan: (a) carrusel «Routine #N» al abrir cada bloque (en qué famoso vamos, de 6); (b) lista de 5–6 pasos con casillas (en qué paso de su mañana); (c) sello de hora (a qué hora ocurre); (d) tier list al cerrar (cómo va la clasificación).",
+    "mini_retos": "Carrera a pie contra el cochecito de golf (5:41–6:10), lucha con Rhea (19:40–20:08), 12 repeticiones con 100 lb (29:17–29:30), concurso de poses (14:36–14:48 y 23:22–23:33)."
+  },
+  "intro": {
+    "tipo": "explicativa",
+    "por_que_ese_tipo": "Es explicativa en versión exprés: 21,29 s. El vídeo tiene una premisa que hay que explicar (seis famosos, hago su mañana, les pongo nota de S a F) y la explica con voz + animación, una imagen por cada cosa que dice: pastilla de suscriptores para «celebrities», rejilla de seis caras para «all six of them», columna S–F que se construye para «tier list», flecha que baja para «from S tier superior to F tier the worst» y carrusel con nombre para «our first celebrity». No es corta al estilo Alessio Pierucci: no hay ráfaga ni estroboscopio (detectar_cortes.py --rafagas --hasta 21.3 da 0 cortes en ráfaga), no hay nombre ni cabecera, y los planos de muestra van CON locución y con gráfico encima, no cortados a la música. Lo que tiene de corta es la duración: la premisa cabe en dos frases y no hace falta más.",
+    "duracion_s": 21.29,
+    "duracion_f": 638,
+    "orden": "gancho en frío en escena (0:00.00–0:10.91, 10,9 s) → corte por coincidencia de la cara al logo → rejilla de 6 caras (2,4 s) → 5 planos de famoso posando con tarjeta de Instagram mientras se construye el tier list y baja la flecha (5,0 s) → carrusel «Routine #1 · Mark Wahlberg» (3,0 s) → primer famoso (0:21.29).",
+    "piezas_que_hay": {
+      "cold_open": "sí, 10,9 s (f0–f326), en escena y con sonido directo",
+      "trailer": "no como tal: 5 planos de muestra de 0,77–1,73 s con gráfico encima (5,0 s)",
+      "rafaga": "no (0 planos de menos de 0,7 s; el más corto, 0,77 s)",
+      "pregunta": "no",
+      "titulo": "no",
+      "cabecera_animada": "no; lo más parecido es el carrusel «Routine #1» (3,0 s), que funciona como cartela de capítulo, no como título del vídeo",
+      "logo": "no",
+      "saludo": "no"
+    },
+    "clips_rafaga_trailer": [
+      {
+        "t": "0:00.00–0:10.91",
+        "sale_de": "sesión de MrBeast, rodada para abrir; continúa en 25:55.2 con el rótulo «EARLIER…»",
+        "funcion": "promesa (empieza y no se resuelve hasta 25 min después) y llamativo (el invitado más famoso, en la cama)",
+        "que_se_ve": "Jesse susurra a cámara en selfie, MrBeast dormido al fondo; lo despierta y le quita la manta."
+      },
+      {
+        "t": "0:13.28–0:14.15 (26 f)",
+        "sale_de": "sesión de MrBeast, ≈ 26:53–26:58 (baño, «flex in the mirror»)",
+        "funcion": "anticipa",
+        "que_se_ve": "MrBeast y Jesse sacando bíceps; tarjeta «Mr. Beast» junto a su cabeza."
+      },
+      {
+        "t": "0:14.15–0:14.92 (23 f)",
+        "sale_de": "sesión de Gronkowski, ≈ 23:24–23:30 (poses al sol)",
+        "funcion": "anticipa",
+        "que_se_ve": "Gronk sin camiseta posando; tarjeta «gronk · 997 posts · 4.9M followers»."
+      },
+      {
+        "t": "0:14.92–0:15.72 (24 f)",
+        "sale_de": "sesión de Rhea Ripley, posado en su gimnasio con ring (no localizado en el cuerpo: plano hecho para la intro)",
+        "funcion": "llamativo",
+        "que_se_ve": "Rhea de brazos cruzados mirando a cámara; tarjeta «rhearipley_wwe · 3,162 posts · 6.7M followers»; nace la flecha blanca en la fila S."
+      },
+      {
+        "t": "0:15.72–0:16.58 (26 f)",
+        "sale_de": "sesión de Jonathan Majors, ≈ 14:36–14:48 (poses)",
+        "funcion": "anticipa",
+        "que_se_ve": "Majors y Jesse posando; tarjeta de Instagram (5M followers); flecha en la fila F."
+      },
+      {
+        "t": "0:16.58–0:18.32 (52 f)",
+        "sale_de": "sesión de Kane Brown, ≈ 11:52–12:00 (camioneta gigante)",
+        "funcion": "anticipa",
+        "que_se_ve": "Kane ante la camioneta; tarjeta «kanebrown · 412 posts · 3.9M followers». Es el más largo porque encima va «Starting with our first celebrity»."
+      }
+    ],
+    "proporciones_clips": "6 clips: 1 promesa (el gancho en frío: 10,9 s, 51 % de la intro), 4 que anticipan y 1 llamativo (los cinco posados: 5,0 s, 24 %). 0 «bonitos» (ni un paisaje ni un plano de sitio). El 25 % restante son gráficos a pantalla completa sobre negro (rejilla 2,4 s + carrusel 3,0 s). Los cinco de muestra son el MISMO tipo de plano: el famoso quieto, posando o mirando a cámara, encuadrado a un lado para que quepan la columna del tier list a la izquierda y su tarjeta al otro.",
+    "que_no_meten_nunca": "Ninguna acción del cuerpo del vídeo: ni la lucha con Rhea, ni la serie con contador, ni la carrera de golf, ni la pizarra. Ningún veredicto ni fila ocupada del tier list (el tablero sale vacío). Ningún trayecto, comida ni plano de sitio. Nada del patrocinador. Y el primer famoso (Wahlberg) no tiene plano de muestra: sale directamente su bloque. Los mejores momentos se guardan para adelantos etiquetados «COMING UP:» ya dentro del vídeo (0:52.9, 3:56–4:02, 17:08.9).",
+    "animaciones_explicativas": [
+      {
+        "t": "0:00.33–0:03.73",
+        "frase": "«I'm pulling celebrities out of bed to try their personal morning»",
+        "que_es": "pastilla de canal «Mr. Beast ✓ 490M subscribers»",
+        "f0": 10,
+        "f1": 112,
+        "como_esta_hecha": "Cápsula blanca con avatar circular, nombre, marca de verificado y cifra, estética de interfaz. Nace diminuta abajo a la izquierda, pegada a MrBeast dormido al fondo (f10), y crece deslizándose en perspectiva hasta f28; quieta f30–f44. En el corte de f46 se quema en un destello blanco con desenfoque (f46–f49), se vuelve a formar grande sobre el primer plano del dormido (nítida en f55) y se apaga por fundido en f105–f112 (8 f).",
+        "sfx": "sin confirmar (sfx.json no tiene candidatos antes de 0:27.59)"
+      },
+      {
+        "t": "0:10.33–0:13.25",
+        "frase": "«And I'll be ranking all six of them»",
+        "que_es": "corte por coincidencia de la cara de MrBeast a su logo + rejilla de 6 retratos circulares sobre negro",
+        "f0": 310,
+        "f1": 397,
+        "como_esta_hecha": "Zoom animado acelerado sobre la cara ×1,0 → ×3,3 en 17 f (f310–f326); en f327 la cara se sustituye por un círculo con el logo de MrBeast a pantalla completa con halo blanco; zoom-out con desenfoque en 13 f (f327–f340, frenada) que descubre la rejilla 3×2 (Wahlberg, Kane, Majors / Gronk, Rhea, logo); después zoom-out lento a −5,7 %/s. Cada círculo se enciende con un halo blanco por turno, 6–8 f cada uno (Rhea ≈ 0:11.90, Gronk 0:12.13, Kane y Majors 0:12.36–0:12.50, Wahlberg 0:12.83).",
+        "sfx": "sin confirmar"
+      },
+      {
+        "t": "0:13.28–0:18.30",
+        "frase": "«on a tier list»",
+        "que_es": "columna del tier list que se construye fila a fila",
+        "f0": 398,
+        "f1": 548,
+        "como_esta_hecha": "Columna de 7 casillas de color pegada al borde izquierdo (≈ 4,5 % del ancho, todo el alto) sobre los planos de muestra. Entra una casilla cada 3–6 f de arriba abajo: S f398, A f401, B f404, C f410, D f416, E f419, F f424–f427. No se mueve al cambiar de plano: pasa por encima de 5 cortes.",
+        "sfx": "sin confirmar"
+      },
+      {
+        "t": "0:13.28–0:18.30",
+        "frase": "(una por nombre que no se dice: la tarjeta lo dice por él)",
+        "que_es": "tarjeta de perfil de Instagram de cada famoso (5)",
+        "f0": 398,
+        "f1": 548,
+        "como_esta_hecha": "Cápsula blanca ≈ 610×210 px con avatar con aro degradado de Instagram, usuario en negrita, verificado y «N posts · N followers». Está desde el primer fotograma de cada plano, al lado contrario del tier list, a la altura de la cabeza. 26, 23, 24, 26 y 52 f.",
+        "sfx": "sin confirmar"
+      },
+      {
+        "t": "0:15.06–0:18.30",
+        "frase": "«from S tier superior to F tier the worst»",
+        "que_es": "flecha blanca que recorre el tier list",
+        "f0": 452,
+        "f1": 548,
+        "como_esta_hecha": "Flecha blanca gruesa apuntando a la columna; nace en la fila S (f452, en «S tier») y baja de fila en fila hasta F en 18 f (f470, en «F tier»); se queda en F durante los dos planos siguientes.",
+        "sfx": "sin confirmar"
+      },
+      {
+        "t": "0:18.32–0:21.26",
+        "frase": "«[Starting with our first celebrity,] Mark Wahlberg»",
+        "que_es": "carrusel de famosos: tarjeta «Routine #1 · MARK WAHLBERG»",
+        "f0": 549,
+        "f1": 637,
+        "como_esta_hecha": "Corte seco a negro con la tarjeta ya colocada: retrato circular con halo a la izquierda, a la derecha pastilla gris «Routine #1» con texto amarillo-lima que parpadea como un neón (f549–f563) y queda encendida, nombre en dos líneas blancas con resplandor (7,5 % del alto por línea) e icono dorado de cámara de cine que late. Empuje lento +2,9 %/s con frenada (×1,0 → ×1,063). El nombre se dice ≈ 0,7 s después de entrar la tarjeta (0:19.0), tras 1 s sin voz.",
+        "sfx": "sin confirmar (la pista sube a −18,9 dB en el segundo 18, sin voz)"
+      }
+    ],
+    "animaciones_nota": "6 animaciones en 21,3 s: una cada 3,5 s. Ninguna se escribe letra a letra. Todas menos el carrusel van SOBRE imagen real; a pantalla completa solo la rejilla y el carrusel (5,4 s de negro en total).",
+    "linea_de_tiempo": [
+      {
+        "f0": 0,
+        "f1": 45,
+        "t": "0:00.00–0:01.53",
+        "que_se_ve": "Jesse en selfie, susurrando; MrBeast dormido al fondo a la izquierda",
+        "origen": "grabado para abrir (sesión de MrBeast)",
+        "camara": "selfie en mano",
+        "zoom_velocidad": "arranca en primerísimo plano y hace zoom-out de golpe ×2,5 → ×1,0 en 3 f con desenfoque (f0–f3)",
+        "texto": "",
+        "motion_graphic": "pastilla «Mr. Beast ✓ 490M subscribers» nace en f10 y crece hasta f28",
+        "sfx": "sin confirmar",
+        "musica": "entra en f0 a −19,6 dB, al nivel de la voz (−21,1 dB)",
+        "voz": "«I'm pulling celebrities out of bed to try their»"
+      },
+      {
+        "f0": 46,
+        "f1": 112,
+        "t": "0:01.53–0:03.74",
+        "que_se_ve": "primer plano de MrBeast dormido; la mano de Jesse con un frasco",
+        "origen": "misma escena, segunda cámara",
+        "camara": "en mano, cerrado",
+        "zoom_velocidad": "×1,00",
+        "texto": "",
+        "motion_graphic": "destello blanco con desenfoque f46–f49; pastilla grande nítida en f55, se apaga f105–f112",
+        "sfx": "sin confirmar",
+        "musica": "baja a −26,5 dB",
+        "voz": "«personal morning»"
+      },
+      {
+        "f0": 113,
+        "f1": 244,
+        "t": "0:03.76–0:08.16",
+        "que_se_ve": "barrido de 5 f con desenfoque (f113–f117) hasta Jesse inclinado sobre la cama; plano de dos cerrado",
+        "origen": "misma escena",
+        "camara": "en mano",
+        "zoom_velocidad": "reencuadre de edición ≈ ×1,57 sobre el general",
+        "texto": "",
+        "motion_graphic": "",
+        "sfx": "",
+        "musica": "se quita: −38,7 / −43,4 / −41,8 dB en los segundos 5, 6 y 7",
+        "voz": "«Jimmy, Jimmy. — Yeah? — It's the morning. We got to go. We got to do your morning routine. — Oh my gosh, that's today?»"
+      },
+      {
+        "f0": 245,
+        "f1": 309,
+        "t": "0:08.16–0:10.33",
+        "que_se_ve": "el mismo plano se abre al general: MrBeast se incorpora",
+        "origen": "misma escena",
+        "camara": "en mano",
+        "zoom_velocidad": "zoom-out animado ×1,57 → ×1,0 en 6 f con frenada (f245–f250)",
+        "texto": "",
+        "motion_graphic": "",
+        "sfx": "",
+        "musica": "vuelve de golpe en el segundo 8 (−24,4 dB)",
+        "voz": "«Yeah, we got to go. Come on. Let's go. Come on.»"
+      },
+      {
+        "f0": 310,
+        "f1": 326,
+        "t": "0:10.33–0:10.90",
+        "que_se_ve": "Jesse tira de la manta; la cámara se mete en la cara de MrBeast",
+        "origen": "misma escena",
+        "camara": "en mano",
+        "zoom_velocidad": "zoom-in animado acelerado ×1,0 → ×3,3 en 17 f",
+        "texto": "",
+        "motion_graphic": "",
+        "sfx": "sin confirmar",
+        "musica": "sigue",
+        "voz": "«Let's go for it.»"
+      },
+      {
+        "f0": 327,
+        "f1": 397,
+        "t": "0:10.91–0:13.25",
+        "que_se_ve": "logo de MrBeast en un círculo a pantalla completa → rejilla 3×2 de seis retratos circulares sobre negro",
+        "origen": "gráfico",
+        "camara": "",
+        "zoom_velocidad": "zoom-out con desenfoque 13 f (f327–f340) y luego −5,7 %/s",
+        "texto": "",
+        "motion_graphic": "halo blanco que recorre los seis círculos",
+        "sfx": "sin confirmar",
+        "musica": "−23,8 dB (8 dB bajo la voz)",
+        "voz": "off: «And I'll be ranking all six of them on a tier»"
+      },
+      {
+        "f0": 398,
+        "f1": 423,
+        "t": "0:13.28–0:14.13",
+        "que_se_ve": "MrBeast y Jesse sacando bíceps",
+        "origen": "del propio vídeo (≈ 26:53)",
+        "camara": "en mano",
+        "zoom_velocidad": "×1,00",
+        "texto": "",
+        "motion_graphic": "tarjeta «Mr. Beast»; columna del tier list S → F (f398–f427)",
+        "sfx": "sin confirmar",
+        "musica": "sigue",
+        "voz": "off: «list»"
+      },
+      {
+        "f0": 424,
+        "f1": 446,
+        "t": "0:14.15–0:14.90",
+        "que_se_ve": "Gronkowski posando sin camiseta",
+        "origen": "del propio vídeo (≈ 23:24)",
+        "camara": "en mano",
+        "zoom_velocidad": "×1,00",
+        "texto": "",
+        "motion_graphic": "tarjeta «gronk»; tier list completo",
+        "sfx": "",
+        "musica": "sigue",
+        "voz": "off: «from»"
+      },
+      {
+        "f0": 447,
+        "f1": 470,
+        "t": "0:14.92–0:15.70",
+        "que_se_ve": "Rhea Ripley de brazos cruzados en su gimnasio",
+        "origen": "posado de su sesión",
+        "camara": "fija",
+        "zoom_velocidad": "×1,00",
+        "texto": "",
+        "motion_graphic": "tarjeta «rhearipley_wwe»; flecha blanca baja de S a F (f452–f470)",
+        "sfx": "",
+        "musica": "sigue",
+        "voz": "off: «S tier superior»"
+      },
+      {
+        "f0": 471,
+        "f1": 496,
+        "t": "0:15.72–0:16.57",
+        "que_se_ve": "Jonathan Majors posando con Jesse",
+        "origen": "del propio vídeo (≈ 14:40)",
+        "camara": "en mano",
+        "zoom_velocidad": "×1,00",
+        "texto": "",
+        "motion_graphic": "tarjeta de Instagram; flecha en F",
+        "sfx": "",
+        "musica": "sigue",
+        "voz": "off: «to F tier the worst.»"
+      },
+      {
+        "f0": 497,
+        "f1": 548,
+        "t": "0:16.58–0:18.30",
+        "que_se_ve": "Kane Brown delante de su camioneta",
+        "origen": "del propio vídeo (≈ 11:55)",
+        "camara": "en mano",
+        "zoom_velocidad": "×1,00",
+        "texto": "",
+        "motion_graphic": "tarjeta «kanebrown»; flecha en F",
+        "sfx": "",
+        "musica": "sigue (−28,6 dB)",
+        "voz": "off: «Starting with our first celebrity,»"
+      },
+      {
+        "f0": 549,
+        "f1": 637,
+        "t": "0:18.32–0:21.26",
+        "que_se_ve": "tarjeta del carrusel sobre negro: retrato circular, «Routine #1», MARK WAHLBERG, icono dorado",
+        "origen": "gráfico",
+        "camara": "",
+        "zoom_velocidad": "empuje lento +2,9 %/s con frenada (×1,063 al final)",
+        "texto": "«Routine #1» · «MARK WAHLBERG»",
+        "motion_graphic": "parpadeo de neón de la pastilla f549–f563; icono que late ≈ f596–f602",
+        "sfx": "sin confirmar",
+        "musica": "sube a −18,9 dB en el segundo 18, sin voz",
+        "voz": "1 s sin voz → «Mark Wahlberg» (≈ 0:19.0–0:19.9) → 1,3 s sin voz"
+      }
+    ],
+    "titulo_cabecera": {
+      "como_se_construye": "No hay título ni cabecera del vídeo. Lo que hace de cartela es la tarjeta del carrusel, que se repite al abrir cada rutina: plantilla (misma composición las 6 veces, solo cambian retrato, número, nombre e icono dorado: cámara de cine, corona, cinturón…), motion graphic sencillo hecho a mano una vez y reutilizado.",
+      "fuente": "nombre: top-3 de fuente_rotulo.py (--color #FFFFFF) sobre «WAHLBERG»: Work Sans 800 +0,704 · Lexend 800 +0,592 · Montserrat 800 +0,591 (el resplandor engorda la letra). Juicio: Montserrat ExtraBold/Black, la misma del resto del vídeo. Pastilla «Routine #1»: sans de interfaz en peso normal (sin medir, 22 px de alto).",
+      "color": "nombre #FFFFFF con resplandor blanco; «Routine #1» amarillo-lima ≈ #E6F03C sobre pastilla gris #3A3A3A; icono dorado ≈ #C89B3C; fondo negro",
+      "duracion_f": 89,
+      "sonido": "sin confirmar en la intro. En las otras cinco apariciones va sin voz y con un golpe sonoro de ≈ 2 s a −9/−12 dB de pista (ver dudas)."
+    },
+    "primer_plano_hablando_s": 0.0,
+    "primera_frase": "«I'm pulling celebrities out of bed to try their personal morning» (susurrada, a cámara, desde el fotograma 0).",
+    "ritmo": "12 planos en 21,29 s contando el barrido y los reencuadres animados (10 según el detector: media 2,13 s). Gancho: 3 tomas en 10,9 s. Premisa: 7 planos en 10,4 s (media 1,48 s; los cinco de muestra, 0,77–1,73 s). 0 planos por debajo de 0,7 s."
+  },
+  "motion_graphics": [
+    {
+      "tipo": "lista de pasos de la rutina (el marcador de progreso)",
+      "que_es": "tarjeta blanca tipo Recordatorios de iOS con el nombre del famoso de título y 5–6 pasos, cada uno con casilla circular y emoji",
+      "entrada": "de golpe con un corte (completa desde el primer fotograma, p. ej. 4:57.10) o, cuando abre un paso nuevo, naciendo de un rectángulo blanco cuyo contenido aparece en ≈ 9 f (18:50.0–18:50.3) dentro de un destello",
+      "salida": "sola, en 4 f: se desenfoca, cae ≈ 40 % de su alto y se funde (5:04.93–5:05.03). No sale con el corte: cruza 1–2 cortes por encima del montaje (4:57.0–5:05.0 cruza el de 5:02.1; 15:53.8–15:56.9 cruza el de 15:55.0; 18:50.0–18:53.1 cruza dos)",
+      "curva": "sin rebote; el check se rellena en 1 fotograma (4:58.15 → 4:58.18)",
+      "posicion": "abajo a la izquierda: x 57–435, y 633–1027 px en 1080p (margen izquierdo 3 %, inferior 4,9 %)",
+      "tamano": "378×394 px = 19,7 % del ancho × 36,5 % del alto; radio de esquina ≈ 28 px; sombra suave hacia abajo",
+      "color": "fondo #FFFFFF; texto #3C3C3C; casilla marcada amarillo dorado ≈ #E5B00F con check blanco; casilla vacía con borde gris ≈ #C8C8C8",
+      "fuente": "título en sans negrita (28 px de alto de mayúscula = 2,6 %) y filas en regular (≈ 19 px = 1,8 %): aspecto SF Pro (equivalente libre: Inter 700 / 400). fuente_rotulo.py (--color #3C3C3C) no fiable: título Courier Prime −0,463 · Cinzel 500 −0,475 · Bodoni Moda 500 −0,479; fila Bodoni Moda 500 −0,121 · Courier Prime −0,207 · Libre Baskerville 400 −0,230",
+      "sonido": "«ding» al marcarse una casilla (12 confirmados; −11 a −22 dB respecto a la voz); soplido cuando entra dentro de un destello (0:41.1, 18:50.1). La salida no suena.",
+      "disparador": "la frase que nombra el paso («First order of business, we've got the cold plunge» 0:40; «Next essential step, take care of the pups» 18:55) o la que lo da por hecho («I read my scripts» → se marca «Read Script» en 4:58.15; «had breakfast at 8:30» → «Breakfast» en 5:03.47)",
+      "por_minuto": 1.1,
+      "total": "36 apariciones, 111,6 s en pantalla (5,8 % del vídeo); mediana 2,8 s (1,0–8,0 s). Por famoso: Wahlberg 6, Kane 6, Majors 7, Rhea 6, Gronk 6, MrBeast 5. Medido con detalle/censo_subs_checklist.json (5 muestras/s).",
+      "ejemplos": [
+        "0:41.8 (2,4 s): primera aparición, sobre el plano de recurso del baño de hielo, todo sin marcar",
+        "4:57.0 (8,0 s): se marcan dos pasos seguidos mientras Wahlberg cuenta lo que hizo fuera de cámara",
+        "18:50.0 (3,0 s): Rhea, «Take Out Dogs», con destello y soplido",
+        "26:01–26:05: MrBeast, «Wake Up 1pm» se marca en pantalla"
+      ],
+      "cuando_si": "al empezar cada paso, al terminarlo y justo antes del veredicto (con todo marcado: 7:25.2, 15:06.8, 20:21.8, 24:48.6, 31:14.0)",
+      "cuando_no": "nunca durante una conversación seria, un chiste ni la lucha; nunca más de 8 s; nunca a la vez que el tier list o el carrusel"
+    },
+    {
+      "tipo": "tier list (el marcador de resultado)",
+      "que_es": "tablero de 7 filas S–F con casillas de color a la izquierda y avatares circulares de los famosos ya puntuados",
+      "entrada": "aparece de golpe ocupando ≈ 55 % del cuadro, inclinado en perspectiva (≈ −10°) sobre el plano en curso, y en 20 f (7:37.33–7:38.00) gira y crece con frenada hasta llenar la pantalla; después deriva −3,8 %/s durante 1,1 s y se estabiliza. El avatar nuevo nace como un punto y crece en 7 f (7:38.63–7:38.86) en la fila que toca.",
+      "salida": "por corte, casi siempre con destello blanco hacia el siguiente bloque (7:40.36, 20:34.03, 25:34.13)",
+      "curva": "frenada suave; avatar con pop sin rebote",
+      "posicion": "pantalla completa, inclinado 3–5°, con el plano de fondo desenfocado asomando por los bordes",
+      "tamano": "columna de letras ≈ 5 % del ancho; avatar Ø ≈ 60 px (5,5 % del alto)",
+      "color": "filas gris casi negro ≈ #1E1E1C; casillas S ≈ #FF7F7F, A ≈ #FFBF7F, B ≈ #FFDF7F, C ≈ #BFFF7F, D ≈ #7FFF7F, E ≈ #7FBFFF, F ≈ #BF7FFF (la paleta de TierMaker) con resplandor; letras negras",
+      "fuente": "letras de fila en sans negrita pequeña (sin medir)",
+      "sonido": "pop + «ding» al caer el avatar (confirmado en 15:25.5, −6,4 dB respecto a la voz)",
+      "disparador": "la palabra del veredicto: «an A-tier» (7:38.7), «a solid B tier» (12:18)",
+      "por_minuto": 0.22,
+      "total": "7 (1 en la intro como columna que se construye + 6 veredictos de ≈ 3,0 s)",
+      "ejemplos": [
+        "7:37.33–7:40.36 Wahlberg, A",
+        "15:24–15:26 Majors, A",
+        "31:44–31:47 tablero final con el logo de MrBeast en S"
+      ],
+      "cuando_si": "una vez por famoso, al final de su bloque, sobre el último plano de ese sitio",
+      "cuando_no": "no se enseña a mitad de bloque ni para comparar; nunca se mueve un avatar ya colocado"
+    },
+    {
+      "tipo": "carrusel de famosos (cartela de bloque)",
+      "que_es": "fila de tarjetas sobre negro; cada una, retrato circular con halo + pastilla «Routine #N» + nombre en dos líneas + icono dorado",
+      "entrada": "corte seco a negro (en 12:27.28 y 15:34.30, tras 7 f de negro puro) con la fila parada en otra tarjeta, atenuada ≈ 40 %; acelera, pasan 1–5 tarjetas con desenfoque de movimiento horizontal y frena en la que toca: ≈ 48 f de recorrido con entrada y salida suaves (7:44.00–7:45.60). Al frenar sube el brillo y se enciende la pastilla.",
+      "salida": "por corte a la puerta o la cama del famoso",
+      "curva": "aceleración y frenada largas; después, empuje lento +2,9 a +5,6 %/s",
+      "posicion": "centrado: retrato x ≈ 320–930 px, nombre x 1020–1695, y 390–591 px; asoman recortadas las tarjetas vecinas",
+      "tamano": "nombre 7,5 % del alto por línea; retrato Ø ≈ 55 % del alto",
+      "color": "negro; nombre #FFFFFF con resplandor; pastilla gris #3A3A3A con texto amarillo-lima ≈ #E6F03C; icono dorado",
+      "fuente": "Montserrat ExtraBold/Black (ver intro.titulo_cabecera)",
+      "sonido": "sin voz; golpe sonoro de ≈ 2 s a −9/−12 dB de pista (6–8 dB por encima del nivel medio de la voz), no separado de la música (ver dudas)",
+      "disparador": "la frase puente en off termina justo antes («Now let's go check out the next celebrity's morning routine…»)",
+      "por_minuto": 0.19,
+      "total": "6: 0:18.32 (3,0 s, ya colocada), 7:44.00 (3,8 s), 12:27.5 (≈ 3 s), 15:34.30 (4,1 s), 20:38 (≈ 2 s), 25:49.4 (≈ 5 s: arranca en «Routine #1» y recorre los seis hasta MrBeast)",
+      "ejemplos": [
+        "7:44.00–7:47.77: de «MR. BEAST» pasa por «JONATHAN MAJORS» y frena en «Routine #2 · KANE BROWN»",
+        "15:34.30–15:38.40: «Routine #4 · RHEA RIPLEY»",
+        "25:49.4: recorrido completo de 1 a 6"
+      ],
+      "cuando_si": "al abrir cada bloque de famoso, siempre después de un puente en off y antes del primer plano en su casa",
+      "cuando_no": "nunca con locución encima (salvo el nombre en la intro) ni con otro gráfico"
+    },
+    {
+      "tipo": "tarjeta de perfil (Instagram o canal)",
+      "que_es": "cápsula blanca con avatar, usuario verificado y «posts · followers» (o suscriptores)",
+      "entrada": "con el corte, o volando desde un lado con estela en 6 f (15:42.4–15:42.6); en 0:21.29 entra grande abajo al centro y se encoge ×0,7 hacia la cabeza en ≈ 20 f",
+      "salida": "fundido de ≈ 8 f o por corte",
+      "curva": "frenada",
+      "posicion": "al lado de la cara, a su altura; sigue a la persona si se mueve",
+      "tamano": "≈ 610×210 px (32 % del ancho × 19 % del alto) grande; ≈ 60 % de eso cuando se pega a la cabeza",
+      "color": "#FFFFFF, texto negro, verificado azul, aro degradado de Instagram",
+      "fuente": "sans de interfaz (SF Pro a ojo); sin medir",
+      "sonido": "no confirmado",
+      "disparador": "primera vez que se ve a alguien",
+      "por_minuto": 0.4,
+      "total": "≈ 13: Mr. Beast 490M (0:00.33), 5 en la intro, markwahlberg 30.5M (0:21.29), kanebrown (7:50), Jonathan Majors (≈ 12:36), rhearipley_wwe 6.7M (15:42.4), kingkreas 60.1K (19:24.5), gronk 4.9M (21:02)",
+      "ejemplos": [
+        "0:21.29 markwahlberg · 4,192 posts · 30.5M followers",
+        "15:42.4 rhearipley_wwe · 3,162 posts · 6.7M followers",
+        "19:24.5 kingkreas · 327 posts · 60.1K followers"
+      ],
+      "cuando_si": "para presentar a alguien con una cifra que justifica por qué importa",
+      "cuando_no": "no se repite para la misma persona dentro de su bloque"
+    },
+    {
+      "tipo": "página de YouTube con clip de archivo",
+      "que_es": "captura de una página de YouTube real (logo, buscador, título, canal, botones) con el clip reproduciéndose dentro; variante con la página de artista de Spotify (7:55)",
+      "entrada": "por corte (a veces con destello); en 15:46.2 con icono de PLAY en el centro",
+      "salida": "por corte, o «entrando» en el vídeo: la página se amplía ×1,0 → ×1,7 en ≈ 12 f con desenfoque y se corta al clip a pantalla completa (16:44.1–16:45.1)",
+      "curva": "frenada en el zoom de entrada",
+      "posicion": "página a pantalla completa; reproductor ≈ 80 % del ancho, esquinas redondeadas",
+      "tamano": "pantalla completa",
+      "color": "página blanca",
+      "fuente": "la de la interfaz real",
+      "sonido": "impacto en 15:46.2 (−15,7 dB); el resto sin confirmar",
+      "disparador": "la voz en off cita un mérito («a reputation for waking up insanely early», «the WWE champion who dominates the women's division»)",
+      "por_minuto": 0.5,
+      "total": "≈ 14 bloques con ≈ 20 clips: 0:30.13–0:36.87 (4 páginas seguidas de 0,8–2,7 s), 1:54.5, 3:10, 7:52.8, 10:04, 12:38, 13:16–13:24, 14:56, 15:46.2, 16:42.2, 22:00, 26:10, 27:42, 30:10–30:14",
+      "ejemplos": [
+        "0:30.13–0:36.87: Ted, karaoke, Lone Survivor y «4:02 AM» para presentar a Wahlberg",
+        "15:46.2–15:47.6: dos clips de Rhea de 0,8 y 0,55 s",
+        "30:10–30:14: el vídeo de MrBeast al que se va a entrar"
+      ],
+      "cuando_si": "siempre que se cita algo que pasó fuera del rodaje: el archivo ajeno va enmarcado para que se vea de dónde sale",
+      "cuando_no": "el material propio del rodaje no se enmarca nunca"
+    },
+    {
+      "tipo": "sello de hora",
+      "que_es": "hora en cifra blanca maciza + «AM» en contorno hueco",
+      "entrada": "con el corte al plano de situación",
+      "salida": "con el corte (2–3 s)",
+      "curva": "sin animación; el plano de debajo empuja ≈ +3 %/s en el grande",
+      "posicion": "esquina inferior izquierda (x 24–456, y 960–1044 px) o superior izquierda (x 15–405, y 24–114); una vez, grande y centrado",
+      "tamano": "7–8 % del alto en esquina; 15 % centrado (9:00 AM, 4:48)",
+      "color": "#FFFFFF; «AM» sin relleno con contorno blanco ≈ 3 px",
+      "fuente": "top-3 fuente_rotulo.py (--color #FFFFFF): «6:30» Montserrat 800 +0,822 · Outfit 900 +0,763 · Lexend 800 +0,754; «9:00» Montserrat 800 +0,758 · Lexend 800 +0,750 · Outfit 900 +0,746",
+      "sonido": "no confirmado",
+      "disparador": "cambio de sitio o de franja horaria",
+      "por_minuto": 0.2,
+      "total": "≥ 6: «5:17 AM (I'M LATE ASF)» 0:48.7, «9:00 AM» 4:48, «6:30 AM» 14:22, «7AM» 15:14.5, «9AM» 15:38.4, «10AM» 20:41",
+      "ejemplos": [
+        "0:48.7 «5:17 AM» con sublínea-chiste «(I'M LATE ASF)» al 2,2 % del alto",
+        "4:48 «9:00 AM» centrado sobre montañas",
+        "15:38.4 «9AM» mientras llama a la puerta de Rhea"
+      ],
+      "cuando_si": "al llegar a un sitio o cuando la hora es el dato (madrugones)",
+      "cuando_no": "no hay reloj continuo ni cronómetro"
+    },
+    {
+      "tipo": "contador de repeticiones",
+      "que_es": "círculo negro brillante con el número de repetición",
+      "entrada": "fundido de 6 f con «0» (29:19.1–29:19.3) al cortar al plano del reto",
+      "salida": "fundido de 9 f (29:30.3–29:30.6) ya sobre el plano siguiente",
+      "curva": "el número cambia de golpe, en 1 fotograma, en el punto alto de cada repetición",
+      "posicion": "arriba a la izquierda, centro ≈ (150, 100) px",
+      "tamano": "Ø ≈ 150 px (14 % del alto); número ≈ 55 px (5 %)",
+      "color": "esfera negra con degradado; número #FFFFFF; al superar el objetivo, amarillo ≈ #F5F03C con resplandor",
+      "fuente": "top-3 fuente_rotulo.py (--color #FFFFFF, no fiable por el degradado): Unbounded 700 −0,207 · Playfair Display 700 −0,246 · Roboto 700 −0,256. Juicio: Montserrat Black",
+      "sonido": "no confirmado",
+      "disparador": "«If you hit 12 reps, you'll hit 100 million subscribers»",
+      "por_minuto": 0.03,
+      "total": "1 (11,5 s): 0 (29:19.3) → 1 (29:21.0) → salta a 10 (29:21.8, con destello de 2 f: elipsis de las repeticiones 2–9) → 11 (29:23.2) → 12 (29:25.4) → 13 en amarillo (29:27.7)",
+      "ejemplos": [
+        "29:19.1–29:30.6"
+      ],
+      "cuando_si": "solo cuando hay un número objetivo dicho en voz alta",
+      "cuando_no": "ningún otro entreno del vídeo lleva contador, cronómetro ni peso rotulado"
+    },
+    {
+      "tipo": "etiqueta con flecha amarilla",
+      "que_es": "1–2 palabras en mayúsculas blancas + flecha curva amarilla dibujada hacia la persona u objeto",
+      "entrada": "con el corte o 2–3 f después",
+      "salida": "fundido de ≈ 3 f antes del corte, o con el corte",
+      "curva": "sin rebote; con seguimiento del sujeto fotograma a fotograma",
+      "posicion": "a ≈ 1 cabeza del sujeto, del lado libre del encuadre",
+      "tamano": "7,8–9 % del alto la palabra grande; 5 % la pequeña («TRAINER»)",
+      "color": "#FFFFFF con contorno negro ≈ 3 px y sombra suave; flecha amarilla ≈ #FFE600 con contorno negro",
+      "fuente": "top-3 fuente_rotulo.py (--color #FFFFFF): «RHEA'S» Montserrat 800 +0,818 · Lexend 800 +0,798 · Work Sans 800 +0,795; «ALEX» Montserrat 800 +0,817 · Rubik 700 +0,761 · Work Sans 800 +0,756; «UNIFORM» Rubik 700 +0,764 · Montserrat 800 +0,734 · Archivo 800 +0,715",
+      "sonido": "no confirmado",
+      "disparador": "aparece alguien o algo que hay que nombrar y la voz no lo nombra",
+      "por_minuto": 0.2,
+      "total": "≥ 5: «CADDY UNIFORM» 5:24–5:28 (cruza 3 planos), «SMELLING SALTS» 17:27.1–17:28.9, «RHEA'S BFF» 17:28.9–17:30.6, «THIS COULD BE YOU!» 20:20.6, «TRAINER ALEX» 28:47.3–28:51.3",
+      "ejemplos": [
+        "17:27.1 y 17:28.9: dos etiquetas seguidas, una por plano, 1,8 y 1,7 s",
+        "28:47.3–28:51.3 (4,0 s): sigue a Alex mientras reparte agua"
+      ],
+      "cuando_si": "persona secundaria u objeto raro la primera vez que sale",
+      "cuando_no": "los seis famosos no llevan etiqueta: llevan tarjeta de perfil"
+    },
+    {
+      "tipo": "adelanto «COMING UP:» y recuerdo «EARLIER…»",
+      "que_es": "rótulo fijo arriba a la izquierda sobre planos sacados de otro punto del vídeo",
+      "entrada": "con el corte",
+      "salida": "con el corte",
+      "curva": "sin animación",
+      "posicion": "arriba a la izquierda (x ≈ 15–250, y ≈ 20–60 px)",
+      "tamano": "≈ 4,5 % del alto",
+      "color": "«COMING UP:» #FFFFFF con sombra; «EARLIER…» amarillo ≈ #FFF200",
+      "fuente": "Montserrat ExtraBold/Black (a ojo; sin medir)",
+      "sonido": "no confirmado",
+      "disparador": "la voz promete («a whole stack of morning routine stuff today», «it's a lot realer than anyone thinks») o recuerda («if you remember, I did pull him out of bed at the start of this video»)",
+      "por_minuto": 0.16,
+      "total": "«COMING UP:» 7 planos en 3 bloques (0:52.92–0:55.09, 3 planos de 0,77/0,60/0,80 s; 3:56–4:02, 3 planos; 17:08.9, 1 plano). «EARLIER…» 2 (20:55.9, 25:55.2).",
+      "ejemplos": [
+        "0:52.92–0:55.09",
+        "17:08.9: la lucha, 2 min 46 s antes de que ocurra",
+        "25:55.2: vuelve el gancho del segundo 0"
+      ],
+      "cuando_si": "todo plano fuera de su sitio cronológico va etiquetado",
+      "cuando_no": "los adelantos de 15:30.7–15:34.3 (los 3 famosos que faltan) van sin etiqueta porque la voz ya dice «our next three celebrities»"
+    },
+    {
+      "tipo": "foco sobre la línea que se lee",
+      "que_es": "plano fijo de la pizarra oscurecido ≈ 75–80 % con un rectángulo de borde difuso a brillo completo sobre una línea",
+      "entrada": "por corte",
+      "salida": "por corte",
+      "curva": "sin animación",
+      "posicion": "donde esté la línea",
+      "tamano": "rectángulo ≈ 60 % del ancho × 7 % del alto",
+      "color": "resto del cuadro al 20–25 % de brillo",
+      "fuente": "(letra a mano real)",
+      "sonido": "no confirmado (ataque brusco en 28:40.0, ver dudas)",
+      "disparador": "Jesse lee esa línea en voz alta",
+      "por_minuto": 0.09,
+      "total": "3: 28:20.0–28:22.0 (línea 2), 28:33.4–28:35.4 (línea 3), 28:39.95–28:41.4 (línea 4)",
+      "ejemplos": [
+        "28:20.0 «2. Promo Jesse James in new main channel vid!»",
+        "28:33.4 «3. Give Jesse James $1 Billion Dollars»",
+        "28:39.95 «4. Have fun!»"
+      ],
+      "cuando_si": "texto real del rodaje que hay que leer",
+      "cuando_no": "no se reescribe el texto en rótulo: se ilumina el original"
+    },
+    {
+      "tipo": "mapa en pantalla partida",
+      "que_es": "panel izquierdo con mapa claro tipo Google Maps y línea roja que une destinos; a la derecha, el invitado en su mismo plano",
+      "entrada": "por corte desde el plano entero",
+      "salida": "por corte de vuelta al plano entero (28:02.45)",
+      "curva": "el mapa salta de destino con barrido + desenfoque de ≈ 4 f (28:00.7–28:01.0)",
+      "posicion": "panel izquierdo, borde derecho luminoso",
+      "tamano": "≈ 50 % del ancho × 100 % del alto",
+      "color": "mapa claro; línea roja ≈ #E3242B gruesa con punto en cada extremo",
+      "fuente": "la del mapa",
+      "sonido": "no confirmado",
+      "disparador": "MrBeast enumera viajes («LA… then Mexico… Malawi… Kenya… France… Chile… Texas… Africa»)",
+      "por_minuto": 0.03,
+      "total": "1 (27:46–28:02.45, ≈ 16 s)",
+      "ejemplos": [
+        "27:50 Los Ángeles → México"
+      ],
+      "cuando_si": "una enumeración de sitios dicha de corrido por el invitado",
+      "cuando_no": "ningún trayecto del propio rodaje lleva mapa"
+    },
+    {
+      "tipo": "polaroids sobre negro",
+      "que_es": "fotos con marco blanco de polaroid, ligeramente giradas, que entran una a una",
+      "entrada": "cada una con destello/halo blanco y sonido de obturador, ≈ 0,6 s entre una y otra",
+      "salida": "por corte",
+      "curva": "pop con frenada",
+      "posicion": "centradas, en fila",
+      "tamano": "≈ 55 % del alto cada una",
+      "color": "negro; marco blanco; leyenda manuscrita negra («WINNER #1»)",
+      "fuente": "manuscrita de rotulador (sin medir)",
+      "sonido": "obturador confirmado (1:34.08 y 1:34.66 a −12,5/−16,8 dB; 20:14.3 a +2,9 dB)",
+      "disparador": "«Put on a shirt, will you?» (fotos de Wahlberg sin camiseta) y «for every 250,000 subscribers… I'm working out with one of you»",
+      "por_minuto": 0.06,
+      "total": "2 bloques: 1:34.0–1:35.6 (2 fotos) y 20:14–20:18 (3 fotos «WINNER #1/#2/#3»)",
+      "ejemplos": [
+        "1:34.0",
+        "20:14.3"
+      ],
+      "cuando_si": "prueba en foto de algo que se acaba de decir",
+      "cuando_no": ""
+    },
+    {
+      "tipo": "gráficos del patrocinador",
+      "que_es": "tarjeta de macros junto a la persona, maqueta de móvil inclinada en 3D sobre el plano desenfocado, código QR y «CODE “JESSE”»",
+      "entrada": "pop con «ding» (8:54.8) o por corte con el fondo ya desenfocado",
+      "salida": "por corte",
+      "curva": "el móvil gira despacio",
+      "posicion": "tarjeta al lado de la cara; móvil a la derecha, «MACROFACTOR» debajo",
+      "tamano": "móvil ≈ 75 % del alto",
+      "color": "interfaz clara; «MACROFACTOR» en blanco, letra extendida; código en amarillo",
+      "fuente": "extendida negra para la marca (sin medir)",
+      "sonido": "pop + ding confirmado en 8:54.8 (+2,3 dB)",
+      "disparador": "hay comida en plano y la voz en off la enlaza («But it's also, according to MacroFactor, probably 60 grams of protein»)",
+      "por_minuto": 0.2,
+      "total": "4 menciones habladas (5:47–5:57, 9:23–9:37, 18:30–18:44, 27:15–27:26) + 3 tarjetas sueltas (8:54.8, ≈ 21:56, 25:02) + pantalla final",
+      "ejemplos": [
+        "9:24–9:36",
+        "18:32–18:38",
+        "27:24–27:26 «CLICK THE FIRST LINK… 2 WEEKS FREE!»"
+      ],
+      "cuando_si": "repartido en micro-menciones de 10–14 s cada vez que alguien come, en vez de un bloque único",
+      "cuando_no": "nunca corta una rutina: va dentro del paso «desayuno»"
+    },
+    {
+      "tipo": "botón de suscribir y petición de «me gusta»",
+      "que_es": "(a) captura ampliada de la página del canal con el botón que pasa a «Subscribed» con chispas y cursor (20:12.5); (b) pastilla oscura abajo al centro «Jesse James West ✓ · Subscribe → Subscribed» (29:30.4–29:33); (c) pastilla «150K? Like» con icono de pulgar (25:44–25:48)",
+      "entrada": "pop (29:30.4)",
+      "salida": "fundido",
+      "curva": "sin rebote",
+      "posicion": "abajo al centro (b y c), y ≈ 80–85 % del alto",
+      "tamano": "≈ 20 % del ancho × 5 % del alto",
+      "color": "pastilla gris muy oscuro, texto blanco, botón blanco que se vuelve gris al pulsar",
+      "fuente": "interfaz",
+      "sonido": "pop al entrar (29:30.4) y campanita al pasar a «Subscribed» (29:31.9, −3,1 dB)",
+      "disparador": "(a) «you can still demolish the subscribe button» tras el derribo; (b) lo pide MrBeast, no Jesse",
+      "por_minuto": 0.09,
+      "total": "3",
+      "ejemplos": [
+        "20:09–20:20",
+        "25:44–25:48",
+        "29:29.9–29:33"
+      ],
+      "cuando_si": "justo después de un pico (derribo, serie de 13), con frase puente que lo enlaza",
+      "cuando_no": "ni en la intro ni en frío"
+    },
+    {
+      "tipo": "otros de un solo uso",
+      "que_es": "trazador amarillo de la bola de golf (5:34, 5:36, 5:40); lista de alarmas de iOS a la izquierda sobre Jesse dormido (0:44.28–0:46.98); icono de pausa sobre congelado (15:43.7–15:44.3, con clic); tarjeta-chiste «Big Words: Nitrates · Antibiotics» con la plantilla de la lista (21:24–21:27, con «ding»); caras pixeladas de los youtubers del próximo vídeo (25:46–25:50); viñeta oscura en los recuerdos (25:34–25:42, 31:22)",
+      "total": "≈ 10 apariciones"
+    }
+  ],
+  "motion_graphics_resumen": "≈ 110 apariciones gráficas en 32,2 min (≈ 3,4/min; una cada 17–18 s): lista 36, páginas de YouTube ≈ 20 clips, tarjetas de perfil ≈ 13, tier list 7, carrusel 6, sellos de hora ≥ 6, etiquetas con flecha ≥ 5, adelantos/recuerdos 9 planos, patrocinador ≈ 8, foco 3, suscribir/me gusta 3, polaroids 2, contador 1, mapa 1. Tres plantillas llevan el formato (lista, carrusel, tier list) y se reutilizan idénticas en los 6 bloques.",
+  "cortes": {
+    "total_detectados": 890,
+    "cortes_por_minuto_detectados": 27.6,
+    "global_detectado": {
+      "planos": 891,
+      "media_s": 2.17,
+      "mediana_s": 1.77,
+      "p10_s": 0.87,
+      "p90_s": 3.9,
+      "max_s": 16.08,
+      "max_donde": "27:46.4–28:02.5 (MrBeast enumera viajes; por encima va el mapa en pantalla partida)",
+      "menos_de_1s_pct": 16,
+      "mas_de_5s_pct": 6
+    },
+    "jump_cuts_a_ojo": {
+      "metodo": "Hojas a 0,1 s (detalle/d01_*, d02_*, d03_*, d04_*) cruzadas con los picos débiles de cortes.scd.txt (puntuación 3–10 fuera de los cortes: 171 en todo el vídeo).",
+      "tramos": [
+        {
+          "tramo": "0:21–1:21",
+          "detectados": 39,
+          "a_ojo": 40,
+          "nota": "0 jump cuts al mismo encuadre; el único extra es un corte interno de un clip de archivo (0:32.47). Tres cámaras: plano de dos, cerrado del invitado y contrapicado de Jesse."
+        },
+        {
+          "tramo": "15:50–16:50",
+          "detectados": 32,
+          "a_ojo": 39,
+          "nota": "3 saltos al mismo eje (15:51.0, 15:57.0, 16:33.4), 2 encadenados con doble exposición (16:19.4 y 16:20.8), 1 cambio de ángulo (16:28.0) y 1 corte dentro de la página de YouTube (16:43.1)."
+        },
+        {
+          "tramo": "28:00–29:00",
+          "detectados": 27,
+          "a_ojo": 29,
+          "nota": "+28:18.0 (salto de escala en el general) y +28:39.0 (corte a Jesse riéndose, puntuación 8,6)."
+        },
+        {
+          "tramo": "19:38–20:08 (30 s, pico de acción)",
+          "detectados": 12,
+          "a_ojo": 18,
+          "nota": "en el ring oscuro el detector pierde 6 de 18 (19:42.5, 19:45.9, 19:48.6, 19:50.7, 19:54.9, 19:56.8)."
+        }
+      ],
+      "extrapolacion": "126 a ojo frente a 110 detectados en 210 s = ×1,145 → 890 × 1,145 ≈ 1.020. Por tramo el factor va de ×1,03 a ×1,5 (escena oscura).",
+      "total_estimado": 1020,
+      "margen": "950–1.100",
+      "cortes_por_minuto_estimados": 31.7,
+      "mediana_estimada_s": "≈ 1,6",
+      "jump_cuts_al_mismo_encuadre": "3–4 en 210 s (≈ 1/min). NO es un vídeo de jump cuts: nadie habla solo a cámara más de 3 s seguidos. Lo que el detector no ve son cortes en oscuro, encadenados y cortes debajo de un gráfico."
+    },
+    "s_por_plano_por_parte": [
+      {
+        "parte": "intro 0:00–0:21.3",
+        "planos": 10,
+        "media_s": 2.13,
+        "mediana_s": 1.64,
+        "menos_de_1s_pct": 40
+      },
+      {
+        "parte": "Wahlberg 0:21.3–7:40.4",
+        "planos": 234,
+        "media_s": 1.88,
+        "mediana_s": 1.63,
+        "menos_de_1s_pct": 18
+      },
+      {
+        "parte": "Kane Brown 7:40.4–12:27.3",
+        "planos": 120,
+        "media_s": 2.39,
+        "mediana_s": 1.95,
+        "menos_de_1s_pct": 14
+      },
+      {
+        "parte": "Majors 12:27.3–15:28.7",
+        "planos": 86,
+        "media_s": 2.07,
+        "mediana_s": 1.78,
+        "menos_de_1s_pct": 12
+      },
+      {
+        "parte": "Rhea Ripley 15:28.7–20:34.0",
+        "planos": 142,
+        "media_s": 2.15,
+        "mediana_s": 1.63,
+        "menos_de_1s_pct": 19
+      },
+      {
+        "parte": "Gronkowski 20:34.0–25:34.1",
+        "planos": 127,
+        "media_s": 2.36,
+        "mediana_s": 1.94,
+        "menos_de_1s_pct": 13
+      },
+      {
+        "parte": "MrBeast 25:34.1–32:05.0",
+        "planos": 172,
+        "media_s": 2.31,
+        "mediana_s": 1.8,
+        "menos_de_1s_pct": 13
+      }
+    ],
+    "cortes_detectados_por_minuto": [
+      35,
+      39,
+      31,
+      30,
+      27,
+      28,
+      32,
+      29,
+      24,
+      27,
+      31,
+      20,
+      21,
+      34,
+      29,
+      30,
+      32,
+      23,
+      26,
+      31,
+      23,
+      25,
+      23,
+      27,
+      27,
+      24,
+      29,
+      21,
+      27,
+      30,
+      28,
+      26,
+      2
+    ],
+    "rafagas": "50 grupos de 3 o más cortes en 2 s según el detector (1,55/min), casi todos de 3–5 planos. Material: réplicas de diálogo en ping-pong entre cámaras (16:11.3–16:16.2: 6 planos en 4,9 s), adelantos (0:52.9: 3 planos de 0,6–0,8 s), planos de situación en pareja (15:51.9: 2 de 0,9 s; 28:59.3: 2 de 0,37 y 0,43 s a compás de la música), archivo (0:29.1: 4 páginas de YouTube), memes (1:19.5) y derribos (19:39.0). Las más largas: 7:20.3 (7 cortes), 13:09.8 (6) y 21:49.5 (6). Ninguna ráfaga de estroboscopio: el plano más corto del vídeo dura 0,23 s (30:12.1) y solo 12 planos bajan de 0,6 s.",
+    "jump_cuts_al_hablar": "Prácticamente no hay. La voz en off va limpia (grabada aparte) y el directo se corta cambiando de cámara: una réplica = un plano (0,8–1,3 s en los chistes rápidos; 2–4 s en las respuestas).",
+    "j_l_cuts": "El subtítulo y la voz del invitado entran antes que su imagen: «MARK: WE'RE GONNA MISS OUR TEE TIME BRO…» empieza 0,26 s antes del corte (1:04.20 frente a 1:04.46). La voz en off entra sobre el final del plano anterior en casi todos los puentes («And then it was time to ask Mark a very important question», 3:26.8, sobre la risa del chiste previo).",
+    "match_cuts": "1 construido: la cara de MrBeast → su logo en un círculo (0:10.91) con zoom ×3,3 de entrada y zoom-out de salida. 2 cortes en la acción: el segundo derribo visto en general y repetido en contrapicado cerrado (19:50.6 → 19:50.7) y el derribo de Rhea en 5 planos (19:54.9–20:04.0).",
+    "insertos_cortos": "Insertos-meme con escenas de películas del invitado: 1:19.51–1:20.18 (0,67 s) y 1:20.18–1:21.15 (0,97 s) tras «Is it cold? — No. — Huh?». Insertos de lo nombrado: perro en «No, just dogs» (16:39.77–16:42.20, 2,4 s), latas en «I got my energy drink» (15:58.76–16:00.99, 2 planos), Jesse dormido con alarmas en «I woke up at 4» (0:44.28–0:46.98). Planos de 0,6 s o menos detectados: 12 en todo el vídeo.",
+    "velocidad": "Cámara lenta solo en la lucha: el primer derribo queda casi congelado 1,6 s (19:44.2–19:45.8) y el de Rhea lleva 2 planos ralentizados (19:56.8–19:57.9 y 19:58.8–20:00.0). 1 congelado con icono de pausa (15:43.7–15:46.1, 2,4 s). Sin rebobinados, sin cámara rápida y sin rampas de velocidad.",
+    "multicamara": "Casi todo el diálogo está rodado con 3 cámaras a la vez (plano de dos, cerrado del invitado, cerrado o contrapicado de Jesse) más cámara de acción puntual (manillar de la bici 2:16–2:20, cámara 360 en la carrera 5:47–5:57). Por eso hay 27,6 cortes/min sin un solo jump cut."
+  },
+  "zooms": [
+    {
+      "tipo": "zoom de golpe animado a la cara que reacciona",
+      "escala": "×1,0 → ×1,57–2,15",
+      "duracion_f": "9–18 de rampa; se queda 1–2,5 s",
+      "curva": "entrada rápida con frenada, con desenfoque de movimiento",
+      "centro": "la cara",
+      "disparador": "silencio incómodo, entrada de un personaje, frase de remate",
+      "extras": "desenfoque; en 15:42.2 soplido y tarjeta de perfil que entra detrás",
+      "por_minuto": 1.2,
+      "ejemplos": [
+        "1:00.5–1:00.9 Wahlberg ×1,60 en 12 f, deriva hasta ×1,66 y corte en 1:02.16",
+        "15:42.0–15:42.7 Rhea ×2,15 en 18 f",
+        "28:14.0–28:14.3 MrBeast ×1,57 en 9 f"
+      ]
+    },
+    {
+      "tipo": "punch-in animado lineal tras destello («subidón»)",
+      "escala": "×1,0 → ×1,62",
+      "duracion_f": "30",
+      "curva": "casi lineal, +62 %/s",
+      "centro": "la cara de Jesse",
+      "disparador": "le sube el preentreno",
+      "extras": "destello blanco de 3–5 f justo antes; música que vuelve",
+      "por_minuto": 0.03,
+      "ejemplos": [
+        "16:26.95–16:28.0"
+      ]
+    },
+    {
+      "tipo": "zoom-out de apertura",
+      "escala": "×2,5 → ×1,0 · ×1,57 → ×1,0 · ×1,83 → ×1,0",
+      "duracion_f": "3 · 6 · 30",
+      "curva": "de golpe con desenfoque (el primero) o con frenada",
+      "centro": "la cara → plano completo",
+      "disparador": "arranque del vídeo, réplica que cambia la escena, primer plano de un bloque",
+      "extras": "desenfoque en el de 3 f",
+      "por_minuto": 0.1,
+      "ejemplos": [
+        "0:00.00–0:00.10",
+        "0:08.16–0:08.33",
+        "0:21.3–0:22.4 (Wahlberg, mientras la tarjeta se encoge)"
+      ]
+    },
+    {
+      "tipo": "zoom-in de transición",
+      "escala": "×1,0 → ×3,3 (cara → logo) · ×1,0 → ×1,7 (página de YouTube → clip)",
+      "duracion_f": "17 · 12",
+      "curva": "acelerado el primero; con frenada el segundo",
+      "centro": "la cara / el reproductor",
+      "disparador": "paso a un gráfico o a un archivo a pantalla completa",
+      "extras": "desenfoque",
+      "por_minuto": 0.1,
+      "ejemplos": [
+        "0:10.33–0:10.90",
+        "16:44.1–16:44.5"
+      ]
+    },
+    {
+      "tipo": "empuje lento bajo gráficos y rótulos",
+      "escala": "+2,9 a +5,6 %/s (carrusel) · +3 %/s («9:00 AM») · −5,7 %/s (rejilla) · −3,8 %/s (tier list)",
+      "duracion_f": "60–110",
+      "curva": "lineal o con frenada suave",
+      "centro": "centro",
+      "disparador": "gráfico a pantalla completa o rótulo sobre paisaje",
+      "extras": "",
+      "por_minuto": 0.5,
+      "ejemplos": [
+        "0:18.9–0:21.2 ×1,0 → ×1,063",
+        "7:45.8–7:47.7 ×1,0 → ×1,10",
+        "7:38.1–7:39.2 ×1,0 → ×0,915"
+      ]
+    },
+    {
+      "tipo": "corte de escala en la misma cámara",
+      "escala": "×1,0 ↔ ×0,8–1,25",
+      "duracion_f": "1 (por corte)",
+      "curva": "de golpe",
+      "centro": "la persona",
+      "disparador": "cambio de frase dentro de una toma sin otra cámara disponible",
+      "extras": "",
+      "por_minuto": 1.0,
+      "ejemplos": [
+        "1:17.08 (más abierto, ≈ ×0,8)",
+        "17:22.5 (×1,25, «tarps off»)",
+        "28:18.0 (×1,15 → ×1,0)"
+      ]
+    },
+    {
+      "tipo": "pantalla partida",
+      "escala": "plano del invitado desplazado a la mitad derecha",
+      "duracion_f": "≈ 480",
+      "curva": "",
+      "centro": "",
+      "disparador": "enumeración de viajes",
+      "extras": "mapa con línea roja",
+      "por_minuto": 0.03,
+      "ejemplos": [
+        "27:46–28:02.45"
+      ]
+    },
+    {
+      "tipo": "plano de recurso",
+      "escala": "×1,00–1,012",
+      "duracion_f": "30–90",
+      "curva": "fijo (+1,3 %/s como mucho)",
+      "centro": "",
+      "disparador": "",
+      "extras": "",
+      "por_minuto": null,
+      "ejemplos": [
+        "15:53.9–15:54.9 gimnasio vacío con la lista encima: +1,3 %/s"
+      ]
+    }
+  ],
+  "zooms_resumen": "≈ 3 zooms de edición por minuto contando cortes de escala, de los que ≈ 1,2/min son golpes animados con frenada y desenfoque (×1,57–2,15 en 9–18 f). Ningún zoom lento sostenido sobre quien habla. Los gráficos a pantalla completa nunca están quietos: empujan o se alejan 3–6 %/s. La mayor parte del «movimiento» es cámara en mano real, no zoom.",
+  "textos": [
+    {
+      "tipo": "comentario del editor entre asteriscos",
+      "texto_ejemplos": [
+        "*WAYYY TOO LONG*",
+        "*WHY IS HE STILL TALKING?*"
+      ],
+      "fuente": "top-3 fuente_rotulo.py, NO fiable (fondo quemado, puntuación por debajo de 0,4): «*WAYYY TOO LONG*» (--color #FFFFFF) Roboto 900 +0,379 · Figtree 800 +0,378 · Work Sans 600 +0,367; «*WHY IS HE STILL TALKING?*» (--color #FFF200) Lexend 800 +0,362 · Archivo Black +0,331 · Unbounded 700 +0,233. Juicio: la misma Montserrat ExtraBold/Black del resto.",
+      "peso": "ultranegra",
+      "mayusculas": "sí",
+      "color": "#FFFFFF el primero; amarillo #FFF200 el segundo",
+      "borde_sombra_caja": "sombra negra dura, sin caja",
+      "tamano": "6 % del alto (blanco) y 4,5 % (amarillo)",
+      "posicion": "arriba al centro (y ≈ 10–18 %), sobre la cabeza de quien reacciona",
+      "entrada": "con el corte al plano de reacción",
+      "salida": "con el corte",
+      "duracion": "1,57 s (0:27.49–0:29.06) y 1,80 s (0:56.86–0:58.66)",
+      "por_minuto": null,
+      "total": "2 vistos, los dos en el primer minuto (el resto del vídeo no se barrió entero buscando este tipo; ver dudas)",
+      "disparador": "alguien se alarga hablando y el plano enseña al otro esperando: el texto es lo que piensa el que calla"
+    },
+    {
+      "tipo": "sello de hora",
+      "texto_ejemplos": [
+        "9:00 AM",
+        "6:30 AM",
+        "9AM",
+        "5:17 AM (I'M LATE ASF)"
+      ],
+      "fuente": "top-3 (--color #FFFFFF): «6:30» Montserrat 800 +0,822 · Outfit 900 +0,763 · Lexend 800 +0,754; «9:00» Montserrat 800 +0,758 · Lexend 800 +0,750 · Outfit 900 +0,746",
+      "peso": "ultranegra; «AM» en contorno hueco",
+      "mayusculas": "sí",
+      "color": "#FFFFFF",
+      "borde_sombra_caja": "sombra suave; «AM» sin relleno con contorno ≈ 3 px",
+      "tamano": "7–8 % del alto en esquina (sublínea 2,2 %); 15 % centrado",
+      "posicion": "abajo a la izquierda (x 24–456, y 960–1044 px), arriba a la izquierda (x 15–405, y 24–114) o centrado",
+      "entrada": "con el corte",
+      "salida": "con el corte",
+      "duracion": "2–3 s",
+      "por_minuto": 0.2,
+      "total": "≥ 6",
+      "disparador": "cambio de sitio u hora que importa"
+    },
+    {
+      "tipo": "etiqueta con flecha",
+      "texto_ejemplos": [
+        "CADDY UNIFORM",
+        "SMELLING SALTS",
+        "RHEA'S BFF",
+        "TRAINER ALEX",
+        "THIS COULD BE YOU!"
+      ],
+      "fuente": "top-3 (--color #FFFFFF): «RHEA'S» Montserrat 800 +0,818 · Lexend 800 +0,798 · Work Sans 800 +0,795; «ALEX» Montserrat 800 +0,817 · Rubik 700 +0,761 · Work Sans 800 +0,756; «UNIFORM» Rubik 700 +0,764 · Montserrat 800 +0,734 · Archivo 800 +0,715",
+      "peso": "ultranegra",
+      "mayusculas": "sí",
+      "color": "#FFFFFF; flecha amarilla ≈ #FFE600",
+      "borde_sombra_caja": "contorno negro ≈ 3 px + sombra suave; sin caja",
+      "tamano": "7,8–9 % del alto (5 % la palabra pequeña de arriba)",
+      "posicion": "junto al sujeto, lado libre del encuadre; dos líneas centradas",
+      "entrada": "con el corte o 2–3 f después",
+      "salida": "fundido ≈ 3 f o con el corte",
+      "duracion": "1,7–4,0 s",
+      "por_minuto": 0.2,
+      "total": "≥ 5",
+      "disparador": "persona secundaria u objeto raro que la voz no nombra"
+    },
+    {
+      "tipo": "adelanto / recuerdo",
+      "texto_ejemplos": [
+        "COMING UP:",
+        "EARLIER…"
+      ],
+      "fuente": "Montserrat ExtraBold/Black a ojo (sin medir)",
+      "peso": "ultranegra",
+      "mayusculas": "sí",
+      "color": "#FFFFFF («COMING UP:») y amarillo #FFF200 («EARLIER…»)",
+      "borde_sombra_caja": "sombra negra suave",
+      "tamano": "≈ 4,5 % del alto",
+      "posicion": "arriba a la izquierda",
+      "entrada": "con el corte",
+      "salida": "con el corte",
+      "duracion": "lo que dure el plano (0,6–3 s)",
+      "por_minuto": 0.28,
+      "total": "9 planos (7 + 2)",
+      "disparador": "plano fuera de su sitio cronológico"
+    },
+    {
+      "tipo": "nombre del carrusel",
+      "texto_ejemplos": [
+        "MARK WAHLBERG",
+        "KANE BROWN",
+        "JONATHAN MAJORS",
+        "RHEA RIPLEY",
+        "ROB GRONKOWSKI",
+        "MR. BEAST"
+      ],
+      "fuente": "top-3 (--color #FFFFFF) sobre «WAHLBERG»: Work Sans 800 +0,704 · Lexend 800 +0,592 · Montserrat 800 +0,591. Juicio: Montserrat ExtraBold/Black con resplandor.",
+      "peso": "ultranegra",
+      "mayusculas": "sí",
+      "color": "#FFFFFF con resplandor",
+      "borde_sombra_caja": "resplandor blanco; sin caja",
+      "tamano": "7,5 % del alto por línea, dos líneas",
+      "posicion": "centro-derecha (x 1020–1695, y 390–591 px)",
+      "entrada": "llega con la tarjeta (desenfoque de movimiento) y sube de brillo al frenar",
+      "salida": "por corte",
+      "duracion": "≈ 2–3 s legible",
+      "por_minuto": 0.19,
+      "total": 6,
+      "disparador": "arranque de bloque"
+    },
+    {
+      "tipo": "llamada escrita del patrocinador",
+      "texto_ejemplos": [
+        "CLICK THE FIRST LINK… 2 WEEKS FREE!",
+        "CODE “JESSE”",
+        "MACROFACTOR"
+      ],
+      "fuente": "marca en fuente extendida negra (sin medir); llamada en la misma ultranegra del vídeo",
+      "peso": "ultranegra",
+      "mayusculas": "sí",
+      "color": "#FFFFFF y amarillo",
+      "borde_sombra_caja": "sombra; el código con halo",
+      "tamano": "≈ 4–5 % del alto",
+      "posicion": "abajo al centro o bajo el móvil",
+      "entrada": "por corte",
+      "salida": "por corte",
+      "duracion": "2–4 s",
+      "por_minuto": 0.15,
+      "total": "≈ 5",
+      "disparador": "final de cada mención del patrocinador"
+    },
+    {
+      "tipo": "leyenda manuscrita de polaroid",
+      "texto_ejemplos": [
+        "WINNER #1",
+        "WINNER #2",
+        "WINNER #3"
+      ],
+      "fuente": "manuscrita de rotulador (sin medir)",
+      "peso": "regular",
+      "mayusculas": "sí",
+      "color": "negro sobre el marco blanco",
+      "borde_sombra_caja": "ninguno",
+      "tamano": "≈ 4 % del alto",
+      "posicion": "franja inferior de la polaroid",
+      "entrada": "con la foto",
+      "salida": "por corte",
+      "duracion": "≈ 4 s el bloque",
+      "por_minuto": 0.03,
+      "total": 3,
+      "disparador": "se enseña a suscriptores que ya entrenaron con él"
+    },
+    {
+      "tipo": "pantalla final",
+      "texto_ejemplos": [
+        "WATCH THIS NEXT",
+        "STAY RELENTLESS",
+        "MACROFACTOR · CODE “JESSE”"
+      ],
+      "fuente": "la misma ultranegra (sin medir)",
+      "peso": "ultranegra",
+      "mayusculas": "sí",
+      "color": "#FFFFFF; el código en amarillo neón",
+      "borde_sombra_caja": "resplandor suave",
+      "tamano": "≈ 4–5 % del alto",
+      "posicion": "«WATCH THIS NEXT» arriba a la izquierda con 2 flechas curvas hacia abajo; lema abajo a la izquierda; QR al centro",
+      "entrada": "por corte desde 6 f de negro",
+      "salida": "fin del vídeo",
+      "duracion": "6,4 s",
+      "por_minuto": 0.03,
+      "total": 1,
+      "disparador": "fin"
+    }
+  ],
+  "textos_resumen": "≈ 35 textos que no son subtítulo ni interfaz en 32,2 min (≈ 1,1/min), casi todos de 1–3 palabras. UNA sola familia para todo lo que «dice» el editor (geométrica ultranegra en mayúsculas, Montserrat ExtraBold/Black: gana 5 de 9 mediciones con +0,71 a +0,82 y queda segunda en otras 2) y dos colores (blanco y amarillo #FFF200). Todo lo demás que se lee en pantalla es interfaz imitada (lista de iOS, tarjeta de Instagram, página de YouTube, tier list) con su propia tipografía de sistema. Ningún texto se anima letra a letra, ninguno rebota: entran y salen con el corte o con un fundido de 3–9 f. El texto nunca repite la locución: nombra (hora, persona, paso) o acota (asteriscos).",
+  "subtitulos": {
+    "hay": true,
+    "cuando": "Solo en sonido directo y solo en tres casos: (a) frase del invitado que es el chiste o el dato y se pisa con risas o ruido («MARK: WE'RE GONNA MISS OUR TEE TIME BRO…», 1:04.20); (b) réplicas rápidas de un diálogo cómico a varias voces (3:02–3:26: 5 líneas en 24 s; 30:52–31:03: 5 líneas en 11 s); (c) la frase que plantea un reto («MR. BEAST: IF YOU HIT 12 REPS YOU'LL HIT 100M SUBSCRIBERS», 29:19.3–29:21.7). La voz en off no se subtitula nunca.",
+    "formato": "Dos líneas centradas abajo (y 984–1044 px): arriba la etiqueta del hablante en blanco y más pequeña (3 % del alto: «MARK:», «KANE:», «CADDY:», «GRONK:», «MR. BEAST:», «ME:») y debajo la frase entera en mayúsculas (4,2 % del alto), en UNA línea. Amarillo #FFF200 lo que dicen los demás; blanco lo que dice Jesse («ME:»). Sombra negra dura, sin caja. Sin resaltado palabra a palabra: la frase entra entera.",
+    "fuente": "top-3 fuente_rotulo.py: amarillo (--color #FFF200) Montserrat 800 +0,713 · Archivo Black +0,634 · Work Sans 800 +0,613; blanco (--color #FFFFFF) Bricolage Grotesque 800 +0,535 · Montserrat 800 +0,508 · Plus Jakarta Sans 800 +0,500",
+    "timing": "Entra con la primera palabra (o hasta 0,26 s antes del corte al hablante: 1:04.20 frente al corte de 1:04.46) y sale cuando acaba la frase; cruza cortes si la frase los cruza. Duración mediana 1,4 s (0,4–3,8 s).",
+    "total_s": "≈ 85 s (4,4 % del vídeo): 76 s de amarillo medidos a 5 muestras/s (detalle/censo_subs_checklist.json) + ≈ 10 s de blanco estimados",
+    "lineas": "≈ 45 amarillas reales (49 tramos detectados menos 4 falsos: trazador de golf 5:37, llamada del patrocinador 27:23.8 y 2 destellos) + al menos 8 blancas vistas = ≈ 53 (1,6/min)",
+    "por_minuto_lineas_amarillas_detectadas": {
+      "0": 1,
+      "1": 1,
+      "2": 1,
+      "3": 5,
+      "5": 5,
+      "6": 3,
+      "7": 3,
+      "8": 1,
+      "9": 2,
+      "10": 4,
+      "11": 3,
+      "12": 1,
+      "13": 2,
+      "15": 1,
+      "18": 1,
+      "19": 1,
+      "24": 1,
+      "25": 1,
+      "27": 2,
+      "29": 4,
+      "30": 4,
+      "31": 2
+    },
+    "donde_no": "11 minutos sin ninguno (4, 14, 16, 17, 20, 21, 22, 23, 26, 28, 32). El bloque entero de Rhea (15:28–20:34) lleva 3 líneas en 5 minutos: cuando el directo se entiende, no se subtitula.",
+    "errores_vistos": "«STIPPER» por «stripper» en 3:02."
+  },
+  "sfx": {
+    "confirmados": [
+      {
+        "t": "0:41.1–0:41.6",
+        "tipo": "soplido (whoosh)",
+        "acompaña_a": "destello blanco al plano de recurso del baño de hielo (corte 0:41.17) + primera lista de pasos",
+        "respecto_voz_db": -1.8
+      },
+      {
+        "t": "1:34.08",
+        "tipo": "obturador / soplido corto",
+        "acompaña_a": "entra la polaroid 1 de Wahlberg sin camiseta",
+        "respecto_voz_db": -12.5
+      },
+      {
+        "t": "1:34.66",
+        "tipo": "obturador / soplido corto",
+        "acompaña_a": "entra la polaroid 2",
+        "respecto_voz_db": -16.8
+      },
+      {
+        "t": "4:58.15",
+        "tipo": "ding",
+        "acompaña_a": "se marca «Read Script» en la lista de Wahlberg",
+        "respecto_voz_db": -11.0
+      },
+      {
+        "t": "5:03.45",
+        "tipo": "ding",
+        "acompaña_a": "se marca «Breakfast»",
+        "respecto_voz_db": -13.0
+      },
+      {
+        "t": "6:30.7–6:31.1",
+        "tipo": "caja registradora",
+        "acompaña_a": "la bola se queda junto al hoyo y Wahlberg dice «Money»",
+        "respecto_voz_db": 10.2
+      },
+      {
+        "t": "7:26.3",
+        "tipo": "ding",
+        "acompaña_a": "se marca «Golf» (último paso de Wahlberg)",
+        "respecto_voz_db": -21.0
+      },
+      {
+        "t": "8:54.8",
+        "tipo": "pop + ding",
+        "acompaña_a": "aparece la tarjeta de macros del patrocinador junto a Jesse",
+        "respecto_voz_db": 2.3
+      },
+      {
+        "t": "9:40.0",
+        "tipo": "ding",
+        "acompaña_a": "lista de Kane Brown, paso marcado",
+        "respecto_voz_db": null
+      },
+      {
+        "t": "10:12.66",
+        "tipo": "ding",
+        "acompaña_a": "lista de Kane Brown, paso marcado",
+        "respecto_voz_db": -22.6
+      },
+      {
+        "t": "14:33.0",
+        "tipo": "ding",
+        "acompaña_a": "lista «Jonathan's Workout», paso marcado",
+        "respecto_voz_db": -4.0
+      },
+      {
+        "t": "15:08.04",
+        "tipo": "ding",
+        "acompaña_a": "último paso de Majors («100 Pushups»)",
+        "respecto_voz_db": -8.8
+      },
+      {
+        "t": "15:25.5",
+        "tipo": "pop + ding",
+        "acompaña_a": "el avatar de Majors cae en la fila A del tier list",
+        "respecto_voz_db": -6.4
+      },
+      {
+        "t": "15:42.1–15:42.3",
+        "tipo": "soplido (whoosh)",
+        "acompaña_a": "zoom de golpe ×2,15 con desenfoque a Rhea en la puerta",
+        "respecto_voz_db": -10.6
+      },
+      {
+        "t": "15:44.08",
+        "tipo": "clic de pausa",
+        "acompaña_a": "congelado de Rhea riendo + icono de pausa",
+        "respecto_voz_db": -15.0
+      },
+      {
+        "t": "15:46.2",
+        "tipo": "impacto corto",
+        "acompaña_a": "entra la página de YouTube con el archivo de Rhea",
+        "respecto_voz_db": -15.7
+      },
+      {
+        "t": "18:50.0–18:50.4",
+        "tipo": "soplido (whoosh)",
+        "acompaña_a": "destello blanco + lista de Rhea («Take Out Dogs»)",
+        "respecto_voz_db": 2.0
+      },
+      {
+        "t": "19:18.64",
+        "tipo": "soplido (whoosh)",
+        "acompaña_a": "destello blanco de entrada a la lucha",
+        "respecto_voz_db": 2.1
+      },
+      {
+        "t": "20:14.28–20:14.6",
+        "tipo": "obturador / soplido corto",
+        "acompaña_a": "polaroids «WINNER #1/#2/#3»",
+        "respecto_voz_db": 2.9
+      },
+      {
+        "t": "21:26.69",
+        "tipo": "ding",
+        "acompaña_a": "check de la tarjeta-chiste «Big Words: Nitrates»",
+        "respecto_voz_db": -17.3
+      },
+      {
+        "t": "24:32.1",
+        "tipo": "ding",
+        "acompaña_a": "lista de Gronkowski, se marca «Gym»",
+        "respecto_voz_db": -19.3
+      },
+      {
+        "t": "27:01.46",
+        "tipo": "ding (2–3 seguidos, ≈ cada 0,4 s)",
+        "acompaña_a": "lista de MrBeast, pasos marcados",
+        "respecto_voz_db": -12.0
+      },
+      {
+        "t": "29:30.4",
+        "tipo": "pop",
+        "acompaña_a": "entra la pastilla de suscribir abajo al centro",
+        "respecto_voz_db": 0.9
+      },
+      {
+        "t": "29:31.91",
+        "tipo": "campanita",
+        "acompaña_a": "el botón pasa a «Subscribed»",
+        "respecto_voz_db": -3.1
+      },
+      {
+        "t": "29:51.54",
+        "tipo": "ding",
+        "acompaña_a": "lista de MrBeast, paso marcado",
+        "respecto_voz_db": -13.1
+      },
+      {
+        "t": "29:52.71",
+        "tipo": "ding",
+        "acompaña_a": "lista de MrBeast, segundo paso marcado",
+        "respecto_voz_db": -11.0
+      }
+    ],
+    "total_confirmados": 26,
+    "por_minuto": [
+      1,
+      2,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      0,
+      0,
+      1,
+      5,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1,
+      0,
+      0,
+      1,
+      0,
+      0,
+      1,
+      0,
+      4,
+      0,
+      0,
+      0
+    ],
+    "por_minuto_media": 0.81,
+    "como_se_confirmo": "Las 14 hojas sfx_hoja_00–13.jpg (321 candidatos de sfx.json, de 0:27.59 a 30:22.42). Solo se da por bueno lo que tiene firma clara en el espectrograma (ataque vertical, mancha de ruido ancha que nace en el instante, rayas tonales que se apagan) Y coincide con algo que se ve en el fotograma; los instantes de las casillas se comprobaron fotograma a fotograma (detalle/f_checklist_tick*.jpg). El nivel es el respecto_voz_db de sfx.json del candidato; vacío cuando la medida incluye un golpe de música (9:40.0 da +7,0, no fiable).",
+    "reglas": [
+      "Casilla marcada = «ding» corto, siempre el mismo, bajo (−11 a −22 dB respecto a la voz; mediana −13): 12 de los 26 confirmados. Es el único sonido que se repite durante todo el vídeo y el espectador lo aprende en el minuto 4.",
+      "Destello blanco de cambio de paso = soplido fuerte, al nivel de la voz (−1,8 a +2,1 dB): 3 confirmados de 3 mirados (0:41.1, 18:50.1, 19:18.6).",
+      "Foto que entra (polaroid) = obturador, uno por foto (3 de 3 bloques mirados).",
+      "Presentación de personaje = cadena de 3 sonidos en 4 s: soplido en el zoom (15:42.2), clic en el congelado (15:44.1), impacto al entrar el archivo (15:46.2). El minuto 15 concentra 5 de los 26.",
+      "Sonido cómico literal solo 1 vez: caja registradora en «Money» (6:31), +10 dB sobre la voz porque no hay voz encima.",
+      "Botón de suscribir: pop al entrar + campanita al pulsar (2 de 2).",
+      "Lo que NO suena: la salida de la lista, los sellos de hora, las etiquetas con flecha, los subtítulos y los cortes normales. De 321 candidatos, el 29,3 % cae en un corte, pero casi todos son golpes de la propia música.",
+      "El «efecto» más usado no es un efecto: es quitar la música y devolverla de golpe (ver musica.silencios_a_proposito)."
+    ],
+    "candidatos_descartados": "≈ 280 de 321. Por tipo de pista: «redoble» 97 y «error» 66 son casi todos batería y golpes de la música (1:11.3–1:11.9 entra la batería al saltar al baño de hielo; 3:06.3–3:06.9; 3:17.7–3:18.2; 11:51.8–11:52.3 la pista entra con la camioneta; 28:59.3 dos golpes a compás de dos planos de 0,4 s); «notificacion» 30 y «silbido» 18, música o voces; sonido directo real: agua (1:26), golpes de golf (5:30.05, 6:18.3: raya vertical finísima), puñetazo al saco (11:43.15), nudillos en la puerta (15:38.5), maquinilla de MrBeast (26:43.3, bloque de ruido de 0,75 s), chapuzones (24:33–24:43), golpes en la lona (19:40–20:08)."
+  },
+  "musica": {
+    "proporcion": "78 % del audio (1.495 s en 56 tramos; audio.json)",
+    "primera_musica_s": 0,
+    "voz_db_media": -17.6,
+    "voz_menos_musica_db_mediana": 11.9,
+    "voz_menos_musica_db_rango": "−3,1 (carrusel, sin voz) a +25,8",
+    "tramos": {
+      "cuantos": 56,
+      "duracion_mediana_s": 20.5,
+      "duracion_min_max_s": "4–133",
+      "nota": "Ventanas cortas: la pista entra y sale 56 veces (una cada 34 s). El tramo más largo es 19:05–21:18 (133 s: lucha, suscripción, veredicto, carrusel y despertar de Gronk).",
+      "clave": [
+        {
+          "desde": "0:00",
+          "hasta": "0:21",
+          "voz_menos_musica_db": 10.5,
+          "nota": "intro; el primer segundo va al nivel de la voz (−19,6 frente a −21,1 dB) y hay 3 s de corte (0:05–0:07)"
+        },
+        {
+          "desde": "0:27",
+          "hasta": "1:08",
+          "voz_menos_musica_db": 9.9,
+          "nota": "primer famoso"
+        },
+        {
+          "desde": "1:11",
+          "hasta": "1:28",
+          "voz_menos_musica_db": 5.6,
+          "nota": "baño de hielo: la música arriba"
+        },
+        {
+          "desde": "4:04",
+          "hasta": "4:32",
+          "voz_menos_musica_db": 14.5,
+          "nota": "objetivo personal en off: la más baja"
+        },
+        {
+          "desde": "8:55",
+          "hasta": "10:11",
+          "voz_menos_musica_db": 12.3,
+          "nota": "cocina y patrocinio"
+        },
+        {
+          "desde": "13:37",
+          "hasta": "14:17",
+          "voz_menos_musica_db": 4.4,
+          "nota": "entreno duro con Majors"
+        },
+        {
+          "desde": "15:29",
+          "hasta": "15:39",
+          "voz_menos_musica_db": -3.1,
+          "nota": "adelanto + carrusel #4: por encima de la voz"
+        },
+        {
+          "desde": "15:44",
+          "hasta": "17:10",
+          "voz_menos_musica_db": 11.8,
+          "nota": "presentación y cafeína de Rhea"
+        },
+        {
+          "desde": "19:05",
+          "hasta": "21:18",
+          "voz_menos_musica_db": 10.6,
+          "nota": "lucha; en los golpes sin voz sube a −11 dB de pista"
+        },
+        {
+          "desde": "21:43",
+          "hasta": "22:02",
+          "voz_menos_musica_db": 6.3,
+          "nota": "vuelta tras 25 s de chistes sin música"
+        },
+        {
+          "desde": "28:31",
+          "hasta": "29:27",
+          "voz_menos_musica_db": 12.4,
+          "nota": "pizarra, Beast Arena y serie con contador"
+        },
+        {
+          "desde": "31:33",
+          "hasta": "32:00",
+          "voz_menos_musica_db": 7.6,
+          "nota": "soborno y veredicto final"
+        },
+        {
+          "desde": "32:04",
+          "hasta": "32:11",
+          "voz_menos_musica_db": 4.5,
+          "nota": "pantalla final (pista a −22/−23 dB)"
+        }
+      ]
+    },
+    "huecos_sin_musica": "55 huecos; mediana 5 s. Diez de más de 10 s: 2:30–2:43 (13 s), 3:28–4:04 (36 s, pregunta sobre el éxito), 4:47–5:06 (19 s), 8:36–8:55 (19 s), 12:44–13:01 (17 s), 14:17–14:33 (16 s, amanecer), 21:18–21:43 (25 s, chistes del desayuno), 23:06–23:34 (28 s), 24:37–24:48 (11 s), 29:48–30:21 (33 s, pregunta del contrato). Regla: conversación seria o chiste hablado = sin música.",
+    "cambios_de_pista": "5 automáticos (1:52, 16:24, 25:04, 28:50, 29:36); a la vista del espectro la pista cambia además en casi cada vuelta tras un hueco. Batería marcada y bajo, sin melodía que compita; cada famoso tiene su color (más grave y percusiva con Majors y Rhea).",
+    "silencios_a_proposito": [
+      "0:05–0:07: la música se quita 3 s (−39/−43 dB) para el diálogo de la cama y vuelve en 0:08 con el zoom-out.",
+      "3:06.8 y 3:18.0: tras cada chiste de doble sentido de la prensa la batería entra de golpe como remate.",
+      "9:15.1–9:23.2: corte en seco de 8 s mientras Kane prueba la avena aguada; vuelve con la mención del patrocinador.",
+      "11:51–11:52.0: ≈ 1 s de silencio y la pista entra con el corte a la camioneta gigante.",
+      "14:55–14:56: 1 s de silencio antes de la voz en off.",
+      "17:56.3: se corta con Jesse en el suelo.",
+      "22:28–22:50.7: 22 s sin música (−35,6 dB) en el gag de «apunta las cámaras arriba»; vuelve de golpe en el abrazo."
+    ],
+    "sin_voz": "Cuando no hay locución la pista sube: mediana −22,8 dB en los tramos sin voz y −9/−12 dB en los carruseles (7:44–7:46: −9,3/−11,8; 12:27–12:29: −11,2/−9,5; 15:34–15:36: −10,0/−9,0; 20:38: −11,8; 25:49–25:51: −13,4/−11,7), es decir, 6–8 dB POR ENCIMA del nivel medio de la voz. Ningún plano sin voz se queda sin música.",
+    "musica_a_ritmo_de_cortes": "Poco: 20 % de los cortes caen en un acento (31,2 acentos/min). Se corta a ritmo solo en parejas de planos de situación (28:59.3: dos planos de 0,37 y 0,43 s con dos golpes) y al entrar la batería en un cambio de sitio (1:11.3, 5:45.4).",
+    "lufs": "−13,2 LUFS integrados, LRA 5,2, pico −2,3 dBTP",
+    "directo_vs_musica": "En los entrenos el directo (hierros, respiración, golpes) va por delante y la música a 4–6 dB de la voz; en la lucha se oyen los golpes en la lona por encima de la pista."
+  },
+  "broll": {
+    "proporcion_sobre_voz": "Por muestreo de 3 minutos mirados a 0,1 s: 30 % (0:21–1:21, presentación de Wahlberg), 20 % (15:50–16:50) y 18 % (28:00–29:00). Estimación global ≈ 20 % del vídeo con imagen que no es quien habla; sube a ≈ 30–50 % en los 60 s de presentación de cada famoso y baja a ≈ 5–10 % en las conversaciones.",
+    "de_donde_sale": "(1) Archivo ajeno SIEMPRE dentro de una página de YouTube o Spotify (≈ 20 clips, 0,55–2,7 s cada uno). (2) Planos de situación del propio rodaje en parejas de 0,4–1,9 s (fachada, sala vacía, objeto) con la lista de pasos encima. (3) Planos del propio vídeo fuera de su sitio, etiquetados «COMING UP:» / «EARLIER…» o con viñeta en las recapitulaciones (12:14, 25:34–25:42, 31:22). (4) Capturas de interfaz (página del canal, app del patrocinador, mapa). (5) Insertos de lo que se nombra (perro, latas, alarmas, pizarra).",
+    "duracion_tipica": "0,6–2,7 s; mediana ≈ 1,2 s. Los de archivo van en ristra de 2–4 seguidos (0:30.13–0:36.87: 4 en 6,7 s).",
+    "vuelta_a_camara": "Se vuelve a la persona por corte seco en el arranque de su frase; nunca hay más de ≈ 7 s seguidos de recurso sobre voz en off.",
+    "regla_vista": "Cada mérito citado en off lleva su prueba en imagen en menos de 1 s: «waking up insanely early» → clip con «4:02 AM»; «just dogs» → el perro; «I got my energy drink» → las latas."
+  },
+  "voz_en_off": {
+    "proporcion": "≈ 19 % del vídeo (≈ 374 s en ≈ 49 bloques, contados sobre la transcripción; no medido por separación de voces)",
+    "bloques": "mediana ≈ 5,5 s (2–27 s). Los largos: premisa (0:11–0:20), objetivo personal (3:52.6–4:13), presentación de cada famoso (10–15 s) y recapitulación (25:34–25:49).",
+    "tipo": "guion grabado después, en pasado y en primera persona («And after stripping down, I sprinted to get in that cold plunge», «And 100 push-ups later…»), con el mismo tono de broma del directo.",
+    "mezcla": "A −16/−18 dB con la música 10–14 dB por debajo; entra sobre la cola del plano anterior (corte en L) y no se subtitula.",
+    "para_que": "Cinco usos, siempre los mismos: (1) presentar al famoso con cifras y archivo; (2) puente de paso a paso («Next up in Kane's morning…»); (3) elipsis de tiempo («A few hours later…»); (4) enlazar el patrocinador con lo que se come; (5) dictar el veredicto («So for Mark's morning routine, I'm going with an A-tier»)."
+  },
+  "humor_de_edicion": [
+    {
+      "recurso": "comentario del editor entre asteriscos",
+      "donde": "0:27.49–0:29.06, 0:56.86–0:58.66",
+      "como": "plano de quien espera + texto arriba con lo que piensa; 1,6–1,8 s, entra y sale con el corte"
+    },
+    {
+      "recurso": "inserto que desmiente lo que se dice",
+      "donde": "0:44.28–0:46.98",
+      "como": "Jesse dice que se levantó a las 4 y se le ve dormido con la lista de alarmas de iOS a la izquierda; sello «5:17 AM (I'M LATE ASF)» en 0:48.7"
+    },
+    {
+      "recurso": "insertos-meme con películas del invitado",
+      "donde": "1:19.51–1:21.15",
+      "como": "2 planos de 0,67 y 0,97 s como reacción a su propia frase"
+    },
+    {
+      "recurso": "zoom de golpe al silencio incómodo",
+      "donde": "1:00.5 (×1,60), 28:14.0 (×1,57)",
+      "como": "rampa de 9–12 f con frenada y se aguanta 1–1,5 s sin cortar"
+    },
+    {
+      "recurso": "música fuera durante el chiste y golpe de vuelta en el remate",
+      "donde": "0:05–0:08, 3:06.8, 9:15.1–9:23.2, 11:52.0, 22:28–22:50.7",
+      "como": "corte en seco de la pista, sin fundido; vuelve en el fotograma del corte siguiente"
+    },
+    {
+      "recurso": "sonido literal",
+      "donde": "6:31",
+      "como": "caja registradora cuando dice «Money», 10 dB sobre la voz"
+    },
+    {
+      "recurso": "congelado con icono de pausa",
+      "donde": "15:43.7–15:46.1",
+      "como": "2,4 s de imagen parada con clic para decir «With the first one being mommy. I mean, Rhea Ripley»"
+    },
+    {
+      "recurso": "etiquetas encadenadas",
+      "donde": "17:27.1–17:30.6",
+      "como": "«SMELLING SALTS» y «RHEA'S BFF», una por plano, con flecha"
+    },
+    {
+      "recurso": "la plantilla seria usada para un chiste",
+      "donde": "21:24–21:27",
+      "como": "la tarjeta de la lista con el título «Big Words» y las palabras difíciles que dice Gronk, con su «ding»"
+    },
+    {
+      "recurso": "dejar la toma entera",
+      "donde": "22:34.8–22:39.2 (dentro de un plano de 10,7 s)",
+      "como": "el operador apunta la cámara al techo porque se lo piden; no se corta ni se tapa: el fallo de cámara es el chiste"
+    },
+    {
+      "recurso": "foco sobre lo que se lee",
+      "donde": "28:20.0, 28:33.4, 28:39.95",
+      "como": "3 planos de 1,5–2,0 s de la pizarra con una línea iluminada; el chiste está escrito y se subraya"
+    },
+    {
+      "recurso": "chiste de vuelta al final",
+      "donde": "31:59–32:04",
+      "como": "el dólar de la pizarra de 28:33 se paga en la despedida"
+    }
+  ],
+  "transiciones": [
+    {
+      "tipo": "corte seco",
+      "cuanto": "≈ 95 % de los ≈ 1.020 cambios de plano"
+    },
+    {
+      "tipo": "destello blanco de entrada: el plano nuevo nace quemado en blanco y baja en 4–8 f (mediana 6 f), con desenfoque suave",
+      "cuanto": "≈ 30 (0,93/min), medidos con la luminancia media por fotograma (detalle/destellos_blancos_35.jpg): 0:01.53, 0:10.91, 0:39.44, 0:41.17, 1:37.06, 5:22.36, 5:59.09, 7:40.36, 7:52.84, 7:57.14, 9:00.64, 12:11.33, 12:14.23, 12:40.56, 13:38.88, 13:44.16, 14:39.01, 16:26.75, 18:07.95, 20:21.59, 20:34.03, 21:08.37, 23:18.2, 23:40.15, 25:34.13, 25:57.99, 27:37.32, 28:45.29, 30:35.5, 30:41.24 (+ 18:50.0 y 19:18.6 vistos en hoja). Usos: cambio de paso con lista, salida del tier list, entrada o salida de archivo y recuerdo, cambio de localización, subidón."
+    },
+    {
+      "tipo": "negro corto antes del carrusel",
+      "cuanto": "2 de 7 f (12:27.28–12:27.48 y 15:34.30–15:34.50); además 16:16.21 (3–4 f, sale del negro), 31:21.4 (3 f) y 32:04.86 (6 f antes de la pantalla final)"
+    },
+    {
+      "tipo": "fundido encadenado con doble exposición (paso de tiempo o recuerdo)",
+      "cuanto": "≈ 5: 16:19.4–16:21.3 (dos seguidos, tomando el polvo en seco), 12:14, 23:18, 31:22"
+    },
+    {
+      "tipo": "barrido de cámara con desenfoque (3–5 f)",
+      "cuanto": "≥ 3 vistos: 0:03.76 (5 f), 7:27.35 (salida hacia el exterior), 23:37.3 (al trayecto en coche)"
+    },
+    {
+      "tipo": "zoom hacia dentro de la página de YouTube (×1,7 en ≈ 12 f) y corte al clip a pantalla completa",
+      "cuanto": "1 medido (16:44.1–16:44.5)"
+    },
+    {
+      "tipo": "corte por coincidencia cara → logo circular con zoom ×3,3",
+      "cuanto": "1 (0:10.91)"
+    },
+    {
+      "tipo": "carrusel sobre negro como cortinilla de bloque",
+      "cuanto": "6"
+    }
+  ],
+  "transiciones_resumen": "Tres transiciones construidas con función fija: destello blanco (cambio de paso o de sitio), carrusel (cambio de famoso) y tier list (cierre de famoso). El resto, corte seco. El detector marca 4 transiciones (0:10.91, 1:33.96, 20:14.21, 30:12.34); a la vista son muchas más porque el destello dura 4–8 f y lo cuenta como corte.",
+  "cierre": {
+    "como_acaba": "MrBeast corta la rutina («this is where we're gonna cut off my morning routine», 31:14) con la lista entera marcada en pantalla (31:14.0, 3,0 s) → «So what do you rate it?» (31:20) → recuento con fundido de recuerdo (31:21.5–31:27) → soborno de 5.000 $ (31:28–31:40) → S con el tablero final completo (31:44–31:47) → MrBeast se queda el dinero (31:47–31:56).",
+    "cta": "De voz, en 4 s: «All right, anyways, subscribe. I'll see you guys in the next one» (31:56.3). Las peticiones fuertes van antes y dentro del contenido: suscripción tras el derribo (20:09–20:20) y tras la serie de 13 (29:29.9–29:33, la hace el invitado), «me gusta» con objetivo de 150.000 (25:44–25:48).",
+    "coletilla": "31:59–32:04: «Hey, I do owe you a dollar» — se paga el dólar de la pizarra (chiste de vuelta de 28:33).",
+    "pantalla_final": "32:05.02–32:11.40 (6,4 s) tras 6 f de negro: fondo negro, «WATCH THIS NEXT» arriba a la izquierda con 2 flechas curvas hacia los huecos de los vídeos, «STAY RELENTLESS» abajo a la izquierda, código QR con halo + «MACROFACTOR» + «CODE “JESSE”» al centro. La voz sigue encima («Stay relentless… use code Jesse and get two weeks for free», 32:03.7) con la música a −22/−23 dB (≈ 6 dB bajo la voz).",
+    "duracion_despedida_s": 8.6
+  },
+  "comparacion_con_otros_jjw": {
+    "fichas": [
+      "2026-02-15_training-at-the-world-s-most-dangerous-gym-diamond.json (reto, 21:17)"
+    ],
+    "repite": [
+      "Sistema de juego dibujado con plantillas pequeñas en esquina fija: allí contador TOTAL REPS, corazones y lista de objetivos (4 apariciones); aquí lista de pasos (36), tier list (7) y carrusel (6). La lista con casillas está en los dos.",
+      "Una sola familia tipográfica ultranegra en mayúsculas y dos colores (blanco y amarillo) para todo lo que escribe el editor.",
+      "Subtítulos solo del sonido directo, una línea en mayúsculas, amarillo los demás y blanco Jesse; la voz en off nunca.",
+      "Comentario del editor entre asteriscos; etiquetas «COMING UP:» y «EARLIER…» en todo plano fuera de su sitio; tarjetas de Instagram para presentar gente; archivo ajeno dentro de una página de YouTube.",
+      "El silencio de música como efecto principal y pocos efectos de sonido: 0,85/min allí, 0,81/min aquí.",
+      "Voz en off en pasado como hilo; patrocinador enlazado con una frase; suscripción con botón animado abajo al centro justo después de un pico; pantalla final en negro con «WATCH THIS NEXT».",
+      "Zoom de golpe animado con frenada a la cara que reacciona (≈ 1,2–1,3/min; ×1,2–1,65 allí, ×1,57–2,15 aquí). Sin título ni cabecera en ninguno de los dos.",
+      "Destello blanco como señal de cambio de bloque."
+    ],
+    "cambia": [
+      "Intro: 107,8 s con ráfaga de 19 planos y 3 cartelas de objetivo allí; 21,3 s sin ráfaga aquí. Con seis invitados famosos la premisa cabe en dos frases y el tiempo se gasta en presentar a cada uno dentro de su bloque (≈ 25 s cada vez).",
+      "Ritmo: 21,0 cortes/min detectados (≈ 27 reales) allí frente a 27,6 (≈ 31,7) aquí; plano mediano 2,17 s frente a 1,77 s. Aquí hay 3 cámaras por conversación.",
+      "Subtítulos: ≈ 19 % del vídeo allí (175–190 líneas) frente a ≈ 4 % aquí (≈ 53 líneas). Allí el directo era un gimnasio ruidoso; aquí se entiende.",
+      "Destellos blancos: 3, solo en la intro, allí; ≈ 30 repartidos aquí, convertidos en la señal de «paso siguiente».",
+      "Música: 28 tramos y 7,9 dB bajo la voz allí; 56 tramos y 11,9 dB aquí (más diálogo que entender).",
+      "Reto: allí reglas (6), vidas (3) y penalizaciones; aquí ninguna de las tres, solo objetivo, progreso y nota.",
+      "Contador: en pantalla el 31 % del tiempo allí; aquí uno de 11,5 s.",
+      "Patrocinador: un bloque de 38 s allí; 4 micro-menciones de 10–14 s repartidas aquí.",
+      "Pantalla final: 13 s con comentario destacado allí; 6,4 s con QR aquí.",
+      "Localizaciones: 1 frente a 6; por eso aquí aparecen carrusel, sellos de hora y mapa, que allí no existen."
+    ]
+  },
+  "para_el_estilo": [
+    "Reto de formato repetido (N personas o N pruebas con nota): la intro NO es un recap de 15–25 s del propio vídeo, como propone CONTEXTO.md. Son 21,3 s: 10,9 s de gancho en frío con el invitado más fuerte y 10,4 s de premisa animada con 6 gráficos (uno cada 3,5 s). De los mejores momentos del vídeo no sale ninguno.",
+    "Abrir un bucle largo: el invitado del gancho (segundo 0) no vuelve hasta el minuto 25:55, con el rótulo «EARLIER…», y es el último bloque. El orden de los bloques va de menor a mayor: nota B y A primero, las tres S al final.",
+    "Tres plantillas y solo tres llevan el formato, idénticas en los 6 bloques: carrusel «Routine #N» al abrir (3,0–4,1 s, sin voz), lista de pasos durante (36 apariciones de 2,8 s de mediana, 5,8 % del vídeo) y tier list al cerrar (≈ 3 s). Nunca dos a la vez.",
+    "El progreso se marca con una lista que se tacha, no con un contador: 31 pasos, una aparición cada 54 s, abajo a la izquierda (19,7 % × 36,5 % del cuadro), y la casilla se rellena en 1 fotograma EN la frase que da el paso por hecho.",
+    "Cada bloque de invitado se abre con la misma secuencia de ≈ 25 s: adelanto o puente en off → carrusel → sello de hora + puerta o cama con sonido directo → zoom de golpe con tarjeta de seguidores → chiste → 1–3 clips de archivo enmarcados → primera aparición de la lista.",
+    "Cada bloque se cierra igual: lista con todo marcado (2–3 s) → frase de veredicto en off → tier list 3 s con pop del avatar → destello blanco.",
+    "Nada de reglas ni castigos si el formato no los tiene: 0 reglas, 0 penalizaciones. La tensión la pone la nota y un mini-reto por bloque (carrera, lucha, 12 repeticiones).",
+    "Contador solo cuando hay número objetivo dicho en voz alta: 1 en 32 min (0 → 13 en 11,5 s), con elipsis de las repeticiones 2–9 por destello y el número en amarillo al superar el objetivo.",
+    "Ritmo por multicámara, no por jump cuts: 27,6 cortes/min detectados (≈ 31,7 reales), plano mediano 1,77 s, con ≈ 1 salto al mismo encuadre por minuto. CONTEXTO.md describe la receta de cortes de escala sobre una sola cámara; aquí el corte es a otra cámara en cada réplica.",
+    "Subtítulos puntuales con etiqueta de hablante: ≈ 53 líneas en 32 min (1,6/min, 4 % del vídeo), amarillo el invitado y blanco el creador. Coincide con «solo puntuales» de CONTEXTO.md y añade el nombre de quien habla encima.",
+    "Música más baja de lo habitual bajo la voz (11,9 dB de mediana) pero en 56 ventanas cortas, con 10 huecos de más de 10 s para lo serio y lo gracioso, y 6–8 dB por encima de la voz en las cortinillas sin locución.",
+    "Transiciones construidas muy por encima del tope de 5 de CONTEXTO.md: ≈ 30 destellos blancos + 6 carruseles + 7 tier list. Funciona porque son SIEMPRE las mismas tres y cada una significa una cosa.",
+    "Peticiones dentro del contenido y después de un pico: suscripción en 20:09 (tras el derribo) y 29:30 (tras la serie, dicha por el invitado), «me gusta» con cifra objetivo en 25:44; en la despedida, 4 s.",
+    "Qué NO se hereda: título o cabecera animada (no hay); recap o tráiler del propio vídeo en la intro; ráfaga (0 planos de menos de 0,7 s en la intro); mapas de trayecto (los 6 viajes se resuelven con una frase en off y un sello de hora); rótulos de cifra o dato a pantalla completa; textos animados letra a letra o con rebote; subtítulos continuos; zoom lento sobre quien habla; efectos de sonido en cortes normales; capítulos con cartela de texto (la cartela es el carrusel)."
+  ],
+  "para_la_base": [
+    "Un gráfico = una función, y el mismo gráfico siempre para la misma función. Con 3 plantillas reutilizadas (49 apariciones entre las tres) el espectador sabe dónde está en un vídeo de 32 min sin que nadie se lo diga.",
+    "Gráficos que cruzan cortes: la lista entra con un corte y aguanta 1–2 cortes más sin moverse (3,0 s sobre 3 planos en 18:50.0). El montaje de debajo no se frena por el gráfico.",
+    "El sonido de un gráfico va en la consecuencia, no en la entrada: la lista entra muda y suena solo al marcarse la casilla (12 «ding», −11 a −22 dB respecto a la voz).",
+    "Quitar la música es el efecto más barato y el más usado: corte en seco 0,5–22 s en el chiste o en la pregunta seria, y vuelta de golpe en el fotograma del corte siguiente. 26 efectos de sonido en 32 min (0,81/min) bastan.",
+    "Todo plano fuera de su sitio lleva etiqueta («COMING UP:», «EARLIER…») o marco (página de YouTube para el archivo ajeno). El espectador nunca duda de si algo es de ahora, de antes o de otro.",
+    "Presentar a una persona con una cifra pegada a su cara (seguidores, suscriptores) en vez de con un rótulo de nombre y cargo: ≈ 13 tarjetas, 1–3 s cada una.",
+    "Prueba en imagen en menos de 1 s de cada cosa que se afirma en off (insertos de 0,6–2,7 s, mediana ≈ 1,2 s).",
+    "Zoom de golpe animado, no de 1 fotograma: rampa de 9–18 f con frenada y desenfoque, ×1,57–2,15, y aguantar 1–2,5 s. ≈ 1,2/min, solo en reacciones y entradas de personaje.",
+    "Los gráficos a pantalla completa nunca están quietos: empuje o alejamiento de 3–6 %/s durante los 2–4 s que duran.",
+    "Ningún plano sin voz sin música, y más alta: −9/−12 dB de pista en las cortinillas frente a ≈ −29 dB bajo la voz.",
+    "Elipsis honesta de una serie larga: se enseñan la primera repetición y las últimas, con el contador saltando de 1 a 10 dentro de un destello de 2 f (13 repeticiones en 8,9 s).",
+    "El golpe grande se repite desde varios ángulos (el derribo de 19:54.9–20:04.0 en 5 planos, 2 de ellos a cámara lenta) con la voz fuera y la música 6 dB por encima de su nivel bajo voz.",
+    "Dejar entera la toma cuando el fallo es el chiste (10,7 s sin cortar en 22:30–22:41) aunque el plano mediano sea de 1,77 s."
+  ],
+  "para_el_motor": {
+    "ESCALAS": [
+      1.0,
+      1.25,
+      1.0,
+      1.6,
+      1.0,
+      1.15,
+      1.0,
+      1.57
+    ],
+    "ESCALAS_nota": "Medido: cortes de escala en la misma cámara ×0,8–1,25 y golpes animados ×1,57 · 1,60 · 1,62 · 1,69 · 2,15; siempre se vuelve a ×1,0. En el original la variedad de escala la da el cambio de cámara (3 por escena); con una sola cámara el motor tendría que alternar ×1,0 con ×1,15–1,25 en cada réplica.",
+    "CAMBIO_CADA": [
+      1.4,
+      3.2
+    ],
+    "CAMBIO_CADA_nota": "Propuesta a partir de lo medido: plano mediano 1,77 s detectado (≈ 1,6 s real), p10 0,87 s, p90 3,9 s. Por bloque la mediana va de 1,63 s (Wahlberg, Rhea) a 1,95 s (Kane). La base trae 2,48–4,48.",
+    "Z_FUERTE": 1.6,
+    "Z_FUERTE_nota": "Mediana de 5 golpes medidos (1,57–2,15); ×2,15 solo en la entrada de personaje. La base trae 1,65.",
+    "Z_FUERTE_duracion_f": "rampa de 9–18 f con frenada y desenfoque + meseta de 30–75 f; sale por corte",
+    "Z_FUERTE_por_minuto": 1.2,
+    "ZOOM_LENTO": "solo bajo gráficos: +2,9 a +5,6 %/s (carrusel), +3 %/s (rótulo de hora sobre paisaje), −3,8 a −5,7 %/s (tier list y rejilla). Ninguno sobre quien habla.",
+    "Z_SIN_CARA": 1.0,
+    "Z_SIN_CARA_nota": "Coincide con la base: los planos de recurso van fijos (medido ×1,00–1,012, +1,3 %/s como mucho).",
+    "CARA_Y": null,
+    "CARA_Y_nota": "No medido con detector. A ojo, en los golpes la cara queda en el tercio superior (≈ 0,33–0,40 del alto).",
+    "SFX": {
+      "titulo": "no hay título",
+      "seccion": "soplido con el destello blanco de cambio de paso: −1,8 a +2,1 dB respecto a la voz (0:41.1, 18:50.1, 19:18.6)",
+      "dato": "«ding» de casilla marcada: −11 a −22 dB (mediana −13); pop + ding de tarjeta o avatar: −6,4 a +2,3 dB",
+      "golpe": "soplido en el zoom de golpe de entrada de personaje: −10,6 dB (15:42.2); el resto de zooms, mudos",
+      "trk": "no confirmado",
+      "mapa": "no confirmado (el único mapa, 27:46, no tiene candidato claro)",
+      "suscribe": "pop al entrar +0,9 dB (29:30.4) y campanita al pulsar −3,1 dB (29:31.9)"
+    },
+    "SFX_nota": "Niveles = respecto_voz_db de sfx.json. 0,81 efectos/min. Fuera de los tipos del motor: obturador de polaroid (−16,8 a +2,9 dB), clic de pausa (−15,0), impacto de archivo (−15,7), caja registradora (+10,2).",
+    "MUSICA_NIVELES_medidos": {
+      "voz_db": -17.6,
+      "BASE": "11,9 dB bajo la voz de mediana (≈ −29,5 dB de pista); 14,5 en explicación en off; 4–6 en entrenos",
+      "TRAILER": "intro: al nivel de la voz el primer segundo (−19,6 dB) y 8–10 dB por debajo después",
+      "TITULO": "no hay título",
+      "SECCION": "cortinilla (carrusel): −9 a −12 dB de pista, 6–8 dB por encima de la voz",
+      "MAPA": "no medido aparte",
+      "SINVOZ": "mediana −22,8 dB en tramos sin voz; −11 dB en los golpes de la lucha",
+      "CIERRE": "−22/−23 dB (≈ 6 dB bajo la voz) en despedida y pantalla final"
+    },
+    "MUSICA_NIVELES_nota": "Lo que se puede trasladar a ajustes.py son las distancias respecto a BASE (pista bajo voz ≈ −29,5 dB): SECCION (cortinilla sin voz) = BASE + 17,5 a + 20,5 dB; SINVOZ = BASE + 6,7 de mediana y hasta + 18,5 en los golpes de la lucha; CIERRE = BASE + 7; TRAILER = BASE + 10 solo el primer segundo. En la base esas distancias son + 9 (SECCION), + 11 (SINVOZ), + 4 (CIERRE) y + 8 (TRAILER): este vídeo pide la cortinilla mucho más alta y el resto parecido.",
+    "MUSICA_VENTANAS": "56 tramos de 20,5 s de mediana que cubren el 78 %; huecos de 5 s de mediana y 10 de más de 10 s. Entrada y salida en seco, en un corte.",
+    "LUFS": -13.2,
+    "INTRO": {
+      "tipo": "explicativa",
+      "duracion_s": 21.3,
+      "gancho_frio_s": 10.9,
+      "premisa_s": 10.4,
+      "animaciones": 6,
+      "rafaga": false,
+      "titulo": false,
+      "planos_de_muestra": "5 de 0,77–1,73 s con gráfico encima"
+    },
+    "LISTA_PASOS": {
+      "posicion": "abajo-izquierda, x 57–435, y 633–1027 px (1080p)",
+      "tamano": "19,7 % × 36,5 %",
+      "entrada_f": "0 (con el corte) o 9 dentro de un destello",
+      "salida_f": 4,
+      "duracion_s": [
+        2.2,
+        3.6
+      ],
+      "duracion_max_s": 8.0,
+      "check_f": 1,
+      "sfx": "ding al marcar",
+      "cada_s": 54,
+      "cruza_cortes": true
+    },
+    "CARRUSEL": {
+      "duracion_s": [
+        3.0,
+        4.1
+      ],
+      "recorrido_f": 48,
+      "empuje_pct_s": [
+        2.9,
+        5.6
+      ],
+      "voz": false,
+      "musica": "−9/−12 dB de pista",
+      "negro_previo_f": 7
+    },
+    "TIER_LIST": {
+      "duracion_s": 3.0,
+      "entrada_f": 20,
+      "pop_avatar_f": 7,
+      "deriva_pct_s": -3.8,
+      "sfx": "pop + ding al caer el avatar",
+      "salida": "corte con destello blanco"
+    },
+    "DESTELLO": {
+      "duracion_f": [
+        4,
+        8
+      ],
+      "mediana_f": 6,
+      "por_minuto": 0.93,
+      "sfx": "soplido al nivel de la voz en los de cambio de paso"
+    },
+    "CONTADOR": {
+      "posicion": "arriba-izquierda, centro (150, 100) px",
+      "diametro": "14 % del alto",
+      "entrada_f": 6,
+      "salida_f": 9,
+      "cambio_f": 1,
+      "color_objetivo_superado": "amarillo con resplandor"
+    },
+    "SUBTITULO": {
+      "lineas": 1,
+      "etiqueta_hablante": true,
+      "alto_pct": 4.2,
+      "etiqueta_alto_pct": 3.0,
+      "y_px": [
+        984,
+        1044
+      ],
+      "color_otros": "#FFF200",
+      "color_creador": "#FFFFFF",
+      "por_minuto": 1.6,
+      "duracion_mediana_s": 1.4
+    }
+  },
+  "dudas": [
+    "Efectos de sonido sin revisar en dos tramos: 0:00–0:27.6 (sfx.json no trae ningún candidato antes de 0:27.59, así que los posibles sonidos de la pastilla, la rejilla, el tier list y el carrusel de la intro quedan sin confirmar) y 30:22–32:11 (sfx.json se corta en el candidato 321, que es 30:22.42; el veredicto final y el soborno no se miraron en espectrograma).",
+    "Sonido del carrusel: en las 5 apariciones del cuerpo la pista sube a −9/−12 dB sin voz, pero no se puede separar si es un efecto (redoble o golpe) o la propia música que sube. Va como música.",
+    "Candidatos con algo que se ve pero firma poco clara (NO confirmados): 0:27.59 (con «*WAYYY TOO LONG*»), 0:44.22 (corte al inserto de Jesse dormido), 0:56.85 (con «*WHY IS HE STILL TALKING?*»), 1:54.61 y 13:18.78 (entrada de página de YouTube), 3:14.58 (impacto sobre una frase de Wahlberg, ¿golpe cómico o hierro?), 5:37.18 (trazador de la bola), 7:27.0–7:27.6 (salida de la lista con barrido), 8:25.9 (corte a la cafetera tras silencio), 10:11.44, 14:23.6 (sello «6:30 AM»), 17:08.9 (adelanto de la lucha), 20:22.2 (probable ding del paso «Wrestling»), 21:19.26, 21:39–21:40, 23:37.22 (barrido al coche), 28:40.0 (foco «4. Have fun!»), 30:22 (cámara de seguridad).",
+    "Total de cortes: 1.020 con margen 950–1.100. El factor ×1,145 sale de 210 s mirados a 0,1 s (3 minutos + 30 s de lucha); por tramo va de ×1,03 a ×1,5.",
+    "Fuentes: la herramienta no es fiable en la lista de pasos (texto oscuro sobre blanco, puntuaciones negativas), en los comentarios entre asteriscos (por debajo de 0,4) ni en el contador. Que todo lo del editor sea una sola familia (Montserrat ExtraBold/Black) es juicio a partir de 5 mediciones de 9 que la dan primera.",
+    "Comentarios entre asteriscos: solo hay 2 localizados (0:27.5 y 0:56.9); el resto del vídeo se miró en hojas generales y por muestreo, no barrido entero para este tipo. Puede haber más.",
+    "Subtítulos blancos («ME:»): no censados automáticamente (se confunden con fondos claros); ≥ 8 vistos. El total de ≈ 53 líneas puede quedarse corto en 5–10.",
+    "Voz en off (19 %) y recurso sobre voz (≈ 20 %): estimados sobre la transcripción y sobre 3 minutos de muestra, no medidos en todo el vídeo.",
+    "Origen de los 4 planos de muestra de la intro que «anticipan»: los minutos son aproximados (misma ropa y sitio que 26:53, 23:24, 14:40 y 11:55), no comprobados fotograma a fotograma; el posado de Rhea no se encontró en el cuerpo.",
+    "Tier list: medido fotograma a fotograma solo en 7:37.3 y 15:25.5; las horas de los otros cuatro (12:18, 20:30, 25:22, 31:44) vienen de las hojas generales (± 1 s). Lo mismo para los carruseles #3, #5 y #6.",
+    "Recuento de tarjetas de perfil (≈ 13), páginas de YouTube (≈ 20 clips) y sellos de hora (≥ 6): por hojas generales; puede faltar alguno.",
+    "CARA_Y sin medir con detector.",
+    "Colores del tier list y de la pastilla del carrusel: tomados a ojo de fotogramas con resplandor, ± 10 por canal."
+  ],
+  "archivos_de_apoyo": {
+    "carpeta": "refs/dinamicos/_analisis/2026-06-07_trying-rhea-ripley-s-morning-routine-in-her-house/",
+    "detalle": "detalle/d01_0021…0066.jpg, d02_0950…0995.jpg, d03_1680…1725.jpg (minutos contados a 0,1 s), d04_1178_pico.jpg y d04_1193_pico.jpg (lucha), d05_*_chiste.jpg, d06_0452_tier.jpg, d07_0928_presentacion_rhea.jpg, d08_1129_perros.jpg, d09_1755_contador.jpg, f_checklist_*.jpg, f_contador_*.jpg, f_tier_0457.jpg, f_carrusel_0464.jpg, destellos_blancos_35.jpg, censo_subs_checklist.json",
+    "rotulos": "rotulos/full_*.png y full2_*.png (fotogramas completos), recortes de una línea usados con fuente_rotulo.py (subtitulo_amarillo, subtitulo_blanco, hora_grande, hora_esquina_inf, carrusel_nombre_l2, etiqueta_caddy_l2, etiqueta_bff_l1, etiqueta_trainer_l2, chiste_blanco, chiste_amarillo, checklist_*, contador_12)",
+    "cortes_rafagas": "cortes_rafagas.json (890 cortes, 0 en ráfaga con --rafagas --hasta 21.3)"
+  }
+}
