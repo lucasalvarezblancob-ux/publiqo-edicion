@@ -279,15 +279,16 @@ def caja_texto(it, f=None):
     if t in ("titulo", "mapa", "cartela_dia") or (t == "maquina" and it.get("fondo") != "ninguno"): return [(0.0, 0.0, 1.0, 1.0)]
     if t in ("oscurecer", "destello"): return []
     if t in ("marcador", "lista", "vidas"):      # Juego.tsx: en una esquina (MARGEN 0,045 del alto)
-        e = it.get("esquina", {"marcador": "si", "lista": "ii", "vidas": "sd"}[t]); m = 0.045
+        e = it.get("esquina", {"marcador": "si", "lista": "ii", "vidas": "ii"}[t]); m = 0.045
         if t == "marcador":
             fs = it.get("alto", 0.085); n = len(f"{it.get('prefijo', '')}{it.get('hasta', '')}{it.get('sufijo', '')}")
-            w = max(n * fs * 0.75 * H / W, len(s("etiqueta")) * fs * 0.3 * 0.62 * H / W); h = fs * (1.35 if it.get("etiqueta") else 1.0)
+            ls = s("etiqueta").split("|") if it.get("etiqueta") else []
+            w = max([n * fs * 0.75 * H / W] + [len(l) * fs * 0.45 * 0.62 * H / W for l in ls]); h = fs * (1.0 + 0.47 * len(ls) + (0.16 if ls else 0))
         elif t == "lista":
             fs = it.get("alto", 0.03); its = it.get("items", []); n = max([len(str(x)) for x in its] + [len(s("titulo")) * 1.6, 4])
             w = (n * fs * 0.55 + fs * 1.6 + fs * 1.6) * H / W; h = fs * (1.35 * len(its) + 1.2 + (1.3 if it.get("titulo") else 0))
         else:
-            fs = it.get("alto", 0.06); w = it.get("total", 3) * fs * 1.15 * H / W; h = fs * (1.4 if it.get("etiqueta") else 1.0)
+            fs = it.get("alto", 0.085); w = max(it.get("total", 3) * fs * 1.22, len(s("etiqueta")) * fs * 0.38 * 0.62) * H / W; h = fs * (1.1 + (0.5 if it.get("etiqueta") else 0))
         x0 = m * 1.3 * H / W if e[1] == "i" else 1 - m * 1.3 * H / W - w; y0 = m if e[0] == "s" else 1 - m - h
         return [(x0, y0, x0 + w, y0 + h)]
     if t == "barra":
@@ -314,7 +315,7 @@ def caja_texto(it, f=None):
     if t == "golpe":
         ls = s("txt").split("|"); n = max(len(l) for l in ls)
         if it.get("alto"):      # grande y quieto (Graficos.tsx Golpe): ancho real de la letra ancha, sin crecimiento
-            fs = min(it["alto"] * H, 0.9 * W / (max(n, 2) * 0.92)); w, h = n * fs * 0.92, len(ls) * fs * 1.12
+            fs = min(it["alto"] * H, 0.9 * W / (max(n, 2) * 0.98)); w, h = n * fs * 0.98, len(ls) * fs * 1.12     # +0,06 em de espaciado
         else:
             fs = min(0.105 * H, 0.66 * W / (max(n, 2) * 0.82)); w, h = n * fs * 0.75 * 1.22, len(ls) * fs * 1.12 * 1.22
         y1 = 1 - it.get("y", 0.1); return [((W - w) / 2 / W, y1 - h / H, (W + w) / 2 / W, y1)]

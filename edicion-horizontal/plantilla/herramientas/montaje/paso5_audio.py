@@ -13,7 +13,16 @@ SR = 48000; SND = f"{ESTUDIO}/public/sonidos"
 # DINERO suena siempre (7 de 7 refs que rotulan precios): cualquier texto con €, $, «euros», «dólares»… lleva "dinero" (caja registradora; la larga, para un total, con "snd").
 # Rollback por creador: deshacer_cambio.py <creador> G003.
 SFX = {"titulo": ("impact-bass-1", 0.30), "seccion": ("whoosh-short", 0.22), "trk": None, "mapa": ("click-soft", 0.30),
-       "suscribe": ("pop", 0.25), "dato": None, "golpe": None, "dinero": ("caja-registradora", 0.18)}
+       "suscribe": ("pop", 0.25), "dato": None, "golpe": None, "dinero": ("caja-registradora", 0.18),
+       # Kit de intros y piezas de juego (solo existen si el plan las pide). Suena el CAMBIO, como en las referencias:
+       # tecleo mientras se escribe el lema (Survivor Race, Alessio), obturador en el destello de la cartela de día
+       # (Alessio), ding cuando la cifra llega (Nil: «un ding para todo dato»), soplido en el destello (byCaLiTos: flash +
+       # whoosh 19 de 19), ding al marcar una casilla (Jesse James West), tono de error al perder una vida (JJW), impacto
+       # en la X (MrBeast) y clic cuando el marcador cambia. Lucas, banco 2026-11-24: «¿no van con efectos de sonido?».
+       # Ganancias igualadas por sonoridad con los de siempre (ping a 0,22 ≈ −38 LUFS en la mezcla); sonidos de CREDITOS.md.
+       "maquina": ("maquina-escribir", 0.15), "cartela_dia": ("camara-foto-1", 0.3), "contador": ("ding", 0.05),
+       "destello": ("whoosh-short", 0.14), "lista": ("ding", 0.06), "vidas": ("golpe-videojuego", 0.07),
+       "eliminado": ("impact-bass-2", 0.15), "marcador": ("click", 0.25)}
 SFX = {**SFX, **ajuste("SFX", {})}                 # personal/<creador>/ajustes.py: cambia o quita (None) el de un tipo
 SFX = {k: v for k, v in getattr(plan, "SFX", SFX).items() if v}   # plan.py del vídeo: sustituye el mapa entero
 LUFS = ajuste("LUFS", -14)
@@ -113,14 +122,37 @@ if __name__ == "__main__":
         if (n, vel) not in cache:
             ruta = f"{ESTUDIO}/public/{n}" if "/" in n else f"{SND}/{n}.mp3"      # con barra: archivo propio dentro de estudio/public/
             raw = subprocess.run(["ffmpeg", "-nostdin", "-v", "error", "-i", ruta, *(["-af", f"atempo={vel:.4f}"] if abs(vel - 1) > 0.001 else []), "-ac", "2", "-ar", str(SR), "-f", "f32le", "-"], capture_output=True, check=True).stdout
-            cache[(n, vel)] = np.frombuffer(raw, np.float32).reshape(-1, 2)
+            x = np.frombuffer(raw, np.float32).reshape(-1, 2)
+            # sin el silencio del principio: el sonido empieza EN su fotograma (banco 2026-11-24: ping, error y tecleo
+            # traían 0,3–0,6 s mudos y caían tarde). Umbral −45 dBFS y 5 ms de margen.
+            on = np.where(np.abs(x).max(1) > 10 ** (-45 / 20))[0]
+            cache[(n, vel)] = x[max(0, on[0] - SR // 200):] if len(on) else x
         return cache[(n, vel)]
     fx = np.zeros_like(y); n = 0
+
+    def momentos(it):
+        """Fotogramas (desde la entrada de la pieza) en que suena: el CAMBIO de cada pieza de juego, o la entrada."""
+        if "snd_en" in it: return [int(it["snd_en"])]
+        t = it["t"]
+        if t == "lista": return sorted(int(x) for x in (it.get("marca") or {}).values())
+        if t == "vidas": return [int(it["pierde_en"])] if it.get("pierde_en") is not None else []
+        if t == "contador": return [int(it.get("dur_f", 28))]
+        if t == "marcador": return [0] if it.get("desde") is not None and it.get("desde") != it.get("hasta") else []
+        return [0]
+
     for it in C["items"]:
         if not it.get("snd") and it["t"] not in SFX and "dinero" in SFX and DINERO.search(str(it.get("txt", "")) + " " + str(it.get("sub", ""))):
             it = {**it, "snd": SFX["dinero"]}
         if it.get("snd") or it["t"] in SFX:      # "snd_en": fotogramas desde la entrada (el CAMBIO: casilla, vida, X); "snd": [archivo, ganancia, velocidad?] en el item (botones, gráficos propios) manda sobre el mapa por tipo
-            nombre, g, *v = it.get("snd") or SFX[it["t"]]; s = snd(nombre, float(v[0]) if v else 1.0) * g; o = (it["f0"] + int(it.get("snd_en", 0))) * SR // FPS; s = s[:len(fx) - o]; fx[o:o + len(s)] += s; n += 1
+            nombre, g, *v = it.get("snd") or SFX[it["t"]]; base = snd(nombre, float(v[0]) if v else 1.0) * g
+            if it["t"] == "maquina" and not it.get("snd"):      # el tecleo dura lo que se tarda en escribir el lema
+                L_ = int(np.ceil(len(str(it.get("txt", ""))) / float(it.get("cps", 1)))) * SR // FPS
+                s0 = np.tile(base, (L_ // max(len(base), 1) + 1, 1))[:L_].copy(); k = min(len(s0), SR // 50); s0[-k:] *= np.linspace(1, 0, k)[:, None]
+            else: s0 = base
+            for m_ in momentos(it):
+                o = (it["f0"] + m_) * SR // FPS
+                if o >= len(fx): continue
+                s = s0[:len(fx) - o]; fx[o:o + len(s)] += s; n += 1
     sf.write(f"{TRABAJO}/voz_fx_pre.wav", y, SR); sf.write(f"{TRABAJO}/fx.wav", fx, SR)
     # voz: paso alto 80 Hz + compresión suave; luego mezcla con efectos
     subprocess.run(["ffmpeg", "-nostdin", "-v", "error", "-y", "-i", f"{TRABAJO}/voz_fx_pre.wav", "-i", f"{TRABAJO}/fx.wav", "-filter_complex",

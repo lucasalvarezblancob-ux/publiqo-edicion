@@ -292,6 +292,20 @@ monta la imagen desde los brutos; Remotion solo dibuja los gráficos, que van en
 Remotion: carga la skill `remotion-best-practices` antes de escribir componentes; mapas: `remotion-maps` (técnica de
 mapa estático; el componente de serie es `MapaSatelite`). Vista previa de gráficos: `cd estudio && npx remotion studio`.
 
+### Revisar una pieza gráfica o un efecto nuevo (banco de pruebas; Lucas, 2026-11-24)
+«Funciona» no basta: Lucas encontró a simple vista una X con el cruce de sus dos barras visible, un título de vidas
+desalineado y piezas sin el sonido que llevan en las referencias, después de darlas por buenas en hojas pequeñas. Cada pieza
+nueva (o cambiada) se prueba con `prueba_clip.py` (trozo corto, 1080p) y se revisa así, en este orden:
+1. **Contra la referencia**, al lado (su recorte del original o su ficha): forma, colores, tamaño en % del alto, posición,
+   cómo entra y sale fotograma a fotograma, y **qué suena** y en qué fotograma. Lo que no coincida se cambia o se justifica.
+2. **Acabado a tamaño real** (still de Remotion sin vídeo, sobre gris y sobre blanco, recortado y ampliado): alineaciones
+   (título y lo que titula, centros, bordes), piezas hechas de partes que se cruzan (una sola forma y una sola sombra),
+   letras que se tocan (espaciado), caracteres sueltos como «✓» o «↑» (mejor dibujados en SVG), contornos y sombras.
+3. **Sonido**: que cada cambio suene en SU fotograma (medido en `trabajo/fx.wav`, no a ojo) y a un nivel parecido al
+   resto; si la referencia suena y la biblioteca no tiene ese sonido, se consigue uno libre y va a `CREDITOS.md`.
+4. **En el vídeo**, sobre el bruto: que no tape caras, que se lea sobre fondos claros y oscuros, y que no se salga.
+Las hojas de miniaturas valen para el ritmo, no para el acabado.
+
 ## 3. Aprender de las correcciones (obligatorio)
 
 Cada vez que corrigen algo («más dinámico», «ese plano no va ahí», «no uses ese sonido»):

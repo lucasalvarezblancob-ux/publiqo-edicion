@@ -56,12 +56,24 @@ export const Contador: React.FC<{ f: number; it: Item }> = ({ f, it }) => {
   const ent = interpolate(f, [0, 4], [0, 1], { extrapolateRight: "clamp" });
   return (
     <AbsoluteFill>
+      {/* letterSpacing +0,03 em: en la letra ancha la coma se pegaba al «2» y al «5» (revisión del banco, 2026-11-24).
+          La flecha es un SVG del alto de las mayúsculas y alineado con ellas (el carácter «↑» salía más bajo y pequeño). */}
       <div style={{ position: "absolute", left: W * (it.x ?? 0.5), top: H * (it.y ?? 0.4), transform: `translate(-50%,-50%) rotate(${it.giro ?? 0}deg)`, opacity: ent,
-        fontFamily: F_ANCHA, fontWeight: 900, fontSize: fs, color: it.color ?? ACENTO, textShadow: borde(H * 0.005), whiteSpace: "nowrap" }}>
-        {txt}
-        {it.flecha ? <span style={{ fontSize: fs * 0.7, marginLeft: fs * 0.15 }}>{it.flecha === "arriba" ? "↑" : it.flecha === "abajo" ? "↓" : it.flecha === "izq" ? "←" : "→"}</span> : null}
+        fontFamily: F_ANCHA, fontWeight: 900, fontSize: fs, lineHeight: 1, color: it.color ?? ACENTO, textShadow: borde(H * 0.005), whiteSpace: "nowrap", letterSpacing: "0.03em", display: "flex", alignItems: "baseline" }}>
+        <span>{txt}</span>
+        {it.flecha ? <Flecha alto={fs * 0.72} dir={it.flecha} color={it.color ?? ACENTO} grueso={H * 0.005} /> : null}
       </div>
     </AbsoluteFill>
+  );
+};
+
+const Flecha: React.FC<{ alto: number; dir: string; color: string; grueso: number }> = ({ alto, dir, color, grueso }) => {
+  const rot = { arriba: 0, der: 90, abajo: 180, izq: 270 }[dir] ?? 0;
+  return (
+    <svg viewBox="0 0 100 100" width={alto} height={alto} style={{ marginLeft: alto * 0.15, flexShrink: 0, overflow: "visible", transform: `rotate(${rot}deg)`, filter: `drop-shadow(0 ${grueso * 1.6}px ${grueso * 2.5}px rgba(0,0,0,.6))` }}>
+      {/* una sola forma: contorno negro (trazo) por debajo y relleno encima, sin cruces visibles */}
+      <path d="M50 4 L94 50 L66 50 L66 96 L34 96 L34 50 L6 50 Z" fill={color} stroke="#000" strokeWidth={grueso * 100 / alto * 2} strokeLinejoin="round" paintOrder="stroke" />
+    </svg>
   );
 };
 
