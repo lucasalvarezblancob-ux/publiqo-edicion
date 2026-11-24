@@ -1,6 +1,7 @@
 import React from "react";
 import { AbsoluteFill, Img, interpolate, staticFile, useVideoConfig } from "remotion";
-import { ACENTO, F_ANCHA } from "./marca";
+import { ACENTO } from "./marca";
+import { F_ANCHA } from "./fuentes";
 import { borde, entra, Item, sale } from "./Graficos";
 
 // Mapa de satélite animado (recurso estándar: a Lucas le gustó en `ramon`, 2026-11-11).

@@ -4,6 +4,8 @@ abre en el navegador una página local («Configuración de edición») con lo d
 que hay en los brutos, espera a que el creador pulse Empezar (o a que se acabe la cuenta atrás) y termina.
 
 Resultado: trabajo/arranque.json, `ESTILO` y una línea `# Arranque (...)` en proyecto.py, y una línea ARRANQUE: en la salida.
+Color y fuente (dentro de «Cambiar estilo»): «Solo este vídeo» → `MARCA = {...}` en proyecto.py (comun.marca() lo mezcla
+sobre marca.json); «Guardar para el creador» → su marca.json + una línea con fecha en su preferencias.md.
 Sin respuesta (cierra la página, cuenta atrás a cero o tope de tiempo): la configuración recomendada, con el stock con
 confirmación por tanda, como hasta ahora. Todo es local: un servidor en 127.0.0.1 que se apaga al recibir la respuesta.
 Solo biblioteca estándar + ffmpeg/ffprobe. Por qué: Lucas, 2026-11-24 (página propia en vez de las preguntas de Claude)."""
@@ -47,6 +49,75 @@ except (OSError, ValueError): pass
 ACENTO = marca.get("acento") or "#E6EC52"
 CANAL = marca.get("canal") or CREADOR or "Sin creador"
 perfil = leer(os.path.join(PERS, "perfil.md")) if PERS else ""
+
+
+# ---------- color y fuentes ----------
+def familias_google():
+    t = leer(os.path.join(RAIZ, "estudio", "node_modules", "@remotion", "google-fonts", "dist", "cjs", "index.js"))
+    return set(re.findall(r"fontFamily:\s*'([^']+)'", t))
+
+
+GOOGLE = familias_google()
+
+
+def fam(v):
+    return (v.get("familia") if isinstance(v, dict) else v) or ""
+
+
+def fuentes_marca_ts():
+    """Las fuentes por defecto de la carpeta (estudio/src/comun/marca.ts, LOCAL): F_ANCHA y F_TXT."""
+    t = leer(os.path.join(RAIZ, "estudio", "src", "comun", "marca.ts"))
+    imp = dict(re.findall(r'loadFont as (\w+) \} from "@remotion/google-fonts/(\w+)"', t))
+    out = {}
+    for var, clave in (("F_ANCHA", "titulos"), ("F_TXT", "textos")):
+        m = re.search(rf"{var}\s*=\s*(\w+)\(", t)
+        imp_name = imp.get(m.group(1)) if m else None
+        if imp_name:
+            out[clave] = next((g for g in GOOGLE if g.replace(" ", "").lower() == imp_name.lower()), imp_name)
+    return out
+
+
+def fuentes_de_sus_videos():
+    """Familias de Google Fonts que salen en los campos «fuente…» de las fichas de sus vídeos (personal/<creador>/refs)."""
+    vistos = []
+    def recorre(x, clave=""):
+        if isinstance(x, dict):
+            for k, v in x.items(): recorre(v, k)
+        elif isinstance(x, list):
+            for v in x: recorre(v, clave)
+        elif isinstance(x, str) and "fuente" in clave.lower():
+            for g in sorted(GOOGLE, key=len, reverse=True):
+                if len(g) >= 4 and re.search(rf"(?<!\w){re.escape(g)}(?!\w)", x) and g not in vistos: vistos.append(g)
+    for f in sorted(glob.glob(os.path.join(PERS, "refs", "*.json"))) if PERS else []:
+        try: recorre(json.load(open(f, encoding="utf-8")))
+        except (OSError, ValueError): pass
+    return vistos
+
+
+MARCA_PROY = P.get("MARCA") or {}
+BASE_FZ = fuentes_marca_ts()
+FZ = dict(BASE_FZ); FZ.update({k: fam(v) for k, v in (marca.get("fuentes") or {}).items() if fam(v)})
+FZ.update({k: fam(v) for k, v in (MARCA_PROY.get("fuentes") or {}).items() if fam(v)})
+ACENTO_ACT = MARCA_PROY.get("acento") or ACENTO
+SUYAS = fuentes_de_sus_videos()
+
+
+SOLO_ROTULO = {"Anton", "Bebas Neue", "Archivo Black", "Oswald", "Unbounded", "Bangers", "Impact"}   # no valen para texto pequeño
+
+
+def lista(actual, extra, textos=False):
+    out = []
+    for x in [actual] + [f for f in SUYAS if not (textos and f in SOLO_ROTULO)] + extra:
+        if x and x not in out and (not GOOGLE or x in GOOGLE): out.append(x)
+    return out[:9]
+
+
+MARCA_UI = {
+    "acento": ACENTO_ACT, "titulos": FZ.get("titulos", ""), "textos": FZ.get("textos", ""), "suyas": SUYAS,
+    "colores": list(dict.fromkeys([ACENTO_ACT, ACENTO, "#E6EC52", "#FBBA1C", "#FF5A36", "#4DD7FF", "#FFFFFF"])),
+    "f_titulos": lista(FZ.get("titulos", ""), ["Anton", "Bebas Neue", "Unbounded", "Archivo Black", "Oswald", "Montserrat"]),
+    "f_textos": lista(FZ.get("textos", ""), ["Montserrat", "Lexend", "Inter", "Poppins", "DM Sans"], textos=True),
+}
 
 
 # ---------- estilos: los de la skill y los locales (los locales mandan) ----------
@@ -190,7 +261,7 @@ def datos():
         "brutos": {"n": len(INFO), "min": round(TOTAL_MIN, 1), "camaras": CAMS, "hdr": hdr, "detectado": detectado},
         "fotos": FOTOS, "cara": "/img/_cara" if CARA else "",
         "estilos": est, "estilo_recomendado": rec_estilo or "",
-        "recursos": recursos_estado(),
+        "recursos": recursos_estado(), "marca": MARCA_UI,
     }
 
 
@@ -206,10 +277,17 @@ def guardar(r, por_tiempo):
     if recursos not in ("libreria_stock", "libreria", "stock", "brutos"): recursos = D["recursos"]["recomendado"]
     brutos = [b for b in r.get("brutos", D["brutos"]["detectado"]) if b in ("dos_camaras", "teleprompter", "dictado", "dron", "solo_recurso")]
     otra = str(r.get("otra", ""))[:300].strip()
+    # color y fuente: solo lo que cambia respecto a lo de ahora
+    m = r.get("marca") or {}
+    cambio = {}
+    if re.fullmatch(r"#[0-9A-Fa-f]{6}", str(m.get("acento", ""))) and m["acento"].upper() != ACENTO_ACT.upper(): cambio["acento"] = m["acento"].upper()
+    fz = {k: m[k] for k in ("titulos", "textos") if m.get(k) and m[k] != FZ.get(k) and (not GOOGLE or m[k] in GOOGLE)}
+    if fz: cambio["fuentes"] = fz
+    donde = "creador" if m.get("donde") == "creador" else "video"
     out = {"fecha": datetime.datetime.now().isoformat(timespec="seconds"), "por_tiempo": por_tiempo,
            "estilo": estilo or None, "recursos": recursos,
            "stock_sin_confirmar": (recursos in ("libreria_stock", "stock")) and not por_tiempo,
-           "brutos": brutos, "otra": otra}
+           "brutos": brutos, "otra": otra, "marca": ({**cambio, "donde": donde} if cambio else None)}
     json.dump(out, open(os.path.join(VIDEO, "trabajo", "arranque.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=2)
     # proyecto.py: ESTILO y una línea de resumen (se reescriben si ya estaban)
     t = open("proyecto.py", encoding="utf-8").read()
@@ -220,7 +298,21 @@ def guardar(r, por_tiempo):
     t += (f"# Arranque ({out['fecha'][:10]}{', sin respuesta' if por_tiempo else ''}): recursos {orden}"
           f"{' (stock sin confirmar por tanda)' if out['stock_sin_confirmar'] else ''} · brutos: {', '.join(brutos) or 'nada especial'}"
           f"{' · ' + otra if otra else ''}\n")
+    if cambio and donde == "video":
+        nueva = dict(MARCA_PROY); nf = dict(nueva.get("fuentes") or {}); nf.update(cambio.get("fuentes", {}))
+        if "acento" in cambio: nueva["acento"] = cambio["acento"]
+        if nf: nueva["fuentes"] = nf
+        t = re.sub(r"(?m)^MARCA\s*=.*\n?", "", t)
+        t += f"MARCA = {json.dumps(nueva, ensure_ascii=False)}    # color/fuente solo de este vídeo (ventana de arranque)\n"
     open("proyecto.py", "w", encoding="utf-8", newline="\n").write(t)
+    if cambio and donde == "creador" and PERS:
+        mj = os.path.join(PERS, "marca.json"); d = dict(marca)
+        if "acento" in cambio: d["acento"] = cambio["acento"]
+        if "fuentes" in cambio: d["fuentes"] = {**(d.get("fuentes") or {}), **cambio["fuentes"]}
+        open(mj, "w", encoding="utf-8", newline="\n").write(json.dumps(d, ensure_ascii=False, indent=2) + "\n")
+        partes = ([f"acento {cambio['acento']}"] if "acento" in cambio else []) + [f"fuente de {'títulos' if k == 'titulos' else 'textos'}: {v}" for k, v in cambio.get("fuentes", {}).items()]
+        with open(os.path.join(PERS, "preferencias.md"), "a", encoding="utf-8", newline="\n") as f:
+            f.write(f"\n- **Marca** ({out['fecha'][:10]}, ventana de arranque, vídeo `{SLUG}`): {' · '.join(partes)}. Guardado en marca.json.\n")
     RES.update(out); FIN.set()
 
 
@@ -274,4 +366,5 @@ r = RES
 print("ARRANQUE: estilo=%s · recursos=%s · stock_sin_confirmar=%s · brutos=%s%s%s" % (
     r["estilo"] or "como siempre", r["recursos"], "sí" if r["stock_sin_confirmar"] else "no", ",".join(r["brutos"]) or "nada",
     " · otra=" + r["otra"] if r["otra"] else "", " · SIN RESPUESTA (configuración recomendada)" if r["por_tiempo"] else ""))
+if r.get("marca"): print("MARCA: %s → %s" % (json.dumps({k: v for k, v in r["marca"].items() if k != "donde"}, ensure_ascii=False), "proyecto.py (solo este vídeo)" if r["marca"]["donde"] == "video" else "marca.json + preferencias.md del creador"))
 print("→ trabajo/arranque.json y proyecto.py")

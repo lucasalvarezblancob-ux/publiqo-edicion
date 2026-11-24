@@ -1,6 +1,7 @@
 import React from "react";
 import { AbsoluteFill, Easing, interpolate, OffthreadVideo, Sequence, staticFile, useCurrentFrame, useVideoConfig } from "remotion";
-import { ACENTO, F_ANCHA, F_RELLENO, F_TXT, Marca, usarMarca } from "./marca";
+import { ACENTO, Marca, usarMarca } from "./marca";
+import { F_ANCHA, F_RELLENO, F_TXT, usarFuentes } from "./fuentes";
 
 // Capas gráficas del vídeo horizontal: SOLO lo que va encima de la imagen (fondo transparente, salvo el mapa).
 // El montaje (cortes, zooms, planos de recurso) lo hace ffmpeg desde los brutos (herramientas/montaje/paso4_render.py);
@@ -196,6 +197,7 @@ export const Seguido: React.FC<{ f: number; dur: number; it: Item }> = ({ f, dur
 export const CapasBase: React.FC<{ datos: { items: Item[]; marca?: Marca }; extra?: (it: Item, f: number, dur: number, k: string) => React.ReactNode }> = ({ datos, extra }) => {
   const frame = useCurrentFrame();
   usarMarca(datos.marca);      // color y cuentas del creador de ESTE vídeo (personal/<creador>/marca.json)
+  usarFuentes(datos.marca);    // sus fuentes, si marca.json o MARCA de proyecto.py traen "fuentes" (si no, las de marca.ts)
   const vivos = datos.items.filter((it) => frame >= it.f0 && frame < it.f1);
   return (
     <AbsoluteFill style={{ fontFamily: F_RELLENO }}>

@@ -34,7 +34,7 @@ bases de la skill  →  personalización del creador (personal/)  →  lo que pi
   | `perfil.md` | quién es: nombre, canal, idioma habitual, nicho, cámaras, de dónde saca la música |
   | `preferencias.md` | sus reglas de estilo, en palabras; cada corrección suya, con fecha y motivo |
   | `recursos.md` | sus recursos fijos (cabecera, cortinillas, logos, sonidos, música) y cuándo va cada uno |
-  | `marca.json` | color de acento, canal, @, código y logo (lo leen los gráficos); con `"idiomas": {"en": {…}}` si su marca cambia con el idioma del vídeo |
+  | `marca.json` | color de acento, canal, @, código, logo y sus fuentes (`"fuentes": {"titulos", "textos"}`, nombres de Google Fonts; los gráficos propios que quieran seguirlas importan de `estudio/src/comun/fuentes`) (lo leen los gráficos); con `"idiomas": {"en": {…}}` si su marca cambia con el idioma del vídeo |
   | `ajustes.py` | los números de la base: escalas y frecuencia de zooms, efectos de sonido, niveles de música, sonoridad |
   | `recursos/` | **todo su material, ordenado por carpetas** y con ficha en `INDICE.md`: `marca/` (sus archivos fijos ORIGINALES: intro, outro, logos, mascota, cortinillas), una carpeta por tema para sus clips de archivo y b-roll (`base/recursos.md` § 2), `creador/`, `fotos/`, `mapas/`, `sonidos/` y `musica/` (+ `CATALOGO.md`). Sus clips se usan en el EDL y en el plan como un bruto más |
   | `refs/` | vídeos suyos publicados y sus fichas: cómo edita él (§ 4) |
@@ -139,7 +139,11 @@ monta la imagen desde los brutos; Remotion solo dibuja los gráficos, que van en
    (siempre brutos → su librería → stock; avisa si el disco de la librería no está conectado y lo reconecta con
    `conectar_disco.sh`; «Librería y stock» = permiso de descarga para todo el vídeo, `base/recursos.md` § 5 bis) y
    **qué hay en los brutos** (selección múltiple: varias cámaras —se detectan por el nombre de los archivos—,
-   teleprompter, alguien le dicta, dron, brutos solo de recurso, otra cosa). Al pulsar Empezar, o tras 10 min sin tocar
+   teleprompter, alguien le dicta, dron, brutos solo de recurso, otra cosa). Dentro de «Cambiar estilo» también se elige
+   el **color de acento y la fuente** (de títulos y de textos; las de sus vídeos salen sugeridas): «Solo este vídeo» →
+   `MARCA` en `proyecto.py`; «Guardar para el creador» → su `marca.json` (`"fuentes"`) y una línea con fecha en su
+   `preferencias.md`. La personalización grande sigue como siempre: lo que va diciendo el creador, a su `personal/`.
+   Al pulsar Empezar, o tras 10 min sin tocar
    nada (la configuración recomendada, con el stock con confirmación por tanda), termina y deja `trabajo/arranque.json`,
    `ESTILO` y `# Arranque (…)` en `proyecto.py` y una línea `ARRANQUE:` en la salida. Mientras tanto se sigue con lo que
    no depende de eso (transcripciones); la elección de recursos y el plan (paso 4) esperan a la respuesta. Lo de los

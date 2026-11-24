@@ -65,6 +65,26 @@ input.otra{background:#1a1a1c;border:1px solid #3a3a3d;border-radius:10px;color:
 .badge{position:absolute;left:14px;top:12px;font-size:10px;font-weight:800;letter-spacing:1px;padding:4px 8px;border-radius:999px;background:var(--ac);color:#141414}
 .badge.gris{background:#2a2a2d;color:#d5d3ce}
 .rot{position:absolute;color:#fff;text-shadow:0 2px 12px rgba(0,0,0,.6)}
+.pers{display:flex;flex-wrap:wrap;gap:28px;padding:26px;border-radius:16px;background:var(--card);border:1px solid #232325}
+.pers .col{flex:1 1 380px;min-width:0;display:flex;flex-direction:column;gap:18px}
+.pers h3{margin:0;font-size:30px}
+.lab{font-size:12px;font-weight:800;letter-spacing:.8px;color:var(--dim);margin-bottom:8px;display:block}
+.sws{display:flex;flex-wrap:wrap;gap:10px;align-items:center}
+.sw{width:44px;height:44px;border-radius:50%;border:2px solid rgba(255,255,255,.15);padding:0}
+.sw[aria-pressed=true]{outline:3px solid #fff;outline-offset:3px}
+.otroc{display:inline-flex;align-items:center;gap:8px;font-size:13px;font-weight:700;color:var(--dim);cursor:pointer}
+.otroc input{width:44px;height:44px;border:0;padding:0;background:none;cursor:pointer}
+.fz{display:flex;flex-wrap:wrap;gap:8px}
+.fz button{padding:10px 14px;border-radius:10px;border:1px solid #3a3a3d;font-size:19px;min-height:44px;display:flex;flex-direction:column;align-items:flex-start;gap:2px;line-height:1.1}
+.fz button[aria-pressed=true]{border:2px solid var(--ac)}
+.fz small{font-family:Montserrat,system-ui,sans-serif;font-size:10px;font-weight:800;letter-spacing:.6px;color:var(--dim)}
+.donde{display:flex;flex-wrap:wrap;gap:8px}
+.donde button{padding:12px 16px;border-radius:10px;border:1px solid #3a3a3d;font-weight:700;font-size:14px;min-height:44px}
+.donde button[aria-pressed=true]{background:var(--ac);border-color:var(--ac);color:#141414;font-weight:800}
+.prev{position:relative;border-radius:12px;overflow:hidden;aspect-ratio:16/9;background:#222;align-self:flex-start;width:100%}
+.prev img{width:100%;height:100%;object-fit:cover;display:block}
+.prev .t1{position:absolute;left:6%;bottom:22%;font-size:clamp(28px,4vw,52px);line-height:1;text-shadow:0 2px 14px rgba(0,0,0,.7)}
+.prev .t2{position:absolute;left:6%;bottom:11%;font-size:clamp(13px,1.4vw,18px);font-weight:800;color:#fff;text-shadow:0 2px 10px rgba(0,0,0,.8)}
 .listo{position:fixed;inset:0;background:var(--bg);display:none;align-items:center;justify-content:center;text-align:center;padding:40px}
 .listo.si{display:flex}
 @media (max-width:700px){main{padding:32px 22px}.fila .et{width:100%;padding:0}}
@@ -114,9 +134,24 @@ input.otra{background:#1a1a1c;border:1px solid #3a3a3d;border-radius:10px;color:
       <span id="nEst" style="font-size:14px;font-weight:700;padding:8px 14px;border-radius:999px;background:#1a1a1c;border:1px solid var(--line)"></span>
     </div>
     <div class="rej" id="rej"></div>
+    <section class="pers" aria-labelledby="tPers">
+      <div class="col">
+        <div style="display:flex;flex-direction:column;gap:6px">
+          <h3 class="anton" id="tPers">COLOR Y FUENTE</h3>
+          <span class="sub">Los de los rótulos, títulos y cifras. Lo demás de su estilo se le pide a Claude y se guarda en su carpeta.</span>
+        </div>
+        <div><span class="lab">COLOR DE ACENTO</span><div class="sws" id="sws"></div></div>
+        <div><span class="lab">FUENTE DE TÍTULOS Y RÓTULOS</span><div class="fz" id="fT"></div></div>
+        <div><span class="lab">FUENTE DE TEXTOS</span><div class="fz" id="fX"></div></div>
+        <div><span class="lab">¿PARA CUÁNDO?</span><div class="donde" id="donde"></div></div>
+      </div>
+      <div class="col"><span class="lab">ASÍ SE VE</span>
+        <div class="prev" id="prev"><span class="t1" id="pT">TÍTULO DE EJEMPLO</span><span class="t2" id="pX">y el texto pequeño de debajo</span></div>
+      </div>
+    </section>
     <div style="display:flex;flex-wrap:wrap;gap:12px;justify-content:flex-end">
       <button type="button" class="btn2" id="cancelar">Cancelar</button>
-      <button type="button" id="usar" style="padding:14px 28px;border-radius:12px;background:var(--ac);color:#141414;font-weight:800;font-size:15px;min-height:44px">Usar este estilo</button>
+      <button type="button" id="usar" style="padding:14px 28px;border-radius:12px;background:var(--ac);color:#141414;font-weight:800;font-size:15px;min-height:44px">Usar esto</button>
     </div>
   </div>
 </div>
@@ -130,8 +165,20 @@ input.otra{background:#1a1a1c;border:1px solid #3a3a3d;border-radius:10px;color:
 const D = /*DATOS*/null;
 document.documentElement.style.setProperty('--ac', D.acento);
 const $ = id => document.getElementById(id);
-const S = { estilo: D.estilo_recomendado, rec: D.recursos.recomendado, brutos: new Set(D.brutos.detectado), otra: '', enviado: false };
-let tmpEstilo = S.estilo, quedan = D.espera;
+const M0 = { acento: D.marca.acento, titulos: D.marca.titulos, textos: D.marca.textos, donde: 'video' };
+const S = { estilo: D.estilo_recomendado, rec: D.recursos.recomendado, brutos: new Set(D.brutos.detectado), otra: '', enviado: false, marca: { ...M0 } };
+let tmpEstilo = S.estilo, tmpM = { ...M0 }, quedan = D.espera;
+const marcaCambiada = m => m.acento.toUpperCase() !== M0.acento.toUpperCase() || m.titulos !== M0.titulos || m.textos !== M0.textos;
+(() => {   // las fuentes de la lista, para verlas con su letra (si no hay internet, salen con la del sistema)
+  const fs = [...new Set([...D.marca.f_titulos, ...D.marca.f_textos])].filter(Boolean);
+  if (!fs.length) return;
+  const l = document.createElement('link'); l.rel = 'stylesheet';
+  l.href = 'https://fonts.googleapis.com/css2?' + fs.map(f => 'family=' + encodeURIComponent(f).replace(/%20/g, '+') + ':wght@400;700;800;900').join('&') + '&display=swap';
+  l.onerror = () => { }; document.head.append(l);
+  const l2 = document.createElement('link'); l2.rel = 'stylesheet';   // por si alguna no tiene esos pesos
+  l2.href = 'https://fonts.googleapis.com/css2?' + fs.map(f => 'family=' + encodeURIComponent(f).replace(/%20/g, '+')).join('&') + '&display=swap';
+  document.head.append(l2);
+})();
 
 if (D.cara) { const im = new Image(); im.alt = ''; im.src = D.cara; $('foto').prepend(im); }
 else if (D.fotos.length) { const m = document.createElement('div'); m.className = 'mosaico'; m.setAttribute('aria-hidden', 'true'); D.fotos.slice(0, 8).forEach(f => { const im = new Image(); im.alt = ''; im.src = f.url; m.append(im); }); $('foto').prepend(m); }
@@ -153,7 +200,8 @@ const est = id => D.estilos.find(e => e.id === id) || D.estilos[0];
 function pinta() {
   const e = est(S.estilo);
   $('vEstilo').textContent = e.nombre;
-  $('sEstilo').textContent = (S.estilo === D.estilo_recomendado ? 'recomendado · ' : 'solo para este vídeo · ') + e.que;
+  $('sEstilo').textContent = (S.estilo === D.estilo_recomendado ? 'recomendado · ' : 'solo para este vídeo · ') + e.que +
+    (marcaCambiada(S.marca) ? ' · color y fuente propios (' + (S.marca.donde === 'creador' ? 'guardados para el creador' : 'solo este vídeo') + ')' : '');
   const R = D.recursos, L = R.libreria, K = R.stock;
   const orden = { libreria_stock: 'BRUTOS → LIBRERÍA → STOCK', libreria: 'BRUTOS → LIBRERÍA', stock: 'BRUTOS → STOCK', brutos: 'SOLO LOS BRUTOS' };
   $('vRec').textContent = orden[S.rec];
@@ -190,10 +238,32 @@ function tarjetas() {
   $('rej').querySelectorAll('.tarj').forEach(b => b.onclick = () => { tmpEstilo = b.dataset.e; vivo(); tarjetas(); });
 }
 
-$('bEstilo').onclick = () => { tmpEstilo = S.estilo; tarjetas(); $('capa').classList.add('si'); vivo(); $('volver').focus(); };
+function pers() {
+  const ff = f => "'" + f.replace(/'/g, '') + "', Montserrat, system-ui, sans-serif";
+  $('sws').innerHTML = D.marca.colores.map((c, i) => '<button type="button" class="sw" data-c="' + c + '" aria-label="Color ' + c + (i === 0 ? ' (el actual)' : '') + '" aria-pressed="' + (tmpM.acento.toUpperCase() === c.toUpperCase()) + '" style="background:' + c + '"></button>').join('') +
+    '<label class="otroc">Otro <input type="color" id="cOtro" value="' + tmpM.acento + '" aria-label="Elegir otro color"></label>';
+  $('sws').querySelectorAll('.sw').forEach(b => b.onclick = () => { tmpM.acento = b.dataset.c; vivo(); pers(); });
+  $('cOtro').oninput = ev => { tmpM.acento = ev.target.value.toUpperCase(); vivo(); pintaPrev(); };
+  $('cOtro').onchange = () => pers();
+  const botones = (lista, clave) => lista.map((f, i) => '<button type="button" data-f="' + esc(f) + '" aria-pressed="' + (tmpM[clave] === f) + '" style="font-family:' + esc(ff(f)) + '">' + esc(f) +
+    (f === M0[clave] ? '<small>LA ACTUAL</small>' : D.marca.suyas.includes(f) ? '<small>DE SUS VÍDEOS</small>' : '') + '</button>').join('');
+  $('fT').innerHTML = botones(D.marca.f_titulos, 'titulos'); $('fX').innerHTML = botones(D.marca.f_textos, 'textos');
+  $('fT').querySelectorAll('button').forEach(b => b.onclick = () => { tmpM.titulos = b.dataset.f; vivo(); pers(); });
+  $('fX').querySelectorAll('button').forEach(b => b.onclick = () => { tmpM.textos = b.dataset.f; vivo(); pers(); });
+  $('donde').innerHTML = [['video', 'Solo este vídeo'], ['creador', 'Guardar para el creador']].map(([id, t]) => '<button type="button" data-d="' + id + '" aria-pressed="' + (tmpM.donde === id) + '">' + t + '</button>').join('');
+  $('donde').querySelectorAll('button').forEach(b => b.onclick = () => { tmpM.donde = b.dataset.d; vivo(); pers(); });
+  pintaPrev();
+}
+function pintaPrev() {
+  const ff = f => "'" + (f || '').replace(/'/g, '') + "', Montserrat, system-ui, sans-serif";
+  if (!$('prev').querySelector('img') && D.fotos.length) { const im = new Image(); im.alt = ''; im.src = D.fotos[Math.min(1, D.fotos.length - 1)].url; $('prev').prepend(im); }
+  $('pT').style.fontFamily = ff(tmpM.titulos); $('pT').style.color = tmpM.acento; $('pT').style.fontWeight = '900';
+  $('pX').style.fontFamily = ff(tmpM.textos);
+}
+$('bEstilo').onclick = () => { tmpEstilo = S.estilo; tmpM = { ...S.marca }; tarjetas(); pers(); $('capa').classList.add('si'); vivo(); $('volver').focus(); };
 const cerrar = () => { $('capa').classList.remove('si'); $('bEstilo').focus(); };
 $('volver').onclick = cerrar; $('cancelar').onclick = cerrar;
-$('usar').onclick = () => { S.estilo = tmpEstilo; cerrar(); pinta(); };
+$('usar').onclick = () => { S.estilo = tmpEstilo; S.marca = { ...tmpM }; cerrar(); pinta(); };
 document.addEventListener('keydown', ev => { if (ev.key === 'Escape' && $('capa').classList.contains('si')) cerrar(); });
 $('bRec').onclick = () => { $('opcRec').hidden = !$('opcRec').hidden; $('bRec').textContent = $('opcRec').hidden ? 'Cambiar' : 'Listo'; vivo(); };
 $('otra').oninput = () => { S.otra = $('otra').value; vivo(); };
@@ -210,7 +280,8 @@ function vivo() {
 }
 async function enviar(porTiempo) {
   if (S.enviado) return; S.enviado = true;
-  const cuerpo = { estilo: S.estilo, recursos: S.rec, brutos: [...S.brutos], otra: $('otra').hidden ? '' : S.otra, por_tiempo: porTiempo };
+  const cuerpo = { estilo: S.estilo, recursos: S.rec, brutos: [...S.brutos], otra: $('otra').hidden ? '' : S.otra, por_tiempo: porTiempo,
+    marca: marcaCambiada(S.marca) ? S.marca : null };
   try { await fetch('/enviar', { method: 'POST', body: JSON.stringify(cuerpo) }); }
   catch (e) { $('listoTx').textContent = 'No he podido avisar a Claude: vuelve a la terminal.'; }
   if (porTiempo) $('listoTx').textContent = 'Se acabó la cuenta atrás: empiezo con la configuración recomendada. Puedes cerrar esta pestaña.';
