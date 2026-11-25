@@ -7,7 +7,8 @@ Qué hace: recorta a la persona fotograma a fotograma desde el bruto (rembg u2ne
 resolución y suavizada) y la guarda con alfa en trabajo/detras/p<o>_<f0>.mov + .json. paso4_render.py le aplica el MISMO
 zoom y encuadre que al plano y la pone encima de las capas solo en esos fotogramas: el texto queda detrás de ella.
   detras.py           -> recorta lo que falte (reanudable; ~0,3 s por fotograma en CPU)
-  (al acabar mide cuánto tapa la persona cada texto y avisa si pasa del 15 %: «AVISO DETRÁS»)
+  (al acabar coloca el golpe grande con la silueta —altura, lado y tamaño— y mide cuánto tapa la persona cada texto:
+   avisa si pasa del 15 %: «AVISO DETRÁS»)
   detras.py hoja      -> trabajo/detras/hoja_N.jpg: la máscara sobre el plano cada 3 fotogramas. MIRARLAS: pelo, manos.
 Sin DETRAS en plan.py no hace nada y el montaje sale como siempre. Si cambias el plan, borra trabajo/detras."""
 import json, os, subprocess, sys, tempfile
@@ -72,6 +73,61 @@ def hoja():
                 cv2.imwrite(f"{D}/hoja_{i}.jpg", np.vstack(filas)); print(f"{D}/hoja_{i}.jpg")
 
 
+def _mascara(base, fr):
+    with tempfile.TemporaryDirectory() as tmp:
+        subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", base, "-vf", f"select=eq(n\\,{fr})", "-frames:v", "1", "-pix_fmt", "rgba", f"{tmp}/m.png"], check=True)
+        m = cv2.imread(f"{tmp}/m.png", cv2.IMREAD_UNCHANGED)
+    return None if m is None else m[:, :, 3]
+
+
+def colocar():
+    """El golpe grande que DETRAS colocó solo (paso3: al lado de la cara) se AFINA con la silueta recortada: se prueban
+    alturas (abajo como la base, o junto a la cabeza como Nil, del 47 al 74 % del alto), lados y tamaños, y se queda el más
+    GRANDE en que la persona tapa ≤ 15 % en el primer, el central y el último fotograma (algo de tapado da la profundidad:
+    se prefiere 3–12 %). Por qué (Windows, banco v4.35): abajo están los hombros y el torso, mucho más anchos que la cara,
+    y «TIESOS» quedaba tapado al 51 %; a la altura de la cabeza, al 1 %. Reescribe capas.json; no toca lo puesto a mano."""
+    from comun import CAPAS_JSON, ANCHO as AW, ALTO as AH, caja_texto
+    from dinamica import encuadre
+    C = json.load(open(CAPAS_JSON, encoding="utf-8")); cambia = False
+    for v, f0, f1 in trozos():
+        base = f"{D}/p{v['o']}_{f0}.mov"
+        if not os.path.exists(base): continue
+        for it in C["items"]:
+            if it["t"] != "golpe" or not it.get("detras_auto") or it["f1"] <= f0 or it["f0"] >= f1: continue
+            a0, a1 = max(f0, it["f0"]), min(f1, it["f1"]) - 1
+            ms = [m for m in (_mascara(base, k - f0) for k in sorted({a0, (a0 + a1) // 2, a1})) if m is not None]
+            if not ms: continue
+            bh, bw = ms[0].shape
+            w_, h_, x_, y_ = encuadre(v["z1"], v.get("cx"), v.get("cy"), v.get("ax", 0.5), v.get("ay", 0.5)) if v["z1"] != 1 else (AW, AH, 0, 0)
+            def tapa(prueba):
+                peor = 0.0
+                for m in ms:
+                    tap = tot = 0
+                    for (x0, y0, x1, y1) in caja_texto(prueba):
+                        X0, X1 = [int((sx * AW + x_) * bw / w_) for sx in (x0, x1)]; Y0, Y1 = [int((sy * AH + y_) * bh / h_) for sy in (y0, y1)]
+                        r = m[max(0, Y0):max(0, Y1), max(0, X0):max(0, X1)]; tap += (r > 128).sum(); tot += max(1, r.size)
+                    peor = max(peor, tap / max(tot, 1))
+                return peor
+            mejor = None; alto0 = it["alto"]
+            for y in (it.get("y", 0.1), 0.2, 0.3, 0.42):
+                alto = max(alto0, 0.3)
+                while alto >= 0.1:
+                    cj = caja_texto({**it, "alto": alto, "x": 0.5, "y": y})[0]; w = cj[2] - cj[0]
+                    if cj[1] >= 0.04:
+                        for x in np.arange(w / 2 + 0.04, 1 - w / 2 - 0.04 + 1e-6, 0.01):
+                            c = tapa({**it, "alto": alto, "x": float(x), "y": y})
+                            if c <= 0.15:
+                                nota = (alto, -abs(c - 0.075))      # lo más grande; a igualdad, con algo de tapado (profundidad)
+                                if mejor is None or nota > mejor[0]: mejor = (nota, round(float(x), 3), y, round(alto, 3), c)
+                    alto *= 0.92
+                    if mejor and mejor[0][0] > alto: break
+            if mejor:
+                _, it["x"], it["y"], it["alto"], c = mejor; cambia = True
+                print(f"DETRAS: «{it.get('txt')}» a x {it['x']}, y {it['y']}, alto {it['alto']} (la persona tapa el {100 * c:.0f} %)")
+            else: print(f"AVISO DETRÁS: «{it.get('txt')}» no encuentra sitio con ≤ 15 % tapado: pon x/y/alto a mano en GOLPES")
+    if cambia: json.dump(C, open(CAPAS_JSON, "w", encoding="utf-8"), ensure_ascii=False)
+
+
 def comprobar():
     """¿Se lee el texto? Banco de pruebas (2026-11-24): un golpe normal centrado detrás de Reino solo dejaba ver «DET».
     Mide qué parte de la caja de cada texto que coincide con un tramo DETRAS tapa la persona (en su fotograma central) y
@@ -105,5 +161,6 @@ else:
     for v, f0, f1 in trozos():
         if v.get("b"): print(f"AVISO: {f0}-{f1} cae en un recurso ({v['clip']}): se recorta igual; si no sale nadie, quítalo de DETRAS");
         recortar(v, f0, f1)
+    colocar()
     comprobar()
     print("Hecho. Mira las hojas: detras.py hoja")

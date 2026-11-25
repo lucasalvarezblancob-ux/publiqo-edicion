@@ -424,7 +424,7 @@ for a_, d_ in getattr(plan, "DETRAS", []):
             cj = caja_texto({**it, "x": 0.5})[0]; w = cj[2] - cj[0]
             if w <= hueco or it["alto"] <= 0.12: break
             it["alto"] = round(it["alto"] * 0.92, 3)
-        it["x"] = round((borde_int - w / 2) if izq else (borde_int + w / 2), 3)
+        it["x"] = round((borde_int - w / 2) if izq else (borde_int + w / 2), 3); it["detras_auto"] = "y" not in it      # detras.py lo afina con la silueta
         print(f"DETRAS: «{it.get('txt')}» a la {'izquierda' if izq else 'derecha'} de la persona (x {it['x']}, alto {it['alto']})")
 
 # ---- juego y destello (Juego.tsx): solo si el plan.py los pide ----
