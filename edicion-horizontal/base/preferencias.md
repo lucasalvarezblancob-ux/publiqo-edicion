@@ -3,7 +3,8 @@
 **Estándar mínimo de `edicion-horizontal`.** Son las bases: salen de las referencias medidas y de las correcciones de
 Lucas, autor de la skill, y solo él las cambia. Donde una regla dice «Lucas», léelo como **el creador que edita en esta
 carpeta**. **Lo que el creador tenga en su carpeta de personalización (`personal/`) manda sobre estas reglas** cuando
-chocan, salvo COLOR (que el bruto no se toque es el estándar; si quiere otra cosa, la pide en ese vídeo).
+chocan, salvo COLOR (que el bruto no se toque es el estándar; si quiere otra cosa, la pide en ese vídeo; el Log se revela
+siempre con su LUT y el look creativo se elige en la ventana de arranque: G009).
 
 Los números de ritmo, zooms, textos y mapas, con su origen, están en `base/refs/dinamicos/CONTEXTO.md`; aquí va la regla.
 `ramon` = el primer edit de prueba (23 min, 11 brutos Sony 4K 25 fps, hablado en inglés); su código está en
@@ -27,6 +28,24 @@ Formato: `- AAAA-MM-DD — regla. Por qué. (vídeo)`. Si una regla nueva contra
   bruto en 4K; en `1311` (83 min de iPhone 4K 60 fps) habrían sido unas 3 h y se convirtieron 151 trozos (24 GB) en
   una fracción. `herramientas/proxy.sh` (el bruto entero; en macOS, avconvert + `hdr-pantalla.cube`) queda para
   cuando se quiere un archivo SDR suelto. Medido en `1311`: +0,3 a +1,2 niveles las copias y +0,8 a +1,1 el render.
+- **Bruto en LOG (DJI D-Log M, Apple Log, S-Log3, V-Log, C-Log, F-Log…): se REVELA siempre con el LUT de conversión
+  de su perfil, sin preguntar** (G009, 2026-11-26). Revelar no es «tocar el color»: el Log está hecho para eso y sin LUT
+  sale gris y lavado (Lucas: «si está grabado en logarítmico, obviamente se le pondrá un LUT, porque si no el vídeo sale
+  muy gris»; en `casa-creadores` v1 los clips de la Osmo Action 5 Pro en D-Log M salieron grises y la revisión no lo vio).
+  Va como el HDR: `comun.revelado()` lo detecta (metadatos → seguro; si no, 10 bits o cámara de Log + imagen con negros
+  levantados, sin altas luces y poco saturada → probable) y `sdr.py` revela solo los trozos que se usan, con el `.cube`
+  de `herramientas/luts/` (los oficiales del fabricante; `herramientas/color_log.py luts` dice cuáles faltan y de dónde
+  bajarlos; los del creador, en `personal/<creador>/recursos/luts/`, mandan). Si el LUT se pasa, `LUT_INTENSIDAD` (0–1)
+  en su `ajustes.py`. Un «probable» se confirma con `color_log.py comparar BRUTO <s> antes_despues.jpg`; si no es Log,
+  `LOG_CLIPS = {"<clip>": None}` en `proyecto.py`. Sin el LUT del perfil, el render se para y dice cuál falta.
+- **LOOK creativo: por defecto NINGUNO** (directo, el color de la cámara). Se pregunta UNA vez en la ventana de arranque
+  (fila COLOR) y se guarda en `personal/<creador>/ajustes.py` (`LOOK`); «solo este vídeo» → `proyecto.py`. Hay tres
+  de la casa, suaves y que respetan la piel (`natural`, `calido`, `cine`, generados por `color_log.py`, sin licencias
+  de terceros) y los `.cube` del creador en `personal/<creador>/recursos/luts/` (packs gratis buenos para eso: los
+  creativos oficiales de Sony y Panasonic, FreeVisuals —libre para uso comercial—; mira siempre la licencia).
+  `LOOK_INTENSIDAD` (0–1). Va encima de todo el vídeo, por debajo de los gráficos (el acento no cambia). Si cambia el
+  LUT, su intensidad o el look, `paso4_render.py tramos` rehace solo los tramos afectados (los parches de `foco.py` y
+  `tapar.py` de esos planos, a mano).
 - **Comprobación obligatoria, dos veces**: una copia SDR de cada bruto HDR contra el bruto antes de montar
   (`comparar_color.sh BRUTO trabajo/sdr/<clip>/<a>_<b>.mp4 "<t>" <a / FPS>`), y el render contra el bruto antes
   de entregar. macOS: QuickTime en el mismo instante + captura. Windows/Linux: `herramientas/comparar_color.sh` (mpv,

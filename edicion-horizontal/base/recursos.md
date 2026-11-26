@@ -70,7 +70,8 @@ tema y tiene su ficha. Sin ficha, el clip no existe: al montar se busca en el í
   (`ffprobe -v error -show_entries format_tags=creation_time`). El nombre original (`C0247`) va en la ficha.
   Clips de una misma sesión: `AAAA-MM-DD_<sesion>_NN-<que-se-ve>.ext` (`NN` = orden en que se grabaron).
 - Técnica con `ffprobe`: duración, resolución, fps, giro y **HDR o SDR** (`color_transfer` = `arib-std-b67` o
-  `smpte2084` → HDR: `sdr.py` convierte solo los trozos que se usen; preferencias → COLOR).
+  `smpte2084` → HDR: `sdr.py` convierte solo los trozos que se usen; preferencias → COLOR) y **si está en Log**
+  (`herramientas/color_log.py <clip>`: se revela con el LUT de su perfil; G009).
 - Vista general con `herramientas/hoja_contactos.sh CLIP hoja.jpg 1` (una celda por segundo) y, donde haya algo bueno,
   más fino (`… 0.25 <inicio> <duración>`) para dar inicio y final exactos.
 - Si hablan: `herramientas/transcribir.sh` (el idioma se detecta) → qué se dice y si el audio sirve.

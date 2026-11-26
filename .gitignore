@@ -3,3 +3,5 @@ __pycache__/
 *.pyc
 node_modules/
 edicion-horizontal/plantilla/herramientas/modelos/fuentes/
+edicion-horizontal/plantilla/herramientas/luts/*.cube
+edicion-horizontal/plantilla/herramientas/luts/looks/

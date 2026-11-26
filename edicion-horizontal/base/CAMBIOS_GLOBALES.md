@@ -90,3 +90,13 @@ Antes: Unbounded (títulos) y Lexend (textos).
 {"id": "G008", "fecha": "2026-11-24", "tipo": "ajuste", "nombre": "FUENTES_BASE", "antes": null,
  "regla_antes": "Letra de serie Unbounded 900 (títulos, golpes, cifras) y Lexend (textos)."}
 ```
+
+## G009 — Brutos en LOG revelados con su LUT de serie; look creativo opcional (2026-11-26)
+Lucas: «tienes que detectar si los brutos están grabados en logarítmico para ponerles un LUT de color» y «lo del LUT tiene
+que ser algo global». Cada bruto en Log (D-Log M, Apple Log, S-Log3…) se revela con el LUT oficial de su perfil
+(`herramientas/luts/`), sin preguntar; el look creativo es opcional (ventana de arranque, por defecto ninguno).
+Antes: el bruto se montaba tal cual aunque fuera Log (salía gris). Deshacer: `LUT_LOG = False` en su `ajustes.py`.
+```json
+{"id": "G009", "fecha": "2026-11-26", "tipo": "ajuste", "nombre": "LUT_LOG", "antes": false, "ahora": true,
+ "regla_antes": "Los brutos en Log se montaban tal cual, sin LUT (se veían grises)."}
+```

@@ -185,23 +185,100 @@ def es_hdr(clip):
 
 _seg = {}
 def segmentos(clip, releer=False):
-    """Copias SDR que ya hay de un bruto HDR: [(a, b, ruta)], en frames del proyecto sobre el bruto."""
+    """Copias SDR que ya hay de un bruto HDR o LOG: [(a, b, ruta)], en frames del proyecto sobre el bruto."""
     if releer or clip not in _seg:
         _seg[clip] = sorted((int(os.path.basename(f)[:-4].split("_")[0]), int(os.path.basename(f)[:-4].split("_")[1]), f.replace("\\", "/"))
                             for f in glob.glob(f"{TRABAJO}/sdr/{glob.escape(clip)}/*.mp4"))
     return _seg[clip]
 
 
+# G009 (Lucas, 2026-11-26): brutos en LOG (DJI D-Log M, Apple Log, S-Log3…) → su LUT de conversión (herramientas/luts/),
+# siempre y sin preguntar; sin él se ven grises. Van como los HDR: sdr.py hace copias reveladas de los trozos que se usan y
+# fuente() las elige. Se mira una vez por clip (trabajo/revelado.json). LUT_LOG = False en ajustes.py lo apaga para un
+# creador (deshacer_cambio.py <creador> G009); LUT_INTENSIDAD (0–1) baja su fuerza; LOG_CLIPS = {"clip": "dlogm" | None}
+# en proyecto.py o plan.py lo fuerza a mano. LOOK (creativo, opcional; lo pregunta la ventana de arranque): por defecto
+# ninguno; LOOK = "natural" | "calido" | "cine" | "<archivo>.cube" (personal/<creador>/recursos/luts/), LOOK_INTENSIDAD.
+sys.path.insert(0, os.path.dirname(AQUI))
+import color_log as _cl
+LUTS_CREADOR = [f"{RECURSOS}/luts"] if RECURSOS else []
+_rev = None
+def revelado(clip):
+    """{"tipo": "hdr" | "log" | None, "perfil", "seguro", "motivo", "lut", "bits", "matriz", "rango"} de un bruto."""
+    global _rev
+    if _rev is None:
+        try: _rev = json.load(open(f"{TRABAJO}/revelado.json", encoding="utf-8"))
+        except (FileNotFoundError, ValueError): _rev = {}
+    if clip not in _rev:
+        d = _cl.detectar(bruto(clip))
+        _rev[clip] = {k: d.get(k) for k in ("perfil", "seguro", "motivo", "bits", "matriz", "rango")}
+        _rev[clip]["tipo"] = "hdr" if d["hdr"] else ("log" if d["perfil"] else None)
+        json.dump(_rev, open(f"{TRABAJO}/revelado.json", "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+    r = dict(_rev[clip])
+    forz = {**(ajuste("LOG_CLIPS", {}) or {}), **(_g("LOG_CLIPS") or {})}
+    if clip in forz and r["tipo"] != "hdr":
+        r.update(perfil=forz[clip], tipo="log" if forz[clip] else None, seguro="a mano" if forz[clip] else None)
+    if r["tipo"] == "log" and not ajuste("LUT_LOG", True): r["tipo"] = None; r["motivo"] = "Log, pero LUT_LOG = False (G009 deshecho)"
+    r["lut"] = _cl.lut_de(r["perfil"], extra=LUTS_CREADOR) if r["tipo"] == "log" else None
+    return r
+
+
+def lut_efectivo(clip):
+    """El .cube de conversión ya a su intensidad, copiado en trabajo/luts/ (ruta relativa: vale en Windows)."""
+    r = revelado(clip)
+    if r["tipo"] != "log": return None
+    if not r["lut"]: raise SystemExit(f"{clip} está en {_cl.PERFILES[r['perfil']][0]} y falta su LUT: bájalo de {_cl.PAGINAS.get(r['perfil'])} "
+                                      f"a herramientas/luts/ (o LOG_CLIPS = {{'{clip}': None}} si no es Log)")
+    i = float(ajuste("LUT_INTENSIDAD", 1.0)); base = re.sub(r"[^\w.-]", "_", os.path.splitext(os.path.basename(r["lut"]))[0])
+    dest = f"{TRABAJO}/luts/{base}_{round(i * 100)}.cube"
+    if not os.path.exists(dest): _cl.mezclar(r["lut"], i, dest)
+    return dest
+
+
+_look = []
+def look_efectivo():
+    """El .cube del look creativo a su intensidad (trabajo/luts/), o None (lo normal: sin look)."""
+    if not _look:
+        n = _g("LOOK", ajuste("LOOK", None))
+        if not n: _look.append(None)
+        else:
+            f = _cl.look_de(n, extra=LUTS_CREADOR); i = float(_g("LOOK_INTENSIDAD", ajuste("LOOK_INTENSIDAD", 1.0)))
+            nom = re.sub(r"[^\w.-]", "_", os.path.splitext(os.path.basename(f))[0])
+            dest = f"{TRABAJO}/luts/look_{nom}_{round(i * 100)}.cube"
+            if not os.path.exists(dest): _cl.mezclar(f, i, dest)
+            _look.append(dest)
+    return _look[0]
+
+
+def filtro_look():
+    """Filtro del look (sin coma final) para una imagen ya en SDR bt709, o "" si no hay look."""
+    lk = look_efectivo()
+    return _cl.filtro(None, lk) if lk else ""
+
+
+def receta(clip):
+    """Cómo se hacen las copias de un bruto (si cambia, sdr.py las rehace): "hdr" o el LUT y su intensidad."""
+    r = revelado(clip)
+    return "hdr" if r["tipo"] == "hdr" else (os.path.basename(lut_efectivo(clip)) if r["tipo"] == "log" else "")
+
+
+def necesita_copia(clip):
+    return revelado(clip)["tipo"] in ("hdr", "log")
+
+
 def fuente(clip, t, dur=0.0, exigir=False):
     """De dónde leer la IMAGEN de un bruto entre t y t + dur (s): devuelve (entrada, pre), donde `entrada` son los
     argumentos de ffmpeg («-ss … -i …») y `pre` lo que hay que poner al PRINCIPIO de la cadena de filtros de esa entrada.
-    Bruto SDR: el original. Bruto HDR: su copia SDR (sdr.py) si hay una que cubra el trozo; si no, el original convertido
-    al vuelo con libplacebo (vale para sacar fotogramas sueltos; para renderizar, exigir=True: sin copia no se sigue)."""
-    if not es_hdr(clip): return ["-ss", f"{t:.3f}", "-i", bruto(clip)], ""
+    Bruto normal: el original. Bruto HDR o LOG (G009): su copia revelada (sdr.py) si hay una que cubra el trozo; si no, el
+    original convertido al vuelo (vale para sacar fotogramas sueltos; para renderizar, exigir=True: sin copia no se sigue).
+    `pre` lleva también el LOOK creativo si lo hay (paso4_render.py lo pone él en cada tramo)."""
+    lk = filtro_look(); lk = lk + "," if lk else ""
+    r = revelado(clip)
+    if r["tipo"] is None: return ["-ss", f"{t:.3f}", "-i", bruto(clip)], lk
     for a, b, f in segmentos(clip):
-        if a / FPS <= t + 1e-6 and t + dur <= b / FPS + 1e-6: return ["-ss", f"{max(0, t - a / FPS):.3f}", "-i", f], ""
-    if exigir: raise SystemExit(f"{clip} es HDR y no hay copia SDR de {t:.2f}-{t + dur:.2f} s: lanza antes sdr.py")
-    return ["-init_hw_device", "vulkan", "-ss", f"{t:.3f}", "-i", bruto(clip)], LIBPLACEBO + ","
+        if a / FPS <= t + 1e-6 and t + dur <= b / FPS + 1e-6: return ["-ss", f"{max(0, t - a / FPS):.3f}", "-i", f], lk
+    if exigir: raise SystemExit(f"{clip} es {'HDR' if r['tipo'] == 'hdr' else 'Log'} y no hay copia revelada de {t:.2f}-{t + dur:.2f} s: lanza antes sdr.py")
+    if r["tipo"] == "hdr": return ["-init_hw_device", "vulkan", "-ss", f"{t:.3f}", "-i", bruto(clip)], LIBPLACEBO + "," + lk
+    return ["-ss", f"{t:.3f}", "-i", bruto(clip)], _cl.filtro(lut_efectivo(clip), None, r["bits"] or 8, r["matriz"] or "bt709", r["rango"] or "tv") + "," + lk
 
 
 _pal = {}

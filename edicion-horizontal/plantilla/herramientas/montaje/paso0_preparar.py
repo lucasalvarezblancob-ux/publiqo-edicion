@@ -17,7 +17,7 @@ Medido el 2026-11-17 (i7-13700HX + RTX 4060, 16 GB; 6 brutos 4K de iPhone, 17 mi
 con transcripciones, caras y hojas idénticas byte a byte. En Mac debería ganarse más (allí la transcripción va por procesador, de dos en dos): SIN MEDIR todavía."""
 import json, os, shutil, subprocess, sys, time
 from concurrent.futures import ThreadPoolExecutor
-from comun import ALTO, ANALISIS, ANCHO, AQUI, BRUTOS, FPS, IDIOMA, PY, TRABAJO, TRANSCRIPCIONES, bruto, clips
+from comun import ALTO, ANALISIS, ANCHO, AQUI, BRUTOS, FPS, IDIOMA, PY, TRABAJO, TRANSCRIPCIONES, _cl, bruto, clips, revelado
 from vigilar_render import memoria
 
 H = os.path.dirname(AQUI)   # herramientas/
@@ -28,7 +28,7 @@ if not lista: raise SystemExit(f"No hay brutos en {BRUTOS}")
 t0 = time.time()
 
 # 1. Ficha técnica (rápida): en orden, para que la tabla salga entera y ordenada
-durs = {}
+durs = {}; LOGS = []
 print(f"{'clip':14} {'tamaño':>11} {'fps':>6} {'dur':>8}  notas")
 for c in lista:
     f = bruto(c)
@@ -38,10 +38,21 @@ for c in lista:
     w, h = (st["height"], st["width"]) if rot in (90, 270) else (st["width"], st["height"])
     notas = []
     if st.get("color_transfer") in ("arib-std-b67", "smpte2084"): notas.append("HDR: no hace falta proxy del bruto entero; tras paso3_plan.py, sdr.py convierte a SDR solo los trozos que se usan (comprueba el color de alguno con comparar_color.sh)")
+    rv = revelado(c)                                  # G009: ¿grabado en LOG? → se revela con su LUT (sin él sale gris)
+    if rv["tipo"] == "log":
+        notas.append(f"LOG {_cl.PERFILES[rv['perfil']][0]} ({rv['seguro']}): " + (f"se revela con {os.path.basename(rv['lut'])}" if rv["lut"] else f"FALTA SU LUT → {_cl.PAGINAS.get(rv['perfil'])}")
+                     + (" · MIRA el antes/después: color_log.py comparar" if rv["seguro"] == "probable" else ""))
+        LOGS.append((c, rv))
     if h > w: notas.append("VERTICAL (irá con bordes o recortado)")
     if abs(fps - FPS) > 0.5: notas.append(f"fps distintos del proyecto ({FPS})")
     if (w, h) != (ANCHO, ALTO): notas.append(f"tamaño distinto del lienzo ({ANCHO}x{ALTO})")
     print(f"{c:14} {w:>5}x{h:<5} {fps:6.2f} {dur:7.1f}s  {'; '.join(notas)}", flush=True)
+
+if LOGS:
+    falta = sorted({_cl.PERFILES[r["perfil"]][0] for _, r in LOGS if not r["lut"]})
+    print(f"\nLOG (G009): {len(LOGS)} brutos en Log → se revelan solos con su LUT en sdr.py (como los HDR)."
+          + (f" AVISO LOG: falta el LUT de {', '.join(falta)}: bájalo a herramientas/luts/ antes de montar (color_log.py luts)." if falta else "")
+          + (" AVISO LOG: hay «probables» (solo por la imagen): saca un antes/después y, si no es Log, LOG_CLIPS = {'clip': None} en proyecto.py." if any(r["seguro"] == "probable" for _, r in LOGS) else ""), flush=True)
 
 # 2. Cuántos a la vez (no cambia el resultado, solo el tiempo)
 nuc = os.cpu_count() or 4

@@ -130,14 +130,18 @@ monta la imagen desde los brutos; Remotion solo dibuja los gráficos, que van en
    `proyecto.py` tras comprobarlo), posición de la cara (para los zooms) y hojas densas (1 fotograma/s). Va **en
    paralelo** con el mismo resultado byte a byte: la transcripción por un lado y la imagen (caras + hojas) por otro,
    varios brutos a la vez según gráfica, núcleos y memoria (−35 % medido en Windows; `PASO0_WHISPER`/`PASO0_HILOS` lo fijan).
-   Brutos HDR (iPhone): no se convierten enteros; tras el paso 4, `sdr.py` hace la copia SDR solo de los trozos que se
-   usan y se comprueba el color (preferencias → COLOR).
+   Brutos HDR (iPhone) y en **LOG** (D-Log M, Apple Log, S-Log3…; G009): no se convierten enteros; tras el paso 4,
+   `sdr.py` revela solo los trozos que se usan (HDR con libplacebo, Log con el LUT oficial de su perfil, siempre y sin
+   preguntar) y se comprueba el color (preferencias → COLOR). paso0 dice qué brutos son Log y si falta algún LUT
+   (`herramientas/color_log.py luts`); un «probable» se mira con `color_log.py comparar` antes de montar.
    **Ventana de arranque** (siempre, en cada vídeo): con `paso0_preparar.py` ya en segundo plano, desde `out/<slug>/`,
    `PY ../../herramientas/montaje/arranque.py [--estilo <x>]` también EN SEGUNDO PLANO (`--estilo` si lo piden en el
    mensaje). Abre en el navegador una página local, «Configuración de edición»: **estilo** (el del perfil, o el pedido,
    como recomendado; «Cambiar» enseña TODOS los estilos y los que aún no tienen reglas salen apagados), **recursos**
    (siempre brutos → su librería → stock; avisa si el disco de la librería no está conectado y lo reconecta con
-   `conectar_disco.sh`; «Librería y stock» = permiso de descarga para todo el vídeo, `base/recursos.md` § 5 bis) y
+   `conectar_disco.sh`; «Librería y stock» = permiso de descarga para todo el vídeo, `base/recursos.md` § 5 bis),
+   **color** (el Log se revela solo; el **look** creativo es opcional y por defecto ninguno: directo, `natural`, `calido`,
+   `cine` o un `.cube` suyo; se guarda para el creador → `LOOK` en su `ajustes.py`, o solo este vídeo) y
    **qué hay en los brutos** (selección múltiple: varias cámaras —se detectan por el nombre de los archivos—,
    teleprompter, alguien le dicta, dron, brutos solo de recurso, otra cosa). Dentro de «Cambiar estilo» también se elige
    el **color de acento y la fuente** (de títulos y de textos; las de sus vídeos salen sugeridas): «Solo este vídeo» →

@@ -19,8 +19,10 @@ if not os.path.exists("proyecto.py"):
 RAIZ = os.path.abspath(os.path.join(VIDEO, "..", ".."))
 SKILL = os.path.join(RAIZ, ".claude", "skills", "edicion-horizontal")
 EXT = (".mp4", ".mov", ".m4v", ".mxf", ".mkv")
+sys.path.insert(0, os.path.dirname(AQUI))
+import color_log
 try:
-    sys.path.insert(0, os.path.dirname(AQUI)); from git_bash import BASH          # en Windows, Git Bash (no el de WSL)
+    from git_bash import BASH          # en Windows, Git Bash (no el de WSL)
 except Exception: BASH = "bash"
 
 ap = argparse.ArgumentParser()
@@ -248,6 +250,23 @@ if PERS:
     for p in sorted(glob.glob(os.path.join(PERS, "recursos", "creador", "*"))):
         if p.lower().endswith((".jpg", ".jpeg", ".png")): CARA = p; break
 
+# ---------- color (G009) ----------
+# Log: solo por metadatos aquí (rápido); paso0_preparar.py lo confirma clip a clip midiendo la imagen.
+LUTS_CRE = [os.path.join(PERS, "recursos", "luts")] if PERS else []
+LOGS = []
+for f, _, tr in INFO:
+    if tr in ("smpte2084", "arib-std-b67"): continue
+    d = color_log.detectar(f, medir_imagen=False)
+    if d["perfil"]: LOGS.append(d["perfil"])
+def ajuste_creador(nombre):
+    try:
+        en = {}; exec(compile(leer(os.path.join(PERS, "ajustes.py")), "ajustes.py", "exec"), en); return en.get(nombre)
+    except Exception: return None
+LOOK_ACT = P.get("LOOK") or (ajuste_creador("LOOK") if PERS else None) or ""
+COLOR = {"log": {"n": len(LOGS), "perfiles": sorted({color_log.PERFILES[p][0] for p in LOGS}),
+                 "faltan": sorted({color_log.PERFILES[p][0] for p in LOGS if not color_log.lut_de(p, extra=LUTS_CRE)})},
+         "looks": color_log.looks_disponibles(LUTS_CRE), "actual": LOOK_ACT}
+
 detectado = []
 if sum(1 for c in CAMS if c != "dron") >= 2: detectado.append("dos_camaras")
 if "dron" in CAMS: detectado.append("dron")
@@ -261,7 +280,7 @@ def datos():
         "brutos": {"n": len(INFO), "min": round(TOTAL_MIN, 1), "camaras": CAMS, "hdr": hdr, "detectado": detectado},
         "fotos": FOTOS, "cara": "/img/_cara" if CARA else "",
         "estilos": est, "estilo_recomendado": rec_estilo or "",
-        "recursos": recursos_estado(), "marca": MARCA_UI,
+        "recursos": recursos_estado(), "marca": MARCA_UI, "color": COLOR,
     }
 
 
@@ -304,6 +323,23 @@ def guardar(r, por_tiempo):
         if nf: nueva["fuentes"] = nf
         t = re.sub(r"(?m)^MARCA\s*=.*\n?", "", t)
         t += f"MARCA = {json.dumps(nueva, ensure_ascii=False)}    # color/fuente solo de este vídeo (ventana de arranque)\n"
+    # LOOK (G009): "" = directo, sin look. «Guardar para el creador» → su ajustes.py (+ preferencias.md); «Solo este vídeo» → proyecto.py
+    look = str(r.get("look", LOOK_ACT) or ""); ids = {l["id"] for l in COLOR["looks"]}
+    if look and look not in ids: look = LOOK_ACT
+    out["look"] = look or None
+    json.dump(out, open(os.path.join(VIDEO, "trabajo", "arranque.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=2)
+    if look != LOOK_ACT or r.get("look_donde") == "video":
+        t = re.sub(r"(?m)^LOOK\s*=.*\n?", "", t)
+        if r.get("look_donde") == "video" or not PERS:
+            t += f"LOOK = {json.dumps(look or None)}    # look de color solo de este vídeo (ventana de arranque)\n".replace("null", "None")
+        else:
+            aj = os.path.join(PERS, "ajustes.py"); ta = leer(aj)
+            ta = re.sub(r"(?m)^LOOK\s*=.*\n?", "", ta)
+            if ta and not ta.endswith("\n"): ta += "\n"
+            ta += f"LOOK = {json.dumps(look or None)}    # look de color (ventana de arranque, {out['fecha'][:10]}); None = directo, sin look\n".replace("null", "None")
+            open(aj, "w", encoding="utf-8", newline="\n").write(ta)
+            with open(os.path.join(PERS, "preferencias.md"), "a", encoding="utf-8", newline="\n") as f:
+                f.write(f"\n- **Color** ({out['fecha'][:10]}, ventana de arranque, vídeo `{SLUG}`): {'look ' + look if look else 'directo, sin look'} (LOOK en ajustes.py).\n")
     open("proyecto.py", "w", encoding="utf-8", newline="\n").write(t)
     if cambio and donde == "creador" and PERS:
         mj = os.path.join(PERS, "marca.json"); d = dict(marca)
@@ -367,4 +403,6 @@ print("ARRANQUE: estilo=%s · recursos=%s · stock_sin_confirmar=%s · brutos=%s
     r["estilo"] or "como siempre", r["recursos"], "sí" if r["stock_sin_confirmar"] else "no", ",".join(r["brutos"]) or "nada",
     " · otra=" + r["otra"] if r["otra"] else "", " · SIN RESPUESTA (configuración recomendada)" if r["por_tiempo"] else ""))
 if r.get("marca"): print("MARCA: %s → %s" % (json.dumps({k: v for k, v in r["marca"].items() if k != "donde"}, ensure_ascii=False), "proyecto.py (solo este vídeo)" if r["marca"]["donde"] == "video" else "marca.json + preferencias.md del creador"))
+print("COLOR: %s · %s" % ("look " + r["look"] if r.get("look") else "directo, sin look",
+      f"{COLOR['log']['n']} brutos en Log por metadatos (se revelan solos)" if COLOR["log"]["n"] else "sin Log por metadatos (paso0 lo confirma con la imagen)"))
 print("→ trabajo/arranque.json y proyecto.py")

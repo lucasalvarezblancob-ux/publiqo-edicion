@@ -110,6 +110,11 @@ input.otra{background:#1a1a1c;border:1px solid #3a3a3d;border-radius:10px;color:
           <span class="opc" id="opcRec" hidden></span></span>
         <button class="btn2" id="bRec" type="button">Cambiar</button>
       </div>
+      <div class="fila"><span class="et">COLOR</span>
+        <span class="cu"><span class="valor anton" id="vLook"></span><span class="sub" id="sLook"></span>
+          <span class="opc" id="opcLook" hidden></span><span class="opc" id="dondeLook" hidden></span></span>
+        <button class="btn2" id="bLook" type="button">Cambiar</button>
+      </div>
       <div class="fila"><span class="et">BRUTOS</span>
         <span class="cu"><span class="valor anton">EN LOS BRUTOS HAY…</span><span class="chips" id="chBrutos"></span>
           <input class="otra" id="otra" placeholder="Cuéntame qué más hay en los brutos" hidden>
@@ -166,7 +171,8 @@ const D = /*DATOS*/null;
 document.documentElement.style.setProperty('--ac', D.acento);
 const $ = id => document.getElementById(id);
 const M0 = { acento: D.marca.acento, titulos: D.marca.titulos, textos: D.marca.textos, donde: 'video' };
-const S = { estilo: D.estilo_recomendado, rec: D.recursos.recomendado, brutos: new Set(D.brutos.detectado), otra: '', enviado: false, marca: { ...M0 } };
+const S = { estilo: D.estilo_recomendado, rec: D.recursos.recomendado, brutos: new Set(D.brutos.detectado), otra: '', enviado: false, marca: { ...M0 },
+  look: D.color.actual || '', lookDonde: 'creador' };
 let tmpEstilo = S.estilo, tmpM = { ...M0 }, quedan = D.espera;
 const marcaCambiada = m => m.acento.toUpperCase() !== M0.acento.toUpperCase() || m.titulos !== M0.titulos || m.textos !== M0.textos;
 (() => {   // las fuentes de la lista, para verlas con su letra (si no hay internet, salen con la del sistema)
@@ -222,7 +228,22 @@ function pinta() {
   $('chBrutos').innerHTML = CH.map(([id, t]) => '<button type="button" class="chip" data-b="' + id + '" aria-pressed="' + S.brutos.has(id) + '">' + (S.brutos.has(id) ? '✓ ' : '') + t + (D.brutos.detectado.includes(id) ? ' <span style="font-weight:600">· detectado</span>' : '') + '</button>').join('') +
     '<button type="button" class="chip dash" id="chOtra" aria-pressed="' + !$('otra').hidden + '">+ Otra cosa…</button>';
   $('chBrutos').querySelectorAll('[data-b]').forEach(b => b.onclick = () => { const id = b.dataset.b; S.brutos.has(id) ? S.brutos.delete(id) : S.brutos.add(id); vivo(); pinta(); });
+  pintaLook();
   $('chOtra').onclick = () => { $('otra').hidden = !$('otra').hidden; if (!$('otra').hidden) $('otra').focus(); vivo(); pinta(); };
+}
+
+function pintaLook() {
+  // G009: el Log se revela solo (no se pregunta); el LOOK creativo es opcional y por defecto no hay.
+  const C = D.color, L = C.looks.find(l => l.id === S.look);
+  $('vLook').textContent = L ? 'LOOK ' + L.nombre : 'DIRECTO, SIN LOOK';
+  const log = C.log.n ? C.log.n + ' brutos en Log (' + C.log.perfiles.join(', ') + '): se revelan solos con su LUT oficial' + (C.log.faltan.length ? ' · FALTA el LUT de ' + C.log.faltan.join(', ') : '') : 'Si algún bruto está en Log (gris), se revela solo con su LUT';
+  $('sLook').textContent = (L ? L.que + ' · ' : (S.look === (D.color.actual || '') ? 'recomendado · ' : '')) + log;
+  const op = [{ id: '', nombre: 'Directo, sin look', que: 'El color de la cámara' }].concat(C.looks);
+  $('opcLook').innerHTML = op.map(o => '<button type="button" data-l="' + esc(o.id) + '" aria-pressed="' + (S.look === o.id) + '">' + esc(o.nombre.charAt(0) + o.nombre.slice(1).toLowerCase()) +
+    '<small>' + (o.id === '' ? 'RECOMENDADO' : esc(o.que)) + '</small></button>').join('');
+  $('opcLook').querySelectorAll('button').forEach(b => b.onclick = () => { S.look = b.dataset.l; vivo(); pinta(); });
+  $('dondeLook').innerHTML = [['creador', 'Guardar para el creador'], ['video', 'Solo este vídeo']].map(([id, t]) => '<button type="button" data-d="' + id + '" aria-pressed="' + (S.lookDonde === id) + '">' + t + '</button>').join('');
+  $('dondeLook').querySelectorAll('button').forEach(b => b.onclick = () => { S.lookDonde = b.dataset.d; vivo(); pinta(); });
 }
 
 function tarjetas() {
@@ -265,6 +286,7 @@ const cerrar = () => { $('capa').classList.remove('si'); $('bEstilo').focus(); }
 $('volver').onclick = cerrar; $('cancelar').onclick = cerrar;
 $('usar').onclick = () => { S.estilo = tmpEstilo; S.marca = { ...tmpM }; cerrar(); pinta(); };
 document.addEventListener('keydown', ev => { if (ev.key === 'Escape' && $('capa').classList.contains('si')) cerrar(); });
+$('bLook').onclick = () => { const h = !$('opcLook').hidden; $('opcLook').hidden = h; $('dondeLook').hidden = h; $('bLook').textContent = h ? 'Cambiar' : 'Listo'; vivo(); };
 $('bRec').onclick = () => { $('opcRec').hidden = !$('opcRec').hidden; $('bRec').textContent = $('opcRec').hidden ? 'Cambiar' : 'Listo'; vivo(); };
 $('otra').oninput = () => { S.otra = $('otra').value; vivo(); };
 
@@ -281,7 +303,7 @@ function vivo() {
 async function enviar(porTiempo) {
   if (S.enviado) return; S.enviado = true;
   const cuerpo = { estilo: S.estilo, recursos: S.rec, brutos: [...S.brutos], otra: $('otra').hidden ? '' : S.otra, por_tiempo: porTiempo,
-    marca: marcaCambiada(S.marca) ? S.marca : null };
+    marca: marcaCambiada(S.marca) ? S.marca : null, look: S.look, look_donde: S.lookDonde };
   try { await fetch('/enviar', { method: 'POST', body: JSON.stringify(cuerpo) }); }
   catch (e) { $('listoTx').textContent = 'No he podido avisar a Claude: vuelve a la terminal.'; }
   if (porTiempo) $('listoTx').textContent = 'Se acabó la cuenta atrás: empiezo con la configuración recomendada. Puedes cerrar esta pestaña.';

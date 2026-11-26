@@ -12,10 +12,10 @@ un fail pedido en FALLOS, que va en blanco y negro).
 Brutos HDR (iPhone): `tramos` hace antes, solo, la copia SDR de los trozos que se usan (sdr.py)."""
 import glob, json, os, shutil, subprocess, sys, time
 from concurrent.futures import ThreadPoolExecutor
-from comun import COMP, ESTUDIO, FPS, SLUG, TRABAJO, fuente
+from comun import COMP, ESTUDIO, FPS, SLUG, TRABAJO, filtro_look, fuente, look_efectivo
 from dinamica import filtro_zoom
 
-V = json.load(open(f"{TRABAJO}/video.json")); OUT = os.path.abspath(TRABAJO)
+V = json.load(open(f"{TRABAJO}/video.json")); OUT = os.path.abspath(TRABAJO); LOOK = filtro_look()
 os.makedirs(f"{TRABAJO}/capas", exist_ok=True); os.makedirs(f"{TRABAJO}/tramos", exist_ok=True)
 G = str(2 * FPS)
 ENC = {"x264": ["-c:v", "libx264", "-preset", "fast", "-crf", "19", "-x264-params", "open-gop=0", "-g", G],
@@ -65,7 +65,7 @@ def tramo(i, enc):
     for j, v in enumerate(tr):
         ent, _ = fuente(v["clip"], v["in"] / FPS, v["n"] * v["speed"] / FPS, exigir=True)      # bruto SDR: el original; HDR: su copia SDR (sdr.py)
         cmd += [*ent[:-2], "-t", f"{v['n'] * v['speed'] / FPS + 0.5:.3f}", *ent[-2:]]
-        f = f"[{j}:v]setpts=(PTS-STARTPTS)/{v['speed']},fps={FPS},"
+        f = f"[{j}:v]setpts=(PTS-STARTPTS)/{v['speed']},fps={FPS}," + (LOOK + "," if LOOK else "")     # LOOK creativo (G009), antes de los parches (ya lo llevan)
         for q, d in enumerate(("foco", "tapado")):      # resalte (foco.py) y, encima, la matrícula difuminada (tapar.py)
             pj = f"{TRABAJO}/{d}/p{v['o']}"
             if not os.path.exists(pj + ".json"): continue
@@ -105,6 +105,16 @@ elif orden == "tramos":
     if enc == "auto": enc = codificador()
     import sdr
     if sdr.asegurar(): sys.exit(3)                 # brutos HDR: antes de montar, la copia SDR de cada trozo que se usa
+    # G009: si cambia el color de un tramo (LUT de un bruto Log, su intensidad o el LOOK), ese tramo se rehace solo.
+    # Sin color.json (tramos de antes de G009) cuentan como «sin LUT ni look»: los que llevan brutos Log se rehacen.
+    from comun import receta
+    cj = f"{TRABAJO}/tramos/color.json"; ant = json.load(open(cj)) if os.path.exists(cj) else None
+    rec = {str(i): "|".join([os.path.basename(look_efectivo() or "")] + sorted({receta(v["clip"]) for v in tr})) for i, tr in enumerate(V["tramos"])}
+    for i, tr in enumerate(V["tramos"]):
+        viejo = ant.get(str(i)) if ant is not None else "|".join([""] + sorted({"hdr" if receta(v["clip"]) == "hdr" else "" for v in tr}))
+        if viejo != rec[str(i)] and os.path.exists(f"{TRABAJO}/tramos/t{i:03d}.mp4"):
+            os.remove(f"{TRABAJO}/tramos/t{i:03d}.mp4"); print(f"tramo {i}: cambia el color ({viejo or 'sin LUT'} → {rec[str(i)]}): se rehace")
+    json.dump(rec, open(cj, "w"))
     ids = [int(x) for x in sys.argv[4:]] or range(len(V["tramos"])); t = time.time()
     with ThreadPoolExecutor(par) as ex: res = list(ex.map(lambda i: tramo(i, enc), ids))
     print(f"tramos ({enc}): {time.time() - t:.0f} s; fallos: {[i for i, r in zip(ids, res) if r == -1]}")
