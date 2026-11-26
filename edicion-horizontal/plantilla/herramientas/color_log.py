@@ -48,10 +48,14 @@ PERFILES = {
 MARCAS = [(r"\bdji\b|osmo|mavic|avata|^dji_|^ac\d{3}|^dji", "dlogm"), (r"apple|iphone", "applelog"), (r"sony|xavc|^c\d{4}", "slog3"),
           (r"panasonic|lumix|^p\d{7}", "vlog"), (r"canon|^mvi_|^a\d{3}c\d{3}", "clog3"), (r"fujifilm|^dscf", "flog"),
           (r"nikon", "nlog"), (r"gopro|^g[xh]\d{6}|^gopr", "gplog")]
-# Umbrales de la IMAGEN (8 bits, rango tv 16–235), sobre 6 fotogramas. Provisionales: se afinan con brutos reales.
-UMBRAL_NEGRO = 44        # el 10 % más oscuro no baja de aquí → negros levantados
-UMBRAL_BLANCO = 212      # el píxel más claro de los 6 fotogramas no pasa de aquí → sin altas luces
-UMBRAL_SAT = 20          # saturación media por debajo → apagado
+# Umbrales de la IMAGEN (8 bits, rango tv 16–235): MEDIANA de 6 fotogramas. Afinados con 81 clips reales de una Osmo
+# Action 5 Pro en D-Log M (casa-creadores, 2026-11-26): percentil 10 entre 17 y 67, percentil 90 entre 100 y 182,
+# saturación 3–19 (una noche con luz cálida, 26). Con el MÁXIMO en vez del percentil 90 fallaban 64 de 81: una lámpara,
+# el sol o un reflejo llegan a 235 también en Log.
+UMBRAL_NEGRO = 25        # percentil 10 (mediana de los fotogramas) por encima → negros levantados
+UMBRAL_BLANCO = 185      # percentil 90 (mediana) por debajo → sin altas luces
+UMBRAL_SAT = 20          # saturación media (mediana) por debajo → apagado
+SAT_SOLA = 12            # tan apagado que basta con esto si además es de 10 bits y de una cámara que graba en Log
 PAGINAS = {  # dónde bajar el oficial (se baja a mano o lo baja Claude con permiso; nunca se sube al repo de la skill)
     "dlogm": "https://www.dji.com/downloads (busca «<tu cámara> D-Log M to Rec.709 LUT»; Osmo Action 5 Pro: https://www.dji.com/br/downloads/softwares/dji-osmo-action-5-pro-d-log-m-to-rec-709-vivid-lut)",
     "dlog": "https://www.dji.com/downloads (busca «<tu cámara> D-Log to Rec.709 LUT»)",
@@ -85,13 +89,18 @@ def sonda(ruta):
     except ValueError: return {}
 
 
+_CLAVES_MARCA = re.compile(r"^(?!.*vendor).*(make|model|encoder|software|handlername|handlerdescription|camera|lens)", re.I)   # HandlerVendorID dice «Apple» en cualquier MP4
+
+
 def _textos(j, ruta):
-    """Todo el texto de los metadatos (y del .SRT de DJI, y exiftool si está), en minúsculas."""
-    t = []
-    for s in j.get("streams", []):
-        t += [str(v) for v in (s.get("tags") or {}).values()]
-        t += [str(s.get(k, "")) for k in ("color_transfer", "codec_tag_string", "profile")]
-    t += [str(v) for v in (j.get("format", {}).get("tags") or {}).values()]
+    """(todo el texto de los metadatos —y del .SRT de DJI y exiftool si está—, solo el de marca/modelo/encoder), en minúsculas.
+    La marca se busca SOLO en los campos de marca: en el volcado entero de exiftool sale «apple» en cualquier MP4."""
+    t, m = [], []
+    for tags in [x.get("tags") or {} for x in j.get("streams", [])] + [j.get("format", {}).get("tags") or {}]:
+        for k, v in tags.items():
+            t.append(str(v))
+            if _CLAVES_MARCA.search(k) and not str(v).lower().startswith(("lav", "isom")): m.append(str(v))
+    for s in j.get("streams", []): t += [str(s.get(k, "")) for k in ("color_transfer", "codec_tag_string", "profile")]
     base = os.path.splitext(ruta)[0]
     for srt in (base + ".SRT", base + ".srt"):
         if os.path.exists(srt):
@@ -99,8 +108,14 @@ def _textos(j, ruta):
             except OSError: pass
     if shutil.which("exiftool"):
         r = _run(["exiftool", "-j", "-a", "-G1", "-api", "LargeFileSupport=1", ruta], timeout=60)
-        if r and r.stdout: t.append(r.stdout)
-    return " | ".join(t).lower()
+        if r and r.stdout:
+            try:
+                for k, v in (json.loads(r.stdout) or [{}])[0].items():
+                    if k.startswith(("System:", "ExifTool:", "SourceFile")): continue
+                    t.append(f"{k}: {v}")
+                    if _CLAVES_MARCA.search(k.split(":")[-1]): m.append(str(v))
+            except ValueError: t.append(r.stdout)
+    return " | ".join(t).lower(), " | ".join(m).lower()
 
 
 def _bits(v):
@@ -112,7 +127,7 @@ def _bits(v):
 
 
 def medir(ruta, dur):
-    """Luz y saturación de 6 fotogramas (8 bits): {negro: el 10 % más oscuro (mínimo), blanco: máximo, sat: media}."""
+    """Luz y saturación de 6 fotogramas (8 bits), medianas: {negro: percentil 10, blanco: percentil 90, sat: media}."""
     vals = []
     for k in range(6):
         t = max(0.0, dur * (0.08 + 0.168 * k))
@@ -122,9 +137,8 @@ def medir(ruta, dur):
         d = dict(re.findall(r"lavfi\.signalstats\.(\w+)=([\d.]+)", r.stdout))
         if "YLOW" in d: vals.append({k2: float(d[k2]) for k2 in ("YLOW", "YMAX", "YHIGH", "SATAVG") if k2 in d})
     if not vals: return None
-    vals.sort(key=lambda x: x["SATAVG"])
-    return {"negro": min(v["YLOW"] for v in vals), "blanco": max(v["YMAX"] for v in vals),
-            "sat": vals[len(vals) // 2]["SATAVG"], "n": len(vals)}
+    med = lambda k: sorted(v[k] for v in vals)[len(vals) // 2]
+    return {"negro": med("YLOW"), "blanco": med("YHIGH"), "sat": med("SATAVG"), "max": max(v["YMAX"] for v in vals), "n": len(vals)}
 
 
 def detectar(ruta, medir_imagen=True):
@@ -134,9 +148,11 @@ def detectar(ruta, medir_imagen=True):
     out = {"perfil": None, "seguro": None, "motivo": "", "bits": _bits(v),
            "matriz": "bt2020" if "2020" in (v.get("color_space") or "") else "bt709",
            "rango": "pc" if v.get("color_range") == "pc" else "tv",
-           "hdr": (v.get("color_transfer") or "") in ("arib-std-b67", "smpte2084")}
+           "hdr": (v.get("color_transfer") or "") in ("arib-std-b67", "smpte2084"),
+           "modelo": next((str(t[k]) for t in [j.get("format", {}).get("tags") or {}] + [x.get("tags") or {} for x in j.get("streams", [])]
+                           for k in ("encoder", "com.apple.quicktime.model", "model", "Model") if k in t and not str(t[k]).lower().startswith("lav")), "")}
     if out["hdr"]: out["motivo"] = "HDR (HLG/PQ): va por sdr.py con libplacebo, no por LUT"; return out
-    txt = _textos(j, ruta)
+    txt, txt_marca = _textos(j, ruta)
     for clave, (nombre, rx, _) in PERFILES.items():
         m = re.search(rx, txt)
         if m:
@@ -144,7 +160,7 @@ def detectar(ruta, medir_imagen=True):
             return out
     # pistas: marca/cámara (metadatos o nombre del archivo)
     nombre = os.path.basename(ruta).lower()
-    cand = next((p for rx, p in MARCAS if re.search(rx, txt) or re.search(rx, nombre)), None)
+    cand = next((p for rx, p in MARCAS if re.search(rx, txt_marca) or re.search(rx, nombre)), None)
     if not (cand or out["bits"] >= 10) or not medir_imagen:
         out["motivo"] = "sin señales de Log"; return out
     try: dur = float(j.get("format", {}).get("duration") or 0)
@@ -153,8 +169,9 @@ def detectar(ruta, medir_imagen=True):
     if not m: out["motivo"] = "no he podido medir la imagen"; return out
     puntos = [m["negro"] >= UMBRAL_NEGRO, m["blanco"] <= UMBRAL_BLANCO, m["sat"] <= UMBRAL_SAT]
     out["medida"] = m
-    desc = f"negros {m['negro']:.0f} (≥{UMBRAL_NEGRO}?), blanco máx {m['blanco']:.0f} (≤{UMBRAL_BLANCO}?), saturación {m['sat']:.1f} (≤{UMBRAL_SAT}?)"
-    if sum(puntos) >= 2 and (cand or out["bits"] >= 10) and (out["bits"] >= 10 or sum(puntos) == 3):
+    desc = f"negros p10 {m['negro']:.0f} (≥{UMBRAL_NEGRO}?), blancos p90 {m['blanco']:.0f} (≤{UMBRAL_BLANCO}?), saturación {m['sat']:.1f} (≤{UMBRAL_SAT}?)"
+    sola = m["sat"] <= SAT_SOLA and cand and out["bits"] >= 10
+    if sola or (sum(puntos) >= 2 and (cand or out["bits"] >= 10) and (out["bits"] >= 10 or sum(puntos) == 3)):
         out.update(perfil=cand or "dlogm", seguro="probable",
                    motivo=f"probable por la imagen ({desc}; {out['bits']} bits{', cámara ' + cand if cand else ''}): MIRA el antes/después")
     else:

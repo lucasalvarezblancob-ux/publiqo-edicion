@@ -110,12 +110,15 @@ elif orden == "tramos":
     from comun import receta
     cj = f"{TRABAJO}/tramos/color.json"; ant = json.load(open(cj)) if os.path.exists(cj) else None
     rec = {str(i): "|".join([os.path.basename(look_efectivo() or "")] + sorted({receta(v["clip"]) for v in tr})) for i, tr in enumerate(V["tramos"])}
+    rehechos = []
     for i, tr in enumerate(V["tramos"]):
         viejo = ant.get(str(i)) if ant is not None else "|".join([""] + sorted({"hdr" if receta(v["clip"]) == "hdr" else "" for v in tr}))
         if viejo != rec[str(i)] and os.path.exists(f"{TRABAJO}/tramos/t{i:03d}.mp4"):
-            os.remove(f"{TRABAJO}/tramos/t{i:03d}.mp4"); print(f"tramo {i}: cambia el color ({viejo or 'sin LUT'} → {rec[str(i)]}): se rehace")
+            os.remove(f"{TRABAJO}/tramos/t{i:03d}.mp4"); rehechos.append(i); print(f"tramo {i}: cambia el color ({viejo or 'sin LUT'} → {rec[str(i)]}): se rehace")
     json.dump(rec, open(cj, "w"))
-    ids = [int(x) for x in sys.argv[4:]] or range(len(V["tramos"])); t = time.time()
+    ids = [int(x) for x in sys.argv[4:]] or list(range(len(V["tramos"]))); t = time.time()
+    ids = list(ids) + [i for i in rehechos if i not in ids]     # los que el color obliga a rehacer entran en ESTA pasada
+                                                                 # (render_todo.py pasa solo los que faltaban: iban al «intento 2»)
     with ThreadPoolExecutor(par) as ex: res = list(ex.map(lambda i: tramo(i, enc), ids))
     print(f"tramos ({enc}): {time.time() - t:.0f} s; fallos: {[i for i, r in zip(ids, res) if r == -1]}")
 elif orden == "unir":

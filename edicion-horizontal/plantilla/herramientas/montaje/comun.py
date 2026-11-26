@@ -210,7 +210,7 @@ def revelado(clip):
         except (FileNotFoundError, ValueError): _rev = {}
     if clip not in _rev:
         d = _cl.detectar(bruto(clip))
-        _rev[clip] = {k: d.get(k) for k in ("perfil", "seguro", "motivo", "bits", "matriz", "rango")}
+        _rev[clip] = {k: d.get(k) for k in ("perfil", "seguro", "motivo", "bits", "matriz", "rango", "modelo")}
         _rev[clip]["tipo"] = "hdr" if d["hdr"] else ("log" if d["perfil"] else None)
         json.dump(_rev, open(f"{TRABAJO}/revelado.json", "w", encoding="utf-8"), ensure_ascii=False, indent=1)
     r = dict(_rev[clip])
@@ -218,7 +218,7 @@ def revelado(clip):
     if clip in forz and r["tipo"] != "hdr":
         r.update(perfil=forz[clip], tipo="log" if forz[clip] else None, seguro="a mano" if forz[clip] else None)
     if r["tipo"] == "log" and not ajuste("LUT_LOG", True): r["tipo"] = None; r["motivo"] = "Log, pero LUT_LOG = False (G009 deshecho)"
-    r["lut"] = _cl.lut_de(r["perfil"], extra=LUTS_CREADOR) if r["tipo"] == "log" else None
+    r["lut"] = _cl.lut_de(r["perfil"], r.get("modelo") or "", extra=LUTS_CREADOR) if r["tipo"] == "log" else None
     return r
 
 
