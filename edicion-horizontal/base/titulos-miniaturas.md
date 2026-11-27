@@ -221,17 +221,17 @@ Detalle y cifras: `base/refs/_youtube/animales_titulos_2026-11-14.md`.
    vende un bloque diferente. Así el test enseña qué le importa al público (una plantilla fija aplana: NO x0,78–1,32).
 5. **Escribe cada pareja a la vez**: título + qué se ve y en qué instante + texto de la miniatura (si lleva) + **las dos
    frases de la segunda lectura** + la pregunta que deja abierta. Pásale la prueba del § 7.
-6. **Busca la imagen de referencia** de cada una, mirando: `miniatura.py momentos` (hojas del vídeo con su minuto) y el
-   registro visual → `miniatura.py sacar A <mm:ss> …` (saca del bruto, a tamaño completo y sin rótulos, el fotograma más
-   nítido de una ráfaga) → mira `A_rafaga.jpg` (ojos abiertos, gesto, sin barrido) → `miniatura.py hoja` y comprueba que
-   a 168 px se entiende. Fotos del creador: `miniatura.py fotos` / `foto` (§ 6).
-   - **Dos referencias por pareja** cuando el animal y la cara no están bien en el mismo fotograma (lo normal): `A` =
-     el sujeto de cerca, `A2` = el creador con el gesto. El prompt dice qué es cada una.
-   - **El mejor primer plano puede no estar en el montaje**: búscalo en el registro visual (`recurso: 3`) y sácalo con
-     `CLIP@segundos`.
-   - **Lo que no se distingue a 168 px no es miniatura**, por fuerte que sea en el vídeo (crías cazando bajo el agua:
-     en `ramon` no se veía ni la tortuga). Entonces la imagen es el animal de cerca y la acción la pone el título.
-7. **Escribe el prompt** de cada miniatura (§ 6) describiendo lo que hay en ESA referencia.
+6. **Prepara la cara** (molde único, § 6; G010): UN retrato limpio del creador, de frente, mirando a la lente, ojos
+   abiertos y boca cerrada. Primero `recursos/creador/` (`miniatura.py fotos` / `foto`); si no hay, el fotograma más
+   limpio así (`miniatura.py momentos` → `miniatura.py sacar A <mm:ss> …` → mira `A_rafaga.jpg`) o una miniatura suya
+   publicada en la que salga así. Luego `miniatura.py cara A` (el recorte grande, ≥ 1024 px). La misma pareja de
+   imágenes vale para las cinco miniaturas. Del vídeo **no** se adjunta la escena.
+   - **Una imagen más, solo si algo tiene que ser EL real**: su perro, su animal con nombre, un objeto o producto
+     concreto que es el gancho. Sácalo de cerca con `miniatura.py sacar` (el mejor primer plano puede no estar en el
+     montaje: búscalo en el registro visual, `recurso: 3`, y sácalo con `CLIP@segundos`).
+   - **Lo que no se entiende en un segundo a 168 px no es miniatura**, por fuerte que sea en el vídeo: elige otro
+     activo o haz literal el gancho con un objeto (regla 26).
+7. **Escribe el prompt** de cada miniatura (§ 6, «El prompt»): una escena nueva que cuenta el gancho, con el esqueleto.
 8. **Descripción, capítulos y etiquetas** (`base/descripciones.md`).
 9. **Entrega** (§ 8): di cuáles tres probarías primero y por qué, y deja 2–3 títulos de recambio por si el vídeo arranca
    flojo (CC retitula 19 de 45; BM, BZ y MB también cambian títulos publicados).
@@ -451,6 +451,47 @@ escriben como los viajeros en español. Un título no se traduce: se vuelve a es
 
 ## 6. Miniaturas
 
+### Molde único: desde cero, con la cara (Lucas, 2026-11-27; G010)
+
+**Todas las miniaturas se hacen así**, también las de un vídeo editado. Por qué: Lucas, «quiero que todas las miniaturas
+sean como las que me has generado desde cero, solo con una foto de la cara… que mantengas la cara y sepas lo que quieres
+mostrar en la miniatura y lo resaltes muchísimo», y de las hechas sobre fotogramas: «sí que resaltas la realidad con IA,
+pero no son tan limpias como las que generas prácticamente desde cero, manteniendo solo la cara». **Causa:** partíamos del
+fotograma (la regla 24 antigua) y la IA conserva lo que ve: el fondo real con su desorden (manguera, marco azul de la
+piscina, cubos, pared de ladrillo), la luz plana de un día nublado, la cara pequeña y de lado y el gesto del momento.
+Salía la realidad un poco mejor, no una miniatura. Comparado: tres paquetes publicados de Reino Selva («Lo Que Le Pasó al
+Cometa Negro», «Vaciamos Mi Estanque Más Profundo…», «Intenté Trasplantar un Estanque… en 1 Hora») frente a 50 hechas
+desde cero con la cara de Lucas, todas aprobadas.
+
+- **Del vídeo sale QUÉ se enseña, no la imagen.** El EDL, el registro visual y los descartes dicen el gancho (el sitio, la
+  prueba, la comida, el animal, la cifra, lo que le pasa). La miniatura es una escena nueva que lo cuenta en un segundo.
+- **Adjuntos: solo la cara**: un retrato limpio de frente, mirando a la lente (`recursos/creador/` o el fotograma más
+  limpio así), más su recorte grande (`miniatura.py cara`). Una imagen más **solo** si algo concreto tiene que ser EL real
+  porque es el gancho o el público lo conoce (su perro, su koi negro, su bici, el producto de una marca): «keep the exact
+  same <thing>; ignore the man and the background in image 2». **El fotograma nunca es la base de la escena.**
+- **Cómo son las 50** (lo que se repite):
+  1. **La cara de frente, mirando a la lente**, ~25–35 % del alto, centrada o en un tercio, seria y en calma, con los ojos
+     abiertos y la boca cerrada. Plano de pecho hacia arriba; de cuerpo entero solo si la postura es la historia
+     (flexiones, paracaídas).
+  2. **Un protagonista enorme que dice el título**, pegado a la cara o empujado hacia la lente: la guindilla, la pizza de
+     1 metro, la hamburguesa de 5 kilos, el helado de diez bolas, el tiburón ballena, el jaguar, el castillo de piezas. A
+     menudo, **dos objetos que juntos cuentan la historia, uno en cada mano**: el clip y las llaves de la casa, la cartera
+     vacía y el onigiri, el detector y el meteorito.
+  3. **El sitio llevado a postal**: atardecer u hora dorada (la mayoría), aurora, noche de neón con lluvia, velas y luna
+     azul; un detalle que dice dónde (el Coliseo, los globos de Capadocia, la pagoda). Nítido de punta a punta, colores
+     saturados y **fondo limpio**: ni cubos, ni mangueras, ni trastos, ni gente.
+  4. **Vestido de la escena** (esmoquin en el tren de lujo, parka en el hielo, uniforme de piloto, delantal de pizzero) y
+     con **huellas de lo vivido** (sudor, barro, ropa rota, pintura en la cara, escarcha en las cejas).
+  5. En aventura, **selfie con el brazo** en primer plano (la isla, la cascada helada, la cueva, el tiburón).
+  6. **Sin texto.**
+- **Lo que no cambia: se promete lo que el vídeo cumple** (§ 1.8). El decorado, la luz, la ropa, el tamaño y la abundancia
+  se inventan o se exageran todo lo que haga falta; lo que pasa, el animal y la persona tienen que estar en el vídeo.
+- **El resto del § 6 sirve para decidir QUÉ enseñar** (el instante, el sujeto primero, las manos, el color, el texto si el
+  creador lo lleva). Lo que hable de partir del fotograma, de «foto de móvil», «luz natural» o fondo desenfocado queda
+  sustituido por este molde, y las plantillas (A–K) valen como idea de composición, siempre dentro de él. El gesto, por
+  defecto el de las 50; otro, solo si lo pide el creador (su `preferencias.md`).
+- Esqueleto del prompt: «El prompt», abajo (uno solo). Si un creador no lo quiere: `deshacer_cambio.py <creador> G010`.
+
 **Reglas** (detalle por canal en `base/refs/_youtube/canales/`; el cruce, en la síntesis)
 
 *Escena y sujeto*
@@ -533,11 +574,12 @@ escriben como los viajeros en español. Un título no se traduce: se vuelve a es
     grande, sí (PC 5 de sus 6 mejores).
 
 *Realidad*
-24. **Parte de una foto real de un momento real del vídeo y rehazla** exagerando lo que hay: así la cara y el animal son
-    los suyos. El fotograma tal cual rara vez es lo mejor (BC 5 → x0,91; BM reales x0,99 frente a rehechas x1,31). Con
-    aspecto de foto creíble: luz de día, gente normal, brazo de selfie, micro de solapa, la ropa del sitio (BM, NV).
-    Nunca un póster de terror o fantasía (RH x0,61), una ilustración en lugar del animal (BW x0,41 frente a foto x2,77),
-    ni la cara del creador hecha personaje (CW real x1,84 frente a IA x1,03; indicio). Siempre dentro del § 1.8.
+24. **Rehecha, no retocada** (2026-11-27, G010; antes decía «parte de una foto real del vídeo y rehazla»): del momento
+    real sale qué se cuenta; la imagen se genera desde cero con la cara del creador (molde único, arriba). El fotograma
+    tal cual rinde poco (BC 5 → x0,91; BM reales x0,99 frente a rehechas x1,31), y retocado arrastra su fondo y su luz.
+    Fotorrealista, como una foto de verdad: nunca un póster de terror o fantasía (RH x0,61), una ilustración en lugar
+    del animal (BW x0,41 frente a foto x2,77), ni la cara del creador hecha personaje o idealizada (CW real x1,84 frente
+    a IA x1,03; indicio): la cara es la suya, tal cual. Siempre dentro del § 1.8.
 25. **Cada animal, su especie exacta** (norma: quien sigue un canal de animales la nota). El color y la escala se pueden
     llevar al límite (BW saltamontes dorado x24,5; FG cobra naranja x3,28); la especie, la forma y el dibujo, no.
 
@@ -566,7 +608,7 @@ escriben como los viajeros en español. Un título no se traduce: se vuelve a es
     altura de la cintura, como enterrado. Si está de pie, que se vea hasta el suelo o que lo corte el borde del
     encuadre; si no, agachado, sentado o detrás de algo que tape con sentido (una mesa, el borde de la cesta).
 27. **Molde de postal** (Lucas, 2026-11-16: «métele a la skill el molde»). Es la forma de la regla 26 en que la IA
-    pone casi todo. **De referencia, solo la cara** del creador (un retrato limpio de frente) **y el animal real si
+    pone casi todo, y **desde el 2026-11-27 es el molde de todas las miniaturas** (arriba). **De referencia, solo la cara** del creador (un retrato limpio de frente) **y el animal real si
     sale** (una captura suya, con «ignore the man in image 2»). El escenario se inventa: espectacular, como una postal
     de viaje, con luz de cine (hora dorada, rayos entre la niebla, luna azul, tormenta con rayo) y la ropa propia de
     esa escena (vadeadores en el estanque, chubasquero en la tormenta, parka en el hielo). El animal o el objeto que
@@ -610,9 +652,12 @@ nunca). Lo que separa es **qué dice**. Hasta 4 palabras, legibles de un golpe a
 
 ### El prompt (para ChatGPT; vale para otras IA de imagen)
 
-La miniatura la genera quien edita en ChatGPT, **adjuntando la referencia** (`youtube/A.jpg`: el fotograma del vídeo,
-y/o una foto del creador). El prompt describe cómo transformar ESA imagen; sin referencia, la IA inventa una cara y un
-animal que no son los del vídeo.
+La miniatura la genera quien edita en ChatGPT (o Claude, con Claude in Chrome), **adjuntando solo la cara**: el retrato
+de frente (`youtube/A.jpg`) y su recorte (`youtube/A_cara.jpg`), más una imagen del animal u objeto real si hace falta
+(molde único, arriba). El prompt describe una **escena nueva**; nunca «transforma esta foto». Sin la cara, la IA inventa
+una persona que no es el creador.
+- 2026-11-27 — **Probado**: tres paquetes publicados de Reino Selva, rehechos desde cero con una sola miniatura suya de
+  frente como referencia de cara (10 imágenes, una por chat, ~1 min cada una). Lucas: «He visto que lo has entendido».
 
 - **Idioma**: el prompt, **en inglés** (lo que mejor entienden las IA de imagen); encima, una línea en español con la
   idea para quien lo pega. **El texto de la miniatura, literal y en el idioma del vídeo**, entre comillas.
@@ -628,23 +673,19 @@ animal que no son los del vídeo.
 - **El título del vídeo NO va en el prompt** (ni como «contexto»): ChatGPT lo escribe en la imagen aunque el prompt diga
   «No text anywhere». Visto en alimentacion C y E, 2026-11-17 (dos de tres salieron con el título rotulado y hubo que
   pedir quitarlo). Lo que el título promete se describe como escena; el texto, solo si la miniatura lo lleva (bloque 8).
-- **Si la referencia no enseña la cara** (de espaldas, mirando abajo, pequeña o tapada), **adjunta desde el primer
-  mensaje una segunda captura con la cara** (`A2.jpg`: de frente, ojos visibles, el mismo día y con la misma ropa; o una
-  foto de `recursos/creador/`) y nómbrala en el prompt («image 2 = the same man facing the camera, for his face»). Sin
-  ella, la IA inventa una cara. Y no lo arregles después en el mismo chat pidiendo «cambia su cara por la de esta foto»:
+- **La cara va desde el primer mensaje** (el retrato y su recorte, nombrados en el prompt: «image 1 is the man; image 2
+  is a close-up of his face»). Sin ella, la IA inventa una cara. Y no lo arregles después en el mismo chat pidiendo «cambia su cara por la de esta foto»:
   ChatGPT lo bloquea por sus normas (visto en `1311` B, 2026-11-14); rehazla en un chat nuevo con las dos desde el
   principio. Los retoques de parecido que sí pasan: «his hair is fuller and wavier, his beard thicker», sin pedir un cambio de cara.
 - 2026-11-17 — **La cara de la persona, lo más fiel posible: es la persona real, no un parecido.** La IA conserva la
   cara que VE y redibuja la que tiene que imaginar. Por eso:
-  1. **La referencia de la cara ya tiene el ángulo, la mirada y el gesto que pide la miniatura**: si la miniatura le
-     quiere mirando a cámara, la referencia mira a cámara (un fotograma así o una foto de `recursos/creador/`); si solo
-     hay capturas de lado o mirando abajo, la composición se adapta a esa cara («looking down at the plate», «in
-     three-quarter view, as in image 2») en vez de pedir otra. Nunca ojos cerrados, cabeza gacha ni cara de lado como
-     única referencia.
-  2. **La cara grande y aparte**: `miniatura.py cara A2` recorta la cara de la referencia a ≥ 1024 px
-     (`youtube/A2_cara.jpg`) y se adjunta SIEMPRE como una imagen más: «image 3 = close-up of his face: identity
-     reference — copy his facial features exactly (eye shape, nose, jaw, beard line, hairline, skin texture); do not
-     idealise, do not change his age». Si avisa de que la cara mide menos de 160 px o no encuentra ninguna, se busca otro
+  1. **La referencia de la cara ya tiene el ángulo, la mirada y el gesto que pide la miniatura**: con el molde único,
+     de frente, mirando a la lente, ojos abiertos y boca cerrada (una foto de `recursos/creador/`, un fotograma así o
+     una miniatura suya publicada así). Nunca ojos cerrados, cabeza gacha ni cara de lado como única referencia.
+  2. **La cara grande y aparte**: `miniatura.py cara A` recorta la cara de la referencia a ≥ 1024 px
+     (`youtube/A_cara.jpg`) y se adjunta SIEMPRE como segunda imagen: «image 2 is a close-up of his face: identity
+     reference, copy his facial features exactly (eye shape, nose, jaw, beard line, hairline, skin texture). Same
+     person, do not beautify, do not change his age». Si avisa de que la cara mide menos de 160 px o no encuentra ninguna, se busca otro
      fotograma o una foto. **Más fotos de la cara solo si son coherentes**: lo que mejor clava la cara es una referencia
      de cuerpo y su propio recorte (la misma foto: misma luz, mismo día, mismo ángulo). Una tercera foto de otro momento,
      con otra luz, otro peinado u otro ángulo, no suma: la IA las mezcla y saca una cara «media». Como mucho una más, del
@@ -667,15 +708,15 @@ animal que no son los del vídeo.
 | Bloque | Qué pide |
 |---|---|
 | 1. Encargo y formato | «YouTube thumbnail, 16:9 landscape». ChatGPT a veces devuelve 3:2: todo lo importante, en la franja central 16:9 (`miniatura.py final` recorta y deja 1920×1080 en JPG de menos de 2 MB) |
-| 2. Adjuntos y qué se conserva | la persona («same person, do not beautify, do not change their age or features»; en el prompt, «man» o «woman» según quien salga) y el animal («exact same species, shape and pattern; color may be more saturated») |
+| 2. Adjuntos y qué se conserva | solo la cara («image 1 is the man; image 2 is a close-up of his face… same person, do not beautify, do not change his age»; «man» o «woman» según quien salga) y «ignore the background and clothes of the attached photos; dress him as described». Si va el animal u objeto real: «keep the exact same <thing>; ignore the man and the background in image 3» |
 | 3. **Instante** (nuevo) | «the moment just before…» (desenlace incierto, riesgo a la vista) o «in the middle of…» (el daño, la acción). Nunca «after» ni «posing next to»; una obra o un objeto, «half-finished» |
 | 4. Composición | **qué ve primero el ojo** («the first thing the eye sees is the <subject>; his face is the second»), dónde va cada cosa y cuánto ocupa (% del alto), plano y lente. Creador pequeño: «a tiny human figure / a car for scale». Animal junto a la cara: «about 50 % taller than his head». Muchas cosas: «many of the same <thing>, in rows, repeating to the horizon», nunca «a variety of». Máximo dos caras |
-| 5. Expresión y mirada | **con su causa en el cuadro**: «wincing because the <animal> is biting his hand», no «shocked face». Por defecto, calma o asombro con la boca cerrada; ante algo enorme, «calm, almost unimpressed». Mirada a algo: «looking at the <thing> in the frame», «looking up at…», o «looking off-frame to the left» si se vende «hay más»; nunca «looking sideways» sin objeto. Dos caras: «one is enjoying it, the other is suffering». Si la referencia ya tiene el gesto, «keep his expression» (cambiarlo arriesga el parecido: mejor otro fotograma o foto) |
+| 5. Expresión y mirada | **con su causa en el cuadro**: «wincing because the <animal> is biting his hand», no «shocked face». Por defecto (molde único), mirando a la lente, serio y en calma, con la boca cerrada; ante algo enorme, «calm, almost unimpressed». Mirada a algo: «looking at the <thing> in the frame», «looking up at…», o «looking off-frame to the left» si se vende «hay más»; nunca «looking sideways» sin objeto. Dos caras: «one is enjoying it, the other is suffering». Si la referencia ya tiene el gesto, «keep his expression» (cambiarlo arriesga el parecido: mejor otro fotograma o foto) |
 | 6. **Manos** (nuevo) | «his hands grip / hold / offer the <object> toward the lens, diagonal, close to the camera»; inquietud, «hands on his own straps / on his face». Nunca «pointing» |
-| 7. Fondo, luz y color | «one single saturated accent of the opposite temperature: the <subject>»; luz en la cara. Fondo nítido si el fondo es el contenido (viajes); si no, desenfocado. En viajes, prueba antes la noche o el interior cálido con frío fuera que el cielo azul |
+| 7. Fondo, luz y color | el sitio llevado a postal: luz de cine (hora dorada, atardecer, aurora, neón con lluvia, velas), un detalle que diga dónde, nítido de punta a punta y **limpio** («clean uncluttered background, no hoses, buckets, tools or clutter»); «one single saturated accent of the opposite temperature: the <subject>»; luz en la cara. En viajes, prueba antes la noche o el interior cálido con frío fuera que el cielo azul |
 | 8. Texto | literal entre comillas, hasta 4 palabras, con tipografía, color, borde, tamaño y sitio. Mejor **dentro de la escena** si confirma o mide (cartel de aviso, reloj, termómetro, etiqueta a mano colgada del objeto) o, si es rótulo, **detrás de la cabeza del sujeto** o arriba sobre el cielo. Las dos cifras de un versus, cada una en su lado. O «No text anywhere in the image» |
-| 9. Acabado | «photorealistic, like a real phone photograph with a punchy YouTube color grade: natural light, ordinary people, <selfie arm / lapel mic / reflection> visible; not an illustration, not a horror or fantasy poster, no plastic AI skin» |
-| 10. `DO NOT ADD` | marcas de agua, el logo del canal y cualquier logo, marca o bandera que no salga en el vídeo (una marca o bandera solo si está en el vídeo y es parte del gancho, y nunca la que delata el sitio que el título calla); texto de más; flechas o círculos que señalan lo ya visible (una línea fina que **une** dos cosas se pide expresamente); «?» sobre algo visible; pixelado; caras de más; gafas de sol o casco; imagen partida (salvo antes/después de la misma persona); objetos modernos si la historia lo pide; nada pequeño abajo a la derecha; ningún suceso, animal, persona ni peligro que no esté en el vídeo (sí se exagera decorado, escala, color y abundancia) |
+| 9. Acabado | «like a top YouTube thumbnail: one huge hero subject that tells the story, right next to his face or pushed toward the lens; a spectacular, cinematic version of the place, like a travel postcard; bright saturated colors; everything razor sharp. Photorealistic, like a real photo, not an illustration, no plastic AI skin» (antes de G010 pedía «foto de móvil con luz natural»: salía la realidad un poco mejor) |
+| 10. `DO NOT ADD` | marcas de agua, el logo del canal y cualquier logo, marca o bandera que no salga en el vídeo (una marca o bandera solo si está en el vídeo y es parte del gancho, y nunca la que delata el sitio que el título calla); texto de más; flechas o círculos que señalan lo ya visible (una línea fina que **une** dos cosas se pide expresamente); «?» sobre algo visible; pixelado; caras de más; gafas de sol o casco; imagen partida (salvo antes/después de la misma persona); objetos modernos si la historia lo pide; nada pequeño abajo a la derecha; personas o animales que no se describan; ningún suceso, animal, persona ni peligro que no esté en el vídeo (el decorado, la luz, la ropa, la escala y la abundancia se inventan y se exageran todo lo que haga falta) |
 
 - **No pidas**: «shocked face» o «screaming» sin causa a la vista; «pointing at…»; «split screen» (pide «both worlds in
   one continuous scene, one person in each»); «stacks of cash» o un precio como único gancho; «posing proudly», «after».
@@ -683,61 +724,51 @@ animal que no son los del vídeo.
 - **Debajo de cada prompt, 2–3 retoques listos** para pedir en el mismo chat si no sale a la primera («make the
   tortoise 20 % larger», «remove all text», «keep the face exactly as in the photo»).
 
-Esqueleto (se rellena; no se entrega con huecos):
+Esqueleto (uno solo, el del molde único; se rellena y se pega como un único párrafo, sin huecos). Prefijo y sufijo
+fijos; entre los dos, la escena:
 
 ```
-Create a YouTube thumbnail, 16:9 landscape. Keep everything important inside the central 16:9 area.
-Attached: [image 1 = a frame from the video: <what it shows>] [image 2 = a portrait of the same man].
-KEEP EXACTLY: the man's face, beard, hair, build and clothes (same person, do not beautify or change his age);
-the <animal>: exact same species, shape and pattern as in image 1 (color may be more saturated).
-INSTANT: <the moment just before… / in the middle of…>; nothing is resolved yet.
-COMPOSITION: the first thing the eye sees is <subject>, <N> % of frame height, <position>; the man <N> % of height,
-<position>, <doing what toward the subject>; <scale witness if needed>; camera <distance, lens>.
-EXPRESSION AND GAZE: <expression> because <cause visible in the frame>; looking at <thing in the frame / off-frame left>.
-HANDS: <gripping / offering toward the lens / on his straps>. No pointing.
-BACKGROUND AND LIGHT: <place, sharp or blurred, time of day>; one saturated accent of opposite temperature:
-<subject>; light on his face.
-TEXT: "<LITERAL TEXT>" <inside the scene as a sign / clock / handwritten tag> or <behind his head / top of frame>,
-<typeface, color, outline>, about <N> % of height. / No text anywhere.
-STYLE: photorealistic, like a real phone photograph with a punchy YouTube color grade; natural light, ordinary people;
-not an illustration, not a horror or fantasy poster.
-DO NOT ADD: watermarks, channel logo, any logo, brand or flag that is not in the video, extra text, arrows or circles
-pointing at visible things, question marks, extra faces, sunglasses or helmet, split screen, landmarks or flags that
-reveal <place>, anything small in the bottom-right corner, any event, animal or person that is not in the video.
+Create a YouTube thumbnail, 16:9 landscape, everything important in the central area. Image 1 is the man; image 2 is
+a close-up of his face: identity reference, copy his facial features exactly (eye shape, nose, jaw, beard line,
+hairline, skin texture). Same person, do not beautify, do not change his age. Ignore the background and clothes of
+the attached photos; dress him as described.
+[Image 3 is his <animal / object>: keep the exact same <animal / object> (species, size, coat, pattern / shape,
+colors); ignore the man and the background in image 3.]
+SCENE: <the place turned into a postcard + time of day + light>. <The hero subject that says the title, huge, right
+beside his face or pushed toward the lens, in the moment just before / in the middle of what the title says>. He
+<pose: kneels / crouches / stands chest-deep / selfie arm…> in <clothes of the scene, with traces: wet, mud, sweat>,
+<what each hand holds: one object or two that tell the story together>.
+FRAMING: close shot, chest up, his face about 30 % of the frame height, well lit, looking straight into the lens,
+calm serious deadpan, eyes open, mouth closed. His body is cut by the frame edge or by something meaningful in front,
+never by the ground. ANATOMY: both arms clearly attached to his shoulders, normal hands with five fingers, nothing
+floating; animals with correct anatomy. No other people and no animals beyond those described.
+STYLE: like a top YouTube thumbnail: one huge hero subject that tells the story, right next to his face or pushed
+toward the lens; a spectacular, cinematic version of the place, like a travel postcard, with dramatic light; bright
+saturated colors; clean uncluttered background (no hoses, buckets, tools or clutter); everything razor sharp.
+Photorealistic, like a real photo, not an illustration, no plastic AI skin. No text, no numbers, no letters, no
+logos, no watermarks, nothing in the bottom-right corner.
 ```
 
-Esqueleto del **molde de postal** (regla 27). Prefijo y sufijo fijos; entre los dos, solo la escena. Se pega como un
-único párrafo:
-
-```
-Create a YouTube thumbnail, 16:9 landscape, everything important in the central area. Attached image 1 is the man:
-keep his exact face, hair, beard and build (same person, do not beautify, do not change his age). Ignore the
-background and clothes of the attached photo; dress him as described.
-[Image 2 is his <animal>: keep the exact same <animal> (species, size, coat/pattern); ignore the man in image 2.]
-SCENE: <spectacular place + time of day + light>. <The hero animal or prop that says the title, huge, right beside
-his face, doing what the title says>. He <pose: kneels / sits / stands waist-deep…> in <clothes of the scene>,
-<what his hands hold>.
-FRAMING: close shot, his face about 30 % of the frame height, well lit, looking straight into the lens, calm
-wide-eyed deadpan, mouth closed. His body is cut by the frame edge or by something meaningful in front, never by
-the ground. ANATOMY: both his arms clearly attached to his shoulders, normal hands with five fingers, no extra or
-floating limbs; animals with correct anatomy. No other people and no animals beyond those described.
-STYLE: like a top YouTube thumbnail: one huge hero prop or animal that tells the story, right next to his face; a
-spectacular, cinematic setting with dramatic light, like a travel postcard; bright saturated colors, clean
-uncluttered background, everything razor sharp. Photorealistic, like a real photo, not an illustration, no plastic
-AI skin. No text, no numbers, no logos, no watermarks, nothing in the bottom-right corner.
-```
+Si la miniatura lleva texto (preferencias del creador), cambia en el sufijo «No text, no numbers, no letters» por el
+bloque 8 (literal entre comillas, letra, color, sitio y tamaño). Lo que pida el `DO NOT ADD` de la tabla y no esté en el
+sufijo (una bandera, un monumento que delata el sitio, gafas de sol) se añade al final.
 
 Cada imagen va en un **chat nuevo** y hay que borrar en el cuadro de texto lo que quede escrito antes de pegar: ChatGPT
 arrastra el borrador de una pestaña a otra y dos peticiones salieron mezcladas. **Al revisar cada imagen**: brazos y
 manos, especie, que no haya animales de más y que el suelo no corte el cuerpo.
 
-**Fotos del creador** (`personal/<creador>/recursos/creador/`): pídele una vez un juego de 10–12 retratos para
+Con Claude in Chrome se pueden llevar 2–3 chats a la vez en pestañas distintas; la imagen se guarda en local antes de
+cerrar el chat (y luego se borran los chats, regla de arriba).
+
+**Fotos del creador** (`personal/<creador>/recursos/creador/`). **La imprescindible: un retrato de frente, mirando a la
+lente, serio y con la boca cerrada**, buena luz y nitidez: es la que usa el molde único en todas. Además, pídele una vez un juego de 10–12 retratos para
 miniaturas (fondo liso, luz suave de frente, de pecho hacia arriba, con la ropa de sus vídeos o la de la prueba, sin
 gafas de sol ni gorra que tape los ojos): serio en calma, asombro contenido con la boca cerrada, media sonrisa de quien
 sabe algo, sonrisa abierta (para lujo), mirando hacia arriba (HC x1,99), de reojo a izquierda y a derecha (solo con un
 objeto en el cuadro), palma abierta hacia arriba (HC x1,41), ofreciendo algo a cámara con las dos manos, agarrando algo
 con fuerza, manos en las correas o en la cara con inquietud (FG), agotamiento, mueca de apuro (BZ 6 → x1,36). Ninguna
-señalando. Con ellas la cara sale siempre suya y con el gesto que pide cada miniatura; mientras no las haya, del fotograma.
+señalando (los gestos distintos, solo si el creador los pide en vez del de serie). Mientras no las haya, el fotograma
+o la miniatura publicada más limpia de frente (§ 2, paso 6).
 
 ### Lo que el estudio no resuelve (decide el creador o un test)
 
@@ -795,8 +826,9 @@ Si una pareja depende de esto, dilo en el paquete y prueba las dos opciones en �
 21. ¿Todo lo que promete sale en el vídeo, en qué minuto y cuánto dura (apúntalo)? Si llega al final o dura menos de dos
     minutos, es de recambio. Lo que el vídeo no tenga (agua que no se grabó, un bocado que no se ve), al `DO NOT ADD`.
 22. ¿Lo inventado es decorado o símbolo de algo que el vídeo cumple? ¿Nada de suceso, emoción, animal ni famoso inventados?
-23. ¿La referencia se entiende a 168 px (`miniatura.py hoja`)? ¿El sujeto es lo más grande y lo más nítido? Si en ella
-    no se le ve la cara de frente, ¿va una segunda captura con la cara (`A2.jpg`)?
+23. ¿El prompt describe una escena nueva (molde único) y no «transforma esta foto»? ¿La única referencia es la cara de
+    frente mirando a la lente, con su recorte (`A.jpg`, `A_cara.jpg`), y el animal u objeto real solo si es el gancho?
+    ¿El fondo es limpio y de postal, sin los trastos del rodaje? ¿Se entiende en un segundo a 168 px?
 24. ¿Cada título dice qué ES el vídeo (su promesa central), y las cinco cambian solo el gancho? ¿Tiran de palancas distintas sin cambiar de tema? ¿Ninguna es relleno para llegar a cinco? (Mejor cuatro buenas.)
 
 ## 8. Entrega: el paquete de YouTube
@@ -807,7 +839,8 @@ Tras el render final y sus comprobaciones (paso 7 del flujo), desde `out/<slug>/
   1. **De qué va y qué se vende**: 3–5 líneas con el bloque más fuerte y la lista de activos (hecho · minuto · palanca).
   2. **Las 5 parejas**, de más a menos recomendada, cada una con: letra, ángulo y palanca; **título** (con su nº de
      caracteres); **texto de la miniatura** o «sin texto»; la segunda lectura en dos frases; qué pregunta deja abierta;
-     **referencia** (`youtube/A.jpg`, minuto del vídeo, clip y segundo del bruto; foto del creador si se usa); **idea en
+     **qué adjuntar** (la cara: `youtube/A.jpg` + `A_cara.jpg`, iguales para las cinco; y, si la lleva, la imagen del
+     animal u objeto real con su minuto y clip); **de qué momento del vídeo sale** lo que se enseña (minuto); **idea en
      español**; **prompt** en un bloque de código para copiar; retoques.
   3. **Qué probar primero**: las tres para «Probar y comparar» de YouTube (admite hasta 3 combinaciones de título y
      miniatura y elige por tiempo de visualización, no por clics; si el canal solo deja probar miniaturas, las tres con
@@ -817,14 +850,14 @@ Tras el render final y sus comprobaciones (paso 7 del flujo), desde `out/<slug>/
   4. **Descripción**, capítulos y etiquetas (`base/descripciones.md`).
   5. **Comprobado y por confirmar**: lo que el creador debe revisar (nombres, cifras, caras de terceros) y lo que
      depende de algo que el estudio no resuelve (§ 6, último bloque).
-- `youtube/A.jpg … E.jpg` (referencias a tamaño completo; `A2.jpg` si la pareja lleva dos), `youtube/A_rafaga.jpg…`
-  y `youtube/hoja.jpg`. Las descartadas se borran: en la carpeta solo queda lo que se adjunta.
+- `youtube/A.jpg` y `youtube/A_cara.jpg` (la cara, para las cinco) y, solo si alguna lleva el animal u objeto real,
+  su imagen (`C2.jpg`…). Las descartadas se borran: en la carpeta solo queda lo que se adjunta.
 - `out/AAAA-MM-DD_<slug>.txt` — solo lo que se pega en YouTube: los 5 títulos, la descripción con capítulos y las
   etiquetas. Si el vídeo aún no está entregado en `out/` (se hace el paquete sobre una versión de prueba),
   `youtube/pegar.txt`, y se mueve al entregar.
 - Ejemplo completo: `base/ejemplos/ramon/youtube/PAQUETE.md` (vídeo en inglés, canal de animales).
 
-Al entregar, **enseña en el chat** los cinco títulos con el texto de su miniatura y la hoja de referencias; el resto,
+Al entregar, **enseña en el chat** los cinco títulos con el texto de su miniatura y la idea de cada imagen; el resto,
 en el archivo. Cuando quien edita traiga las miniaturas generadas: `miniatura.py final A <imagen> …` → mira
 `youtube/prueba.jpg` (a 168 px: ¿se entiende?, ¿se lee?, ¿es su cara?, ¿es la especie?) y dilo.
 

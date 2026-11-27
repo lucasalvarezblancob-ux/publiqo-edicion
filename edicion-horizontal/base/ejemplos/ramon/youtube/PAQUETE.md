@@ -1,5 +1,9 @@
 # Paquete de YouTube — `ramon` (RayWild, vídeo en inglés)
 
+> ⚠️ Los prompts de miniatura de este ejemplo son del método anterior (transformar un fotograma). Desde el 2026-11-27
+> (G010) todas las miniaturas se hacen desde cero con la cara del creador: `base/titulos-miniaturas.md` § 6, «Molde
+> único». Los títulos, la segunda lectura y la elección de ángulos siguen valiendo.
+
 Vídeo: `out/ramon/ramon_v7b.mp4` · 18:39 · idioma hablado: **inglés** (todo lo que se publica va en inglés) · canal
 **RayWild** (@raywild10). Primera versión del 2026-11-13; **rehecho el 2026-11-14** con la guía nueva
 (`base/titulos-miniaturas.md`, 15 canales). Qué cambió respecto a la primera versión, al final (§ 6).

@@ -100,3 +100,14 @@ Antes: el bruto se montaba tal cual aunque fuera Log (salía gris). Deshacer: `L
 {"id": "G009", "fecha": "2026-11-26", "tipo": "ajuste", "nombre": "LUT_LOG", "antes": false, "ahora": true,
  "regla_antes": "Los brutos en Log se montaban tal cual, sin LUT (se veían grises)."}
 ```
+
+## G010 — Miniaturas: todas desde cero, solo con la cara (2026-11-27)
+Lucas: «quiero que todas las miniaturas sean como las que me has generado desde cero, solo con una foto de la cara… que
+mantengas la cara y sepas lo que quieres mostrar en la miniatura y lo resaltes muchísimo». Hechas sobre el fotograma, la IA
+conservaba el fondo real con su desorden, la luz plana y la cara pequeña y de lado: salían menos limpias. Ahora la única
+referencia es un retrato del creador de frente (y su recorte); la escena se genera nueva, como una postal, con lo que dice
+el título enorme junto a la cara. Se sigue prometiendo solo lo que el vídeo cumple. Molde en `titulos-miniaturas.md` § 6.
+```json
+{"id": "G010", "fecha": "2026-11-27", "tipo": "regla", "nombre": "MINIATURAS_DESDE_CERO",
+ "regla_antes": "Las miniaturas parten de un fotograma real del vídeo (A.jpg, A2.jpg) y la IA lo rehace exagerando lo que hay, con aspecto de foto de móvil, luz natural y fondo desenfocado si no es el contenido; el molde de postal desde cero solo cuando el creador lo prefiere (titulos-miniaturas.md, regla 24 antigua)."}
+```

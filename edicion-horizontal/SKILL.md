@@ -261,15 +261,15 @@ monta la imagen desde los brutos; Remotion solo dibuja los gráficos, que van en
    ningún sitio. El paquete se hace SIEMPRE al acabar el render, sin que lo pidan, con todo lo que ya sabes del vídeo
    (EDL, registro visual, descartes), **en el idioma del vídeo** y siguiendo `base/titulos-miniaturas.md` (léelo
    entero antes; títulos en español § 4, en inglés § 5) y `base/descripciones.md`:
-   - **5 parejas de título + miniatura** para test A/B, cada una con un ángulo distinto, su **prompt para ChatGPT** y la
-     **imagen de referencia** que hay que adjuntarle: un fotograma limpio del bruto (`miniatura.py momentos` para
-     elegir mirando → `miniatura.py sacar A <mm:ss> …` → mira la ráfaga → `miniatura.py hoja`) o una foto del creador
-     (`miniatura.py fotos` / `foto`). Di cuáles tres probarías primero.
+   - **5 parejas de título + miniatura** para test A/B, cada una con un ángulo distinto y su **prompt para ChatGPT**.
+     **Molde único (G010, Lucas 2026-11-27): todas desde cero, solo con la cara del creador**; del vídeo sale QUÉ se
+     enseña, no la imagen, y se realza muchísimo (sitio de postal, protagonista enorme junto a la cara, fondo limpio).
+     La referencia: un retrato suyo de frente mirando a la lente (`miniatura.py fotos` / `foto`; si no hay, el
+     fotograma más limpio así con `miniatura.py sacar`) + `miniatura.py cara A`. Di cuáles tres probarías primero.
    - **Descripción** con capítulos (`capitulos.py`) y **etiquetas**.
-   - Queda en `out/<slug>/youtube/` (`PAQUETE.md`, `A.jpg … E.jpg`, `hoja.jpg`) y, para pegar, en
-     `out/AAAA-MM-DD_<slug>.txt`. Enseña en el chat los cinco títulos con el texto de su miniatura y la hoja.
-   - Con la persona en la miniatura, `miniatura.py cara A2` (la cara grande, de referencia de identidad: se adjunta
-     siempre) y una referencia con el mismo ángulo y mirada que pide la miniatura (titulos-miniaturas.md → la cara, fiel).
+   - Queda en `out/<slug>/youtube/` (`PAQUETE.md`, `A.jpg`, `A_cara.jpg` y la imagen del animal u objeto real si alguna
+     la lleva) y, para pegar, en `out/AAAA-MM-DD_<slug>.txt`. Enseña en el chat los cinco títulos con el texto de su
+     miniatura y la idea de cada imagen.
    - Cuando vuelvan las miniaturas generadas: `miniatura.py final A <imagen> …` y mira `youtube/prueba.jpg` (a 168 px)
      y `youtube/caras.jpg` (¿es su cara? si no, se rehace en un chat nuevo).
    - Si las ha generado Claude en ChatGPT: con todo guardado y comprobado, **borra esos chats** (solo los apuntados en

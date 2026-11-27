@@ -11,6 +11,7 @@ del creador). Reglas y método en <skill>/base/titulos-miniaturas.md.
                                            Momento = mm:ss(.d) o nº de frame del MONTAJE, o CLIP@segundos del bruto
                                            (un momento que no entró en el vídeo). A=7 fuerza el nº 7 de la ráfaga.
                                            Segunda referencia de la misma pareja (la cara, si la primera es el animal): A2.
+                                           Molde único (G010): A = el retrato de frente del creador, para las cinco.
     miniatura.py foto C <ruta>             usa una foto (del creador, de personal/<creador>/recursos/) como referencia C.
     miniatura.py fotos                     lista las fotos del creador que hay (recursos/creador y recursos/fotos).
     miniatura.py hoja                      youtube/hoja.jpg: cada referencia a tamaño de miniatura grande y a 168 px
@@ -22,7 +23,8 @@ del creador). Reglas y método en <skill>/base/titulos-miniaturas.md.
     miniatura.py final A <imagen> [B …]    cuando vuelven las miniaturas ya generadas: recorte centrado a 16:9,
                                            1920x1080, JPG de menos de 2 MB -> youtube/miniatura_A.jpg, y youtube/prueba.jpg
                                            con cada una a 168 px para comprobarlas antes de subirlas. Y youtube/caras.jpg:
-                                           la cara de cada miniatura al lado de la de su referencia (A_cara, A2, A): si no
+                                           la cara de cada miniatura al lado de la de su referencia (A_cara, A2, A; si la letra
+                                           no tiene, la de A: con el molde único la misma cara vale para las cinco): si no
                                            es la misma persona, se rehace en un chat nuevo."""
 import glob, os, re, shutil, subprocess, sys, tempfile
 from concurrent.futures import ThreadPoolExecutor
@@ -192,7 +194,7 @@ def final(args):
     filas = []      # la cara de la miniatura al lado de la de su referencia: ¿es la misma persona?
     for letra, sal in pares:
         gen = leer(sal); cg = caras_en(gen)
-        ref = next((f for f in (f"{SAL}/{letra}_cara.jpg", f"{SAL}/{letra}2_cara.jpg", f"{SAL}/{letra}2.jpg", f"{SAL}/{letra}.jpg") if os.path.exists(f)), None)
+        ref = next((f for f in (f"{SAL}/{letra}_cara.jpg", f"{SAL}/{letra}2_cara.jpg", f"{SAL}/{letra}2.jpg", f"{SAL}/{letra}.jpg", f"{SAL}/A_cara.jpg", f"{SAL}/A.jpg") if os.path.exists(f)), None)   # molde único (G010): la cara de A vale para las cinco
         if not len(cg) or not ref: print(f"{letra}: sin cara de frente que comparar (si sale la persona, compárala a ojo con su referencia)"); continue
         ri = leer(ref); cr = caras_en(ri); a = recorte_cara(gen, cg[0], 360); b = cv2.resize(ri, (360, 360)) if ref.endswith("_cara.jpg") or not len(cr) else recorte_cara(ri, cr[0], 360)
         filas.append(np.hstack([rotulo(b, f"{letra}: referencia"), rotulo(a, f"{letra}: miniatura", (90, 240, 90))]))

@@ -11,7 +11,7 @@ cualquier petición de edición, intro o recap, rótulos, mapas, música, títul
 | `bruto/` | Bandeja de entrada: brutos pendientes de editar. `bruto/<slug>-analisis/`: transcripciones, hojas y registro visual de cada vídeo. |
 | `bruto terminado/` | Brutos ya editados (para repasos). |
 | `refs/dinamicos/`, `refs/estudio/` | Tus referencias locales (las estándar vienen con la skill). |
-| `out/` | Vídeos terminados (`AAAA-MM-DD_<slug>.mp4`) + `REGISTRO.md`. `out/<slug>/`: el montaje de cada vídeo (`proyecto.py`, `edl.py`, `plan.py`, `trabajo/`) y `youtube/` (el paquete: títulos, prompts de miniatura con su fotograma de referencia y descripción). |
+| `out/` | Vídeos terminados (`AAAA-MM-DD_<slug>.mp4`) + `REGISTRO.md`. `out/<slug>/`: el montaje de cada vídeo (`proyecto.py`, `edl.py`, `plan.py`, `trabajo/`) y `youtube/` (el paquete: títulos, prompts de miniatura desde cero con la cara del creador y descripción). |
 | `estudio/` | Proyecto Remotion, solo para las capas gráficas. Fuentes en `src/comun/marca.ts`; gráficos propios de cada creador en `src/personal/<creador>/` y sus recursos listos para superponer en `public/personal/<creador>/`; botones de YouTube de serie en `public/botones/`. |
 | `herramientas/` | Scripts (análisis, transcripción, proxies, `canal_youtube.py` para estudiar un canal) + `montaje/` (los pasos del montaje, `miniatura.py`) + `.venv`. |
 
