@@ -151,7 +151,7 @@ monta la imagen desde los brutos; Remotion solo dibuja los gráficos, que van en
    nada (la configuración recomendada, con el stock con confirmación por tanda), termina y deja `trabajo/arranque.json`,
    `ESTILO` y `# Arranque (…)` en `proyecto.py` y una línea `ARRANQUE:` en la salida. Mientras tanto se sigue con lo que
    no depende de eso (transcripciones); la elección de recursos y el plan (paso 4) esperan a la respuesta. Lo de los
-   brutos se usa así: varias cámaras o dron → `sincro.py`; teleprompter o alguien le dicta → se quitan las indicaciones
+   brutos se usa así: varias cámaras o dron → `sincro.py` (y con varias cámaras, mientras habla, se ve la cámara a la que mira: preferencias → Planos de recurso); teleprompter o alguien le dicta → se quitan las indicaciones
    y lo leído se tapa con recursos (preferencias → Planos de recurso); brutos solo de recurso → no se buscan frases en
    ellos. No sustituye al registro visual del paso 1. Sin navegador (sesión remota o no interactiva): las mismas
    preguntas con `AskUserQuestion`; sin respuesta, la configuración recomendada. Por qué: Lucas, 2026-11-24 («una
@@ -184,7 +184,7 @@ monta la imagen desde los brutos; Remotion solo dibuja los gráficos, que van en
    `paso1_alinear.py` —ahí suena algo que Whisper no transcribió, casi siempre una orden de rodaje—, con `retranscribir.py`).
 4. **Plan → `plan.py`**: recursos sobre la voz (`BROLL`, elegidos del registro visual y **mirados** con `tira.py`; en
    el tráiler, varios planos cortos con una lista `(ancla, [(clip, s, dur), …])`; `(None, cx, cy)` lleva el corte de
-   escala hacia el sujeto; nunca de la misma toma que la frase que tapan; la otra cámara sobre su voz, siempre `@sync` con `SINCRO` medido por `sincro.py`; si lee un teleprompter, su plano no se queda), fails (`FALLOS`: blanco y negro y voz
+   escala hacia el sujeto; nunca de la misma toma que la frase que tapan; la otra cámara sobre su voz, siempre `@sync` con `SINCRO` medido por `sincro.py`; con varias cámaras, mientras habla se ve la cámara a la que mira (`mirada: camara`, cruzando los dos registros); si lee un teleprompter, su plano no se queda), fails (`FALLOS`: blanco y negro y voz
    saturada hasta que se recupera; preferencias → Audio),
    frases fuertes y zooms (`FUERTES`, `ENTRADAS`), cifras (`DATOS`), palabras-golpe (`GOLPES`), rótulos con seguimiento
    (`TRK`: el nombre de lo que se presenta o se enumera, con flecha, en su palabra; **la caja se mide con `rejilla.py` en

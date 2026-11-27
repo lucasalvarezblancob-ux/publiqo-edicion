@@ -11,6 +11,8 @@ barrido de cámara. Todo en español de España.
 
 ## Material
 - Bruto: `<ruta del bruto>` (`<resolución y fps>`). `<Una frase: de qué va el vídeo, quién sale y en qué idioma habla>`.
+- `<Solo si hay varias cámaras: «Este bruto es la cámara <fija en trípode / la que le sigue / …>; a la vez graba <la
+  otra>. Puede hablar a una o a otra»>`.
 - Hojas densas: `<ANALISIS>/visual/hojas/<clip>_NN.jpg`: un fotograma por segundo, 6 columnas × 6 filas por hoja, con el
   segundo rotulado en cada miniatura (la hoja NN empieza en el segundo NN × 36).
 - Transcripción con tiempos: `<ANALISIS>/transcripcion/<clip>.txt` (y `<clip>.w.json` con cada palabra: `p` palabra,
@@ -58,9 +60,13 @@ barrido de cámara. Todo en español de España.
 - `recurso`: 0 = no vale como plano de recurso; 1 = flojo; 2 = bueno; 3 = muy bueno (sujeto claro, estable y bien
   encuadrado durante al menos 2,5 s seguidos).
 - `dice`: de qué habla en ese tramo (una frase, en español), o "" si no habla.
-- `mirada` (solo si habla): `camara`, `fuera_lee` (mira fijo a un lado o un poco por encima del objetivo, como quien lee:
-  teleprompter o notas) o `fuera_habla` (habla con alguien fuera de plano). Un tramo leído no se queda en el montaje
-  aunque la voz sea buena: el montador lo tapa con la otra cámara o con recursos de lo que nombra.
+- `mirada` (solo si habla): `camara` (mira a ESTA cámara), `otra_camara` (habla «a cámara», con el tono de quien
+  presenta, pero a otro objetivo del rodaje: se le ve de tres cuartos o de perfil y delante no hay nadie con quien
+  hable), `fuera_lee` (mira fijo a un lado o un poco por encima del objetivo, como quien lee: teleprompter o notas) o
+  `fuera_habla` (habla con alguien fuera de plano). Si dudas entre `otra_camara` y `fuera_habla`, pon `otra_camara` y
+  dilo en `nota`. Un tramo leído no se queda en el montaje aunque la voz sea buena: el montador lo tapa con la otra
+  cámara o con recursos de lo que nombra. Con varias cámaras, mientras habla, el montador pone en cada frase la cámara
+  en la que mira (`camara`).
 - `desplazamiento` (solo si alguien se mueve de un sitio a otro: anda, baja escaleras, entra, conduce): de dónde sale y
   a dónde llega, por lo que se ve ("de la piscina, por la portezuela, baja a la terraza de los recintos"). El montador lo
   usa para poner ese plano en el momento del vídeo en que ocurre ese trayecto, no en otro.
@@ -86,5 +92,5 @@ barrido de cámara. Todo en español de España.
 - No modifiques nada fuera de tu JSON y tu carpeta `tmp_<clip>`. No descargues ni subas nada, no toques git.
 - En bucles con ffmpeg usa `-nostdin`. Para scripts largos escribe un archivo, no un heredoc.
 - Devuélveme al final: la ruta del JSON, el número de tramos, los 5 mejores recursos del clip en una línea cada uno, los
-  momentos (fallos, sustos, animales), las personas del fondo, los tramos en que lee (`fuera_lee`) y los avisos (lo que
+  momentos (fallos, sustos, animales), las personas del fondo, los tramos en que lee (`fuera_lee`) o habla a otra cámara (`otra_camara`) y los avisos (lo que
   NO hay en imagen aunque se hable de ello; lo que haya que tapar).

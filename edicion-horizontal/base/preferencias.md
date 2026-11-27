@@ -377,6 +377,20 @@ Formato: `- AAAA-MM-DD — regla. Por qué. (vídeo)`. Si una regla nueva contra
   cámara, porque estoy leyendo teleprompter, usar shutterstock sobre los distintos pájaros» y «10:53: intenta pillar
   tomas de la otra cámara con el audio de la otra cámara». El registro visual decía «mira fuera de cámara» y no se usó.
   (vídeo: vaciamos-estanque-2 v2)
+- 2026-11-27 — **Con varias cámaras, mientras habla, se ve la cámara a la que mira**: en cada frase el plano principal
+  es el de la cámara en la que el registro visual pone `mirada: camara`. Si en el clip de la voz pone `otra_camara` (o
+  `fuera_lee`) y en la otra cámara, en el mismo instante, mira al objetivo, la frase va con la otra cámara SINCRONIZADA
+  (`(ancla, "@sync:<clip>", None, zoom)` en `BROLL`, hasta el final de la pieza de voz; regla de abajo). Para saber a
+  cuál mira se cruzan los dos registros con el desfase de `SINCRO`. El cambio de cámara va en el corte entre frases,
+  donde él gira; si gira a mitad de frase, en el instante en que ya mira al otro objetivo, nunca antes. Ese cambio ya
+  es el corte de escala de ese corte: no se le suma un zoom digital en el mismo corte (`estilos/reto.md`: con 2 o más
+  cámaras, el ritmo sale del cambio de cámara y casi no hay zoom digital). La cámara a la que no mira solo entra en
+  cortes cortos de ritmo (el lateral, 1–2,5 s) o cuando no habla a cámara (camina, hace algo: la que mejor le encuadra,
+  casi siempre la que le sigue). Nunca se queda en ella una frase entera mientras él habla al otro objetivo. Por qué:
+  Lucas, «si tengo dos cámaras y voy un rato hablo a una, otro a otra, también para que se vayan cambiando de planos y
+  sea más dinámico, que se pueda seleccionar la cámara a la que mira». Referencias: con 2–10 cámaras salen 24–34
+  cortes/min, frente a 20–21 con una (`estilos/reto.md`); en jjw-diamond cada corte es otra cámara. Primer vídeo: una
+  cámara fija y otra que le sigue (2026-11-27).
 - 2026-11-19 — **Un plano de otra cámara sobre la voz se saca del MISMO instante**: el desfase se mide por correlación
   del audio (`sincro.py <clip voz> <clip otra>` → `SINCRO` en `proyecto.py`) y el plano se pide con
   `(ancla, "@sync:<clip>", duración | None, zoom)` en `BROLL`: el segundo sale del montaje y no pasa del final de la
